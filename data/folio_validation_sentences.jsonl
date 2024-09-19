@@ -1,0 +1,562 @@
+{"id": "folio_validation_0", "nl": "If people perform in school talent shows often, then they attend and are very engaged with school events.", "fol": "all x.(PerformInTalentShows(x) -> EngagedWithSchoolEvents(x))"}
+{"id": "folio_validation_1", "nl": "People either perform in school talent shows often or are inactive and disinterested members of their community.", "fol": "all x.(PerformInTalentShows(x) | InactiveCommunityMember(x))"}
+{"id": "folio_validation_2", "nl": "If people chaperone high school dances, then they are not students who attend the school.", "fol": "all x.(ChaperoneHighSchoolDances(x) -> -AttendsSchool(x))"}
+{"id": "folio_validation_3", "nl": "All people who are inactive and disinterested members of their community chaperone high school dances.", "fol": "all x.(InactiveCommunityMember(x) -> ChaperoneHighSchoolDances(x))"}
+{"id": "folio_validation_4", "nl": "All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school.", "fol": "all x.(WishesToFurtherAcademicCareer(x) -> AttendsSchool(x))"}
+{"id": "folio_validation_5", "nl": "Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school. ", "fol": "((EngagedWithSchoolEvents(Bonnie) & AttendsSchool(Bonnie) & -(-EngagedWithSchoolEvents(Bonnie) & -AttendsSchool(Bonnie))) | (-(EngagedWithSchoolEvents(Bonnie) & AttendsSchool(Bonnie)) & -EngagedWithSchoolEvents(Bonnie) & -AttendsSchool(Bonnie)))"}
+{"id": "folio_validation_6", "nl": "Bonnie performs in school talent shows often.", "fol": "PerformInTalentShows(Bonnie)"}
+{"id": "folio_validation_7", "nl": "If Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community.", "fol": "(((((WishesToFurtherAcademicCareer(Bonnie) & -ChaperoneHighSchoolDances(Bonnie)) | (-WishesToFurtherAcademicCareer(Bonnie) & ChaperoneHighSchoolDances(Bonnie))) -> WishesToFurtherAcademicCareer(Bonnie)) & -InactiveCommunityMember(Bonnie)) | (-(((WishesToFurtherAcademicCareer(Bonnie) & -ChaperoneHighSchoolDances(Bonnie)) | (-WishesToFurtherAcademicCareer(Bonnie) & ChaperoneHighSchoolDances(Bonnie))) -> WishesToFurtherAcademicCareer(Bonnie)) & InactiveCommunityMember(Bonnie)))"}
+{"id": "folio_validation_8", "nl": "If Bonnie either chaperones high school dances or, if she does not, she performs in school talent shows often, then Bonnie is both a young child or teenager who wishes to further her academic career and educational opportunities and an inactive and disinterested member of the community.", "fol": "(((ChaperoneHighSchoolDances(Bonnie) & -PerformInTalentShows(Bonnie)) | (-ChaperoneHighSchoolDances(Bonnie) & PerformInTalentShows(Bonnie))) -> (WishesToFurtherAcademicCareer(Bonnie) & InactiveCommunityMember(Bonnie)))"}
+{"id": "folio_validation_9", "nl": "All employees who schedule a meeting with their customers will appear in the company today. ", "fol": "all x.(SchedulesMeetingWithCustomers(x) -> AppearsInCompanyToday(x))"}
+{"id": "folio_validation_10", "nl": "Everyone who has lunch in the company schedules meetings with their customers. ", "fol": "all x.(HasLunchInCompany(x) -> SchedulesMeetings(x))"}
+{"id": "folio_validation_11", "nl": "Employees will either have lunch in the company or have lunch at home.", "fol": "all x.(HasLunchInCompany(x) | HasLunchAtHome(x))"}
+{"id": "folio_validation_12", "nl": "If an employee has lunch at home, then he/she is working remotely from home.", "fol": "all x.(HasLunchAtHome(x) -> WorksRemotelyFromHome(x))"}
+{"id": "folio_validation_13", "nl": "All employees who are in other countries work remotely from home. ", "fol": "all x.(IsInOtherCountries(x) -> WorksRemotelyFromHome(x))"}
+{"id": "folio_validation_14", "nl": "No managers work remotely from home. ", "fol": "all x.(IsManager(x) -> -WorksRemotelyFromHome(x))"}
+{"id": "folio_validation_15", "nl": "James is either a manager and appears in the company today or neither a manager nor appears in the company today.", "fol": "((IsManager(James) & -AppearsInCompanyToday(James)) | (-IsManager(James) & AppearsInCompanyToday(James)))"}
+{"id": "folio_validation_16", "nl": "James has lunch in the company.", "fol": "HasLunchInCompany(James)"}
+{"id": "folio_validation_17", "nl": "James does not have lunch in the company.", "fol": "-HasLunchInCompany(James)"}
+{"id": "folio_validation_18", "nl": "Monkeypox is an infectious disease caused by the monkeypox virus.", "fol": "exists x.(OccursMonkeypoxVirus(x) & ContractMonkeypox(x))"}
+{"id": "folio_validation_19", "nl": "Monkeypox virus can occur in certain animals, including humans.", "fol": "exists x.(IsAnimal(x) & OccursMonkeypoxVirus(x))"}
+{"id": "folio_validation_20", "nl": "Humans are mammals.", "fol": "all x.(IsHuman(x) -> IsMammal(x))"}
+{"id": "folio_validation_21", "nl": "Mammals are animals.", "fol": "all x.(IsMammal(x) -> IsAnimal(x))"}
+{"id": "folio_validation_22", "nl": "Symptons of Monkeypox include fever, headache, muscle pains, feeling tired, and so on.", "fol": "exists x.(ContractMonkeypox(x) & (HasFever(x) | HasHeadache(x) | HasMusclePain(x) | FeelsTired(x)))"}
+{"id": "folio_validation_23", "nl": "People feel tired when they get a glu.", "fol": "all x.((IsHuman(x) & HasFlu(x)) -> FeelsTired(x))"}
+{"id": "folio_validation_24", "nl": "There is an animal.", "fol": "exists x.IsAnimal(x)"}
+{"id": "folio_validation_25", "nl": "If James is either a manager or in other countries,  then James either has lunch at home and works remotely from home, or neither has lunch at home nor works remotely from home.", "fol": "((IsManager(James) | IsInOtherCountries(James)) -> (HasLunchAtHome(James) <-> WorksRemotelyFromHome(James)))"}
+{"id": "folio_validation_26", "nl": "No one gets flu.", "fol": "all x.(IsHuman(x) -> -HasFlu(x))"}
+{"id": "folio_validation_27", "nl": "Symptons of Monkeypox include coughing.", "fol": "exists x.(ContractMonkeypox(x) & Coughing(x))"}
+{"id": "folio_validation_28", "nl": "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould's wild turkey, Merriam's wild", "fol": "all x.(IsWildTurkey(x) -> (IsEasternWildTurkey(x) | IsOsceolaWildTurkey(x) | IsGouldsWildTurkey(x) | IsMerriamsWildTurkey(x) | IsRioGrandeWildTurkey(x) | IsOcellatedWildTurkey(x)))"}
+{"id": "folio_validation_29", "nl": "turkey, Rio Grande wild turkey, and Ocellated wild turkey.", "fol": "-(IsWildTurkey(Tom) & IsEasternWildTurkey(Tom))"}
+{"id": "folio_validation_30", "nl": "Tom is not an Eastern wild turkey.", "fol": "-(IsWildTurkey(Tom) & IsOsceolaWildTurkey(Tom))"}
+{"id": "folio_validation_31", "nl": "Tom is not an Osceola wild turkey.", "fol": "(IsWildTurkey(Tom) -> -(IsGouldsWildTurkey(Tom) | IsMerriamsWildTurkey(Tom) | IsRioGrandeWildTurkey(Tom)))"}
+{"id": "folio_validation_32", "nl": "Tom is also not a Gould's wild turkey, or a Merriam's wild turkey, or a Rio Grande wild turkey.", "fol": "IsWildTurkey(Tom)"}
+{"id": "folio_validation_33", "nl": "Tom is an Ocellated wild turkey.", "fol": "IsOcellatedWildTurkey(Tom)"}
+{"id": "folio_validation_34", "nl": "Tom is an Eastern wild turkey.", "fol": "IsEasternWildTurkey(Tom)"}
+{"id": "folio_validation_35", "nl": "Joey is a wild turkey.", "fol": "IsWildTurkey(Joey)"}
+{"id": "folio_validation_36", "nl": "A Japanese game company created the game the Legend of Zelda.", "fol": "exists x.(IsJapanese(x) & IsVideoGameCompany(x) & IsGame(Thelegendofzelda) & CreatedGame(x,Thelegendofzelda))"}
+{"id": "folio_validation_37", "nl": "All games in the Top 10 list are made by Japanese game companies.", "fol": "all x y.((IsGame(x) & IsInTop10List(x) & CreatedGame(x,y)) -> IsJapanese(y))"}
+{"id": "folio_validation_38", "nl": "[BG] If a game sells more than one million copies, then it will be selected into the Top 10 list.", "fol": "all x.((IsGame(x) & SellsMoreThanCopies(x,Onemillioncopies)) -> IsTop10Game(x))"}
+{"id": "folio_validation_39", "nl": "The Legend of Zelda sold more than one million copies.", "fol": "SellsMoreThanCopies(Thelegendofzelda,Onemillioncopies)"}
+{"id": "folio_validation_40", "nl": "The Legend of Zelda is in the Top 10 list.", "fol": "IsTop10Game(Thelegendofzelda)"}
+{"id": "folio_validation_41", "nl": "FIFA 22 is made by a Japanese video game company.", "fol": "all x.((CreatedGame(Fifa22,x) -> IsJapanese(x)) & IsVideoGameCompany(x))"}
+{"id": "folio_validation_42", "nl": "The Legend of Zelda is not in the Top 10 list.", "fol": "-IsTop10Game(Thelegendofzelda)"}
+{"id": "folio_validation_43", "nl": "All squares have four sides.", "fol": "all x.(IsSquare(x) -> HasFourSides(x))"}
+{"id": "folio_validation_44", "nl": "All four-sided things are shapes. ", "fol": "all x.(HasFourSides(x) -> IsShape(x))"}
+{"id": "folio_validation_45", "nl": "All squares are shapes.", "fol": "all x.(IsSquare(x) -> IsShape(x))"}
+{"id": "folio_validation_46", "nl": "All rabbits are cute. ", "fol": "all x.(IsRabbit(x) -> IsCute(x))"}
+{"id": "folio_validation_47", "nl": "Some turtles exist. ", "fol": "exists x.IsTurtle(x)"}
+{"id": "folio_validation_48", "nl": "An animal is either a rabbit or a squirrel.", "fol": "all x.(IsRabbit(x) | IsSquirrel(x))"}
+{"id": "folio_validation_49", "nl": "If something is skittish, then it is not still.", "fol": "all x.(IsSkittish(x) -> -IsStill(x))"}
+{"id": "folio_validation_50", "nl": "All squirrels are skittish.", "fol": "all x.(IsSquirrel(x) -> IsSkittish(x))"}
+{"id": "folio_validation_51", "nl": "Rock is still.", "fol": "IsStill(Rock)"}
+{"id": "folio_validation_52", "nl": "Rock is a turtle.", "fol": "IsTurtle(Rock)"}
+{"id": "folio_validation_53", "nl": "Rock is not a turtle.", "fol": "-IsTurtle(Rock)"}
+{"id": "folio_validation_54", "nl": "Rock is a turtle or cute.", "fol": "(IsTurtle(Rock) | IsCute(Rock))"}
+{"id": "folio_validation_55", "nl": "If Rock is not both a turtle and a squirrel, then Rock is either cute or skittish.", "fol": "(((-(IsTurtle(Rock) & IsSquirrel(Rock)) -> IsCute(Rock)) & -IsSkittish(Rock)) | (-(-(IsTurtle(Rock) & IsSquirrel(Rock)) -> IsCute(Rock)) & IsSkittish(Rock)))"}
+{"id": "folio_validation_56", "nl": "If Rock is cute and still, then Rock is a turtle and skittish.", "fol": "(((IsCute(Rock) & IsStill(Rock)) -> IsTurtle(Rock)) & IsSkittish(Rock))"}
+{"id": "folio_validation_57", "nl": "\"Stranger Things\" is a popular Netflix show.", "fol": "(IsNetflixShow(StrangerThings) & IsPopular(StrangerThings))"}
+{"id": "folio_validation_58", "nl": "If a Netflix show is popular, Karen will binge-watch it.", "fol": "all x.((IsNetflixShow(x) & IsPopular(x)) -> BingeWatchShow(Karen,x))"}
+{"id": "folio_validation_59", "nl": "If and only if Karen binge-watches a Netflix show, she will download it.", "fol": "all x.((IsNetflixShow(x) & BingeWatchShow(Karen,x)) <-> DownloadShow(Karen,x))"}
+{"id": "folio_validation_60", "nl": "Karen does not download \"Black Mirror\".", "fol": "-DownloadShow(Karen,BlackMirror)"}
+{"id": "folio_validation_61", "nl": "\"Black Mirror\" is a Netflix show.", "fol": "IsNetflixShow(BlackMirror)"}
+{"id": "folio_validation_62", "nl": "If Karen binge-watches a Netflix show, she will share it to Lisa.", "fol": "all x.((IsNetflixShow(x) & BingeWatchShow(Karen,x)) -> ShareShowWith(x,Lisa))"}
+{"id": "folio_validation_63", "nl": "Karen will share \"Stranger Things\" to Lisa.", "fol": "ShareShowWith(StrangerThings,Lisa)"}
+{"id": "folio_validation_64", "nl": "\"Black Mirror\" is popular.", "fol": "IsPopular(BlackMirror)"}
+{"id": "folio_validation_65", "nl": "Karen will share \"Black Mirror\" to Lisa.", "fol": "ShareShowWith(BlackMirror,Lisa)"}
+{"id": "folio_validation_66", "nl": "Beijing is the capital of the People's Republic of China. ", "fol": "IsCapitalOf(Beijing,Prx)"}
+{"id": "folio_validation_67", "nl": "Beijing is the world's most populous national capital city.", "fol": "IsMostPopulousNationalCapital(Beijing)"}
+{"id": "folio_validation_68", "nl": "Beijing is located in Northern China.", "fol": "LocatedInNorthernChina(Beijing)"}
+{"id": "folio_validation_69", "nl": "Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.", "fol": "(HostedEvent(Beijing,Summer2008olympic) & HostedEvent(Beijing,Summer2008paralympicgames))"}
+{"id": "folio_validation_70", "nl": "Beijing has hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics", "fol": "(HostedEvent(Beijing,Summerolympic) & HostedEvent(Beijing,Winterolympic) & HostedEvent(Beijing,Summerparalympicgames) & HostedEvent(Beijing,Winterparalympicgames))"}
+{"id": "folio_validation_71", "nl": "Many of Beijing's 91 universities consistently rank among the best in the Asia-Pacific and the world.", "fol": "exists x.(UniversityInBeijing(x) & RanksAmongBestUniversities(x))"}
+{"id": "folio_validation_72", "nl": "Beijing has hosted both the 2008 Summer Olympics and a winter olympics.", "fol": "(HostedEvent(Beijing,Summer2008olympic) & HostedEvent(Beijing,Winterolympic))"}
+{"id": "folio_validation_73", "nl": "Beijing is located in southern China.", "fol": "InSouthernChina(Beijing)"}
+{"id": "folio_validation_74", "nl": "Beijing is the second largest Chinese city by urban population.", "fol": "SecondLargestChineseCity(Beijing)"}
+{"id": "folio_validation_75", "nl": "All aliens are extraterrestrial.", "fol": "all x.(IsAlien(x) -> IsExtraterrestrial(x))"}
+{"id": "folio_validation_76", "nl": "If someone is from Mars, then they are aliens.", "fol": "all x.(IsFromMars(x) -> IsAlien(x))"}
+{"id": "folio_validation_77", "nl": "No extraterrestrial is human.", "fol": "all x.(IsExtraterrestrial(x) -> -IsHuman(x))"}
+{"id": "folio_validation_78", "nl": "Everyone from Earth is a human.", "fol": "all x.(IsFromEarth(x) -> IsHuman(x))"}
+{"id": "folio_validation_79", "nl": "Marvin cannot be from Earth and from Mars.", "fol": "(-IsFromEarth(Marvin) & -IsFromMars(Marvin))"}
+{"id": "folio_validation_80", "nl": "If Marvin is not from Earth, then Marvin is an extraterrestrial.", "fol": "(-IsFromEarth(Marvin) -> IsExtraterrestrial(Marvin))"}
+{"id": "folio_validation_81", "nl": "Marvin is an alien.", "fol": "IsAlien(Marvin)"}
+{"id": "folio_validation_82", "nl": "Marvin is neither a human nor from Mars.", "fol": "(-IsHuman(Marvin) & -IsFromMars(Marvin))"}
+{"id": "folio_validation_83", "nl": "If Marvin is not from Mars, then Marvin is a human.", "fol": "(-IsFromMars(Marvin) -> IsHuman(Marvin))"}
+{"id": "folio_validation_84", "nl": "A person is either a Grand Slam champion or an Oscar-nominated actor.", "fol": "all x.((IsGrandSlamChampion(x) & -IsOscarNominatedActor(x)) | (-IsGrandSlamChampion(x) & IsOscarNominatedActor(x)))"}
+{"id": "folio_validation_85", "nl": "All people who are Grand Slam champions are professional tennis players.", "fol": "all x.(IsGrandSlamChampion(x) -> IsProfessionalTennisPlayer(x))"}
+{"id": "folio_validation_86", "nl": "All Oscar-nominated actors are celebrities.", "fol": "all x.(IsOscarNominatedActor(x) -> IsCelebrity(x))"}
+{"id": "folio_validation_87", "nl": "All professional tennis players are athletes.", "fol": "all x.(IsProfessionalTennisPlayer(x) -> IsAthlete(x))"}
+{"id": "folio_validation_88", "nl": "If a person is a celebrity then they are well paid.", "fol": "all x.(IsCelebrity(x) -> IsWellPaid(x))"}
+{"id": "folio_validation_89", "nl": "If a person is an athlete then they are famous.", "fol": "all x.(IsAthlete(x) -> IsFamous(x))"}
+{"id": "folio_validation_90", "nl": "All well-paid people live in tax havens.", "fol": "all x.(IsWellPaid(x) -> LivesInTaxHaven(x))"}
+{"id": "folio_validation_91", "nl": "If Djokovic is famous and is an athlete, then Djokovic lives in well paid.", "fol": "((IsFamous(Djokovic) & IsAthlete(Djokovic)) -> LivesInTaxHaven(Djokovic))"}
+{"id": "folio_validation_92", "nl": "Djokovic is a Grand Slam champion.", "fol": "IsGrandSlamChampion(Djokovic)"}
+{"id": "folio_validation_93", "nl": "Djokovic lives in a tax haven.", "fol": "LivesInTaxHaven(Djokovic)"}
+{"id": "folio_validation_94", "nl": "Djokovic does not live in a tax haven.", "fol": "-LivesInTaxHaven(Djokovic)"}
+{"id": "folio_validation_95", "nl": "Diamond Mine is a professional wrestling stable, formed in WWE.", "fol": "(IsProfessionalWrestlingStable(Diamondmine) & IsFormedIn(Diamondmine,Wwe))"}
+{"id": "folio_validation_96", "nl": "Roderick Strong leads Diamond Mine.", "fol": "LeaderOf(Roderickstrong,Diamondmine)"}
+{"id": "folio_validation_97", "nl": "Diamond Mine includes the Creed Brothers, and Ivy Nile.", "fol": "(IncludesMember(Diamondmine,Creedbrothers) & IncludesMember(Diamondmine,Ivynile))"}
+{"id": "folio_validation_98", "nl": "Imperium has a feud with Diamond Mine.", "fol": "HasFeudWith(Imperium,Diamondmine)"}
+{"id": "folio_validation_99", "nl": "Roderick strong leads a professional wrestling stable.", "fol": "exists x.(LeaderOf(Roderickstrong,x) & IsProfessionalWrestlingStable(x))"}
+{"id": "folio_validation_100", "nl": "Roderick strong leads the Creed Brothers.", "fol": "LeaderOf(Roderickstrong,Creedbrothers)"}
+{"id": "folio_validation_101", "nl": "Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.", "fol": "all x.((IsProfessionalWrestlingStable(x) & IncludesMember(x,Ivynile)) -> -HasFeudWith(Imperium,x))"}
+{"id": "folio_validation_102", "nl": "Symphony No. 9 is a music piece.", "fol": "IsMusicPiece(Symphony9)"}
+{"id": "folio_validation_103", "nl": "Composers write music pieces.", "fol": "all x y.((IsMusicPiece(x) & WrittenBy(x,y)) -> Composer(y))"}
+{"id": "folio_validation_104", "nl": "Beethoven wrote Symphony No. 9.", "fol": "WrittenBy(Symphony9,Beethoven)"}
+{"id": "folio_validation_105", "nl": "Vienna Music Society premiered Symphony No. 9.", "fol": "PremieredBy(Viennamusicsociety,Symphony9)"}
+{"id": "folio_validation_106", "nl": "Vienna Music Society is an orchestra.", "fol": "IsOrchestra(Viennamusicsociety)"}
+{"id": "folio_validation_107", "nl": "Beethoven leads the Vienna Music Society.", "fol": "Leads(Beethoven,Viennamusicsociety)"}
+{"id": "folio_validation_108", "nl": "Orchestras are led by conductors.", "fol": "all x y.((IsOrchestra(x) & Leads(y,x)) -> IsConductor(y))"}
+{"id": "folio_validation_109", "nl": "Beethoven is a composer.", "fol": "Composer(Beethoven)"}
+{"id": "folio_validation_110", "nl": "Some orchestras premiered music pieces.", "fol": "exists x y.(IsOrchestra(x) & IsMusicPiece(y) & PremieredBy(x,y))"}
+{"id": "folio_validation_111", "nl": "Beethoven is not a conductor.", "fol": "-IsConductor(Beethoven)"}
+{"id": "folio_validation_112", "nl": "All of Zaha Hadid's design styles are timeless.", "fol": "all x.(ZahaHadidDesignStyle(x) -> IsTimeless(x))"}
+{"id": "folio_validation_113", "nl": "No mass product design is timeless.", "fol": "all x.(IsMassProductDesign(x) -> -IsTimeless(x))"}
+{"id": "folio_validation_114", "nl": "Either Zaha Hadid's design style or Kelly Wearstler's design style. ", "fol": "all x.(ZahaHadidDesignStyle(x) | KellyWearstlerDesignStyle(x))"}
+{"id": "folio_validation_115", "nl": "All of Kelly Wearstler's design styles are evocative.", "fol": "all x.(KellyWearstlerDesignStyle(x) -> IsEvocative(x))"}
+{"id": "folio_validation_116", "nl": "All of Kelly Wearstler's design styles are dreamy.", "fol": "all x.(KellyWearstlerDesignStyle(x) -> IsDreamy(x))"}
+{"id": "folio_validation_117", "nl": "If a design by Max is timeless, then a design by Max is a mass product design and evocative.", "fol": "((IsTimeless(ADesignByMax) -> IsMassProductDesign(ADesignByMax)) & IsEvocative(ADesignByMax))"}
+{"id": "folio_validation_118", "nl": "A design by Max is a mass product design.", "fol": "IsMassProductDesign(ADesignByMax)"}
+{"id": "folio_validation_119", "nl": "A design by Max is evocative and dreamy.", "fol": "(IsEvocative(ADesignByMax) & IsDreamy(ADesignByMax))"}
+{"id": "folio_validation_120", "nl": "A design by Max is either evocative or dreamy.", "fol": "((IsEvocative(ADesignByMax) & -IsDreamy(ADesignByMax)) | (-IsEvocative(ADesignByMax) & IsDreamy(ADesignByMax)))"}
+{"id": "folio_validation_121", "nl": "If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. ", "fol": "all x.(RankedHighlyByWTA(x) -> MostActivePlayersInMajorTennis(x))"}
+{"id": "folio_validation_122", "nl": "Everyone who lost to Iga Swiatek is ranked highly by the Women's Tennis Association.", "fol": "all x.(DefeatedByIgaSwiatek(x) -> RankedHighlyByWTA(x))"}
+{"id": "folio_validation_123", "nl": "All female tennis players at Roland Garros 2022 lost to Iga Swiatek.", "fol": "all x.(FemalePlayersRolandGarros2022(x) -> DefeatedByIgaSwiatek(x))"}
+{"id": "folio_validation_124", "nl": "Either female tennis players at Roland Garros 2022 or male tennis players at Roland Garros 2022. ", "fol": "all x.(FemalePlayersRolandGarros2022(x) | MalePlayersRolandGarros2022(x))"}
+{"id": "folio_validation_125", "nl": "All male tennis players at Roland Garros 2022 lost to Rafael Nadal.", "fol": "all x.(MalePlayersRolandGarros2022(x) -> DefeatedByRafaelNadal(x))"}
+{"id": "folio_validation_126", "nl": "If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.", "fol": "((RankedHighlyByWTA(CocoGauff) | DefeatedByRafaelNadal(CocoGauff)) -> -MalePlayersRolandGarros2022(CocoGauff))"}
+{"id": "folio_validation_127", "nl": "Coco Gauff is among the most active players in major tennis.", "fol": "MostActivePlayersInMajorTennis(CocoGauff)"}
+{"id": "folio_validation_128", "nl": "Coco Gauff has lost to Rafael Nadal.", "fol": "DefeatedByRafaelNadal(CocoGauff)"}
+{"id": "folio_validation_129", "nl": "Coco Gauff is not a player who lost to Iga Swiatek or one of the most active players in major tennis.", "fol": "(-DefeatedByIgaSwiatek(CocoGauff) | -MostActivePlayersInMajorTennis(CocoGauff))"}
+{"id": "folio_validation_130", "nl": "All cats are mammals.", "fol": "all x.(IsCat(x) -> IsMammal(x))"}
+{"id": "folio_validation_131", "nl": "Some pets are not mammals.", "fol": "exists x.(IsPet(x) & -IsMammal(x))"}
+{"id": "folio_validation_132", "nl": "No pets are cats.", "fol": "all x.(IsPet(x) -> -IsCat(x))"}
+{"id": "folio_validation_133", "nl": "No one has both summer and fall as their favorite season.", "fol": "all x.((FavoriteSeason(x,Summer) & -FavoriteSeason(x,Fall)) | (-FavoriteSeason(x,Summer) & FavoriteSeason(x,Fall)))"}
+{"id": "folio_validation_134", "nl": "All students who want to have a long vacation love summer the most.", "fol": "all x.(WantsLongVacation(x) -> FavoriteSeason(x,Summer))"}
+{"id": "folio_validation_135", "nl": "Emma's favorite season is summer.", "fol": "FavoriteSeason(Emma,Summer)"}
+{"id": "folio_validation_136", "nl": "Mia's favorite season is not the same as Emma's. ", "fol": "-exists x.(FavoriteSeason(Mia,x) & FavoriteSeason(Emma,x))"}
+{"id": "folio_validation_137", "nl": "James wants to have a long vacation.", "fol": "WantsLongVacation(James)"}
+{"id": "folio_validation_138", "nl": "James's favorite season is summer.", "fol": "FavoriteSeason(James,Summer)"}
+{"id": "folio_validation_139", "nl": "James's favorite season is fall.", "fol": "FavoriteSeason(James,Fall)"}
+{"id": "folio_validation_140", "nl": "Mia's favorite season is spring.", "fol": "FavoriteSeason(Mia,Spring)"}
+{"id": "folio_validation_141", "nl": "No digital media are analog.", "fol": "all x.(IsDigital(x) -> -IsAnalog(x))"}
+{"id": "folio_validation_142", "nl": "Every printed text is analog.", "fol": "all x.(IsPrintedText(x) -> IsAnalog(x))"}
+{"id": "folio_validation_143", "nl": "All streaming services are digital.", "fol": "all x.(IsStreamingService(x) -> IsDigital(x))"}
+{"id": "folio_validation_144", "nl": "If an object is a hardcover book then it is printed text.", "fol": "all x.(IsHardcoverBook(x) -> IsPrintedText(x))"}
+{"id": "folio_validation_145", "nl": "If 1984 is a streaming service, then 1984 is a hardcover book.", "fol": "(IsStreamingService(Y1984) -> IsHardcoverBook(Y1984))"}
+{"id": "folio_validation_146", "nl": "1984 is printed text.", "fol": "IsPrintedText(Y1984)"}
+{"id": "folio_validation_147", "nl": "1984 is a streaming service.", "fol": "IsStreamingService(Y1984)"}
+{"id": "folio_validation_148", "nl": "1984 is not a streaming service.", "fol": "-IsStreamingService(Y1984)"}
+{"id": "folio_validation_149", "nl": "All Romance languages are Indo-European languages.", "fol": "all x.(IsRomanceLanguage(x) -> IsIndoEuropeanLanguage(x))"}
+{"id": "folio_validation_150", "nl": "The Romance languages are a language family.", "fol": "all x.(IsRomanceLanguage(x) -> BelongsToFamily(x,Romancefamily))"}
+{"id": "folio_validation_151", "nl": "All languages within a language family are related to each other.", "fol": "all z.((BelongsToFamily(x,z) & BelongsToFamily(y,z)) -> (IsRelatedTo(x,y) & IsRelatedTo(y,x)))"}
+{"id": "folio_validation_152", "nl": "French and Spanish are both Romance languages.", "fol": "(IsRomanceLanguage(French) & IsRomanceLanguage(Spanish))"}
+{"id": "folio_validation_153", "nl": "German is related to Spanish.", "fol": "IsRelatedTo(German,Spanish)"}
+{"id": "folio_validation_154", "nl": "Basque is not related to any other language.", "fol": "all x.-IsRelatedTo(Basque,x)"}
+{"id": "folio_validation_155", "nl": "Basque is a Romance language.", "fol": "IsRomanceLanguage(Basque)"}
+{"id": "folio_validation_156", "nl": "German is a Romance language.", "fol": "IsRomanceLanguage(German)"}
+{"id": "folio_validation_157", "nl": "French is an Indo-European language.", "fol": "IsIndoEuropeanLanguage(French)"}
+{"id": "folio_validation_158", "nl": "Robert Lewandowski is a striker.", "fol": "IsStriker(RobertLewandowski)"}
+{"id": "folio_validation_159", "nl": "[BG] Strikers are soccer players.", "fol": "all x.(IsStriker(x) -> IsSoccerPlayer(x))"}
+{"id": "folio_validation_160", "nl": "Robert Lewandowski left Bayern Munchen.", "fol": "LeftTeam(RobertLewandowski,BayernMunchen)"}
+{"id": "folio_validation_161", "nl": "[BG] If a player left a team they no longer play for that team.", "fol": "all x y.(LeftTeam(x,y) -> -PlaysForTeam(x,y))"}
+{"id": "folio_validation_162", "nl": "Robert Lewandowski is a soccer player.", "fol": "IsSoccerPlayer(RobertLewandowski)"}
+{"id": "folio_validation_163", "nl": "Robert Lewandowski plays for Bayern Munchen.", "fol": "PlaysForTeam(RobertLewandowski,BayernMunchen)"}
+{"id": "folio_validation_164", "nl": "Robert Lewandowski is a star.", "fol": "IsSoccerStar(RobertLewandowski)"}
+{"id": "folio_validation_165", "nl": "Billings is a city in Montana.", "fol": "IsCityInState(Billings,Montana)"}
+{"id": "folio_validation_166", "nl": "Montana includes the cities of Butte, Helena, and Missoula.", "fol": "(IsCityInState(Butte,Montana) & IsCityInState(Helena,Montana) & IsCityInState(Missoula,Montana))"}
+{"id": "folio_validation_167", "nl": "White Sulphur Springs and Butte are cities in the same state.", "fol": "exists x.(IsCityInState(Whitesulphursprings,x) & IsCityInState(Butte,x))"}
+{"id": "folio_validation_168", "nl": "The city of Pierre is not in Montana.", "fol": "-IsCityInState(Pierre,Montana)"}
+{"id": "folio_validation_169", "nl": "Any city in Butte is not in Pierre.", "fol": "all x.(IsCityInState(Butte,x) -> -IsCityInState(Pierre,x))"}
+{"id": "folio_validation_170", "nl": "Butte and Pierre are in the same state.", "fol": "exists x.(IsCityInState(Butte,x) & IsCityInState(Pierre,x))"}
+{"id": "folio_validation_171", "nl": "Pierre and Bismarck are in the same state.", "fol": "exists x.(IsCityInState(Pierre,x) & IsCityInState(Bismarck,x))"}
+{"id": "folio_validation_172", "nl": "Montana is home to the city of Missoula.", "fol": "IsCityInState(Missoula,Montana)"}
+{"id": "folio_validation_173", "nl": "International students in US have either an F1 visa or a J1 visa.", "fol": "all x.(((IsInternationalStudent(x) -> HasF1Visa(x)) & -HasJ1Visa(x)) | (-(IsInternationalStudent(x) -> HasF1Visa(x)) & HasJ1Visa(x)))"}
+{"id": "folio_validation_174", "nl": "An international student in US with an F1 visa needs to apply for CPT or OPT if the student wants to work in the US.", "fol": "all x.(((IsInternationalStudent(x) & HasF1Visa(x) & DesiresToWorkInUS(x)) -> SubmitApplication(x,Cpt)) | SubmitApplication(x,Opt))"}
+{"id": "folio_validation_175", "nl": "Mike is an international student.", "fol": "IsInternationalStudent(Mike)"}
+{"id": "folio_validation_176", "nl": "Mike needs to apply for CPT if he wants to work in the US.", "fol": "(DesiresToWorkInUS(Mike) -> SubmitApplication(Mike,Cpt))"}
+{"id": "folio_validation_177", "nl": "Mike has an F1 visa.", "fol": "HasF1Visa(Mike)"}
+{"id": "folio_validation_178", "nl": "Mike has a J1 visa.", "fol": "HasJ1Visa(Mike)"}
+{"id": "folio_validation_179", "nl": "All cows are bovines.", "fol": "all x.(IsCow(x) -> IsBovine(x))"}
+{"id": "folio_validation_180", "nl": "Some pets are cows.", "fol": "exists x.(IsPet(x) & IsCow(x))"}
+{"id": "folio_validation_181", "nl": "If something is a bovine, then it is domesticated.", "fol": "all x.(IsBovine(x) -> IsDomesticated(x))"}
+{"id": "folio_validation_182", "nl": "No domesticated animals are alligators.", "fol": "all x.(IsDomesticated(x) -> -IsAlligator(x))"}
+{"id": "folio_validation_183", "nl": "Ted is an aligator.", "fol": "IsAlligator(Ted)"}
+{"id": "folio_validation_184", "nl": "Ted is a pet.", "fol": "IsPet(Ted)"}
+{"id": "folio_validation_185", "nl": "Ted is a pet and a cow.", "fol": "(IsPet(Ted) & IsCow(Ted))"}
+{"id": "folio_validation_186", "nl": "If Ted is a cow, then Ted is not a pet.", "fol": "(IsCow(Ted) -> -IsPet(Ted))"}
+{"id": "folio_validation_187", "nl": "Badults is a British Sitcom series, starring members of Pappy's.", "fol": "exists x.(MemberOfPappys(x,Pappys) & IsBritishSitcom(Badults) & IsSeries(Badults) & StarsIn(Badults,x))"}
+{"id": "folio_validation_188", "nl": "Badults piloted in July 2013 on BBC Three.", "fol": "(PilotedInMonthYear(Badults,July2013) & AiredOnChannel(Badults,Bbcthree))"}
+{"id": "folio_validation_189", "nl": "The Working title \"The Secret Dude Society\" was used for Badults.", "fol": "HasWorkingTitle(Thesecretdudesociety,Badults)"}
+{"id": "folio_validation_190", "nl": "Andrew Collins was the script editor for Badults", "fol": "HasScriptEditor(Andrewcollins,Badults)"}
+{"id": "folio_validation_191", "nl": "Andrew Collins was the script editor for a series with the working title \"The Secret Dude Society\".", "fol": "exists x.(HasScriptEditor(Andrewcollins,x) & IsSeries(x) & HasWorkingTitle(Thesecretdudesociety,x))"}
+{"id": "folio_validation_192", "nl": "No members of Pappy's have starred for a show piloting on BBC Two or BBC Three.", "fol": "all x y.((MemberOfPappys(x,Pappys) & StarsIn(y,x)) -> -(AiredOnChannel(y,Bbctwo) | AiredOnChannel(y,Bbcthree)))"}
+{"id": "folio_validation_193", "nl": "All growth companies' stocks are volatile.", "fol": "all x.(StocksOfGrowthCompanies(x) -> StockPriceIsVolatile(x))"}
+{"id": "folio_validation_194", "nl": "If the stock price is volatile, then it is not suitable for a retirement fund.", "fol": "all x.(StockPriceIsVolatile(x) -> -SuitableForRetirementFund(x))"}
+{"id": "folio_validation_195", "nl": "Some companies' stocks are growth companies' stocks.", "fol": "exists x.(StocksOfCompanies(x) & StocksOfGrowthCompanies(x))"}
+{"id": "folio_validation_196", "nl": "All mature companies' stocks are suitable for a retirement fund.", "fol": "all x.(StocksOfMatureCompanies(x) -> SuitableForRetirementFund(x))"}
+{"id": "folio_validation_197", "nl": "KO is a mature company's stock.", "fol": "StocksOfMatureCompanies(KO)"}
+{"id": "folio_validation_198", "nl": "KO is a company stock.", "fol": "StocksOfCompanies(KO)"}
+{"id": "folio_validation_199", "nl": "KO is a company stock and a growth company's stock.", "fol": "(StocksOfCompanies(KO) & StocksOfGrowthCompanies(KO))"}
+{"id": "folio_validation_200", "nl": "If KO is a growth company's stock or if its price is volatile, then KO is neither a company's stock nor is its price volatile.", "fol": "(((StocksOfGrowthCompanies(KO) | StockPriceIsVolatile(KO)) -> -StocksOfCompanies(KO)) | -StockPriceIsVolatile(KO))"}
+{"id": "folio_validation_201", "nl": "All vehicle registration plates in Istanbul begin with the number 34.", "fol": "all x.(VehicleRegistrationPlate(x,Istanbul) -> BeginsWithNumber(x,Number34))"}
+{"id": "folio_validation_202", "nl": "Plates that do not begin with the number 34 are not from Istanbul. ", "fol": "all x.(-BeginsWithNumber(x,Number34) -> -IsFromIstanbul(x))"}
+{"id": "folio_validation_203", "nl": "Joe's vehicle registration plate is from Istanbul. ", "fol": "VehicleRegistrationPlate(Joe,Istanbul)"}
+{"id": "folio_validation_204", "nl": "Tom's license plate begins with the number 35. ", "fol": "BeginsWithNumber(Tom,Number35)"}
+{"id": "folio_validation_205", "nl": "[BG] If a license plate begins with the number 35, then it does not begin with the number 34.", "fol": "all x.(BeginsWithNumber(x,Number35) -> -BeginsWithNumber(x,Number34))"}
+{"id": "folio_validation_206", "nl": "Joe's license plate begins with the number 34.", "fol": "BeginsWithNumber(Joe,Number34)"}
+{"id": "folio_validation_207", "nl": "Tom's license plate is from Istanbul.", "fol": "VehicleRegistrationPlate(Tom,Istanbul)"}
+{"id": "folio_validation_208", "nl": "If people work in student jobs on campus, then they need to earn money to help pay for their college tuition.", "fol": "all x.(WorksInStudentJobs(x) -> NeedsToEarnMoneyForTuition(x))"}
+{"id": "folio_validation_209", "nl": "If people order takeout frequently in college, then they work in student jobs on campus.", "fol": "all x.(OrdersTakeoutFrequently(x) -> WorksInStudentJobs(x))"}
+{"id": "folio_validation_210", "nl": "People either order takeout frequently in college or enjoy the dining hall meals and recipes.", "fol": "all x.(OrdersTakeoutFrequently(x) | EnjoysDiningHallMeals(x))"}
+{"id": "folio_validation_211", "nl": "If people enjoy the dining hall meals and recipes, then they are not picky eaters.", "fol": "all x.(EnjoysDiningHallMeals(x) -> IsNotPickyEater(x))"}
+{"id": "folio_validation_212", "nl": "If people enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.", "fol": "all x.(EnjoysDiningHallMeals(x) -> SpendsTimeEatingWithFriends(x))"}
+{"id": "folio_validation_213", "nl": "If Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition.", "fol": "((WorksInStudentJobs(Mary) & NeedsToEarnMoneyForTuition(Mary)) -> -(IsNotPickyEater(Mary) | NeedsToEarnMoneyForTuition(Mary)))"}
+{"id": "folio_validation_214", "nl": "Mary needs to earn money to help pay for her college tuition.", "fol": "NeedsToEarnMoneyForTuition(Mary)"}
+{"id": "folio_validation_215", "nl": "Mary is not a picky eater and spends a lot of her time eating and catching up with friends in the campus dining halls.", "fol": "(IsNotPickyEater(Mary) & SpendsTimeEatingWithFriends(Mary))"}
+{"id": "folio_validation_216", "nl": "Mary either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.", "fol": "((IsNotPickyEater(Mary) & -SpendsTimeEatingWithFriends(Mary)) | (-IsNotPickyEater(Mary) & SpendsTimeEatingWithFriends(Mary)))"}
+{"id": "folio_validation_217", "nl": "No bakery is spicy.", "fol": "all x.(IsBakery(x) -> -IsSpicy(x))"}
+{"id": "folio_validation_218", "nl": "All cupcakes are bakeries.", "fol": "all x.(IsCupcake(x) -> IsBakery(x))"}
+{"id": "folio_validation_219", "nl": "All hotpots are spicy.", "fol": "all x.(IsHotpot(x) -> IsSpicy(x))"}
+{"id": "folio_validation_220", "nl": "All products of Baked by Melissa are cupcakes.", "fol": "all x.(IsProductOfBakedByMelissa(x) -> IsCupcake(x))"}
+{"id": "folio_validation_221", "nl": "If dried Thai chilies are spicy or a bakery, then dried Thai chilies are a hotpot or are spicy.", "fol": "(((IsSpicy(DriedThaiChilies) | IsBakery(DriedThaiChilies)) -> IsHotpot(DriedThaiChilies)) | IsSpicy(DriedThaiChilies))"}
+{"id": "folio_validation_222", "nl": "Dried Thai chilies are a product of Baked by Melissa.", "fol": "IsProductOfBakedByMelissa(DriedThaiChilies)"}
+{"id": "folio_validation_223", "nl": "Dried Thai chilies are not a product of Baked by Melissa.", "fol": "-IsProductOfBakedByMelissa(DriedThaiChilies)"}
+{"id": "folio_validation_224", "nl": "Dried Thai chilies are a hotpot.", "fol": "IsHotpot(DriedThaiChilies)"}
+{"id": "folio_validation_225", "nl": "Dried Thai chilies are neither a product of Baked by Melissa nor a bakery.", "fol": "(-IsProductOfBakedByMelissa(DriedThaiChilies) & -IsBakery(DriedThaiChilies))"}
+{"id": "folio_validation_226", "nl": "Dried Thai chilies are cupcakes and a product of Baked by Melissa.", "fol": "(Cupcake(DriedThaiChilies) & IsProductOfBakedByMelissa(DriedThaiChilies))"}
+{"id": "folio_validation_227", "nl": "If the restaurant is listed in Yelp's recommendations, then the restaurant does not receive many negative reviews.", "fol": "all x.(ListedInYelpRecommendations(x) -> -ReceivesNegativeReviews(x))"}
+{"id": "folio_validation_228", "nl": "All restaurants with a rating greater than 9 are listed in Yelp's recommendations.", "fol": "all x.(HasRatingGreaterThan9(x) -> ListedInYelpRecommendations(x))"}
+{"id": "folio_validation_229", "nl": "Some restaurants that do not provide take-out service receive many negative reviews.", "fol": "exists x.(DoesNotProvideTakeOutService(x) & ReceivesNegativeReviews(x))"}
+{"id": "folio_validation_230", "nl": "All restaurants that are popular among local residents have ratings greater than 9.", "fol": "all x.(PopularWithLocalResidents(x) -> HasRatingGreaterThan9(x))"}
+{"id": "folio_validation_231", "nl": "Subway has a rating greater than 9 or is popular among local residents.", "fol": "((HasRatingGreaterThan9(Subway) & -PopularWithLocalResidents(Subway)) | (-HasRatingGreaterThan9(Subway) & PopularWithLocalResidents(Subway)))"}
+{"id": "folio_validation_232", "nl": "If Subway provides take-out service and receives many negative reviews, then its rating is greater than 9 and it does not provide take-out service.", "fol": "DoesNotProvideTakeOutService(Subway)"}
+{"id": "folio_validation_233", "nl": "Subway provides take-out service and does not receive many negative reviews.", "fol": "-(DoesNotProvideTakeOutService(Subway) & ReceivesNegativeReviews(Subway))"}
+{"id": "folio_validation_234", "nl": "Subway does not provide take-out service.", "fol": "((-(DoesNotProvideTakeOutService(Subway) & ReceivesNegativeReviews(Subway)) -> PopularWithLocalResidents(Subway)) & DoesNotProvideTakeOutService(Subway))"}
+{"id": "folio_validation_235", "nl": "In superhero movies, the good guys always win.", "fol": "all x y.((IsSuperheroMovie(x) & IsGoodGuy(y) & AppearsInMovie(y,x)) -> WinsFight(y))"}
+{"id": "folio_validation_236", "nl": "The Surprising Adventures of Sir Digby Chicken Caesar is a superhero movie.", "fol": "IsSuperheroMovie(SurprisingAdventuresofSirDigbyChickenCaesar)"}
+{"id": "folio_validation_237", "nl": "Good guys fight bad guys and vice versa.", "fol": "all x y.(((IsGoodGuy(x) & EngagesInFight(x,y)) <-> IsBadGuy(y)) & EngagesInFight(y,x))"}
+{"id": "folio_validation_238", "nl": "Sir Digby fights his nemesis.", "fol": "EngagesInFight(SirDigby,SirDigbyNemesis)"}
+{"id": "folio_validation_239", "nl": "If a superhero movie is named after a character, that character is a good guy.", "fol": "all x y.((IsSuperheroMovie(x) & CharacterNamedAfter(x,y)) -> IsGoodGuy(y))"}
+{"id": "folio_validation_240", "nl": "The Surprising Adventures of Sir Digby Chicken Caesar is named after Sir Digby.", "fol": "CharacterNamedAfter(SurprisingAdventuresofSirDigbyChickenCaesar,SirDigby)"}
+{"id": "folio_validation_241", "nl": "If somebody wins a fight, the person they are fighting loses.", "fol": "all x y.((EngagesInFight(x,y) & WinsFight(x)) -> -WinsFight(y))"}
+{"id": "folio_validation_242", "nl": "Sir Digby's nemesis loses.", "fol": "all x y.((IsSuperheroMovie(x) & AppearsInMovie(y,x)) -> IsGoodGuy(y))"}
+{"id": "folio_validation_243", "nl": "[BG] Books contain tons of knowledge.", "fol": "all x.(IsBook(x) -> ContainsKnowledge(x))"}
+{"id": "folio_validation_244", "nl": "[BG] When a person reads a book, that person gains knowledge. ", "fol": "all x y.(ReadsBook(x,y) -> GainsKnowledge(x))"}
+{"id": "folio_validation_245", "nl": "[BG] If a person gains knowledge, they become smarter.", "fol": "all x.(GainsKnowledge(x) -> IsSmarter(x))"}
+{"id": "folio_validation_246", "nl": "Harry read the book \"Walden\" by Henry Thoreau.", "fol": "(ReadsBook(Harry,Walden) & IsBook(Walden))"}
+{"id": "folio_validation_247", "nl": "Walden contains knowledge.", "fol": "ContainsKnowledge(Walden)"}
+{"id": "folio_validation_248", "nl": "Harry is smarter than before.", "fol": "IsSmarter(Harry)"}
+{"id": "folio_validation_249", "nl": "A person who is smarter has gained knowledge.", "fol": "all x.(IsSmarter(x) -> GainsKnowledge(x))"}
+{"id": "folio_validation_250", "nl": "Natural language processing tasks can be categorized as either language generation task or language understanding task.", "fol": "all x.(((NaturalLanguageProcessingTask(x) -> LanguageGenerationTask(x)) & -LanguageUnderstandingTask(x)) | (-(NaturalLanguageProcessingTask(x) -> LanguageGenerationTask(x)) & LanguageUnderstandingTask(x)))"}
+{"id": "folio_validation_251", "nl": "If the output of a natural language processing task is a text sequence, then it is a language generation task.", "fol": "all x.((NaturalLanguageProcessingTask(x) & IsTextSequenceOutput(x)) -> LanguageGenerationTask(x))"}
+{"id": "folio_validation_252", "nl": "Machine translation is a natural language processing task.", "fol": "NaturalLanguageProcessingTask(MachineTranslation)"}
+{"id": "folio_validation_253", "nl": "The output of machine translation is a text sequence.", "fol": "IsTextSequenceOutput(MachineTranslation)"}
+{"id": "folio_validation_254", "nl": "Machine translation is a language generation task.", "fol": "LanguageGenerationTask(MachineTranslation)"}
+{"id": "folio_validation_255", "nl": "Machine translation is a language understanding task.", "fol": "LanguageUnderstandingTask(MachineTranslation)"}
+{"id": "folio_validation_256", "nl": "Pets are allowed in some managed buildings.", "fol": "exists x.(IsManagedBuilding(x) & AllowsPets(x))"}
+{"id": "folio_validation_257", "nl": "[BG] A deposit is required to rent an apartment in a managed building.", "fol": "all x.(IsManagedBuilding(x) -> RequiresDeposit(x))"}
+{"id": "folio_validation_258", "nl": "The security deposit can be either equal to one month's rent or more.", "fol": "all x.(MonthlyRent2000(x) <-> -DepositLessThanEqual1500(x))"}
+{"id": "folio_validation_259", "nl": "Fluffy is Tom's cat.", "fol": "all x.(MonthlyRent2000(x) <-> DepositAtLeast2000(x))"}
+{"id": "folio_validation_260", "nl": "Cats are pets.", "fol": "IsCat(Fluffy)"}
+{"id": "folio_validation_261", "nl": "The Olive Garden is a managed building.", "fol": "all x.(IsCat(x) -> IsPet(x))"}
+{"id": "folio_validation_262", "nl": "The monthly rent at the Olive Garden is $2000.", "fol": "IsManagedBuilding(OliveGarden)"}
+{"id": "folio_validation_263", "nl": "Tom will rent an apartment in a managed building if and only if he is allowed to move in with Fluffy, and the security deposit is no more than $1500.", "fol": "MonthlyRent2000(OliveGarden)"}
+{"id": "folio_validation_264", "nl": "2000$ is more than $1500.", "fol": "all x.(TomRentingConditions(x) <-> (IsManagedBuilding(x) & AllowsPets(x) & DepositLessThanEqual1500(x)))"}
+{"id": "folio_validation_265", "nl": "Tom will rent an apartment in The Olive Garden.", "fol": "TomRentingConditions(OliveGarden)"}
+{"id": "folio_validation_266", "nl": "Tom is allowed to move in an apartment in The Olive Garden with Fluffy.", "fol": "AllowsPets(OliveGarden)"}
+{"id": "folio_validation_267", "nl": "The security deposit at the Olive Garden is either $2000 or more.", "fol": "DepositAtLeast2000(OliveGarden)"}
+{"id": "folio_validation_268", "nl": "If animals are loved by tourists, then they are Max's favorite animals. ", "fol": "all x.(LovedByTourists(x) -> MaxsFavoriteAnimals(x))"}
+{"id": "folio_validation_269", "nl": "All animals from Australia are loved by tourists. ", "fol": "all x.(FromAustralia(x) -> LovedByTourists(x))"}
+{"id": "folio_validation_270", "nl": "All quokka are animals from Australia. ", "fol": "all x.(IsQuokka(x) -> FromAustralia(x))"}
+{"id": "folio_validation_271", "nl": "All of Max's favorite animals are very fluffy.", "fol": "all x.(MaxsFavoriteAnimals(x) -> IsVeryFluffy(x))"}
+{"id": "folio_validation_272", "nl": "All of Max's favorite animals love to sleep. ", "fol": "all x.(MaxsFavoriteAnimals(x) -> LovesToSleep(x))"}
+{"id": "folio_validation_273", "nl": "If a koala is very fluffy, then the koala is not a quokka.", "fol": "(IsVeryFluffy(Koala) -> -IsQuokka(Koala))"}
+{"id": "folio_validation_274", "nl": "Koalas love to sleep.", "fol": "LovesToSleep(Koala)"}
+{"id": "folio_validation_275", "nl": "Koalas love to sleep and are quokka.", "fol": "(LovesToSleep(Koala) & IsQuokka(Koala))"}
+{"id": "folio_validation_276", "nl": "If a koala is a quokka, then the koala either loves to sleep or is very fluffy, but not both.", "fol": "(IsQuokka(Koala) -> ((LovesToSleep(Koala) & -IsVeryFluffy(Koala)) | (-LovesToSleep(Koala) & IsVeryFluffy(Koala))))"}
+{"id": "folio_validation_277", "nl": "A man is either kind or evil.", "fol": "all x.((IsKind(x) & -IsEvil(x)) | (-IsKind(x) & IsEvil(x)))"}
+{"id": "folio_validation_278", "nl": "No ugly person is handsome.", "fol": "all x.(IsUgly(x) -> -IsHandsome(x))"}
+{"id": "folio_validation_279", "nl": "All evil people are ugly.", "fol": "all x.(IsEvil(x) -> IsUgly(x))"}
+{"id": "folio_validation_280", "nl": "All gentlemen are handsome.", "fol": "all x.(IsGentleman(x) -> IsHandsome(x))"}
+{"id": "folio_validation_281", "nl": "All CEOs are gentlemen.", "fol": "all x.(IsCEO(x) -> IsGentleman(x))"}
+{"id": "folio_validation_282", "nl": "Harry is a gentleman.", "fol": "IsGentleman(Harry)"}
+{"id": "folio_validation_283", "nl": "Harry is a CEO.", "fol": "IsCEO(Harry)"}
+{"id": "folio_validation_284", "nl": "Harry is kind or a CEO.", "fol": "(IsKind(Harry) | IsCEO(Harry))"}
+{"id": "folio_validation_285", "nl": "If Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO.", "fol": "((((IsEvil(Harry) & IsUgly(Harry) & -(-IsEvil(Harry) & -IsUgly(Harry))) | (-(IsEvil(Harry) & IsUgly(Harry)) & -IsEvil(Harry) & -IsUgly(Harry))) -> -IsKind(Harry)) & -IsCEO(Harry))"}
+{"id": "folio_validation_286", "nl": "If people are twins or triplets, then they spend a lot of time hanging out with and playing with their siblings.", "fol": "all x.(IsTwinOrTriplet(x) -> SpendingTimeWithSiblings(x))"}
+{"id": "folio_validation_287", "nl": "If people have siblings who are the same age, then they are twins or triplets.", "fol": "all x.(SiblingsSameAge(x) -> IsTwinOrTriplet(x))"}
+{"id": "folio_validation_288", "nl": "If people complain often about annoying siblings, then they have siblings who are the same age.", "fol": "all x.(ComplainAboutSiblings(x) -> SiblingsSameAge(x))"}
+{"id": "folio_validation_289", "nl": "If people do not live at home regularly, then they do not develop strong bonds with their family members.", "fol": "all x.(DoesNotLiveAtHome(x) -> -DevelopStrongFamilyBonds(x))"}
+{"id": "folio_validation_290", "nl": "If people spend a lot of time hanging out with and playing with their siblings, then they often did not live at home regularly.", "fol": "all x.(SpendingTimeWithSiblings(x) -> DoesNotLiveAtHome(x))"}
+{"id": "folio_validation_291", "nl": "Luke is either both a twin or triplet and develops strong bonds with his family members, or he neither is a twin or triplet nor develops strong bonds with his family members.   ", "fol": "((IsTwinOrTriplet(Luke) & DevelopStrongFamilyBonds(Luke) & -(-IsTwinOrTriplet(Luke) & -DevelopStrongFamilyBonds(Luke))) | (-(IsTwinOrTriplet(Luke) & DevelopStrongFamilyBonds(Luke)) & -IsTwinOrTriplet(Luke) & -DevelopStrongFamilyBonds(Luke)))"}
+{"id": "folio_validation_292", "nl": "Luke spends a lot of time hanging out and playing with his siblings.", "fol": "SpendingTimeWithSiblings(Luke)"}
+{"id": "folio_validation_293", "nl": "Luke complains often about annoying siblings.", "fol": "ComplainAboutSiblings(Luke)"}
+{"id": "folio_validation_294", "nl": "Luke is neither a twin nor triplet nor complains often about annoying siblings.", "fol": "-(IsTwinOrTriplet(Luke) | ComplainAboutSiblings(Luke))"}
+{"id": "folio_validation_295", "nl": "It costs US $205 to take the GRE test.", "fol": "CostOfGRE(Gre)"}
+{"id": "folio_validation_296", "nl": "ETS provides financial aid to those GRE applicants who prove economic hardship.", "fol": "all x.(CostOfGRE(x) -> AffordableCost(x))"}
+{"id": "folio_validation_297", "nl": "Economic hardship refers to difficulty caused by having too little money or too few resources.", "fol": "all x.(EconomicHardship(x) -> ProvidesFinancialAid(x))"}
+{"id": "folio_validation_298", "nl": "Tom lives in a single-parent family.", "fol": "all x.((LivesInSingleParentFamily(x) | HasFewResources(x)) -> EconomicHardship(x))"}
+{"id": "folio_validation_299", "nl": "His dad has been out of work for more than a year.", "fol": "LivesInSingleParentFamily(Tom)"}
+{"id": "folio_validation_300", "nl": "Tom can apply for financial aid from ETS to take the GRE test.", "fol": "ProvidesFinancialAid(Tom)"}
+{"id": "folio_validation_301", "nl": "It cost below US $300 to take the GRE test.", "fol": "AffordableCost(Gre)"}
+{"id": "folio_validation_302", "nl": "There is no financial aid available for the GRE test.", "fol": "-exists x.ProvidesFinancialAid(x)"}
+{"id": "folio_validation_303", "nl": "If people spill a lot of food on their clothing, then they do not tidy their spaces consistently and enjoy the process of cleaning.", "fol": "all x.(SpillFoodOnClothing(x) -> -TidySpacesConsistently(x))"}
+{"id": "folio_validation_304", "nl": "All foodies who go out frequently to find new food restaurants to try are people who spill a lot of food on their clothing.", "fol": "all x.(FrequentFoodie(x) -> SpillFoodOnClothing(x))"}
+{"id": "folio_validation_305", "nl": "If people grew up as only children with no siblings, then they tidy their spaces consistently and enjoy the process of cleaning.", "fol": "all x.(GrewUpAsOnlyChild(x) -> TidySpacesConsistently(x))"}
+{"id": "folio_validation_306", "nl": "If people have parents who are very busy with their regular jobs, then they grew up as only children with no siblings.", "fol": "all x.(ParentsHaveBusyJobs(x) -> GrewUpAsOnlyChild(x))"}
+{"id": "folio_validation_307", "nl": "All households with a high net income have people who have parents who are very busy with their regular jobs.", "fol": "all x.(HouseholdHighNetIncome(x) -> ParentsHaveBusyJobs(x))"}
+{"id": "folio_validation_308", "nl": "Peter is either both a person who spills a lot of food on his clothing and grew up as an only child with no siblings, or he is neither a person who spills a lot of food on his clothing nor grew up as an only child with no siblings. ", "fol": "((SpillFoodOnClothing(Peter) & GrewUpAsOnlyChild(Peter)) | (-SpillFoodOnClothing(Peter) & -GrewUpAsOnlyChild(Peter)))"}
+{"id": "folio_validation_309", "nl": "Peter tidies his space consistently and enjoys the process of cleaning.", "fol": "TidySpacesConsistently(Peter)"}
+{"id": "folio_validation_310", "nl": "Peter is either a foodie who goes out frequently to find new food restaurants to try or belongs to a household with a high net income.", "fol": "(FrequentFoodie(Peter) | HouseholdHighNetIncome(Peter))"}
+{"id": "folio_validation_311", "nl": "Peter is either a foodie who goes out frequently to find new food restaurants to try and belong to a household with a high net income or he is a foodie who goes out frequently to find new food restaurants to try nor belongs to a household with a high net income.", "fol": "((FrequentFoodie(Peter) & HouseholdHighNetIncome(Peter)) | (-FrequentFoodie(Peter) & -HouseholdHighNetIncome(Peter)))"}
+{"id": "folio_validation_312", "nl": "All fir trees are evergreens.", "fol": "all x.(IsFirTree(x) -> IsEvergreen(x))"}
+{"id": "folio_validation_313", "nl": "Some objects of worship are fir trees.", "fol": "exists x.(IsObjectOfWorship(x) & IsFirTree(x))"}
+{"id": "folio_validation_314", "nl": "Some evergreens are not objects of worship.", "fol": "exists x.(IsEvergreen(x) & -IsObjectOfWorship(x))"}
+{"id": "folio_validation_315", "nl": "The Picuris Mountains are a mountain range in New Mexico or Texas.", "fol": "(IsMountainRange(Picurismountains) & (LocatedIn(Picurismountains,Newmexico) | LocatedIn(Picurismountains,Texas)))"}
+{"id": "folio_validation_316", "nl": "Juan de Onate visited the Picuris Mountains.", "fol": "VisitedLocation(Juandeonate,Picurismountains)"}
+{"id": "folio_validation_317", "nl": "The Harding Pegmatite Mine, located in the Picuris Mountains, was donated.", "fol": "(LocatedIn(Hardingpegmatitemine,Picurismountains) & IsMine(Hardingpegmatitemine) & IsDonated(Hardingpegmatitemine))"}
+{"id": "folio_validation_318", "nl": "There are no mountain ranges in texas that have mines which have been donated.", "fol": "all x y.((IsMine(x) & IsDonated(x) & LocatedIn(x,y) & IsMountainRange(y)) -> -LocatedIn(y,Texas))"}
+{"id": "folio_validation_319", "nl": "Juan de Onate visited a mountain range in New Mexico.", "fol": "exists x.(VisitedLocation(Juandeonate,x) & IsMountainRange(x) & LocatedIn(x,Newmexico))"}
+{"id": "folio_validation_320", "nl": "Juan de Onate visited a mountain range in Texas.", "fol": "exists x.(VisitedLocation(Juandeonate,x) & IsMountainRange(x) & LocatedIn(x,Texas))"}
+{"id": "folio_validation_321", "nl": "The Harding Pegmatite Mine is not located in a mountain range in New Mexico.", "fol": "all x.((IsMountainRange(x) & LocatedIn(Hardingpegmatitemine,x)) -> -LocatedIn(x,Newmexico))"}
+{"id": "folio_validation_322", "nl": "If a man is taller than another man, the taller one can block the other's shooting.", "fol": "all x y.((IsMale(x) & IsMale(y) & IsTallerThan(x,y)) -> CanBlockShooting(x,y))"}
+{"id": "folio_validation_323", "nl": "Michael is a man who is taller than everyone else in his class.", "fol": "all x.((IsMale(x) & InSameClassAs(x,Michael) & -IsEqualTo(x,Michael)) -> IsTallerThan(Michael,x))"}
+{"id": "folio_validation_324", "nl": "If person x is taller than person y, and person y is taller than person z, than x is taller than z", "fol": "all z.((IsTallerThan(x,y) & IsTallerThan(y,z)) -> IsTallerThan(x,z))"}
+{"id": "folio_validation_325", "nl": "Peter is a man who is taller than Michael.", "fol": "(IsMale(Peter) & IsTallerThan(Peter,Michael))"}
+{"id": "folio_validation_326", "nl": "Michael can block any shooting from a person as long as the person does not jump when shooting.", "fol": "all x.(-CanJumpWhenShooting(x) -> CanBlockShooting(Michael,x))"}
+{"id": "folio_validation_327", "nl": "Michael cannot block Windy's shooting.", "fol": "-CanBlockShooting(Michael,Windy)"}
+{"id": "folio_validation_328", "nl": "Every shooter who can jump when shooting is a great shooter.", "fol": "all x.(CanJumpWhenShooting(x) -> IsGreatShooter(x))"}
+{"id": "folio_validation_329", "nl": "Peter is shorter than a man in Michael's class.", "fol": "exists x.(IsMale(x) & InSameClassAs(x,Michael) & -IsEqualTo(x,Michael) & -IsTallerThan(Peter,x))"}
+{"id": "folio_validation_330", "nl": "Windy is a great shooter.", "fol": "IsGreatShooter(Windy)"}
+{"id": "folio_validation_331", "nl": "Peter can block Windy's shooting.", "fol": "CanBlockShooting(Peter,Windy)"}
+{"id": "folio_validation_332", "nl": "Barutin Cove is named after the Bulgarian settlement of Barutin.", "fol": "(BarutinCove(Barutin) & NamedAfterSettlement(Barutin,Settlement) & LocationOf(Settlement,Bulgaria))"}
+{"id": "folio_validation_333", "nl": "Barutin Cove is on the southwest coast of Snow Island.", "fol": "LocationOf(Barutin,Snow)"}
+{"id": "folio_validation_334", "nl": "The South Shetland Islands include Snow Island, Greenwich Island, and Deception Island.", "fol": "(LocationOf(Snow,Shetland) & LocationOf(Greenwich,Shetland) & LocationOf(Deception,Shetland))"}
+{"id": "folio_validation_335", "nl": "The South Shetland Islands are considered part of Antarctica.", "fol": "LocationOf(Shetland,Antarctica)"}
+{"id": "folio_validation_336", "nl": "If A is located in B and B is located in C, then A is located in C.", "fol": "all x y z.((LocationOf(x,y) & LocationOf(y,z)) -> LocationOf(x,z))"}
+{"id": "folio_validation_337", "nl": "Barutin is named after all islands in Antarctica.", "fol": "all x.(LocationOf(x,Antarctica) -> NamedAfterSettlement(Barutin,x))"}
+{"id": "folio_validation_338", "nl": "There is at least one cove in Antarctica named after a place in Bulgaria.", "fol": "exists x y.(BarutinCove(x) & NamedAfterSettlement(x,y) & LocationOf(y,Bulgaria))"}
+{"id": "folio_validation_339", "nl": "Barutin is not located in Antarctica.", "fol": "-LocationOf(Barutin,Antarctica)"}
+{"id": "folio_validation_340", "nl": "Some affection is love.", "fol": "exists x.(Affection(x) & IsLove(x))"}
+{"id": "folio_validation_341", "nl": "Some love is positive.", "fol": "exists x.(IsLove(x) & IsPositive(x))"}
+{"id": "folio_validation_342", "nl": "Some affection is positive.", "fol": "exists x.(Affection(x) & IsPositive(x))"}
+{"id": "folio_validation_343", "nl": "If something can transport multiple passengers, then they are not empty.", "fol": "all x.(CanTransportMultiplePassengers(x) -> -IsEmpty(x))"}
+{"id": "folio_validation_344", "nl": "All airlines can transport multiple passengers.", "fol": "all x.(IsAirline(x) -> CanTransportMultiplePassengers(x))"}
+{"id": "folio_validation_345", "nl": "All planes are empty.", "fol": "all x.(IsPlane(x) -> IsEmpty(x))"}
+{"id": "folio_validation_346", "nl": "All Boeing 707s are planes.", "fol": "all x.(IsBoeing707(x) -> IsPlane(x))"}
+{"id": "folio_validation_347", "nl": "If Greyhound is not an airline, then there are no Greyhound planes.", "fol": "(-IsAirline(GreyhoundBus) -> -(IsAirline(GreyhoundBus) | IsPlane(GreyhoundBus)))"}
+{"id": "folio_validation_348", "nl": "Greyhound is an airline.", "fol": "IsAirline(GreyhoundBus)"}
+{"id": "folio_validation_349", "nl": "A Greyhound is a Boeing 707.", "fol": "IsBoeing707(GreyhoundBus)"}
+{"id": "folio_validation_350", "nl": "A Greyhound is not a Boeing 707.", "fol": "-IsBoeing707(GreyhoundBus)"}
+{"id": "folio_validation_351", "nl": "All mammals are animals.", "fol": "all x.(IsMammal(x) -> IsAnimal(x))"}
+{"id": "folio_validation_352", "nl": "All monkeys are mammals. ", "fol": "all x.(IsMonkey(x) -> IsMammal(x))"}
+{"id": "folio_validation_353", "nl": "An animal is either a monkey or a bird.", "fol": "all x.(IsMonkey(x) | IsBird(x))"}
+{"id": "folio_validation_354", "nl": "All birds fly.", "fol": "all x.(IsBird(x) -> CanFly(x))"}
+{"id": "folio_validation_355", "nl": "All animals breathe.", "fol": "all x.(IsAnimal(x) -> CanBreathe(x))"}
+{"id": "folio_validation_356", "nl": "If something can fly, then it has wings.", "fol": "all x.(CanFly(x) -> HasWings(x))"}
+{"id": "folio_validation_357", "nl": "If Rock is neither a fly nor a bird, then Rock neither flies nor breathes.", "fol": "((-CanFly(Rock) & -IsBird(Rock)) -> (-CanFly(Rock) & -CanBreathe(Rock)))"}
+{"id": "folio_validation_358", "nl": "Rock is a monkey.", "fol": "IsMonkey(Rock)"}
+{"id": "folio_validation_359", "nl": "Rock has wings.", "fol": "HasWings(Rock)"}
+{"id": "folio_validation_360", "nl": "Rock does not have wings.", "fol": "-HasWings(Rock)"}
+{"id": "folio_validation_361", "nl": "All people who have a wedding are people who have at least one child.", "fol": "all x.(HasWedding(x) -> HasChild(x))"}
+{"id": "folio_validation_362", "nl": "All people who travel to Paris for their honeymoon are people who have a wedding.", "fol": "all x.(TravelToParis(x) -> HasWedding(x))"}
+{"id": "folio_validation_363", "nl": "All weddings that occur in July belong to people who travel to Paris for their honeymoon.", "fol": "all x.(WeddingsInJuly(x) -> TravelToParis(x))"}
+{"id": "folio_validation_364", "nl": "Some weddings in July are well-attended.", "fol": "exists x.(WeddingsInJuly(x) & IsWellAttended(x))"}
+{"id": "folio_validation_365", "nl": "If John has at least one child, then John does not travel to Paris for his honeymoon and does not have a wedding.", "fol": "(HasChild(John) -> -(TravelToParis(John) & HasWedding(John)))"}
+{"id": "folio_validation_366", "nl": "If John has a wedding that is well-attended, then John has a wedding in July or, if not, then John travels to Paris for their honeymoon. ", "fol": "(((IsWellAttended(John) -> WeddingsInJuly(John)) & -TravelToParis(John)) | (-(IsWellAttended(John) -> WeddingsInJuly(John)) & TravelToParis(John)))"}
+{"id": "folio_validation_367", "nl": "John has a wedding that is well-attended.", "fol": "IsWellAttended(John)"}
+{"id": "folio_validation_368", "nl": "John does not have a wedding that is well-attended.", "fol": "-IsWellAttended(John)"}
+{"id": "folio_validation_369", "nl": "John has at least one child.", "fol": "HasChild(John)"}
+{"id": "folio_validation_370", "nl": "John has neither a wedding that is well-attended nor does he travel to Paris for his honeymoon.", "fol": "-(IsWellAttended(John) | WeddingsInJuly(John))"}
+{"id": "folio_validation_371", "nl": "[BG] Some mammals have teeth.", "fol": "exists x.(IsMammal(x) & HasTeeth(x,Teeth))"}
+{"id": "folio_validation_372", "nl": "Platypus have no teeth.", "fol": "-HasTeeth(Platypus,Teeth)"}
+{"id": "folio_validation_373", "nl": "Platypus are mammals. ", "fol": "IsMammal(Platypus)"}
+{"id": "folio_validation_374", "nl": "Humans have teeth.", "fol": "HasTeeth(Humans,Teeth)"}
+{"id": "folio_validation_375", "nl": "Platypus are mammals with no teeth.", "fol": "(IsMammal(Platypus) & -HasTeeth(Platypus,Teeth))"}
+{"id": "folio_validation_376", "nl": "Platypus are reptiles.", "fol": "Reptile(Platypus)"}
+{"id": "folio_validation_377", "nl": "Plungers suck.", "fol": "all x.(IsPlunger(x) -> Sucks(x))"}
+{"id": "folio_validation_378", "nl": "Vacuums suck.", "fol": "all x.(IsVacuum(x) -> Sucks(x))"}
+{"id": "folio_validation_379", "nl": "Vampires suck.", "fol": "all x.(IsVampire(x) -> Sucks(x))"}
+{"id": "folio_validation_380", "nl": "Space is a vacuum.", "fol": "IsVacuum(Space)"}
+{"id": "folio_validation_381", "nl": "A duster is a household appliance that doesn't suck.", "fol": "(IsHouseholdAppliance(Duster) & -Sucks(Duster))"}
+{"id": "folio_validation_382", "nl": "Space sucks.", "fol": "Sucks(Space)"}
+{"id": "folio_validation_383", "nl": "Space is a vampire.", "fol": "IsVampire(Space)"}
+{"id": "folio_validation_384", "nl": "If something is a household appliance, it sucks.", "fol": "all x.(IsHouseholdAppliance(x) -> Sucks(x))"}
+{"id": "folio_validation_385", "nl": "Machine Learning algorithms can be categorized as supervised learning, unsupervised learning, and reinforcement learning.", "fol": "all x.(MachineLearningAlgorithm(x) -> (CategorizedAsSupervisedLearning(x) | CategorizedAsUnsupervisedLearning(x) | CategorizedAsReinforcementLearning(x)))"}
+{"id": "folio_validation_386", "nl": "Unsupervised learning doesn't require labelled data.", "fol": "all x.(CategorizedAsUnsupervisedLearning(x) -> -RequiresLabelledData(x))"}
+{"id": "folio_validation_387", "nl": "The state-of-the-art text summarization model is BART.", "fol": "TextSummarizationModel(Bart)"}
+{"id": "folio_validation_388", "nl": "The state-of-the-art text summarization model is trained with machine learning algorithms.", "fol": "all x.(TextSummarizationModel(x) -> MachineLearningAlgorithm(x))"}
+{"id": "folio_validation_389", "nl": "Reinforcement learning is not used to train the state-of-the-art text summarization model.", "fol": "all x.(TextSummarizationModel(x) -> -CategorizedAsReinforcementLearning(x))"}
+{"id": "folio_validation_390", "nl": "The Machine Learning algorithm for training text summarization model requires labelled data.", "fol": "all x.((MachineLearningAlgorithm(x) & TextSummarizationModel(x)) -> RequiresLabelledData(x))"}
+{"id": "folio_validation_391", "nl": "Supervised learning is used to train the state-of-the-art text summarization model.", "fol": "all x.(TextSummarizationModel(x) -> CategorizedAsSupervisedLearning(x))"}
+{"id": "folio_validation_392", "nl": "Unsupervised learning is used to train the state-of-the-art text summarization model.", "fol": "all x.(TextSummarizationModel(x) -> CategorizedAsUnsupervisedLearning(x))"}
+{"id": "folio_validation_393", "nl": "If a cartoon character is funny, then it is popular.", "fol": "all x.(IsFunny(x) -> IsPopular(x))"}
+{"id": "folio_validation_394", "nl": "If a cartoon character is ugly, then it is not popular.", "fol": "all x.(IsUgly(x) -> -IsPopular(x))"}
+{"id": "folio_validation_395", "nl": "If a cartoon character is loved by children, then it is funny.", "fol": "all x.(IsLovedByChildren(Children,x) -> IsFunny(x))"}
+{"id": "folio_validation_396", "nl": "If a cartoon character is from The Simpsons, then it is loved by children.", "fol": "all x.(IsFromTheSimpsons(x) -> IsLovedByChildren(Children,x))"}
+{"id": "folio_validation_397", "nl": "If a cartoon character is yellow, then it is from The Simpsons.", "fol": "all x.(IsYellow(x) -> IsFromTheSimpsons(x))"}
+{"id": "folio_validation_398", "nl": "Ben is either from The Simpsons or funny.", "fol": "((IsFromTheSimpsons(Ben) & -IsFunny(Ben)) | (-IsFromTheSimpsons(Ben) & IsFunny(Ben)))"}
+{"id": "folio_validation_399", "nl": "Ben is loved by children.", "fol": "IsLovedByChildren(Children,Ben)"}
+{"id": "folio_validation_400", "nl": "Ben is ugly or yellow.", "fol": "(IsUgly(Ben) | IsYellow(Ben))"}
+{"id": "folio_validation_401", "nl": "Ben is either yellow and ugly or neither yellow nor ugly.", "fol": "((IsYellow(Ben) & IsUgly(Ben) & -(-IsYellow(Ben) & -IsUgly(Ben))) | (-(IsYellow(Ben) & IsUgly(Ben)) & -IsYellow(Ben) & -IsUgly(Ben)))"}
+{"id": "folio_validation_402", "nl": "Breeding back is a form of artificial selection by the deliberate selective breeding of domestic animals.", "fol": "all x y.(DeliberateSelectiveBreeding(x,y) -> IsArtificialSelection(x))"}
+{"id": "folio_validation_403", "nl": "Heck cattle were bred-back in the 1920s to resemble the aurochs.", "fol": "exists x y.(HeckCattle(x) & Aurochs(y) & DeliberateSelectiveBreeding(x,y))"}
+{"id": "folio_validation_404", "nl": "[BG] Heck cattle are animals.", "fol": "all x.(HeckCattle(x) -> IsAnimal(x))"}
+{"id": "folio_validation_405", "nl": "[BG] Aurochs are animals.", "fol": "all x.(Aurochs(x) -> IsAnimal(x))"}
+{"id": "folio_validation_406", "nl": "Some animals to be bred-back resemble animals that are extinct.", "fol": "exists x y.(IsAnimal(x) & IsAnimal(y) & DeliberateSelectiveBreeding(x,y) & IsExtinct(y))"}
+{"id": "folio_validation_407", "nl": "Some Heck cattle are artificially selected.", "fol": "exists x.(HeckCattle(x) & IsArtificialSelection(x))"}
+{"id": "folio_validation_408", "nl": "Aurochs are extinct.", "fol": "all x.(Aurochs(x) -> IsExtinct(x))"}
+{"id": "folio_validation_409", "nl": "All students are humans. ", "fol": "all x.(IsStudent(x) -> IsHuman(x))"}
+{"id": "folio_validation_410", "nl": "If someone studies, then they are a student.", "fol": "all x.(Studies(x) -> IsStudent(x))"}
+{"id": "folio_validation_411", "nl": "A person either studys or teaches.", "fol": "all x.(Studies(x) | Teaches(x))"}
+{"id": "folio_validation_412", "nl": "No young person teaches.", "fol": "all x.(IsYoung(x) -> -Teaches(x))"}
+{"id": "folio_validation_413", "nl": "Jerry neither teaches nor is a manager.", "fol": "(-Teaches(Jerry) & -IsManager(Jerry))"}
+{"id": "folio_validation_414", "nl": "Rose is young or a student.", "fol": "(IsYoung(Rose) | IsStudent(Rose))"}
+{"id": "folio_validation_415", "nl": "Jerry is young.", "fol": "IsYoung(Jerry)"}
+{"id": "folio_validation_416", "nl": "Jerry is not young.", "fol": "-IsYoung(Jerry)"}
+{"id": "folio_validation_417", "nl": "Rose is a human or a manager.", "fol": "(IsHuman(Rose) | IsManager(Rose))"}
+{"id": "folio_validation_418", "nl": "Rose is a human or Jerry is a manager.", "fol": "(IsHuman(Rose) | IsManager(Jerry))"}
+{"id": "folio_validation_419", "nl": "It is not true that Rose is a student and Jerry is a human.", "fol": "-(IsStudent(Rose) & IsHuman(Jerry))"}
+{"id": "folio_validation_420", "nl": "New Vessel Press is a publishing house which specializes in translating foreign literature into English.", "fol": "(IsPublishingHouse(Newvesselpress) & SpecializesInTranslation(Newvessel,Translatingforeignliteratureintoenglish))"}
+{"id": "folio_validation_421", "nl": "All of New Vessel Press's published books are in English.", "fol": "all x.((IsBook(x) & PublishedByPublisher(x,Newvesselpress)) -> IsInLanguage(x,English))"}
+{"id": "folio_validation_422", "nl": "Neapolitan Chronicles is a book published by New Vessel Press.", "fol": "(IsBook(Neapolitanchronicles) & PublishedByPublisher(Neapolitanchronicles,Newvesselpress))"}
+{"id": "folio_validation_423", "nl": "Neapolitan Chronicles was translated from Italian.", "fol": "TranslatedFromLanguage(Neapolitanchronicles,Italian)"}
+{"id": "folio_validation_424", "nl": "Palace of Flies is a book published by New Vessel Press.", "fol": "(IsBook(Palaceofflies) & PublishedByPublisher(Palaceofflies,Newvesselpress))"}
+{"id": "folio_validation_425", "nl": "Neapolitan Chronicles is an English book.", "fol": "(IsBook(Neapolitanchronicles) & IsInLanguage(Neapolitanchronicles,English))"}
+{"id": "folio_validation_426", "nl": "Harry Potter was published by New Vessel Press.", "fol": "PublishedByPublisher(Harrrypotter,Newvesselpress)"}
+{"id": "folio_validation_427", "nl": "Palace of Flies was translated from Italian.", "fol": "TranslatedFromLanguage(Palaceofflies,Italian)"}
+{"id": "folio_validation_428", "nl": "If people own a large desktop monitor at their home, then they work regularly and often at home.", "fol": "all x.(OwnsLargeDesktopMonitor(x) -> WorksRegularlyAtHome(x))"}
+{"id": "folio_validation_429", "nl": "All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home.", "fol": "all x.(HasImpressiveHomeOffice(x) -> OwnsLargeDesktopMonitor(x))"}
+{"id": "folio_validation_430", "nl": "All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes.", "fol": "all x.(WorksRegularlyAtHome(x) -> TidiesAndOrganizesHome(x))"}
+{"id": "folio_validation_431", "nl": "All people who work regularly and often at home visit the office supply store regularly.", "fol": "all x.(WorksRegularlyAtHome(x) -> VisitsOfficeSupplyStore(x))"}
+{"id": "folio_validation_432", "nl": "If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. ", "fol": "all x.(TidiesAndOrganizesHome(x) -> -GoesToBedLate(x))"}
+{"id": "folio_validation_433", "nl": "Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. ", "fol": "((GoesToBedLate(Remy) & TidiesAndOrganizesHome(Remy) & -(-GoesToBedLate(Remy) & -TidiesAndOrganizesHome(Remy))) | (-(GoesToBedLate(Remy) & TidiesAndOrganizesHome(Remy)) & -GoesToBedLate(Remy) & -TidiesAndOrganizesHome(Remy)))"}
+{"id": "folio_validation_434", "nl": "Remy visits the office supply store regularly.", "fol": "VisitsOfficeSupplyStore(Remy)"}
+{"id": "folio_validation_435", "nl": "Remy has a fully stocked and impressive home office and also visits the office supply store regularly.", "fol": "(HasImpressiveHomeOffice(Remy) & VisitsOfficeSupplyStore(Remy))"}
+{"id": "folio_validation_436", "nl": "If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.", "fol": "((GoesToBedLate(Remy) | VisitsOfficeSupplyStore(Remy)) -> -(TidiesAndOrganizesHome(Remy) | HasImpressiveHomeOffice(Remy)))"}
+{"id": "folio_validation_437", "nl": "All humans are mortal.", "fol": "all x.(IsHuman(x) -> IsMortal(x))"}
+{"id": "folio_validation_438", "nl": "All Greeks are humans.", "fol": "all x.(IsGreek(x) -> IsHuman(x))"}
+{"id": "folio_validation_439", "nl": "Some Greeks are mortal.", "fol": "exists x.(IsGreek(x) & IsMortal(x))"}
+{"id": "folio_validation_440", "nl": "No students who work in the library are from the computer science department. ", "fol": "all x.(WorksInLibrary(x) -> -IsComputerScienceStudent(x))"}
+{"id": "folio_validation_441", "nl": "All students who have part-time jobs offered by the university are students who work in the library. ", "fol": "all x.(HasPartTimeJob(x) -> WorksInLibrary(x))"}
+{"id": "folio_validation_442", "nl": "All students who take the database course are from the computer science department. ", "fol": "all x.(TakesDatabaseCourse(x) -> IsComputerScienceStudent(x))"}
+{"id": "folio_validation_443", "nl": "All students instructed by professor David are taking the database course. ", "fol": "all x.(InstructedByProfessorDavid(x) -> TakesDatabaseCourse(x))"}
+{"id": "folio_validation_444", "nl": "All students working in the lab are instructed by professor David. ", "fol": "all x.(WorksInLab(x) -> InstructedByProfessorDavid(x))"}
+{"id": "folio_validation_445", "nl": "James is a student working in the lab. ", "fol": "WorksInLab(James)"}
+{"id": "folio_validation_446", "nl": "Jack neither has a part-time job offered by the university nor works in the lab. ", "fol": "(-HasPartTimeJob(Jack) & -WorksInLab(Jack))"}
+{"id": "folio_validation_447", "nl": "James has a part-time job offered by the university.", "fol": "HasPartTimeJob(James)"}
+{"id": "folio_validation_448", "nl": "James does not have a part-time job offered by the university.", "fol": "-HasPartTimeJob(James)"}
+{"id": "folio_validation_449", "nl": "James either takes the database course or has a part-time job offered by the university.", "fol": "((TakesDatabaseCourse(James) & -HasPartTimeJob(James)) | (-TakesDatabaseCourse(James) & HasPartTimeJob(James)))"}
+{"id": "folio_validation_450", "nl": "Jack takes the database course.", "fol": "TakesDatabaseCourse(Jack)"}
+{"id": "folio_validation_451", "nl": "If George likes music, he wants to compose.", "fol": "(LikesMusic(George) -> DesiresToCompose(George))"}
+{"id": "folio_validation_452", "nl": "If George has access to a program, he can compose.", "fol": "(HasAccessToProgram(George) -> AbleToCompose(George))"}
+{"id": "folio_validation_453", "nl": "If George can compose and wants to compose, he will compose.", "fol": "((DesiresToCompose(George) & AbleToCompose(George)) -> WillCompose(George))"}
+{"id": "folio_validation_454", "nl": "If George likes music and has access to a program, he will compose.", "fol": "((LikesMusic(George) & HasAccessToProgram(George)) -> WillCompose(George))"}
+{"id": "folio_validation_455", "nl": "If George will not compose, George can not compose.", "fol": "(-DesiresToCompose(George) -> -WillCompose(George))"}
+{"id": "folio_validation_456", "nl": "A hawk never lands. ", "fol": "all x.(IsHawk(x) -> -Lands(x))"}
+{"id": "folio_validation_457", "nl": "Some birds are hawks.", "fol": "exists x.(IsBird(x) & IsHawk(x))"}
+{"id": "folio_validation_458", "nl": "All birds land", "fol": "all x.(IsBird(x) -> Lands(x))"}
+{"id": "folio_validation_459", "nl": "On some Mondays at 8 pm, roses are given out on TV.", "fol": "exists x.(OnMondayAt8PM(x) & RosesGivenOutOnTV(x))"}
+{"id": "folio_validation_460", "nl": "Every rose given out on TV is on the Bachelor.", "fol": "all x.(RosesGivenOutOnTV(x) -> IsOnBachelor(x))"}
+{"id": "folio_validation_461", "nl": "Everything on the Bachelor portrays the lives of real people.", "fol": "all x.(IsOnBachelor(x) -> PortraysLivesOfRealPeople(x))"}
+{"id": "folio_validation_462", "nl": "All shows portraying the lives of real people are reality TV shows.", "fol": "all x.(PortraysLivesOfRealPeople(x) -> IsRealityTVShow(x))"}
+{"id": "folio_validation_463", "nl": "Breaking Bad is not a reality TV show.", "fol": "-IsRealityTVShow(BreakingBad)"}
+{"id": "folio_validation_464", "nl": "Breaking Bad is on Monday at 8 pm.", "fol": "OnMondayAt8PM(BreakingBad)"}
+{"id": "folio_validation_465", "nl": "Breaking Bad is a TV show in which roses are given out on Monday at 8 pm.", "fol": "(OnMondayAt8PM(BreakingBad) & RosesGivenOutOnTV(BreakingBad))"}
+{"id": "folio_validation_466", "nl": "If roses are given out during Breaking Bad, then it is on Monday at 8 pm.", "fol": "(RosesGivenOutOnTV(BreakingBad) -> OnMondayAt8PM(BreakingBad))"}
+{"id": "folio_validation_467", "nl": "Heinrich Scmidt was a Nazi German politician. ", "fol": "(OriginatesFrom(HeinrichScmidt,NaziGermany) & IsPolitician(HeinrichScmidt))"}
+{"id": "folio_validation_468", "nl": "Heeinrich Scmidt was also a member of the Prussian State Parliament and the Nazi Reichstag.", "fol": "(IsMemberOf(HeinrichScmidt,PrussianStateParliament) & IsMemberOf(HeinrichScmidt,NaziReichstag))"}
+{"id": "folio_validation_469", "nl": "Heinrich Schmidt was either German or Russian.", "fol": "(OriginatesFrom(HeinrichScmidt,NaziGermany) | OriginatesFrom(HeinrichScmidt,Russia))"}
+{"id": "folio_validation_470", "nl": "Some Nazi German politician was part of both the Prussian State Parliament and the Nazi Reichstag.", "fol": "exists x.(OriginatesFrom(x,NaziGermany) & IsPolitician(x) & IsMemberOf(x,PrussianStateParliament) & IsMemberOf(x,NaziReichstag))"}
+{"id": "folio_validation_471", "nl": "No politicans are part of the Nazi Reichstag.", "fol": "all x.(IsPolitician(x) -> -IsMemberOf(x,NaziReichstag))"}
+{"id": "folio_validation_472", "nl": "If something is a deadly disease, then its survival rate is low. ", "fol": "all x.(IsDeadlyDisease(x) -> HasLowSurvivalRate(x))"}
+{"id": "folio_validation_473", "nl": "All severe cancers are deadly diseases.", "fol": "all x.(IsSevereCancer(x) -> IsDeadlyDisease(x))"}
+{"id": "folio_validation_474", "nl": "Bile duct cancer is a severe cancer. ", "fol": "all x.(IsBileDuctCancer(x) -> IsSevereCancer(x))"}
+{"id": "folio_validation_475", "nl": "All Cholangiocarcinoma is bile duct cancer.", "fol": "all x.(IsCholangiocarcinoma(x) -> IsBileDuctCancer(x))"}
+{"id": "folio_validation_476", "nl": "No one with mild flu has a low survival rate.", "fol": "all x.(HasMildFlu(x) -> -HasLowSurvivalRate(x))"}
+{"id": "folio_validation_477", "nl": "If colorectal cancer is a bile duct cancer and the survival rate is low, then colorectal cancer is not a bile duct cancer.", "fol": "((IsBileDuctCancer(ColorectalCancer) | HasLowSurvivalRate(ColorectalCancer)) -> -IsBileDuctCancer(ColorectalCancer))"}
+{"id": "folio_validation_478", "nl": "Colorectal cancer is a severe cancer", "fol": "IsSevereCancer(ColorectalCancer)"}
+{"id": "folio_validation_479", "nl": "If colorectal cancer is a bile duct cancer or a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer and a mild flu.", "fol": "((IsBileDuctCancer(ColorectalCancer) | IsCholangiocarcinoma(ColorectalCancer)) -> (IsBileDuctCancer(ColorectalCancer) & HasMildFlu(ColorectalCancer)))"}
+{"id": "folio_validation_480", "nl": "If colorectal cancer is not a mild flu and a Cholangiocarcinoma, then colorectal cancer is a bile duct cancer or a Cholangiocarcinoma.", "fol": "(((-HasMildFlu(ColorectalCancer) | -IsCholangiocarcinoma(ColorectalCancer)) -> IsBileDuctCancer(ColorectalCancer)) | IsCholangiocarcinoma(ColorectalCancer))"}
+{"id": "folio_validation_481", "nl": "All people who eat salads regularly are very conscious about their health and eating habits.", "fol": "all x.(EatsSaladRegularly(x) -> ConsciousAboutHealth(x))"}
+{"id": "folio_validation_482", "nl": "All people who grew up in health-conscious childhood homes eat salads regularly.", "fol": "all x.(GrewUpInHealthConsciousHome(x) -> EatsSaladRegularly(x))"}
+{"id": "folio_validation_483", "nl": "All people who fulfill their nutritional daily intakes grew up in health-conscious childhood homes.", "fol": "all x.(FulfillsNutritionalIntake(x) -> GrewUpInHealthConsciousHome(x))"}
+{"id": "folio_validation_484", "nl": "If people have good relationships with their parents, then they fulfill their nutritional daily intakes.", "fol": "all x.(HasGoodRelationshipWithParents(x) -> -ConsciousAboutHealth(x))"}
+{"id": "folio_validation_485", "nl": "If people have good relationships with their parents, then they do not eat salads regularly.", "fol": "all x.(VisitsGymRegularly(x) -> FulfillsNutritionalIntake(x))"}
+{"id": "folio_validation_486", "nl": "If people visit the gym at least once a day, then they always fulfill their daily nutritional intakes.", "fol": "(((GrewUpInHealthConsciousHome(Taylor) & HasGoodRelationshipWithParents(Taylor)) | -GrewUpInHealthConsciousHome(Taylor)) & -HasGoodRelationshipWithParents(Marcy))"}
+{"id": "folio_validation_487", "nl": "Taylor eats salads regularly.", "fol": "EatsSaladRegularly(Taylor)"}
+{"id": "folio_validation_488", "nl": "Taylor visits the gym at least once a day.", "fol": "VisitsGymRegularly(Taylor)"}
+{"id": "folio_validation_489", "nl": "Taylor neither grew up in a health-conscious childhood home nor does she visit the gym at least once a day.", "fol": "-(GrewUpInHealthConsciousHome(Taylor) | VisitsGymRegularly(Taylor))"}
+{"id": "folio_validation_490", "nl": "[BG] The Olympic games is a sporting event. ", "fol": "IsSportingEvent(Olympics)"}
+{"id": "folio_validation_491", "nl": "The last Olympic games was in Tokyo.", "fol": "LastOlympicGames(Tokyo)"}
+{"id": "folio_validation_492", "nl": "The United States won the most medals in Tokyo. ", "fol": "WonMostMedals(UnitedStates,Tokyo)"}
+{"id": "folio_validation_493", "nl": "The world championships is a sporting event.", "fol": "IsSportingEvent(Champs)"}
+{"id": "folio_validation_494", "nl": "The last Olympic games were not in Tokyo.", "fol": "-LastOlympicGames(Tokyo)"}
+{"id": "folio_validation_495", "nl": "The United States won the most medals in the last Olympic games.", "fol": "exists x.(LastOlympicGames(x) & WonMostMedals(UnitedStates,x))"}
+{"id": "folio_validation_496", "nl": "All horses have hooves.", "fol": "all x.(IsHorse(x) -> HasHooves(x))"}
+{"id": "folio_validation_497", "nl": "No humans have hooves.", "fol": "all x.(IsHuman(x) -> -HasHooves(x))"}
+{"id": "folio_validation_498", "nl": "Some humans are horses.", "fol": "exists x.(IsHuman(x) & IsHorse(x))"}
+{"id": "folio_validation_499", "nl": "Susan flies to LGA airport.", "fol": "FlyToAirport(Susan,Lga)"}
+{"id": "folio_validation_500", "nl": "The departure and arrival can not be the same airport.", "fol": "all x y.((FlyFromAirport(x,y) & -FlyToAirport(x,y)) | (-FlyFromAirport(x,y) & FlyToAirport(x,y)))"}
+{"id": "folio_validation_501", "nl": "John flies from LGA airport.", "fol": "FlyFromAirport(John,Lga)"}
+{"id": "folio_validation_502", "nl": "Susan flies from LGA airport.", "fol": "FlyFromAirport(Susan,Lga)"}
+{"id": "folio_validation_503", "nl": "John flies to LGA airport.", "fol": "FlyToAirport(John,Lga)"}
+{"id": "folio_validation_504", "nl": "No one nice to animals is mean to animals.", "fol": "all x.(NiceToAnimals(x) -> -MeanToAnimals(x))"}
+{"id": "folio_validation_505", "nl": "Some grumpy people are mean to animals.", "fol": "exists x.(GrumpyPerson(x) & MeanToAnimals(x))"}
+{"id": "folio_validation_506", "nl": "All animal lovers are nice to animals.", "fol": "all x.(LovesAnimals(x) -> NiceToAnimals(x))"}
+{"id": "folio_validation_507", "nl": "If someone owns a pet, then they love animals.", "fol": "all x.(OwnsPet(x) -> LovesAnimals(x))"}
+{"id": "folio_validation_508", "nl": "Tom is a pet owner.", "fol": "OwnsPet(Tom)"}
+{"id": "folio_validation_509", "nl": "Tom is a grumpy person.", "fol": "GrumpyPerson(Tom)"}
+{"id": "folio_validation_510", "nl": "Tom is not a grumpy person and mean to animals.", "fol": "-(GrumpyPerson(Tom) & MeanToAnimals(Tom))"}
+{"id": "folio_validation_511", "nl": "If Tom is not a grumpy person and mean to animals, then Tom is neither a grumpy person nor an Animal Lover.", "fol": "(-(GrumpyPerson(Tom) & MeanToAnimals(Tom)) -> -(GrumpyPerson(Tom) | LovesAnimals(Tom)))"}
+{"id": "folio_validation_512", "nl": "A podcast is not a novel.", "fol": "all x.(Podcast(x) -> -Novel(x))"}
+{"id": "folio_validation_513", "nl": "[BG] If a person is born in American City, the person is American.", "fol": "all x.exists y.((BornInCity(x,y) & City(y) & AmericanStatus(y)) -> AmericanStatus(x))"}
+{"id": "folio_validation_514", "nl": "[BG] If a book is novel and it is written by a person, then the person is a novel writer.", "fol": "all x y.((Novel(x) & WrittenByAuthor(x,y)) -> NovelWriter(y))"}
+{"id": "folio_validation_515", "nl": "Dani Shapiro is an American writer.", "fol": "(AmericanStatus(Dani_Shapiro) & Writer(Dani_Shapiro))"}
+{"id": "folio_validation_516", "nl": "Family History is written by Dani Shapiro.", "fol": "WrittenByAuthor(Family_History,Dani_Shapiro)"}
+{"id": "folio_validation_517", "nl": "Family History is a novel written in 2003.", "fol": "(Novel(Family_History) & PublishedInYear(Family_History,Y2003))"}
+{"id": "folio_validation_518", "nl": "Dani Shapiro created a podcast called Family Secrets.", "fol": "(Podcast(Family_Secrets) & CreatedByAuthor(Family_Secrets,Dani_Shapiro))"}
+{"id": "folio_validation_519", "nl": "[BG] Boston is an American city.", "fol": "(City(Boston) & AmericanStatus(Boston))"}
+{"id": "folio_validation_520", "nl": "Dani Shapiro is a novel writer.", "fol": "NovelWriter(Dani_Shapiro)"}
+{"id": "folio_validation_521", "nl": "Family Secrets is a novel.", "fol": "Novel(Family_Secrets)"}
+{"id": "folio_validation_522", "nl": "Dani Shapiro was born in Boston.", "fol": "BornInCity(Dani_Shapiro,Boston)"}
+{"id": "folio_validation_523", "nl": "Some basketball players are not American.", "fol": "exists x.(IsBasketballPlayer(x) & -IsAmerican(x))"}
+{"id": "folio_validation_524", "nl": "All basketball players are tall.", "fol": "all x.(IsBasketballPlayer(x) -> IsTall(x))"}
+{"id": "folio_validation_525", "nl": "If someone is tall, they wear large shoes.", "fol": "all x.(IsTall(x) -> WearsLargeShoes(x))"}
+{"id": "folio_validation_526", "nl": "If someone wears large shoes, they wear large-sized clothes.", "fol": "all x.(WearsLargeShoes(x) -> WearsLargeClothes(x))"}
+{"id": "folio_validation_527", "nl": "Yuri does not wear large-size clothes.", "fol": "-WearsLargeClothes(Yuri)"}
+{"id": "folio_validation_528", "nl": "Yuri is an American.", "fol": "IsAmerican(Yuri)"}
+{"id": "folio_validation_529", "nl": "Yuri is not an American basketball player.", "fol": "-(IsAmerican(Yuri) & IsBasketballPlayer(Yuri))"}
+{"id": "folio_validation_530", "nl": "Yuri is an American basketball player.", "fol": "(IsAmerican(Yuri) & IsBasketballPlayer(Yuri))"}
+{"id": "folio_validation_531", "nl": "If Yuri does not wear large shoes, then Yuri is an American basketball player.", "fol": "(-WearsLargeShoes(Yuri) -> (IsAmerican(Yuri) & IsBasketballPlayer(Yuri)))"}
+{"id": "folio_validation_532", "nl": "If Yuri is not an American basketball player, then Yuri is a basketball player.", "fol": "(-(IsAmerican(Yuri) & IsBasketballPlayer(Yuri)) -> IsBasketballPlayer(Yuri))"}
+{"id": "folio_validation_533", "nl": "Events are either happy or sad.", "fol": "all x.(((EventOccurrence(x) -> IsHappy(x)) & -IsSad(x)) | (-(EventOccurrence(x) -> IsHappy(x)) & IsSad(x)))"}
+{"id": "folio_validation_534", "nl": "At least one event is happy. ", "fol": "exists x.(EventOccurrence(x) & IsHappy(x))"}
+{"id": "folio_validation_535", "nl": "All events are sad.", "fol": "all x.(EventOccurrence(x) -> IsSad(x))"}
+{"id": "folio_validation_536", "nl": "The winner of the 1992 du Maurier Classic was Steinhauer.", "fol": "WinnerOfDuMaurierClassic1992(Maurier,Steinhauer)"}
+{"id": "folio_validation_537", "nl": "Steinhauer participated in the 1992 du Maurier Classic.", "fol": "ParticipatedInDuMaurierClassic1992(Maurier,Steinhauer)"}
+{"id": "folio_validation_538", "nl": "There was one six-way tie on the leaderboard and one person in the six-way tie was from Belgium.", "fol": "exists x.(LeaderboardOfDuMaurierClassic1992(Maurier,x) & HasSixWayTie(x) & IsFromBelgium(x))"}
+{"id": "folio_validation_539", "nl": "Descampe is from Belgium and is on the leaderboard of the 1992 du Maurier Classic.", "fol": "(IsFromBelgium(Descampe) & LeaderboardOfDuMaurierClassic1992(Maurier,Descampe))"}
+{"id": "folio_validation_540", "nl": "All people on the leaderboard of the 1992 du Maurier Classic participated in the 1992 du Maurier Classic.", "fol": "all x.(LeaderboardOfDuMaurierClassic1992(Maurier,x) -> ParticipatedInDuMaurierClassic1992(Maurier,x))"}
+{"id": "folio_validation_541", "nl": "Steinhauer was not the winner of the 1992 du Maurier Classic.", "fol": "-WinnerOfDuMaurierClassic1992(Maurier,Steinhauer)"}
+{"id": "folio_validation_542", "nl": "Descampe is in the six-way tie in the leaderboard of the 1992 du Maurier Classic.", "fol": "HasSixWayTie(Descampe)"}
+{"id": "folio_validation_543", "nl": "If an animal barks, then Jane does not like it.", "fol": "all x.(Barks(x) -> -Likes(Jane,x))"}
+{"id": "folio_validation_544", "nl": "All dogs are animals that bark.", "fol": "all x.(IsDog(x) -> Barks(x))"}
+{"id": "folio_validation_545", "nl": "If an animal jumps, then Jane likes it.", "fol": "all x.(Jumps(x) -> Likes(Jane,x))"}
+{"id": "folio_validation_546", "nl": "If an animal has legs, then it jumps.", "fol": "all x.(HasLegs(x) -> Jumps(x))"}
+{"id": "folio_validation_547", "nl": "If an animal is terricolous, then it has legs. ", "fol": "all x.(IsTerricolous(x) -> HasLegs(x))"}
+{"id": "folio_validation_548", "nl": "If KiKi neither jumps nor has legs, then KiKi is terricolous or has legs.", "fol": "((-Jumps(Kiki) & -HasLegs(Kiki)) -> (IsTerricolous(Kiki) | HasLegs(Kiki)))"}
+{"id": "folio_validation_549", "nl": "KiKi is terricolous.", "fol": "IsTerricolous(Kiki)"}
+{"id": "folio_validation_550", "nl": "KiKi barks and is a dog.", "fol": "(Barks(Kiki) & IsDog(Kiki))"}
+{"id": "folio_validation_551", "nl": "KiKi neither barks nor is a dog.", "fol": "(-Barks(Kiki) & -IsDog(Kiki))"}
+{"id": "folio_validation_552", "nl": "Ailton Silva, born in 1995, is commonly known as Ailton.", "fol": "(BornInYear(Ailtonsilva,Y1995) & KnownAs(Ailtonsilva,Ailton))"}
+{"id": "folio_validation_553", "nl": "Ailton is a football player who was loaned out to Braga.", "fol": "(IsFootballPlayer(Ailton) & LoanedToClub(Ailton,Braga))"}
+{"id": "folio_validation_554", "nl": "Ailton Silva is a Brazillian footballer who plays for Nautico.", "fol": "(IsBrazilian(Ailtonsilva) & IsFootballPlayer(Ailtonsilva) & PlaysForClub(Ailtonsilva,Nautico))"}
+{"id": "folio_validation_555", "nl": "Nautico is a football club along with Braga.", "fol": "(IsFootballClub(Nautico) & IsFootballClub(Braga))"}
+{"id": "folio_validation_556", "nl": "Fluminense is a football club.", "fol": "IsFootballClub(Fluminense)"}
+{"id": "folio_validation_557", "nl": "No one playing for Nautico is Brazilian.", "fol": "all x.(PlaysForClub(x,Nautico) -> -IsBrazilian(x))"}
+{"id": "folio_validation_558", "nl": "Ailton Silva foes not play for a football club.", "fol": "all x.(IsFootballClub(x) -> -PlaysForClub(Ailtonsilva,x))"}
+{"id": "folio_validation_559", "nl": "Ailton was not loaned out to a football club.", "fol": "all x.(IsFootballClub(x) -> -LoanedToClub(Ailton,x))"}
+{"id": "folio_validation_560", "nl": "Ailton Silva played for Fluminense.", "fol": "PlaysForClub(Ailtonsilva,Fluminense)"}
+{"id": "folio_validation_561", "nl": "Ailton Silva was loaned out to a football club.", "fol": "exists x.(IsFootballClub(x) & LoanedToClub(Ailtonsilva,x))"}

@@ -1,0 +1,800 @@
+{"premises": ["prontoqa_train_0", "prontoqa_train_1"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_3", "prontoqa_train_4"], "conclusion": "prontoqa_train_5", "label": "entailment"}
+{"premises": ["prontoqa_train_6", "prontoqa_train_7"], "conclusion": "prontoqa_train_8", "label": "entailment"}
+{"premises": ["prontoqa_train_9", "prontoqa_train_10"], "conclusion": "prontoqa_train_11", "label": "entailment"}
+{"premises": ["prontoqa_train_12", "prontoqa_train_13"], "conclusion": "prontoqa_train_11", "label": "entailment"}
+{"premises": ["prontoqa_train_14", "prontoqa_train_15"], "conclusion": "prontoqa_train_16", "label": "entailment"}
+{"premises": ["prontoqa_train_17", "prontoqa_train_18"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_20", "prontoqa_train_21"], "conclusion": "prontoqa_train_22", "label": "entailment"}
+{"premises": ["prontoqa_train_23", "prontoqa_train_24"], "conclusion": "prontoqa_train_25", "label": "entailment"}
+{"premises": ["prontoqa_train_26", "prontoqa_train_27"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_6", "prontoqa_train_29"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_31", "prontoqa_train_32"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_34", "prontoqa_train_35"], "conclusion": "prontoqa_train_36", "label": "entailment"}
+{"premises": ["prontoqa_train_37", "prontoqa_train_38"], "conclusion": "prontoqa_train_39", "label": "entailment"}
+{"premises": ["prontoqa_train_40", "prontoqa_train_41"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_43", "prontoqa_train_44"], "conclusion": "prontoqa_train_45", "label": "entailment"}
+{"premises": ["prontoqa_train_46", "prontoqa_train_47"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_48", "prontoqa_train_49"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_51", "prontoqa_train_52"], "conclusion": "prontoqa_train_53", "label": "entailment"}
+{"premises": ["prontoqa_train_54", "prontoqa_train_55"], "conclusion": "prontoqa_train_56", "label": "entailment"}
+{"premises": ["prontoqa_train_57", "prontoqa_train_58"], "conclusion": "prontoqa_train_59", "label": "entailment"}
+{"premises": ["prontoqa_train_60", "prontoqa_train_61"], "conclusion": "prontoqa_train_62", "label": "entailment"}
+{"premises": ["prontoqa_train_63", "prontoqa_train_64"], "conclusion": "prontoqa_train_65", "label": "entailment"}
+{"premises": ["prontoqa_train_66", "prontoqa_train_67"], "conclusion": "prontoqa_train_68", "label": "entailment"}
+{"premises": ["prontoqa_train_69", "prontoqa_train_70"], "conclusion": "prontoqa_train_36", "label": "entailment"}
+{"premises": ["prontoqa_train_71", "prontoqa_train_72"], "conclusion": "prontoqa_train_73", "label": "entailment"}
+{"premises": ["prontoqa_train_74", "prontoqa_train_75"], "conclusion": "prontoqa_train_76", "label": "entailment"}
+{"premises": ["prontoqa_train_77", "prontoqa_train_78"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_79", "prontoqa_train_80"], "conclusion": "prontoqa_train_81", "label": "entailment"}
+{"premises": ["prontoqa_train_82", "prontoqa_train_83"], "conclusion": "prontoqa_train_84", "label": "entailment"}
+{"premises": ["prontoqa_train_85", "prontoqa_train_86"], "conclusion": "prontoqa_train_87", "label": "entailment"}
+{"premises": ["prontoqa_train_88", "prontoqa_train_89"], "conclusion": "prontoqa_train_90", "label": "entailment"}
+{"premises": ["prontoqa_train_91", "prontoqa_train_92"], "conclusion": "prontoqa_train_93", "label": "entailment"}
+{"premises": ["prontoqa_train_94", "prontoqa_train_95"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_96", "prontoqa_train_97"], "conclusion": "prontoqa_train_98", "label": "entailment"}
+{"premises": ["prontoqa_train_99", "prontoqa_train_100"], "conclusion": "prontoqa_train_101", "label": "entailment"}
+{"premises": ["prontoqa_train_102", "prontoqa_train_103"], "conclusion": "prontoqa_train_104", "label": "entailment"}
+{"premises": ["prontoqa_train_105", "prontoqa_train_106"], "conclusion": "prontoqa_train_98", "label": "entailment"}
+{"premises": ["prontoqa_train_107", "prontoqa_train_108"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_109", "prontoqa_train_110"], "conclusion": "prontoqa_train_68", "label": "entailment"}
+{"premises": ["prontoqa_train_111", "prontoqa_train_112"], "conclusion": "prontoqa_train_59", "label": "entailment"}
+{"premises": ["prontoqa_train_113", "prontoqa_train_114"], "conclusion": "prontoqa_train_115", "label": "entailment"}
+{"premises": ["prontoqa_train_116", "prontoqa_train_117"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_119", "prontoqa_train_120"], "conclusion": "prontoqa_train_121", "label": "entailment"}
+{"premises": ["prontoqa_train_122", "prontoqa_train_123"], "conclusion": "prontoqa_train_124", "label": "entailment"}
+{"premises": ["prontoqa_train_125", "prontoqa_train_126"], "conclusion": "prontoqa_train_104", "label": "entailment"}
+{"premises": ["prontoqa_train_127", "prontoqa_train_128"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_130", "prontoqa_train_131"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_134"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_135", "prontoqa_train_136"], "conclusion": "prontoqa_train_137", "label": "entailment"}
+{"premises": ["prontoqa_train_138", "prontoqa_train_139"], "conclusion": "prontoqa_train_140", "label": "entailment"}
+{"premises": ["prontoqa_train_141", "prontoqa_train_142"], "conclusion": "prontoqa_train_143", "label": "entailment"}
+{"premises": ["prontoqa_train_144", "prontoqa_train_145"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_147", "prontoqa_train_148"], "conclusion": "prontoqa_train_149", "label": "entailment"}
+{"premises": ["prontoqa_train_150", "prontoqa_train_151"], "conclusion": "prontoqa_train_152", "label": "entailment"}
+{"premises": ["prontoqa_train_153", "prontoqa_train_154"], "conclusion": "prontoqa_train_155", "label": "entailment"}
+{"premises": ["prontoqa_train_156", "prontoqa_train_157"], "conclusion": "prontoqa_train_158", "label": "entailment"}
+{"premises": ["prontoqa_train_71", "prontoqa_train_159"], "conclusion": "prontoqa_train_160", "label": "entailment"}
+{"premises": ["prontoqa_train_161", "prontoqa_train_162"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_164", "prontoqa_train_165"], "conclusion": "prontoqa_train_8", "label": "entailment"}
+{"premises": ["prontoqa_train_166", "prontoqa_train_167"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_168", "prontoqa_train_169"], "conclusion": "prontoqa_train_170", "label": "entailment"}
+{"premises": ["prontoqa_train_171", "prontoqa_train_172"], "conclusion": "prontoqa_train_173", "label": "entailment"}
+{"premises": ["prontoqa_train_174", "prontoqa_train_175"], "conclusion": "prontoqa_train_158", "label": "entailment"}
+{"premises": ["prontoqa_train_176", "prontoqa_train_177"], "conclusion": "prontoqa_train_178", "label": "entailment"}
+{"premises": ["prontoqa_train_179", "prontoqa_train_180"], "conclusion": "prontoqa_train_181", "label": "entailment"}
+{"premises": ["prontoqa_train_182", "prontoqa_train_183"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_184", "prontoqa_train_185"], "conclusion": "prontoqa_train_149", "label": "entailment"}
+{"premises": ["prontoqa_train_186", "prontoqa_train_187"], "conclusion": "prontoqa_train_188", "label": "entailment"}
+{"premises": ["prontoqa_train_189", "prontoqa_train_190"], "conclusion": "prontoqa_train_53", "label": "entailment"}
+{"premises": ["prontoqa_train_191", "prontoqa_train_192"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_193", "prontoqa_train_194"], "conclusion": "prontoqa_train_195", "label": "entailment"}
+{"premises": ["prontoqa_train_196", "prontoqa_train_197"], "conclusion": "prontoqa_train_81", "label": "entailment"}
+{"premises": ["prontoqa_train_122", "prontoqa_train_198"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_43", "prontoqa_train_200"], "conclusion": "prontoqa_train_201", "label": "entailment"}
+{"premises": ["prontoqa_train_202", "prontoqa_train_203"], "conclusion": "prontoqa_train_204", "label": "entailment"}
+{"premises": ["prontoqa_train_205", "prontoqa_train_206"], "conclusion": "prontoqa_train_207", "label": "entailment"}
+{"premises": ["prontoqa_train_208", "prontoqa_train_209"], "conclusion": "prontoqa_train_143", "label": "entailment"}
+{"premises": ["prontoqa_train_210", "prontoqa_train_211"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_212", "prontoqa_train_213"], "conclusion": "prontoqa_train_214", "label": "entailment"}
+{"premises": ["prontoqa_train_215", "prontoqa_train_216"], "conclusion": "prontoqa_train_217", "label": "entailment"}
+{"premises": ["prontoqa_train_218", "prontoqa_train_219"], "conclusion": "prontoqa_train_220", "label": "entailment"}
+{"premises": ["prontoqa_train_221", "prontoqa_train_222"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_6", "prontoqa_train_224"], "conclusion": "prontoqa_train_225", "label": "entailment"}
+{"premises": ["prontoqa_train_226", "prontoqa_train_227"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_228", "prontoqa_train_229"], "conclusion": "prontoqa_train_214", "label": "entailment"}
+{"premises": ["prontoqa_train_230", "prontoqa_train_231"], "conclusion": "prontoqa_train_232", "label": "entailment"}
+{"premises": ["prontoqa_train_233", "prontoqa_train_234"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_210", "prontoqa_train_235"], "conclusion": "prontoqa_train_45", "label": "entailment"}
+{"premises": ["prontoqa_train_236", "prontoqa_train_237"], "conclusion": "prontoqa_train_81", "label": "entailment"}
+{"premises": ["prontoqa_train_54", "prontoqa_train_238"], "conclusion": "prontoqa_train_207", "label": "entailment"}
+{"premises": ["prontoqa_train_239", "prontoqa_train_240"], "conclusion": "prontoqa_train_241", "label": "entailment"}
+{"premises": ["prontoqa_train_242", "prontoqa_train_243"], "conclusion": "prontoqa_train_244", "label": "entailment"}
+{"premises": ["prontoqa_train_245", "prontoqa_train_246"], "conclusion": "prontoqa_train_247", "label": "entailment"}
+{"premises": ["prontoqa_train_248", "prontoqa_train_249"], "conclusion": "prontoqa_train_250", "label": "entailment"}
+{"premises": ["prontoqa_train_251", "prontoqa_train_252"], "conclusion": "prontoqa_train_253", "label": "entailment"}
+{"premises": ["prontoqa_train_119", "prontoqa_train_254"], "conclusion": "prontoqa_train_255", "label": "entailment"}
+{"premises": ["prontoqa_train_256", "prontoqa_train_257"], "conclusion": "prontoqa_train_255", "label": "entailment"}
+{"premises": ["prontoqa_train_258", "prontoqa_train_259"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_260", "prontoqa_train_261"], "conclusion": "prontoqa_train_217", "label": "entailment"}
+{"premises": ["prontoqa_train_262", "prontoqa_train_263"], "conclusion": "prontoqa_train_155", "label": "entailment"}
+{"premises": ["prontoqa_train_264", "prontoqa_train_265"], "conclusion": "prontoqa_train_266", "label": "entailment"}
+{"premises": ["prontoqa_train_262", "prontoqa_train_267"], "conclusion": "prontoqa_train_173", "label": "entailment"}
+{"premises": ["prontoqa_train_268", "prontoqa_train_269"], "conclusion": "prontoqa_train_270", "label": "entailment"}
+{"premises": ["prontoqa_train_271", "prontoqa_train_272"], "conclusion": "prontoqa_train_73", "label": "entailment"}
+{"premises": ["prontoqa_train_273", "prontoqa_train_274"], "conclusion": "prontoqa_train_275", "label": "entailment"}
+{"premises": ["prontoqa_train_276", "prontoqa_train_277"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_191", "prontoqa_train_279"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_281", "prontoqa_train_282"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_283", "prontoqa_train_284"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_285", "prontoqa_train_286"], "conclusion": "prontoqa_train_287", "label": "entailment"}
+{"premises": ["prontoqa_train_288", "prontoqa_train_289"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_290", "prontoqa_train_291"], "conclusion": "prontoqa_train_292", "label": "entailment"}
+{"premises": ["prontoqa_train_256", "prontoqa_train_293"], "conclusion": "prontoqa_train_270", "label": "entailment"}
+{"premises": ["prontoqa_train_294", "prontoqa_train_295"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_296", "prontoqa_train_297"], "conclusion": "prontoqa_train_298", "label": "entailment"}
+{"premises": ["prontoqa_train_299", "prontoqa_train_300"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_301", "prontoqa_train_302"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_303", "prontoqa_train_304"], "conclusion": "prontoqa_train_305", "label": "entailment"}
+{"premises": ["prontoqa_train_306", "prontoqa_train_307"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_308", "prontoqa_train_309"], "conclusion": "prontoqa_train_310", "label": "entailment"}
+{"premises": ["prontoqa_train_311", "prontoqa_train_312"], "conclusion": "prontoqa_train_313", "label": "entailment"}
+{"premises": ["prontoqa_train_314", "prontoqa_train_315"], "conclusion": "prontoqa_train_316", "label": "entailment"}
+{"premises": ["prontoqa_train_317", "prontoqa_train_318"], "conclusion": "prontoqa_train_319", "label": "entailment"}
+{"premises": ["prontoqa_train_320", "prontoqa_train_321"], "conclusion": "prontoqa_train_322", "label": "entailment"}
+{"premises": ["prontoqa_train_323", "prontoqa_train_324"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_326", "prontoqa_train_327"], "conclusion": "prontoqa_train_84", "label": "entailment"}
+{"premises": ["prontoqa_train_328", "prontoqa_train_329"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_330", "prontoqa_train_331"], "conclusion": "prontoqa_train_316", "label": "entailment"}
+{"premises": ["prontoqa_train_196", "prontoqa_train_332"], "conclusion": "prontoqa_train_140", "label": "entailment"}
+{"premises": ["prontoqa_train_333", "prontoqa_train_334"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_335", "prontoqa_train_336"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_338", "prontoqa_train_339"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_48", "prontoqa_train_341"], "conclusion": "prontoqa_train_342", "label": "entailment"}
+{"premises": ["prontoqa_train_343", "prontoqa_train_344"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_345", "prontoqa_train_346"], "conclusion": "prontoqa_train_322", "label": "entailment"}
+{"premises": ["prontoqa_train_347", "prontoqa_train_348"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_349", "prontoqa_train_350"], "conclusion": "prontoqa_train_351", "label": "entailment"}
+{"premises": ["prontoqa_train_352", "prontoqa_train_353"], "conclusion": "prontoqa_train_354", "label": "entailment"}
+{"premises": ["prontoqa_train_355", "prontoqa_train_356"], "conclusion": "prontoqa_train_207", "label": "entailment"}
+{"premises": ["prontoqa_train_357", "prontoqa_train_358"], "conclusion": "prontoqa_train_152", "label": "entailment"}
+{"premises": ["prontoqa_train_359", "prontoqa_train_360"], "conclusion": "prontoqa_train_361", "label": "entailment"}
+{"premises": ["prontoqa_train_362", "prontoqa_train_363"], "conclusion": "prontoqa_train_319", "label": "entailment"}
+{"premises": ["prontoqa_train_150", "prontoqa_train_364"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_365", "prontoqa_train_366"], "conclusion": "prontoqa_train_367", "label": "entailment"}
+{"premises": ["prontoqa_train_368", "prontoqa_train_369"], "conclusion": "prontoqa_train_241", "label": "entailment"}
+{"premises": ["prontoqa_train_370", "prontoqa_train_371"], "conclusion": "prontoqa_train_275", "label": "entailment"}
+{"premises": ["prontoqa_train_372", "prontoqa_train_373"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_374", "prontoqa_train_375"], "conclusion": "prontoqa_train_376", "label": "entailment"}
+{"premises": ["prontoqa_train_377", "prontoqa_train_378"], "conclusion": "prontoqa_train_379", "label": "entailment"}
+{"premises": ["prontoqa_train_380", "prontoqa_train_381"], "conclusion": "prontoqa_train_87", "label": "entailment"}
+{"premises": ["prontoqa_train_382", "prontoqa_train_383"], "conclusion": "prontoqa_train_170", "label": "entailment"}
+{"premises": ["prontoqa_train_384", "prontoqa_train_385"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_386", "prontoqa_train_387"], "conclusion": "prontoqa_train_388", "label": "entailment"}
+{"premises": ["prontoqa_train_389", "prontoqa_train_390"], "conclusion": "prontoqa_train_217", "label": "entailment"}
+{"premises": ["prontoqa_train_391", "prontoqa_train_392"], "conclusion": "prontoqa_train_393", "label": "entailment"}
+{"premises": ["prontoqa_train_394", "prontoqa_train_395"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_396", "prontoqa_train_397"], "conclusion": "prontoqa_train_398", "label": "entailment"}
+{"premises": ["prontoqa_train_399", "prontoqa_train_400"], "conclusion": "prontoqa_train_188", "label": "entailment"}
+{"premises": ["prontoqa_train_401", "prontoqa_train_402"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_403", "prontoqa_train_404"], "conclusion": "prontoqa_train_405", "label": "entailment"}
+{"premises": ["prontoqa_train_406", "prontoqa_train_407"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_408", "prontoqa_train_409"], "conclusion": "prontoqa_train_313", "label": "entailment"}
+{"premises": ["prontoqa_train_410", "prontoqa_train_411"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_119", "prontoqa_train_412"], "conclusion": "prontoqa_train_121", "label": "entailment"}
+{"premises": ["prontoqa_train_182", "prontoqa_train_413"], "conclusion": "prontoqa_train_225", "label": "entailment"}
+{"premises": ["prontoqa_train_414", "prontoqa_train_415"], "conclusion": "prontoqa_train_287", "label": "entailment"}
+{"premises": ["prontoqa_train_416", "prontoqa_train_417"], "conclusion": "prontoqa_train_104", "label": "entailment"}
+{"premises": ["prontoqa_train_418", "prontoqa_train_419"], "conclusion": "prontoqa_train_388", "label": "entailment"}
+{"premises": ["prontoqa_train_420", "prontoqa_train_421"], "conclusion": "prontoqa_train_90", "label": "entailment"}
+{"premises": ["prontoqa_train_422", "prontoqa_train_423"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_424", "prontoqa_train_425"], "conclusion": "prontoqa_train_143", "label": "entailment"}
+{"premises": ["prontoqa_train_426", "prontoqa_train_427"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_428", "prontoqa_train_429"], "conclusion": "prontoqa_train_430", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_431"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_382", "prontoqa_train_432"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_433", "prontoqa_train_434"], "conclusion": "prontoqa_train_59", "label": "entailment"}
+{"premises": ["prontoqa_train_435", "prontoqa_train_436"], "conclusion": "prontoqa_train_437", "label": "entailment"}
+{"premises": ["prontoqa_train_438", "prontoqa_train_439"], "conclusion": "prontoqa_train_207", "label": "entailment"}
+{"premises": ["prontoqa_train_440", "prontoqa_train_441"], "conclusion": "prontoqa_train_195", "label": "entailment"}
+{"premises": ["prontoqa_train_355", "prontoqa_train_442"], "conclusion": "prontoqa_train_270", "label": "entailment"}
+{"premises": ["prontoqa_train_443", "prontoqa_train_444"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_445", "prontoqa_train_446"], "conclusion": "prontoqa_train_244", "label": "entailment"}
+{"premises": ["prontoqa_train_447", "prontoqa_train_448"], "conclusion": "prontoqa_train_449", "label": "entailment"}
+{"premises": ["prontoqa_train_450", "prontoqa_train_451"], "conclusion": "prontoqa_train_452", "label": "entailment"}
+{"premises": ["prontoqa_train_453", "prontoqa_train_454"], "conclusion": "prontoqa_train_351", "label": "entailment"}
+{"premises": ["prontoqa_train_455", "prontoqa_train_456"], "conclusion": "prontoqa_train_457", "label": "entailment"}
+{"premises": ["prontoqa_train_458", "prontoqa_train_459"], "conclusion": "prontoqa_train_247", "label": "entailment"}
+{"premises": ["prontoqa_train_445", "prontoqa_train_460"], "conclusion": "prontoqa_train_201", "label": "entailment"}
+{"premises": ["prontoqa_train_461", "prontoqa_train_462"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_463", "prontoqa_train_464"], "conclusion": "prontoqa_train_220", "label": "entailment"}
+{"premises": ["prontoqa_train_465", "prontoqa_train_466"], "conclusion": "prontoqa_train_62", "label": "entailment"}
+{"premises": ["prontoqa_train_467", "prontoqa_train_468"], "conclusion": "prontoqa_train_310", "label": "entailment"}
+{"premises": ["prontoqa_train_433", "prontoqa_train_469"], "conclusion": "prontoqa_train_25", "label": "entailment"}
+{"premises": ["prontoqa_train_470", "prontoqa_train_471"], "conclusion": "prontoqa_train_5", "label": "entailment"}
+{"premises": ["prontoqa_train_6", "prontoqa_train_472"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_473", "prontoqa_train_474"], "conclusion": "prontoqa_train_65", "label": "entailment"}
+{"premises": ["prontoqa_train_475", "prontoqa_train_476"], "conclusion": "prontoqa_train_477", "label": "entailment"}
+{"premises": ["prontoqa_train_333", "prontoqa_train_478"], "conclusion": "prontoqa_train_479", "label": "entailment"}
+{"premises": ["prontoqa_train_480", "prontoqa_train_481"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_482", "prontoqa_train_483"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_326", "prontoqa_train_484"], "conclusion": "prontoqa_train_313", "label": "entailment"}
+{"premises": ["prontoqa_train_256", "prontoqa_train_485"], "conclusion": "prontoqa_train_207", "label": "entailment"}
+{"premises": ["prontoqa_train_486", "prontoqa_train_487"], "conclusion": "prontoqa_train_313", "label": "entailment"}
+{"premises": ["prontoqa_train_488", "prontoqa_train_489"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_490", "prontoqa_train_491"], "conclusion": "prontoqa_train_76", "label": "entailment"}
+{"premises": ["prontoqa_train_492", "prontoqa_train_493"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_335", "prontoqa_train_494"], "conclusion": "prontoqa_train_495", "label": "entailment"}
+{"premises": ["prontoqa_train_161", "prontoqa_train_496"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_497", "prontoqa_train_498"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_14", "prontoqa_train_499"], "conclusion": "prontoqa_train_500", "label": "entailment"}
+{"premises": ["prontoqa_train_501", "prontoqa_train_502"], "conclusion": "prontoqa_train_503", "label": "entailment"}
+{"premises": ["prontoqa_train_504", "prontoqa_train_505"], "conclusion": "prontoqa_train_39", "label": "entailment"}
+{"premises": ["prontoqa_train_150", "prontoqa_train_506"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_507", "prontoqa_train_508"], "conclusion": "prontoqa_train_266", "label": "entailment"}
+{"premises": ["prontoqa_train_509", "prontoqa_train_510"], "conclusion": "prontoqa_train_178", "label": "entailment"}
+{"premises": ["prontoqa_train_511", "prontoqa_train_512"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_513", "prontoqa_train_514"], "conclusion": "prontoqa_train_515", "label": "entailment"}
+{"premises": ["prontoqa_train_516", "prontoqa_train_517"], "conclusion": "prontoqa_train_62", "label": "entailment"}
+{"premises": ["prontoqa_train_518", "prontoqa_train_519"], "conclusion": "prontoqa_train_247", "label": "entailment"}
+{"premises": ["prontoqa_train_127", "prontoqa_train_520"], "conclusion": "prontoqa_train_225", "label": "entailment"}
+{"premises": ["prontoqa_train_521", "prontoqa_train_522"], "conclusion": "prontoqa_train_266", "label": "entailment"}
+{"premises": ["prontoqa_train_523", "prontoqa_train_524"], "conclusion": "prontoqa_train_158", "label": "entailment"}
+{"premises": ["prontoqa_train_525", "prontoqa_train_526"], "conclusion": "prontoqa_train_178", "label": "entailment"}
+{"premises": ["prontoqa_train_527", "prontoqa_train_528"], "conclusion": "prontoqa_train_232", "label": "entailment"}
+{"premises": ["prontoqa_train_529", "prontoqa_train_530"], "conclusion": "prontoqa_train_152", "label": "entailment"}
+{"premises": ["prontoqa_train_531", "prontoqa_train_532"], "conclusion": "prontoqa_train_143", "label": "entailment"}
+{"premises": ["prontoqa_train_533", "prontoqa_train_534"], "conclusion": "prontoqa_train_160", "label": "entailment"}
+{"premises": ["prontoqa_train_535", "prontoqa_train_536"], "conclusion": "prontoqa_train_500", "label": "entailment"}
+{"premises": ["prontoqa_train_537", "prontoqa_train_538"], "conclusion": "prontoqa_train_361", "label": "entailment"}
+{"premises": ["prontoqa_train_539", "prontoqa_train_540"], "conclusion": "prontoqa_train_73", "label": "entailment"}
+{"premises": ["prontoqa_train_541", "prontoqa_train_542"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_326", "prontoqa_train_543"], "conclusion": "prontoqa_train_313", "label": "entailment"}
+{"premises": ["prontoqa_train_127", "prontoqa_train_544"], "conclusion": "prontoqa_train_545", "label": "entailment"}
+{"premises": ["prontoqa_train_299", "prontoqa_train_546"], "conclusion": "prontoqa_train_547", "label": "entailment"}
+{"premises": ["prontoqa_train_147", "prontoqa_train_548"], "conclusion": "prontoqa_train_549", "label": "entailment"}
+{"premises": ["prontoqa_train_550", "prontoqa_train_551"], "conclusion": "prontoqa_train_552", "label": "entailment"}
+{"premises": ["prontoqa_train_553", "prontoqa_train_554"], "conclusion": "prontoqa_train_232", "label": "entailment"}
+{"premises": ["prontoqa_train_555", "prontoqa_train_556"], "conclusion": "prontoqa_train_549", "label": "entailment"}
+{"premises": ["prontoqa_train_306", "prontoqa_train_557"], "conclusion": "prontoqa_train_149", "label": "entailment"}
+{"premises": ["prontoqa_train_558", "prontoqa_train_559"], "conclusion": "prontoqa_train_5", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_560"], "conclusion": "prontoqa_train_561", "label": "entailment"}
+{"premises": ["prontoqa_train_230", "prontoqa_train_562"], "conclusion": "prontoqa_train_53", "label": "entailment"}
+{"premises": ["prontoqa_train_563", "prontoqa_train_564"], "conclusion": "prontoqa_train_220", "label": "entailment"}
+{"premises": ["prontoqa_train_565", "prontoqa_train_566"], "conclusion": "prontoqa_train_477", "label": "entailment"}
+{"premises": ["prontoqa_train_497", "prontoqa_train_567"], "conclusion": "prontoqa_train_188", "label": "entailment"}
+{"premises": ["prontoqa_train_568", "prontoqa_train_569"], "conclusion": "prontoqa_train_570", "label": "entailment"}
+{"premises": ["prontoqa_train_571", "prontoqa_train_572"], "conclusion": "prontoqa_train_201", "label": "entailment"}
+{"premises": ["prontoqa_train_573", "prontoqa_train_574"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_575", "prontoqa_train_576"], "conclusion": "prontoqa_train_45", "label": "entailment"}
+{"premises": ["prontoqa_train_107", "prontoqa_train_577"], "conclusion": "prontoqa_train_253", "label": "entailment"}
+{"premises": ["prontoqa_train_578", "prontoqa_train_579"], "conclusion": "prontoqa_train_545", "label": "entailment"}
+{"premises": ["prontoqa_train_580", "prontoqa_train_581"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_582", "prontoqa_train_583"], "conclusion": "prontoqa_train_584", "label": "entailment"}
+{"premises": ["prontoqa_train_585", "prontoqa_train_586"], "conclusion": "prontoqa_train_587", "label": "entailment"}
+{"premises": ["prontoqa_train_588", "prontoqa_train_589"], "conclusion": "prontoqa_train_376", "label": "entailment"}
+{"premises": ["prontoqa_train_382", "prontoqa_train_590"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_591", "prontoqa_train_592"], "conclusion": "prontoqa_train_152", "label": "entailment"}
+{"premises": ["prontoqa_train_593", "prontoqa_train_594"], "conclusion": "prontoqa_train_595", "label": "entailment"}
+{"premises": ["prontoqa_train_537", "prontoqa_train_596"], "conclusion": "prontoqa_train_587", "label": "entailment"}
+{"premises": ["prontoqa_train_597", "prontoqa_train_598"], "conclusion": "prontoqa_train_599", "label": "entailment"}
+{"premises": ["prontoqa_train_600", "prontoqa_train_601"], "conclusion": "prontoqa_train_477", "label": "entailment"}
+{"premises": ["prontoqa_train_602", "prontoqa_train_603"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_604", "prontoqa_train_605"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_102", "prontoqa_train_606"], "conclusion": "prontoqa_train_607", "label": "entailment"}
+{"premises": ["prontoqa_train_0", "prontoqa_train_608"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_102", "prontoqa_train_609"], "conclusion": "prontoqa_train_610", "label": "entailment"}
+{"premises": ["prontoqa_train_611", "prontoqa_train_612"], "conclusion": "prontoqa_train_137", "label": "entailment"}
+{"premises": ["prontoqa_train_613", "prontoqa_train_614"], "conclusion": "prontoqa_train_615", "label": "entailment"}
+{"premises": ["prontoqa_train_501", "prontoqa_train_616"], "conclusion": "prontoqa_train_437", "label": "entailment"}
+{"premises": ["prontoqa_train_617", "prontoqa_train_618"], "conclusion": "prontoqa_train_232", "label": "entailment"}
+{"premises": ["prontoqa_train_619", "prontoqa_train_620"], "conclusion": "prontoqa_train_287", "label": "entailment"}
+{"premises": ["prontoqa_train_621", "prontoqa_train_622"], "conclusion": "prontoqa_train_140", "label": "entailment"}
+{"premises": ["prontoqa_train_482", "prontoqa_train_623"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_624", "prontoqa_train_625"], "conclusion": "prontoqa_train_90", "label": "entailment"}
+{"premises": ["prontoqa_train_626", "prontoqa_train_627"], "conclusion": "prontoqa_train_449", "label": "entailment"}
+{"premises": ["prontoqa_train_488", "prontoqa_train_628"], "conclusion": "prontoqa_train_36", "label": "entailment"}
+{"premises": ["prontoqa_train_529", "prontoqa_train_629"], "conclusion": "prontoqa_train_630", "label": "entailment"}
+{"premises": ["prontoqa_train_347", "prontoqa_train_631"], "conclusion": "prontoqa_train_5", "label": "entailment"}
+{"premises": ["prontoqa_train_511", "prontoqa_train_632"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_633", "prontoqa_train_634"], "conclusion": "prontoqa_train_635", "label": "entailment"}
+{"premises": ["prontoqa_train_636", "prontoqa_train_637"], "conclusion": "prontoqa_train_630", "label": "entailment"}
+{"premises": ["prontoqa_train_638", "prontoqa_train_639"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_640", "prontoqa_train_641"], "conclusion": "prontoqa_train_188", "label": "entailment"}
+{"premises": ["prontoqa_train_585", "prontoqa_train_642"], "conclusion": "prontoqa_train_217", "label": "entailment"}
+{"premises": ["prontoqa_train_643", "prontoqa_train_644"], "conclusion": "prontoqa_train_342", "label": "entailment"}
+{"premises": ["prontoqa_train_343", "prontoqa_train_645"], "conclusion": "prontoqa_train_115", "label": "entailment"}
+{"premises": ["prontoqa_train_646", "prontoqa_train_647"], "conclusion": "prontoqa_train_93", "label": "entailment"}
+{"premises": ["prontoqa_train_648", "prontoqa_train_649"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_650", "prontoqa_train_651"], "conclusion": "prontoqa_train_652", "label": "entailment"}
+{"premises": ["prontoqa_train_653", "prontoqa_train_654"], "conclusion": "prontoqa_train_570", "label": "entailment"}
+{"premises": ["prontoqa_train_655", "prontoqa_train_656"], "conclusion": "prontoqa_train_552", "label": "entailment"}
+{"premises": ["prontoqa_train_657", "prontoqa_train_658"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_659", "prontoqa_train_660"], "conclusion": "prontoqa_train_430", "label": "entailment"}
+{"premises": ["prontoqa_train_186", "prontoqa_train_661"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_662", "prontoqa_train_663"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_31", "prontoqa_train_664"], "conclusion": "prontoqa_train_19", "label": "entailment"}
+{"premises": ["prontoqa_train_665", "prontoqa_train_666"], "conclusion": "prontoqa_train_667", "label": "entailment"}
+{"premises": ["prontoqa_train_668", "prontoqa_train_669"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_670", "prontoqa_train_671"], "conclusion": "prontoqa_train_25", "label": "entailment"}
+{"premises": ["prontoqa_train_672", "prontoqa_train_673"], "conclusion": "prontoqa_train_674", "label": "entailment"}
+{"premises": ["prontoqa_train_675", "prontoqa_train_676"], "conclusion": "prontoqa_train_214", "label": "entailment"}
+{"premises": ["prontoqa_train_619", "prontoqa_train_677"], "conclusion": "prontoqa_train_287", "label": "entailment"}
+{"premises": ["prontoqa_train_621", "prontoqa_train_678"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_679", "prontoqa_train_680"], "conclusion": "prontoqa_train_68", "label": "entailment"}
+{"premises": ["prontoqa_train_582", "prontoqa_train_681"], "conclusion": "prontoqa_train_682", "label": "entailment"}
+{"premises": ["prontoqa_train_343", "prontoqa_train_683"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_684", "prontoqa_train_685"], "conclusion": "prontoqa_train_98", "label": "entailment"}
+{"premises": ["prontoqa_train_317", "prontoqa_train_686"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_687", "prontoqa_train_688"], "conclusion": "prontoqa_train_217", "label": "entailment"}
+{"premises": ["prontoqa_train_689", "prontoqa_train_690"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_691", "prontoqa_train_692"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_693", "prontoqa_train_694"], "conclusion": "prontoqa_train_695", "label": "entailment"}
+{"premises": ["prontoqa_train_696", "prontoqa_train_697"], "conclusion": "prontoqa_train_698", "label": "entailment"}
+{"premises": ["prontoqa_train_699", "prontoqa_train_700"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_701", "prontoqa_train_702"], "conclusion": "prontoqa_train_354", "label": "entailment"}
+{"premises": ["prontoqa_train_703", "prontoqa_train_704"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_113", "prontoqa_train_705"], "conclusion": "prontoqa_train_635", "label": "entailment"}
+{"premises": ["prontoqa_train_706", "prontoqa_train_707"], "conclusion": "prontoqa_train_477", "label": "entailment"}
+{"premises": ["prontoqa_train_708", "prontoqa_train_709"], "conclusion": "prontoqa_train_298", "label": "entailment"}
+{"premises": ["prontoqa_train_372", "prontoqa_train_710"], "conclusion": "prontoqa_train_22", "label": "entailment"}
+{"premises": ["prontoqa_train_711", "prontoqa_train_712"], "conclusion": "prontoqa_train_244", "label": "entailment"}
+{"premises": ["prontoqa_train_306", "prontoqa_train_713"], "conclusion": "prontoqa_train_479", "label": "entailment"}
+{"premises": ["prontoqa_train_714", "prontoqa_train_715"], "conclusion": "prontoqa_train_615", "label": "entailment"}
+{"premises": ["prontoqa_train_716", "prontoqa_train_717"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_88", "prontoqa_train_718"], "conclusion": "prontoqa_train_379", "label": "entailment"}
+{"premises": ["prontoqa_train_719", "prontoqa_train_720"], "conclusion": "prontoqa_train_667", "label": "entailment"}
+{"premises": ["prontoqa_train_482", "prontoqa_train_721"], "conclusion": "prontoqa_train_225", "label": "entailment"}
+{"premises": ["prontoqa_train_386", "prontoqa_train_722"], "conclusion": "prontoqa_train_76", "label": "entailment"}
+{"premises": ["prontoqa_train_723", "prontoqa_train_724"], "conclusion": "prontoqa_train_607", "label": "entailment"}
+{"premises": ["prontoqa_train_725", "prontoqa_train_726"], "conclusion": "prontoqa_train_405", "label": "entailment"}
+{"premises": ["prontoqa_train_54", "prontoqa_train_727"], "conclusion": "prontoqa_train_121", "label": "entailment"}
+{"premises": ["prontoqa_train_728", "prontoqa_train_729"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_730", "prontoqa_train_731"], "conclusion": "prontoqa_train_59", "label": "entailment"}
+{"premises": ["prontoqa_train_732", "prontoqa_train_733"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_418", "prontoqa_train_734"], "conclusion": "prontoqa_train_398", "label": "entailment"}
+{"premises": ["prontoqa_train_735", "prontoqa_train_736"], "conclusion": "prontoqa_train_170", "label": "entailment"}
+{"premises": ["prontoqa_train_737", "prontoqa_train_738"], "conclusion": "prontoqa_train_379", "label": "entailment"}
+{"premises": ["prontoqa_train_17", "prontoqa_train_739"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_212", "prontoqa_train_740"], "conclusion": "prontoqa_train_214", "label": "entailment"}
+{"premises": ["prontoqa_train_699", "prontoqa_train_741"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_646", "prontoqa_train_742"], "conclusion": "prontoqa_train_561", "label": "entailment"}
+{"premises": ["prontoqa_train_588", "prontoqa_train_743"], "conclusion": "prontoqa_train_255", "label": "entailment"}
+{"premises": ["prontoqa_train_744", "prontoqa_train_745"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_746", "prontoqa_train_747"], "conclusion": "prontoqa_train_124", "label": "entailment"}
+{"premises": ["prontoqa_train_283", "prontoqa_train_748"], "conclusion": "prontoqa_train_698", "label": "entailment"}
+{"premises": ["prontoqa_train_71", "prontoqa_train_749"], "conclusion": "prontoqa_train_160", "label": "entailment"}
+{"premises": ["prontoqa_train_750", "prontoqa_train_751"], "conclusion": "prontoqa_train_393", "label": "entailment"}
+{"premises": ["prontoqa_train_752", "prontoqa_train_753"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_323", "prontoqa_train_754"], "conclusion": "prontoqa_train_755", "label": "entailment"}
+{"premises": ["prontoqa_train_756", "prontoqa_train_757"], "conclusion": "prontoqa_train_758", "label": "entailment"}
+{"premises": ["prontoqa_train_759", "prontoqa_train_760"], "conclusion": "prontoqa_train_16", "label": "entailment"}
+{"premises": ["prontoqa_train_761", "prontoqa_train_762"], "conclusion": "prontoqa_train_76", "label": "entailment"}
+{"premises": ["prontoqa_train_355", "prontoqa_train_763"], "conclusion": "prontoqa_train_477", "label": "entailment"}
+{"premises": ["prontoqa_train_764", "prontoqa_train_765"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_766", "prontoqa_train_767"], "conclusion": "prontoqa_train_570", "label": "entailment"}
+{"premises": ["prontoqa_train_768", "prontoqa_train_769"], "conclusion": "prontoqa_train_255", "label": "entailment"}
+{"premises": ["prontoqa_train_51", "prontoqa_train_770"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_365", "prontoqa_train_771"], "conclusion": "prontoqa_train_81", "label": "entailment"}
+{"premises": ["prontoqa_train_772", "prontoqa_train_773"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_774", "prontoqa_train_775"], "conclusion": "prontoqa_train_584", "label": "entailment"}
+{"premises": ["prontoqa_train_380", "prontoqa_train_776"], "conclusion": "prontoqa_train_777", "label": "entailment"}
+{"premises": ["prontoqa_train_778", "prontoqa_train_779"], "conclusion": "prontoqa_train_780", "label": "entailment"}
+{"premises": ["prontoqa_train_781", "prontoqa_train_782"], "conclusion": "prontoqa_train_178", "label": "entailment"}
+{"premises": ["prontoqa_train_453", "prontoqa_train_783"], "conclusion": "prontoqa_train_59", "label": "entailment"}
+{"premises": ["prontoqa_train_784", "prontoqa_train_785"], "conclusion": "prontoqa_train_250", "label": "entailment"}
+{"premises": ["prontoqa_train_786", "prontoqa_train_787"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_788", "prontoqa_train_789"], "conclusion": "prontoqa_train_351", "label": "entailment"}
+{"premises": ["prontoqa_train_3", "prontoqa_train_790"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_306", "prontoqa_train_791"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_88", "prontoqa_train_792"], "conclusion": "prontoqa_train_155", "label": "entailment"}
+{"premises": ["prontoqa_train_51", "prontoqa_train_793"], "conclusion": "prontoqa_train_81", "label": "entailment"}
+{"premises": ["prontoqa_train_320", "prontoqa_train_794"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_795", "prontoqa_train_796"], "conclusion": "prontoqa_train_797", "label": "entailment"}
+{"premises": ["prontoqa_train_798", "prontoqa_train_799"], "conclusion": "prontoqa_train_178", "label": "entailment"}
+{"premises": ["prontoqa_train_800", "prontoqa_train_801"], "conclusion": "prontoqa_train_802", "label": "entailment"}
+{"premises": ["prontoqa_train_803", "prontoqa_train_804"], "conclusion": "prontoqa_train_361", "label": "entailment"}
+{"premises": ["prontoqa_train_805", "prontoqa_train_806"], "conclusion": "prontoqa_train_437", "label": "entailment"}
+{"premises": ["prontoqa_train_788", "prontoqa_train_807"], "conclusion": "prontoqa_train_808", "label": "entailment"}
+{"premises": ["prontoqa_train_809", "prontoqa_train_810"], "conclusion": "prontoqa_train_811", "label": "entailment"}
+{"premises": ["prontoqa_train_812", "prontoqa_train_813"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_814", "prontoqa_train_815"], "conclusion": "prontoqa_train_253", "label": "entailment"}
+{"premises": ["prontoqa_train_816", "prontoqa_train_817"], "conclusion": "prontoqa_train_2", "label": "entailment"}
+{"premises": ["prontoqa_train_818", "prontoqa_train_819"], "conclusion": "prontoqa_train_129", "label": "entailment"}
+{"premises": ["prontoqa_train_527", "prontoqa_train_820"], "conclusion": "prontoqa_train_53", "label": "entailment"}
+{"premises": ["prontoqa_train_764", "prontoqa_train_821"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_665", "prontoqa_train_822"], "conclusion": "prontoqa_train_823", "label": "entailment"}
+{"premises": ["prontoqa_train_824", "prontoqa_train_825"], "conclusion": "prontoqa_train_545", "label": "entailment"}
+{"premises": ["prontoqa_train_826", "prontoqa_train_827"], "conclusion": "prontoqa_train_173", "label": "entailment"}
+{"premises": ["prontoqa_train_828", "prontoqa_train_829"], "conclusion": "prontoqa_train_241", "label": "entailment"}
+{"premises": ["prontoqa_train_830", "prontoqa_train_831"], "conclusion": "prontoqa_train_181", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_832"], "conclusion": "prontoqa_train_630", "label": "entailment"}
+{"premises": ["prontoqa_train_833", "prontoqa_train_834"], "conclusion": "prontoqa_train_437", "label": "entailment"}
+{"premises": ["prontoqa_train_492", "prontoqa_train_835"], "conclusion": "prontoqa_train_836", "label": "entailment"}
+{"premises": ["prontoqa_train_99", "prontoqa_train_837"], "conclusion": "prontoqa_train_452", "label": "entailment"}
+{"premises": ["prontoqa_train_619", "prontoqa_train_838"], "conclusion": "prontoqa_train_839", "label": "entailment"}
+{"premises": ["prontoqa_train_840", "prontoqa_train_841"], "conclusion": "prontoqa_train_195", "label": "entailment"}
+{"premises": ["prontoqa_train_842", "prontoqa_train_843"], "conclusion": "prontoqa_train_253", "label": "entailment"}
+{"premises": ["prontoqa_train_844", "prontoqa_train_845"], "conclusion": "prontoqa_train_292", "label": "entailment"}
+{"premises": ["prontoqa_train_846", "prontoqa_train_847"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_848", "prontoqa_train_849"], "conclusion": "prontoqa_train_850", "label": "entailment"}
+{"premises": ["prontoqa_train_851", "prontoqa_train_852"], "conclusion": "prontoqa_train_849", "label": "entailment"}
+{"premises": ["prontoqa_train_853", "prontoqa_train_854"], "conclusion": "prontoqa_train_855", "label": "entailment"}
+{"premises": ["prontoqa_train_856", "prontoqa_train_857"], "conclusion": "prontoqa_train_858", "label": "entailment"}
+{"premises": ["prontoqa_train_859", "prontoqa_train_860"], "conclusion": "prontoqa_train_861", "label": "entailment"}
+{"premises": ["prontoqa_train_862", "prontoqa_train_863"], "conclusion": "prontoqa_train_864", "label": "entailment"}
+{"premises": ["prontoqa_train_865", "prontoqa_train_866"], "conclusion": "prontoqa_train_867", "label": "entailment"}
+{"premises": ["prontoqa_train_868", "prontoqa_train_869"], "conclusion": "prontoqa_train_870", "label": "entailment"}
+{"premises": ["prontoqa_train_871", "prontoqa_train_872", "prontoqa_train_873", "prontoqa_train_874"], "conclusion": "prontoqa_train_875", "label": "entailment"}
+{"premises": ["prontoqa_train_876", "prontoqa_train_877"], "conclusion": "prontoqa_train_878", "label": "entailment"}
+{"premises": ["prontoqa_train_879", "prontoqa_train_880", "prontoqa_train_881"], "conclusion": "prontoqa_train_149", "label": "entailment"}
+{"premises": ["prontoqa_train_882", "prontoqa_train_883", "prontoqa_train_884", "prontoqa_train_885"], "conclusion": "prontoqa_train_886", "label": "entailment"}
+{"premises": ["prontoqa_train_887", "prontoqa_train_888"], "conclusion": "prontoqa_train_889", "label": "entailment"}
+{"premises": ["prontoqa_train_890", "prontoqa_train_891", "prontoqa_train_892"], "conclusion": "prontoqa_train_893", "label": "entailment"}
+{"premises": ["prontoqa_train_894", "prontoqa_train_895"], "conclusion": "prontoqa_train_896", "label": "entailment"}
+{"premises": ["prontoqa_train_897", "prontoqa_train_898"], "conclusion": "prontoqa_train_547", "label": "entailment"}
+{"premises": ["prontoqa_train_899", "prontoqa_train_91", "prontoqa_train_900"], "conclusion": "prontoqa_train_901", "label": "entailment"}
+{"premises": ["prontoqa_train_902", "prontoqa_train_903"], "conclusion": "prontoqa_train_904", "label": "entailment"}
+{"premises": ["prontoqa_train_905", "prontoqa_train_906"], "conclusion": "prontoqa_train_907", "label": "entailment"}
+{"premises": ["prontoqa_train_908", "prontoqa_train_909", "prontoqa_train_910"], "conclusion": "prontoqa_train_549", "label": "entailment"}
+{"premises": ["prontoqa_train_911", "prontoqa_train_912"], "conclusion": "prontoqa_train_755", "label": "entailment"}
+{"premises": ["prontoqa_train_913", "prontoqa_train_914"], "conclusion": "prontoqa_train_915", "label": "entailment"}
+{"premises": ["prontoqa_train_916", "prontoqa_train_917"], "conclusion": "prontoqa_train_132", "label": "entailment"}
+{"premises": ["prontoqa_train_918", "prontoqa_train_919"], "conclusion": "prontoqa_train_920", "label": "entailment"}
+{"premises": ["prontoqa_train_921", "prontoqa_train_922"], "conclusion": "prontoqa_train_923", "label": "entailment"}
+{"premises": ["prontoqa_train_924", "prontoqa_train_925", "prontoqa_train_926", "prontoqa_train_927"], "conclusion": "prontoqa_train_811", "label": "entailment"}
+{"premises": ["prontoqa_train_928", "prontoqa_train_904"], "conclusion": "prontoqa_train_929", "label": "entailment"}
+{"premises": ["prontoqa_train_930", "prontoqa_train_931"], "conclusion": "prontoqa_train_932", "label": "entailment"}
+{"premises": ["prontoqa_train_933", "prontoqa_train_914", "prontoqa_train_934", "prontoqa_train_935"], "conclusion": "prontoqa_train_936", "label": "entailment"}
+{"premises": ["prontoqa_train_937", "prontoqa_train_938"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_939", "prontoqa_train_940"], "conclusion": "prontoqa_train_941", "label": "entailment"}
+{"premises": ["prontoqa_train_942", "prontoqa_train_943", "prontoqa_train_944", "prontoqa_train_945", "prontoqa_train_946"], "conclusion": "prontoqa_train_947", "label": "entailment"}
+{"premises": ["prontoqa_train_948", "prontoqa_train_949", "prontoqa_train_950", "prontoqa_train_951", "prontoqa_train_952", "prontoqa_train_903"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_953", "prontoqa_train_954", "prontoqa_train_944", "prontoqa_train_955"], "conclusion": "prontoqa_train_886", "label": "entailment"}
+{"premises": ["prontoqa_train_956", "prontoqa_train_957"], "conclusion": "prontoqa_train_958", "label": "entailment"}
+{"premises": ["prontoqa_train_959", "prontoqa_train_960"], "conclusion": "prontoqa_train_961", "label": "entailment"}
+{"premises": ["prontoqa_train_962", "prontoqa_train_963"], "conclusion": "prontoqa_train_158", "label": "entailment"}
+{"premises": ["prontoqa_train_964", "prontoqa_train_965", "prontoqa_train_966"], "conclusion": "prontoqa_train_967", "label": "entailment"}
+{"premises": ["prontoqa_train_968", "prontoqa_train_969", "prontoqa_train_970"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_971", "prontoqa_train_972"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_973", "prontoqa_train_974"], "conclusion": "prontoqa_train_975", "label": "entailment"}
+{"premises": ["prontoqa_train_976", "prontoqa_train_977"], "conclusion": "prontoqa_train_978", "label": "entailment"}
+{"premises": ["prontoqa_train_979", "prontoqa_train_980"], "conclusion": "prontoqa_train_878", "label": "entailment"}
+{"premises": ["prontoqa_train_981", "prontoqa_train_982"], "conclusion": "prontoqa_train_983", "label": "entailment"}
+{"premises": ["prontoqa_train_984", "prontoqa_train_985", "prontoqa_train_986"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_987", "prontoqa_train_926", "prontoqa_train_988", "prontoqa_train_989"], "conclusion": "prontoqa_train_990", "label": "entailment"}
+{"premises": ["prontoqa_train_991", "prontoqa_train_992"], "conclusion": "prontoqa_train_993", "label": "entailment"}
+{"premises": ["prontoqa_train_994", "prontoqa_train_995"], "conclusion": "prontoqa_train_996", "label": "entailment"}
+{"premises": ["prontoqa_train_997", "prontoqa_train_998", "prontoqa_train_999", "prontoqa_train_900"], "conclusion": "prontoqa_train_1000", "label": "entailment"}
+{"premises": ["prontoqa_train_1001", "prontoqa_train_1002", "prontoqa_train_1003", "prontoqa_train_1004"], "conclusion": "prontoqa_train_244", "label": "entailment"}
+{"premises": ["prontoqa_train_1005", "prontoqa_train_1006"], "conclusion": "prontoqa_train_1007", "label": "entailment"}
+{"premises": ["prontoqa_train_453", "prontoqa_train_1008"], "conclusion": "prontoqa_train_1009", "label": "entailment"}
+{"premises": ["prontoqa_train_1010", "prontoqa_train_1011"], "conclusion": "prontoqa_train_1012", "label": "entailment"}
+{"premises": ["prontoqa_train_1013", "prontoqa_train_1014", "prontoqa_train_958", "prontoqa_train_1015"], "conclusion": "prontoqa_train_1016", "label": "entailment"}
+{"premises": ["prontoqa_train_1017", "prontoqa_train_1018", "prontoqa_train_1019", "prontoqa_train_1020"], "conclusion": "prontoqa_train_1021", "label": "entailment"}
+{"premises": ["prontoqa_train_1022", "prontoqa_train_1023", "prontoqa_train_1024", "prontoqa_train_1025", "prontoqa_train_1026"], "conclusion": "prontoqa_train_495", "label": "entailment"}
+{"premises": ["prontoqa_train_1027", "prontoqa_train_1028"], "conclusion": "prontoqa_train_1020", "label": "entailment"}
+{"premises": ["prontoqa_train_1029", "prontoqa_train_1030", "prontoqa_train_1031", "prontoqa_train_857", "prontoqa_train_920"], "conclusion": "prontoqa_train_39", "label": "entailment"}
+{"premises": ["prontoqa_train_1032", "prontoqa_train_1033"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_1034", "prontoqa_train_1035"], "conclusion": "prontoqa_train_93", "label": "entailment"}
+{"premises": ["prontoqa_train_447", "prontoqa_train_1036"], "conclusion": "prontoqa_train_1037", "label": "entailment"}
+{"premises": ["prontoqa_train_1038", "prontoqa_train_1039", "prontoqa_train_1040", "prontoqa_train_1041"], "conclusion": "prontoqa_train_1042", "label": "entailment"}
+{"premises": ["prontoqa_train_1043", "prontoqa_train_1044", "prontoqa_train_866", "prontoqa_train_977"], "conclusion": "prontoqa_train_1045", "label": "entailment"}
+{"premises": ["prontoqa_train_1046", "prontoqa_train_1047", "prontoqa_train_960", "prontoqa_train_872"], "conclusion": "prontoqa_train_1048", "label": "entailment"}
+{"premises": ["prontoqa_train_1049", "prontoqa_train_986"], "conclusion": "prontoqa_train_989", "label": "entailment"}
+{"premises": ["prontoqa_train_389", "prontoqa_train_1050"], "conclusion": "prontoqa_train_1051", "label": "entailment"}
+{"premises": ["prontoqa_train_150", "prontoqa_train_1052"], "conclusion": "prontoqa_train_1053", "label": "entailment"}
+{"premises": ["prontoqa_train_1054", "prontoqa_train_1055"], "conclusion": "prontoqa_train_1056", "label": "entailment"}
+{"premises": ["prontoqa_train_602", "prontoqa_train_1057"], "conclusion": "prontoqa_train_1058", "label": "entailment"}
+{"premises": ["prontoqa_train_1059", "prontoqa_train_1060"], "conclusion": "prontoqa_train_849", "label": "entailment"}
+{"premises": ["prontoqa_train_1061", "prontoqa_train_1062"], "conclusion": "prontoqa_train_1063", "label": "entailment"}
+{"premises": ["prontoqa_train_1064", "prontoqa_train_1065"], "conclusion": "prontoqa_train_1066", "label": "entailment"}
+{"premises": ["prontoqa_train_1067", "prontoqa_train_1068", "prontoqa_train_1069"], "conclusion": "prontoqa_train_652", "label": "entailment"}
+{"premises": ["prontoqa_train_1070", "prontoqa_train_872"], "conclusion": "prontoqa_train_1071", "label": "entailment"}
+{"premises": ["prontoqa_train_1072", "prontoqa_train_1073", "prontoqa_train_992", "prontoqa_train_934"], "conclusion": "prontoqa_train_1074", "label": "entailment"}
+{"premises": ["prontoqa_train_1075", "prontoqa_train_986", "prontoqa_train_1076", "prontoqa_train_988"], "conclusion": "prontoqa_train_989", "label": "entailment"}
+{"premises": ["prontoqa_train_1077", "prontoqa_train_138", "prontoqa_train_1078", "prontoqa_train_1079"], "conclusion": "prontoqa_train_250", "label": "entailment"}
+{"premises": ["prontoqa_train_1080", "prontoqa_train_849", "prontoqa_train_1060", "prontoqa_train_850"], "conclusion": "prontoqa_train_1081", "label": "entailment"}
+{"premises": ["prontoqa_train_809", "prontoqa_train_1082", "prontoqa_train_1083", "prontoqa_train_1060"], "conclusion": "prontoqa_train_28", "label": "entailment"}
+{"premises": ["prontoqa_train_1084", "prontoqa_train_1085", "prontoqa_train_1086"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_1087", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1088", "label": "entailment"}
+{"premises": ["prontoqa_train_1089", "prontoqa_train_1090"], "conclusion": "prontoqa_train_437", "label": "entailment"}
+{"premises": ["prontoqa_train_1091", "prontoqa_train_1092"], "conclusion": "prontoqa_train_1093", "label": "entailment"}
+{"premises": ["prontoqa_train_1094", "prontoqa_train_1095"], "conclusion": "prontoqa_train_904", "label": "entailment"}
+{"premises": ["prontoqa_train_1096", "prontoqa_train_992", "prontoqa_train_1097", "prontoqa_train_1098"], "conclusion": "prontoqa_train_934", "label": "entailment"}
+{"premises": ["prontoqa_train_1099", "prontoqa_train_1021", "prontoqa_train_951", "prontoqa_train_1100"], "conclusion": "prontoqa_train_1101", "label": "entailment"}
+{"premises": ["prontoqa_train_1102", "prontoqa_train_886", "prontoqa_train_944", "prontoqa_train_884"], "conclusion": "prontoqa_train_1103", "label": "entailment"}
+{"premises": ["prontoqa_train_1104", "prontoqa_train_857"], "conclusion": "prontoqa_train_1105", "label": "entailment"}
+{"premises": ["prontoqa_train_1106", "prontoqa_train_1107"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_1108", "prontoqa_train_1025"], "conclusion": "prontoqa_train_1109", "label": "entailment"}
+{"premises": ["prontoqa_train_1110", "prontoqa_train_958"], "conclusion": "prontoqa_train_931", "label": "entailment"}
+{"premises": ["prontoqa_train_1111", "prontoqa_train_1112"], "conclusion": "prontoqa_train_1113", "label": "entailment"}
+{"premises": ["prontoqa_train_1114", "prontoqa_train_264", "prontoqa_train_1115", "prontoqa_train_1116", "prontoqa_train_1060", "prontoqa_train_1117", "prontoqa_train_1118"], "conclusion": "prontoqa_train_1119", "label": "entailment"}
+{"premises": ["prontoqa_train_1120", "prontoqa_train_1121"], "conclusion": "prontoqa_train_1122", "label": "entailment"}
+{"premises": ["prontoqa_train_1123", "prontoqa_train_1124", "prontoqa_train_1125", "prontoqa_train_934"], "conclusion": "prontoqa_train_1126", "label": "entailment"}
+{"premises": ["prontoqa_train_1127", "prontoqa_train_1128", "prontoqa_train_944", "prontoqa_train_983"], "conclusion": "prontoqa_train_146", "label": "entailment"}
+{"premises": ["prontoqa_train_1129", "prontoqa_train_883"], "conclusion": "prontoqa_train_1130", "label": "entailment"}
+{"premises": ["prontoqa_train_1131", "prontoqa_train_1026"], "conclusion": "prontoqa_train_1056", "label": "entailment"}
+{"premises": ["prontoqa_train_1132", "prontoqa_train_1047", "prontoqa_train_1133", "prontoqa_train_960"], "conclusion": "prontoqa_train_907", "label": "entailment"}
+{"premises": ["prontoqa_train_1134", "prontoqa_train_1011", "prontoqa_train_931", "prontoqa_train_1065"], "conclusion": "prontoqa_train_1014", "label": "entailment"}
+{"premises": ["prontoqa_train_1135", "prontoqa_train_1136"], "conclusion": "prontoqa_train_1137", "label": "entailment"}
+{"premises": ["prontoqa_train_1138", "prontoqa_train_975"], "conclusion": "prontoqa_train_1139", "label": "entailment"}
+{"premises": ["prontoqa_train_1140", "prontoqa_train_1000"], "conclusion": "prontoqa_train_927", "label": "entailment"}
+{"premises": ["prontoqa_train_1141", "prontoqa_train_1101"], "conclusion": "prontoqa_train_1142", "label": "entailment"}
+{"premises": ["prontoqa_train_1143", "prontoqa_train_1101"], "conclusion": "prontoqa_train_1144", "label": "entailment"}
+{"premises": ["prontoqa_train_1145", "prontoqa_train_988"], "conclusion": "prontoqa_train_999", "label": "entailment"}
+{"premises": ["prontoqa_train_1146", "prontoqa_train_1147"], "conclusion": "prontoqa_train_1148", "label": "entailment"}
+{"premises": ["prontoqa_train_1149", "prontoqa_train_878", "prontoqa_train_919", "prontoqa_train_920"], "conclusion": "prontoqa_train_857", "label": "entailment"}
+{"premises": ["prontoqa_train_1150", "prontoqa_train_1151", "prontoqa_train_1044", "prontoqa_train_1152"], "conclusion": "prontoqa_train_857", "label": "entailment"}
+{"premises": ["prontoqa_train_1153", "prontoqa_train_1026"], "conclusion": "prontoqa_train_1025", "label": "entailment"}
+{"premises": ["prontoqa_train_1154", "prontoqa_train_1155", "prontoqa_train_989"], "conclusion": "prontoqa_train_1156", "label": "entailment"}
+{"premises": ["prontoqa_train_1157", "prontoqa_train_1158", "prontoqa_train_1159"], "conclusion": "prontoqa_train_247", "label": "entailment"}
+{"premises": ["prontoqa_train_772", "prontoqa_train_1160", "prontoqa_train_1161", "prontoqa_train_414", "prontoqa_train_1162", "prontoqa_train_1163", "prontoqa_train_1164"], "conclusion": "prontoqa_train_1165", "label": "entailment"}
+{"premises": ["prontoqa_train_1166", "prontoqa_train_1167"], "conclusion": "prontoqa_train_1168", "label": "entailment"}
+{"premises": ["prontoqa_train_1169", "prontoqa_train_983", "prontoqa_train_955", "prontoqa_train_954"], "conclusion": "prontoqa_train_1170", "label": "entailment"}
+{"premises": ["prontoqa_train_1171", "prontoqa_train_1172", "prontoqa_train_1173", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1151", "label": "entailment"}
+{"premises": ["prontoqa_train_1174", "prontoqa_train_1175"], "conclusion": "prontoqa_train_1176", "label": "entailment"}
+{"premises": ["prontoqa_train_1177", "prontoqa_train_1178"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_1179", "prontoqa_train_1028"], "conclusion": "prontoqa_train_1180", "label": "entailment"}
+{"premises": ["prontoqa_train_109", "prontoqa_train_1181", "prontoqa_train_1182", "prontoqa_train_1183", "prontoqa_train_1184", "prontoqa_train_1185", "prontoqa_train_1184"], "conclusion": "prontoqa_train_1186", "label": "entailment"}
+{"premises": ["prontoqa_train_1187", "prontoqa_train_1011"], "conclusion": "prontoqa_train_1188", "label": "entailment"}
+{"premises": ["prontoqa_train_593", "prontoqa_train_1189"], "conclusion": "prontoqa_train_1190", "label": "entailment"}
+{"premises": ["prontoqa_train_1191", "prontoqa_train_1192"], "conclusion": "prontoqa_train_1193", "label": "entailment"}
+{"premises": ["prontoqa_train_1194", "prontoqa_train_1124"], "conclusion": "prontoqa_train_936", "label": "entailment"}
+{"premises": ["prontoqa_train_1195", "prontoqa_train_1196"], "conclusion": "prontoqa_train_1197", "label": "entailment"}
+{"premises": ["prontoqa_train_824", "prontoqa_train_1198", "prontoqa_train_501", "prontoqa_train_1199", "prontoqa_train_1200", "prontoqa_train_1201"], "conclusion": "prontoqa_train_1202", "label": "entailment"}
+{"premises": ["prontoqa_train_1203", "prontoqa_train_1204"], "conclusion": "prontoqa_train_1205", "label": "entailment"}
+{"premises": ["prontoqa_train_1206", "prontoqa_train_1207", "prontoqa_train_1045", "prontoqa_train_892"], "conclusion": "prontoqa_train_1208", "label": "entailment"}
+{"premises": ["prontoqa_train_1209", "prontoqa_train_1210"], "conclusion": "prontoqa_train_22", "label": "entailment"}
+{"premises": ["prontoqa_train_1211", "prontoqa_train_1212"], "conclusion": "prontoqa_train_1213", "label": "entailment"}
+{"premises": ["prontoqa_train_1214", "prontoqa_train_907", "prontoqa_train_1004", "prontoqa_train_906"], "conclusion": "prontoqa_train_873", "label": "entailment"}
+{"premises": ["prontoqa_train_798", "prontoqa_train_1215"], "conclusion": "prontoqa_train_1216", "label": "entailment"}
+{"premises": ["prontoqa_train_1217", "prontoqa_train_1218", "prontoqa_train_1219", "prontoqa_train_886"], "conclusion": "prontoqa_train_983", "label": "entailment"}
+{"premises": ["prontoqa_train_1220", "prontoqa_train_1221", "prontoqa_train_1076", "prontoqa_train_1000", "prontoqa_train_927"], "conclusion": "prontoqa_train_552", "label": "entailment"}
+{"premises": ["prontoqa_train_1222", "prontoqa_train_1223", "prontoqa_train_1224"], "conclusion": "prontoqa_train_361", "label": "entailment"}
+{"premises": ["prontoqa_train_1225", "prontoqa_train_1226"], "conclusion": "prontoqa_train_84", "label": "entailment"}
+{"premises": ["prontoqa_train_386", "prontoqa_train_1227"], "conclusion": "prontoqa_train_1228", "label": "entailment"}
+{"premises": ["prontoqa_train_518", "prontoqa_train_1229", "prontoqa_train_1230"], "conclusion": "prontoqa_train_1231", "label": "entailment"}
+{"premises": ["prontoqa_train_1232", "prontoqa_train_1233"], "conclusion": "prontoqa_train_1234", "label": "entailment"}
+{"premises": ["prontoqa_train_1235", "prontoqa_train_1028"], "conclusion": "prontoqa_train_1100", "label": "entailment"}
+{"premises": ["prontoqa_train_1236", "prontoqa_train_1237", "prontoqa_train_1238", "prontoqa_train_1133", "prontoqa_train_874", "prontoqa_train_1239"], "conclusion": "prontoqa_train_90", "label": "entailment"}
+{"premises": ["prontoqa_train_1240", "prontoqa_train_960"], "conclusion": "prontoqa_train_907", "label": "entailment"}
+{"premises": ["prontoqa_train_1241", "prontoqa_train_1242", "prontoqa_train_1243"], "conclusion": "prontoqa_train_457", "label": "entailment"}
+{"premises": ["prontoqa_train_1244", "prontoqa_train_874", "prontoqa_train_960", "prontoqa_train_1004"], "conclusion": "prontoqa_train_1245", "label": "entailment"}
+{"premises": ["prontoqa_train_1246", "prontoqa_train_1247", "prontoqa_train_892", "prontoqa_train_977"], "conclusion": "prontoqa_train_1152", "label": "entailment"}
+{"premises": ["prontoqa_train_1135", "prontoqa_train_1248"], "conclusion": "prontoqa_train_1249", "label": "entailment"}
+{"premises": ["prontoqa_train_1250", "prontoqa_train_1251"], "conclusion": "prontoqa_train_1252", "label": "entailment"}
+{"premises": ["prontoqa_train_1253", "prontoqa_train_1254"], "conclusion": "prontoqa_train_1101", "label": "entailment"}
+{"premises": ["prontoqa_train_1255", "prontoqa_train_1256", "prontoqa_train_1048", "prontoqa_train_1071"], "conclusion": "prontoqa_train_30", "label": "entailment"}
+{"premises": ["prontoqa_train_91", "prontoqa_train_1257"], "conclusion": "prontoqa_train_1258", "label": "entailment"}
+{"premises": ["prontoqa_train_1259", "prontoqa_train_1260", "prontoqa_train_1039", "prontoqa_train_1066"], "conclusion": "prontoqa_train_802", "label": "entailment"}
+{"premises": ["prontoqa_train_1261", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1262", "label": "entailment"}
+{"premises": ["prontoqa_train_1263", "prontoqa_train_1264", "prontoqa_train_1172", "prontoqa_train_1247", "prontoqa_train_1173"], "conclusion": "prontoqa_train_430", "label": "entailment"}
+{"premises": ["prontoqa_train_1265", "prontoqa_train_88", "prontoqa_train_857"], "conclusion": "prontoqa_train_1266", "label": "entailment"}
+{"premises": ["prontoqa_train_1267", "prontoqa_train_1268", "prontoqa_train_1269", "prontoqa_train_1162"], "conclusion": "prontoqa_train_552", "label": "entailment"}
+{"premises": ["prontoqa_train_1270", "prontoqa_train_1271", "prontoqa_train_906"], "conclusion": "prontoqa_train_1272", "label": "entailment"}
+{"premises": ["prontoqa_train_1273", "prontoqa_train_1274", "prontoqa_train_1011", "prontoqa_train_1039"], "conclusion": "prontoqa_train_1275", "label": "entailment"}
+{"premises": ["prontoqa_train_1276", "prontoqa_train_1167"], "conclusion": "prontoqa_train_1277", "label": "entailment"}
+{"premises": ["prontoqa_train_1278", "prontoqa_train_1279"], "conclusion": "prontoqa_train_1280", "label": "entailment"}
+{"premises": ["prontoqa_train_1281", "prontoqa_train_1282"], "conclusion": "prontoqa_train_287", "label": "entailment"}
+{"premises": ["prontoqa_train_1283", "prontoqa_train_1284"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_1285", "prontoqa_train_884"], "conclusion": "prontoqa_train_1286", "label": "entailment"}
+{"premises": ["prontoqa_train_774", "prontoqa_train_1287"], "conclusion": "prontoqa_train_1288", "label": "entailment"}
+{"premises": ["prontoqa_train_130", "prontoqa_train_1289"], "conclusion": "prontoqa_train_1290", "label": "entailment"}
+{"premises": ["prontoqa_train_1291", "prontoqa_train_1292", "prontoqa_train_1081", "prontoqa_train_850"], "conclusion": "prontoqa_train_1060", "label": "entailment"}
+{"premises": ["prontoqa_train_1293", "prontoqa_train_1294"], "conclusion": "prontoqa_train_1295", "label": "entailment"}
+{"premises": ["prontoqa_train_1296", "prontoqa_train_923", "prontoqa_train_952", "prontoqa_train_1297"], "conclusion": "prontoqa_train_1021", "label": "entailment"}
+{"premises": ["prontoqa_train_1298", "prontoqa_train_1041"], "conclusion": "prontoqa_train_1299", "label": "entailment"}
+{"premises": ["prontoqa_train_1300", "prontoqa_train_1101"], "conclusion": "prontoqa_train_1301", "label": "entailment"}
+{"premises": ["prontoqa_train_1302", "prontoqa_train_849"], "conclusion": "prontoqa_train_1303", "label": "entailment"}
+{"premises": ["prontoqa_train_764", "prontoqa_train_1304", "prontoqa_train_1305", "prontoqa_train_591", "prontoqa_train_1306", "prontoqa_train_952", "prontoqa_train_951", "prontoqa_train_1307"], "conclusion": "prontoqa_train_1308", "label": "entailment"}
+{"premises": ["prontoqa_train_1309", "prontoqa_train_990"], "conclusion": "prontoqa_train_1310", "label": "entailment"}
+{"premises": ["prontoqa_train_573", "prontoqa_train_1311"], "conclusion": "prontoqa_train_1312", "label": "entailment"}
+{"premises": ["prontoqa_train_1313", "prontoqa_train_885", "prontoqa_train_1314", "prontoqa_train_945"], "conclusion": "prontoqa_train_1315", "label": "entailment"}
+{"premises": ["prontoqa_train_1316", "prontoqa_train_1317"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_1318", "prontoqa_train_1319", "prontoqa_train_613", "prontoqa_train_370", "prontoqa_train_1320", "prontoqa_train_1025", "prontoqa_train_1233", "prontoqa_train_1321"], "conclusion": "prontoqa_train_1322", "label": "entailment"}
+{"premises": ["prontoqa_train_1323", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1172", "label": "entailment"}
+{"premises": ["prontoqa_train_1324", "prontoqa_train_1325"], "conclusion": "prontoqa_train_1044", "label": "entailment"}
+{"premises": ["prontoqa_train_1326", "prontoqa_train_1028", "prontoqa_train_1019", "prontoqa_train_1327"], "conclusion": "prontoqa_train_904", "label": "entailment"}
+{"premises": ["prontoqa_train_1328", "prontoqa_train_1329"], "conclusion": "prontoqa_train_1066", "label": "entailment"}
+{"premises": ["prontoqa_train_1330", "prontoqa_train_1331"], "conclusion": "prontoqa_train_1173", "label": "entailment"}
+{"premises": ["prontoqa_train_1332", "prontoqa_train_866"], "conclusion": "prontoqa_train_1333", "label": "entailment"}
+{"premises": ["prontoqa_train_1334", "prontoqa_train_923", "prontoqa_train_951", "prontoqa_train_1335"], "conclusion": "prontoqa_train_1297", "label": "entailment"}
+{"premises": ["prontoqa_train_1336", "prontoqa_train_1337"], "conclusion": "prontoqa_train_340", "label": "entailment"}
+{"premises": ["prontoqa_train_1338", "prontoqa_train_1339"], "conclusion": "prontoqa_train_1340", "label": "entailment"}
+{"premises": ["prontoqa_train_1341", "prontoqa_train_886"], "conclusion": "prontoqa_train_883", "label": "entailment"}
+{"premises": ["prontoqa_train_1342", "prontoqa_train_1343"], "conclusion": "prontoqa_train_1344", "label": "entailment"}
+{"premises": ["prontoqa_train_1345", "prontoqa_train_1346", "prontoqa_train_1151", "prontoqa_train_1045"], "conclusion": "prontoqa_train_878", "label": "entailment"}
+{"premises": ["prontoqa_train_1347", "prontoqa_train_161", "prontoqa_train_1269"], "conclusion": "prontoqa_train_1348", "label": "entailment"}
+{"premises": ["prontoqa_train_1349", "prontoqa_train_1350"], "conclusion": "prontoqa_train_241", "label": "entailment"}
+{"premises": ["prontoqa_train_1351", "prontoqa_train_1352"], "conclusion": "prontoqa_train_1353", "label": "entailment"}
+{"premises": ["prontoqa_train_1354", "prontoqa_train_1355"], "conclusion": "prontoqa_train_1356", "label": "entailment"}
+{"premises": ["prontoqa_train_1357", "prontoqa_train_866", "prontoqa_train_920", "prontoqa_train_1173"], "conclusion": "prontoqa_train_1247", "label": "entailment"}
+{"premises": ["prontoqa_train_1358", "prontoqa_train_1359"], "conclusion": "prontoqa_train_811", "label": "entailment"}
+{"premises": ["prontoqa_train_1360", "prontoqa_train_1361", "prontoqa_train_977", "prontoqa_train_892"], "conclusion": "prontoqa_train_199", "label": "entailment"}
+{"premises": ["prontoqa_train_1362", "prontoqa_train_1363", "prontoqa_train_1364"], "conclusion": "prontoqa_train_398", "label": "entailment"}
+{"premises": ["prontoqa_train_1365", "prontoqa_train_1366", "prontoqa_train_907", "prontoqa_train_1184", "prontoqa_train_874"], "conclusion": "prontoqa_train_630", "label": "entailment"}
+{"premises": ["prontoqa_train_1367", "prontoqa_train_1151", "prontoqa_train_866", "prontoqa_train_1172"], "conclusion": "prontoqa_train_892", "label": "entailment"}
+{"premises": ["prontoqa_train_1368", "prontoqa_train_1100", "prontoqa_train_1101", "prontoqa_train_951"], "conclusion": "prontoqa_train_904", "label": "entailment"}
+{"premises": ["prontoqa_train_1369", "prontoqa_train_988"], "conclusion": "prontoqa_train_1370", "label": "entailment"}
+{"premises": ["prontoqa_train_1371", "prontoqa_train_1372", "prontoqa_train_1056", "prontoqa_train_1373"], "conclusion": "prontoqa_train_1374", "label": "entailment"}
+{"premises": ["prontoqa_train_1375", "prontoqa_train_1376"], "conclusion": "prontoqa_train_1204", "label": "entailment"}
+{"premises": ["prontoqa_train_1377", "prontoqa_train_1213"], "conclusion": "prontoqa_train_1378", "label": "entailment"}
+{"premises": ["prontoqa_train_1379", "prontoqa_train_1380", "prontoqa_train_1071"], "conclusion": "prontoqa_train_599", "label": "entailment"}
+{"premises": ["prontoqa_train_1381", "prontoqa_train_130", "prontoqa_train_1245"], "conclusion": "prontoqa_train_1382", "label": "entailment"}
+{"premises": ["prontoqa_train_1383", "prontoqa_train_1384"], "conclusion": "prontoqa_train_1040", "label": "entailment"}
+{"premises": ["prontoqa_train_1385", "prontoqa_train_94", "prontoqa_train_1386"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_1387", "prontoqa_train_1388"], "conclusion": "prontoqa_train_1389", "label": "entailment"}
+{"premises": ["prontoqa_train_1390", "prontoqa_train_306", "prontoqa_train_1391"], "conclusion": "prontoqa_train_1392", "label": "entailment"}
+{"premises": ["prontoqa_train_1393", "prontoqa_train_659", "prontoqa_train_1394", "prontoqa_train_1395", "prontoqa_train_1172", "prontoqa_train_1045", "prontoqa_train_1173", "prontoqa_train_1044", "prontoqa_train_1396"], "conclusion": "prontoqa_train_1397", "label": "entailment"}
+{"premises": ["prontoqa_train_1398", "prontoqa_train_1399"], "conclusion": "prontoqa_train_839", "label": "entailment"}
+{"premises": ["prontoqa_train_189", "prontoqa_train_1400"], "conclusion": "prontoqa_train_1401", "label": "entailment"}
+{"premises": ["prontoqa_train_1402", "prontoqa_train_1403"], "conclusion": "prontoqa_train_1213", "label": "entailment"}
+{"premises": ["prontoqa_train_1404", "prontoqa_train_1042"], "conclusion": "prontoqa_train_1405", "label": "entailment"}
+{"premises": ["prontoqa_train_1406", "prontoqa_train_1407"], "conclusion": "prontoqa_train_50", "label": "entailment"}
+{"premises": ["prontoqa_train_1318", "prontoqa_train_633", "prontoqa_train_1408"], "conclusion": "prontoqa_train_342", "label": "entailment"}
+{"premises": ["prontoqa_train_1409", "prontoqa_train_1065", "prontoqa_train_1011", "prontoqa_train_1274"], "conclusion": "prontoqa_train_1016", "label": "entailment"}
+{"premises": ["prontoqa_train_1083", "prontoqa_train_1410", "prontoqa_train_1411"], "conclusion": "prontoqa_train_1412", "label": "entailment"}
+{"premises": ["prontoqa_train_1413", "prontoqa_train_966", "prontoqa_train_1269", "prontoqa_train_1414"], "conclusion": "prontoqa_train_986", "label": "entailment"}
+{"premises": ["prontoqa_train_1415", "prontoqa_train_1071"], "conclusion": "prontoqa_train_907", "label": "entailment"}
+{"premises": ["prontoqa_train_1416", "prontoqa_train_1103"], "conclusion": "prontoqa_train_884", "label": "entailment"}
+{"premises": ["prontoqa_train_1417", "prontoqa_train_855"], "conclusion": "prontoqa_train_1418", "label": "entailment"}
+{"premises": ["prontoqa_train_1419", "prontoqa_train_1420"], "conclusion": "prontoqa_train_547", "label": "entailment"}
+{"premises": ["prontoqa_train_1421", "prontoqa_train_1422"], "conclusion": "prontoqa_train_1208", "label": "entailment"}
+{"premises": ["prontoqa_train_1423", "prontoqa_train_958"], "conclusion": "prontoqa_train_1424", "label": "entailment"}
+{"premises": ["prontoqa_train_1425", "prontoqa_train_1426", "prontoqa_train_1184"], "conclusion": "prontoqa_train_1427", "label": "entailment"}
+{"premises": ["prontoqa_train_1428", "prontoqa_train_1429"], "conclusion": "prontoqa_train_367", "label": "entailment"}
+{"premises": ["prontoqa_train_1430", "prontoqa_train_1431"], "conclusion": "prontoqa_train_1006", "label": "entailment"}
+{"premises": ["prontoqa_train_1432", "prontoqa_train_1433"], "conclusion": "prontoqa_train_584", "label": "entailment"}
+{"premises": ["prontoqa_train_1434", "prontoqa_train_1435", "prontoqa_train_1275", "prontoqa_train_1436", "prontoqa_train_1014"], "conclusion": "prontoqa_train_1437", "label": "entailment"}
+{"premises": ["prontoqa_train_1438", "prontoqa_train_1133"], "conclusion": "prontoqa_train_1047", "label": "entailment"}
+{"premises": ["prontoqa_train_1439", "prontoqa_train_1245", "prontoqa_train_872", "prontoqa_train_1440"], "conclusion": "prontoqa_train_960", "label": "entailment"}
+{"premises": ["prontoqa_train_1441", "prontoqa_train_1442", "prontoqa_train_945", "prontoqa_train_1218"], "conclusion": "prontoqa_train_181", "label": "entailment"}
+{"premises": ["prontoqa_train_1443", "prontoqa_train_863"], "conclusion": "prontoqa_train_1373", "label": "entailment"}
+{"premises": ["prontoqa_train_1444", "prontoqa_train_1445"], "conclusion": "prontoqa_train_808", "label": "entailment"}
+{"premises": ["prontoqa_train_1446", "prontoqa_train_1006", "prontoqa_train_1218", "prontoqa_train_954"], "conclusion": "prontoqa_train_1447", "label": "entailment"}
+{"premises": ["prontoqa_train_1448", "prontoqa_train_1449", "prontoqa_train_1450"], "conclusion": "prontoqa_train_337", "label": "entailment"}
+{"premises": ["prontoqa_train_1451", "prontoqa_train_1452"], "conclusion": "prontoqa_train_1453", "label": "entailment"}
+{"premises": ["prontoqa_train_1454", "prontoqa_train_1025", "prontoqa_train_1026", "prontoqa_train_863"], "conclusion": "prontoqa_train_1372", "label": "entailment"}
+{"premises": ["prontoqa_train_111", "prontoqa_train_370", "prontoqa_train_1455", "prontoqa_train_1456", "prontoqa_train_1098", "prontoqa_train_975", "prontoqa_train_974", "prontoqa_train_1098", "prontoqa_train_1457"], "conclusion": "prontoqa_train_1458", "label": "entailment"}
+{"premises": ["prontoqa_train_1459", "prontoqa_train_1460"], "conclusion": "prontoqa_train_1461", "label": "entailment"}
+{"premises": ["prontoqa_train_1462", "prontoqa_train_1463"], "conclusion": "prontoqa_train_983", "label": "entailment"}
+{"premises": ["prontoqa_train_1464", "prontoqa_train_1465", "prontoqa_train_1219", "prontoqa_train_883", "prontoqa_train_1218"], "conclusion": "prontoqa_train_253", "label": "entailment"}
+{"premises": ["prontoqa_train_445", "prontoqa_train_1466", "prontoqa_train_931"], "conclusion": "prontoqa_train_1467", "label": "entailment"}
+{"premises": ["prontoqa_train_1468", "prontoqa_train_1247"], "conclusion": "prontoqa_train_1172", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_1469"], "conclusion": "prontoqa_train_1470", "label": "entailment"}
+{"premises": ["prontoqa_train_1471", "prontoqa_train_1472"], "conclusion": "prontoqa_train_883", "label": "entailment"}
+{"premises": ["prontoqa_train_1473", "prontoqa_train_1474", "prontoqa_train_1475", "prontoqa_train_1476", "prontoqa_train_1477", "prontoqa_train_1065", "prontoqa_train_1040", "prontoqa_train_1436", "prontoqa_train_1275", "prontoqa_train_1040"], "conclusion": "prontoqa_train_1478", "label": "entailment"}
+{"premises": ["prontoqa_train_1479", "prontoqa_train_1480"], "conclusion": "prontoqa_train_1411", "label": "entailment"}
+{"premises": ["prontoqa_train_1481", "prontoqa_train_1172"], "conclusion": "prontoqa_train_920", "label": "entailment"}
+{"premises": ["prontoqa_train_1482", "prontoqa_train_1204"], "conclusion": "prontoqa_train_1483", "label": "entailment"}
+{"premises": ["prontoqa_train_1484", "prontoqa_train_1485", "prontoqa_train_1486", "prontoqa_train_1487", "prontoqa_train_1488", "prontoqa_train_1167", "prontoqa_train_975", "prontoqa_train_1489"], "conclusion": "prontoqa_train_1490", "label": "entailment"}
+{"premises": ["prontoqa_train_226", "prontoqa_train_1491", "prontoqa_train_955"], "conclusion": "prontoqa_train_1492", "label": "entailment"}
+{"premises": ["prontoqa_train_1493", "prontoqa_train_1494", "prontoqa_train_955", "prontoqa_train_983", "prontoqa_train_886", "prontoqa_train_1219", "prontoqa_train_955"], "conclusion": "prontoqa_train_225", "label": "entailment"}
+{"premises": ["prontoqa_train_1495", "prontoqa_train_885", "prontoqa_train_883", "prontoqa_train_1218"], "conclusion": "prontoqa_train_1496", "label": "entailment"}
+{"premises": ["prontoqa_train_1497", "prontoqa_train_1065", "prontoqa_train_1384", "prontoqa_train_1436"], "conclusion": "prontoqa_train_1011", "label": "entailment"}
+{"premises": ["prontoqa_train_37", "prontoqa_train_1498"], "conclusion": "prontoqa_train_1499", "label": "entailment"}
+{"premises": ["prontoqa_train_1500", "prontoqa_train_1213"], "conclusion": "prontoqa_train_1501", "label": "entailment"}
+{"premises": ["prontoqa_train_1502", "prontoqa_train_931"], "conclusion": "prontoqa_train_1503", "label": "entailment"}
+{"premises": ["prontoqa_train_1504", "prontoqa_train_1204", "prontoqa_train_1352", "prontoqa_train_1292"], "conclusion": "prontoqa_train_1505", "label": "entailment"}
+{"premises": ["prontoqa_train_1506", "prontoqa_train_1507", "prontoqa_train_1331"], "conclusion": "prontoqa_train_118", "label": "entailment"}
+{"premises": ["prontoqa_train_1508", "prontoqa_train_1172", "prontoqa_train_1173", "prontoqa_train_892"], "conclusion": "prontoqa_train_866", "label": "entailment"}
+{"premises": ["prontoqa_train_1509", "prontoqa_train_872"], "conclusion": "prontoqa_train_1510", "label": "entailment"}
+{"premises": ["prontoqa_train_1511", "prontoqa_train_906"], "conclusion": "prontoqa_train_1512", "label": "entailment"}
+{"premises": ["prontoqa_train_1513", "prontoqa_train_920", "prontoqa_train_977", "prontoqa_train_1247"], "conclusion": "prontoqa_train_857", "label": "entailment"}
+{"premises": ["prontoqa_train_1514", "prontoqa_train_1004", "prontoqa_train_1440", "prontoqa_train_1047"], "conclusion": "prontoqa_train_907", "label": "entailment"}
+{"premises": ["prontoqa_train_251", "prontoqa_train_1318", "prontoqa_train_1515"], "conclusion": "prontoqa_train_42", "label": "entailment"}
+{"premises": ["prontoqa_train_1516", "prontoqa_train_864"], "conclusion": "prontoqa_train_1517", "label": "entailment"}
+{"premises": ["prontoqa_train_1518", "prontoqa_train_955", "prontoqa_train_1103", "prontoqa_train_945"], "conclusion": "prontoqa_train_954", "label": "entailment"}
+{"premises": ["prontoqa_train_1519", "prontoqa_train_1520"], "conclusion": "prontoqa_train_1373", "label": "entailment"}
+{"premises": ["prontoqa_train_1521", "prontoqa_train_977", "prontoqa_train_920", "prontoqa_train_919"], "conclusion": "prontoqa_train_1522", "label": "entailment"}
+{"premises": ["prontoqa_train_1523", "prontoqa_train_1173", "prontoqa_train_1331", "prontoqa_train_1247"], "conclusion": "prontoqa_train_1172", "label": "entailment"}
+{"premises": ["prontoqa_train_1524", "prontoqa_train_294", "prontoqa_train_1047"], "conclusion": "prontoqa_train_1525", "label": "entailment"}
+{"premises": ["prontoqa_train_1526", "prontoqa_train_907"], "conclusion": "prontoqa_train_1527", "label": "entailment"}
+{"premises": ["prontoqa_train_1528", "prontoqa_train_1529"], "conclusion": "prontoqa_train_599", "label": "entailment"}
+{"premises": ["prontoqa_train_1530", "prontoqa_train_1275"], "conclusion": "prontoqa_train_1531", "label": "entailment"}
+{"premises": ["prontoqa_train_1532", "prontoqa_train_1533", "prontoqa_train_1534"], "conclusion": "prontoqa_train_204", "label": "entailment"}
+{"premises": ["prontoqa_train_1535", "prontoqa_train_1536"], "conclusion": "prontoqa_train_1537", "label": "entailment"}
+{"premises": ["prontoqa_train_1538", "prontoqa_train_999"], "conclusion": "prontoqa_train_1414", "label": "entailment"}
+{"premises": ["prontoqa_train_1539", "prontoqa_train_1540"], "conclusion": "prontoqa_train_255", "label": "entailment"}
+{"premises": ["prontoqa_train_1541", "prontoqa_train_1026", "prontoqa_train_1542", "prontoqa_train_1373"], "conclusion": "prontoqa_train_1543", "label": "entailment"}
+{"premises": ["prontoqa_train_1544", "prontoqa_train_883"], "conclusion": "prontoqa_train_946", "label": "entailment"}
+{"premises": ["prontoqa_train_1545", "prontoqa_train_944"], "conclusion": "prontoqa_train_1218", "label": "entailment"}
+{"premises": ["prontoqa_train_1546", "prontoqa_train_1547", "prontoqa_train_1452", "prontoqa_train_1233"], "conclusion": "prontoqa_train_101", "label": "entailment"}
+{"premises": ["prontoqa_train_1548", "prontoqa_train_1167"], "conclusion": "prontoqa_train_1549", "label": "entailment"}
+{"premises": ["prontoqa_train_1550", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1551", "label": "entailment"}
+{"premises": ["prontoqa_train_1552", "prontoqa_train_1019"], "conclusion": "prontoqa_train_1553", "label": "entailment"}
+{"premises": ["prontoqa_train_1554", "prontoqa_train_1028"], "conclusion": "prontoqa_train_1555", "label": "entailment"}
+{"premises": ["prontoqa_train_1556", "prontoqa_train_1097"], "conclusion": "prontoqa_train_1557", "label": "entailment"}
+{"premises": ["prontoqa_train_1558", "prontoqa_train_958"], "conclusion": "prontoqa_train_1559", "label": "entailment"}
+{"premises": ["prontoqa_train_1560", "prontoqa_train_1561"], "conclusion": "prontoqa_train_1218", "label": "entailment"}
+{"premises": ["prontoqa_train_1562", "prontoqa_train_1000"], "conclusion": "prontoqa_train_1563", "label": "entailment"}
+{"premises": ["prontoqa_train_1564", "prontoqa_train_1565"], "conclusion": "prontoqa_train_452", "label": "entailment"}
+{"premises": ["prontoqa_train_1566", "prontoqa_train_1567"], "conclusion": "prontoqa_train_1568", "label": "entailment"}
+{"premises": ["prontoqa_train_1569", "prontoqa_train_1570", "prontoqa_train_885"], "conclusion": "prontoqa_train_1571", "label": "entailment"}
+{"premises": ["prontoqa_train_1572", "prontoqa_train_1573", "prontoqa_train_1574", "prontoqa_train_1076"], "conclusion": "prontoqa_train_325", "label": "entailment"}
+{"premises": ["prontoqa_train_1575", "prontoqa_train_1576"], "conclusion": "prontoqa_train_223", "label": "entailment"}
+{"premises": ["prontoqa_train_37", "prontoqa_train_1577"], "conclusion": "prontoqa_train_1578", "label": "entailment"}
+{"premises": ["prontoqa_train_1579", "prontoqa_train_1580"], "conclusion": "prontoqa_train_922", "label": "entailment"}
+{"premises": ["prontoqa_train_1581", "prontoqa_train_1582"], "conclusion": "prontoqa_train_1414", "label": "entailment"}
+{"premises": ["prontoqa_train_1583", "prontoqa_train_1584", "prontoqa_train_1450"], "conclusion": "prontoqa_train_1356", "label": "entailment"}
+{"premises": ["prontoqa_train_1585", "prontoqa_train_1586", "prontoqa_train_919", "prontoqa_train_857", "prontoqa_train_1173"], "conclusion": "prontoqa_train_163", "label": "entailment"}
+{"premises": ["prontoqa_train_102", "prontoqa_train_1587"], "conclusion": "prontoqa_train_1588", "label": "entailment"}
+{"premises": ["prontoqa_train_1589", "prontoqa_train_1590", "prontoqa_train_1025"], "conclusion": "prontoqa_train_1591", "label": "entailment"}
+{"premises": ["prontoqa_train_1592", "prontoqa_train_1450"], "conclusion": "prontoqa_train_1593", "label": "entailment"}
+{"premises": ["prontoqa_train_1594", "prontoqa_train_1595", "prontoqa_train_1384"], "conclusion": "prontoqa_train_1596", "label": "entailment"}
+{"premises": ["prontoqa_train_1597", "prontoqa_train_1598"], "conclusion": "prontoqa_train_278", "label": "entailment"}
+{"premises": ["prontoqa_train_1599", "prontoqa_train_1600"], "conclusion": "prontoqa_train_322", "label": "entailment"}
+{"premises": ["prontoqa_train_1601", "prontoqa_train_1602", "prontoqa_train_1124"], "conclusion": "prontoqa_train_1603", "label": "entailment"}
+{"premises": ["prontoqa_train_1604", "prontoqa_train_998"], "conclusion": "prontoqa_train_1605", "label": "entailment"}
+{"premises": ["prontoqa_train_164", "prontoqa_train_1606", "prontoqa_train_1124"], "conclusion": "prontoqa_train_1607", "label": "entailment"}
+{"premises": ["prontoqa_train_1608", "prontoqa_train_1609"], "conclusion": "prontoqa_train_1610", "label": "entailment"}
+{"premises": ["prontoqa_train_1611", "prontoqa_train_1343"], "conclusion": "prontoqa_train_1125", "label": "entailment"}
+{"premises": ["prontoqa_train_1612", "prontoqa_train_873"], "conclusion": "prontoqa_train_1613", "label": "entailment"}
+{"premises": ["prontoqa_train_1594", "prontoqa_train_1614", "prontoqa_train_1615", "prontoqa_train_1616", "prontoqa_train_1452", "prontoqa_train_1026", "prontoqa_train_855", "prontoqa_train_1617"], "conclusion": "prontoqa_train_1618", "label": "entailment"}
+{"premises": ["prontoqa_train_693", "prontoqa_train_1619"], "conclusion": "prontoqa_train_1620", "label": "entailment"}
+{"premises": ["prontoqa_train_1621", "prontoqa_train_1411"], "conclusion": "prontoqa_train_1060", "label": "entailment"}
+{"premises": ["prontoqa_train_1622", "prontoqa_train_1623"], "conclusion": "prontoqa_train_599", "label": "entailment"}
+{"premises": ["prontoqa_train_1116", "prontoqa_train_416", "prontoqa_train_945"], "conclusion": "prontoqa_train_1624", "label": "entailment"}
+{"premises": ["prontoqa_train_1625", "prontoqa_train_1626"], "conclusion": "prontoqa_train_1627", "label": "entailment"}
+{"premises": ["prontoqa_train_1628", "prontoqa_train_1629"], "conclusion": "prontoqa_train_1630", "label": "entailment"}
+{"premises": ["prontoqa_train_1631", "prontoqa_train_1542", "prontoqa_train_1213", "prontoqa_train_1372"], "conclusion": "prontoqa_train_1025", "label": "entailment"}
+{"premises": ["prontoqa_train_1632", "prontoqa_train_1376"], "conclusion": "prontoqa_train_1633", "label": "entailment"}
+{"premises": ["prontoqa_train_133", "prontoqa_train_1634"], "conclusion": "prontoqa_train_1635", "label": "entailment"}
+{"premises": ["prontoqa_train_1636", "prontoqa_train_1637", "prontoqa_train_1014", "prontoqa_train_1066"], "conclusion": "prontoqa_train_319", "label": "entailment"}
+{"premises": ["prontoqa_train_1638", "prontoqa_train_1639", "prontoqa_train_1269", "prontoqa_train_986", "prontoqa_train_927"], "conclusion": "prontoqa_train_667", "label": "entailment"}
+{"premises": ["prontoqa_train_1640", "prontoqa_train_1641"], "conclusion": "prontoqa_train_1642", "label": "entailment"}
+{"premises": ["prontoqa_train_1643", "prontoqa_train_873", "prontoqa_train_907", "prontoqa_train_1071"], "conclusion": "prontoqa_train_1004", "label": "entailment"}
+{"premises": ["prontoqa_train_1644", "prontoqa_train_1133", "prontoqa_train_1245", "prontoqa_train_874"], "conclusion": "prontoqa_train_1645", "label": "entailment"}
+{"premises": ["prontoqa_train_1646", "prontoqa_train_1647"], "conclusion": "prontoqa_train_1314", "label": "entailment"}
+{"premises": ["prontoqa_train_1648", "prontoqa_train_1489"], "conclusion": "prontoqa_train_934", "label": "entailment"}
+{"premises": ["prontoqa_train_1649", "prontoqa_train_1343", "prontoqa_train_974", "prontoqa_train_936"], "conclusion": "prontoqa_train_1124", "label": "entailment"}
+{"premises": ["prontoqa_train_1650", "prontoqa_train_1651"], "conclusion": "prontoqa_train_62", "label": "entailment"}
+{"premises": ["prontoqa_train_655", "prontoqa_train_1652"], "conclusion": "prontoqa_train_1653", "label": "entailment"}
+{"premises": ["prontoqa_train_1654", "prontoqa_train_1655", "prontoqa_train_1656"], "conclusion": "prontoqa_train_570", "label": "entailment"}
+{"premises": ["prontoqa_train_1657", "prontoqa_train_946", "prontoqa_train_944", "prontoqa_train_1103"], "conclusion": "prontoqa_train_885", "label": "entailment"}
+{"premises": ["prontoqa_train_1658", "prontoqa_train_1659"], "conclusion": "prontoqa_train_922", "label": "entailment"}
+{"premises": ["prontoqa_train_1660", "prontoqa_train_1483"], "conclusion": "prontoqa_train_1661", "label": "entailment"}
+{"premises": ["prontoqa_train_1662", "prontoqa_train_1098", "prontoqa_train_1125", "prontoqa_train_974"], "conclusion": "prontoqa_train_935", "label": "entailment"}
+{"premises": ["prontoqa_train_1663", "prontoqa_train_1664"], "conclusion": "prontoqa_train_121", "label": "entailment"}
+{"premises": ["prontoqa_train_1665", "prontoqa_train_1666"], "conclusion": "prontoqa_train_1667", "label": "entailment"}
+{"premises": ["prontoqa_train_1668", "prontoqa_train_1669"], "conclusion": "prontoqa_train_852", "label": "entailment"}
+{"premises": ["prontoqa_train_1670", "prontoqa_train_1671"], "conclusion": "prontoqa_train_1672", "label": "entailment"}
+{"premises": ["prontoqa_train_1673", "prontoqa_train_1543"], "conclusion": "prontoqa_train_1674", "label": "entailment"}
+{"premises": ["prontoqa_train_1675", "prontoqa_train_1676"], "conclusion": "prontoqa_train_1677", "label": "entailment"}
+{"premises": ["prontoqa_train_1678", "prontoqa_train_1230", "prontoqa_train_872", "prontoqa_train_1245"], "conclusion": "prontoqa_train_960", "label": "entailment"}
+{"premises": ["prontoqa_train_1160", "prontoqa_train_1679", "prontoqa_train_689", "prontoqa_train_1680", "prontoqa_train_1327", "prontoqa_train_1681"], "conclusion": "prontoqa_train_1682", "label": "entailment"}
+{"premises": ["prontoqa_train_1683", "prontoqa_train_1044"], "conclusion": "prontoqa_train_1684", "label": "entailment"}
+{"premises": ["prontoqa_train_1685", "prontoqa_train_927"], "conclusion": "prontoqa_train_988", "label": "entailment"}
+{"premises": ["prontoqa_train_1686", "prontoqa_train_1687"], "conclusion": "prontoqa_train_1376", "label": "entailment"}
+{"premises": ["prontoqa_train_1688", "prontoqa_train_1343", "prontoqa_train_1097", "prontoqa_train_934"], "conclusion": "prontoqa_train_1609", "label": "entailment"}
+{"premises": ["prontoqa_train_1689", "prontoqa_train_1690"], "conclusion": "prontoqa_train_903", "label": "entailment"}
+{"premises": ["prontoqa_train_1691", "prontoqa_train_1483", "prontoqa_train_1669", "prontoqa_train_1505"], "conclusion": "prontoqa_train_1692", "label": "entailment"}
+{"premises": ["prontoqa_train_1693", "prontoqa_train_1011"], "conclusion": "prontoqa_train_1694", "label": "entailment"}
+{"premises": ["prontoqa_train_1695", "prontoqa_train_1696"], "conclusion": "prontoqa_train_479", "label": "entailment"}
+{"premises": ["prontoqa_train_242", "prontoqa_train_1697"], "conclusion": "prontoqa_train_1698", "label": "entailment"}
+{"premises": ["prontoqa_train_1699", "prontoqa_train_1700", "prontoqa_train_931", "prontoqa_train_1011", "prontoqa_train_1436"], "conclusion": "prontoqa_train_22", "label": "entailment"}
+{"premises": ["prontoqa_train_374", "prontoqa_train_1701"], "conclusion": "prontoqa_train_1702", "label": "entailment"}
+{"premises": ["prontoqa_train_1703", "prontoqa_train_1543", "prontoqa_train_1704", "prontoqa_train_1452"], "conclusion": "prontoqa_train_1213", "label": "entailment"}
+{"premises": ["prontoqa_train_1705", "prontoqa_train_1706", "prontoqa_train_1707"], "conclusion": "prontoqa_train_587", "label": "entailment"}
+{"premises": ["prontoqa_train_368", "prontoqa_train_1708"], "conclusion": "prontoqa_train_1709", "label": "entailment"}
+{"premises": ["prontoqa_train_1710", "prontoqa_train_1124"], "conclusion": "prontoqa_train_1097", "label": "entailment"}
+{"premises": ["prontoqa_train_1711", "prontoqa_train_855"], "conclusion": "prontoqa_train_1712", "label": "entailment"}
+{"premises": ["prontoqa_train_1713", "prontoqa_train_1714"], "conclusion": "prontoqa_train_1715", "label": "entailment"}
+{"premises": ["prontoqa_train_1716", "prontoqa_train_1014"], "conclusion": "prontoqa_train_1065", "label": "entailment"}
+{"premises": ["prontoqa_train_1717", "prontoqa_train_1718"], "conclusion": "prontoqa_train_104", "label": "entailment"}
+{"premises": ["prontoqa_train_1719", "prontoqa_train_1031", "prontoqa_train_1331", "prontoqa_train_1151"], "conclusion": "prontoqa_train_1720", "label": "entailment"}
+{"premises": ["prontoqa_train_1721", "prontoqa_train_1489", "prontoqa_train_1124", "prontoqa_train_1167"], "conclusion": "prontoqa_train_936", "label": "entailment"}
+{"premises": ["prontoqa_train_1722", "prontoqa_train_936"], "conclusion": "prontoqa_train_1723", "label": "entailment"}
+{"premises": ["prontoqa_train_1724", "prontoqa_train_276", "prontoqa_train_482", "prontoqa_train_1725", "prontoqa_train_1726", "prontoqa_train_863", "prontoqa_train_1542", "prontoqa_train_1026"], "conclusion": "prontoqa_train_1727", "label": "entailment"}
+{"premises": ["prontoqa_train_1728", "prontoqa_train_849"], "conclusion": "prontoqa_train_1729", "label": "entailment"}
+{"premises": ["prontoqa_train_1730", "prontoqa_train_903", "prontoqa_train_1335", "prontoqa_train_1018"], "conclusion": "prontoqa_train_923", "label": "entailment"}
+{"premises": ["prontoqa_train_1731", "prontoqa_train_922"], "conclusion": "prontoqa_train_904", "label": "entailment"}
+{"premises": ["prontoqa_train_1732", "prontoqa_train_1373"], "conclusion": "prontoqa_train_1733", "label": "entailment"}
+{"premises": ["prontoqa_train_1734", "prontoqa_train_1735", "prontoqa_train_1736", "prontoqa_train_1737", "prontoqa_train_1124", "prontoqa_train_1738", "prontoqa_train_1739"], "conclusion": "prontoqa_train_1740", "label": "entailment"}
+{"premises": ["prontoqa_train_1741", "prontoqa_train_1042"], "conclusion": "prontoqa_train_1016", "label": "entailment"}
+{"premises": ["prontoqa_train_1742", "prontoqa_train_1647", "prontoqa_train_1743", "prontoqa_train_1103"], "conclusion": "prontoqa_train_945", "label": "entailment"}
+{"premises": ["prontoqa_train_1744", "prontoqa_train_1745", "prontoqa_train_1746", "prontoqa_train_1066", "prontoqa_train_1015"], "conclusion": "prontoqa_train_515", "label": "entailment"}
+{"premises": ["prontoqa_train_1747", "prontoqa_train_1748", "prontoqa_train_945"], "conclusion": "prontoqa_train_1749", "label": "entailment"}
+{"premises": ["prontoqa_train_1750", "prontoqa_train_1751"], "conclusion": "prontoqa_train_1505", "label": "entailment"}
+{"premises": ["prontoqa_train_1752", "prontoqa_train_1109"], "conclusion": "prontoqa_train_1753", "label": "entailment"}
+{"premises": ["prontoqa_train_1754", "prontoqa_train_1755"], "conclusion": "prontoqa_train_1756", "label": "entailment"}
+{"premises": ["prontoqa_train_1757", "prontoqa_train_1758"], "conclusion": "prontoqa_train_1759", "label": "entailment"}
+{"premises": ["prontoqa_train_1760", "prontoqa_train_1436"], "conclusion": "prontoqa_train_1015", "label": "entailment"}
+{"premises": ["prontoqa_train_1761", "prontoqa_train_874", "prontoqa_train_1047", "prontoqa_train_1133"], "conclusion": "prontoqa_train_873", "label": "entailment"}
+{"premises": ["prontoqa_train_1762", "prontoqa_train_1763", "prontoqa_train_1764"], "conclusion": "prontoqa_train_33", "label": "entailment"}
+{"premises": ["prontoqa_train_1765", "prontoqa_train_1152"], "conclusion": "prontoqa_train_1346", "label": "entailment"}
+{"premises": ["prontoqa_train_1766", "prontoqa_train_1767"], "conclusion": "prontoqa_train_280", "label": "entailment"}
+{"premises": ["prontoqa_train_1768", "prontoqa_train_1769"], "conclusion": "prontoqa_train_1245", "label": "entailment"}
+{"premises": ["prontoqa_train_1770", "prontoqa_train_1097"], "conclusion": "prontoqa_train_1771", "label": "entailment"}
+{"premises": ["prontoqa_train_670", "prontoqa_train_1772", "prontoqa_train_1773", "prontoqa_train_935"], "conclusion": "prontoqa_train_1774", "label": "entailment"}
+{"premises": ["prontoqa_train_1775", "prontoqa_train_906"], "conclusion": "prontoqa_train_1047", "label": "entailment"}
+{"premises": ["prontoqa_train_1776", "prontoqa_train_1152"], "conclusion": "prontoqa_train_892", "label": "entailment"}
+{"premises": ["prontoqa_train_1777", "prontoqa_train_1778"], "conclusion": "prontoqa_train_667", "label": "entailment"}
+{"premises": ["prontoqa_train_1779", "prontoqa_train_1780", "prontoqa_train_1204", "prontoqa_train_1460"], "conclusion": "prontoqa_train_1669", "label": "entailment"}
+{"premises": ["prontoqa_train_1781", "prontoqa_train_1782", "prontoqa_train_1101"], "conclusion": "prontoqa_train_1783", "label": "entailment"}
+{"premises": ["prontoqa_train_1784", "prontoqa_train_944"], "conclusion": "prontoqa_train_1785", "label": "entailment"}
+{"premises": ["prontoqa_train_1786", "prontoqa_train_1391", "prontoqa_train_1025", "prontoqa_train_863"], "conclusion": "prontoqa_train_1056", "label": "entailment"}
+{"premises": ["prontoqa_train_1787", "prontoqa_train_1788", "prontoqa_train_1789"], "conclusion": "prontoqa_train_275", "label": "entailment"}
+{"premises": ["prontoqa_train_1790", "prontoqa_train_1791", "prontoqa_train_384", "prontoqa_train_852"], "conclusion": "prontoqa_train_780", "label": "entailment"}

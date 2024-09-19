@@ -1,0 +1,11 @@
+# Dataset / Logic
+datasets==2.21.0
+nltk==3.7
+
+z3==0.2.0 # z3 and ply is required for FOLIO preprocessing
+ply==3.11
+
+# ML / API
+
+# Utils
+timeoutcontext==1.2.0

@@ -1,0 +1,1 @@
+from ._prover import prove, convert_nltk_format
