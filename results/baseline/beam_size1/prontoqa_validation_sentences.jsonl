@@ -1,0 +1,565 @@
+{"id": "prontoqa_validation_0", "nl": "Each wumpus is a sterpus.", "fol": "all x. (wumpus(x) -> sterpus(x))", "prediction": ["all x.(Wumpus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_1", "nl": "Polly is a jompus and Polly is not a sterpus and Polly is a dumpus.", "fol": "(jompus(Polly) & -sterpus(Polly) & dumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Jompus(x)) & (Polly(x) -> -Sterpus(x)) & (Polly(x) -> Dumpus(x)))"]}
+{"id": "prontoqa_validation_2", "nl": "Polly is not a wumpus.", "fol": "-wumpus(Polly)", "prediction": ["(-Wumpus(Polly))"]}
+{"id": "prontoqa_validation_3", "nl": "Rompuses are lempuses.", "fol": "all x. (rompus(x) -> lempus(x))", "prediction": ["all x.(Rompus(x) -> Lempuse(x))"]}
+{"id": "prontoqa_validation_4", "nl": "Rex is a lorpus and Rex is not a lempus and Rex is a numpus.", "fol": "(lorpus(Rex) & -lempus(Rex) & numpus(Rex))", "prediction": ["(all x.(Rex(x) -> Lorpus(x)) & (Rex(x) -> -Lempus(x)) & (Rex(x) -> Numpus(x)))"]}
+{"id": "prontoqa_validation_5", "nl": "Rex is not a rompus.", "fol": "-rompus(Rex)", "prediction": ["Rex is not a Rompus."]}
+{"id": "prontoqa_validation_6", "nl": "Numpuses are impuses.", "fol": "all x. (numpus(x) -> impus(x))", "prediction": ["all x.(Numpus(x) -> Issue(x))"]}
+{"id": "prontoqa_validation_7", "nl": "Wren is not an impus and Wren is a tumpus and Wren is a wumpus.", "fol": "(-impus(Wren) & tumpus(Wren) & wumpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Impossible(x)) & all y.(Wren(y) -> Tumpus(y))) & all z.(Wren(z) -> Wumpus(z)))"]}
+{"id": "prontoqa_validation_8", "nl": "Wren is not a numpus.", "fol": "-numpus(Wren)", "prediction": ["all x.(Wren(x) -> -Numpus(x))"]}
+{"id": "prontoqa_validation_9", "nl": "Each tumpus is a shumpus.", "fol": "all x. (tumpus(x) -> shumpus(x))", "prediction": ["all x.(Tumpus(x) -> Humpus(x))"]}
+{"id": "prontoqa_validation_10", "nl": "Max is not a shumpus, Max is a zumpus, and Max is a jompus.", "fol": "(-shumpus(Max) & zumpus(Max) & jompus(Max))", "prediction": ["(all x.(Max(x) -> -Shumpus(x)) & (Max(x) -> Zumpus(x)) & (Max(x) -> Jompus(x)))"]}
+{"id": "prontoqa_validation_11", "nl": "Max is not a tumpus.", "fol": "-tumpus(Max)", "prediction": ["(-Tumpus(Max))"]}
+{"id": "prontoqa_validation_12", "nl": "Each tumpus is a brimpus.", "fol": "all x. (tumpus(x) -> brimpus(x))", "prediction": ["all x.(Tumpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_13", "nl": "Max is a lorpus and Max is an impus and Max is not a brimpus.", "fol": "(lorpus(Max) & impus(Max) & -brimpus(Max))", "prediction": ["(all x.(Max(x) -> Lorpus(x)) & (Max(x) -> Imperator(x)) & (Max(x) -> -Brimpus(x)))"]}
+{"id": "prontoqa_validation_14", "nl": "Zumpuses are vumpuses.", "fol": "all x. (zumpus(x) -> vumpus(x))", "prediction": ["all x.(Zumpus(x) -> Vampuse(x))"]}
+{"id": "prontoqa_validation_15", "nl": "Polly is a lorpus, Polly is a lempus, and Polly is not a vumpus.", "fol": "(lorpus(Polly) & lempus(Polly) & -vumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Lorpus(x)) & all y.(Polly(y) -> Lempus(y)) & all z.(Polly(z) -> -Vumpus(z))))"]}
+{"id": "prontoqa_validation_16", "nl": "Polly is not a zumpus.", "fol": "-zumpus(Polly)", "prediction": ["(-Zumpus(Polly))"]}
+{"id": "prontoqa_validation_17", "nl": "Brimpuses are grimpuses.", "fol": "all x. (brimpus(x) -> grimpus(x))", "prediction": ["all x.(Brimpus(x) -> Grimpuse(x))"]}
+{"id": "prontoqa_validation_18", "nl": "Max is a numpus, Max is a zumpus, and Max is not a grimpus.", "fol": "(numpus(Max) & zumpus(Max) & -grimpus(Max))", "prediction": ["(all x.(Max(x) -> Numpus(x)) & (Max(x) -> Zumpus(x)) & (Max(x) -> -Grimpus(x)))"]}
+{"id": "prontoqa_validation_19", "nl": "Max is not a brimpus.", "fol": "-brimpus(Max)", "prediction": ["-Brimpus(Max)"]}
+{"id": "prontoqa_validation_20", "nl": "Every sterpus is a vumpus.", "fol": "all x. (sterpus(x) -> vumpus(x))", "prediction": ["all x.(Sterpus(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_21", "nl": "Rex is a zumpus and Rex is an impus and Rex is not a vumpus.", "fol": "(zumpus(Rex) & impus(Rex) & -vumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Zumpus(x)) & all y.(Rex(y) -> Issue(y))) & all z.(Rex(z) -> -Vumpus(z))))"]}
+{"id": "prontoqa_validation_22", "nl": "Rex is not a sterpus.", "fol": "-sterpus(Rex)", "prediction": ["Rex is not sterpus."]}
+{"id": "prontoqa_validation_23", "nl": "Every jompus is a dumpus.", "fol": "all x. (jompus(x) -> dumpus(x))", "prediction": ["all x.(Jompus(x) -> Dumpus(x))"]}
+{"id": "prontoqa_validation_24", "nl": "Polly is a lempus, Polly is not a dumpus, and Polly is a wumpus.", "fol": "(lempus(Polly) & -dumpus(Polly) & wumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Lempus(x)) & (Polly(x) -> -Dumpus(x)) & (Polly(x) -> Wumpus(x)))"]}
+{"id": "prontoqa_validation_25", "nl": "Polly is not a jompus.", "fol": "-jompus(Polly)", "prediction": ["all x.(Polly(x) -> -Jompus(x))"]}
+{"id": "prontoqa_validation_26", "nl": "Every impus is a numpus.", "fol": "all x. (impus(x) -> numpus(x))", "prediction": ["all x.(Impossible(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_27", "nl": "Polly is a lorpus and Polly is not a numpus and Polly is a yumpus.", "fol": "(lorpus(Polly) & -numpus(Polly) & yumpus(Polly))", "prediction": ["(all x.(Lorpus(x) -> Polly)) & (Nompus(x) -> Polly)) & (Yumpus(x) -> Polly)))"]}
+{"id": "prontoqa_validation_28", "nl": "Polly is not an impus.", "fol": "-impus(Polly)", "prediction": ["(-Impossible(Polly))"]}
+{"id": "prontoqa_validation_29", "nl": "Alex is a lempus and Alex is a gorpus and Alex is not an impus.", "fol": "(lempus(Alex) & gorpus(Alex) & -impus(Alex))", "prediction": ["all x y z.((Alex(x) & Lempus(x) & Gorpus(y) & Imperator(z)) -> (Lempus(x) & Gorpus(y) & -Impossible(z)))"]}
+{"id": "prontoqa_validation_30", "nl": "Alex is not a numpus.", "fol": "-numpus(Alex)", "prediction": ["Alex is not a Numpus."]}
+{"id": "prontoqa_validation_31", "nl": "Every brimpus is a yumpus.", "fol": "all x. (brimpus(x) -> yumpus(x))", "prediction": ["all x.(Brumpus(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_32", "nl": "Sam is not a yumpus, Sam is a shumpus, and Sam is a sterpus.", "fol": "(-yumpus(Sam) & shumpus(Sam) & sterpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Yumpus(x)) & (Sam(x) -> Humpus(x)) & (Sam(x) -> Sterpus(x)))"]}
+{"id": "prontoqa_validation_33", "nl": "Sam is not a brimpus.", "fol": "-brimpus(Sam)", "prediction": ["all x.(Sam(x) -> -Brimpus(x))"]}
+{"id": "prontoqa_validation_34", "nl": "Each shumpus is a sterpus.", "fol": "all x. (shumpus(x) -> sterpus(x))", "prediction": ["all x.(Shumpus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_35", "nl": "Polly is a dumpus and Polly is a vumpus and Polly is not a sterpus.", "fol": "(dumpus(Polly) & vumpus(Polly) & -sterpus(Polly))", "prediction": ["(all x.(Polly(x) -> Dumpus(x)) & (Polly(x) -> Vumpus(x)) & -Sterpus(x)))"]}
+{"id": "prontoqa_validation_36", "nl": "Polly is not a shumpus.", "fol": "-shumpus(Polly)", "prediction": ["all x.(Polly(x) -> -Shumpus(x))"]}
+{"id": "prontoqa_validation_37", "nl": "Grimpuses are vumpuses.", "fol": "all x. (grimpus(x) -> vumpus(x))", "prediction": ["all x.(Grimpus(x) -> Vampuse(x))"]}
+{"id": "prontoqa_validation_38", "nl": "Wren is not a vumpus, Wren is a jompus, and Wren is a lorpus.", "fol": "(-vumpus(Wren) & jompus(Wren) & lorpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Vumpus(x)) & all y.(Wren(y) -> Jompus(y)) & all z.(Wren(z) -> Lorpus(z))))"]}
+{"id": "prontoqa_validation_39", "nl": "Wren is not a grimpus.", "fol": "-grimpus(Wren)", "prediction": ["all x.(Wren(x) -> -Grimpus(x))"]}
+{"id": "prontoqa_validation_40", "nl": "Each grimpus is a tumpus.", "fol": "all x. (grimpus(x) -> tumpus(x))", "prediction": ["all x.(Grimpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_41", "nl": "Stella is not a tumpus and Stella is a dumpus and Stella is a sterpus.", "fol": "(-tumpus(Stella) & dumpus(Stella) & sterpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Tumpus(x)) & (Stella(x) -> Dumpus(x)) & (Stella(x) -> Sterpus(x)))"]}
+{"id": "prontoqa_validation_42", "nl": "Stella is not a grimpus.", "fol": "-grimpus(Stella)", "prediction": ["Stella is not a Grimpus."]}
+{"id": "prontoqa_validation_43", "nl": "Lempuses are numpuses.", "fol": "all x. (lempus(x) -> numpus(x))", "prediction": ["all x.(Lempuse(x) -> Numpuse(x))"]}
+{"id": "prontoqa_validation_44", "nl": "Rex is a shumpus, Rex is not a numpus, and Rex is a tumpus.", "fol": "(shumpus(Rex) & -numpus(Rex) & tumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Humpus(x)) & (Rex(x) -> -Numpus(x)) & (Rex(x) -> Tumpus(x)))"]}
+{"id": "prontoqa_validation_45", "nl": "Rex is not a lempus.", "fol": "-lempus(Rex)", "prediction": ["Rex is not a Lempus."]}
+{"id": "prontoqa_validation_46", "nl": "Each brimpus is a grimpus.", "fol": "all x. (brimpus(x) -> grimpus(x))", "prediction": ["all x.(Brimpus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_47", "nl": "Max is a jompus and Max is a lempus and Max is not a grimpus.", "fol": "(jompus(Max) & lempus(Max) & -grimpus(Max))", "prediction": ["(all x.(Max(x) -> Jompus(x)) & (Max(x) -> Lempus(x)) & (Max(x) -> -Grimpus(x)))"]}
+{"id": "prontoqa_validation_48", "nl": "Every tumpus is a gorpus.", "fol": "all x. (tumpus(x) -> gorpus(x))", "prediction": ["all x.(Tumpus(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_49", "nl": "Sam is a zumpus, Sam is not a gorpus, and Sam is a wumpus.", "fol": "(zumpus(Sam) & -gorpus(Sam) & wumpus(Sam))", "prediction": ["(all x.(Sam(x) -> Zumpus(x)) & (Sam(x) -> -Gorpus(x)) & (Sam(x) -> Wumpus(x)))"]}
+{"id": "prontoqa_validation_50", "nl": "Sam is not a tumpus.", "fol": "-tumpus(Sam)", "prediction": ["all x.(Sam(x) -> -Tumpus(x))"]}
+{"id": "prontoqa_validation_51", "nl": "Each vumpus is a tumpus.", "fol": "all x. (vumpus(x) -> tumpus(x))", "prediction": ["all x.(Vumpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_52", "nl": "Rex is a wumpus, Rex is a yumpus, and Rex is not a tumpus.", "fol": "(wumpus(Rex) & yumpus(Rex) & -tumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Wumpus(x)) & (Yumpus(x) -> Yumpus(x)) & (Rex(x) -> -Tumpus(x)))"]}
+{"id": "prontoqa_validation_53", "nl": "Rex is not a vumpus.", "fol": "-vumpus(Rex)", "prediction": ["Rex is not a Vumpus."]}
+{"id": "prontoqa_validation_54", "nl": "Every gorpus is a rompus.", "fol": "all x. (gorpus(x) -> rompus(x))", "prediction": ["all x.(Gorpus(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_55", "nl": "Wren is not a rompus, Wren is a dumpus, and Wren is a grimpus.", "fol": "(-rompus(Wren) & dumpus(Wren) & grimpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Rompus(x)) & all y.(Wren(y) -> Dumpus(y)) & all z.(Wren(z) -> Grimpus(z))))"]}
+{"id": "prontoqa_validation_56", "nl": "Wren is not a gorpus.", "fol": "-gorpus(Wren)", "prediction": ["all x.(Wren(x) -> -Gorpus(x))"]}
+{"id": "prontoqa_validation_57", "nl": "Jompuses are wumpuses.", "fol": "all x. (jompus(x) -> wumpus(x))", "prediction": ["all x.(Jompuse(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_58", "nl": "Fae is a zumpus, Fae is not a wumpus, and Fae is a rompus.", "fol": "(zumpus(Fae) & -wumpus(Fae) & rompus(Fae))", "prediction": ["(all x.(Fae(x) -> Zumpus(x)) & (Fae(x) -> -Wumpus(x)) & (Fae(x) -> Rompus(x)))"]}
+{"id": "prontoqa_validation_59", "nl": "Fae is not a jompus.", "fol": "-jompus(Fae)", "prediction": ["-Jompus(Fae)"]}
+{"id": "prontoqa_validation_60", "nl": "Each grimpus is a sterpus.", "fol": "all x. (grimpus(x) -> sterpus(x))", "prediction": ["all x.(Grimpus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_61", "nl": "Sally is a rompus and Sally is not a sterpus and Sally is a brimpus.", "fol": "(rompus(Sally) & -sterpus(Sally) & brimpus(Sally))", "prediction": ["(all x.(Sally(x) -> Rompus(x)) & (Sally(x) -> -Sterpus(x)) & (Sally(x) -> Brimpus(x)))"]}
+{"id": "prontoqa_validation_62", "nl": "Sally is not a grimpus.", "fol": "-grimpus(Sally)", "prediction": ["Sally is not a Grimpus."]}
+{"id": "prontoqa_validation_63", "nl": "Vumpuses are tumpuses.", "fol": "all x. (vumpus(x) -> tumpus(x))", "prediction": ["all x.(Vumpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_64", "nl": "Sam is not a tumpus, Sam is a jompus, and Sam is a zumpus.", "fol": "(-tumpus(Sam) & jompus(Sam) & zumpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Tumpus(x)) & (Sam(x) -> Jompus(x)) & (Sam(x) -> Zumpus(x)))"]}
+{"id": "prontoqa_validation_65", "nl": "Sam is not a vumpus.", "fol": "-vumpus(Sam)", "prediction": ["all x.(Sam(x) -> -Vumpus(x))"]}
+{"id": "prontoqa_validation_66", "nl": "Grimpuses are zumpuses.", "fol": "all x. (grimpus(x) -> zumpus(x))", "prediction": ["all x.(Grimpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_67", "nl": "Polly is a yumpus and Polly is not a zumpus and Polly is a numpus.", "fol": "(yumpus(Polly) & -zumpus(Polly) & numpus(Polly))", "prediction": ["(all x.(Polly(x) -> Yampus(x)) & (Polly(x) -> -Zumpus(x)) & (Polly(x) -> Numpus(x)))"]}
+{"id": "prontoqa_validation_68", "nl": "Polly is not a grimpus.", "fol": "-grimpus(Polly)", "prediction": ["Polly is notGrimpus(Polly)"]}
+{"id": "prontoqa_validation_69", "nl": "Each shumpus is a grimpus.", "fol": "all x. (shumpus(x) -> grimpus(x))", "prediction": ["all x.(Shumpus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_70", "nl": "Polly is a lorpus and Polly is a gorpus and Polly is not a grimpus.", "fol": "(lorpus(Polly) & gorpus(Polly) & -grimpus(Polly))", "prediction": ["(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)))"]}
+{"id": "prontoqa_validation_71", "nl": "Each impus is a tumpus.", "fol": "all x. (impus(x) -> tumpus(x))", "prediction": ["all x.(Issue(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_72", "nl": "Rex is a numpus and Rex is not a tumpus and Rex is a gorpus.", "fol": "(numpus(Rex) & -tumpus(Rex) & gorpus(Rex))", "prediction": ["(all x.(Rex(x) -> Numpus(x)) & (-Tumpus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_73", "nl": "Rex is not an impus.", "fol": "-impus(Rex)", "prediction": ["-Impossible(Rex)"]}
+{"id": "prontoqa_validation_74", "nl": "Lorpuses are zumpuses.", "fol": "all x. (lorpus(x) -> zumpus(x))", "prediction": ["all x.(Lorpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_75", "nl": "Sam is a lempus, Sam is not a zumpus, and Sam is a yumpus.", "fol": "(lempus(Sam) & -zumpus(Sam) & yumpus(Sam))", "prediction": ["(all x.(Sam(x) -> Lempus(x)) & (Sam(x) -> -Zumpus(x)) & (Sam(x) -> Yumpus(x)))"]}
+{"id": "prontoqa_validation_76", "nl": "Sam is not a lorpus.", "fol": "-lorpus(Sam)", "prediction": ["all x.(Sam(x) -> -Lorpus(x))"]}
+{"id": "prontoqa_validation_77", "nl": "Every impus is a grimpus.", "fol": "all x. (impus(x) -> grimpus(x))", "prediction": ["all x.(Issue(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_78", "nl": "Polly is a gorpus and Polly is not a grimpus and Polly is a lorpus.", "fol": "(gorpus(Polly) & -grimpus(Polly) & lorpus(Polly))", "prediction": ["(all x.(Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)) & (Polly(x) -> Lorpus(x)))"]}
+{"id": "prontoqa_validation_79", "nl": "Every vumpus is a dumpus.", "fol": "all x. (vumpus(x) -> dumpus(x))", "prediction": ["all x.(Vumpus(x) -> Dumpus(x))"]}
+{"id": "prontoqa_validation_80", "nl": "Polly is a rompus, Polly is a brimpus, and Polly is not a dumpus.", "fol": "(rompus(Polly) & brimpus(Polly) & -dumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Rompus(x)) & (Polly(x) -> Brimpus(x)) & (Polly(x) -> -Dumpus(x)))"]}
+{"id": "prontoqa_validation_81", "nl": "Polly is not a vumpus.", "fol": "-vumpus(Polly)", "prediction": ["(-Vumpus(Polly))"]}
+{"id": "prontoqa_validation_82", "nl": "Every rompus is a yumpus.", "fol": "all x. (rompus(x) -> yumpus(x))", "prediction": ["all x.(Rompus(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_83", "nl": "Stella is not a yumpus, Stella is a shumpus, and Stella is a vumpus.", "fol": "(-yumpus(Stella) & shumpus(Stella) & vumpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Yumpus(x)) & (Stella(x) -> Humpus(x)) & (Stella(x) -> Vumpus(x)))"]}
+{"id": "prontoqa_validation_84", "nl": "Stella is not a rompus.", "fol": "-rompus(Stella)", "prediction": ["Stella is not a rompus."]}
+{"id": "prontoqa_validation_85", "nl": "Each wumpus is a brimpus.", "fol": "all x. (wumpus(x) -> brimpus(x))", "prediction": ["all x.(Wumpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_86", "nl": "Max is a yumpus, Max is not a brimpus, and Max is a lorpus.", "fol": "(yumpus(Max) & -brimpus(Max) & lorpus(Max))", "prediction": ["(all x.(Max(x) -> Yumpus(x)) & (Max(x) -> -Brimpus(x)) & (Max(x) -> Lorpus(x)))"]}
+{"id": "prontoqa_validation_87", "nl": "Max is not a wumpus.", "fol": "-wumpus(Max)", "prediction": ["(-Wumpus(Max))"]}
+{"id": "prontoqa_validation_88", "nl": "Zumpuses are impuses.", "fol": "all x. (zumpus(x) -> impus(x))", "prediction": ["all x.(Zumpus(x) -> Issue(x))"]}
+{"id": "prontoqa_validation_89", "nl": "Alex is a tumpus and Alex is not an impus and Alex is a rompus.", "fol": "(tumpus(Alex) & -impus(Alex) & rompus(Alex))", "prediction": ["(all x.(Alex(x) -> Tumpus(x)) & (Alex(x) -> -Impossible(x))) & (Alex(x) -> Rompus(x)))"]}
+{"id": "prontoqa_validation_90", "nl": "Alex is not a zumpus.", "fol": "-zumpus(Alex)", "prediction": ["Alex is not a zumpus."]}
+{"id": "prontoqa_validation_91", "nl": "Tumpuses are wumpuses.", "fol": "all x. (tumpus(x) -> wumpus(x))", "prediction": ["all x.(Tumpus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_92", "nl": "Rex is a zumpus, Rex is a gorpus, and Rex is not a wumpus.", "fol": "(zumpus(Rex) & gorpus(Rex) & -wumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Zumpus(x)) & (Rex(x) -> Gorpus(x)) & (Rex(x) -> -Wumpus(x)))"]}
+{"id": "prontoqa_validation_93", "nl": "Rex is not a tumpus.", "fol": "-tumpus(Rex)", "prediction": ["Rex is notTumpus(x)"]}
+{"id": "prontoqa_validation_94", "nl": "Tumpuses are lorpuses.", "fol": "all x. (tumpus(x) -> lorpus(x))", "prediction": ["all x.(Tumulus(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_95", "nl": "Sam is not a lorpus, Sam is an impus, and Sam is a grimpus.", "fol": "(-lorpus(Sam) & impus(Sam) & grimpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Lorpus(x)) & (Sam(x) -> Issue(x)) & (Sam(x) -> Grimpus(x)))"]}
+{"id": "prontoqa_validation_96", "nl": "Every vumpus is a jompus.", "fol": "all x. (vumpus(x) -> jompus(x))", "prediction": ["all x.(Vumpus(x) -> Jompus(x))"]}
+{"id": "prontoqa_validation_97", "nl": "Fae is a brimpus and Fae is a numpus and Fae is not a jompus.", "fol": "(brimpus(Fae) & numpus(Fae) & -jompus(Fae))", "prediction": ["(all x.(Fae(x) -> Brimpus(x)) & (Fae(x) -> Numpus(x)) & (Fae(x) -> -Jompus(x)))"]}
+{"id": "prontoqa_validation_98", "nl": "Fae is not a vumpus.", "fol": "-vumpus(Fae)", "prediction": ["-Vumpus(Fae)"]}
+{"id": "prontoqa_validation_99", "nl": "Lempuses are gorpuses.", "fol": "all x. (lempus(x) -> gorpus(x))", "prediction": ["all x.(Lempuse(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_100", "nl": "Sally is an impus and Sally is a tumpus and Sally is not a gorpus.", "fol": "(impus(Sally) & tumpus(Sally) & -gorpus(Sally))", "prediction": ["(all x.(Sally(x) -> Is(x)) & (Sally(x) -> Tumpus(x)) & (Sally(x) -> -Gorpus(x)))"]}
+{"id": "prontoqa_validation_101", "nl": "Sally is not a lempus.", "fol": "-lempus(Sally)", "prediction": ["Sally is not a lempus."]}
+{"id": "prontoqa_validation_102", "nl": "Wumpuses are grimpuses.", "fol": "all x. (wumpus(x) -> grimpus(x))", "prediction": ["all x.(Wumpus(x) -> Grimpuse(x))"]}
+{"id": "prontoqa_validation_103", "nl": "Rex is a jompus, Rex is a vumpus, and Rex is not a grimpus.", "fol": "(jompus(Rex) & vumpus(Rex) & -grimpus(Rex))", "prediction": ["(all x.(Rex(x) -> Jompus(x)) & (Rex(x) -> Vumpus(x)) & (Rex(x) -> -Grimpus(x)))"]}
+{"id": "prontoqa_validation_104", "nl": "Rex is not a wumpus.", "fol": "-wumpus(Rex)", "prediction": ["Rex is not a wumpus."]}
+{"id": "prontoqa_validation_105", "nl": "Every vumpus is a zumpus.", "fol": "all x. (vumpus(x) -> zumpus(x))", "prediction": ["all x.(Vumpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_106", "nl": "Fae is a lempus and Fae is not a zumpus and Fae is a dumpus.", "fol": "(lempus(Fae) & -zumpus(Fae) & dumpus(Fae))", "prediction": ["(all x.(Fae(x) -> Lempus(x)) & (Fae(x) -> -Zumpus(x)) & (Fae(x) -> Dumpus(x)))"]}
+{"id": "prontoqa_validation_107", "nl": "Each grimpus is an impus.", "fol": "all x. (grimpus(x) -> impus(x))", "prediction": ["all x.(Grimpus(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_108", "nl": "Stella is not an impus and Stella is a zumpus and Stella is a rompus.", "fol": "(-impus(Stella) & zumpus(Stella) & rompus(Stella))", "prediction": ["(all x.(Stella(x) -> -Impossible(x)) & (Stella(x) -> Zumpus(x)) & (Stella(x) -> Rompus(x)))"]}
+{"id": "prontoqa_validation_109", "nl": "Grimpuses are impuses.", "fol": "all x. (grimpus(x) -> impus(x))", "prediction": ["all x.(Grimpus(x) -> Issue(x))"]}
+{"id": "prontoqa_validation_110", "nl": "Polly is not an impus, Polly is a brimpus, and Polly is a numpus.", "fol": "(-impus(Polly) & brimpus(Polly) & numpus(Polly))", "prediction": ["(all x.(Polly(x) -> -Impossible(x)) & (Polly(x) -> Brimpus(x)) & (Polly(x) -> Numpus(x)))"]}
+{"id": "prontoqa_validation_111", "nl": "Every jompus is a zumpus.", "fol": "all x. (jompus(x) -> zumpus(x))", "prediction": ["all x.(Jompus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_112", "nl": "Fae is not a zumpus, Fae is a shumpus, and Fae is a numpus.", "fol": "(-zumpus(Fae) & shumpus(Fae) & numpus(Fae))", "prediction": ["(all x.(Fae(x) -> -Zumpus(x)) & (Fae(x) -> Shumpus(x)) & (Fae(x) -> Numpus(x)))"]}
+{"id": "prontoqa_validation_113", "nl": "Brimpuses are lempuses.", "fol": "all x. (brimpus(x) -> lempus(x))", "prediction": ["all x.(Brimpus(x) -> Lempuse(x))"]}
+{"id": "prontoqa_validation_114", "nl": "Wren is a yumpus, Wren is a shumpus, and Wren is not a lempus.", "fol": "(yumpus(Wren) & shumpus(Wren) & -lempus(Wren))", "prediction": ["(all x.(Wren(x) -> Yumpus(x)) & (Wren(x) -> Humpus(x)) & (Wren(x) -> -Lempus(x)))"]}
+{"id": "prontoqa_validation_115", "nl": "Wren is not a brimpus.", "fol": "-brimpus(Wren)", "prediction": ["all x.(Wren(x) -> -Brimpus(x))"]}
+{"id": "prontoqa_validation_116", "nl": "Shumpuses are sterpuses.", "fol": "all x. (shumpus(x) -> sterpus(x))", "prediction": ["all x.(Shumpus(x) -> Sterpuse(x))"]}
+{"id": "prontoqa_validation_117", "nl": "Wren is not a sterpus, Wren is a yumpus, and Wren is a numpus.", "fol": "(-sterpus(Wren) & yumpus(Wren) & numpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Sterpus(x)) & all y.(Wren(y) -> Yumpus(y)) & all z.(Wren(z) -> Numpus(z))))"]}
+{"id": "prontoqa_validation_118", "nl": "Wren is not a shumpus.", "fol": "-shumpus(Wren)", "prediction": ["all x.(Wren(x) -> -Shumpus(x))"]}
+{"id": "prontoqa_validation_119", "nl": "Gorpuses are rompuses.", "fol": "all x. (gorpus(x) -> rompus(x))", "prediction": ["all x.(Gorpus(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_120", "nl": "Sam is a shumpus and Sam is a numpus and Sam is not a rompus.", "fol": "(shumpus(Sam) & numpus(Sam) & -rompus(Sam))", "prediction": ["(all x.(Shumpus(x) -> Sam(x)) & (Numpus(x) -> Sam(x)) & -Rompus(x)))"]}
+{"id": "prontoqa_validation_121", "nl": "Sam is not a gorpus.", "fol": "-gorpus(Sam)", "prediction": ["all x.(Sam(x) -> -Gorpus(x))"]}
+{"id": "prontoqa_validation_122", "nl": "Vumpuses are sterpuses.", "fol": "all x. (vumpus(x) -> sterpus(x))", "prediction": ["all x.(Vumpus(x) -> Sterpuse(x))"]}
+{"id": "prontoqa_validation_123", "nl": "Sally is not a sterpus and Sally is a lorpus and Sally is a zumpus.", "fol": "(-sterpus(Sally) & lorpus(Sally) & zumpus(Sally))", "prediction": ["(all x.(Sally(x) -> -Sterpus(x)) & (Lorpus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_124", "nl": "Sally is not a vumpus.", "fol": "-vumpus(Sally)", "prediction": ["Sally is not a vumpus."]}
+{"id": "prontoqa_validation_125", "nl": "Every wumpus is a brimpus.", "fol": "all x. (wumpus(x) -> brimpus(x))", "prediction": ["all x.(Wumpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_126", "nl": "Rex is not a brimpus and Rex is a numpus and Rex is a sterpus.", "fol": "(-brimpus(Rex) & numpus(Rex) & sterpus(Rex))", "prediction": ["(all x.(Rex(x) -> -Brimpus(x)) & (Rex(x) -> Numpus(x)) & (Rex(x) -> Sterpus(x)))"]}
+{"id": "prontoqa_validation_127", "nl": "Numpuses are yumpuses.", "fol": "all x. (numpus(x) -> yumpus(x))", "prediction": ["all x.(Numpus(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_128", "nl": "Fae is not a yumpus, Fae is an impus, and Fae is a shumpus.", "fol": "(-yumpus(Fae) & impus(Fae) & shumpus(Fae))", "prediction": ["(all x.(Fae(x) -> -Yumpus(x)) & (Fae(x) -> Issue(x)) & (Fae(x) -> Humpus(x)))"]}
+{"id": "prontoqa_validation_129", "nl": "Fae is not a numpus.", "fol": "-numpus(Fae)", "prediction": ["(-numpus(Fae))"]}
+{"id": "prontoqa_validation_130", "nl": "Every sterpus is a wumpus.", "fol": "all x. (sterpus(x) -> wumpus(x))", "prediction": ["all x.(Sterpus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_131", "nl": "Sam is a vumpus and Sam is not a wumpus and Sam is a lorpus.", "fol": "(vumpus(Sam) & -wumpus(Sam) & lorpus(Sam))", "prediction": ["(all x.(Sam(x) -> Vumpus(x)) & (Sam(x) -> -Wumpus(x)) & (Sam(x) -> Lorpus(x)))"]}
+{"id": "prontoqa_validation_132", "nl": "Sam is not a sterpus.", "fol": "-sterpus(Sam)", "prediction": ["all x.(Sam(x) -> -Sterpus(x))"]}
+{"id": "prontoqa_validation_133", "nl": "Tumpuses are zumpuses.", "fol": "all x. (tumpus(x) -> zumpus(x))", "prediction": ["all x.(Tumpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_134", "nl": "Sam is a rompus, Sam is not a zumpus, and Sam is a dumpus.", "fol": "(rompus(Sam) & -zumpus(Sam) & dumpus(Sam))", "prediction": ["(all x.(Sam(x) -> Rompus(x)) & (Sam(x) -> -Zumpus(x)) & (Sam(x) -> Dumpus(x)))"]}
+{"id": "prontoqa_validation_135", "nl": "Tumpuses are jompuses.", "fol": "all x. (tumpus(x) -> jompus(x))", "prediction": ["all x.(Tumpuse(x) -> Jompuse(x))"]}
+{"id": "prontoqa_validation_136", "nl": "Polly is a lorpus, Polly is not a jompus, and Polly is a dumpus.", "fol": "(lorpus(Polly) & -jompus(Polly) & dumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> -Jompus(x)) & (Polly(x) -> Dumpus(x)))"]}
+{"id": "prontoqa_validation_137", "nl": "Polly is not a tumpus.", "fol": "-tumpus(Polly)", "prediction": ["all x.(Polly(x) -> -Tumpus(x))"]}
+{"id": "prontoqa_validation_138", "nl": "Every vumpus is a rompus.", "fol": "all x. (vumpus(x) -> rompus(x))", "prediction": ["all x.(Vumpus(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_139", "nl": "Alex is a jompus, Alex is a sterpus, and Alex is not a rompus.", "fol": "(jompus(Alex) & sterpus(Alex) & -rompus(Alex))", "prediction": ["(all x.(Alex(x) -> Jompus(x)) & all y.(Alex(y) -> Sterpus(y)) & -Rompus(y)))"]}
+{"id": "prontoqa_validation_140", "nl": "Alex is not a vumpus.", "fol": "-vumpus(Alex)", "prediction": ["all x.(Alex(x) -> -Vumpus(x))"]}
+{"id": "prontoqa_validation_141", "nl": "Every dumpus is a wumpus.", "fol": "all x. (dumpus(x) -> wumpus(x))", "prediction": ["all x.(Dumpus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_142", "nl": "Alex is not a wumpus, Alex is a yumpus, and Alex is a zumpus.", "fol": "(-wumpus(Alex) & yumpus(Alex) & zumpus(Alex))", "prediction": ["(all x.(Alex(x) -> -Wumpus(x)) & all y.(Alex(y) -> Yumpus(y))) & all z.(Alex(z) -> Zumpus(z)))"]}
+{"id": "prontoqa_validation_143", "nl": "Alex is not a dumpus.", "fol": "-dumpus(Alex)", "prediction": ["Alex is not a Dumpus."]}
+{"id": "prontoqa_validation_144", "nl": "Every lempus is a jompus.", "fol": "all x. (lempus(x) -> jompus(x))", "prediction": ["all x.(Lempus(x) -> Jompus(x))"]}
+{"id": "prontoqa_validation_145", "nl": "Max is a sterpus and Max is not a jompus and Max is a yumpus.", "fol": "(sterpus(Max) & -jompus(Max) & yumpus(Max))", "prediction": ["(all x.(Max(x) -> Sterpus(x)) & (-Jompus(x) & -Yumpus(x)))"]}
+{"id": "prontoqa_validation_146", "nl": "Max is not a lempus.", "fol": "-lempus(Max)", "prediction": ["-Lempus(Max)"]}
+{"id": "prontoqa_validation_147", "nl": "Each yumpus is a zumpus.", "fol": "all x. (yumpus(x) -> zumpus(x))", "prediction": ["all x.(Yumpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_148", "nl": "Rex is a rompus, Rex is a dumpus, and Rex is not a zumpus.", "fol": "(rompus(Rex) & dumpus(Rex) & -zumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Rompus(x)) & (Rex(x) -> Dumpus(x)) & (Rex(x) -> -Zumpus(x)))"]}
+{"id": "prontoqa_validation_149", "nl": "Rex is not a yumpus.", "fol": "-yumpus(Rex)", "prediction": ["Rex is notYumpus(x)"]}
+{"id": "prontoqa_validation_150", "nl": "Tumpuses are impuses.", "fol": "all x. (tumpus(x) -> impus(x))", "prediction": ["all x.(Tumulus(x) -> Issue(x))"]}
+{"id": "prontoqa_validation_151", "nl": "Sally is a jompus and Sally is a dumpus and Sally is not an impus.", "fol": "(jompus(Sally) & dumpus(Sally) & -impus(Sally))", "prediction": ["(all x.(Sally(x) -> Jompus(x)) & (Sally(x) -> Dumpus(x)) & (Sally(x) -> -Impossible(x))))"]}
+{"id": "prontoqa_validation_152", "nl": "Sally is not a tumpus.", "fol": "-tumpus(Sally)", "prediction": ["Sally is not a Tumpus."]}
+{"id": "prontoqa_validation_153", "nl": "Each zumpus is a vumpus.", "fol": "all x. (zumpus(x) -> vumpus(x))", "prediction": ["all x.(Tompus(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_154", "nl": "Sally is not a vumpus and Sally is a yumpus and Sally is a dumpus.", "fol": "(-vumpus(Sally) & yumpus(Sally) & dumpus(Sally))", "prediction": ["(all x.(Sally(x) -> -Vumpus(x)) & all y.(Sally(y) -> Yumpus(y))) & all z.(Sally(z) -> Dumpus(z)))"]}
+{"id": "prontoqa_validation_155", "nl": "Sally is not a zumpus.", "fol": "-zumpus(Sally)", "prediction": ["Sally is not a zumpus."]}
+{"id": "prontoqa_validation_156", "nl": "Every jompus is a rompus.", "fol": "all x. (jompus(x) -> rompus(x))", "prediction": ["all x.(Jompus(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_157", "nl": "Alex is not a rompus and Alex is a zumpus and Alex is a shumpus.", "fol": "(-rompus(Alex) & zumpus(Alex) & shumpus(Alex))", "prediction": ["all x y z.((Alex(x) & Rompus(y) & Zumpus(z)) -> (-Rompus(x) & Zumpus(y) & Humpus(z)))"]}
+{"id": "prontoqa_validation_158", "nl": "Alex is not a jompus.", "fol": "-jompus(Alex)", "prediction": ["all x.(Alex(x) -> -Jompus(x))"]}
+{"id": "prontoqa_validation_159", "nl": "Alex is a lorpus and Alex is a grimpus and Alex is not a tumpus.", "fol": "(lorpus(Alex) & grimpus(Alex) & -tumpus(Alex))", "prediction": ["all x y z.((Alex(x) & Lorpus(y) & Grimpus(z)) -> (Lorpus(x) & Grimpus(z) & -Tumpus(x)))"]}
+{"id": "prontoqa_validation_160", "nl": "Alex is not an impus.", "fol": "-impus(Alex)", "prediction": ["Alex is not impus."]}
+{"id": "prontoqa_validation_161", "nl": "Yumpuses are brimpuses.", "fol": "all x. (yumpus(x) -> brimpus(x))", "prediction": ["all x.(Yumpus(x) -> Brimpuse(x))"]}
+{"id": "prontoqa_validation_162", "nl": "Wren is not a brimpus and Wren is a zumpus and Wren is a grimpus.", "fol": "(-brimpus(Wren) & zumpus(Wren) & grimpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Brimpus(x)) & (Wren(x) -> Zumpus(x)) & (Wren(x) -> Grimpus(x)))"]}
+{"id": "prontoqa_validation_163", "nl": "Wren is not a yumpus.", "fol": "-yumpus(Wren)", "prediction": ["all x.(Wren(x) -> -Yumpus(x))"]}
+{"id": "prontoqa_validation_164", "nl": "Numpuses are dumpuses.", "fol": "all x. (numpus(x) -> dumpus(x))", "prediction": ["all x.(Numpuse(x) -> Dumpuse(x))"]}
+{"id": "prontoqa_validation_165", "nl": "Wren is not a dumpus, Wren is a sterpus, and Wren is a lorpus.", "fol": "(-dumpus(Wren) & sterpus(Wren) & lorpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Dumpus(x)) & ((Wren(x) -> Sterpus(x))) & ((Wren(x) -> Lorpus(x))))"]}
+{"id": "prontoqa_validation_166", "nl": "Each brimpus is an impus.", "fol": "all x. (brimpus(x) -> impus(x))", "prediction": ["all x.(Brimpus(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_167", "nl": "Max is a sterpus and Max is not an impus and Max is a gorpus.", "fol": "(sterpus(Max) & -impus(Max) & gorpus(Max))", "prediction": ["(all x.(Max(x) -> Sterpus(x)) & (Max(x) -> -Impossible(x)) & (Max(x) -> Gorpus(x)))"]}
+{"id": "prontoqa_validation_168", "nl": "Shumpuses are grimpuses.", "fol": "all x. (shumpus(x) -> grimpus(x))", "prediction": ["all x.(Shampus(x) -> Grimpuse(x))"]}
+{"id": "prontoqa_validation_169", "nl": "Max is not a grimpus and Max is a lempus and Max is a gorpus.", "fol": "(-grimpus(Max) & lempus(Max) & gorpus(Max))", "prediction": ["(all x.(Max(x) -> -Grimpus(x)) & all y.(Max(y) -> Lempus(y)) & all z.(Max(z) -> Gorpus(z))))"]}
+{"id": "prontoqa_validation_170", "nl": "Max is not a shumpus.", "fol": "-shumpus(Max)", "prediction": ["(-Shumpus(Max))"]}
+{"id": "prontoqa_validation_171", "nl": "Zumpuses are jompuses.", "fol": "all x. (zumpus(x) -> jompus(x))", "prediction": ["all x.(Zumpus(x) -> Jompuse(x))"]}
+{"id": "prontoqa_validation_172", "nl": "Wren is a grimpus and Wren is not a jompus and Wren is a yumpus.", "fol": "(grimpus(Wren) & -jompus(Wren) & yumpus(Wren))", "prediction": ["(all x.(Wren(x) -> Grimpus(x)) & (-Jompus(x) & -Yumpus(x)))"]}
+{"id": "prontoqa_validation_173", "nl": "Wren is not a zumpus.", "fol": "-zumpus(Wren)", "prediction": ["all x.(Wren(x) -> -Zumpus(x))"]}
+{"id": "prontoqa_validation_174", "nl": "Every jompus is a wumpus.", "fol": "all x. (jompus(x) -> wumpus(x))", "prediction": ["all x.(Jompus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_175", "nl": "Alex is not a wumpus and Alex is a lempus and Alex is a sterpus.", "fol": "(-wumpus(Alex) & lempus(Alex) & sterpus(Alex))", "prediction": ["all x y z.((Alex(x) & Wumpus(y) & Lempus(z)) -> (-Wumpus(x) & Lempus(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_176", "nl": "Zumpuses are brimpuses.", "fol": "all x. (zumpus(x) -> brimpus(x))", "prediction": ["all x.(Zumpus(x) -> Brimpuse(x))"]}
+{"id": "prontoqa_validation_177", "nl": "Fae is a grimpus and Fae is a numpus and Fae is not a brimpus.", "fol": "(grimpus(Fae) & numpus(Fae) & -brimpus(Fae))", "prediction": ["(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> Numpus(x)) & (Fae(x) -> -Brimpus(x)))"]}
+{"id": "prontoqa_validation_178", "nl": "Fae is not a zumpus.", "fol": "-zumpus(Fae)", "prediction": ["(-Zumpus(Fae))"]}
+{"id": "prontoqa_validation_179", "nl": "Impuses are rompuses.", "fol": "all x. (impus(x) -> rompus(x))", "prediction": ["all x.(Impuse(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_180", "nl": "Max is not a rompus, Max is a dumpus, and Max is a wumpus.", "fol": "(-rompus(Max) & dumpus(Max) & wumpus(Max))", "prediction": ["(all x.(Max(x) -> -Rompus(x)) & (Max(x) -> Dumpus(x)) & (Max(x) -> Wumpus(x)))"]}
+{"id": "prontoqa_validation_181", "nl": "Max is not an impus.", "fol": "-impus(Max)", "prediction": ["-Impossible(Max)"]}
+{"id": "prontoqa_validation_182", "nl": "Every numpus is a vumpus.", "fol": "all x. (numpus(x) -> vumpus(x))", "prediction": ["all x.(Nompus(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_183", "nl": "Alex is a sterpus and Alex is a lorpus and Alex is not a vumpus.", "fol": "(sterpus(Alex) & lorpus(Alex) & -vumpus(Alex))", "prediction": ["all x y z.((Alex(x) & Sterpus(x) & Lorpus(y) & -Vumpus(z)) -> (Stereo(x) & Lorpus(y) & -Vumpus(z)))"]}
+{"id": "prontoqa_validation_184", "nl": "Each yumpus is a sterpus.", "fol": "all x. (yumpus(x) -> sterpus(x))", "prediction": ["all x.(Yumpus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_185", "nl": "Rex is a jompus and Rex is not a sterpus and Rex is a grimpus.", "fol": "(jompus(Rex) & -sterpus(Rex) & grimpus(Rex))", "prediction": ["(all x.(Rex(x) -> Jompus(x)) & (-Sterepus(x) & -Sterpus(x)))"]}
+{"id": "prontoqa_validation_186", "nl": "Every numpus is a zumpus.", "fol": "all x. (numpus(x) -> zumpus(x))", "prediction": ["all x.(Numpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_187", "nl": "Stella is a rompus and Stella is not a zumpus and Stella is a grimpus.", "fol": "(rompus(Stella) & -zumpus(Stella) & grimpus(Stella))", "prediction": ["(all x.(Stella(x) -> Rompus(x)) & (Stella(x) -> -Zumpus(x)) & (Stella(x) -> Grimpus(x)))"]}
+{"id": "prontoqa_validation_188", "nl": "Stella is not a numpus.", "fol": "-numpus(Stella)", "prediction": ["Stella is not a Numpus(Stella)"]}
+{"id": "prontoqa_validation_189", "nl": "Vumpuses are impuses.", "fol": "all x. (vumpus(x) -> impus(x))", "prediction": ["all x.(Vumpus(x) -> Issue(x))"]}
+{"id": "prontoqa_validation_190", "nl": "Rex is a dumpus and Rex is a rompus and Rex is not an impus.", "fol": "(dumpus(Rex) & rompus(Rex) & -impus(Rex))", "prediction": ["(all x.(Rex(x) -> Dumpus(x)) & all y.(Rompus(y) -> -Impossible(y)))"]}
+{"id": "prontoqa_validation_191", "nl": "Numpuses are gorpuses.", "fol": "all x. (numpus(x) -> gorpus(x))", "prediction": ["all x.(Numpus(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_192", "nl": "Fae is a grimpus and Fae is a jompus and Fae is not a gorpus.", "fol": "(grimpus(Fae) & jompus(Fae) & -gorpus(Fae))", "prediction": ["(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> Jompus(x)) & -Fae(x)))"]}
+{"id": "prontoqa_validation_193", "nl": "Shumpuses are tumpuses.", "fol": "all x. (shumpus(x) -> tumpus(x))", "prediction": ["all x.(Shumpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_194", "nl": "Sam is a wumpus and Sam is a dumpus and Sam is not a tumpus.", "fol": "(wumpus(Sam) & dumpus(Sam) & -tumpus(Sam))", "prediction": ["(all x.(Sam(x) -> Wumpus(x)) & (Sam(x) -> Dumpus(x)) & (Sam(x) -> -Tumpus(x)))"]}
+{"id": "prontoqa_validation_195", "nl": "Sam is not a shumpus.", "fol": "-shumpus(Sam)", "prediction": ["all x.(Sam(x) -> -Shumpus(x))"]}
+{"id": "prontoqa_validation_196", "nl": "Every vumpus is a numpus.", "fol": "all x. (vumpus(x) -> numpus(x))", "prediction": ["all x.(Vumpus(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_197", "nl": "Polly is a lorpus and Polly is not a numpus and Polly is a tumpus.", "fol": "(lorpus(Polly) & -numpus(Polly) & tumpus(Polly))", "prediction": ["(all x.(Lorpus(x) -> Polly)) & (-Numpus(x) -> Polly)) & (Tumpus(x) -> Polly)))"]}
+{"id": "prontoqa_validation_198", "nl": "Wren is a tumpus, Wren is a rompus, and Wren is not a sterpus.", "fol": "(tumpus(Wren) & rompus(Wren) & -sterpus(Wren))", "prediction": ["(all x.(Wren(x) -> Tumpus(x)) & (Wren(x) -> Rompus(x)) & (Wren(x) -> -Sterpus(x)))"]}
+{"id": "prontoqa_validation_199", "nl": "Wren is not a vumpus.", "fol": "-vumpus(Wren)", "prediction": ["all x.(Wren(x) -> -Vumpus(x))"]}
+{"id": "prontoqa_validation_200", "nl": "Wren is a sterpus and Wren is a jompus and Wren is not a numpus.", "fol": "(sterpus(Wren) & jompus(Wren) & -numpus(Wren))", "prediction": ["(all x.(Wren(x) -> Sterpus(x)) & (Wren(x) -> Jompus(x)) & (Wren(x) -> -Numpus(x)))"]}
+{"id": "prontoqa_validation_201", "nl": "Wren is not a lempus.", "fol": "-lempus(Wren)", "prediction": ["all x.(Wren(x) -> -Lempus(x))"]}
+{"id": "prontoqa_validation_202", "nl": "Each rompus is a grimpus.", "fol": "all x. (rompus(x) -> grimpus(x))", "prediction": ["all x.(Rompus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_203", "nl": "Polly is a wumpus and Polly is a gorpus and Polly is not a grimpus.", "fol": "(wumpus(Polly) & gorpus(Polly) & -grimpus(Polly))", "prediction": ["(all x.(Polly(x) -> Wumpus(x)) & (Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)))"]}
+{"id": "prontoqa_validation_204", "nl": "Polly is not a rompus.", "fol": "-rompus(Polly)", "prediction": ["(-Rompus(Polly))"]}
+{"id": "prontoqa_validation_205", "nl": "Each gorpus is a lorpus.", "fol": "all x. (gorpus(x) -> lorpus(x))", "prediction": ["all x.(Gorpus(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_206", "nl": "Sally is a brimpus, Sally is not a lorpus, and Sally is a yumpus.", "fol": "(brimpus(Sally) & -lorpus(Sally) & yumpus(Sally))", "prediction": ["(all x.(Sally(x) -> Brimpus(x)) & (Sally(x) -> -Lorpus(x)) & (Sally(x) -> Yumpus(x)))"]}
+{"id": "prontoqa_validation_207", "nl": "Sally is not a gorpus.", "fol": "-gorpus(Sally)", "prediction": ["Sally is not a Gorpus."]}
+{"id": "prontoqa_validation_208", "nl": "Each dumpus is a wumpus.", "fol": "all x. (dumpus(x) -> wumpus(x))", "prediction": ["all x.(Dumpus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_209", "nl": "Alex is not a wumpus and Alex is a lempus and Alex is a zumpus.", "fol": "(-wumpus(Alex) & lempus(Alex) & zumpus(Alex))", "prediction": ["all x y z.((Alex(x) & Wumpus(y) & Lempus(z)) -> (-Wumpus(x) & Lempus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_210", "nl": "Each lempus is a grimpus.", "fol": "all x. (lempus(x) -> grimpus(x))", "prediction": ["all x.(Lempus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_211", "nl": "Max is a brimpus and Max is not a grimpus and Max is a zumpus.", "fol": "(brimpus(Max) & -grimpus(Max) & zumpus(Max))", "prediction": ["(all x.(Max(x) -> Brimpus(x)) & (Max(x) -> -Grimpus(x)) & (Max(x) -> Zumpus(x)))"]}
+{"id": "prontoqa_validation_212", "nl": "Sterpuses are shumpuses.", "fol": "all x. (sterpus(x) -> shumpus(x))", "prediction": ["all x.(Sterpus(x) -> Shumpus(x))"]}
+{"id": "prontoqa_validation_213", "nl": "Polly is a brimpus, Polly is not a shumpus, and Polly is a yumpus.", "fol": "(brimpus(Polly) & -shumpus(Polly) & yumpus(Polly))", "prediction": ["(all x.(Brimpus(x) -> Polly)) & (-Shumpus(x) -> Polly)) & (Yumpus(x) -> Polly)))"]}
+{"id": "prontoqa_validation_214", "nl": "Polly is not a sterpus.", "fol": "-sterpus(Polly)", "prediction": ["all x.(Polly(x) -> -Sterpus(x))"]}
+{"id": "prontoqa_validation_215", "nl": "Each dumpus is a brimpus.", "fol": "all x. (dumpus(x) -> brimpus(x))", "prediction": ["all x.(Dumpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_216", "nl": "Rex is a gorpus and Rex is not a brimpus and Rex is a lorpus.", "fol": "(gorpus(Rex) & -brimpus(Rex) & lorpus(Rex))", "prediction": ["(all x.(Rex(x) -> Gorpus(x)) & (-Brimpus(x) & -Lorpus(x)))"]}
+{"id": "prontoqa_validation_217", "nl": "Rex is not a dumpus.", "fol": "-dumpus(Rex)", "prediction": ["Rex is not a Dumpus."]}
+{"id": "prontoqa_validation_218", "nl": "Each tumpus is a lorpus.", "fol": "all x. (tumpus(x) -> lorpus(x))", "prediction": ["all x.(Tumpus(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_219", "nl": "Stella is not a lorpus, Stella is a yumpus, and Stella is a wumpus.", "fol": "(-lorpus(Stella) & yumpus(Stella) & wumpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Lorpus(x)) & (Stella(x) -> Yumpus(x)) & (Stella(x) -> Wumpus(x)))"]}
+{"id": "prontoqa_validation_220", "nl": "Stella is not a tumpus.", "fol": "-tumpus(Stella)", "prediction": ["Stella is not a Tumpus."]}
+{"id": "prontoqa_validation_221", "nl": "Brimpuses are numpuses.", "fol": "all x. (brimpus(x) -> numpus(x))", "prediction": ["all x.(Brimpus(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_222", "nl": "Stella is a lempus and Stella is not a numpus and Stella is a dumpus.", "fol": "(lempus(Stella) & -numpus(Stella) & dumpus(Stella))", "prediction": ["(all x.(Stella(x) -> Lempus(x)) & (Stella(x) -> -Numpus(x)) & (Stella(x) -> Dumpus(x)))"]}
+{"id": "prontoqa_validation_223", "nl": "Stella is not a brimpus.", "fol": "-brimpus(Stella)", "prediction": ["Stella is not a Brimpus."]}
+{"id": "prontoqa_validation_224", "nl": "Max is a yumpus, Max is a shumpus, and Max is not an impus.", "fol": "(yumpus(Max) & shumpus(Max) & -impus(Max))", "prediction": ["(all x.(Max(x) -> Yumpus(x)) & (Max(x) -> Humpus(x)) & (Max(x) -> -Impossible(x))))"]}
+{"id": "prontoqa_validation_225", "nl": "Max is not a numpus.", "fol": "-numpus(Max)", "prediction": ["(-numpus(Max))"]}
+{"id": "prontoqa_validation_226", "nl": "Each vumpus is a brimpus.", "fol": "all x. (vumpus(x) -> brimpus(x))", "prediction": ["all x.(Vumpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_227", "nl": "Wren is a jompus, Wren is a tumpus, and Wren is not a brimpus.", "fol": "(jompus(Wren) & tumpus(Wren) & -brimpus(Wren))", "prediction": ["(all x.(Wren(x) -> Jompus(x)) & (Wren(x) -> Tumpus(x)) & (Wren(x) -> -Brimpus(x)))"]}
+{"id": "prontoqa_validation_228", "nl": "Each sterpus is a jompus.", "fol": "all x. (sterpus(x) -> jompus(x))", "prediction": ["all x.(Sterpus(x) -> Jompus(x))"]}
+{"id": "prontoqa_validation_229", "nl": "Polly is not a jompus, Polly is a lempus, and Polly is a rompus.", "fol": "(-jompus(Polly) & lempus(Polly) & rompus(Polly))", "prediction": ["(all x.(Polly(x) -> -Jompus(x)) & all y.(Polly(y) -> Lempus(y)) & all z.(Polly(z) -> Rompus(z))))"]}
+{"id": "prontoqa_validation_230", "nl": "Vumpuses are numpuses.", "fol": "all x. (vumpus(x) -> numpus(x))", "prediction": ["all x.(Vumpus(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_231", "nl": "Stella is not a numpus, Stella is a shumpus, and Stella is a sterpus.", "fol": "(-numpus(Stella) & shumpus(Stella) & sterpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Numpus(x)) & (Shumpus(x) | Sterpus(x))))"]}
+{"id": "prontoqa_validation_232", "nl": "Stella is not a vumpus.", "fol": "-vumpus(Stella)", "prediction": ["Stella is not a Vumpus."]}
+{"id": "prontoqa_validation_233", "nl": "Each wumpus is a grimpus.", "fol": "all x. (wumpus(x) -> grimpus(x))", "prediction": ["all x.(Wumpus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_234", "nl": "Polly is a lorpus and Polly is a numpus and Polly is not a grimpus.", "fol": "(lorpus(Polly) & numpus(Polly) & -grimpus(Polly))", "prediction": ["(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> Numpus(x)) & (Polly(x) -> -Grimpus(x))))"]}
+{"id": "prontoqa_validation_235", "nl": "Rex is not a grimpus and Rex is a rompus and Rex is a lorpus.", "fol": "(-grimpus(Rex) & rompus(Rex) & lorpus(Rex))", "prediction": ["(all x.(Rex(x) -> -Grimpus(x)) & (Rompus(x) & Lorpus(x)))"]}
+{"id": "prontoqa_validation_236", "nl": "Every vumpus is a lorpus.", "fol": "all x. (vumpus(x) -> lorpus(x))", "prediction": ["all x.(Vumpus(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_237", "nl": "Polly is not a lorpus and Polly is a wumpus and Polly is a grimpus.", "fol": "(-lorpus(Polly) & wumpus(Polly) & grimpus(Polly))", "prediction": ["(all x.(Polly(x) -> -Lorpus(x)) & (Polly(x) -> Wumpus(x)) & (Polly(x) -> Grimpus(x)))"]}
+{"id": "prontoqa_validation_238", "nl": "Sally is a tumpus, Sally is not a rompus, and Sally is an impus.", "fol": "(tumpus(Sally) & -rompus(Sally) & impus(Sally))", "prediction": ["(all x.(Sally(x) -> Tumpus(x)) & (Sally(x) -> -Rompus(x)) & (Sally(x) -> Imperator(x)))"]}
+{"id": "prontoqa_validation_239", "nl": "Each yumpus is a vumpus.", "fol": "all x. (yumpus(x) -> vumpus(x))", "prediction": ["all x.(Yumpus(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_240", "nl": "Stella is not a vumpus, Stella is a sterpus, and Stella is a shumpus.", "fol": "(-vumpus(Stella) & sterpus(Stella) & shumpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Vumpus(x)) & (Stella(x) -> Sterpus(x)) & (Stella(x) -> Humpus(x)))"]}
+{"id": "prontoqa_validation_241", "nl": "Stella is not a yumpus.", "fol": "-yumpus(Stella)", "prediction": ["Stella is not yumpus."]}
+{"id": "prontoqa_validation_242", "nl": "Lempuses are tumpuses.", "fol": "all x. (lempus(x) -> tumpus(x))", "prediction": ["all x.(Lempuse(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_243", "nl": "Alex is a lorpus and Alex is not a tumpus and Alex is an impus.", "fol": "(lorpus(Alex) & -tumpus(Alex) & impus(Alex))", "prediction": ["all x y z.((Alex(x) & Lorpus(x) & Tumpus(y) & Imperator(z)) -> (Lorpus(x) & -Tumpus(y) & Imperator(z)))"]}
+{"id": "prontoqa_validation_244", "nl": "Alex is not a lempus.", "fol": "-lempus(Alex)", "prediction": ["all x.(Alex(x) -> -Lempus(x))"]}
+{"id": "prontoqa_validation_245", "nl": "Every jompus is a grimpus.", "fol": "all x. (jompus(x) -> grimpus(x))", "prediction": ["all x.(Jompus(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_246", "nl": "Wren is a vumpus, Wren is not a grimpus, and Wren is a yumpus.", "fol": "(vumpus(Wren) & -grimpus(Wren) & yumpus(Wren))", "prediction": ["(all x.(Wren(x) -> Vumpus(x)) & (-Grimpus(x) & (Yumpus(x) | -Vumpus(x))))"]}
+{"id": "prontoqa_validation_247", "nl": "Wren is not a jompus.", "fol": "-jompus(Wren)", "prediction": ["all x.(Wren(x) -> -Jompus(x))"]}
+{"id": "prontoqa_validation_248", "nl": "Yumpuses are dumpuses.", "fol": "all x. (yumpus(x) -> dumpus(x))", "prediction": ["all x.(Yumpus(x) -> Dumpuse(x))"]}
+{"id": "prontoqa_validation_249", "nl": "Sam is not a dumpus and Sam is a rompus and Sam is a zumpus.", "fol": "(-dumpus(Sam) & rompus(Sam) & zumpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Dumpus(x)) & (Sam(x) -> Rompus(x)) & (Sam(x) -> Zumpus(x)))"]}
+{"id": "prontoqa_validation_250", "nl": "Sam is not a yumpus.", "fol": "-yumpus(Sam)", "prediction": ["all x.(Sam(x) -> -Yumpus(x))"]}
+{"id": "prontoqa_validation_251", "nl": "Grimpuses are tumpuses.", "fol": "all x. (grimpus(x) -> tumpus(x))", "prediction": ["all x.(Grimpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_252", "nl": "Max is not a tumpus, Max is a brimpus, and Max is a rompus.", "fol": "(-tumpus(Max) & brimpus(Max) & rompus(Max))", "prediction": ["(all x.(Max(x) -> -Tumpus(x)) & (Max(x) -> Brimpus(x)) & (Max(x) -> Rompus(x)))"]}
+{"id": "prontoqa_validation_253", "nl": "Max is not a grimpus.", "fol": "-grimpus(Max)", "prediction": ["-Grimpus(Max)"]}
+{"id": "prontoqa_validation_254", "nl": "Fae is a grimpus, Fae is not a rompus, and Fae is a jompus.", "fol": "(grimpus(Fae) & -rompus(Fae) & jompus(Fae))", "prediction": ["(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> -Rompus(x)) & (Fae(x) -> Jompus(x)))"]}
+{"id": "prontoqa_validation_255", "nl": "Fae is not a gorpus.", "fol": "-gorpus(Fae)", "prediction": ["(-Gorpus(Fae))"]}
+{"id": "prontoqa_validation_256", "nl": "Gorpuses are tumpuses.", "fol": "all x. (gorpus(x) -> tumpus(x))", "prediction": ["all x.(Gorpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_257", "nl": "Fae is a vumpus and Fae is not a tumpus and Fae is a sterpus.", "fol": "(vumpus(Fae) & -tumpus(Fae) & sterpus(Fae))", "prediction": ["(all x.(Fae(x) -> Vumpus(x)) & (Fae(x) -> -Tumpus(x)) & (Fae(x) -> Sterpus(x)))"]}
+{"id": "prontoqa_validation_258", "nl": "Every yumpus is a shumpus.", "fol": "all x. (yumpus(x) -> shumpus(x))", "prediction": ["all x.(Yumpus(x) -> Humpus(x))"]}
+{"id": "prontoqa_validation_259", "nl": "Wren is not a shumpus and Wren is a lorpus and Wren is a grimpus.", "fol": "(-shumpus(Wren) & lorpus(Wren) & grimpus(Wren))", "prediction": ["(all x.(Wren(x) -> -Shumpus(x)) & all y.(Wren(y) -> Lorpus(y)) & all z.(Wren(z) -> Grimpus(z))))"]}
+{"id": "prontoqa_validation_260", "nl": "Each dumpus is an impus.", "fol": "all x. (dumpus(x) -> impus(x))", "prediction": ["all x.(Dumpus(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_261", "nl": "Rex is not an impus and Rex is a sterpus and Rex is a yumpus.", "fol": "(-impus(Rex) & sterpus(Rex) & yumpus(Rex))", "prediction": ["(all x.(Rex(x) -> -Impossible(x)) & ((Rex(x) & Sterpus(x)) -> Yumpus(x)))"]}
+{"id": "prontoqa_validation_262", "nl": "Everything that is an impus, a vumpus, or a rompus is a wumpus, a lorpus, and a yumpus.", "fol": "all x. ((impus(x) | vumpus(x) | rompus(x)) -> (wumpus(x) & lorpus(x) & yumpus(x)))", "prediction": ["all x.((Impos(x) | Vumpus(x) | Rompus(x)) -> (Wumpus(x) | Lorpus(x) | Yumpus(x)))"]}
+{"id": "prontoqa_validation_263", "nl": "Polly is a rompus.", "fol": "rompus(Polly)", "prediction": ["all x.(Rompus(x) -> Polly(x))"]}
+{"id": "prontoqa_validation_264", "nl": "Polly is a lorpus.", "fol": "lorpus(Polly)", "prediction": ["all x.(Lorpus(x) -> Polly(x))"]}
+{"id": "prontoqa_validation_265", "nl": "Everything that is a jompus or a gorpus or a yumpus is a grimpus and a dumpus and a rompus.", "fol": "all x. ((jompus(x) | gorpus(x) | yumpus(x)) -> (grimpus(x) & dumpus(x) & rompus(x)))", "prediction": ["all x.((Jompus(x) | Gorpus(x) | Yumpus(x)) -> (Grimpus(x) & Dumpus(x) & Rompus(x)))"]}
+{"id": "prontoqa_validation_266", "nl": "Polly is a yumpus.", "fol": "yumpus(Polly)", "prediction": ["all x.(Polly(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_267", "nl": "Everything that is a lorpus, a numpus, or a wumpus is a gorpus.", "fol": "all x. ((lorpus(x) | numpus(x) | wumpus(x)) -> gorpus(x))", "prediction": ["all x.((Lorpus(x) | Numpus(x) | Wumpus(x)) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_268", "nl": "Sally is a lorpus and a dumpus and a rompus.", "fol": "(lorpus(Sally) & dumpus(Sally) & rompus(Sally))", "prediction": ["(Lorpus(Sally) & Dumpus(Sally) & Rompus(Sally))"]}
+{"id": "prontoqa_validation_269", "nl": "Sally is a gorpus.", "fol": "gorpus(Sally)", "prediction": ["Sally is Gorpus."]}
+{"id": "prontoqa_validation_270", "nl": "Brimpuses are lempuses and zumpuses and grimpuses.", "fol": "all x. (brimpus(x) -> (lempus(x) & zumpus(x) & grimpus(x)))", "prediction": ["all x.(Brimpus(x) -> (Lempuse(x) | Zumpuse(x) | Grimpuse(x)))"]}
+{"id": "prontoqa_validation_271", "nl": "Wren is a brimpus.", "fol": "brimpus(Wren)", "prediction": ["all x.(Wren(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_272", "nl": "Wren is a dumpus or a vumpus or a grimpus.", "fol": "(dumpus(Wren) | vumpus(Wren) | grimpus(Wren))", "prediction": ["all x.(Wren(x) -> (Dumpus(x) | Vumpus(x) | Grimpus(x)))"]}
+{"id": "prontoqa_validation_273", "nl": "Each impus is a yumpus.", "fol": "all x. (impus(x) -> yumpus(x))", "prediction": ["all x.(Impossible(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_274", "nl": "Sally is a dumpus, Sally is not a yumpus, and Sally is a brimpus.", "fol": "(dumpus(Sally) & -yumpus(Sally) & brimpus(Sally))", "prediction": ["(all x.(Sally(x) -> Dumpus(x)) & (Sally(x) -> -Yumpus(x)) & (Sally(x) -> Brimpus(x)))"]}
+{"id": "prontoqa_validation_275", "nl": "Sally is a yumpus, Sally is not an impus, or Sally is an impus.", "fol": "(yumpus(Sally) | -impus(Sally) | impus(Sally))", "prediction": ["(all x.(Sally(x) -> Yumpus(x)) | (-Impossible(x) | Impossible(x))))"]}
+{"id": "prontoqa_validation_276", "nl": "Everything that is a grimpus, a brimpus, or a jompus is a lempus and a dumpus and a lorpus.", "fol": "all x. ((grimpus(x) | brimpus(x) | jompus(x)) -> (lempus(x) & dumpus(x) & lorpus(x)))", "prediction": ["all x.((Smopus(x) | Brimpus(x) | Jompus(x)) -> (Lempus(x) & Dumpus(x) & Lorpus(x)))"]}
+{"id": "prontoqa_validation_277", "nl": "Sally is a brimpus.", "fol": "brimpus(Sally)", "prediction": ["Sally is a Brimpus."]}
+{"id": "prontoqa_validation_278", "nl": "Sally is a dumpus.", "fol": "dumpus(Sally)", "prediction": ["Sally is a dumpus."]}
+{"id": "prontoqa_validation_279", "nl": "Each dumpus is a grimpus, a sterpus, and a gorpus.", "fol": "all x. (dumpus(x) -> (grimpus(x) & sterpus(x) & gorpus(x)))", "prediction": ["all x.(Dumpus(x) -> (Grimpus(x) | Sterpus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_280", "nl": "Wren is a dumpus.", "fol": "dumpus(Wren)", "prediction": ["all x.(Wren(x) -> Dumpus(x))"]}
+{"id": "prontoqa_validation_281", "nl": "Wren is a shumpus or a sterpus or a grimpus.", "fol": "(shumpus(Wren) | sterpus(Wren) | grimpus(Wren))", "prediction": ["all x.(Wren(x) -> (Shumpus(x) | Sterpus(x) | Grimpus(x)))"]}
+{"id": "prontoqa_validation_282", "nl": "Brimpuses are jompuses.", "fol": "all x. (brimpus(x) -> jompus(x))", "prediction": ["all x.(Brimpus(x) -> Jompuse(x))"]}
+{"id": "prontoqa_validation_283", "nl": "Rex is a rompus and a yumpus and a brimpus.", "fol": "(rompus(Rex) & yumpus(Rex) & brimpus(Rex))", "prediction": ["all x.(Rex(x) -> (Rompus(x) & Yumpus(x) & Brimpus(x)))"]}
+{"id": "prontoqa_validation_284", "nl": "Rex is a brimpus or a jompus or a gorpus.", "fol": "(brimpus(Rex) | jompus(Rex) | gorpus(Rex))", "prediction": ["all x.(Rex(x) -> (Brimpus(x) | Jompus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_285", "nl": "Everything that is a dumpus and a sterpus and a brimpus is a wumpus.", "fol": "all x. ((dumpus(x) & sterpus(x) & brimpus(x)) -> wumpus(x))", "prediction": ["all x.((Dumpus(x) & Sterpus(x) & Brimpus(x)) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_286", "nl": "Alex is a dumpus.", "fol": "dumpus(Alex)", "prediction": ["Alex is a Dumpus."]}
+{"id": "prontoqa_validation_287", "nl": "Alex is a sterpus.", "fol": "sterpus(Alex)", "prediction": ["all x.(Alex(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_288", "nl": "Alex is a brimpus.", "fol": "brimpus(Alex)", "prediction": ["all x.(Alex(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_289", "nl": "Alex is a zumpus, a wumpus, or a rompus.", "fol": "(zumpus(Alex) | wumpus(Alex) | rompus(Alex))", "prediction": ["all x.(Alex(x) -> (Tompus(x) | Wumpus(x) | Rompus(x)))"]}
+{"id": "prontoqa_validation_290", "nl": "Everything that is a numpus or a jompus or a vumpus is a rompus.", "fol": "all x. ((numpus(x) | jompus(x) | vumpus(x)) -> rompus(x))", "prediction": ["all x.((Nompus(x) | Jompus(x) | Vumpus(x)) -> Rompus(x))"]}
+{"id": "prontoqa_validation_291", "nl": "Wren is a yumpus, a vumpus, and a shumpus.", "fol": "(yumpus(Wren) & vumpus(Wren) & shumpus(Wren))", "prediction": ["all x.(Wren(x) -> (Yumpus(x) | Vumpus(x) | Humpus(x)))"]}
+{"id": "prontoqa_validation_292", "nl": "Wren is a rompus.", "fol": "rompus(Wren)", "prediction": ["all x.(Wren(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_293", "nl": "Each numpus is not a shumpus.", "fol": "all x. (numpus(x) -> -shumpus(x))", "prediction": ["all x.(Numpus(x) -> -Shumpus(x))"]}
+{"id": "prontoqa_validation_294", "nl": "Everything that is a lempus, a yumpus, or a brimpus is a shumpus.", "fol": "all x. ((lempus(x) | yumpus(x) | brimpus(x)) -> shumpus(x))", "prediction": ["all x.((Lempus(x) | Yumpus(x) | Brimpus(x)) -> Humpus(x))"]}
+{"id": "prontoqa_validation_295", "nl": "Rex is a numpus and a gorpus and a rompus.", "fol": "(numpus(Rex) & gorpus(Rex) & rompus(Rex))", "prediction": ["all x.(Rex(x) -> (Numpus(x) & Gorpus(x) & Rompus(x)))"]}
+{"id": "prontoqa_validation_296", "nl": "Everything that is a wumpus, a jompus, and a tumpus is a zumpus and a sterpus and a brimpus.", "fol": "all x. ((wumpus(x) & jompus(x) & tumpus(x)) -> (zumpus(x) & sterpus(x) & brimpus(x)))", "prediction": ["all x.((Wumpus(x) | Jompus(x) | Tumpus(x)) -> (Tompus(x) & Sterpus(x) & Brimpus(x)))"]}
+{"id": "prontoqa_validation_297", "nl": "Max is a wumpus.", "fol": "wumpus(Max)", "prediction": ["(Wumpus(Max) & -Wumpus(Max))"]}
+{"id": "prontoqa_validation_298", "nl": "Max is a jompus.", "fol": "jompus(Max)", "prediction": ["all x.(Max(x) -> Jompus(x))"]}
+{"id": "prontoqa_validation_299", "nl": "Max is a tumpus.", "fol": "tumpus(Max)", "prediction": ["all x.(Max(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_300", "nl": "Max is a zumpus.", "fol": "zumpus(Max)", "prediction": ["all x.(Max(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_301", "nl": "Every shumpus is a tumpus, a yumpus, and a lempus.", "fol": "all x. (shumpus(x) -> (tumpus(x) & yumpus(x) & lempus(x)))", "prediction": ["all x.(Shumpus(x) -> (Tumpus(x) | Yumpus(x) | Lempus(x)))"]}
+{"id": "prontoqa_validation_302", "nl": "Alex is a shumpus.", "fol": "shumpus(Alex)", "prediction": ["all x.(Alex(x) -> Humpus(x))"]}
+{"id": "prontoqa_validation_303", "nl": "Alex is a tumpus or a dumpus or a brimpus.", "fol": "(tumpus(Alex) | dumpus(Alex) | brimpus(Alex))", "prediction": ["all x.(Alex(x) -> (Tumpus(x) | Dumpus(x) | Brimpus(x)))"]}
+{"id": "prontoqa_validation_304", "nl": "Every sterpus is not a tumpus.", "fol": "all x. (sterpus(x) -> -tumpus(x))", "prediction": ["all x.(Sterpus(x) -> -Tumpus(x))"]}
+{"id": "prontoqa_validation_305", "nl": "Every lorpus is a tumpus.", "fol": "all x. (lorpus(x) -> tumpus(x))", "prediction": ["all x.(Lorpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_306", "nl": "Wren is a sterpus.", "fol": "sterpus(Wren)", "prediction": ["all x.(Wren(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_307", "nl": "Wren is a grimpus or Wren is not a lorpus or Wren is a lempus.", "fol": "(grimpus(Wren) | -lorpus(Wren) | lempus(Wren))", "prediction": ["all x.((Wren(x) & (Grimpus(x) | -Lorpus(x) | Lempus(x))) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_308", "nl": "Every gorpus is a tumpus.", "fol": "all x. (gorpus(x) -> tumpus(x))", "prediction": ["all x.(Gorpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_309", "nl": "Sally is not a tumpus and Sally is a lempus and Sally is a vumpus.", "fol": "(-tumpus(Sally) & lempus(Sally) & vumpus(Sally))", "prediction": ["(all x.(Sally(x) -> -Tumpus(x)) & all y.(Sally(y) -> Lempus(y)) & all z.(Sally(z) -> Vumpus(z))))"]}
+{"id": "prontoqa_validation_310", "nl": "Sally is a tumpus or Sally is a lorpus or Sally is not a gorpus.", "fol": "(tumpus(Sally) | lorpus(Sally) | -gorpus(Sally))", "prediction": ["all x.(Sally(x) -> (Tumpus(x) | Lorpus(x) | -Gorpus(x)))"]}
+{"id": "prontoqa_validation_311", "nl": "Numpuses are yumpuses, vumpuses, and gorpuses.", "fol": "all x. (numpus(x) -> (yumpus(x) & vumpus(x) & gorpus(x)))", "prediction": ["all x.(Numpuse(x) -> (Yumpus(x) | Vampuse(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_312", "nl": "Rex is a grimpus, Rex is not a gorpus, and Rex is a shumpus.", "fol": "(grimpus(Rex) & -gorpus(Rex) & shumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Grimpus(x)) & (Rex(x) -> -Gorpus(x)) & (Rex(x) -> Humpus(x)))"]}
+{"id": "prontoqa_validation_313", "nl": "Rex is not a numpus.", "fol": "-numpus(Rex)", "prediction": ["Rex is not Numpus(x)"]}
+{"id": "prontoqa_validation_314", "nl": "Each yumpus is not a wumpus.", "fol": "all x. (yumpus(x) -> -wumpus(x))", "prediction": ["all x.(Yumpus(x) -> -Wumpus(x))"]}
+{"id": "prontoqa_validation_315", "nl": "Fae is a yumpus.", "fol": "yumpus(Fae)", "prediction": ["all x.(Fae(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_316", "nl": "Fae is a vumpus or Fae is a wumpus or Fae is not a tumpus.", "fol": "(vumpus(Fae) | wumpus(Fae) | -tumpus(Fae))", "prediction": ["(all x.(Fae(x) -> Vumpus(x)) | (Fae(x) -> Wumpus(x)) | (Fae(x) -> -Tumpus(x))))"]}
+{"id": "prontoqa_validation_317", "nl": "Everything that is a zumpus, a brimpus, or a numpus is a rompus, a lorpus, and a lempus.", "fol": "all x. ((zumpus(x) | brimpus(x) | numpus(x)) -> (rompus(x) & lorpus(x) & lempus(x)))", "prediction": ["all x.((Tompus(x) | Brimpus(x) | Numpus(x)) -> (Rompus(x) | Lorpus(x) | Lempus(x)))"]}
+{"id": "prontoqa_validation_318", "nl": "Sam is a numpus.", "fol": "numpus(Sam)", "prediction": ["all x.(Sam(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_319", "nl": "Sam is a lempus.", "fol": "lempus(Sam)", "prediction": ["all x.(Sam(x) -> Lempus(x))"]}
+{"id": "prontoqa_validation_320", "nl": "Everything that is a wumpus or a zumpus or a grimpus is a jompus and a gorpus and a lempus.", "fol": "all x. ((wumpus(x) | zumpus(x) | grimpus(x)) -> (jompus(x) & gorpus(x) & lempus(x)))", "prediction": ["all x.((Wumpus(x) | Zumpus(x) | Grimpus(x)) -> (Jompus(x) & Gorpus(x) & Lempus(x)))"]}
+{"id": "prontoqa_validation_321", "nl": "Alex is a grimpus.", "fol": "grimpus(Alex)", "prediction": ["all x.(Alex(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_322", "nl": "Alex is a gorpus.", "fol": "gorpus(Alex)", "prediction": ["all x.(Alex(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_323", "nl": "Every yumpus is a sterpus and a jompus and an impus.", "fol": "all x. (yumpus(x) -> (sterpus(x) & jompus(x) & impus(x)))", "prediction": ["all x.(Yumpus(x) -> (Sterpus(x) & Jompus(x) & Imperator(x)))"]}
+{"id": "prontoqa_validation_324", "nl": "Lempuses are not jompuses.", "fol": "all x. (lempus(x) -> -jompus(x))", "prediction": ["all x.(Lempuse(x) -> -Jompuse(x))"]}
+{"id": "prontoqa_validation_325", "nl": "Polly is a grimpus, an impus, and a lempus.", "fol": "(grimpus(Polly) & impus(Polly) & lempus(Polly))", "prediction": ["all x.(Polly(x) -> (Grimpus(x) | Impossible(x) | Lempus(x)))"]}
+{"id": "prontoqa_validation_326", "nl": "Polly is not a yumpus.", "fol": "-yumpus(Polly)", "prediction": ["all x.(Polly(x) -> -Yumpus(x))"]}
+{"id": "prontoqa_validation_327", "nl": "Everything that is a grimpus, a rompus, or a gorpus is a numpus.", "fol": "all x. ((grimpus(x) | rompus(x) | gorpus(x)) -> numpus(x))", "prediction": ["all x.((Smopus(x) | Rompus(x) | Gorpus(x)) -> Numpus(x))"]}
+{"id": "prontoqa_validation_328", "nl": "Alex is a shumpus, Alex is not a numpus, and Alex is a sterpus.", "fol": "(shumpus(Alex) & -numpus(Alex) & sterpus(Alex))", "prediction": ["(all x.(Alex(x) -> Shumpus(x)) & (Alex(x) -> -Numpus(x)) & (Alex(x) -> Sterpus(x)))"]}
+{"id": "prontoqa_validation_329", "nl": "Alex is not a rompus.", "fol": "-rompus(Alex)", "prediction": ["all x.(Alex(x) -> -Rompus(x))"]}
+{"id": "prontoqa_validation_330", "nl": "Each wumpus is a lorpus, a sterpus, and a brimpus.", "fol": "all x. (wumpus(x) -> (lorpus(x) & sterpus(x) & brimpus(x)))", "prediction": ["all x.(Wumpus(x) -> (Lorpus(x) | Sterpus(x) | Brimpus(x)))"]}
+{"id": "prontoqa_validation_331", "nl": "Stella is a wumpus.", "fol": "wumpus(Stella)", "prediction": ["Stella is a wumpus."]}
+{"id": "prontoqa_validation_332", "nl": "Stella is a jompus, a lorpus, or a shumpus.", "fol": "(jompus(Stella) | lorpus(Stella) | shumpus(Stella))", "prediction": ["all x.(Stella(x) -> (Jompus(x) | Lorpus(x) | Humpus(x)))"]}
+{"id": "prontoqa_validation_333", "nl": "Each sterpus is a numpus and a yumpus and a zumpus.", "fol": "all x. (sterpus(x) -> (numpus(x) & yumpus(x) & zumpus(x)))", "prediction": ["all x.(Sterpus(x) -> (Numpus(x) & Yumpus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_334", "nl": "Sam is not a numpus and Sam is a jompus and Sam is a yumpus.", "fol": "(-numpus(Sam) & jompus(Sam) & yumpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Numpus(x)) & (Sam(x) -> Jompus(x)) & (Sam(x) -> Yumpus(x)))"]}
+{"id": "prontoqa_validation_335", "nl": "Everything that is a lempus, a lorpus, or a zumpus is a wumpus, an impus, and a yumpus.", "fol": "all x. ((lempus(x) | lorpus(x) | zumpus(x)) -> (wumpus(x) & impus(x) & yumpus(x)))", "prediction": ["all x.((Lempus(x) | Lorpus(x) | Zumpus(x)) -> (Wumpus(x) & Imperempt(x) & Yumpus(x)))"]}
+{"id": "prontoqa_validation_336", "nl": "Wren is a lempus.", "fol": "lempus(Wren)", "prediction": ["all x.(Wren(x) -> Lempus(x))"]}
+{"id": "prontoqa_validation_337", "nl": "Wren is an impus.", "fol": "impus(Wren)", "prediction": ["all x.(Wren(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_338", "nl": "Everything that is a rompus or a vumpus or a zumpus is a lorpus, a brimpus, and a gorpus.", "fol": "all x. ((rompus(x) | vumpus(x) | zumpus(x)) -> (lorpus(x) & brimpus(x) & gorpus(x)))", "prediction": ["all x.((Rompus(x) | Vumpus(x) | Zumpus(x)) -> (Lorpus(x) & Brimpus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_339", "nl": "Sam is a rompus.", "fol": "rompus(Sam)", "prediction": ["all x.(Rompus(x) -> Sam(x))"]}
+{"id": "prontoqa_validation_340", "nl": "Sam is a gorpus.", "fol": "gorpus(Sam)", "prediction": ["all x.(Sam(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_341", "nl": "Everything that is a lorpus, a sterpus, and a grimpus is a tumpus.", "fol": "all x. ((lorpus(x) & sterpus(x) & grimpus(x)) -> tumpus(x))", "prediction": ["all x.((Lorpus(x) | Sterpus(x) | Grimpus(x)) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_342", "nl": "Fae is not a tumpus, Fae is a dumpus, and Fae is a wumpus.", "fol": "(-tumpus(Fae) & dumpus(Fae) & wumpus(Fae))", "prediction": ["(all x.(Fae(x) -> -Tumpus(x)) & (Fae(x) -> Dumpus(x)) & (Fae(x) -> Wumpus(x)))"]}
+{"id": "prontoqa_validation_343", "nl": "Fae is a lorpus.", "fol": "lorpus(Fae)", "prediction": ["all x.(Fae(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_344", "nl": "Fae is a sterpus.", "fol": "sterpus(Fae)", "prediction": ["all x.(Fae(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_345", "nl": "Fae is not a grimpus.", "fol": "-grimpus(Fae)", "prediction": ["-Grimpus(Fae)"]}
+{"id": "prontoqa_validation_346", "nl": "Lempuses are dumpuses and sterpuses and wumpuses.", "fol": "all x. (lempus(x) -> (dumpus(x) & sterpus(x) & wumpus(x)))", "prediction": ["all x.(Lempuse(x) -> (Dumpsuse(x) & Sterpuse(x) & Wumpuse(x)))"]}
+{"id": "prontoqa_validation_347", "nl": "Sam is a yumpus, a zumpus, or a sterpus.", "fol": "(yumpus(Sam) | zumpus(Sam) | sterpus(Sam))", "prediction": ["all x.(Sam(x) -> (Yumpus(x) | Zumpus(x) | Sterpus(x)))"]}
+{"id": "prontoqa_validation_348", "nl": "Each tumpus is a rompus and a zumpus and a wumpus.", "fol": "all x. (tumpus(x) -> (rompus(x) & zumpus(x) & wumpus(x)))", "prediction": ["all x.(Tumpus(x) -> (Rompus(x) & Zumpus(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_349", "nl": "Rex is a tumpus.", "fol": "tumpus(Rex)", "prediction": ["Rex is a tumpus."]}
+{"id": "prontoqa_validation_350", "nl": "Rex is a lempus, a jompus, or a rompus.", "fol": "(lempus(Rex) | jompus(Rex) | rompus(Rex))", "prediction": ["all x.(Rex(x) -> (Lempus(x) | Jompus(x) | Rompus(x)))"]}
+{"id": "prontoqa_validation_351", "nl": "Everything that is a wumpus and a numpus and a brimpus is a lorpus, a jompus, and a rompus.", "fol": "all x. ((wumpus(x) & numpus(x) & brimpus(x)) -> (lorpus(x) & jompus(x) & rompus(x)))", "prediction": ["all x.((Wumpus(x) & Numpus(x) & Brimpus(x)) -> (Lorpus(x) & Jompus(x) & Rompus(x)))"]}
+{"id": "prontoqa_validation_352", "nl": "Stella is a numpus.", "fol": "numpus(Stella)", "prediction": ["Stella is Numpus(Stella)"]}
+{"id": "prontoqa_validation_353", "nl": "Stella is a brimpus.", "fol": "brimpus(Stella)", "prediction": ["Stella is a Brimpus."]}
+{"id": "prontoqa_validation_354", "nl": "Stella is a jompus.", "fol": "jompus(Stella)", "prediction": ["Stella is a Jompus."]}
+{"id": "prontoqa_validation_355", "nl": "Each shumpus is a sterpus and a vumpus and a jompus.", "fol": "all x. (shumpus(x) -> (sterpus(x) & vumpus(x) & jompus(x)))", "prediction": ["all x.(Shumpus(x) -> (Sterpus(x) & Vumpus(x) & Jompus(x)))"]}
+{"id": "prontoqa_validation_356", "nl": "Stella is a yumpus and Stella is not a jompus and Stella is a gorpus.", "fol": "(yumpus(Stella) & -jompus(Stella) & gorpus(Stella))", "prediction": ["(all x.(Stella(x) -> Yumpus(x)) & (Stella(x) -> -Jompus(x)) & (Stella(x) -> Gorpus(x)))"]}
+{"id": "prontoqa_validation_357", "nl": "Stella is not a shumpus.", "fol": "-shumpus(Stella)", "prediction": ["Stella is not a shumpus."]}
+{"id": "prontoqa_validation_358", "nl": "Dumpuses are lempuses.", "fol": "all x. (dumpus(x) -> lempus(x))", "prediction": ["all x.(Dumpuse(x) -> Lempuse(x))"]}
+{"id": "prontoqa_validation_359", "nl": "Stella is not a lempus, Stella is a tumpus, and Stella is a grimpus.", "fol": "(-lempus(Stella) & tumpus(Stella) & grimpus(Stella))", "prediction": ["(all x.(Stella(x) -> -Lempus(x)) & (Stella(x) -> Tumpus(x)) & (Stella(x) -> Grimpus(x)))"]}
+{"id": "prontoqa_validation_360", "nl": "Stella is a lorpus, Stella is a shumpus, or Stella is not a dumpus.", "fol": "(lorpus(Stella) | shumpus(Stella) | -dumpus(Stella))", "prediction": ["(all x.(Stella(x) -> Lorpus(x)) | (Stella(x) -> Humpus(x))) | (Stella(x) -> -Dumpus(x))))"]}
+{"id": "prontoqa_validation_361", "nl": "Each lorpus is a numpus, a vumpus, and a tumpus.", "fol": "all x. (lorpus(x) -> (numpus(x) & vumpus(x) & tumpus(x)))", "prediction": ["all x.(Lorpus(x) -> (Numpus(x) | Vumpus(x) | Tumpus(x)))"]}
+{"id": "prontoqa_validation_362", "nl": "Everything that is a yumpus, a grimpus, and a brimpus is not a numpus.", "fol": "all x. ((yumpus(x) & grimpus(x) & brimpus(x)) -> -numpus(x))", "prediction": ["all x.((Yumpus(x) | Grimpus(x) | Brimpus(x)) -> -Numpus(x))"]}
+{"id": "prontoqa_validation_363", "nl": "Max is a yumpus.", "fol": "yumpus(Max)", "prediction": ["(Yumpus(Max) & HasYump(Max))"]}
+{"id": "prontoqa_validation_364", "nl": "Max is a grimpus.", "fol": "grimpus(Max)", "prediction": ["all x.(Max(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_365", "nl": "Max is a brimpus.", "fol": "brimpus(Max)", "prediction": ["all x.(Max(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_366", "nl": "Max is not a lorpus.", "fol": "-lorpus(Max)", "prediction": ["(-Lorpus(Max))"]}
+{"id": "prontoqa_validation_367", "nl": "Everything that is a lorpus and a numpus and a brimpus is a vumpus.", "fol": "all x. ((lorpus(x) & numpus(x) & brimpus(x)) -> vumpus(x))", "prediction": ["all x.((Lorpus(x) & Numpus(x) & Brimpus(x)) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_368", "nl": "Shumpuses are gorpuses.", "fol": "all x. (shumpus(x) -> gorpus(x))", "prediction": ["all x.(Shupuse(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_369", "nl": "Every gorpus is not a vumpus.", "fol": "all x. (gorpus(x) -> -vumpus(x))", "prediction": ["all x.(Gorpus(x) -> -Vumpus(x))"]}
+{"id": "prontoqa_validation_370", "nl": "Sam is a shumpus.", "fol": "shumpus(Sam)", "prediction": ["all x.(Sam(x) -> Humpus(x))"]}
+{"id": "prontoqa_validation_371", "nl": "Sam is a lorpus.", "fol": "lorpus(Sam)", "prediction": ["all x.(Sam(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_372", "nl": "Everything that is a rompus and a yumpus and a lempus is a gorpus, a sterpus, and a zumpus.", "fol": "all x. ((rompus(x) & yumpus(x) & lempus(x)) -> (gorpus(x) & sterpus(x) & zumpus(x)))", "prediction": ["all x.((Rompus(x) & Yumpus(x) & Lempus(x)) -> (Gorpus(x) & Sterpus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_373", "nl": "Max is a rompus.", "fol": "rompus(Max)", "prediction": ["(Rompus(Max) & -Rompus(Max))"]}
+{"id": "prontoqa_validation_374", "nl": "Max is a lempus.", "fol": "lempus(Max)", "prediction": ["all x.(Max(x) -> Lempus(x))"]}
+{"id": "prontoqa_validation_375", "nl": "Everything that is a sterpus, an impus, or a vumpus is a lempus.", "fol": "all x. ((sterpus(x) | impus(x) | vumpus(x)) -> lempus(x))", "prediction": ["all x.((Sterpus(x) | Imperempt(x) | Vumpus(x)) -> Lempus(x))"]}
+{"id": "prontoqa_validation_376", "nl": "Rex is a brimpus and a tumpus and an impus.", "fol": "(brimpus(Rex) & tumpus(Rex) & impus(Rex))", "prediction": ["all x.(Rex(x) -> (Brimpus(x) & Tumpus(x) & Imperator(x)))"]}
+{"id": "prontoqa_validation_377", "nl": "Rex is a lempus.", "fol": "lempus(Rex)", "prediction": ["Rex is a lempus."]}
+{"id": "prontoqa_validation_378", "nl": "Tumpuses are zumpuses and impuses and yumpuses.", "fol": "all x. (tumpus(x) -> (zumpus(x) & impus(x) & yumpus(x)))", "prediction": ["all x.(Tumpus(x) -> (Tompus(x) | Issue(x) | Yumpus(x)))"]}
+{"id": "prontoqa_validation_379", "nl": "Alex is a tumpus.", "fol": "tumpus(Alex)", "prediction": ["all x.(Alex(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_380", "nl": "Alex is an impus or a wumpus or a gorpus.", "fol": "(impus(Alex) | wumpus(Alex) | gorpus(Alex))", "prediction": ["all x.(Alex(x) -> (Impossible(x) | Wumpus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_381", "nl": "Jompuses are sterpuses, dumpuses, and lempuses.", "fol": "all x. (jompus(x) -> (sterpus(x) & dumpus(x) & lempus(x)))", "prediction": ["all x.(Jompuse(x) -> (Sterpuse(x) | Dumpuse(x) | Lempuse(x)))"]}
+{"id": "prontoqa_validation_382", "nl": "Alex is not a lempus and Alex is a numpus and Alex is a gorpus.", "fol": "(-lempus(Alex) & numpus(Alex) & gorpus(Alex))", "prediction": ["all x y z.((Alex(x) & Lempus(y) & Numpus(z)) -> (-Lempus(x) & Numpus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_383", "nl": "Each tumpus is not a jompus.", "fol": "all x. (tumpus(x) -> -jompus(x))", "prediction": ["all x.(Tumpus(x) -> -Jompus(x))"]}
+{"id": "prontoqa_validation_384", "nl": "Numpuses are jompuses.", "fol": "all x. (numpus(x) -> jompus(x))", "prediction": ["all x.(Numpus(x) -> Jompuse(x))"]}
+{"id": "prontoqa_validation_385", "nl": "Fae is a tumpus.", "fol": "tumpus(Fae)", "prediction": ["all x.(Fae(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_386", "nl": "Fae is a lorpus, Fae is an impus, or Fae is not a numpus.", "fol": "(lorpus(Fae) | impus(Fae) | -numpus(Fae))", "prediction": ["(all x.(Fae(x) -> Lorpus(x)) | (Fae(x) -> Issue(x)) | (Fae(x) -> -Numpus(x))))"]}
+{"id": "prontoqa_validation_387", "nl": "Sterpuses are not dumpuses.", "fol": "all x. (sterpus(x) -> -dumpus(x))", "prediction": ["all x.(Sterpus(x) -> -Dumpuse(x))"]}
+{"id": "prontoqa_validation_388", "nl": "Everything that is a vumpus or a grimpus or a yumpus is a dumpus.", "fol": "all x. ((vumpus(x) | grimpus(x) | yumpus(x)) -> dumpus(x))", "prediction": ["all x.((Vumpus(x) | Grimpus(x) | Yumpus(x)) -> Dumpus(x))"]}
+{"id": "prontoqa_validation_389", "nl": "Stella is a tumpus and a gorpus and a sterpus.", "fol": "(tumpus(Stella) & gorpus(Stella) & sterpus(Stella))", "prediction": ["all x.(Stella(x) -> (Tumpus(x) & Gorpus(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_390", "nl": "Every brimpus is a tumpus, a zumpus, and a lorpus.", "fol": "all x. (brimpus(x) -> (tumpus(x) & zumpus(x) & lorpus(x)))", "prediction": ["all x.(Brimpus(x) -> (Tumpus(x) | Zumpus(x) | Lorpus(x)))"]}
+{"id": "prontoqa_validation_391", "nl": "Stella is a lempus, Stella is a dumpus, and Stella is not a lorpus.", "fol": "(lempus(Stella) & dumpus(Stella) & -lorpus(Stella))", "prediction": ["(all x.(Stella(x) -> Lempus(x)) & (Stella(x) -> Dumpus(x)) & (Stella(x) -> -Lorpus(x)))"]}
+{"id": "prontoqa_validation_392", "nl": "Everything that is a tumpus or an impus or a lempus is a brimpus and a rompus and a sterpus.", "fol": "all x. ((tumpus(x) | impus(x) | lempus(x)) -> (brimpus(x) & rompus(x) & sterpus(x)))", "prediction": ["all x.((Tumpus(x) | Impossible(x) | Lempus(x)) -> (Brimpus(x) & Rompus(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_393", "nl": "Stella is a lempus.", "fol": "lempus(Stella)", "prediction": ["Stella is a lempus."]}
+{"id": "prontoqa_validation_394", "nl": "Stella is a rompus.", "fol": "rompus(Stella)", "prediction": ["Stella is a rompus."]}
+{"id": "prontoqa_validation_395", "nl": "Tumpuses are lempuses, dumpuses, and numpuses.", "fol": "all x. (tumpus(x) -> (lempus(x) & dumpus(x) & numpus(x)))", "prediction": ["all x.(Tumpuse(x) -> (Lempuse(x) | Dumpuse(x) | Numpuse(x)))"]}
+{"id": "prontoqa_validation_396", "nl": "Wren is a tumpus.", "fol": "tumpus(Wren)", "prediction": ["all x.(Wren(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_397", "nl": "Wren is a yumpus, a lorpus, or a dumpus.", "fol": "(yumpus(Wren) | lorpus(Wren) | dumpus(Wren))", "prediction": ["all x.(Wren(x) -> (Yumpus(x) | Lorpus(x) | Dumpus(x)))"]}
+{"id": "prontoqa_validation_398", "nl": "Everything that is a wumpus, a lorpus, or an impus is a rompus.", "fol": "all x. ((wumpus(x) | lorpus(x) | impus(x)) -> rompus(x))", "prediction": ["all x.((Wumpus(x) | Lorpus(x) | Imperator(x)) -> Rompus(x))"]}
+{"id": "prontoqa_validation_399", "nl": "Wren is a lorpus and a vumpus and a jompus.", "fol": "(lorpus(Wren) & vumpus(Wren) & jompus(Wren))", "prediction": ["all x.(Wren(x) -> (Lorpus(x) & Vumpus(x) & Jompus(x)))"]}
+{"id": "prontoqa_validation_400", "nl": "Everything that is a zumpus or a shumpus or a vumpus is a sterpus.", "fol": "all x. ((zumpus(x) | shumpus(x) | vumpus(x)) -> sterpus(x))", "prediction": ["all x.((Tompus(x) | Humpus(x) | Vumpus(x)) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_401", "nl": "Max is a sterpus, a vumpus, and a jompus.", "fol": "(sterpus(Max) & vumpus(Max) & jompus(Max))", "prediction": ["(all x.(Max(x) -> Sterpus(x)) & all y.(Vumpus(y) & -Jompus(y)))"]}
+{"id": "prontoqa_validation_402", "nl": "Max is a sterpus.", "fol": "sterpus(Max)", "prediction": ["all x.(Max(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_403", "nl": "Everything that is a lorpus or a brimpus or a grimpus is not a lempus.", "fol": "all x. ((lorpus(x) | brimpus(x) | grimpus(x)) -> -lempus(x))", "prediction": ["all x.((Lorpus(x) | Brimpus(x) | Grimpus(x)) -> -Lempus(x))"]}
+{"id": "prontoqa_validation_404", "nl": "Every rompus is a shumpus and a lempus and a dumpus.", "fol": "all x. (rompus(x) -> (shumpus(x) & lempus(x) & dumpus(x)))", "prediction": ["all x.(Rompus(x) -> (Shumpus(x) & Lempus(x) & Dumpus(x)))"]}
+{"id": "prontoqa_validation_405", "nl": "Fae is a brimpus.", "fol": "brimpus(Fae)", "prediction": ["all x.(Fae(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_406", "nl": "Fae is not a rompus.", "fol": "-rompus(Fae)", "prediction": ["(-Rompus(Fae))"]}
+{"id": "prontoqa_validation_407", "nl": "Everything that is a lorpus, a shumpus, and a vumpus is a grimpus and a lempus and a wumpus.", "fol": "all x. ((lorpus(x) & shumpus(x) & vumpus(x)) -> (grimpus(x) & lempus(x) & wumpus(x)))", "prediction": ["all x.((Lorpus(x) | Humpus(x) | Vumpus(x)) -> (Grimpus(x) & Lempus(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_408", "nl": "Fae is a shumpus.", "fol": "shumpus(Fae)", "prediction": ["all x.(Fae(x) -> Humpus(x))"]}
+{"id": "prontoqa_validation_409", "nl": "Fae is a vumpus.", "fol": "vumpus(Fae)", "prediction": ["all x.(Fae(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_410", "nl": "Fae is a grimpus.", "fol": "grimpus(Fae)", "prediction": ["all x.(Fae(x) -> Grimpus(x))"]}
+{"id": "prontoqa_validation_411", "nl": "Each zumpus is a lempus, a tumpus, and a numpus.", "fol": "all x. (zumpus(x) -> (lempus(x) & tumpus(x) & numpus(x)))", "prediction": ["all x.(Zumpus(x) -> (Lempus(x) | Tumpus(x) | Numpus(x)))"]}
+{"id": "prontoqa_validation_412", "nl": "Stella is a zumpus.", "fol": "zumpus(Stella)", "prediction": ["Stella is a zumpus."]}
+{"id": "prontoqa_validation_413", "nl": "Stella is a wumpus, a numpus, or a lempus.", "fol": "(wumpus(Stella) | numpus(Stella) | lempus(Stella))", "prediction": ["all x.(Stella(x) -> (Wumpus(x) | Numpus(x) | Lempus(x)))"]}
+{"id": "prontoqa_validation_414", "nl": "Every lempus is a sterpus.", "fol": "all x. (lempus(x) -> sterpus(x))", "prediction": ["all x.(Lempus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_415", "nl": "Alex is a gorpus, a lempus, and a numpus.", "fol": "(gorpus(Alex) & lempus(Alex) & numpus(Alex))", "prediction": ["all x.(Alex(x) -> (Gorpus(x) | Lempus(x) | Numpus(x)))"]}
+{"id": "prontoqa_validation_416", "nl": "Alex is a lorpus or a sterpus or a gorpus.", "fol": "(lorpus(Alex) | sterpus(Alex) | gorpus(Alex))", "prediction": ["all x.(Alex(x) -> (Lorpus(x) | Sterpus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_417", "nl": "Everything that is an impus, a rompus, and a yumpus is a gorpus and a grimpus and a tumpus.", "fol": "all x. ((impus(x) & rompus(x) & yumpus(x)) -> (gorpus(x) & grimpus(x) & tumpus(x)))", "prediction": ["all x.((Impose(x) | Rompus(x) | Yumpus(x)) -> (Gorpus(x) & Grimpus(x) & Tumpus(x)))"]}
+{"id": "prontoqa_validation_418", "nl": "Fae is an impus.", "fol": "impus(Fae)", "prediction": ["all x.(Fae(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_419", "nl": "Fae is a rompus.", "fol": "rompus(Fae)", "prediction": ["all x.(Fae(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_420", "nl": "Fae is a gorpus.", "fol": "gorpus(Fae)", "prediction": ["all x.(Fae(x) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_421", "nl": "Each lempus is a grimpus and a shumpus and a wumpus.", "fol": "all x. (lempus(x) -> (grimpus(x) & shumpus(x) & wumpus(x)))", "prediction": ["all x.(Lempus(x) -> (Grimpus(x) & Humpus(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_422", "nl": "Each lorpus is a yumpus.", "fol": "all x. (lorpus(x) -> yumpus(x))", "prediction": ["all x.(Lorpus(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_423", "nl": "Yumpuses are not shumpuses.", "fol": "all x. (yumpus(x) -> -shumpus(x))", "prediction": ["all x.(Yumpus(x) -> -Shumpus(x))"]}
+{"id": "prontoqa_validation_424", "nl": "Alex is a lorpus.", "fol": "lorpus(Alex)", "prediction": ["all x.(Alex(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_425", "nl": "Each numpus is a lorpus, a shumpus, and a rompus.", "fol": "all x. (numpus(x) -> (lorpus(x) & shumpus(x) & rompus(x)))", "prediction": ["all x.(Numpus(x) -> (Lorpus(x) | Humpus(x) | Rompus(x)))"]}
+{"id": "prontoqa_validation_426", "nl": "Max is a numpus.", "fol": "numpus(Max)", "prediction": ["Max is Numpus(Max)"]}
+{"id": "prontoqa_validation_427", "nl": "Max is a shumpus, a lorpus, or an impus.", "fol": "(shumpus(Max) | lorpus(Max) | impus(Max))", "prediction": ["all x.(Max(x) -> (Shumpus(x) | Lorpus(x) | Imperator(x)))"]}
+{"id": "prontoqa_validation_428", "nl": "Jompuses are shumpuses.", "fol": "all x. (jompus(x) -> shumpus(x))", "prediction": ["all x.(Jompuse(x) -> Shumpus(x))"]}
+{"id": "prontoqa_validation_429", "nl": "Polly is a sterpus and a wumpus and a jompus.", "fol": "(sterpus(Polly) & wumpus(Polly) & jompus(Polly))", "prediction": ["all x.(Polly(x) -> (Sterpus(x) & Wumpus(x) & Jompus(x)))"]}
+{"id": "prontoqa_validation_430", "nl": "Polly is a tumpus or a lempus or a shumpus.", "fol": "(tumpus(Polly) | lempus(Polly) | shumpus(Polly))", "prediction": ["all x.(Polly(x) -> (Tumpus(x) | Lempus(x) | Humpus(x)))"]}
+{"id": "prontoqa_validation_431", "nl": "Every zumpus is a rompus and a shumpus and a yumpus.", "fol": "all x. (zumpus(x) -> (rompus(x) & shumpus(x) & yumpus(x)))", "prediction": ["all x.(Tompus(x) -> (Rompus(x) & Humpus(x) & Yumpus(x)))"]}
+{"id": "prontoqa_validation_432", "nl": "Rex is a zumpus.", "fol": "zumpus(Rex)", "prediction": ["Rex is a zumpus."]}
+{"id": "prontoqa_validation_433", "nl": "Rex is a rompus or a lempus or a grimpus.", "fol": "(rompus(Rex) | lempus(Rex) | grimpus(Rex))", "prediction": ["all x.(Rex(x) -> (Rompus(x) | Lempus(x) | Grimpus(x)))"]}
+{"id": "prontoqa_validation_434", "nl": "Everything that is a shumpus and a lempus and a yumpus is a tumpus and a brimpus and a zumpus.", "fol": "all x. ((shumpus(x) & lempus(x) & yumpus(x)) -> (tumpus(x) & brimpus(x) & zumpus(x)))", "prediction": ["all x.((Shumpus(x) & Lempus(x) & Yumpus(x)) -> (Tumpus(x) & Brimpus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_435", "nl": "Rex is a shumpus.", "fol": "shumpus(Rex)", "prediction": ["Rex is a shumpus."]}
+{"id": "prontoqa_validation_436", "nl": "Rex is a yumpus.", "fol": "yumpus(Rex)", "prediction": ["Rex is yumpus."]}
+{"id": "prontoqa_validation_437", "nl": "Rex is a brimpus.", "fol": "brimpus(Rex)", "prediction": ["Rex is a Brimpus."]}
+{"id": "prontoqa_validation_438", "nl": "Everything that is an impus and a wumpus and a yumpus is a zumpus, a numpus, and a tumpus.", "fol": "all x. ((impus(x) & wumpus(x) & yumpus(x)) -> (zumpus(x) & numpus(x) & tumpus(x)))", "prediction": ["all x.((Impossible(x) & Wumpus(x) & Yumpus(x)) -> (Tompus(x) | Numpus(x) | Tumpus(x)))"]}
+{"id": "prontoqa_validation_439", "nl": "Sam is an impus.", "fol": "impus(Sam)", "prediction": ["all x.(Sam(x) -> Is(x,y))"]}
+{"id": "prontoqa_validation_440", "nl": "Sam is a wumpus.", "fol": "wumpus(Sam)", "prediction": ["all x.(Wumpus(x) -> Sam(x))"]}
+{"id": "prontoqa_validation_441", "nl": "Sam is a yumpus.", "fol": "yumpus(Sam)", "prediction": ["all x.(Yumpus(x) -> Sam(x))"]}
+{"id": "prontoqa_validation_442", "nl": "Sam is a zumpus.", "fol": "zumpus(Sam)", "prediction": ["all x.(Sam(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_443", "nl": "Everything that is a shumpus and a yumpus and a tumpus is a lorpus.", "fol": "all x. ((shumpus(x) & yumpus(x) & tumpus(x)) -> lorpus(x))", "prediction": ["all x.((Shumpus(x) & Yumpus(x) & Tumpus(x)) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_444", "nl": "Each wumpus is not a lorpus.", "fol": "all x. (wumpus(x) -> -lorpus(x))", "prediction": ["all x.(Wumpus(x) -> -Lorpus(x))"]}
+{"id": "prontoqa_validation_445", "nl": "Sally is a dumpus and a numpus and a wumpus.", "fol": "(dumpus(Sally) & numpus(Sally) & wumpus(Sally))", "prediction": ["all x.(Sally(x) -> (Dumpus(x) & Numpus(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_446", "nl": "Sally is a yumpus.", "fol": "yumpus(Sally)", "prediction": ["Sally is yumpus."]}
+{"id": "prontoqa_validation_447", "nl": "Sally is a tumpus.", "fol": "tumpus(Sally)", "prediction": ["Sally is a tumpus."]}
+{"id": "prontoqa_validation_448", "nl": "Sally is not a shumpus.", "fol": "-shumpus(Sally)", "prediction": ["Sally is not a shumpus."]}
+{"id": "prontoqa_validation_449", "nl": "Everything that is a vumpus, a tumpus, or a dumpus is a yumpus and a zumpus and a lorpus.", "fol": "all x. ((vumpus(x) | tumpus(x) | dumpus(x)) -> (yumpus(x) & zumpus(x) & lorpus(x)))", "prediction": ["all x.((Vumpus(x) | Tumpus(x) | Dumpus(x)) -> (Yumpus(x) & Zumpus(x) & Lorpus(x)))"]}
+{"id": "prontoqa_validation_450", "nl": "Sam is a vumpus.", "fol": "vumpus(Sam)", "prediction": ["all x.(Sam(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_451", "nl": "Everything that is a lorpus and a brimpus and an impus is not a jompus.", "fol": "all x. ((lorpus(x) & brimpus(x) & impus(x)) -> -jompus(x))", "prediction": ["all x.((Lorpus(x) & Brimpus(x) & Imperator(x)) -> -Jompus(x))"]}
+{"id": "prontoqa_validation_452", "nl": "Grimpuses are jompuses, lempuses, and yumpuses.", "fol": "all x. (grimpus(x) -> (jompus(x) & lempus(x) & yumpus(x)))", "prediction": ["all x.(Grimpus(x) -> (Jompuse(x) | Lempuse(x) | Yumpus(x)))"]}
+{"id": "prontoqa_validation_453", "nl": "Wren is a lorpus.", "fol": "lorpus(Wren)", "prediction": ["all x.(Wren(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_454", "nl": "Every rompus is a gorpus and a dumpus and a lempus.", "fol": "all x. (rompus(x) -> (gorpus(x) & dumpus(x) & lempus(x)))", "prediction": ["all x.(Rompus(x) -> (Gorpus(x) & Dumpus(x) & Lempus(x)))"]}
+{"id": "prontoqa_validation_455", "nl": "Fae is a lempus, Fae is a yumpus, and Fae is not a gorpus.", "fol": "(lempus(Fae) & yumpus(Fae) & -gorpus(Fae))", "prediction": ["(all x.(Fae(x) -> Lempus(x)) & (Fae(x) -> Yumpus(x)) & (Fae(x) -> -Gorpus(x)))"]}
+{"id": "prontoqa_validation_456", "nl": "Everything that is a wumpus, a brimpus, or a tumpus is a lorpus.", "fol": "all x. ((wumpus(x) | brimpus(x) | tumpus(x)) -> lorpus(x))", "prediction": ["all x.((Wumpus(x) | Brimpus(x) | Tumpus(x)) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_457", "nl": "Rex is an impus, Rex is a lempus, and Rex is not a lorpus.", "fol": "(impus(Rex) & lempus(Rex) & -lorpus(Rex))", "prediction": ["(all x.(Rex(x) -> Issue(x)) & (Rex(x) -> Lempus(x)) & (Rex(x) -> -Lorpus(x)))"]}
+{"id": "prontoqa_validation_458", "nl": "Jompuses are dumpuses.", "fol": "all x. (jompus(x) -> dumpus(x))", "prediction": ["all x.(Jompuse(x) -> Dumpuse(x))"]}
+{"id": "prontoqa_validation_459", "nl": "Wren is a brimpus and Wren is not a dumpus and Wren is a lempus.", "fol": "(brimpus(Wren) & -dumpus(Wren) & lempus(Wren))", "prediction": ["(all x.(Wren(x) -> Brimpus(x)) & (-Dumpus(x) & Lempus(x)))"]}
+{"id": "prontoqa_validation_460", "nl": "Wren is a lorpus, Wren is not a jompus, or Wren is a brimpus.", "fol": "(lorpus(Wren) | -jompus(Wren) | brimpus(Wren))", "prediction": ["all x y.((Wren(x) & Lorpus(x)) | (-Jompus(y) | Brimpus(y))))"]}
+{"id": "prontoqa_validation_461", "nl": "Everything that is an impus and a dumpus and a lorpus is a rompus and a numpus and a jompus.", "fol": "all x. ((impus(x) & dumpus(x) & lorpus(x)) -> (rompus(x) & numpus(x) & jompus(x)))", "prediction": ["all x.((Impossible(x) & Dumpus(x) & Lorpus(x)) -> (Rompus(x) & Numpus(x) & Jompus(x)))"]}
+{"id": "prontoqa_validation_462", "nl": "Rex is an impus.", "fol": "impus(Rex)", "prediction": ["all x.(Rex(x) -> IsImpossible(x))"]}
+{"id": "prontoqa_validation_463", "nl": "Rex is a dumpus.", "fol": "dumpus(Rex)", "prediction": ["Rex is a Dumpus."]}
+{"id": "prontoqa_validation_464", "nl": "Rex is a lorpus.", "fol": "lorpus(Rex)", "prediction": ["Rex is a lorpus."]}
+{"id": "prontoqa_validation_465", "nl": "Rex is a numpus.", "fol": "numpus(Rex)", "prediction": ["all x.(Rex(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_466", "nl": "Everything that is a zumpus, a dumpus, and a tumpus is a jompus and a yumpus and a gorpus.", "fol": "all x. ((zumpus(x) & dumpus(x) & tumpus(x)) -> (jompus(x) & yumpus(x) & gorpus(x)))", "prediction": ["all x.((Tompus(x) | Dumpus(x) | Tumpus(x)) -> (Jompus(x) & Yumpus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_467", "nl": "Wren is a zumpus.", "fol": "zumpus(Wren)", "prediction": ["all x.(Wren(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_468", "nl": "Wren is a yumpus.", "fol": "yumpus(Wren)", "prediction": ["all x.(Wren(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_469", "nl": "Everything that is a jompus and a tumpus and a dumpus is a lempus, an impus, and a wumpus.", "fol": "all x. ((jompus(x) & tumpus(x) & dumpus(x)) -> (lempus(x) & impus(x) & wumpus(x)))", "prediction": ["all x.((Jompus(x) & Tumpus(x) & Dumpus(x)) -> (Lempus(x) & Imperempt(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_470", "nl": "Alex is a jompus.", "fol": "jompus(Alex)", "prediction": ["all x.(Alex(x) -> Jompus(x))"]}
+{"id": "prontoqa_validation_471", "nl": "Alex is a lempus.", "fol": "lempus(Alex)", "prediction": ["all x.(Alex(x) -> Lempus(x))"]}
+{"id": "prontoqa_validation_472", "nl": "Everything that is a brimpus or a tumpus or an impus is a vumpus and a yumpus and a dumpus.", "fol": "all x. ((brimpus(x) | tumpus(x) | impus(x)) -> (vumpus(x) & yumpus(x) & dumpus(x)))", "prediction": ["all x.((Brimpus(x) | Tumpus(x) | Imperator(x)) -> (Vumpus(x) & Yumpus(x) & Dumpus(x)))"]}
+{"id": "prontoqa_validation_473", "nl": "Dumpuses are numpuses.", "fol": "all x. (dumpus(x) -> numpus(x))", "prediction": ["all x.(Dumpuse(x) -> Numpuse(x))"]}
+{"id": "prontoqa_validation_474", "nl": "Polly is an impus and Polly is not a numpus and Polly is a yumpus.", "fol": "(impus(Polly) & -numpus(Polly) & yumpus(Polly))", "prediction": ["(all x.(Polly(x) -> Issue(x)) & (Polly(x) -> -Numpus(x)) & (Polly(x) -> Yumpus(x)))"]}
+{"id": "prontoqa_validation_475", "nl": "Polly is a jompus or Polly is a rompus or Polly is not a dumpus.", "fol": "(jompus(Polly) | rompus(Polly) | -dumpus(Polly))", "prediction": ["all x.((Polly(x) & (Jompus(x) | Rompus(x) | -Dumpus(x))) -> Polly(x))"]}
+{"id": "prontoqa_validation_476", "nl": "Sam is not an impus, Sam is a brimpus, and Sam is a shumpus.", "fol": "(-impus(Sam) & brimpus(Sam) & shumpus(Sam))", "prediction": ["(all x.(Sam(x) -> -Impossible(x)) & (Brimpus(x) | Humpus(x))))"]}
+{"id": "prontoqa_validation_477", "nl": "Sam is not a tumpus or Sam is a wumpus or Sam is a grimpus.", "fol": "(-tumpus(Sam) | wumpus(Sam) | grimpus(Sam))", "prediction": ["all x.((Sam(x) & -Tumpus(x)) | (Wumpus(x) | Grimpus(x))))"]}
+{"id": "prontoqa_validation_478", "nl": "Everything that is a lorpus, a jompus, or a yumpus is a zumpus.", "fol": "all x. ((lorpus(x) | jompus(x) | yumpus(x)) -> zumpus(x))", "prediction": ["all x.((Lorpus(x) | Jompus(x) | Yumpus(x)) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_479", "nl": "Sally is a dumpus and a yumpus and a grimpus.", "fol": "(dumpus(Sally) & yumpus(Sally) & grimpus(Sally))", "prediction": ["(Dumpus(Sally) & Yumpus(Sally) & Grimpus(Sally))"]}
+{"id": "prontoqa_validation_480", "nl": "Sally is a zumpus.", "fol": "zumpus(Sally)", "prediction": ["Sally is zumpus."]}
+{"id": "prontoqa_validation_481", "nl": "Yumpuses are numpuses.", "fol": "all x. (yumpus(x) -> numpus(x))", "prediction": ["all x.(Yumpus(x) -> Numpus(x))"]}
+{"id": "prontoqa_validation_482", "nl": "Alex is a lempus and a yumpus and a lorpus.", "fol": "(lempus(Alex) & yumpus(Alex) & lorpus(Alex))", "prediction": ["all x.(Alex(x) -> (Lempus(x) & Yumpus(x) & Lorpus(x)))"]}
+{"id": "prontoqa_validation_483", "nl": "Alex is a yumpus, a numpus, or an impus.", "fol": "(yumpus(Alex) | numpus(Alex) | impus(Alex))", "prediction": ["all x.(Alex(x) -> (Yumpus(x) | Numpus(x) | Imperator(x)))"]}
+{"id": "prontoqa_validation_484", "nl": "Everything that is a lorpus, a grimpus, or a yumpus is a lempus and a rompus and a wumpus.", "fol": "all x. ((lorpus(x) | grimpus(x) | yumpus(x)) -> (lempus(x) & rompus(x) & wumpus(x)))", "prediction": ["all x.((Lorpus(x) | Grimpus(x) | Yumpus(x)) -> (Lempus(x) & Rompus(x) & Wumpus(x)))"]}
+{"id": "prontoqa_validation_485", "nl": "Polly is a grimpus.", "fol": "grimpus(Polly)", "prediction": ["Polly is a Grimpus."]}
+{"id": "prontoqa_validation_486", "nl": "Dumpuses are lorpuses.", "fol": "all x. (dumpus(x) -> lorpus(x))", "prediction": ["all x.(Dumpuse(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_487", "nl": "Rex is a shumpus and a vumpus and a dumpus.", "fol": "(shumpus(Rex) & vumpus(Rex) & dumpus(Rex))", "prediction": ["(all x.(Rex(x) -> Humpus(x)) & (Vumpus(x) & Dumpus(x)))"]}
+{"id": "prontoqa_validation_488", "nl": "Rex is a yumpus, a tumpus, or a lorpus.", "fol": "(yumpus(Rex) | tumpus(Rex) | lorpus(Rex))", "prediction": ["all x.(Rex(x) -> (Yumpus(x) | Tumpus(x) | Lorpus(x)))"]}
+{"id": "prontoqa_validation_489", "nl": "Everything that is a wumpus or a grimpus or a brimpus is a vumpus, an impus, and a sterpus.", "fol": "all x. ((wumpus(x) | grimpus(x) | brimpus(x)) -> (vumpus(x) & impus(x) & sterpus(x)))", "prediction": ["all x.((Wumpus(x) | Grimpus(x) | Brimpus(x)) -> (Vumpus(x) & Impossible(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_490", "nl": "Rex is a wumpus.", "fol": "wumpus(Rex)", "prediction": ["Rex is a wumpus."]}
+{"id": "prontoqa_validation_491", "nl": "Rex is a vumpus.", "fol": "vumpus(Rex)", "prediction": ["Rex is a Vumpus."]}
+{"id": "prontoqa_validation_492", "nl": "Grimpuses are yumpuses, rompuses, and lorpuses.", "fol": "all x. (grimpus(x) -> (yumpus(x) & rompus(x) & lorpus(x)))", "prediction": ["all x.(Grimpus(x) -> (Yumpus(x) | Rompus(x) | Lorpus(x)))"]}
+{"id": "prontoqa_validation_493", "nl": "Numpuses are not yumpuses.", "fol": "all x. (numpus(x) -> -yumpus(x))", "prediction": ["all x.(Numpus(x) -> -Yumpus(x))"]}
+{"id": "prontoqa_validation_494", "nl": "Alex is a numpus and a rompus and a sterpus.", "fol": "(numpus(Alex) & rompus(Alex) & sterpus(Alex))", "prediction": ["all x.(Alex(x) -> (Numpus(x) & Rompus(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_495", "nl": "Alex is not a grimpus.", "fol": "-grimpus(Alex)", "prediction": ["all x.(Alex(x) -> -Grimpus(x))"]}
+{"id": "prontoqa_validation_496", "nl": "Everything that is a dumpus or a wumpus or a numpus is a jompus, a tumpus, and a zumpus.", "fol": "all x. ((dumpus(x) | wumpus(x) | numpus(x)) -> (jompus(x) & tumpus(x) & zumpus(x)))", "prediction": ["all x.((Dumpus(x) | Wumpus(x) | Numpus(x)) -> (Jompus(x) & Tumpus(x) & Zumpus(x)))"]}
+{"id": "prontoqa_validation_497", "nl": "Alex is a zumpus.", "fol": "zumpus(Alex)", "prediction": ["all x.(Alex(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_498", "nl": "Everything that is a grimpus, a zumpus, and a numpus is a wumpus.", "fol": "all x. ((grimpus(x) & zumpus(x) & numpus(x)) -> wumpus(x))", "prediction": ["all x.((Smokey(x) | Zumpus(x) | Numpus(x)) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_499", "nl": "Stella is a grimpus.", "fol": "grimpus(Stella)", "prediction": ["Stella is a Grimpus."]}
+{"id": "prontoqa_validation_500", "nl": "Stella is a wumpus or a jompus or a rompus.", "fol": "(wumpus(Stella) | jompus(Stella) | rompus(Stella))", "prediction": ["all x.(Stella(x) -> (Wumpus(x) | Jompus(x) | Rompus(x)))"]}
+{"id": "prontoqa_validation_501", "nl": "Everything that is a brimpus and a lempus and a shumpus is a wumpus, a vumpus, and a grimpus.", "fol": "all x. ((brimpus(x) & lempus(x) & shumpus(x)) -> (wumpus(x) & vumpus(x) & grimpus(x)))", "prediction": ["all x.((Brimpus(x) & Lempus(x) & Humpus(x)) -> (Wumpus(x) & Vumpus(x) & Grimpus(x)))"]}
+{"id": "prontoqa_validation_502", "nl": "Fae is a lempus.", "fol": "lempus(Fae)", "prediction": ["all x.(Fae(x) -> Lempus(x))"]}
+{"id": "prontoqa_validation_503", "nl": "Each gorpus is not a rompus.", "fol": "all x. (gorpus(x) -> -rompus(x))", "prediction": ["all x.(Gorpus(x) -> -Rompus(x))"]}
+{"id": "prontoqa_validation_504", "nl": "Every yumpus is a vumpus.", "fol": "all x. (yumpus(x) -> vumpus(x))", "prediction": ["all x.(Yumpus(x) -> Vumpus(x))"]}
+{"id": "prontoqa_validation_505", "nl": "Sam is a gorpus and a wumpus and a brimpus.", "fol": "(gorpus(Sam) & wumpus(Sam) & brimpus(Sam))", "prediction": ["all x.(Sam(x) -> (Gorpus(x) & Wumpus(x) & Brimpus(x)))"]}
+{"id": "prontoqa_validation_506", "nl": "Everything that is a rompus, a grimpus, and a lorpus is an impus and a sterpus and a dumpus.", "fol": "all x. ((rompus(x) & grimpus(x) & lorpus(x)) -> (impus(x) & sterpus(x) & dumpus(x)))", "prediction": ["all x.((Rompus(x) | Grimpus(x) | Lorpus(x)) -> (Impossible(x) & Sterpus(x) & Dumpus(x)))"]}
+{"id": "prontoqa_validation_507", "nl": "Polly is a sterpus.", "fol": "sterpus(Polly)", "prediction": ["all x.(Polly(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_508", "nl": "Each grimpus is a shumpus.", "fol": "all x. (grimpus(x) -> shumpus(x))", "prediction": ["all x.(Grimpus(x) -> Shumpus(x))"]}
+{"id": "prontoqa_validation_509", "nl": "Impuses are sterpuses, yumpuses, and lorpuses.", "fol": "all x. (impus(x) -> (sterpus(x) & yumpus(x) & lorpus(x)))", "prediction": ["all x.(Impuse(x) -> (Sterpuse(x) | Yumpe(x) | Lorpuse(x)))"]}
+{"id": "prontoqa_validation_510", "nl": "Shumpuses are not sterpuses.", "fol": "all x. (shumpus(x) -> -sterpus(x))", "prediction": ["all x.(Shumpus(x) -> -Sterpuse(x))"]}
+{"id": "prontoqa_validation_511", "nl": "Every wumpus is a sterpus.", "fol": "all x. (wumpus(x) -> sterpus(x))", "prediction": ["all x.(Wumpus(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_512", "nl": "Every tumpus is a wumpus.", "fol": "all x. (tumpus(x) -> wumpus(x))", "prediction": ["all x.(Tumpus(x) -> Wumpus(x))"]}
+{"id": "prontoqa_validation_513", "nl": "Sam is a shumpus, Sam is not a sterpus, and Sam is an impus.", "fol": "(shumpus(Sam) & -sterpus(Sam) & impus(Sam))", "prediction": ["(all x.(Shumpus(x) -> Sam(x)) & (-Sterpus(x) -> Sam(x)) & (Impossible(x) -> Sam(x)))"]}
+{"id": "prontoqa_validation_514", "nl": "Zumpuses are gorpuses, yumpuses, and brimpuses.", "fol": "all x. (zumpus(x) -> (gorpus(x) & yumpus(x) & brimpus(x)))", "prediction": ["all x.(Zumpus(x) -> (Gorpus(x) | Yumpus(x) | Brimpuse(x)))"]}
+{"id": "prontoqa_validation_515", "nl": "Wren is a yumpus, an impus, or a brimpus.", "fol": "(yumpus(Wren) | impus(Wren) | brimpus(Wren))", "prediction": ["all x.(Wren(x) -> (Yumpus(x) | Imperative(x) | Brimpus(x)))"]}
+{"id": "prontoqa_validation_516", "nl": "Every impus is a lempus and a rompus and a gorpus.", "fol": "all x. (impus(x) -> (lempus(x) & rompus(x) & gorpus(x)))", "prediction": ["all x.(Impossible(x) -> (Lempus(x) & Rompus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_517", "nl": "Sally is a yumpus and Sally is a sterpus and Sally is not a lempus.", "fol": "(yumpus(Sally) & sterpus(Sally) & -lempus(Sally))", "prediction": ["(all x.(Sally(x) -> Yumpus(x)) & (Sally(x) -> Sterpus(x)) & (Sally(x) -> -Lempus(x)))"]}
+{"id": "prontoqa_validation_518", "nl": "Sally is not an impus.", "fol": "-impus(Sally)", "prediction": ["Sally -Impossible(Sally)"]}
+{"id": "prontoqa_validation_519", "nl": "Each sterpus is a dumpus and a tumpus and a lempus.", "fol": "all x. (sterpus(x) -> (dumpus(x) & tumpus(x) & lempus(x)))", "prediction": ["all x.(Sterpus(x) -> (Dumps(x) & Tumpus(x) & Lempus(x)))"]}
+{"id": "prontoqa_validation_520", "nl": "Sally is a sterpus.", "fol": "sterpus(Sally)", "prediction": ["Sally is a Sterpus."]}
+{"id": "prontoqa_validation_521", "nl": "Sally is an impus, a dumpus, or a brimpus.", "fol": "(impus(Sally) | dumpus(Sally) | brimpus(Sally))", "prediction": ["all x.(Sally(x) -> (Impossible(x) | Dumpus(x) | Brimpus(x)))"]}
+{"id": "prontoqa_validation_522", "nl": "Everything that is a dumpus, a sterpus, or a brimpus is a lempus.", "fol": "all x. ((dumpus(x) | sterpus(x) | brimpus(x)) -> lempus(x))", "prediction": ["all x.((Dumpus(x) | Sterpus(x) | Brimpus(x)) -> Lempus(x))"]}
+{"id": "prontoqa_validation_523", "nl": "Sam is a lempus, a wumpus, and a brimpus.", "fol": "(lempus(Sam) & wumpus(Sam) & brimpus(Sam))", "prediction": ["all x.(Sam(x) -> (Lempus(x) | Wumpus(x) | Brimpus(x)))"]}
+{"id": "prontoqa_validation_524", "nl": "Everything that is a zumpus, a vumpus, and a lorpus is a numpus, a grimpus, and a gorpus.", "fol": "all x. ((zumpus(x) & vumpus(x) & lorpus(x)) -> (numpus(x) & grimpus(x) & gorpus(x)))", "prediction": ["all x.((Tompus(x) | Vumpus(x) | Lorpus(x)) -> (Numpus(x) & Grimpus(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_525", "nl": "Stella is a vumpus.", "fol": "vumpus(Stella)", "prediction": ["Stella is a Vumpus."]}
+{"id": "prontoqa_validation_526", "nl": "Stella is a lorpus.", "fol": "lorpus(Stella)", "prediction": ["Stella is a lorpus."]}
+{"id": "prontoqa_validation_527", "nl": "Everything that is a zumpus and a shumpus and a sterpus is a jompus and a gorpus and a lorpus.", "fol": "all x. ((zumpus(x) & shumpus(x) & sterpus(x)) -> (jompus(x) & gorpus(x) & lorpus(x)))", "prediction": ["all x.((Tompus(x) & Humpus(x) & Sterpus(x)) -> (Jompus(x) & Gorpus(x) & Lorpus(x)))"]}
+{"id": "prontoqa_validation_528", "nl": "Sam is a sterpus.", "fol": "sterpus(Sam)", "prediction": ["all x.(Sam(x) -> Sterpus(x))"]}
+{"id": "prontoqa_validation_529", "nl": "Sam is a jompus.", "fol": "jompus(Sam)", "prediction": ["all x.(Jompus(x) -> Sam(x))"]}
+{"id": "prontoqa_validation_530", "nl": "Everything that is a zumpus, a yumpus, and a jompus is an impus and a lorpus and a numpus.", "fol": "all x. ((zumpus(x) & yumpus(x) & jompus(x)) -> (impus(x) & lorpus(x) & numpus(x)))", "prediction": ["all x.((Tompus(x) | Yumpus(x) | Jompus(x)) -> (Impos(x) & -Lorpus(x) & -Numpus(x)))"]}
+{"id": "prontoqa_validation_531", "nl": "Max is a lorpus.", "fol": "lorpus(Max)", "prediction": ["all x.(Max(x) -> Lorpus(x))"]}
+{"id": "prontoqa_validation_532", "nl": "Every brimpus is a tumpus and an impus and a gorpus.", "fol": "all x. (brimpus(x) -> (tumpus(x) & impus(x) & gorpus(x)))", "prediction": ["all x.(Brimpus(x) -> (Tumpus(x) & Issue(x) & Gorpus(x)))"]}
+{"id": "prontoqa_validation_533", "nl": "Wren is a lorpus, an impus, or a yumpus.", "fol": "(lorpus(Wren) | impus(Wren) | yumpus(Wren))", "prediction": ["all x.(Wren(x) -> (Lorpus(x) | Imperator(x) | Yumpus(x)))"]}
+{"id": "prontoqa_validation_534", "nl": "Numpuses are sterpuses, gorpuses, and vumpuses.", "fol": "all x. (numpus(x) -> (sterpus(x) & gorpus(x) & vumpus(x)))", "prediction": ["all x.(Numpuse(x) -> (Sterpuse(x) | Gorpuse(x) | Vampuse(x)))"]}
+{"id": "prontoqa_validation_535", "nl": "Sally is an impus, Sally is a jompus, and Sally is not a vumpus.", "fol": "(impus(Sally) & jompus(Sally) & -vumpus(Sally))", "prediction": ["(all x.(Sally(x) -> Is(x)) & (Jompus(x) & -Vumpus(x)))"]}
+{"id": "prontoqa_validation_536", "nl": "Sally is not a numpus.", "fol": "-numpus(Sally)", "prediction": ["Sally is not a Numpus."]}
+{"id": "prontoqa_validation_537", "nl": "Everything that is a vumpus, a rompus, or a yumpus is a lempus, a zumpus, and a gorpus.", "fol": "all x. ((vumpus(x) | rompus(x) | yumpus(x)) -> (lempus(x) & zumpus(x) & gorpus(x)))", "prediction": ["all x.((Vumpus(x) | Rompus(x) | Yumpus(x)) -> (Lempus(x) | Zumpus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_538", "nl": "Sally is a lempus.", "fol": "lempus(Sally)", "prediction": ["Sally is a lempus."]}
+{"id": "prontoqa_validation_539", "nl": "Everything that is a grimpus or a jompus or a lempus is a tumpus, an impus, and a rompus.", "fol": "all x. ((grimpus(x) | jompus(x) | lempus(x)) -> (tumpus(x) & impus(x) & rompus(x)))", "prediction": ["all x.((Smopus(x) | Jompus(x) | Lempus(x)) -> (Tumpus(x) & Imperator(x) & Rompus(x)))"]}
+{"id": "prontoqa_validation_540", "nl": "Each dumpus is a tumpus.", "fol": "all x. (dumpus(x) -> tumpus(x))", "prediction": ["all x.(Dumpus(x) -> Tumpus(x))"]}
+{"id": "prontoqa_validation_541", "nl": "Stella is a wumpus, Stella is not a tumpus, and Stella is a rompus.", "fol": "(wumpus(Stella) & -tumpus(Stella) & rompus(Stella))", "prediction": ["(all x.(Wumpus(x) -> Stella(x)) & (-Tumpus(x) -> Stella(x)) & (Rompus(x) -> Stella(x)))"]}
+{"id": "prontoqa_validation_542", "nl": "Stella is a yumpus, Stella is not a dumpus, or Stella is a brimpus.", "fol": "(yumpus(Stella) | -dumpus(Stella) | brimpus(Stella))", "prediction": ["(all x.(Stella(x) -> Yumpus(x)) | (-Stella(x) & Dumpus(x))) | (-Stella(x) & Brimpus(x))))"]}
+{"id": "prontoqa_validation_543", "nl": "Every shumpus is a zumpus.", "fol": "all x. (shumpus(x) -> zumpus(x))", "prediction": ["all x.(Shumpus(x) -> Zumpus(x))"]}
+{"id": "prontoqa_validation_544", "nl": "Sterpuses are vumpuses.", "fol": "all x. (sterpus(x) -> vumpus(x))", "prediction": ["all x.(Sterpus(x) -> Vampuse(x))"]}
+{"id": "prontoqa_validation_545", "nl": "Every lorpus is a brimpus.", "fol": "all x. (lorpus(x) -> brimpus(x))", "prediction": ["all x.(Lorpus(x) -> Brimpus(x))"]}
+{"id": "prontoqa_validation_546", "nl": "Each grimpus is not a zumpus.", "fol": "all x. (grimpus(x) -> -zumpus(x))", "prediction": ["all x.(Grimpus(x) -> -Zumpus(x))"]}
+{"id": "prontoqa_validation_547", "nl": "Polly is a gorpus and Polly is a jompus and Polly is not a brimpus.", "fol": "(gorpus(Polly) & jompus(Polly) & -brimpus(Polly))", "prediction": ["(all x.(Polly(x) -> Gorpus(x)) & (Polly(x) -> Jompus(x)) & (Polly(x) -> -Brimpus(x)))"]}
+{"id": "prontoqa_validation_548", "nl": "Polly is a rompus and a wumpus and a sterpus.", "fol": "(rompus(Polly) & wumpus(Polly) & sterpus(Polly))", "prediction": ["all x.(Polly(x) -> (Rompus(x) & Wumpus(x) & Sterpus(x)))"]}
+{"id": "prontoqa_validation_549", "nl": "Polly is not a shumpus, Polly is not a lorpus, and Polly is a vumpus.", "fol": "(-shumpus(Polly) & -lorpus(Polly) & vumpus(Polly))", "prediction": ["(all x.(Polly(x) -> -Shumpus(x)) & (Polly(x) -> -Lorpus(x)) & (Polly(x) -> Vumpus(x)))"]}
+{"id": "prontoqa_validation_550", "nl": "Every jompus is a yumpus.", "fol": "all x. (jompus(x) -> yumpus(x))", "prediction": ["all x.(Jompus(x) -> Yumpus(x))"]}
+{"id": "prontoqa_validation_551", "nl": "Polly is not a yumpus, Polly is a lempus, and Polly is a zumpus.", "fol": "(-yumpus(Polly) & lempus(Polly) & zumpus(Polly))", "prediction": ["(all x.(Polly(x) -> -Yumpus(x)) & (Polly(x) -> Lempus(x)) & (Polly(x) -> Zumpus(x)))"]}
+{"id": "prontoqa_validation_552", "nl": "Polly is a dumpus or Polly is a lorpus or Polly is not a jompus.", "fol": "(dumpus(Polly) | lorpus(Polly) | -jompus(Polly))", "prediction": ["all x.((Polly(x) & (Dumpus(x) | Lorpus(x) | -Jompus(x))) -> Polly(x))"]}
+{"id": "prontoqa_validation_553", "nl": "Everything that is a shumpus and a yumpus and a numpus is a dumpus.", "fol": "all x. ((shumpus(x) & yumpus(x) & numpus(x)) -> dumpus(x))", "prediction": ["all x.((Shumpus(x) & Yumpus(x) & Numpus(x)) -> Dumpus(x))"]}
+{"id": "prontoqa_validation_554", "nl": "Stella is a shumpus.", "fol": "shumpus(Stella)", "prediction": ["Stella is a shumpus."]}
+{"id": "prontoqa_validation_555", "nl": "Stella is a yumpus.", "fol": "yumpus(Stella)", "prediction": ["Stella is yumpus."]}
+{"id": "prontoqa_validation_556", "nl": "Stella is a grimpus or a dumpus or a gorpus.", "fol": "(grimpus(Stella) | dumpus(Stella) | gorpus(Stella))", "prediction": ["all x.(Stella(x) -> (Grimpus(x) | Dumpus(x) | Gorpus(x)))"]}
+{"id": "prontoqa_validation_557", "nl": "Everything that is a yumpus, a lempus, and a sterpus is a gorpus.", "fol": "all x. ((yumpus(x) & lempus(x) & sterpus(x)) -> gorpus(x))", "prediction": ["all x.((Yumpus(x) | Lempus(x) | Sterpus(x)) -> Gorpus(x))"]}
+{"id": "prontoqa_validation_558", "nl": "Max is a shumpus, Max is not a gorpus, and Max is a vumpus.", "fol": "(shumpus(Max) & -gorpus(Max) & vumpus(Max))", "prediction": ["(all x.(Max(x) -> Humpus(x)) & (-Max(x) -> Gorpus(x)) & (Max(x) -> Vumpus(x)))"]}
+{"id": "prontoqa_validation_559", "nl": "Each wumpus is a grimpus, a gorpus, and a sterpus.", "fol": "all x. (wumpus(x) -> (grimpus(x) & gorpus(x) & sterpus(x)))", "prediction": ["all x.(Wumpus(x) -> (Grimpus(x) | Gorpus(x) | Sterpus(x)))"]}
+{"id": "prontoqa_validation_560", "nl": "Max is a lempus, an impus, or a sterpus.", "fol": "(lempus(Max) | impus(Max) | sterpus(Max))", "prediction": ["all x.(Max(x) -> (Lempus(x) | Impossible(x) | Sterpus(x)))"]}
+{"id": "prontoqa_validation_561", "nl": "Everything that is a tumpus or a gorpus or a lorpus is a rompus, a zumpus, and a lempus.", "fol": "all x. ((tumpus(x) | gorpus(x) | lorpus(x)) -> (rompus(x) & zumpus(x) & lempus(x)))", "prediction": ["all x.((Tumpus(x) | Gorpus(x) | Lorpus(x)) -> (Rompus(x) & Zumpus(x) & Lempus(x)))"]}
+{"id": "prontoqa_validation_562", "nl": "Everything that is a jompus and a rompus and a tumpus is a brimpus, a gorpus, and an impus.", "fol": "all x. ((jompus(x) & rompus(x) & tumpus(x)) -> (brimpus(x) & gorpus(x) & impus(x)))", "prediction": ["all x.((Jompus(x) & Rompus(x) & Tumpus(x)) -> (Brimpus(x) & Gorpus(x) & Imperator(x)))"]}
+{"id": "prontoqa_validation_563", "nl": "Alex is a rompus.", "fol": "rompus(Alex)", "prediction": ["all x.(Alex(x) -> Rompus(x))"]}
+{"id": "prontoqa_validation_564", "nl": "Everything that is a zumpus and a tumpus and a wumpus is a shumpus, a rompus, and a dumpus.", "fol": "all x. ((zumpus(x) & tumpus(x) & wumpus(x)) -> (shumpus(x) & rompus(x) & dumpus(x)))", "prediction": ["all x.((Tompus(x) & Tumpus(x) & Wumpus(x)) -> (Shumpus(x) & Rompus(x) & Dumpus(x)))"]}

@@ -1,0 +1,200 @@
+{"premises": ["prontoqa_validation_0", "prontoqa_validation_1"], "conclusion": "prontoqa_validation_2", "label": "entailment"}
+{"premises": ["prontoqa_validation_3", "prontoqa_validation_4"], "conclusion": "prontoqa_validation_5", "label": "entailment"}
+{"premises": ["prontoqa_validation_6", "prontoqa_validation_7"], "conclusion": "prontoqa_validation_8", "label": "entailment"}
+{"premises": ["prontoqa_validation_9", "prontoqa_validation_10"], "conclusion": "prontoqa_validation_11", "label": "entailment"}
+{"premises": ["prontoqa_validation_12", "prontoqa_validation_13"], "conclusion": "prontoqa_validation_11", "label": "entailment"}
+{"premises": ["prontoqa_validation_14", "prontoqa_validation_15"], "conclusion": "prontoqa_validation_16", "label": "entailment"}
+{"premises": ["prontoqa_validation_17", "prontoqa_validation_18"], "conclusion": "prontoqa_validation_19", "label": "entailment"}
+{"premises": ["prontoqa_validation_20", "prontoqa_validation_21"], "conclusion": "prontoqa_validation_22", "label": "entailment"}
+{"premises": ["prontoqa_validation_23", "prontoqa_validation_24"], "conclusion": "prontoqa_validation_25", "label": "entailment"}
+{"premises": ["prontoqa_validation_26", "prontoqa_validation_27"], "conclusion": "prontoqa_validation_28", "label": "entailment"}
+{"premises": ["prontoqa_validation_6", "prontoqa_validation_29"], "conclusion": "prontoqa_validation_30", "label": "entailment"}
+{"premises": ["prontoqa_validation_31", "prontoqa_validation_32"], "conclusion": "prontoqa_validation_33", "label": "entailment"}
+{"premises": ["prontoqa_validation_34", "prontoqa_validation_35"], "conclusion": "prontoqa_validation_36", "label": "entailment"}
+{"premises": ["prontoqa_validation_37", "prontoqa_validation_38"], "conclusion": "prontoqa_validation_39", "label": "entailment"}
+{"premises": ["prontoqa_validation_40", "prontoqa_validation_41"], "conclusion": "prontoqa_validation_42", "label": "entailment"}
+{"premises": ["prontoqa_validation_43", "prontoqa_validation_44"], "conclusion": "prontoqa_validation_45", "label": "entailment"}
+{"premises": ["prontoqa_validation_46", "prontoqa_validation_47"], "conclusion": "prontoqa_validation_19", "label": "entailment"}
+{"premises": ["prontoqa_validation_48", "prontoqa_validation_49"], "conclusion": "prontoqa_validation_50", "label": "entailment"}
+{"premises": ["prontoqa_validation_51", "prontoqa_validation_52"], "conclusion": "prontoqa_validation_53", "label": "entailment"}
+{"premises": ["prontoqa_validation_54", "prontoqa_validation_55"], "conclusion": "prontoqa_validation_56", "label": "entailment"}
+{"premises": ["prontoqa_validation_57", "prontoqa_validation_58"], "conclusion": "prontoqa_validation_59", "label": "entailment"}
+{"premises": ["prontoqa_validation_60", "prontoqa_validation_61"], "conclusion": "prontoqa_validation_62", "label": "entailment"}
+{"premises": ["prontoqa_validation_63", "prontoqa_validation_64"], "conclusion": "prontoqa_validation_65", "label": "entailment"}
+{"premises": ["prontoqa_validation_66", "prontoqa_validation_67"], "conclusion": "prontoqa_validation_68", "label": "entailment"}
+{"premises": ["prontoqa_validation_69", "prontoqa_validation_70"], "conclusion": "prontoqa_validation_36", "label": "entailment"}
+{"premises": ["prontoqa_validation_71", "prontoqa_validation_72"], "conclusion": "prontoqa_validation_73", "label": "entailment"}
+{"premises": ["prontoqa_validation_74", "prontoqa_validation_75"], "conclusion": "prontoqa_validation_76", "label": "entailment"}
+{"premises": ["prontoqa_validation_77", "prontoqa_validation_78"], "conclusion": "prontoqa_validation_28", "label": "entailment"}
+{"premises": ["prontoqa_validation_79", "prontoqa_validation_80"], "conclusion": "prontoqa_validation_81", "label": "entailment"}
+{"premises": ["prontoqa_validation_82", "prontoqa_validation_83"], "conclusion": "prontoqa_validation_84", "label": "entailment"}
+{"premises": ["prontoqa_validation_85", "prontoqa_validation_86"], "conclusion": "prontoqa_validation_87", "label": "entailment"}
+{"premises": ["prontoqa_validation_88", "prontoqa_validation_89"], "conclusion": "prontoqa_validation_90", "label": "entailment"}
+{"premises": ["prontoqa_validation_91", "prontoqa_validation_92"], "conclusion": "prontoqa_validation_93", "label": "entailment"}
+{"premises": ["prontoqa_validation_94", "prontoqa_validation_95"], "conclusion": "prontoqa_validation_50", "label": "entailment"}
+{"premises": ["prontoqa_validation_96", "prontoqa_validation_97"], "conclusion": "prontoqa_validation_98", "label": "entailment"}
+{"premises": ["prontoqa_validation_99", "prontoqa_validation_100"], "conclusion": "prontoqa_validation_101", "label": "entailment"}
+{"premises": ["prontoqa_validation_102", "prontoqa_validation_103"], "conclusion": "prontoqa_validation_104", "label": "entailment"}
+{"premises": ["prontoqa_validation_105", "prontoqa_validation_106"], "conclusion": "prontoqa_validation_98", "label": "entailment"}
+{"premises": ["prontoqa_validation_107", "prontoqa_validation_108"], "conclusion": "prontoqa_validation_42", "label": "entailment"}
+{"premises": ["prontoqa_validation_109", "prontoqa_validation_110"], "conclusion": "prontoqa_validation_68", "label": "entailment"}
+{"premises": ["prontoqa_validation_111", "prontoqa_validation_112"], "conclusion": "prontoqa_validation_59", "label": "entailment"}
+{"premises": ["prontoqa_validation_113", "prontoqa_validation_114"], "conclusion": "prontoqa_validation_115", "label": "entailment"}
+{"premises": ["prontoqa_validation_116", "prontoqa_validation_117"], "conclusion": "prontoqa_validation_118", "label": "entailment"}
+{"premises": ["prontoqa_validation_119", "prontoqa_validation_120"], "conclusion": "prontoqa_validation_121", "label": "entailment"}
+{"premises": ["prontoqa_validation_122", "prontoqa_validation_123"], "conclusion": "prontoqa_validation_124", "label": "entailment"}
+{"premises": ["prontoqa_validation_125", "prontoqa_validation_126"], "conclusion": "prontoqa_validation_104", "label": "entailment"}
+{"premises": ["prontoqa_validation_127", "prontoqa_validation_128"], "conclusion": "prontoqa_validation_129", "label": "entailment"}
+{"premises": ["prontoqa_validation_130", "prontoqa_validation_131"], "conclusion": "prontoqa_validation_132", "label": "entailment"}
+{"premises": ["prontoqa_validation_133", "prontoqa_validation_134"], "conclusion": "prontoqa_validation_50", "label": "entailment"}
+{"premises": ["prontoqa_validation_135", "prontoqa_validation_136"], "conclusion": "prontoqa_validation_137", "label": "entailment"}
+{"premises": ["prontoqa_validation_138", "prontoqa_validation_139"], "conclusion": "prontoqa_validation_140", "label": "entailment"}
+{"premises": ["prontoqa_validation_141", "prontoqa_validation_142"], "conclusion": "prontoqa_validation_143", "label": "entailment"}
+{"premises": ["prontoqa_validation_144", "prontoqa_validation_145"], "conclusion": "prontoqa_validation_146", "label": "entailment"}
+{"premises": ["prontoqa_validation_147", "prontoqa_validation_148"], "conclusion": "prontoqa_validation_149", "label": "entailment"}
+{"premises": ["prontoqa_validation_150", "prontoqa_validation_151"], "conclusion": "prontoqa_validation_152", "label": "entailment"}
+{"premises": ["prontoqa_validation_153", "prontoqa_validation_154"], "conclusion": "prontoqa_validation_155", "label": "entailment"}
+{"premises": ["prontoqa_validation_156", "prontoqa_validation_157"], "conclusion": "prontoqa_validation_158", "label": "entailment"}
+{"premises": ["prontoqa_validation_71", "prontoqa_validation_159"], "conclusion": "prontoqa_validation_160", "label": "entailment"}
+{"premises": ["prontoqa_validation_161", "prontoqa_validation_162"], "conclusion": "prontoqa_validation_163", "label": "entailment"}
+{"premises": ["prontoqa_validation_164", "prontoqa_validation_165"], "conclusion": "prontoqa_validation_8", "label": "entailment"}
+{"premises": ["prontoqa_validation_166", "prontoqa_validation_167"], "conclusion": "prontoqa_validation_19", "label": "entailment"}
+{"premises": ["prontoqa_validation_168", "prontoqa_validation_169"], "conclusion": "prontoqa_validation_170", "label": "entailment"}
+{"premises": ["prontoqa_validation_171", "prontoqa_validation_172"], "conclusion": "prontoqa_validation_173", "label": "entailment"}
+{"premises": ["prontoqa_validation_174", "prontoqa_validation_175"], "conclusion": "prontoqa_validation_158", "label": "entailment"}
+{"premises": ["prontoqa_validation_176", "prontoqa_validation_177"], "conclusion": "prontoqa_validation_178", "label": "entailment"}
+{"premises": ["prontoqa_validation_179", "prontoqa_validation_180"], "conclusion": "prontoqa_validation_181", "label": "entailment"}
+{"premises": ["prontoqa_validation_182", "prontoqa_validation_183"], "conclusion": "prontoqa_validation_30", "label": "entailment"}
+{"premises": ["prontoqa_validation_184", "prontoqa_validation_185"], "conclusion": "prontoqa_validation_149", "label": "entailment"}
+{"premises": ["prontoqa_validation_186", "prontoqa_validation_187"], "conclusion": "prontoqa_validation_188", "label": "entailment"}
+{"premises": ["prontoqa_validation_189", "prontoqa_validation_190"], "conclusion": "prontoqa_validation_53", "label": "entailment"}
+{"premises": ["prontoqa_validation_191", "prontoqa_validation_192"], "conclusion": "prontoqa_validation_129", "label": "entailment"}
+{"premises": ["prontoqa_validation_193", "prontoqa_validation_194"], "conclusion": "prontoqa_validation_195", "label": "entailment"}
+{"premises": ["prontoqa_validation_196", "prontoqa_validation_197"], "conclusion": "prontoqa_validation_81", "label": "entailment"}
+{"premises": ["prontoqa_validation_122", "prontoqa_validation_198"], "conclusion": "prontoqa_validation_199", "label": "entailment"}
+{"premises": ["prontoqa_validation_43", "prontoqa_validation_200"], "conclusion": "prontoqa_validation_201", "label": "entailment"}
+{"premises": ["prontoqa_validation_202", "prontoqa_validation_203"], "conclusion": "prontoqa_validation_204", "label": "entailment"}
+{"premises": ["prontoqa_validation_205", "prontoqa_validation_206"], "conclusion": "prontoqa_validation_207", "label": "entailment"}
+{"premises": ["prontoqa_validation_208", "prontoqa_validation_209"], "conclusion": "prontoqa_validation_143", "label": "entailment"}
+{"premises": ["prontoqa_validation_210", "prontoqa_validation_211"], "conclusion": "prontoqa_validation_146", "label": "entailment"}
+{"premises": ["prontoqa_validation_212", "prontoqa_validation_213"], "conclusion": "prontoqa_validation_214", "label": "entailment"}
+{"premises": ["prontoqa_validation_215", "prontoqa_validation_216"], "conclusion": "prontoqa_validation_217", "label": "entailment"}
+{"premises": ["prontoqa_validation_218", "prontoqa_validation_219"], "conclusion": "prontoqa_validation_220", "label": "entailment"}
+{"premises": ["prontoqa_validation_221", "prontoqa_validation_222"], "conclusion": "prontoqa_validation_223", "label": "entailment"}
+{"premises": ["prontoqa_validation_6", "prontoqa_validation_224"], "conclusion": "prontoqa_validation_225", "label": "entailment"}
+{"premises": ["prontoqa_validation_226", "prontoqa_validation_227"], "conclusion": "prontoqa_validation_199", "label": "entailment"}
+{"premises": ["prontoqa_validation_228", "prontoqa_validation_229"], "conclusion": "prontoqa_validation_214", "label": "entailment"}
+{"premises": ["prontoqa_validation_230", "prontoqa_validation_231"], "conclusion": "prontoqa_validation_232", "label": "entailment"}
+{"premises": ["prontoqa_validation_233", "prontoqa_validation_234"], "conclusion": "prontoqa_validation_2", "label": "entailment"}
+{"premises": ["prontoqa_validation_210", "prontoqa_validation_235"], "conclusion": "prontoqa_validation_45", "label": "entailment"}
+{"premises": ["prontoqa_validation_236", "prontoqa_validation_237"], "conclusion": "prontoqa_validation_81", "label": "entailment"}
+{"premises": ["prontoqa_validation_54", "prontoqa_validation_238"], "conclusion": "prontoqa_validation_207", "label": "entailment"}
+{"premises": ["prontoqa_validation_239", "prontoqa_validation_240"], "conclusion": "prontoqa_validation_241", "label": "entailment"}
+{"premises": ["prontoqa_validation_242", "prontoqa_validation_243"], "conclusion": "prontoqa_validation_244", "label": "entailment"}
+{"premises": ["prontoqa_validation_245", "prontoqa_validation_246"], "conclusion": "prontoqa_validation_247", "label": "entailment"}
+{"premises": ["prontoqa_validation_248", "prontoqa_validation_249"], "conclusion": "prontoqa_validation_250", "label": "entailment"}
+{"premises": ["prontoqa_validation_251", "prontoqa_validation_252"], "conclusion": "prontoqa_validation_253", "label": "entailment"}
+{"premises": ["prontoqa_validation_119", "prontoqa_validation_254"], "conclusion": "prontoqa_validation_255", "label": "entailment"}
+{"premises": ["prontoqa_validation_256", "prontoqa_validation_257"], "conclusion": "prontoqa_validation_255", "label": "entailment"}
+{"premises": ["prontoqa_validation_258", "prontoqa_validation_259"], "conclusion": "prontoqa_validation_163", "label": "entailment"}
+{"premises": ["prontoqa_validation_260", "prontoqa_validation_261"], "conclusion": "prontoqa_validation_217", "label": "entailment"}
+{"premises": ["prontoqa_validation_262", "prontoqa_validation_263"], "conclusion": "prontoqa_validation_264", "label": "entailment"}
+{"premises": ["prontoqa_validation_265", "prontoqa_validation_266"], "conclusion": "prontoqa_validation_263", "label": "entailment"}
+{"premises": ["prontoqa_validation_267", "prontoqa_validation_268"], "conclusion": "prontoqa_validation_269", "label": "entailment"}
+{"premises": ["prontoqa_validation_270", "prontoqa_validation_271"], "conclusion": "prontoqa_validation_272", "label": "entailment"}
+{"premises": ["prontoqa_validation_273", "prontoqa_validation_274"], "conclusion": "prontoqa_validation_275", "label": "entailment"}
+{"premises": ["prontoqa_validation_276", "prontoqa_validation_277"], "conclusion": "prontoqa_validation_278", "label": "entailment"}
+{"premises": ["prontoqa_validation_279", "prontoqa_validation_280"], "conclusion": "prontoqa_validation_281", "label": "entailment"}
+{"premises": ["prontoqa_validation_282", "prontoqa_validation_283"], "conclusion": "prontoqa_validation_284", "label": "entailment"}
+{"premises": ["prontoqa_validation_285", "prontoqa_validation_286", "prontoqa_validation_287", "prontoqa_validation_288"], "conclusion": "prontoqa_validation_289", "label": "entailment"}
+{"premises": ["prontoqa_validation_290", "prontoqa_validation_291"], "conclusion": "prontoqa_validation_292", "label": "entailment"}
+{"premises": ["prontoqa_validation_293", "prontoqa_validation_294", "prontoqa_validation_295"], "conclusion": "prontoqa_validation_149", "label": "entailment"}
+{"premises": ["prontoqa_validation_296", "prontoqa_validation_297", "prontoqa_validation_298", "prontoqa_validation_299"], "conclusion": "prontoqa_validation_300", "label": "entailment"}
+{"premises": ["prontoqa_validation_301", "prontoqa_validation_302"], "conclusion": "prontoqa_validation_303", "label": "entailment"}
+{"premises": ["prontoqa_validation_304", "prontoqa_validation_305", "prontoqa_validation_306"], "conclusion": "prontoqa_validation_307", "label": "entailment"}
+{"premises": ["prontoqa_validation_308", "prontoqa_validation_309"], "conclusion": "prontoqa_validation_310", "label": "entailment"}
+{"premises": ["prontoqa_validation_311", "prontoqa_validation_312"], "conclusion": "prontoqa_validation_313", "label": "entailment"}
+{"premises": ["prontoqa_validation_314", "prontoqa_validation_91", "prontoqa_validation_315"], "conclusion": "prontoqa_validation_316", "label": "entailment"}
+{"premises": ["prontoqa_validation_317", "prontoqa_validation_318"], "conclusion": "prontoqa_validation_319", "label": "entailment"}
+{"premises": ["prontoqa_validation_320", "prontoqa_validation_321"], "conclusion": "prontoqa_validation_322", "label": "entailment"}
+{"premises": ["prontoqa_validation_323", "prontoqa_validation_324", "prontoqa_validation_325"], "conclusion": "prontoqa_validation_326", "label": "entailment"}
+{"premises": ["prontoqa_validation_327", "prontoqa_validation_328"], "conclusion": "prontoqa_validation_329", "label": "entailment"}
+{"premises": ["prontoqa_validation_330", "prontoqa_validation_331"], "conclusion": "prontoqa_validation_332", "label": "entailment"}
+{"premises": ["prontoqa_validation_333", "prontoqa_validation_334"], "conclusion": "prontoqa_validation_132", "label": "entailment"}
+{"premises": ["prontoqa_validation_335", "prontoqa_validation_336"], "conclusion": "prontoqa_validation_337", "label": "entailment"}
+{"premises": ["prontoqa_validation_338", "prontoqa_validation_339"], "conclusion": "prontoqa_validation_340", "label": "entailment"}
+{"premises": ["prontoqa_validation_341", "prontoqa_validation_342", "prontoqa_validation_343", "prontoqa_validation_344"], "conclusion": "prontoqa_validation_345", "label": "entailment"}
+{"premises": ["prontoqa_validation_346", "prontoqa_validation_319"], "conclusion": "prontoqa_validation_347", "label": "entailment"}
+{"premises": ["prontoqa_validation_348", "prontoqa_validation_349"], "conclusion": "prontoqa_validation_350", "label": "entailment"}
+{"premises": ["prontoqa_validation_351", "prontoqa_validation_331", "prontoqa_validation_352", "prontoqa_validation_353"], "conclusion": "prontoqa_validation_354", "label": "entailment"}
+{"premises": ["prontoqa_validation_355", "prontoqa_validation_356"], "conclusion": "prontoqa_validation_357", "label": "entailment"}
+{"premises": ["prontoqa_validation_358", "prontoqa_validation_359"], "conclusion": "prontoqa_validation_360", "label": "entailment"}
+{"premises": ["prontoqa_validation_361", "prontoqa_validation_362", "prontoqa_validation_363", "prontoqa_validation_364", "prontoqa_validation_365"], "conclusion": "prontoqa_validation_366", "label": "entailment"}
+{"premises": ["prontoqa_validation_367", "prontoqa_validation_368", "prontoqa_validation_369", "prontoqa_validation_370", "prontoqa_validation_371", "prontoqa_validation_318"], "conclusion": "prontoqa_validation_33", "label": "entailment"}
+{"premises": ["prontoqa_validation_372", "prontoqa_validation_373", "prontoqa_validation_363", "prontoqa_validation_374"], "conclusion": "prontoqa_validation_300", "label": "entailment"}
+{"premises": ["prontoqa_validation_375", "prontoqa_validation_376"], "conclusion": "prontoqa_validation_377", "label": "entailment"}
+{"premises": ["prontoqa_validation_378", "prontoqa_validation_379"], "conclusion": "prontoqa_validation_380", "label": "entailment"}
+{"premises": ["prontoqa_validation_381", "prontoqa_validation_382"], "conclusion": "prontoqa_validation_158", "label": "entailment"}
+{"premises": ["prontoqa_validation_383", "prontoqa_validation_384", "prontoqa_validation_385"], "conclusion": "prontoqa_validation_386", "label": "entailment"}
+{"premises": ["prontoqa_validation_387", "prontoqa_validation_388", "prontoqa_validation_389"], "conclusion": "prontoqa_validation_42", "label": "entailment"}
+{"premises": ["prontoqa_validation_390", "prontoqa_validation_391"], "conclusion": "prontoqa_validation_223", "label": "entailment"}
+{"premises": ["prontoqa_validation_392", "prontoqa_validation_393"], "conclusion": "prontoqa_validation_394", "label": "entailment"}
+{"premises": ["prontoqa_validation_395", "prontoqa_validation_396"], "conclusion": "prontoqa_validation_397", "label": "entailment"}
+{"premises": ["prontoqa_validation_398", "prontoqa_validation_399"], "conclusion": "prontoqa_validation_292", "label": "entailment"}
+{"premises": ["prontoqa_validation_400", "prontoqa_validation_401"], "conclusion": "prontoqa_validation_402", "label": "entailment"}
+{"premises": ["prontoqa_validation_403", "prontoqa_validation_404", "prontoqa_validation_405"], "conclusion": "prontoqa_validation_406", "label": "entailment"}
+{"premises": ["prontoqa_validation_407", "prontoqa_validation_343", "prontoqa_validation_408", "prontoqa_validation_409"], "conclusion": "prontoqa_validation_410", "label": "entailment"}
+{"premises": ["prontoqa_validation_411", "prontoqa_validation_412"], "conclusion": "prontoqa_validation_413", "label": "entailment"}
+{"premises": ["prontoqa_validation_414", "prontoqa_validation_415"], "conclusion": "prontoqa_validation_416", "label": "entailment"}
+{"premises": ["prontoqa_validation_417", "prontoqa_validation_418", "prontoqa_validation_419", "prontoqa_validation_315"], "conclusion": "prontoqa_validation_420", "label": "entailment"}
+{"premises": ["prontoqa_validation_421", "prontoqa_validation_422", "prontoqa_validation_423", "prontoqa_validation_424"], "conclusion": "prontoqa_validation_244", "label": "entailment"}
+{"premises": ["prontoqa_validation_425", "prontoqa_validation_426"], "conclusion": "prontoqa_validation_427", "label": "entailment"}
+{"premises": ["prontoqa_validation_428", "prontoqa_validation_429"], "conclusion": "prontoqa_validation_430", "label": "entailment"}
+{"premises": ["prontoqa_validation_431", "prontoqa_validation_432"], "conclusion": "prontoqa_validation_433", "label": "entailment"}
+{"premises": ["prontoqa_validation_434", "prontoqa_validation_435", "prontoqa_validation_377", "prontoqa_validation_436"], "conclusion": "prontoqa_validation_437", "label": "entailment"}
+{"premises": ["prontoqa_validation_438", "prontoqa_validation_439", "prontoqa_validation_440", "prontoqa_validation_441"], "conclusion": "prontoqa_validation_442", "label": "entailment"}
+{"premises": ["prontoqa_validation_443", "prontoqa_validation_444", "prontoqa_validation_445", "prontoqa_validation_446", "prontoqa_validation_447"], "conclusion": "prontoqa_validation_448", "label": "entailment"}
+{"premises": ["prontoqa_validation_449", "prontoqa_validation_450"], "conclusion": "prontoqa_validation_441", "label": "entailment"}
+{"premises": ["prontoqa_validation_451", "prontoqa_validation_452", "prontoqa_validation_453", "prontoqa_validation_271", "prontoqa_validation_337"], "conclusion": "prontoqa_validation_39", "label": "entailment"}
+{"premises": ["prontoqa_validation_454", "prontoqa_validation_455"], "conclusion": "prontoqa_validation_406", "label": "entailment"}
+{"premises": ["prontoqa_validation_456", "prontoqa_validation_457"], "conclusion": "prontoqa_validation_93", "label": "entailment"}
+{"premises": ["prontoqa_validation_458", "prontoqa_validation_459"], "conclusion": "prontoqa_validation_460", "label": "entailment"}
+{"premises": ["prontoqa_validation_461", "prontoqa_validation_462", "prontoqa_validation_463", "prontoqa_validation_464"], "conclusion": "prontoqa_validation_465", "label": "entailment"}
+{"premises": ["prontoqa_validation_466", "prontoqa_validation_467", "prontoqa_validation_280", "prontoqa_validation_396"], "conclusion": "prontoqa_validation_468", "label": "entailment"}
+{"premises": ["prontoqa_validation_469", "prontoqa_validation_470", "prontoqa_validation_379", "prontoqa_validation_286"], "conclusion": "prontoqa_validation_471", "label": "entailment"}
+{"premises": ["prontoqa_validation_472", "prontoqa_validation_405"], "conclusion": "prontoqa_validation_409", "label": "entailment"}
+{"premises": ["prontoqa_validation_473", "prontoqa_validation_474"], "conclusion": "prontoqa_validation_475", "label": "entailment"}
+{"premises": ["prontoqa_validation_150", "prontoqa_validation_476"], "conclusion": "prontoqa_validation_477", "label": "entailment"}
+{"premises": ["prontoqa_validation_478", "prontoqa_validation_479"], "conclusion": "prontoqa_validation_480", "label": "entailment"}
+{"premises": ["prontoqa_validation_481", "prontoqa_validation_482"], "conclusion": "prontoqa_validation_483", "label": "entailment"}
+{"premises": ["prontoqa_validation_484", "prontoqa_validation_485"], "conclusion": "prontoqa_validation_263", "label": "entailment"}
+{"premises": ["prontoqa_validation_486", "prontoqa_validation_487"], "conclusion": "prontoqa_validation_488", "label": "entailment"}
+{"premises": ["prontoqa_validation_489", "prontoqa_validation_490"], "conclusion": "prontoqa_validation_491", "label": "entailment"}
+{"premises": ["prontoqa_validation_492", "prontoqa_validation_493", "prontoqa_validation_494"], "conclusion": "prontoqa_validation_495", "label": "entailment"}
+{"premises": ["prontoqa_validation_496", "prontoqa_validation_286"], "conclusion": "prontoqa_validation_497", "label": "entailment"}
+{"premises": ["prontoqa_validation_498", "prontoqa_validation_499", "prontoqa_validation_412", "prontoqa_validation_352"], "conclusion": "prontoqa_validation_500", "label": "entailment"}
+{"premises": ["prontoqa_validation_501", "prontoqa_validation_405", "prontoqa_validation_502", "prontoqa_validation_408"], "conclusion": "prontoqa_validation_409", "label": "entailment"}
+{"premises": ["prontoqa_validation_503", "prontoqa_validation_138", "prontoqa_validation_504", "prontoqa_validation_505"], "conclusion": "prontoqa_validation_250", "label": "entailment"}
+{"premises": ["prontoqa_validation_506", "prontoqa_validation_263", "prontoqa_validation_485", "prontoqa_validation_264"], "conclusion": "prontoqa_validation_507", "label": "entailment"}
+{"premises": ["prontoqa_validation_508", "prontoqa_validation_509", "prontoqa_validation_510", "prontoqa_validation_485"], "conclusion": "prontoqa_validation_28", "label": "entailment"}
+{"premises": ["prontoqa_validation_511", "prontoqa_validation_512", "prontoqa_validation_513"], "conclusion": "prontoqa_validation_50", "label": "entailment"}
+{"premises": ["prontoqa_validation_514", "prontoqa_validation_467"], "conclusion": "prontoqa_validation_515", "label": "entailment"}
+{"premises": ["prontoqa_validation_516", "prontoqa_validation_517"], "conclusion": "prontoqa_validation_518", "label": "entailment"}
+{"premises": ["prontoqa_validation_519", "prontoqa_validation_520"], "conclusion": "prontoqa_validation_521", "label": "entailment"}
+{"premises": ["prontoqa_validation_522", "prontoqa_validation_523"], "conclusion": "prontoqa_validation_319", "label": "entailment"}
+{"premises": ["prontoqa_validation_524", "prontoqa_validation_412", "prontoqa_validation_525", "prontoqa_validation_526"], "conclusion": "prontoqa_validation_352", "label": "entailment"}
+{"premises": ["prontoqa_validation_527", "prontoqa_validation_442", "prontoqa_validation_370", "prontoqa_validation_528"], "conclusion": "prontoqa_validation_529", "label": "entailment"}
+{"premises": ["prontoqa_validation_530", "prontoqa_validation_300", "prontoqa_validation_363", "prontoqa_validation_298"], "conclusion": "prontoqa_validation_531", "label": "entailment"}
+{"premises": ["prontoqa_validation_532", "prontoqa_validation_271"], "conclusion": "prontoqa_validation_533", "label": "entailment"}
+{"premises": ["prontoqa_validation_534", "prontoqa_validation_535"], "conclusion": "prontoqa_validation_536", "label": "entailment"}
+{"premises": ["prontoqa_validation_537", "prontoqa_validation_446"], "conclusion": "prontoqa_validation_538", "label": "entailment"}
+{"premises": ["prontoqa_validation_539", "prontoqa_validation_377"], "conclusion": "prontoqa_validation_349", "label": "entailment"}
+{"premises": ["prontoqa_validation_540", "prontoqa_validation_541"], "conclusion": "prontoqa_validation_542", "label": "entailment"}
+{"premises": ["prontoqa_validation_543", "prontoqa_validation_544", "prontoqa_validation_545", "prontoqa_validation_546", "prontoqa_validation_485", "prontoqa_validation_547", "prontoqa_validation_548"], "conclusion": "prontoqa_validation_549", "label": "entailment"}
+{"premises": ["prontoqa_validation_550", "prontoqa_validation_551"], "conclusion": "prontoqa_validation_552", "label": "entailment"}
+{"premises": ["prontoqa_validation_553", "prontoqa_validation_554", "prontoqa_validation_555", "prontoqa_validation_352"], "conclusion": "prontoqa_validation_556", "label": "entailment"}
+{"premises": ["prontoqa_validation_557", "prontoqa_validation_558", "prontoqa_validation_363", "prontoqa_validation_402"], "conclusion": "prontoqa_validation_146", "label": "entailment"}
+{"premises": ["prontoqa_validation_559", "prontoqa_validation_297"], "conclusion": "prontoqa_validation_560", "label": "entailment"}
+{"premises": ["prontoqa_validation_561", "prontoqa_validation_447"], "conclusion": "prontoqa_validation_480", "label": "entailment"}
+{"premises": ["prontoqa_validation_562", "prontoqa_validation_470", "prontoqa_validation_563", "prontoqa_validation_379"], "conclusion": "prontoqa_validation_322", "label": "entailment"}
+{"premises": ["prontoqa_validation_564", "prontoqa_validation_432", "prontoqa_validation_349", "prontoqa_validation_490"], "conclusion": "prontoqa_validation_435", "label": "entailment"}

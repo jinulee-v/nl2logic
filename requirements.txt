@@ -6,6 +6,10 @@ z3==0.2.0 # z3 and ply is required for FOLIO preprocessing
 ply==3.11
 
 # ML / API
+torch==2.4.1
+transformers==4.45.1
+datasets==3.0.1
+sentencepiece==0.2.0
 
 # Utils
 timeoutcontext==1.2.0

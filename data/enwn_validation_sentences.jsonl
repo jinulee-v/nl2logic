@@ -1,825 +1,825 @@
-{"id": "enwn_validation_0", "nl": "You should not hurt someone without a good reason.", "fol": null}
-{"id": "enwn_validation_1", "nl": "If you do something for petty reasons, you aren't doing it for a good reason.", "fol": null}
-{"id": "enwn_validation_2", "nl": "Road rage is petty.", "fol": null}
-{"id": "enwn_validation_3", "nl": "Jake cut Chris off in traffic, and that enraged Chris.", "fol": null}
-{"id": "enwn_validation_4", "nl": "Chris was so angry that he followed Jake to a stop light, got out of his car and punched Jake.", "fol": null}
-{"id": "enwn_validation_5", "nl": "Road rage is anger over driving.", "fol": null}
-{"id": "enwn_validation_6", "nl": "Chris punched Jake because he was angry at Jake cutting him off in traffic.", "fol": null}
-{"id": "enwn_validation_7", "nl": "Chris punched Jake because of his road rage.", "fol": null}
-{"id": "enwn_validation_8", "nl": "Chris punched Jake for a petty reason.", "fol": null}
-{"id": "enwn_validation_9", "nl": "Chris punched Jake without a good reason.", "fol": null}
-{"id": "enwn_validation_10", "nl": "Chris should not have punched Jake.", "fol": null}
-{"id": "enwn_validation_11", "nl": "Stealing is taking something without the owner's permission.", "fol": null}
-{"id": "enwn_validation_12", "nl": "Caleb left Target with a pack of trading cards in his pocket.", "fol": null}
-{"id": "enwn_validation_13", "nl": "Caleb didn't pay for the pack.", "fol": null}
-{"id": "enwn_validation_14", "nl": "You only have permission to take merchandise from a store if you pay for it.", "fol": null}
-{"id": "enwn_validation_15", "nl": "You should not steal.", "fol": null}
-{"id": "enwn_validation_16", "nl": "Caleb took the cards from Target without paying for them.", "fol": null}
-{"id": "enwn_validation_17", "nl": "Caleb took the store's cards without the store's permission.", "fol": null}
-{"id": "enwn_validation_18", "nl": "Caleb stole the cards.", "fol": null}
-{"id": "enwn_validation_19", "nl": "Caleb should not have stolen the cards.", "fol": null}
-{"id": "enwn_validation_20", "nl": "Elias ran into Julia and made her drop all her books.", "fol": null}
-{"id": "enwn_validation_21", "nl": "If you drop something accidentally, you need to pick it up afterwards.", "fol": null}
-{"id": "enwn_validation_22", "nl": "If you caused an accident, you should help anyone affected by it.", "fol": null}
-{"id": "enwn_validation_23", "nl": "Julia needs to pick up the books because Elias bumped into her.", "fol": null}
-{"id": "enwn_validation_24", "nl": "Elias should help Julia pick up the books.", "fol": null}
-{"id": "enwn_validation_25", "nl": "In the United States, it's impolite to not tip someone who serves you.", "fol": null}
-{"id": "enwn_validation_26", "nl": "A bartender serves drinks at a bar.", "fol": null}
-{"id": "enwn_validation_27", "nl": "Ellie ordered a drink at a bar called the Red Pony.", "fol": null}
-{"id": "enwn_validation_28", "nl": "The Red Pony is in Albuquerque, New Mexico.", "fol": null}
-{"id": "enwn_validation_29", "nl": "New Mexico is a state in the United States.", "fol": null}
-{"id": "enwn_validation_30", "nl": "You should not do impolite things.", "fol": null}
-{"id": "enwn_validation_31", "nl": "In the United States, it's impolite to not tip bartenders who serve you drinks at a bar.", "fol": null}
-{"id": "enwn_validation_32", "nl": "Ellie ordered a drink from a bartender at the Red Pony.", "fol": null}
-{"id": "enwn_validation_33", "nl": "The Red Pony is in the United States.", "fol": null}
-{"id": "enwn_validation_34", "nl": "Ellie ordered a drink from a bartender in the United States.", "fol": null}
-{"id": "enwn_validation_35", "nl": "It would be impolite for Ellie to not tip the bartender.", "fol": null}
-{"id": "enwn_validation_36", "nl": "Ellie should tip the bartender.", "fol": null}
-{"id": "enwn_validation_37", "nl": "You should pay back your debts.", "fol": null}
-{"id": "enwn_validation_38", "nl": "Fred borrowed $100 from Alyssa to buy the ski lift ticket.", "fol": null}
-{"id": "enwn_validation_39", "nl": "You remind someone to do something when you want them to do it but they haven't.", "fol": null}
-{"id": "enwn_validation_40", "nl": "Alyssa messaged Fred to remind him to pay her back for the ski lift ticket.", "fol": null}
-{"id": "enwn_validation_41", "nl": "If you borrow something from someone and haven't given it back, you owe it to them.", "fol": null}
-{"id": "enwn_validation_42", "nl": "Fred hasn't paid Alyssa back for the ski lift ticket yet.", "fol": null}
-{"id": "enwn_validation_43", "nl": "Fred borrowed $100 from Alyssa and hasn't paid it back yet.", "fol": null}
-{"id": "enwn_validation_44", "nl": "Fred owes Alyssa $100.", "fol": null}
-{"id": "enwn_validation_45", "nl": "Fred should pay Alyssa $100.", "fol": null}
-{"id": "enwn_validation_46", "nl": "You should not take something that doesn't belong to you.", "fol": null}
-{"id": "enwn_validation_47", "nl": "Mark is considering taking the lunch in the breakroom fridge.", "fol": null}
-{"id": "enwn_validation_48", "nl": "The lunch in the fridge has a note on it saying \"Melissa\".", "fol": null}
-{"id": "enwn_validation_49", "nl": "People write their names on things to mark them as their belongings.", "fol": null}
-{"id": "enwn_validation_50", "nl": "The lunch in the breakroom fridge is Melissa's.", "fol": null}
-{"id": "enwn_validation_51", "nl": "Mark is considering taking Melissa's lunch.", "fol": null}
-{"id": "enwn_validation_52", "nl": "Mark should not take Melissa's lunch.", "fol": null}
-{"id": "enwn_validation_53", "nl": "Fern brought her textbook to class.", "fol": null}
-{"id": "enwn_validation_54", "nl": "Ann showed up to biology class without her textbook.", "fol": null}
-{"id": "enwn_validation_55", "nl": "Textbooks are required in Ann's biology class.", "fol": null}
-{"id": "enwn_validation_56", "nl": "You should share things with people in need.", "fol": null}
-{"id": "enwn_validation_57", "nl": "Ann needs a textbook.", "fol": null}
-{"id": "enwn_validation_58", "nl": "Someone should share a textbook with Ann.", "fol": null}
-{"id": "enwn_validation_59", "nl": "Fern should share her textbook with Ann.", "fol": null}
-{"id": "enwn_validation_60", "nl": "Someone in a red BMW was waiting for the parking spot before George.", "fol": null}
-{"id": "enwn_validation_61", "nl": "If a group of people is waiting for something, the people who were waiting earliest are first in line.", "fol": null}
-{"id": "enwn_validation_62", "nl": "You should let people ahead of you in line go first.", "fol": null}
-{"id": "enwn_validation_63", "nl": "When you take something, you prevent other people from taking it.", "fol": null}
-{"id": "enwn_validation_64", "nl": "George is about to take the parking spot.", "fol": null}
-{"id": "enwn_validation_65", "nl": "Someone in a red BMW is in line for the parking spot ahead of George.", "fol": null}
-{"id": "enwn_validation_66", "nl": "George should let the person in the red BMW take the parking spot.", "fol": null}
-{"id": "enwn_validation_67", "nl": "If George takes the parking spot, he will prevent other people from taking it.", "fol": null}
-{"id": "enwn_validation_68", "nl": "George shouldn't take the parking spot.", "fol": null}
-{"id": "enwn_validation_69", "nl": "Embezzlement is theft or misappropriation of funds belonging to an employer.", "fol": null}
-{"id": "enwn_validation_70", "nl": "Using money allotted for one purpose for another purpose is misappropriation.", "fol": null}
-{"id": "enwn_validation_71", "nl": "Tessa works as an accountant at her firm.", "fol": null}
-{"id": "enwn_validation_72", "nl": "A retiree is someone who has retired from employment and is no longer working.", "fol": null}
-{"id": "enwn_validation_73", "nl": "Tessa withdrew a lump sum from her firm's retirement fund to buy herself a summer home.", "fol": null}
-{"id": "enwn_validation_74", "nl": "Money in a company's retirement fund is intended to be paid out to retirees.", "fol": null}
-{"id": "enwn_validation_75", "nl": "Tessa is not a retiree.", "fol": null}
-{"id": "enwn_validation_76", "nl": "Tessa bought herself a summer home with money from the firm intended for retirees.", "fol": null}
-{"id": "enwn_validation_77", "nl": "Tessa bought herself a summer home with money from the firm that was not intended for her.", "fol": null}
-{"id": "enwn_validation_78", "nl": "Tessa misappropriated her firm's money.", "fol": null}
-{"id": "enwn_validation_79", "nl": "Tessa embezzled from her firm.", "fol": null}
-{"id": "enwn_validation_80", "nl": "Leading others to think someone was responsible for something is shifting the blame.", "fol": null}
-{"id": "enwn_validation_81", "nl": "When the campus cops interviewed Nate after the fire, he said he saw Jeff drop a cigarette.", "fol": null}
-{"id": "enwn_validation_82", "nl": "Telling someone that something happened leads them to believe it happened.", "fol": null}
-{"id": "enwn_validation_83", "nl": "Dropping a cigarette can cause a fire.", "fol": null}
-{"id": "enwn_validation_84", "nl": "Letting someone else take the blame for your actions is wrong.", "fol": null}
-{"id": "enwn_validation_85", "nl": "Nate dropped the cigarette that started the fire.", "fol": null}
-{"id": "enwn_validation_86", "nl": "Nate led the campus cops to believe that Jeff dropped a cigarette before the fire.", "fol": null}
-{"id": "enwn_validation_87", "nl": "Nate led the campus cops to believe that Jeff started the fire.", "fol": null}
-{"id": "enwn_validation_88", "nl": "Nate shifted the blame for the fire to Jeff.", "fol": null}
-{"id": "enwn_validation_89", "nl": "It would be wrong for Nate to let someone else take the blame for starting the fire.", "fol": null}
-{"id": "enwn_validation_90", "nl": "Nate should not have shifted the blame for the fire to Jeff.", "fol": null}
-{"id": "enwn_validation_91", "nl": "Taking something that doesn't belong to you is wrong.", "fol": null}
-{"id": "enwn_validation_92", "nl": "The TV belonged to the owners of the AirBNB Mike was staying at.", "fol": null}
-{"id": "enwn_validation_93", "nl": "You shouldn't help someone do something wrong.", "fol": null}
-{"id": "enwn_validation_94", "nl": "Tim helped Mike carry the TV out to his car.", "fol": null}
-{"id": "enwn_validation_95", "nl": "It would be wrong for Mike to take the TV.", "fol": null}
-{"id": "enwn_validation_96", "nl": "It would be wrong to help Mike take the TV.", "fol": null}
-{"id": "enwn_validation_97", "nl": "Tim shouldn't have helped Mike take the TV.", "fol": null}
-{"id": "enwn_validation_98", "nl": "The right thing to do is whatever results in the least harm.", "fol": null}
-{"id": "enwn_validation_99", "nl": "If you don't push the old lady, the truck will hit her.", "fol": null}
-{"id": "enwn_validation_100", "nl": "Getting hit by a vehicle is likely to cause serious injury or death.", "fol": null}
-{"id": "enwn_validation_101", "nl": "Pushing the old lady will likely give her minor injuries at worst.", "fol": null}
-{"id": "enwn_validation_102", "nl": "If you don't push the old lady, she will suffer a serious injury or die.", "fol": null}
-{"id": "enwn_validation_103", "nl": "If you push the old lady, she will suffer less harm than if you don't.", "fol": null}
-{"id": "enwn_validation_104", "nl": "You should push the old lady.", "fol": null}
-{"id": "enwn_validation_105", "nl": "Emily told Cassandra to copy her homework so that Cassandra wouldn't get in trouble.", "fol": null}
-{"id": "enwn_validation_106", "nl": "Copying homework is cheating.", "fol": null}
-{"id": "enwn_validation_107", "nl": "Cheating is wrong.", "fol": null}
-{"id": "enwn_validation_108", "nl": "Telling someone to do something is influencing them to do it.", "fol": null}
-{"id": "enwn_validation_109", "nl": "You shouldn't influence someone to do something wrong.", "fol": null}
-{"id": "enwn_validation_110", "nl": "Copying homework is wrong.", "fol": null}
-{"id": "enwn_validation_111", "nl": "You shouldn't tell someone to do something wrong.", "fol": null}
-{"id": "enwn_validation_112", "nl": "You shouldn't tell someone to copy homework.", "fol": null}
-{"id": "enwn_validation_113", "nl": "Emily should not have told Cassandra to copy her homework.", "fol": null}
-{"id": "enwn_validation_114", "nl": "Making out with someone is an intimate act.", "fol": null}
-{"id": "enwn_validation_115", "nl": "Mark recorded Jess making out with someone while she was drunk.", "fol": null}
-{"id": "enwn_validation_116", "nl": "You need to be aware that something is happening in order to consent to it.", "fol": null}
-{"id": "enwn_validation_117", "nl": "Jess wasn't aware that Mark was filming her.", "fol": null}
-{"id": "enwn_validation_118", "nl": "You shouldn't record someone in a compromising situation without their consent.", "fol": null}
-{"id": "enwn_validation_119", "nl": "A compromising situation is one which could cause embarrassment or shame if made public.", "fol": null}
-{"id": "enwn_validation_120", "nl": "Physical intimacy can be embarrassing if it's made public.", "fol": null}
-{"id": "enwn_validation_121", "nl": "Mark recorded Jess being intimate with someone while she was drunk.", "fol": null}
-{"id": "enwn_validation_122", "nl": "Jess did not consent to Mark filming her.", "fol": null}
-{"id": "enwn_validation_123", "nl": "Mark recorded Jess being intimate with someone without her consent.", "fol": null}
-{"id": "enwn_validation_124", "nl": "Physical intimacy is a compromising situation.", "fol": null}
-{"id": "enwn_validation_125", "nl": "You shouldn't record someone being physically intimate without their consent.", "fol": null}
-{"id": "enwn_validation_126", "nl": "Mark should not have recorded Jess.", "fol": null}
-{"id": "enwn_validation_127", "nl": "Putting yourself or others at unnecessary risk is reckless.", "fol": null}
-{"id": "enwn_validation_128", "nl": "You should not behave recklessly.", "fol": null}
-{"id": "enwn_validation_129", "nl": "Taking a right at a red light involves entering a crossing lane.", "fol": null}
-{"id": "enwn_validation_130", "nl": "Checking for traffic in a lane before entering it reduces the risk of a collision.", "fol": null}
-{"id": "enwn_validation_131", "nl": "If you could do something to reduce risk, but you don't, you're exposing yourself to avoidable risk.", "fol": null}
-{"id": "enwn_validation_132", "nl": "You should not put yourself or others at unnecessary risk.", "fol": null}
-{"id": "enwn_validation_133", "nl": "Checking for traffic in the crossing lane before taking a right at a red light reduces the risk of a collision.", "fol": null}
-{"id": "enwn_validation_134", "nl": "Not checking for traffic in the crossing lane before taking a right at a red light exposes you to avoidable risk.", "fol": null}
-{"id": "enwn_validation_135", "nl": "You should check for traffic in the crossing lane before taking a right at a red light.", "fol": null}
-{"id": "enwn_validation_136", "nl": "Adding pieces to the board is against the rules of chess.", "fol": null}
-{"id": "enwn_validation_137", "nl": "Breaking the rules is cheating.", "fol": null}
-{"id": "enwn_validation_138", "nl": "You shouldn't cheat.", "fol": null}
-{"id": "enwn_validation_139", "nl": "When Ben's opponent wasn't looking, Ben snuck a pawn onto the board to give himself the advantage.", "fol": null}
-{"id": "enwn_validation_140", "nl": "Adding pieces to the board is cheating.", "fol": null}
-{"id": "enwn_validation_141", "nl": "You shouldn't add pieces to the board.", "fol": null}
-{"id": "enwn_validation_142", "nl": "Ben shouldn't have put the pawn on the board.", "fol": null}
-{"id": "enwn_validation_143", "nl": "Safe driving requires your full attention.", "fol": null}
-{"id": "enwn_validation_144", "nl": "Jared checked his phone while pulling onto the freeway.", "fol": null}
-{"id": "enwn_validation_145", "nl": "Checking your phone takes your attention off of whatever else you're doing.", "fol": null}
-{"id": "enwn_validation_146", "nl": "If something prevents you from doing the right thing, it's wrong.", "fol": null}
-{"id": "enwn_validation_147", "nl": "You should always drive safe.", "fol": null}
-{"id": "enwn_validation_148", "nl": "Jared took his attention off of driving to check his phone.", "fol": null}
-{"id": "enwn_validation_149", "nl": "Checking his phone prevented Jared from driving safely.", "fol": null}
-{"id": "enwn_validation_150", "nl": "You shouldn't do anything that prevents you from driving safe.", "fol": null}
-{"id": "enwn_validation_151", "nl": "Jared should not have checked his phone.", "fol": null}
-{"id": "enwn_validation_152", "nl": "There are some people who haven't gotten a slice yet.", "fol": null}
-{"id": "enwn_validation_153", "nl": "Taking a second portion before someone else has gotten a first portion is unfair.", "fol": null}
-{"id": "enwn_validation_154", "nl": "You want to take a second slice of pizza.", "fol": null}
-{"id": "enwn_validation_155", "nl": "If you want to do something, but it's too soon, you should wait.", "fol": null}
-{"id": "enwn_validation_156", "nl": "It's too soon to take a second slice.", "fol": null}
-{"id": "enwn_validation_157", "nl": "You want to take a slice of pizza but it's too soon.", "fol": null}
-{"id": "enwn_validation_158", "nl": "You should wait before taking a second slice of pizza.", "fol": null}
-{"id": "enwn_validation_159", "nl": "Murder means killing someone with premeditation.", "fol": null}
-{"id": "enwn_validation_160", "nl": "Premeditation means thinking through something before doing it.", "fol": null}
-{"id": "enwn_validation_161", "nl": "David bought anthrax, then used it to try and kill Ingrid.", "fol": null}
-{"id": "enwn_validation_162", "nl": "Buying supplies for something is part of planning for something.", "fol": null}
-{"id": "enwn_validation_163", "nl": "David planned to kill Ingrid before trying to kill her.", "fol": null}
-{"id": "enwn_validation_164", "nl": "David tried to kill Ingrid in a premeditated way.", "fol": null}
-{"id": "enwn_validation_165", "nl": "David tried to murder Ingrid.", "fol": null}
-{"id": "enwn_validation_166", "nl": "It's a faux pas to offer someone something they can't accept.", "fol": null}
-{"id": "enwn_validation_167", "nl": "Maria is pregnant.", "fol": null}
-{"id": "enwn_validation_168", "nl": "People who are pregnant shouldn't drink alcohol.", "fol": null}
-{"id": "enwn_validation_169", "nl": "Beer is an alcoholic beverage.", "fol": null}
-{"id": "enwn_validation_170", "nl": "People who are pregnant shouldn't drink beer.", "fol": null}
-{"id": "enwn_validation_171", "nl": "Maria shouldn't drink beer.", "fol": null}
-{"id": "enwn_validation_172", "nl": "It would be a faux pas to offer Maria a beer.", "fol": null}
-{"id": "enwn_validation_173", "nl": "Sandy tripped and spilled her hot coffee on Chris.", "fol": null}
-{"id": "enwn_validation_174", "nl": "When someone spills hot coffee on you, it hurts.", "fol": null}
-{"id": "enwn_validation_175", "nl": "If someone does something that harms you, you will get angry at them.", "fol": null}
-{"id": "enwn_validation_176", "nl": "If you did not mean for something to happen, it was a mistake.", "fol": null}
-{"id": "enwn_validation_177", "nl": "Sandy did not mean to spill her coffee.", "fol": null}
-{"id": "enwn_validation_178", "nl": "Even if you are mad at someones mistake, you should forgive them.", "fol": null}
-{"id": "enwn_validation_179", "nl": "Having hot coffee spilled onto you will make you angry at someone.", "fol": null}
-{"id": "enwn_validation_180", "nl": "Chris got mad at Sandy because Sandy's hot coffee spilled on Chris.", "fol": null}
-{"id": "enwn_validation_181", "nl": "Sandy spilling her coffee was an mistake.", "fol": null}
-{"id": "enwn_validation_182", "nl": "Sandy's mistake made Chris angry at Sandy.", "fol": null}
-{"id": "enwn_validation_183", "nl": "Chris should forgive Sandy.", "fol": null}
-{"id": "enwn_validation_184", "nl": "You can't score well on a test without studying for it unless you cheat.", "fol": null}
-{"id": "enwn_validation_185", "nl": "Brad scored well on his test.", "fol": null}
-{"id": "enwn_validation_186", "nl": "Brad did not study the material on the test.", "fol": null}
-{"id": "enwn_validation_187", "nl": "Cheating is dishonest.", "fol": null}
-{"id": "enwn_validation_188", "nl": "You should be honest.", "fol": null}
-{"id": "enwn_validation_189", "nl": "Brad scored well on his test without studying for it.", "fol": null}
-{"id": "enwn_validation_190", "nl": "Brad cheated on his test.", "fol": null}
-{"id": "enwn_validation_191", "nl": "You should not cheat.", "fol": null}
-{"id": "enwn_validation_192", "nl": "Brad should not have cheated on his test.", "fol": null}
-{"id": "enwn_validation_193", "nl": "You should not litter.", "fol": null}
-{"id": "enwn_validation_194", "nl": "Littering is when you throw trash outside of a trash bin.", "fol": null}
-{"id": "enwn_validation_195", "nl": "Johnny threw trash on the floor.", "fol": null}
-{"id": "enwn_validation_196", "nl": "Johnny did not want to walk to the far away trash bin.", "fol": null}
-{"id": "enwn_validation_197", "nl": "Johnny did not throw his trash away into a trash bin.", "fol": null}
-{"id": "enwn_validation_198", "nl": "Johnny littered.", "fol": null}
-{"id": "enwn_validation_199", "nl": "Johnny should not have littered.", "fol": null}
-{"id": "enwn_validation_200", "nl": "If you see someone struggling to do something, you should help them.", "fol": null}
-{"id": "enwn_validation_201", "nl": "Josh is holding groceries in both hands at the door.", "fol": null}
-{"id": "enwn_validation_202", "nl": "If you are holding something with both hands, you will struggle to open doors.", "fol": null}
-{"id": "enwn_validation_203", "nl": "Amy can see Josh.", "fol": null}
-{"id": "enwn_validation_204", "nl": "Josh is struggling to open the door.", "fol": null}
-{"id": "enwn_validation_205", "nl": "Amy can see Josh struggling to open the door.", "fol": null}
-{"id": "enwn_validation_206", "nl": "Amy should help Josh open the door.", "fol": null}
-{"id": "enwn_validation_207", "nl": "You should avoid harming someone else or yourself.", "fol": null}
-{"id": "enwn_validation_208", "nl": "Driving dangerously can harm you or someone else.", "fol": null}
-{"id": "enwn_validation_209", "nl": "Dani drove home from the bar after drinking alcohol.", "fol": null}
-{"id": "enwn_validation_210", "nl": "Driving after drinking alcohol is dangerous.", "fol": null}
-{"id": "enwn_validation_211", "nl": "Dani drove home dangerously.", "fol": null}
-{"id": "enwn_validation_212", "nl": "Dani could have harmed themself or someone else by driving home.", "fol": null}
-{"id": "enwn_validation_213", "nl": "Dani should not have driven home.", "fol": null}
-{"id": "enwn_validation_214", "nl": "You should not copy other peoples work and claim it as your own.", "fol": null}
-{"id": "enwn_validation_215", "nl": "Copyright infringement is using protected works of another person without permission.", "fol": null}
-{"id": "enwn_validation_216", "nl": "Ryan did not ask the band Super Cool for permission to use their song.", "fol": null}
-{"id": "enwn_validation_217", "nl": "Ryan made a video.", "fol": null}
-{"id": "enwn_validation_218", "nl": "Ryan used a song from the band Super Cool in the video.", "fol": null}
-{"id": "enwn_validation_219", "nl": "All songs by Super Cool are protected work.", "fol": null}
-{"id": "enwn_validation_220", "nl": "You should not copy protected work from other people because that's copyright infringement.", "fol": null}
-{"id": "enwn_validation_221", "nl": "Ryan made a video and used a song from a band called Super Cool.", "fol": null}
-{"id": "enwn_validation_222", "nl": "Ryan used Super Cool's song without getting permission from the band first.", "fol": null}
-{"id": "enwn_validation_223", "nl": "Ryan used Super Cool's protected work without getting permission from the band first.", "fol": null}
-{"id": "enwn_validation_224", "nl": "Ryan should not have used Super Cool's song because he committed copyright infringement.", "fol": null}
-{"id": "enwn_validation_225", "nl": "Scaring people is mean and rude unless you have a good reason.", "fol": null}
-{"id": "enwn_validation_226", "nl": "You generally do not want to do mean or rude things to people.", "fol": null}
-{"id": "enwn_validation_227", "nl": "Luke yelled fire for fun.", "fol": null}
-{"id": "enwn_validation_228", "nl": "Yelling fire for fun is not a good reason to yell fire.", "fol": null}
-{"id": "enwn_validation_229", "nl": "When you yell fire for without a good reason, you scare everyone around you.", "fol": null}
-{"id": "enwn_validation_230", "nl": "You should not scare people without good reason.", "fol": null}
-{"id": "enwn_validation_231", "nl": "Luke yelled fire without a good reason.", "fol": null}
-{"id": "enwn_validation_232", "nl": "Luke scared everyone around him without a good reason.", "fol": null}
-{"id": "enwn_validation_233", "nl": "Luke should not have yelled fire.", "fol": null}
-{"id": "enwn_validation_234", "nl": "Even though you won't be punished, you should not do bad things.", "fol": null}
-{"id": "enwn_validation_235", "nl": "If no one sees you do something bad, you won't get punished.", "fol": null}
-{"id": "enwn_validation_236", "nl": "Mike can steal the wallet.", "fol": null}
-{"id": "enwn_validation_237", "nl": "When you turn away from something you cannot see it.", "fol": null}
-{"id": "enwn_validation_238", "nl": "Josh turned away from Mike and the wallet.", "fol": null}
-{"id": "enwn_validation_239", "nl": "Stealing is bad.", "fol": null}
-{"id": "enwn_validation_240", "nl": "Josh turned away and cannot see Mike or the wallet.", "fol": null}
-{"id": "enwn_validation_241", "nl": "Mike can steal the wallet without Josh seeing.", "fol": null}
-{"id": "enwn_validation_242", "nl": "Mike can do something bad without Josh seeing.", "fol": null}
-{"id": "enwn_validation_243", "nl": "Mike can do something bad without getting punished.", "fol": null}
-{"id": "enwn_validation_244", "nl": "Mike should not do something bad even though he will not get punished.", "fol": null}
-{"id": "enwn_validation_245", "nl": "You should clean messes you create.", "fol": null}
-{"id": "enwn_validation_246", "nl": "If you made a spill, you made a mess.", "fol": null}
-{"id": "enwn_validation_247", "nl": "Amy dropped her ice-cream on the floor and did not clean it.", "fol": null}
-{"id": "enwn_validation_248", "nl": "If you drop ice cream on the floor, you make a spill.", "fol": null}
-{"id": "enwn_validation_249", "nl": "You should clean spills you made.", "fol": null}
-{"id": "enwn_validation_250", "nl": "Amy made a spill and did not clean it.", "fol": null}
-{"id": "enwn_validation_251", "nl": "Amy should have cleaned her spill.", "fol": null}
-{"id": "enwn_validation_252", "nl": "Helping hurt animals is a good thing to do.", "fol": null}
-{"id": "enwn_validation_253", "nl": "If you mend something, you are helping the thing that something belongs to.", "fol": null}
-{"id": "enwn_validation_254", "nl": "Setting a cast is a way to mend a wound.", "fol": null}
-{"id": "enwn_validation_255", "nl": "Dan put a cast around the hurt dogs broken leg.", "fol": null}
-{"id": "enwn_validation_256", "nl": "Dan mended the hurt dog's leg.", "fol": null}
-{"id": "enwn_validation_257", "nl": "Dan helped the hurt dog.", "fol": null}
-{"id": "enwn_validation_258", "nl": "Dan did a good thing.", "fol": null}
-{"id": "enwn_validation_259", "nl": "You should not annoy other people.", "fol": null}
-{"id": "enwn_validation_260", "nl": "Loud music will cause other people that are around to be annoyed.", "fol": null}
-{"id": "enwn_validation_261", "nl": "Ned is playing music loudly.", "fol": null}
-{"id": "enwn_validation_262", "nl": "Ned and Brad are around each other.", "fol": null}
-{"id": "enwn_validation_263", "nl": "You should not play loud music with other people around because it will annoy them.", "fol": null}
-{"id": "enwn_validation_264", "nl": "Ned is playing his music loud around Brad.", "fol": null}
-{"id": "enwn_validation_265", "nl": "Ned should not play his music because it will annoy Brad.", "fol": null}
-{"id": "enwn_validation_266", "nl": "Forcing someone to give you something is wrong.", "fol": null}
-{"id": "enwn_validation_267", "nl": "You should not do wrong things.", "fol": null}
-{"id": "enwn_validation_268", "nl": "Keith bullied Gunner until Gunner gave his lunch money to Keith.", "fol": null}
-{"id": "enwn_validation_269", "nl": "Bullying is a form of harassment.", "fol": null}
-{"id": "enwn_validation_270", "nl": "If you continuously harass someone until they do something, you forced them to do that thing.", "fol": null}
-{"id": "enwn_validation_271", "nl": "You should not force someone to give you something.", "fol": null}
-{"id": "enwn_validation_272", "nl": "Keith harassed Gunner until Gunner gave his lunch money to Keith.", "fol": null}
-{"id": "enwn_validation_273", "nl": "Keith forced Gunner to give Keith his lunch money.", "fol": null}
-{"id": "enwn_validation_274", "nl": "Keith should not have forced Gunner to give Keith his lunch money.", "fol": null}
-{"id": "enwn_validation_275", "nl": "If you agree to do something, you should do it.", "fol": null}
-{"id": "enwn_validation_276", "nl": "Chad agreed to work but is playing instead.", "fol": null}
-{"id": "enwn_validation_277", "nl": "If you agree to do something but are doing something else, you are not doing what you agreed to do.", "fol": null}
-{"id": "enwn_validation_278", "nl": "Chad agreed to work but is not working.", "fol": null}
-{"id": "enwn_validation_279", "nl": "Chad should be working.", "fol": null}
-{"id": "enwn_validation_280", "nl": "Lewis earned wages over the year.", "fol": null}
-{"id": "enwn_validation_281", "nl": "If you earn wages over the year, you have taxes on those wages.", "fol": null}
-{"id": "enwn_validation_282", "nl": "Paying taxes is a law.", "fol": null}
-{"id": "enwn_validation_283", "nl": "You should obey the law.", "fol": null}
-{"id": "enwn_validation_284", "nl": "Breaking the law is a crime.", "fol": null}
-{"id": "enwn_validation_285", "nl": "Lewis has taxes on wages he earned over the year.", "fol": null}
-{"id": "enwn_validation_286", "nl": "Paying taxes is a law that you should obey.", "fol": null}
-{"id": "enwn_validation_287", "nl": "It is a crime to not pay your taxes.", "fol": null}
-{"id": "enwn_validation_288", "nl": "Lewis will commit a crime if he does not pay his taxes.", "fol": null}
-{"id": "enwn_validation_289", "nl": "You should fulfill your promises.", "fol": null}
-{"id": "enwn_validation_290", "nl": "Evan said he would help Rose.", "fol": null}
-{"id": "enwn_validation_291", "nl": "If you say you will do something, you promise to do that thing.", "fol": null}
-{"id": "enwn_validation_292", "nl": "Evan promised to help Rose.", "fol": null}
-{"id": "enwn_validation_293", "nl": "Evan should help Rose.", "fol": null}
-{"id": "enwn_validation_294", "nl": "Erin argued for her answer after it was proven wrong.", "fol": null}
-{"id": "enwn_validation_295", "nl": "If you argue when you are wrong, you do not accept that you are wrong.", "fol": null}
-{"id": "enwn_validation_296", "nl": "If you can't accept that you are wrong, you lack humility.", "fol": null}
-{"id": "enwn_validation_297", "nl": "You should have humility.", "fol": null}
-{"id": "enwn_validation_298", "nl": "Erin did not accept that she was wrong.", "fol": null}
-{"id": "enwn_validation_299", "nl": "Erin lacks humility.", "fol": null}
-{"id": "enwn_validation_300", "nl": "Erin should have humility.", "fol": null}
-{"id": "enwn_validation_301", "nl": "You should not intentionally mislead people.", "fol": null}
-{"id": "enwn_validation_302", "nl": "You knowingly told John incorrect information.", "fol": null}
-{"id": "enwn_validation_303", "nl": "If you do something that you know is incorrect, you did that on purpose.", "fol": null}
-{"id": "enwn_validation_304", "nl": "Telling someone incorrect information is misleading them.", "fol": null}
-{"id": "enwn_validation_305", "nl": "If you do something on purpose, you did that thing intentionally.", "fol": null}
-{"id": "enwn_validation_306", "nl": "You told John incorrect information on purpose.", "fol": null}
-{"id": "enwn_validation_307", "nl": "You misled John on purpose.", "fol": null}
-{"id": "enwn_validation_308", "nl": "You intentionally misled John.", "fol": null}
-{"id": "enwn_validation_309", "nl": "You should not have misled John intentionally.", "fol": null}
-{"id": "enwn_validation_310", "nl": "You should only fire someone if you have a good reason.", "fol": null}
-{"id": "enwn_validation_311", "nl": "Bob fired Peter because Peter had different ideas than Bob.", "fol": null}
-{"id": "enwn_validation_312", "nl": "If two people have different ideas, they do not agree with each other.", "fol": null}
-{"id": "enwn_validation_313", "nl": "Not agreeing with someone is not a good reason to fire them.", "fol": null}
-{"id": "enwn_validation_314", "nl": "Bob fired Peter because they do not agree.", "fol": null}
-{"id": "enwn_validation_315", "nl": "Bob fired Peter without a good reason.", "fol": null}
-{"id": "enwn_validation_316", "nl": "Bob should not have fired Peter.", "fol": null}
-{"id": "enwn_validation_317", "nl": "Superiors give orders and expect you to follow them.", "fol": null}
-{"id": "enwn_validation_318", "nl": "If an order is unjust, you should disobey those orders.", "fol": null}
-{"id": "enwn_validation_319", "nl": "If you follow an order to commit a crime, you followed an unjust order.", "fol": null}
-{"id": "enwn_validation_320", "nl": "If you did the thing you are ordered to do from someone else, you followed the order given by that someone.", "fol": null}
-{"id": "enwn_validation_321", "nl": "If a superior tells you to do something, that thing is an order.", "fol": null}
-{"id": "enwn_validation_322", "nl": "Sara committed fraud because her boss told her to.", "fol": null}
-{"id": "enwn_validation_323", "nl": "Fraud is a crime.", "fol": null}
-{"id": "enwn_validation_324", "nl": "If someone is your boss, then they are your superior.", "fol": null}
-{"id": "enwn_validation_325", "nl": "You should disobey orders from superiors if they are unjust.", "fol": null}
-{"id": "enwn_validation_326", "nl": "Sara committed a crime  because her boss told her to.", "fol": null}
-{"id": "enwn_validation_327", "nl": "Sara committed a crime  because her superior told her to.", "fol": null}
-{"id": "enwn_validation_328", "nl": "Sara committed a crime because her superior ordered her to.", "fol": null}
-{"id": "enwn_validation_329", "nl": "Sara followed her order to commit a crime given by her superior.", "fol": null}
-{"id": "enwn_validation_330", "nl": "Sara followed an unjust order given by her superior.", "fol": null}
-{"id": "enwn_validation_331", "nl": "Sara should have disobeyed her superiors unjust orders.", "fol": null}
-{"id": "enwn_validation_332", "nl": "If you are cheating, you should tell your partner and stop cheating.", "fol": null}
-{"id": "enwn_validation_333", "nl": "Stan is seeing Olivia but is partnered with Ellie.", "fol": null}
-{"id": "enwn_validation_334", "nl": "If you are seeing someone other than your partner, then you are cheating on your partner.", "fol": null}
-{"id": "enwn_validation_335", "nl": "Stan is cheating on his partner.", "fol": null}
-{"id": "enwn_validation_336", "nl": "Stan should stop cheating and tell his partner.", "fol": null}
-{"id": "enwn_validation_337", "nl": "If you hurt someone over a rude remark then you lost your temper.", "fol": null}
-{"id": "enwn_validation_338", "nl": "Jake punched Jim when Jim said Jake's shirt was stupid.", "fol": null}
-{"id": "enwn_validation_339", "nl": "Saying something is stupid is considered a rude remark.", "fol": null}
-{"id": "enwn_validation_340", "nl": "You should control your emotions and not hurt someone because you lost your temper.", "fol": null}
-{"id": "enwn_validation_341", "nl": "Jake punched Jim when Jim made a rude remark about Jake's shirt.", "fol": null}
-{"id": "enwn_validation_342", "nl": "Jake lost his temper and hurt Jim over a rude remark.", "fol": null}
-{"id": "enwn_validation_343", "nl": "Jake should have controlled his emotions and not hurt Jim.", "fol": null}
-{"id": "enwn_validation_344", "nl": "Henry moved his golf ball out of the rough.", "fol": null}
-{"id": "enwn_validation_345", "nl": "Henry didn't take a penalty stroke or tell anyone when he was moving his ball.", "fol": null}
-{"id": "enwn_validation_346", "nl": "In golf, if you move your ball without telling anyone or taking a penalty stroke, you cheat.", "fol": null}
-{"id": "enwn_validation_347", "nl": "Cheating in a game is disrespectful to the other players.", "fol": null}
-{"id": "enwn_validation_348", "nl": "Henry moved his golf ball out of the rough without telling anyone or taking a penalty stroke.", "fol": null}
-{"id": "enwn_validation_349", "nl": "Henry cheated at golf.", "fol": null}
-{"id": "enwn_validation_350", "nl": "Henry disrespected the other golf players.", "fol": null}
-{"id": "enwn_validation_351", "nl": "Oswald realized his stocks would soon be worthless, putting him in debt.", "fol": null}
-{"id": "enwn_validation_352", "nl": "To avoid debt, Oswald sold his stocks to other people.", "fol": null}
-{"id": "enwn_validation_353", "nl": "It is deceitful to sell something when it has no value.", "fol": null}
-{"id": "enwn_validation_354", "nl": "You should not do deceitful things.", "fol": null}
-{"id": "enwn_validation_355", "nl": "Oswald sold stocks that he knew had no value to other people.", "fol": null}
-{"id": "enwn_validation_356", "nl": "If you know something has no value, you should not sell that thing.", "fol": null}
-{"id": "enwn_validation_357", "nl": "Oswald should not have sold those stocks.", "fol": null}
-{"id": "enwn_validation_358", "nl": "Jeff took candy from a child in the park.", "fol": null}
-{"id": "enwn_validation_359", "nl": "Children are often considered helpless due to their age.", "fol": null}
-{"id": "enwn_validation_360", "nl": "Stealing from the helpless is taking advantage of them.", "fol": null}
-{"id": "enwn_validation_361", "nl": "Taking advantage of someone is considered being cruel.", "fol": null}
-{"id": "enwn_validation_362", "nl": "Jeff took candy from a helpless child in the park.", "fol": null}
-{"id": "enwn_validation_363", "nl": "Stealing from the helpless is considered being cruel.", "fol": null}
-{"id": "enwn_validation_364", "nl": "It was cruel of Jeff to steal candy from the child.", "fol": null}
-{"id": "enwn_validation_365", "nl": "Lois let her dog poop on her neighbors lawn.", "fol": null}
-{"id": "enwn_validation_366", "nl": "Lois never picks up her dog's poop because she thinks it's gross.", "fol": null}
-{"id": "enwn_validation_367", "nl": "Leaving a mess requires someone else to clean it.", "fol": null}
-{"id": "enwn_validation_368", "nl": "Dog poop is a mess.", "fol": null}
-{"id": "enwn_validation_369", "nl": "It is inconsiderate to make someone else account for your responsibilities.", "fol": null}
-{"id": "enwn_validation_370", "nl": "Avoiding your responsibilities requires someone else to account for them.", "fol": null}
-{"id": "enwn_validation_371", "nl": "Lois did not pick up her dog's poop on the neighbors lawn.", "fol": null}
-{"id": "enwn_validation_372", "nl": "Dog poop is a mess that needs to be cleaned by someone.", "fol": null}
-{"id": "enwn_validation_373", "nl": "Lois left a mess that needs to be cleaned by someone.", "fol": null}
-{"id": "enwn_validation_374", "nl": "Avoiding your responsibilities is inconsiderate.", "fol": null}
-{"id": "enwn_validation_375", "nl": "You are avoiding your responsibilities when you leave a mess for someone else.", "fol": null}
-{"id": "enwn_validation_376", "nl": "Leaving a mess for someone else to clean is being inconsiderate.", "fol": null}
-{"id": "enwn_validation_377", "nl": "Lois is inconsiderate.", "fol": null}
-{"id": "enwn_validation_378", "nl": "Joshua likes driving an extremely loud car in the middle of the night because it wakes people up.", "fol": null}
-{"id": "enwn_validation_379", "nl": "Making things unpleasant for someone is rude.", "fol": null}
-{"id": "enwn_validation_380", "nl": "Waking someone up at night prevents them from getting a full night's rest.", "fol": null}
-{"id": "enwn_validation_381", "nl": "Not getting a full night's rest is unpleasant.", "fol": null}
-{"id": "enwn_validation_382", "nl": "If you like to be rude, you're a rude person.", "fol": null}
-{"id": "enwn_validation_383", "nl": "Waking someone up at night can be unpleasant for that person.", "fol": null}
-{"id": "enwn_validation_384", "nl": "It is rude to wake people up at night.", "fol": null}
-{"id": "enwn_validation_385", "nl": "Joshua likes to be rude.", "fol": null}
-{"id": "enwn_validation_386", "nl": "Joshua is a rude person.", "fol": null}
-{"id": "enwn_validation_387", "nl": "Katie used her neighbors' internet access without their permission.", "fol": null}
-{"id": "enwn_validation_388", "nl": "Using someone's internet access doesn't prevent them from using it.", "fol": null}
-{"id": "enwn_validation_389", "nl": "It's wrong to deprive someone of their property.", "fol": null}
-{"id": "enwn_validation_390", "nl": "Katie didn't deprive her neighbors of their internet by using it without their permission.", "fol": null}
-{"id": "enwn_validation_391", "nl": "It was okay for Katie to use her neighbors' internet.", "fol": null}
-{"id": "enwn_validation_392", "nl": "Pushing people out of your way is an impatient thing to do.", "fol": null}
-{"id": "enwn_validation_393", "nl": "Patience is a virtue.", "fol": null}
-{"id": "enwn_validation_394", "nl": "People should be virtuous.", "fol": null}
-{"id": "enwn_validation_395", "nl": "Letty shoved Cathleen out of the way when walking through a doorway.", "fol": null}
-{"id": "enwn_validation_396", "nl": "People should be patient.", "fol": null}
-{"id": "enwn_validation_397", "nl": "You shouldn't push people out of your way.", "fol": null}
-{"id": "enwn_validation_398", "nl": "Letty should not have shoved Cathleen.", "fol": null}
-{"id": "enwn_validation_399", "nl": "The professor hugged the student without asking permission.", "fol": null}
-{"id": "enwn_validation_400", "nl": "It is not respectful to do things to people without their permission.", "fol": null}
-{"id": "enwn_validation_401", "nl": "You should respect people.", "fol": null}
-{"id": "enwn_validation_402", "nl": "It was disrespectful of the professor to hug the student.", "fol": null}
-{"id": "enwn_validation_403", "nl": "The professor should not have hugged the student.", "fol": null}
-{"id": "enwn_validation_404", "nl": "Knowing the paper's authors does not reflect the paper's merit.", "fol": null}
-{"id": "enwn_validation_405", "nl": "You should score \npapers based on merit.", "fol": null}
-{"id": "enwn_validation_406", "nl": "Andy gave a high score to the paper because he knew the authors.", "fol": null}
-{"id": "enwn_validation_407", "nl": "Giving a high score to a paper because you know the authors is wrong.", "fol": null}
-{"id": "enwn_validation_408", "nl": "Andy should not have scored the paper based on how well he knew the authors.", "fol": null}
-{"id": "enwn_validation_409", "nl": "Throwing things out of frustration is an example of having a temper tantrum.", "fol": null}
-{"id": "enwn_validation_410", "nl": "People should not let their emotions get out of control.", "fol": null}
-{"id": "enwn_validation_411", "nl": "Having a temper tantrum in public means you are not in control of your emotions.", "fol": null}
-{"id": "enwn_validation_412", "nl": "Martha threw a chair out of frustration while she was at the DMV.", "fol": null}
-{"id": "enwn_validation_413", "nl": "The DMV is a public location.", "fol": null}
-{"id": "enwn_validation_414", "nl": "People should not have temper tantrums in public.", "fol": null}
-{"id": "enwn_validation_415", "nl": "People shouldn't throw things in public out of frustration.", "fol": null}
-{"id": "enwn_validation_416", "nl": "Martha thew a chair out of frustration in public.", "fol": null}
-{"id": "enwn_validation_417", "nl": "Martha should not have thrown the chair.", "fol": null}
-{"id": "enwn_validation_418", "nl": "Not helping someone in trouble is allowing a bad thing to happen to them.", "fol": null}
-{"id": "enwn_validation_419", "nl": "Allowing a bad thing to happen to someone is considered harming them.", "fol": null}
-{"id": "enwn_validation_420", "nl": "You should not do something that harms someone else.", "fol": null}
-{"id": "enwn_validation_421", "nl": "Joey cried out for help when he was being bullied.", "fol": null}
-{"id": "enwn_validation_422", "nl": "Jan heard Joey but didn't do anything.", "fol": null}
-{"id": "enwn_validation_423", "nl": "Not helping someone in trouble is considered harming them.", "fol": null}
-{"id": "enwn_validation_424", "nl": "You should help people in trouble.", "fol": null}
-{"id": "enwn_validation_425", "nl": "Jan heard Joey crying for help but didn't do anything.", "fol": null}
-{"id": "enwn_validation_426", "nl": "Jan should have helped Joey.", "fol": null}
-{"id": "enwn_validation_427", "nl": "Mark took his kids out of school to help him beg other people for money.", "fol": null}
-{"id": "enwn_validation_428", "nl": "Asking people for money is a way to make money.", "fol": null}
-{"id": "enwn_validation_429", "nl": "Removing your kids from school is detrimental to them.", "fol": null}
-{"id": "enwn_validation_430", "nl": "To exploit someone is the action or fact of treating someone unfairly in order to benefit from their work.", "fol": null}
-{"id": "enwn_validation_431", "nl": "You should treat people fairly.", "fol": null}
-{"id": "enwn_validation_432", "nl": "Mark took his kids out of school to help him make money.", "fol": null}
-{"id": "enwn_validation_433", "nl": "Mark is using his children to get money at their expense.", "fol": null}
-{"id": "enwn_validation_434", "nl": "Mark is exploiting his children.", "fol": null}
-{"id": "enwn_validation_435", "nl": "You should not exploit people.", "fol": null}
-{"id": "enwn_validation_436", "nl": "Mark should not be exploiting his children.", "fol": null}
-{"id": "enwn_validation_437", "nl": "Deciding not to hire someone on the basis of their traits is one kind of discrimination.", "fol": null}
-{"id": "enwn_validation_438", "nl": "It is unjust to discriminate on the basis of pregnancy.", "fol": null}
-{"id": "enwn_validation_439", "nl": "You should treat people justly.\n", "fol": null}
-{"id": "enwn_validation_440", "nl": "Victor did not hire Maddie because she was going on maternity leave soon.", "fol": null}
-{"id": "enwn_validation_441", "nl": "If someone is going on maternity leave then they are pregnant.", "fol": null}
-{"id": "enwn_validation_442", "nl": "You shouldn't discriminate on the basis of pregnancy.", "fol": null}
-{"id": "enwn_validation_443", "nl": "You shouldn't base hiring decisions off of whether or not someone is pregnant.", "fol": null}
-{"id": "enwn_validation_444", "nl": "Victor decided not to hire Maddie based on her pregnancy.", "fol": null}
-{"id": "enwn_validation_445", "nl": "Victor should not have based his decision off of Maddie's pregnancy.", "fol": null}
-{"id": "enwn_validation_446", "nl": "If you're rude to people who hold a certain view, it means you don't respect that view.", "fol": null}
-{"id": "enwn_validation_447", "nl": "Religion is a kind of personal preference.", "fol": null}
-{"id": "enwn_validation_448", "nl": "You should be tolerant.", "fol": null}
-{"id": "enwn_validation_449", "nl": "Respecting other people's preferences is a form of tolerance.", "fol": null}
-{"id": "enwn_validation_450", "nl": "Eugene is rude to people who do not share his religion.", "fol": null}
-{"id": "enwn_validation_451", "nl": "If you're rude to people because of the religion they hold, it means you don't respect their religion.", "fol": null}
-{"id": "enwn_validation_452", "nl": "You should respect other people's preferences.", "fol": null}
-{"id": "enwn_validation_453", "nl": "You should respect other people's religious preferences.", "fol": null}
-{"id": "enwn_validation_454", "nl": "You should not be rude to people because of the religion they hold.", "fol": null}
-{"id": "enwn_validation_455", "nl": "Eugene should not be rude to people who do not share his religion.", "fol": null}
-{"id": "enwn_validation_456", "nl": "Intruding on people is disrespecting their privacy.", "fol": null}
-{"id": "enwn_validation_457", "nl": "You should respect people's privacy.", "fol": null}
-{"id": "enwn_validation_458", "nl": "Knocking on someone's door when they do not wish to be disturbed is intrusive.", "fol": null}
-{"id": "enwn_validation_459", "nl": "Sandra constantly ignores \"No Solicitation\" signs and knocks on people's doors.", "fol": null}
-{"id": "enwn_validation_460", "nl": "You shouldn't intrude on people.", "fol": null}
-{"id": "enwn_validation_461", "nl": "Sandra intrudes on people.", "fol": null}
-{"id": "enwn_validation_462", "nl": "Sandra should not intrude on people.", "fol": null}
-{"id": "enwn_validation_463", "nl": "Martin kicked his dog to make it stop barking.", "fol": null}
-{"id": "enwn_validation_464", "nl": "Kicking an animal hurts it.", "fol": null}
-{"id": "enwn_validation_465", "nl": "Hurting people or animals is considered abuse.", "fol": null}
-{"id": "enwn_validation_466", "nl": "You should not abuse any living thing.", "fol": null}
-{"id": "enwn_validation_467", "nl": "Martin hurt his dog.", "fol": null}
-{"id": "enwn_validation_468", "nl": "You should not hurt animals.", "fol": null}
-{"id": "enwn_validation_469", "nl": "Martin should not have hurt his dog.", "fol": null}
-{"id": "enwn_validation_470", "nl": "If you think your college didn't prepare you for your job then you lack self-assurance in your abilities.", "fol": null}
-{"id": "enwn_validation_471", "nl": "Cindy doesn't think her college was good enough for her current job. ", "fol": null}
-{"id": "enwn_validation_472", "nl": "Confidence is a feeling of self-assurance arising from one's appreciation of one's own abilities or qualities.", "fol": null}
-{"id": "enwn_validation_473", "nl": "Being confident allows you to feel ready for life's experiences.", "fol": null}
-{"id": "enwn_validation_474", "nl": "It's important to feel ready for life's experiences.", "fol": null}
-{"id": "enwn_validation_475", "nl": "Cindy has a lack of self-assurance in her abilities.", "fol": null}
-{"id": "enwn_validation_476", "nl": "Cindy lacks confidence.", "fol": null}
-{"id": "enwn_validation_477", "nl": "It's important to be confident.", "fol": null}
-{"id": "enwn_validation_478", "nl": "Cindy should try to be more confident.", "fol": null}
-{"id": "enwn_validation_479", "nl": "Personal beliefs aren't a good reason to disobey the law.", "fol": null}
-{"id": "enwn_validation_480", "nl": "The law stipulates you must report your income.", "fol": null}
-{"id": "enwn_validation_481", "nl": "John did not report his income because he does not believe taxes are justified.", "fol": null}
-{"id": "enwn_validation_482", "nl": "Personal beliefs aren't a good reason to avoid reporting your income.", "fol": null}
-{"id": "enwn_validation_483", "nl": "John should have reported his income.", "fol": null}
-{"id": "enwn_validation_484", "nl": "Corey went to work while she was sick during a pandemic.", "fol": null}
-{"id": "enwn_validation_485", "nl": "If you do something while sick you are prioritizing that thing over your health.", "fol": null}
-{"id": "enwn_validation_486", "nl": "Everyone prioritizing health helps stop disease from spreading.", "fol": null}
-{"id": "enwn_validation_487", "nl": "It's important to stop the spread of disease, especially when health risk is elevated.", "fol": null}
-{"id": "enwn_validation_488", "nl": "A pandemic is a disease that is prevalent over a whole country or the world.", "fol": null}
-{"id": "enwn_validation_489", "nl": "A disease that can effect the whole world escalates health risks for everyone.", "fol": null}
-{"id": "enwn_validation_490", "nl": "Corey prioritized work over her health during a pandemic.", "fol": null}
-{"id": "enwn_validation_491", "nl": "Health should be everyone's priority, especially when health risk is elevated.", "fol": null}
-{"id": "enwn_validation_492", "nl": "A pandemic escalates health risks for everyone.", "fol": null}
-{"id": "enwn_validation_493", "nl": "During a pandemic, health should be everyone's top priority.", "fol": null}
-{"id": "enwn_validation_494", "nl": "Corey had the wrong priorities.", "fol": null}
-{"id": "enwn_validation_495", "nl": "Ryan made fun of Stew's favorite TV show in front of others.", "fol": null}
-{"id": "enwn_validation_496", "nl": "If you are in front of others then you are in public.", "fol": null}
-{"id": "enwn_validation_497", "nl": "Making fun of something that someone else likes can make that person feel ashamed and foolish.", "fol": null}
-{"id": "enwn_validation_498", "nl": "To humiliate someone is to make someone feel ashamed and foolish by injuring their dignity and self-respect, especially publicly.", "fol": null}
-{"id": "enwn_validation_499", "nl": "Humiliation is a form of harm.", "fol": null}
-{"id": "enwn_validation_500", "nl": "Ryan made fun of Stew's favorite TV show in public.", "fol": null}
-{"id": "enwn_validation_501", "nl": "Ryan made Stew feel ashamed and foolish in public.", "fol": null}
-{"id": "enwn_validation_502", "nl": "Ryan humiliated Stew.", "fol": null}
-{"id": "enwn_validation_503", "nl": "You should not humiliate someone else.", "fol": null}
-{"id": "enwn_validation_504", "nl": "Ryan should not have humiliated Stew.", "fol": null}
-{"id": "enwn_validation_505", "nl": "Henry was dumped by Chloe and thought it was unfair of her so he is planning to deface her Facebook page.", "fol": null}
-{"id": "enwn_validation_506", "nl": "If someone does something to you that feels unfair then you feel wronged by that person.", "fol": null}
-{"id": "enwn_validation_507", "nl": "Defacing someone's social media page is a way of harming them.", "fol": null}
-{"id": "enwn_validation_508", "nl": "Planning to inflict harm on someone for a wrong suffered at their hand is called seeking revenge.", "fol": null}
-{"id": "enwn_validation_509", "nl": "It is better to heal than to hurt others.", "fol": null}
-{"id": "enwn_validation_510", "nl": "When you feel wronged by someone, forgiving and forgetting is a way of healing.", "fol": null}
-{"id": "enwn_validation_511", "nl": "Henry felt wronged by Chloe and was planning to deface her Facebook page.", "fol": null}
-{"id": "enwn_validation_512", "nl": "Henry felt wronged by Chloe and was planning to inflict harm on her.", "fol": null}
-{"id": "enwn_validation_513", "nl": "Henry is seeking revenge.", "fol": null}
-{"id": "enwn_validation_514", "nl": "When you feel wronged, it is better to forgive and forget than to hurt those who wronged you.", "fol": null}
-{"id": "enwn_validation_515", "nl": "It is better to forgive and forget than to seek revenge.", "fol": null}
-{"id": "enwn_validation_516", "nl": "Henry should forgive and forget instead of seeking revenge.", "fol": null}
-{"id": "enwn_validation_517", "nl": "Slandering is damaging to a person's reputation.", "fol": null}
-{"id": "enwn_validation_518", "nl": "Damaging someone's reputation is harmful to them.", "fol": null}
-{"id": "enwn_validation_519", "nl": "Paul slandered Jimmy in his magazine to increase sales.", "fol": null}
-{"id": "enwn_validation_520", "nl": "Slandering someone is harmful to them.", "fol": null}
-{"id": "enwn_validation_521", "nl": "You should not slander someone.", "fol": null}
-{"id": "enwn_validation_522", "nl": "Paul should not have slandered Jimmy.", "fol": null}
-{"id": "enwn_validation_523", "nl": "Mocking someone is intentionally aggravating them.", "fol": null}
-{"id": "enwn_validation_524", "nl": "Intentionally aggravating someone is not encouraging positive discourse.", "fol": null}
-{"id": "enwn_validation_525", "nl": "We should encourage positive discourse.", "fol": null}
-{"id": "enwn_validation_526", "nl": "Walter mocked the rally participants because he disagreed with their political ideology.", "fol": null}
-{"id": "enwn_validation_527", "nl": "You shouldn't intentionally aggravate people.", "fol": null}
-{"id": "enwn_validation_528", "nl": "You shouldn't mock people.", "fol": null}
-{"id": "enwn_validation_529", "nl": "Walter should not have mocked the rally participants.", "fol": null}
-{"id": "enwn_validation_530", "nl": "You should not harm others.", "fol": null}
-{"id": "enwn_validation_531", "nl": "Being considerate means you are careful to avoid hurting others.", "fol": null}
-{"id": "enwn_validation_532", "nl": "If you do something that is inconvenient for others then you are being inconsiderate.", "fol": null}
-{"id": "enwn_validation_533", "nl": "Justin quit his job after giving notice one day in advance.", "fol": null}
-{"id": "enwn_validation_534", "nl": "Giving less than two weeks' notice before leaving your job is not enough warning.", "fol": null}
-{"id": "enwn_validation_535", "nl": "Someone leaving their job without sufficient warning is inconvenient for their coworkers.", "fol": null}
-{"id": "enwn_validation_536", "nl": "You should be considerate.", "fol": null}
-{"id": "enwn_validation_537", "nl": "You should not inconvenience others.", "fol": null}
-{"id": "enwn_validation_538", "nl": "Justin did not give enough warning before quitting.", "fol": null}
-{"id": "enwn_validation_539", "nl": "Justin quitting was inconvenient for his coworkers.", "fol": null}
-{"id": "enwn_validation_540", "nl": "Justin should not have inconvenienced his coworkers.", "fol": null}
-{"id": "enwn_validation_541", "nl": "If you're unreasonably angry at something taking too long, you're impatient.", "fol": null}
-{"id": "enwn_validation_542", "nl": "Gabriel was angry at the server for taking too long even though the restaurant was understaffed.", "fol": null}
-{"id": "enwn_validation_543", "nl": "When someone has to do a lot, it's reasonable for it to take a long time.", "fol": null}
-{"id": "enwn_validation_544", "nl": "When a restaurant is understaffed, the servers have a lot to do.", "fol": null}
-{"id": "enwn_validation_545", "nl": "When a restaurant is understaffed, it's reasonable for the servers to take a long time.", "fol": null}
-{"id": "enwn_validation_546", "nl": "Gabriel was unreasonably angry that the server took too long.", "fol": null}
-{"id": "enwn_validation_547", "nl": "Gabriel was impatient with the server.", "fol": null}
-{"id": "enwn_validation_548", "nl": "Gabriel should have been patient with the server.", "fol": null}
-{"id": "enwn_validation_549", "nl": "Luke let his partners handle the group project.", "fol": null}
-{"id": "enwn_validation_550", "nl": "If you let other people handle something then you are not helping on that thing.", "fol": null}
-{"id": "enwn_validation_551", "nl": "A group project requires multiple people to do work.", "fol": null}
-{"id": "enwn_validation_552", "nl": "If multiple people are required to do something then it is expected that all those people should help.", "fol": null}
-{"id": "enwn_validation_553", "nl": "You should be trustworthy.", "fol": null}
-{"id": "enwn_validation_554", "nl": "To be trustworthy means you do what is expected of you.", "fol": null}
-{"id": "enwn_validation_555", "nl": "Luke did not help his partners on the group project.", "fol": null}
-{"id": "enwn_validation_556", "nl": "It is expected that everyone on a group project will help.", "fol": null}
-{"id": "enwn_validation_557", "nl": "Luke did not help his partners when it was expected.", "fol": null}
-{"id": "enwn_validation_558", "nl": "If something is expected of you then you should do that thing.", "fol": null}
-{"id": "enwn_validation_559", "nl": "Luke should have helped his partners.", "fol": null}
-{"id": "enwn_validation_560", "nl": "You should only conceive with someone with their consent.", "fol": null}
-{"id": "enwn_validation_561", "nl": "Someone can't consent to something if they're being lied to about it.", "fol": null}
-{"id": "enwn_validation_562", "nl": "Abby told Mark that she was on birth control so that she could get pregnant with him.", "fol": null}
-{"id": "enwn_validation_563", "nl": "Abby was not on birth control.", "fol": null}
-{"id": "enwn_validation_564", "nl": "You shouldn't lie to someone in order to conceive with them.", "fol": null}
-{"id": "enwn_validation_565", "nl": "Abby lied to Mark in order to get pregnant with him.", "fol": null}
-{"id": "enwn_validation_566", "nl": "Abby should not have lied to Mark.", "fol": null}
-{"id": "enwn_validation_567", "nl": "A boss is an authority figure.", "fol": null}
-{"id": "enwn_validation_568", "nl": "Tom spat in his boss's coffee in front of everyone.", "fol": null}
-{"id": "enwn_validation_569", "nl": "Spitting in someone's beverage is rude.", "fol": null}
-{"id": "enwn_validation_570", "nl": "Being insubordinate means disrespecting authority.", "fol": null}
-{"id": "enwn_validation_571", "nl": "Tom was rude to his boss.", "fol": null}
-{"id": "enwn_validation_572", "nl": "Tom was being disrespectful towards an authority figure.", "fol": null}
-{"id": "enwn_validation_573", "nl": "Tom was being insubordinate.", "fol": null}
-{"id": "enwn_validation_574", "nl": "Karen stole a customer's social security number for her own gain.", "fol": null}
-{"id": "enwn_validation_575", "nl": "Stealing a person's social security number is also called stealing their identity.", "fol": null}
-{"id": "enwn_validation_576", "nl": "You shouldn't cause problems for others.", "fol": null}
-{"id": "enwn_validation_577", "nl": "Stealing someone's identity allows the thief to take control of the victim's bank account.", "fol": null}
-{"id": "enwn_validation_578", "nl": "Losing control of your bank account leads to financial problems.", "fol": null}
-{"id": "enwn_validation_579", "nl": "Karen stole the customer's identity.", "fol": null}
-{"id": "enwn_validation_580", "nl": "Stealing someone's identity can cause them financial problems.", "fol": null}
-{"id": "enwn_validation_581", "nl": "You shouldn't steal someone's identity.", "fol": null}
-{"id": "enwn_validation_582", "nl": "Karen should not have stolen the customer's identity.", "fol": null}
-{"id": "enwn_validation_583", "nl": "Jenna's friend didn't give her permission to take any of her stuff.", "fol": null}
-{"id": "enwn_validation_584", "nl": "Jenna took a Clif bar from the pantry.", "fol": null}
-{"id": "enwn_validation_585", "nl": "Jenna's friend bought the Clif bars in the pantry.", "fol": null}
-{"id": "enwn_validation_586", "nl": "Once you buy something, it belongs to you.", "fol": null}
-{"id": "enwn_validation_587", "nl": "You shouldn't take someone else's belongings without their permission.", "fol": null}
-{"id": "enwn_validation_588", "nl": "The Clif bars in the pantry belonged to Jenna's friend.", "fol": null}
-{"id": "enwn_validation_589", "nl": "Jenna took one of her friend's Clif bars.", "fol": null}
-{"id": "enwn_validation_590", "nl": "Jenna took one of her friend's Clif bars without her permission.", "fol": null}
-{"id": "enwn_validation_591", "nl": "Jenna shouldn't have taken the Clif bar.", "fol": null}
-{"id": "enwn_validation_592", "nl": "Rich deducted points from two students because they submitted the same project.", "fol": null}
-{"id": "enwn_validation_593", "nl": "The project worksheet said that everyone was supposed to do the project on their own.", "fol": null}
-{"id": "enwn_validation_594", "nl": "People working independently on a creative task will produce different results.", "fol": null}
-{"id": "enwn_validation_595", "nl": "A school project is a creative task.", "fol": null}
-{"id": "enwn_validation_596", "nl": "Deducting points from a student for violating rules is a valid response.", "fol": null}
-{"id": "enwn_validation_597", "nl": "People working independently on a school project will produce different results.", "fol": null}
-{"id": "enwn_validation_598", "nl": "The two students must have worked together if they produced the same project.", "fol": null}
-{"id": "enwn_validation_599", "nl": "The two students broke the rules by submitting the same project.", "fol": null}
-{"id": "enwn_validation_600", "nl": "Rich deducted points from the students for breaking the rules.", "fol": null}
-{"id": "enwn_validation_601", "nl": "Rich was right to deduct points from the students.", "fol": null}
-{"id": "enwn_validation_602", "nl": "It's okay to sell lost items if you can't find their owner.", "fol": null}
-{"id": "enwn_validation_603", "nl": "Jamie didn't try to find the camera's owner.", "fol": null}
-{"id": "enwn_validation_604", "nl": "Jamie sold the camera on Ebay.", "fol": null}
-{"id": "enwn_validation_605", "nl": "Losing something means leaving it somewhere accidentally.", "fol": null}
-{"id": "enwn_validation_606", "nl": "People don't leave valuables in public on purpose.", "fol": null}
-{"id": "enwn_validation_607", "nl": "Jamie found a camera sitting on a park bench.", "fol": null}
-{"id": "enwn_validation_608", "nl": "Cameras don't put themselves on benches.", "fol": null}
-{"id": "enwn_validation_609", "nl": "If someone left a valuable item in public, they lost it.", "fol": null}
-{"id": "enwn_validation_610", "nl": "Someone left the camera on the park bench.", "fol": null}
-{"id": "enwn_validation_611", "nl": "Someone lost the camera.", "fol": null}
-{"id": "enwn_validation_612", "nl": "Jamie sold a lost camera.", "fol": null}
-{"id": "enwn_validation_613", "nl": "Jamie sold a lost camera without trying to find its owner first.", "fol": null}
-{"id": "enwn_validation_614", "nl": "Jamie should have tried to find the camera's owner before selling it.", "fol": null}
-{"id": "enwn_validation_615", "nl": "Removing bad players from a competitive sports team because they are unskilled is okay.", "fol": null}
-{"id": "enwn_validation_616", "nl": "A player performing poorly in a single game is not conclusive evidence that they are unskilled.", "fol": null}
-{"id": "enwn_validation_617", "nl": "The other players on Cindy's soccer team voted to kick her off the team because she let three goals through in a playoff game.", "fol": null}
-{"id": "enwn_validation_618", "nl": "A goalie's performance is reflected by the number of goals they let through.", "fol": null}
-{"id": "enwn_validation_619", "nl": "Cindy is a goalie.", "fol": null}
-{"id": "enwn_validation_620", "nl": "A player's performance in one game isn't enough of a reason to remove them from a team.", "fol": null}
-{"id": "enwn_validation_621", "nl": "The number of goals Cindy let through is a reflection of her performance.", "fol": null}
-{"id": "enwn_validation_622", "nl": "The other players kicked Cindy off of the team based on her performance in a single game.", "fol": null}
-{"id": "enwn_validation_623", "nl": "The other players shouldn't have kicked Cindy off the team.", "fol": null}
-{"id": "enwn_validation_624", "nl": "You should not discriminate against people on the basis of sexuality.", "fol": null}
-{"id": "enwn_validation_625", "nl": "Doing detrimental things to someone because of their identity is discrimination.", "fol": null}
-{"id": "enwn_validation_626", "nl": "Removing someone from your will is detrimental to them.", "fol": null}
-{"id": "enwn_validation_627", "nl": "Martin's father removed Martin from his will because Martin came out as gay.", "fol": null}
-{"id": "enwn_validation_628", "nl": "You should not do something detrimental to someone because of their sexuality.", "fol": null}
-{"id": "enwn_validation_629", "nl": "You should not remove someone from your will because of their sexuality.", "fol": null}
-{"id": "enwn_validation_630", "nl": "Martin's father should not have removed Martin from his will.", "fol": null}
-{"id": "enwn_validation_631", "nl": "Elaine slapped her brother because he ate the last two pudding cups.", "fol": null}
-{"id": "enwn_validation_632", "nl": "Elaine felt she deserved one of the last two pudding cups.", "fol": null}
-{"id": "enwn_validation_633", "nl": "It's petty to retaliate when someone wrongs you in a minor way.", "fol": null}
-{"id": "enwn_validation_634", "nl": "Taking someone's snacks is wrong, but it doesn't harm them significantly.", "fol": null}
-{"id": "enwn_validation_635", "nl": "You shouldn't hurt people for petty reasons.", "fol": null}
-{"id": "enwn_validation_636", "nl": "Elaine slapped her brother in retaliation for taking her snacks.", "fol": null}
-{"id": "enwn_validation_637", "nl": "It's petty to retaliate against someone for taking your snacks.", "fol": null}
-{"id": "enwn_validation_638", "nl": "Elaine slapped her brother for a petty reason.", "fol": null}
-{"id": "enwn_validation_639", "nl": "Elaine should not have slapped her brother.", "fol": null}
-{"id": "enwn_validation_640", "nl": "You shouldn't insult people for no good reason.", "fol": null}
-{"id": "enwn_validation_641", "nl": "Someone's appearance is not a good reason to insult them.", "fol": null}
-{"id": "enwn_validation_642", "nl": "Calling something dirty is an insult.", "fol": null}
-{"id": "enwn_validation_643", "nl": "Dishrags are stereotypically dirty.", "fol": null}
-{"id": "enwn_validation_644", "nl": "Comparing things implies that they share properties.", "fol": null}
-{"id": "enwn_validation_645", "nl": "Derek told Cammy that her hair looked like a dishrag.", "fol": null}
-{"id": "enwn_validation_646", "nl": "Someone's hair is part of their appearance.", "fol": null}
-{"id": "enwn_validation_647", "nl": "Comparing something to a dishrag implies that it's dirty.", "fol": null}
-{"id": "enwn_validation_648", "nl": "Derek's comment was implying that Cammy's hair looked dirty.", "fol": null}
-{"id": "enwn_validation_649", "nl": "Derek's comment was an insult.", "fol": null}
-{"id": "enwn_validation_650", "nl": "Derek's comment was about Cammy's appearance.", "fol": null}
-{"id": "enwn_validation_651", "nl": "Derek insulted Cammy's appearance.", "fol": null}
-{"id": "enwn_validation_652", "nl": "Derek insulted Cammy for no good reason.", "fol": null}
-{"id": "enwn_validation_653", "nl": "Derek should not have insulted Cammy.", "fol": null}
-{"id": "enwn_validation_654", "nl": "You should be polite.", "fol": null}
-{"id": "enwn_validation_655", "nl": "Melanie closed the doors immediately when she saw someone approaching the elevator she was in.", "fol": null}
-{"id": "enwn_validation_656", "nl": "It's polite to hold the door for people.", "fol": null}
-{"id": "enwn_validation_657", "nl": "It was impolite for Melanie to close the elevator doors.", "fol": null}
-{"id": "enwn_validation_658", "nl": "Melanie shouldn't have closed the elevator doors.", "fol": null}
-{"id": "enwn_validation_659", "nl": "You should avoid doing unethical things.", "fol": null}
-{"id": "enwn_validation_660", "nl": "Bribing someone to do something wrong is unethical.", "fol": null}
-{"id": "enwn_validation_661", "nl": "It's wrong to keep quiet about misconduct.", "fol": null}
-{"id": "enwn_validation_662", "nl": "Offering someone something valuable in exchange for their cooperation is bribery.", "fol": null}
-{"id": "enwn_validation_663", "nl": "Jarad's project manager Mike offered him tickets to a sold-out concert in exchange for not discussing Mike's behavior in the office during an HR inquiry.", "fol": null}
-{"id": "enwn_validation_664", "nl": "Bribing someone to keep quiet about misconduct is unethical.", "fol": null}
-{"id": "enwn_validation_665", "nl": "Mike was attempting to bribe Jarad to keep quiet about his misconduct by offering him the tickets.", "fol": null}
-{"id": "enwn_validation_666", "nl": "It was unethical for Mike to offer Jarad the tickets.", "fol": null}
-{"id": "enwn_validation_667", "nl": "Mike should not have offered Jarad the tickets.", "fol": null}
-{"id": "enwn_validation_668", "nl": "If someone asks you for a small favor, it's polite to accept.", "fol": null}
-{"id": "enwn_validation_669", "nl": "Letting someone use the shower before you is a small favor.", "fol": null}
-{"id": "enwn_validation_670", "nl": "Elle's sister asked her if she could use the shower first.", "fol": null}
-{"id": "enwn_validation_671", "nl": "Elle ignored her sister's request and showered for 30 minutes.", "fol": null}
-{"id": "enwn_validation_672", "nl": "Elle's sister was requesting a small favor.", "fol": null}
-{"id": "enwn_validation_673", "nl": "Elle ignored her sister's request for a small favor.", "fol": null}
-{"id": "enwn_validation_674", "nl": "It was impolite for Elle to ignore her sister's request.", "fol": null}
-{"id": "enwn_validation_675", "nl": "Elle should not have ignored her sister's request.", "fol": null}
-{"id": "enwn_validation_676", "nl": "It's okay to do things that are generally frowned upon if they have positive outcomes.", "fol": null}
-{"id": "enwn_validation_677", "nl": "Lying is generally wrong.", "fol": null}
-{"id": "enwn_validation_678", "nl": "Xirong lied to his boss to protect his coworker from being fired for organizing a walk-out.", "fol": null}
-{"id": "enwn_validation_679", "nl": "Firing someone for organizing a walk-out is a form of retaliation.", "fol": null}
-{"id": "enwn_validation_680", "nl": "Preventing someone from doing something wrong is a good thing.", "fol": null}
-{"id": "enwn_validation_681", "nl": "Retaliating against worker organization is wrong.", "fol": null}
-{"id": "enwn_validation_682", "nl": "It's okay to lie if it does more good than harm.", "fol": null}
-{"id": "enwn_validation_683", "nl": "Xirong lied to his boss to prevent him from retaliating against worker organization.", "fol": null}
-{"id": "enwn_validation_684", "nl": "Preventing someone from retaliating against worker organization is a good thing.", "fol": null}
-{"id": "enwn_validation_685", "nl": "The consequence of Xirong's lie was a good thing.", "fol": null}
-{"id": "enwn_validation_686", "nl": "It was okay for Xirong to lie to his boss.", "fol": null}
-{"id": "enwn_validation_687", "nl": "Dita cut the brakes on Martin's car after he cheated on her.", "fol": null}
-{"id": "enwn_validation_688", "nl": "Someone cheating on you is not a good enough reason to put them in mortal danger.", "fol": null}
-{"id": "enwn_validation_689", "nl": "Cutting the brakes on someone's car puts them in mortal danger.", "fol": null}
-{"id": "enwn_validation_690", "nl": "Someone cheating on you is not a good enough reason to cut the brakes on their car.", "fol": null}
-{"id": "enwn_validation_691", "nl": "Dita should not have cut the brakes on Martin's car.", "fol": null}
-{"id": "enwn_validation_692", "nl": "It's okay to break rules that aren't important.", "fol": null}
-{"id": "enwn_validation_693", "nl": "Movie theater rules say that no outside food is allowed.", "fol": null}
-{"id": "enwn_validation_694", "nl": "Rules about not bringing outside food into establishments exist to increase on-site concession sales.", "fol": null}
-{"id": "enwn_validation_695", "nl": "Increasing on-site concession sales isn't important.", "fol": null}
-{"id": "enwn_validation_696", "nl": "Sam broke the theater rules by bringing chips into the movie.", "fol": null}
-{"id": "enwn_validation_697", "nl": "Rules about not bringing food into establishments aren't important.", "fol": null}
-{"id": "enwn_validation_698", "nl": "The movie theater rule that says no outside food is allowed is not important.", "fol": null}
-{"id": "enwn_validation_699", "nl": "It's okay to break the movie theater rule that says no outside food is allowed.", "fol": null}
-{"id": "enwn_validation_700", "nl": "It was okay for Sam to take the chips into the theater.", "fol": null}
-{"id": "enwn_validation_701", "nl": "A physical response to a remark is escalation.", "fol": null}
-{"id": "enwn_validation_702", "nl": "Luis dumped his soda on the guy sitting in front of him because the guy made a snide remark about Ravens fans.", "fol": null}
-{"id": "enwn_validation_703", "nl": "You shouldn't escalate conflicts.", "fol": null}
-{"id": "enwn_validation_704", "nl": "Luis escalated the situation by dumping his soda on the guy.", "fol": null}
-{"id": "enwn_validation_705", "nl": "Luis shouldn't have dumped his soda on the guy.", "fol": null}
-{"id": "enwn_validation_706", "nl": "Esme copied a section of the Wikipedia article on Thomas Jefferson to put in her school report.", "fol": null}
-{"id": "enwn_validation_707", "nl": "If you copy something without attribution, you're representing it as your own work.", "fol": null}
-{"id": "enwn_validation_708", "nl": "Esme didn't attribute the copied section.", "fol": null}
-{"id": "enwn_validation_709", "nl": "Copying someone else's writing and representing it as your own work is plagiarism.", "fol": null}
-{"id": "enwn_validation_710", "nl": "Plagiarism is wrong.", "fol": null}
-{"id": "enwn_validation_711", "nl": "Esme represented the copied section as her own work.", "fol": null}
-{"id": "enwn_validation_712", "nl": "Esme copied someone else's writing from Wikipedia and represented it as her own work.", "fol": null}
-{"id": "enwn_validation_713", "nl": "Copying someone else's writing and representing it as your own work is wrong.", "fol": null}
-{"id": "enwn_validation_714", "nl": "Esme shouldn't have copied from Wikipedia without attributing the copied section.", "fol": null}
-{"id": "enwn_validation_715", "nl": "You shouldn't induce people to help you do bad things.", "fol": null}
-{"id": "enwn_validation_716", "nl": "Faking drug test results in competitive sports is cheating.", "fol": null}
-{"id": "enwn_validation_717", "nl": "Giles paid his friend for a urine sample to pass a drug test for a crew competition.", "fol": null}
-{"id": "enwn_validation_718", "nl": "Using someone else's urine to pass a drug test is faking.", "fol": null}
-{"id": "enwn_validation_719", "nl": "Faking drug test results in competitive sports is wrong.", "fol": null}
-{"id": "enwn_validation_720", "nl": "Giles paid his friend for the sample to help him fake a drug test for a crew competition.", "fol": null}
-{"id": "enwn_validation_721", "nl": "Giles paid his friend for the sample to help him do something wrong.", "fol": null}
-{"id": "enwn_validation_722", "nl": "Giles shouldn't have paid his friend for the sample.", "fol": null}
-{"id": "enwn_validation_723", "nl": "A store is a public location.", "fol": null}
-{"id": "enwn_validation_724", "nl": "It's polite to cover your mouth when coughing in a public location.", "fol": null}
-{"id": "enwn_validation_725", "nl": "Rajesh coughed without covering his mouth in line at the drugstore.", "fol": null}
-{"id": "enwn_validation_726", "nl": "It's polite to cover your mouth when coughing in a store.", "fol": null}
-{"id": "enwn_validation_727", "nl": "Rajesh should have covered his mouth.", "fol": null}
-{"id": "enwn_validation_728", "nl": "Marina told her parents that she was going to be staying over at a friend's house.", "fol": null}
-{"id": "enwn_validation_729", "nl": "In reality, she was going to be at an all-night house party.", "fol": null}
-{"id": "enwn_validation_730", "nl": "You're lying to someone if you tell them you're planning one thing but you're really planning something else.", "fol": null}
-{"id": "enwn_validation_731", "nl": "Lying to someone that you're not doing something dangerous prevents them from helping you in an emergency.", "fol": null}
-{"id": "enwn_validation_732", "nl": "Partying is potentially dangerous.", "fol": null}
-{"id": "enwn_validation_733", "nl": "Preventing someone from helping you in an emergency is potentially very harmful.", "fol": null}
-{"id": "enwn_validation_734", "nl": "Marina told her parents she wouldn't be at a party, but she was actually going to a house party.", "fol": null}
-{"id": "enwn_validation_735", "nl": "Marina lied to her parents to give them the impression she wouldn't be going to a house party.", "fol": null}
-{"id": "enwn_validation_736", "nl": "Lying to someone that you're not partying prevents them from helping you in an emergency.", "fol": null}
-{"id": "enwn_validation_737", "nl": "Lying to someone that you're not partying does more harm than good.", "fol": null}
-{"id": "enwn_validation_738", "nl": "Marina's lie to her parents did more harm than good.", "fol": null}
-{"id": "enwn_validation_739", "nl": "Marina shouldn't have lied to her parents.", "fol": null}
-{"id": "enwn_validation_740", "nl": "Bugging someone's phone is an invasion of their privacy.", "fol": null}
-{"id": "enwn_validation_741", "nl": "Invading people's privacy without a good reason is wrong.", "fol": null}
-{"id": "enwn_validation_742", "nl": "Omar bugged his girlfriend's phone because he thought she was lying.", "fol": null}
-{"id": "enwn_validation_743", "nl": "Omar suspected his girlfriend was lying because she came home at 3 AM.", "fol": null}
-{"id": "enwn_validation_744", "nl": "It's normal to be out late when you're drinking with friends.", "fol": null}
-{"id": "enwn_validation_745", "nl": "Omar's girlfriend told him she was going out drinking with her friends.", "fol": null}
-{"id": "enwn_validation_746", "nl": "It's irrational to be suspicious of someone who is behaving normally.", "fol": null}
-{"id": "enwn_validation_747", "nl": "Bugging someone's phone without a good reason is wrong.", "fol": null}
-{"id": "enwn_validation_748", "nl": "It was normal for Omar's girlfriend to be out late.", "fol": null}
-{"id": "enwn_validation_749", "nl": "Omar suspected his girlfriend was lying because she did something normal.", "fol": null}
-{"id": "enwn_validation_750", "nl": "Omar didn't have good reason to suspect his girlfriend was lying.", "fol": null}
-{"id": "enwn_validation_751", "nl": "Omar bugged his girlfriend's phone without a good reason.", "fol": null}
-{"id": "enwn_validation_752", "nl": "Omar shouldn't have bugged his girlfriend's phone.", "fol": null}
-{"id": "enwn_validation_753", "nl": "It's inappropriate for supervisors to behave unprofessionally.", "fol": null}
-{"id": "enwn_validation_754", "nl": "It's unprofessional to let personal matters interfere with workplace matters.", "fol": null}
-{"id": "enwn_validation_755", "nl": "An employer's influence over their employees' pay is a workplace matter.", "fol": null}
-{"id": "enwn_validation_756", "nl": "Alan docked Tim's pay because Tim gave Alan's daughter a low score on a test.", "fol": null}
-{"id": "enwn_validation_757", "nl": "Doing something because of a familial relationship is doing it for a personal reason.", "fol": null}
-{"id": "enwn_validation_758", "nl": "It's unprofessional to dock your employee's pay for personal reasons.", "fol": null}
-{"id": "enwn_validation_759", "nl": "Alan docked Tim's pay for a personal reason.", "fol": null}
-{"id": "enwn_validation_760", "nl": "It was unprofessional for Alan to dock Tim's pay.", "fol": null}
-{"id": "enwn_validation_761", "nl": "Alan should not have docked Tim's pay.", "fol": null}
-{"id": "enwn_validation_762", "nl": "You should not inconvenience people.", "fol": null}
-{"id": "enwn_validation_763", "nl": "Preetha parked in front of her neighbor's car, blocking them in their shared driveway.", "fol": null}
-{"id": "enwn_validation_764", "nl": "It's inconvenient to have your car blocked.", "fol": null}
-{"id": "enwn_validation_765", "nl": "Preetha parking in front of her neighbor's car inconvenienced her neighbor.", "fol": null}
-{"id": "enwn_validation_766", "nl": "Preetha should not have parked in front of her neighbor's car.", "fol": null}
-{"id": "enwn_validation_767", "nl": "It's rude to spoil a show.", "fol": null}
-{"id": "enwn_validation_768", "nl": "You shouldn't be rude.", "fol": null}
-{"id": "enwn_validation_769", "nl": "Spoiling something means revealing a detail to someone before they get a chance to learn it for themselves.", "fol": null}
-{"id": "enwn_validation_770", "nl": "Dane told Demarcus how the show ended before Demarcus got a chance to finish watching it.", "fol": null}
-{"id": "enwn_validation_771", "nl": "You shouldn't spoil shows for people.", "fol": null}
-{"id": "enwn_validation_772", "nl": "Dane spoiled the show for Demarcus.", "fol": null}
-{"id": "enwn_validation_773", "nl": "Dane should not have spoiled the show for Demarcus.", "fol": null}
-{"id": "enwn_validation_774", "nl": "You should only call emergency services in an emergency.", "fol": null}
-{"id": "enwn_validation_775", "nl": "The police are an emergency service.", "fol": null}
-{"id": "enwn_validation_776", "nl": "Alina called the police on some teenagers who were sitting across the street from her house because she thought they looked suspicious.", "fol": null}
-{"id": "enwn_validation_777", "nl": "Seeing someone who you think looks suspicious is not an emergency.", "fol": null}
-{"id": "enwn_validation_778", "nl": "You should only call the police in an emergency.", "fol": null}
-{"id": "enwn_validation_779", "nl": "Alina was not in an emergency when she called the police.", "fol": null}
-{"id": "enwn_validation_780", "nl": "Alina shouldn't have called the police.", "fol": null}
-{"id": "enwn_validation_781", "nl": "You should generally follow the law.", "fol": null}
-{"id": "enwn_validation_782", "nl": "Darrel bought a 48-rack of beer for his highschool nephew's friend.", "fol": null}
-{"id": "enwn_validation_783", "nl": "People in highschool mostly have highschool-aged friends.", "fol": null}
-{"id": "enwn_validation_784", "nl": "Supplying minors with alcohol is illegal.", "fol": null}
-{"id": "enwn_validation_785", "nl": "Darrel's nephew's friend was probably a minor.", "fol": null}
-{"id": "enwn_validation_786", "nl": "Darrel was probably buying the beer for a minor.", "fol": null}
-{"id": "enwn_validation_787", "nl": "It was probably illegal for Darrel to buy the beer.", "fol": null}
-{"id": "enwn_validation_788", "nl": "Darrel shouldn't have bought the beer.", "fol": null}
-{"id": "enwn_validation_789", "nl": "It's rude to interrupt people.", "fol": null}
-{"id": "enwn_validation_790", "nl": "Miguel interrupted the song that Alice was listening to on the wireless speaker to play his song.", "fol": null}
-{"id": "enwn_validation_791", "nl": "You shouldn't interrupt people.", "fol": null}
-{"id": "enwn_validation_792", "nl": "Miguel shouldn't have interrupted Alice's song.", "fol": null}
-{"id": "enwn_validation_793", "nl": "Foods that contain a lot of sugar are unhealthy.", "fol": null}
-{"id": "enwn_validation_794", "nl": "Monica refused to get her son Froot Loops because she thought they were too sugary.", "fol": null}
-{"id": "enwn_validation_795", "nl": "It's okay to refuse to do something if you have a good reason.", "fol": null}
-{"id": "enwn_validation_796", "nl": "It's a good idea to prevent your children from eating unhealthy food.", "fol": null}
-{"id": "enwn_validation_797", "nl": "Monica refused to get her son Froot Loops because she thought they were unhealthy.", "fol": null}
-{"id": "enwn_validation_798", "nl": "It's okay to refuse to give your children unhealthy food.", "fol": null}
-{"id": "enwn_validation_799", "nl": "It was okay for Monica to refuse to get her son Froot Loops.", "fol": null}
-{"id": "enwn_validation_800", "nl": "Tax fraud is inadvisable.", "fol": null}
-{"id": "enwn_validation_801", "nl": "Writing personal purchases off as business expenses is tax fraud.", "fol": null}
-{"id": "enwn_validation_802", "nl": "Patrice bought himself a jacuzzi and wrote it off as a business expense.", "fol": null}
-{"id": "enwn_validation_803", "nl": "Writing the jacuzzi off as a business expense was tax fraud.", "fol": null}
-{"id": "enwn_validation_804", "nl": "Patrice should not have written off the jacuzzi.", "fol": null}
-{"id": "enwn_validation_805", "nl": "Spiking someone's drink is a very bad thing to do.", "fol": null}
-{"id": "enwn_validation_806", "nl": "If someone does something bad to you, it makes sense to want to avoid them.", "fol": null}
-{"id": "enwn_validation_807", "nl": "Elena told her friends to cut ties with Pat after he spiked her drink.", "fol": null}
-{"id": "enwn_validation_808", "nl": "If you don't want social contact with someone, your friends also need to stop associating with them.", "fol": null}
-{"id": "enwn_validation_809", "nl": "If someone spikes your drink, it makes sense to want to avoid them.", "fol": null}
-{"id": "enwn_validation_810", "nl": "Elena was justified in wanting to avoid Pat.", "fol": null}
-{"id": "enwn_validation_811", "nl": "If Elena didn't want social contact with Pat, her friends would also need to stop associating with him.", "fol": null}
-{"id": "enwn_validation_812", "nl": "Elena was justified in telling her friends to cut ties with Pat.", "fol": null}
-{"id": "enwn_validation_813", "nl": "When you hit someone's car, you should leave a note.", "fol": null}
-{"id": "enwn_validation_814", "nl": "Biff backed into someone in the parking lot, then drove away without stopping.", "fol": null}
-{"id": "enwn_validation_815", "nl": "If you don't stop your car, you can't get out and leave a note.", "fol": null}
-{"id": "enwn_validation_816", "nl": "Biff hit someone's car but didn't leave a note.", "fol": null}
-{"id": "enwn_validation_817", "nl": "Biff should have left a note.", "fol": null}
-{"id": "enwn_validation_818", "nl": "You should pay attention to people when they're talking to you.", "fol": null}
-{"id": "enwn_validation_819", "nl": "If you're ignoring someone, you aren't paying attention to them.", "fol": null}
-{"id": "enwn_validation_820", "nl": "Terry pretended to not be able to hear Michelle because she wouldn't agree with his dinner plan.", "fol": null}
-{"id": "enwn_validation_821", "nl": "If you're pretending not to hear someone, you're ignoring them.", "fol": null}
-{"id": "enwn_validation_822", "nl": "You shouldn't ignore people.", "fol": null}
-{"id": "enwn_validation_823", "nl": "Terry ignored Michelle.", "fol": null}
-{"id": "enwn_validation_824", "nl": "Terry shouldn't have ignored Michelle.", "fol": null}
+{"id": "enwn_validation_0", "nl": "You should not hurt someone without a good reason.", "fol": ""}
+{"id": "enwn_validation_1", "nl": "If you do something for petty reasons, you aren't doing it for a good reason.", "fol": ""}
+{"id": "enwn_validation_2", "nl": "Road rage is petty.", "fol": ""}
+{"id": "enwn_validation_3", "nl": "Jake cut Chris off in traffic, and that enraged Chris.", "fol": ""}
+{"id": "enwn_validation_4", "nl": "Chris was so angry that he followed Jake to a stop light, got out of his car and punched Jake.", "fol": ""}
+{"id": "enwn_validation_5", "nl": "Road rage is anger over driving.", "fol": ""}
+{"id": "enwn_validation_6", "nl": "Chris punched Jake because he was angry at Jake cutting him off in traffic.", "fol": ""}
+{"id": "enwn_validation_7", "nl": "Chris punched Jake because of his road rage.", "fol": ""}
+{"id": "enwn_validation_8", "nl": "Chris punched Jake for a petty reason.", "fol": ""}
+{"id": "enwn_validation_9", "nl": "Chris punched Jake without a good reason.", "fol": ""}
+{"id": "enwn_validation_10", "nl": "Chris should not have punched Jake.", "fol": ""}
+{"id": "enwn_validation_11", "nl": "Stealing is taking something without the owner's permission.", "fol": ""}
+{"id": "enwn_validation_12", "nl": "Caleb left Target with a pack of trading cards in his pocket.", "fol": ""}
+{"id": "enwn_validation_13", "nl": "Caleb didn't pay for the pack.", "fol": ""}
+{"id": "enwn_validation_14", "nl": "You only have permission to take merchandise from a store if you pay for it.", "fol": ""}
+{"id": "enwn_validation_15", "nl": "You should not steal.", "fol": ""}
+{"id": "enwn_validation_16", "nl": "Caleb took the cards from Target without paying for them.", "fol": ""}
+{"id": "enwn_validation_17", "nl": "Caleb took the store's cards without the store's permission.", "fol": ""}
+{"id": "enwn_validation_18", "nl": "Caleb stole the cards.", "fol": ""}
+{"id": "enwn_validation_19", "nl": "Caleb should not have stolen the cards.", "fol": ""}
+{"id": "enwn_validation_20", "nl": "Elias ran into Julia and made her drop all her books.", "fol": ""}
+{"id": "enwn_validation_21", "nl": "If you drop something accidentally, you need to pick it up afterwards.", "fol": ""}
+{"id": "enwn_validation_22", "nl": "If you caused an accident, you should help anyone affected by it.", "fol": ""}
+{"id": "enwn_validation_23", "nl": "Julia needs to pick up the books because Elias bumped into her.", "fol": ""}
+{"id": "enwn_validation_24", "nl": "Elias should help Julia pick up the books.", "fol": ""}
+{"id": "enwn_validation_25", "nl": "In the United States, it's impolite to not tip someone who serves you.", "fol": ""}
+{"id": "enwn_validation_26", "nl": "A bartender serves drinks at a bar.", "fol": ""}
+{"id": "enwn_validation_27", "nl": "Ellie ordered a drink at a bar called the Red Pony.", "fol": ""}
+{"id": "enwn_validation_28", "nl": "The Red Pony is in Albuquerque, New Mexico.", "fol": ""}
+{"id": "enwn_validation_29", "nl": "New Mexico is a state in the United States.", "fol": ""}
+{"id": "enwn_validation_30", "nl": "You should not do impolite things.", "fol": ""}
+{"id": "enwn_validation_31", "nl": "In the United States, it's impolite to not tip bartenders who serve you drinks at a bar.", "fol": ""}
+{"id": "enwn_validation_32", "nl": "Ellie ordered a drink from a bartender at the Red Pony.", "fol": ""}
+{"id": "enwn_validation_33", "nl": "The Red Pony is in the United States.", "fol": ""}
+{"id": "enwn_validation_34", "nl": "Ellie ordered a drink from a bartender in the United States.", "fol": ""}
+{"id": "enwn_validation_35", "nl": "It would be impolite for Ellie to not tip the bartender.", "fol": ""}
+{"id": "enwn_validation_36", "nl": "Ellie should tip the bartender.", "fol": ""}
+{"id": "enwn_validation_37", "nl": "You should pay back your debts.", "fol": ""}
+{"id": "enwn_validation_38", "nl": "Fred borrowed $100 from Alyssa to buy the ski lift ticket.", "fol": ""}
+{"id": "enwn_validation_39", "nl": "You remind someone to do something when you want them to do it but they haven't.", "fol": ""}
+{"id": "enwn_validation_40", "nl": "Alyssa messaged Fred to remind him to pay her back for the ski lift ticket.", "fol": ""}
+{"id": "enwn_validation_41", "nl": "If you borrow something from someone and haven't given it back, you owe it to them.", "fol": ""}
+{"id": "enwn_validation_42", "nl": "Fred hasn't paid Alyssa back for the ski lift ticket yet.", "fol": ""}
+{"id": "enwn_validation_43", "nl": "Fred borrowed $100 from Alyssa and hasn't paid it back yet.", "fol": ""}
+{"id": "enwn_validation_44", "nl": "Fred owes Alyssa $100.", "fol": ""}
+{"id": "enwn_validation_45", "nl": "Fred should pay Alyssa $100.", "fol": ""}
+{"id": "enwn_validation_46", "nl": "You should not take something that doesn't belong to you.", "fol": ""}
+{"id": "enwn_validation_47", "nl": "Mark is considering taking the lunch in the breakroom fridge.", "fol": ""}
+{"id": "enwn_validation_48", "nl": "The lunch in the fridge has a note on it saying \"Melissa\".", "fol": ""}
+{"id": "enwn_validation_49", "nl": "People write their names on things to mark them as their belongings.", "fol": ""}
+{"id": "enwn_validation_50", "nl": "The lunch in the breakroom fridge is Melissa's.", "fol": ""}
+{"id": "enwn_validation_51", "nl": "Mark is considering taking Melissa's lunch.", "fol": ""}
+{"id": "enwn_validation_52", "nl": "Mark should not take Melissa's lunch.", "fol": ""}
+{"id": "enwn_validation_53", "nl": "Fern brought her textbook to class.", "fol": ""}
+{"id": "enwn_validation_54", "nl": "Ann showed up to biology class without her textbook.", "fol": ""}
+{"id": "enwn_validation_55", "nl": "Textbooks are required in Ann's biology class.", "fol": ""}
+{"id": "enwn_validation_56", "nl": "You should share things with people in need.", "fol": ""}
+{"id": "enwn_validation_57", "nl": "Ann needs a textbook.", "fol": ""}
+{"id": "enwn_validation_58", "nl": "Someone should share a textbook with Ann.", "fol": ""}
+{"id": "enwn_validation_59", "nl": "Fern should share her textbook with Ann.", "fol": ""}
+{"id": "enwn_validation_60", "nl": "Someone in a red BMW was waiting for the parking spot before George.", "fol": ""}
+{"id": "enwn_validation_61", "nl": "If a group of people is waiting for something, the people who were waiting earliest are first in line.", "fol": ""}
+{"id": "enwn_validation_62", "nl": "You should let people ahead of you in line go first.", "fol": ""}
+{"id": "enwn_validation_63", "nl": "When you take something, you prevent other people from taking it.", "fol": ""}
+{"id": "enwn_validation_64", "nl": "George is about to take the parking spot.", "fol": ""}
+{"id": "enwn_validation_65", "nl": "Someone in a red BMW is in line for the parking spot ahead of George.", "fol": ""}
+{"id": "enwn_validation_66", "nl": "George should let the person in the red BMW take the parking spot.", "fol": ""}
+{"id": "enwn_validation_67", "nl": "If George takes the parking spot, he will prevent other people from taking it.", "fol": ""}
+{"id": "enwn_validation_68", "nl": "George shouldn't take the parking spot.", "fol": ""}
+{"id": "enwn_validation_69", "nl": "Embezzlement is theft or misappropriation of funds belonging to an employer.", "fol": ""}
+{"id": "enwn_validation_70", "nl": "Using money allotted for one purpose for another purpose is misappropriation.", "fol": ""}
+{"id": "enwn_validation_71", "nl": "Tessa works as an accountant at her firm.", "fol": ""}
+{"id": "enwn_validation_72", "nl": "A retiree is someone who has retired from employment and is no longer working.", "fol": ""}
+{"id": "enwn_validation_73", "nl": "Tessa withdrew a lump sum from her firm's retirement fund to buy herself a summer home.", "fol": ""}
+{"id": "enwn_validation_74", "nl": "Money in a company's retirement fund is intended to be paid out to retirees.", "fol": ""}
+{"id": "enwn_validation_75", "nl": "Tessa is not a retiree.", "fol": ""}
+{"id": "enwn_validation_76", "nl": "Tessa bought herself a summer home with money from the firm intended for retirees.", "fol": ""}
+{"id": "enwn_validation_77", "nl": "Tessa bought herself a summer home with money from the firm that was not intended for her.", "fol": ""}
+{"id": "enwn_validation_78", "nl": "Tessa misappropriated her firm's money.", "fol": ""}
+{"id": "enwn_validation_79", "nl": "Tessa embezzled from her firm.", "fol": ""}
+{"id": "enwn_validation_80", "nl": "Leading others to think someone was responsible for something is shifting the blame.", "fol": ""}
+{"id": "enwn_validation_81", "nl": "When the campus cops interviewed Nate after the fire, he said he saw Jeff drop a cigarette.", "fol": ""}
+{"id": "enwn_validation_82", "nl": "Telling someone that something happened leads them to believe it happened.", "fol": ""}
+{"id": "enwn_validation_83", "nl": "Dropping a cigarette can cause a fire.", "fol": ""}
+{"id": "enwn_validation_84", "nl": "Letting someone else take the blame for your actions is wrong.", "fol": ""}
+{"id": "enwn_validation_85", "nl": "Nate dropped the cigarette that started the fire.", "fol": ""}
+{"id": "enwn_validation_86", "nl": "Nate led the campus cops to believe that Jeff dropped a cigarette before the fire.", "fol": ""}
+{"id": "enwn_validation_87", "nl": "Nate led the campus cops to believe that Jeff started the fire.", "fol": ""}
+{"id": "enwn_validation_88", "nl": "Nate shifted the blame for the fire to Jeff.", "fol": ""}
+{"id": "enwn_validation_89", "nl": "It would be wrong for Nate to let someone else take the blame for starting the fire.", "fol": ""}
+{"id": "enwn_validation_90", "nl": "Nate should not have shifted the blame for the fire to Jeff.", "fol": ""}
+{"id": "enwn_validation_91", "nl": "Taking something that doesn't belong to you is wrong.", "fol": ""}
+{"id": "enwn_validation_92", "nl": "The TV belonged to the owners of the AirBNB Mike was staying at.", "fol": ""}
+{"id": "enwn_validation_93", "nl": "You shouldn't help someone do something wrong.", "fol": ""}
+{"id": "enwn_validation_94", "nl": "Tim helped Mike carry the TV out to his car.", "fol": ""}
+{"id": "enwn_validation_95", "nl": "It would be wrong for Mike to take the TV.", "fol": ""}
+{"id": "enwn_validation_96", "nl": "It would be wrong to help Mike take the TV.", "fol": ""}
+{"id": "enwn_validation_97", "nl": "Tim shouldn't have helped Mike take the TV.", "fol": ""}
+{"id": "enwn_validation_98", "nl": "The right thing to do is whatever results in the least harm.", "fol": ""}
+{"id": "enwn_validation_99", "nl": "If you don't push the old lady, the truck will hit her.", "fol": ""}
+{"id": "enwn_validation_100", "nl": "Getting hit by a vehicle is likely to cause serious injury or death.", "fol": ""}
+{"id": "enwn_validation_101", "nl": "Pushing the old lady will likely give her minor injuries at worst.", "fol": ""}
+{"id": "enwn_validation_102", "nl": "If you don't push the old lady, she will suffer a serious injury or die.", "fol": ""}
+{"id": "enwn_validation_103", "nl": "If you push the old lady, she will suffer less harm than if you don't.", "fol": ""}
+{"id": "enwn_validation_104", "nl": "You should push the old lady.", "fol": ""}
+{"id": "enwn_validation_105", "nl": "Emily told Cassandra to copy her homework so that Cassandra wouldn't get in trouble.", "fol": ""}
+{"id": "enwn_validation_106", "nl": "Copying homework is cheating.", "fol": ""}
+{"id": "enwn_validation_107", "nl": "Cheating is wrong.", "fol": ""}
+{"id": "enwn_validation_108", "nl": "Telling someone to do something is influencing them to do it.", "fol": ""}
+{"id": "enwn_validation_109", "nl": "You shouldn't influence someone to do something wrong.", "fol": ""}
+{"id": "enwn_validation_110", "nl": "Copying homework is wrong.", "fol": ""}
+{"id": "enwn_validation_111", "nl": "You shouldn't tell someone to do something wrong.", "fol": ""}
+{"id": "enwn_validation_112", "nl": "You shouldn't tell someone to copy homework.", "fol": ""}
+{"id": "enwn_validation_113", "nl": "Emily should not have told Cassandra to copy her homework.", "fol": ""}
+{"id": "enwn_validation_114", "nl": "Making out with someone is an intimate act.", "fol": ""}
+{"id": "enwn_validation_115", "nl": "Mark recorded Jess making out with someone while she was drunk.", "fol": ""}
+{"id": "enwn_validation_116", "nl": "You need to be aware that something is happening in order to consent to it.", "fol": ""}
+{"id": "enwn_validation_117", "nl": "Jess wasn't aware that Mark was filming her.", "fol": ""}
+{"id": "enwn_validation_118", "nl": "You shouldn't record someone in a compromising situation without their consent.", "fol": ""}
+{"id": "enwn_validation_119", "nl": "A compromising situation is one which could cause embarrassment or shame if made public.", "fol": ""}
+{"id": "enwn_validation_120", "nl": "Physical intimacy can be embarrassing if it's made public.", "fol": ""}
+{"id": "enwn_validation_121", "nl": "Mark recorded Jess being intimate with someone while she was drunk.", "fol": ""}
+{"id": "enwn_validation_122", "nl": "Jess did not consent to Mark filming her.", "fol": ""}
+{"id": "enwn_validation_123", "nl": "Mark recorded Jess being intimate with someone without her consent.", "fol": ""}
+{"id": "enwn_validation_124", "nl": "Physical intimacy is a compromising situation.", "fol": ""}
+{"id": "enwn_validation_125", "nl": "You shouldn't record someone being physically intimate without their consent.", "fol": ""}
+{"id": "enwn_validation_126", "nl": "Mark should not have recorded Jess.", "fol": ""}
+{"id": "enwn_validation_127", "nl": "Putting yourself or others at unnecessary risk is reckless.", "fol": ""}
+{"id": "enwn_validation_128", "nl": "You should not behave recklessly.", "fol": ""}
+{"id": "enwn_validation_129", "nl": "Taking a right at a red light involves entering a crossing lane.", "fol": ""}
+{"id": "enwn_validation_130", "nl": "Checking for traffic in a lane before entering it reduces the risk of a collision.", "fol": ""}
+{"id": "enwn_validation_131", "nl": "If you could do something to reduce risk, but you don't, you're exposing yourself to avoidable risk.", "fol": ""}
+{"id": "enwn_validation_132", "nl": "You should not put yourself or others at unnecessary risk.", "fol": ""}
+{"id": "enwn_validation_133", "nl": "Checking for traffic in the crossing lane before taking a right at a red light reduces the risk of a collision.", "fol": ""}
+{"id": "enwn_validation_134", "nl": "Not checking for traffic in the crossing lane before taking a right at a red light exposes you to avoidable risk.", "fol": ""}
+{"id": "enwn_validation_135", "nl": "You should check for traffic in the crossing lane before taking a right at a red light.", "fol": ""}
+{"id": "enwn_validation_136", "nl": "Adding pieces to the board is against the rules of chess.", "fol": ""}
+{"id": "enwn_validation_137", "nl": "Breaking the rules is cheating.", "fol": ""}
+{"id": "enwn_validation_138", "nl": "You shouldn't cheat.", "fol": ""}
+{"id": "enwn_validation_139", "nl": "When Ben's opponent wasn't looking, Ben snuck a pawn onto the board to give himself the advantage.", "fol": ""}
+{"id": "enwn_validation_140", "nl": "Adding pieces to the board is cheating.", "fol": ""}
+{"id": "enwn_validation_141", "nl": "You shouldn't add pieces to the board.", "fol": ""}
+{"id": "enwn_validation_142", "nl": "Ben shouldn't have put the pawn on the board.", "fol": ""}
+{"id": "enwn_validation_143", "nl": "Safe driving requires your full attention.", "fol": ""}
+{"id": "enwn_validation_144", "nl": "Jared checked his phone while pulling onto the freeway.", "fol": ""}
+{"id": "enwn_validation_145", "nl": "Checking your phone takes your attention off of whatever else you're doing.", "fol": ""}
+{"id": "enwn_validation_146", "nl": "If something prevents you from doing the right thing, it's wrong.", "fol": ""}
+{"id": "enwn_validation_147", "nl": "You should always drive safe.", "fol": ""}
+{"id": "enwn_validation_148", "nl": "Jared took his attention off of driving to check his phone.", "fol": ""}
+{"id": "enwn_validation_149", "nl": "Checking his phone prevented Jared from driving safely.", "fol": ""}
+{"id": "enwn_validation_150", "nl": "You shouldn't do anything that prevents you from driving safe.", "fol": ""}
+{"id": "enwn_validation_151", "nl": "Jared should not have checked his phone.", "fol": ""}
+{"id": "enwn_validation_152", "nl": "There are some people who haven't gotten a slice yet.", "fol": ""}
+{"id": "enwn_validation_153", "nl": "Taking a second portion before someone else has gotten a first portion is unfair.", "fol": ""}
+{"id": "enwn_validation_154", "nl": "You want to take a second slice of pizza.", "fol": ""}
+{"id": "enwn_validation_155", "nl": "If you want to do something, but it's too soon, you should wait.", "fol": ""}
+{"id": "enwn_validation_156", "nl": "It's too soon to take a second slice.", "fol": ""}
+{"id": "enwn_validation_157", "nl": "You want to take a slice of pizza but it's too soon.", "fol": ""}
+{"id": "enwn_validation_158", "nl": "You should wait before taking a second slice of pizza.", "fol": ""}
+{"id": "enwn_validation_159", "nl": "Murder means killing someone with premeditation.", "fol": ""}
+{"id": "enwn_validation_160", "nl": "Premeditation means thinking through something before doing it.", "fol": ""}
+{"id": "enwn_validation_161", "nl": "David bought anthrax, then used it to try and kill Ingrid.", "fol": ""}
+{"id": "enwn_validation_162", "nl": "Buying supplies for something is part of planning for something.", "fol": ""}
+{"id": "enwn_validation_163", "nl": "David planned to kill Ingrid before trying to kill her.", "fol": ""}
+{"id": "enwn_validation_164", "nl": "David tried to kill Ingrid in a premeditated way.", "fol": ""}
+{"id": "enwn_validation_165", "nl": "David tried to murder Ingrid.", "fol": ""}
+{"id": "enwn_validation_166", "nl": "It's a faux pas to offer someone something they can't accept.", "fol": ""}
+{"id": "enwn_validation_167", "nl": "Maria is pregnant.", "fol": ""}
+{"id": "enwn_validation_168", "nl": "People who are pregnant shouldn't drink alcohol.", "fol": ""}
+{"id": "enwn_validation_169", "nl": "Beer is an alcoholic beverage.", "fol": ""}
+{"id": "enwn_validation_170", "nl": "People who are pregnant shouldn't drink beer.", "fol": ""}
+{"id": "enwn_validation_171", "nl": "Maria shouldn't drink beer.", "fol": ""}
+{"id": "enwn_validation_172", "nl": "It would be a faux pas to offer Maria a beer.", "fol": ""}
+{"id": "enwn_validation_173", "nl": "Sandy tripped and spilled her hot coffee on Chris.", "fol": ""}
+{"id": "enwn_validation_174", "nl": "When someone spills hot coffee on you, it hurts.", "fol": ""}
+{"id": "enwn_validation_175", "nl": "If someone does something that harms you, you will get angry at them.", "fol": ""}
+{"id": "enwn_validation_176", "nl": "If you did not mean for something to happen, it was a mistake.", "fol": ""}
+{"id": "enwn_validation_177", "nl": "Sandy did not mean to spill her coffee.", "fol": ""}
+{"id": "enwn_validation_178", "nl": "Even if you are mad at someones mistake, you should forgive them.", "fol": ""}
+{"id": "enwn_validation_179", "nl": "Having hot coffee spilled onto you will make you angry at someone.", "fol": ""}
+{"id": "enwn_validation_180", "nl": "Chris got mad at Sandy because Sandy's hot coffee spilled on Chris.", "fol": ""}
+{"id": "enwn_validation_181", "nl": "Sandy spilling her coffee was an mistake.", "fol": ""}
+{"id": "enwn_validation_182", "nl": "Sandy's mistake made Chris angry at Sandy.", "fol": ""}
+{"id": "enwn_validation_183", "nl": "Chris should forgive Sandy.", "fol": ""}
+{"id": "enwn_validation_184", "nl": "You can't score well on a test without studying for it unless you cheat.", "fol": ""}
+{"id": "enwn_validation_185", "nl": "Brad scored well on his test.", "fol": ""}
+{"id": "enwn_validation_186", "nl": "Brad did not study the material on the test.", "fol": ""}
+{"id": "enwn_validation_187", "nl": "Cheating is dishonest.", "fol": ""}
+{"id": "enwn_validation_188", "nl": "You should be honest.", "fol": ""}
+{"id": "enwn_validation_189", "nl": "Brad scored well on his test without studying for it.", "fol": ""}
+{"id": "enwn_validation_190", "nl": "Brad cheated on his test.", "fol": ""}
+{"id": "enwn_validation_191", "nl": "You should not cheat.", "fol": ""}
+{"id": "enwn_validation_192", "nl": "Brad should not have cheated on his test.", "fol": ""}
+{"id": "enwn_validation_193", "nl": "You should not litter.", "fol": ""}
+{"id": "enwn_validation_194", "nl": "Littering is when you throw trash outside of a trash bin.", "fol": ""}
+{"id": "enwn_validation_195", "nl": "Johnny threw trash on the floor.", "fol": ""}
+{"id": "enwn_validation_196", "nl": "Johnny did not want to walk to the far away trash bin.", "fol": ""}
+{"id": "enwn_validation_197", "nl": "Johnny did not throw his trash away into a trash bin.", "fol": ""}
+{"id": "enwn_validation_198", "nl": "Johnny littered.", "fol": ""}
+{"id": "enwn_validation_199", "nl": "Johnny should not have littered.", "fol": ""}
+{"id": "enwn_validation_200", "nl": "If you see someone struggling to do something, you should help them.", "fol": ""}
+{"id": "enwn_validation_201", "nl": "Josh is holding groceries in both hands at the door.", "fol": ""}
+{"id": "enwn_validation_202", "nl": "If you are holding something with both hands, you will struggle to open doors.", "fol": ""}
+{"id": "enwn_validation_203", "nl": "Amy can see Josh.", "fol": ""}
+{"id": "enwn_validation_204", "nl": "Josh is struggling to open the door.", "fol": ""}
+{"id": "enwn_validation_205", "nl": "Amy can see Josh struggling to open the door.", "fol": ""}
+{"id": "enwn_validation_206", "nl": "Amy should help Josh open the door.", "fol": ""}
+{"id": "enwn_validation_207", "nl": "You should avoid harming someone else or yourself.", "fol": ""}
+{"id": "enwn_validation_208", "nl": "Driving dangerously can harm you or someone else.", "fol": ""}
+{"id": "enwn_validation_209", "nl": "Dani drove home from the bar after drinking alcohol.", "fol": ""}
+{"id": "enwn_validation_210", "nl": "Driving after drinking alcohol is dangerous.", "fol": ""}
+{"id": "enwn_validation_211", "nl": "Dani drove home dangerously.", "fol": ""}
+{"id": "enwn_validation_212", "nl": "Dani could have harmed themself or someone else by driving home.", "fol": ""}
+{"id": "enwn_validation_213", "nl": "Dani should not have driven home.", "fol": ""}
+{"id": "enwn_validation_214", "nl": "You should not copy other peoples work and claim it as your own.", "fol": ""}
+{"id": "enwn_validation_215", "nl": "Copyright infringement is using protected works of another person without permission.", "fol": ""}
+{"id": "enwn_validation_216", "nl": "Ryan did not ask the band Super Cool for permission to use their song.", "fol": ""}
+{"id": "enwn_validation_217", "nl": "Ryan made a video.", "fol": ""}
+{"id": "enwn_validation_218", "nl": "Ryan used a song from the band Super Cool in the video.", "fol": ""}
+{"id": "enwn_validation_219", "nl": "All songs by Super Cool are protected work.", "fol": ""}
+{"id": "enwn_validation_220", "nl": "You should not copy protected work from other people because that's copyright infringement.", "fol": ""}
+{"id": "enwn_validation_221", "nl": "Ryan made a video and used a song from a band called Super Cool.", "fol": ""}
+{"id": "enwn_validation_222", "nl": "Ryan used Super Cool's song without getting permission from the band first.", "fol": ""}
+{"id": "enwn_validation_223", "nl": "Ryan used Super Cool's protected work without getting permission from the band first.", "fol": ""}
+{"id": "enwn_validation_224", "nl": "Ryan should not have used Super Cool's song because he committed copyright infringement.", "fol": ""}
+{"id": "enwn_validation_225", "nl": "Scaring people is mean and rude unless you have a good reason.", "fol": ""}
+{"id": "enwn_validation_226", "nl": "You generally do not want to do mean or rude things to people.", "fol": ""}
+{"id": "enwn_validation_227", "nl": "Luke yelled fire for fun.", "fol": ""}
+{"id": "enwn_validation_228", "nl": "Yelling fire for fun is not a good reason to yell fire.", "fol": ""}
+{"id": "enwn_validation_229", "nl": "When you yell fire for without a good reason, you scare everyone around you.", "fol": ""}
+{"id": "enwn_validation_230", "nl": "You should not scare people without good reason.", "fol": ""}
+{"id": "enwn_validation_231", "nl": "Luke yelled fire without a good reason.", "fol": ""}
+{"id": "enwn_validation_232", "nl": "Luke scared everyone around him without a good reason.", "fol": ""}
+{"id": "enwn_validation_233", "nl": "Luke should not have yelled fire.", "fol": ""}
+{"id": "enwn_validation_234", "nl": "Even though you won't be punished, you should not do bad things.", "fol": ""}
+{"id": "enwn_validation_235", "nl": "If no one sees you do something bad, you won't get punished.", "fol": ""}
+{"id": "enwn_validation_236", "nl": "Mike can steal the wallet.", "fol": ""}
+{"id": "enwn_validation_237", "nl": "When you turn away from something you cannot see it.", "fol": ""}
+{"id": "enwn_validation_238", "nl": "Josh turned away from Mike and the wallet.", "fol": ""}
+{"id": "enwn_validation_239", "nl": "Stealing is bad.", "fol": ""}
+{"id": "enwn_validation_240", "nl": "Josh turned away and cannot see Mike or the wallet.", "fol": ""}
+{"id": "enwn_validation_241", "nl": "Mike can steal the wallet without Josh seeing.", "fol": ""}
+{"id": "enwn_validation_242", "nl": "Mike can do something bad without Josh seeing.", "fol": ""}
+{"id": "enwn_validation_243", "nl": "Mike can do something bad without getting punished.", "fol": ""}
+{"id": "enwn_validation_244", "nl": "Mike should not do something bad even though he will not get punished.", "fol": ""}
+{"id": "enwn_validation_245", "nl": "You should clean messes you create.", "fol": ""}
+{"id": "enwn_validation_246", "nl": "If you made a spill, you made a mess.", "fol": ""}
+{"id": "enwn_validation_247", "nl": "Amy dropped her ice-cream on the floor and did not clean it.", "fol": ""}
+{"id": "enwn_validation_248", "nl": "If you drop ice cream on the floor, you make a spill.", "fol": ""}
+{"id": "enwn_validation_249", "nl": "You should clean spills you made.", "fol": ""}
+{"id": "enwn_validation_250", "nl": "Amy made a spill and did not clean it.", "fol": ""}
+{"id": "enwn_validation_251", "nl": "Amy should have cleaned her spill.", "fol": ""}
+{"id": "enwn_validation_252", "nl": "Helping hurt animals is a good thing to do.", "fol": ""}
+{"id": "enwn_validation_253", "nl": "If you mend something, you are helping the thing that something belongs to.", "fol": ""}
+{"id": "enwn_validation_254", "nl": "Setting a cast is a way to mend a wound.", "fol": ""}
+{"id": "enwn_validation_255", "nl": "Dan put a cast around the hurt dogs broken leg.", "fol": ""}
+{"id": "enwn_validation_256", "nl": "Dan mended the hurt dog's leg.", "fol": ""}
+{"id": "enwn_validation_257", "nl": "Dan helped the hurt dog.", "fol": ""}
+{"id": "enwn_validation_258", "nl": "Dan did a good thing.", "fol": ""}
+{"id": "enwn_validation_259", "nl": "You should not annoy other people.", "fol": ""}
+{"id": "enwn_validation_260", "nl": "Loud music will cause other people that are around to be annoyed.", "fol": ""}
+{"id": "enwn_validation_261", "nl": "Ned is playing music loudly.", "fol": ""}
+{"id": "enwn_validation_262", "nl": "Ned and Brad are around each other.", "fol": ""}
+{"id": "enwn_validation_263", "nl": "You should not play loud music with other people around because it will annoy them.", "fol": ""}
+{"id": "enwn_validation_264", "nl": "Ned is playing his music loud around Brad.", "fol": ""}
+{"id": "enwn_validation_265", "nl": "Ned should not play his music because it will annoy Brad.", "fol": ""}
+{"id": "enwn_validation_266", "nl": "Forcing someone to give you something is wrong.", "fol": ""}
+{"id": "enwn_validation_267", "nl": "You should not do wrong things.", "fol": ""}
+{"id": "enwn_validation_268", "nl": "Keith bullied Gunner until Gunner gave his lunch money to Keith.", "fol": ""}
+{"id": "enwn_validation_269", "nl": "Bullying is a form of harassment.", "fol": ""}
+{"id": "enwn_validation_270", "nl": "If you continuously harass someone until they do something, you forced them to do that thing.", "fol": ""}
+{"id": "enwn_validation_271", "nl": "You should not force someone to give you something.", "fol": ""}
+{"id": "enwn_validation_272", "nl": "Keith harassed Gunner until Gunner gave his lunch money to Keith.", "fol": ""}
+{"id": "enwn_validation_273", "nl": "Keith forced Gunner to give Keith his lunch money.", "fol": ""}
+{"id": "enwn_validation_274", "nl": "Keith should not have forced Gunner to give Keith his lunch money.", "fol": ""}
+{"id": "enwn_validation_275", "nl": "If you agree to do something, you should do it.", "fol": ""}
+{"id": "enwn_validation_276", "nl": "Chad agreed to work but is playing instead.", "fol": ""}
+{"id": "enwn_validation_277", "nl": "If you agree to do something but are doing something else, you are not doing what you agreed to do.", "fol": ""}
+{"id": "enwn_validation_278", "nl": "Chad agreed to work but is not working.", "fol": ""}
+{"id": "enwn_validation_279", "nl": "Chad should be working.", "fol": ""}
+{"id": "enwn_validation_280", "nl": "Lewis earned wages over the year.", "fol": ""}
+{"id": "enwn_validation_281", "nl": "If you earn wages over the year, you have taxes on those wages.", "fol": ""}
+{"id": "enwn_validation_282", "nl": "Paying taxes is a law.", "fol": ""}
+{"id": "enwn_validation_283", "nl": "You should obey the law.", "fol": ""}
+{"id": "enwn_validation_284", "nl": "Breaking the law is a crime.", "fol": ""}
+{"id": "enwn_validation_285", "nl": "Lewis has taxes on wages he earned over the year.", "fol": ""}
+{"id": "enwn_validation_286", "nl": "Paying taxes is a law that you should obey.", "fol": ""}
+{"id": "enwn_validation_287", "nl": "It is a crime to not pay your taxes.", "fol": ""}
+{"id": "enwn_validation_288", "nl": "Lewis will commit a crime if he does not pay his taxes.", "fol": ""}
+{"id": "enwn_validation_289", "nl": "You should fulfill your promises.", "fol": ""}
+{"id": "enwn_validation_290", "nl": "Evan said he would help Rose.", "fol": ""}
+{"id": "enwn_validation_291", "nl": "If you say you will do something, you promise to do that thing.", "fol": ""}
+{"id": "enwn_validation_292", "nl": "Evan promised to help Rose.", "fol": ""}
+{"id": "enwn_validation_293", "nl": "Evan should help Rose.", "fol": ""}
+{"id": "enwn_validation_294", "nl": "Erin argued for her answer after it was proven wrong.", "fol": ""}
+{"id": "enwn_validation_295", "nl": "If you argue when you are wrong, you do not accept that you are wrong.", "fol": ""}
+{"id": "enwn_validation_296", "nl": "If you can't accept that you are wrong, you lack humility.", "fol": ""}
+{"id": "enwn_validation_297", "nl": "You should have humility.", "fol": ""}
+{"id": "enwn_validation_298", "nl": "Erin did not accept that she was wrong.", "fol": ""}
+{"id": "enwn_validation_299", "nl": "Erin lacks humility.", "fol": ""}
+{"id": "enwn_validation_300", "nl": "Erin should have humility.", "fol": ""}
+{"id": "enwn_validation_301", "nl": "You should not intentionally mislead people.", "fol": ""}
+{"id": "enwn_validation_302", "nl": "You knowingly told John incorrect information.", "fol": ""}
+{"id": "enwn_validation_303", "nl": "If you do something that you know is incorrect, you did that on purpose.", "fol": ""}
+{"id": "enwn_validation_304", "nl": "Telling someone incorrect information is misleading them.", "fol": ""}
+{"id": "enwn_validation_305", "nl": "If you do something on purpose, you did that thing intentionally.", "fol": ""}
+{"id": "enwn_validation_306", "nl": "You told John incorrect information on purpose.", "fol": ""}
+{"id": "enwn_validation_307", "nl": "You misled John on purpose.", "fol": ""}
+{"id": "enwn_validation_308", "nl": "You intentionally misled John.", "fol": ""}
+{"id": "enwn_validation_309", "nl": "You should not have misled John intentionally.", "fol": ""}
+{"id": "enwn_validation_310", "nl": "You should only fire someone if you have a good reason.", "fol": ""}
+{"id": "enwn_validation_311", "nl": "Bob fired Peter because Peter had different ideas than Bob.", "fol": ""}
+{"id": "enwn_validation_312", "nl": "If two people have different ideas, they do not agree with each other.", "fol": ""}
+{"id": "enwn_validation_313", "nl": "Not agreeing with someone is not a good reason to fire them.", "fol": ""}
+{"id": "enwn_validation_314", "nl": "Bob fired Peter because they do not agree.", "fol": ""}
+{"id": "enwn_validation_315", "nl": "Bob fired Peter without a good reason.", "fol": ""}
+{"id": "enwn_validation_316", "nl": "Bob should not have fired Peter.", "fol": ""}
+{"id": "enwn_validation_317", "nl": "Superiors give orders and expect you to follow them.", "fol": ""}
+{"id": "enwn_validation_318", "nl": "If an order is unjust, you should disobey those orders.", "fol": ""}
+{"id": "enwn_validation_319", "nl": "If you follow an order to commit a crime, you followed an unjust order.", "fol": ""}
+{"id": "enwn_validation_320", "nl": "If you did the thing you are ordered to do from someone else, you followed the order given by that someone.", "fol": ""}
+{"id": "enwn_validation_321", "nl": "If a superior tells you to do something, that thing is an order.", "fol": ""}
+{"id": "enwn_validation_322", "nl": "Sara committed fraud because her boss told her to.", "fol": ""}
+{"id": "enwn_validation_323", "nl": "Fraud is a crime.", "fol": ""}
+{"id": "enwn_validation_324", "nl": "If someone is your boss, then they are your superior.", "fol": ""}
+{"id": "enwn_validation_325", "nl": "You should disobey orders from superiors if they are unjust.", "fol": ""}
+{"id": "enwn_validation_326", "nl": "Sara committed a crime  because her boss told her to.", "fol": ""}
+{"id": "enwn_validation_327", "nl": "Sara committed a crime  because her superior told her to.", "fol": ""}
+{"id": "enwn_validation_328", "nl": "Sara committed a crime because her superior ordered her to.", "fol": ""}
+{"id": "enwn_validation_329", "nl": "Sara followed her order to commit a crime given by her superior.", "fol": ""}
+{"id": "enwn_validation_330", "nl": "Sara followed an unjust order given by her superior.", "fol": ""}
+{"id": "enwn_validation_331", "nl": "Sara should have disobeyed her superiors unjust orders.", "fol": ""}
+{"id": "enwn_validation_332", "nl": "If you are cheating, you should tell your partner and stop cheating.", "fol": ""}
+{"id": "enwn_validation_333", "nl": "Stan is seeing Olivia but is partnered with Ellie.", "fol": ""}
+{"id": "enwn_validation_334", "nl": "If you are seeing someone other than your partner, then you are cheating on your partner.", "fol": ""}
+{"id": "enwn_validation_335", "nl": "Stan is cheating on his partner.", "fol": ""}
+{"id": "enwn_validation_336", "nl": "Stan should stop cheating and tell his partner.", "fol": ""}
+{"id": "enwn_validation_337", "nl": "If you hurt someone over a rude remark then you lost your temper.", "fol": ""}
+{"id": "enwn_validation_338", "nl": "Jake punched Jim when Jim said Jake's shirt was stupid.", "fol": ""}
+{"id": "enwn_validation_339", "nl": "Saying something is stupid is considered a rude remark.", "fol": ""}
+{"id": "enwn_validation_340", "nl": "You should control your emotions and not hurt someone because you lost your temper.", "fol": ""}
+{"id": "enwn_validation_341", "nl": "Jake punched Jim when Jim made a rude remark about Jake's shirt.", "fol": ""}
+{"id": "enwn_validation_342", "nl": "Jake lost his temper and hurt Jim over a rude remark.", "fol": ""}
+{"id": "enwn_validation_343", "nl": "Jake should have controlled his emotions and not hurt Jim.", "fol": ""}
+{"id": "enwn_validation_344", "nl": "Henry moved his golf ball out of the rough.", "fol": ""}
+{"id": "enwn_validation_345", "nl": "Henry didn't take a penalty stroke or tell anyone when he was moving his ball.", "fol": ""}
+{"id": "enwn_validation_346", "nl": "In golf, if you move your ball without telling anyone or taking a penalty stroke, you cheat.", "fol": ""}
+{"id": "enwn_validation_347", "nl": "Cheating in a game is disrespectful to the other players.", "fol": ""}
+{"id": "enwn_validation_348", "nl": "Henry moved his golf ball out of the rough without telling anyone or taking a penalty stroke.", "fol": ""}
+{"id": "enwn_validation_349", "nl": "Henry cheated at golf.", "fol": ""}
+{"id": "enwn_validation_350", "nl": "Henry disrespected the other golf players.", "fol": ""}
+{"id": "enwn_validation_351", "nl": "Oswald realized his stocks would soon be worthless, putting him in debt.", "fol": ""}
+{"id": "enwn_validation_352", "nl": "To avoid debt, Oswald sold his stocks to other people.", "fol": ""}
+{"id": "enwn_validation_353", "nl": "It is deceitful to sell something when it has no value.", "fol": ""}
+{"id": "enwn_validation_354", "nl": "You should not do deceitful things.", "fol": ""}
+{"id": "enwn_validation_355", "nl": "Oswald sold stocks that he knew had no value to other people.", "fol": ""}
+{"id": "enwn_validation_356", "nl": "If you know something has no value, you should not sell that thing.", "fol": ""}
+{"id": "enwn_validation_357", "nl": "Oswald should not have sold those stocks.", "fol": ""}
+{"id": "enwn_validation_358", "nl": "Jeff took candy from a child in the park.", "fol": ""}
+{"id": "enwn_validation_359", "nl": "Children are often considered helpless due to their age.", "fol": ""}
+{"id": "enwn_validation_360", "nl": "Stealing from the helpless is taking advantage of them.", "fol": ""}
+{"id": "enwn_validation_361", "nl": "Taking advantage of someone is considered being cruel.", "fol": ""}
+{"id": "enwn_validation_362", "nl": "Jeff took candy from a helpless child in the park.", "fol": ""}
+{"id": "enwn_validation_363", "nl": "Stealing from the helpless is considered being cruel.", "fol": ""}
+{"id": "enwn_validation_364", "nl": "It was cruel of Jeff to steal candy from the child.", "fol": ""}
+{"id": "enwn_validation_365", "nl": "Lois let her dog poop on her neighbors lawn.", "fol": ""}
+{"id": "enwn_validation_366", "nl": "Lois never picks up her dog's poop because she thinks it's gross.", "fol": ""}
+{"id": "enwn_validation_367", "nl": "Leaving a mess requires someone else to clean it.", "fol": ""}
+{"id": "enwn_validation_368", "nl": "Dog poop is a mess.", "fol": ""}
+{"id": "enwn_validation_369", "nl": "It is inconsiderate to make someone else account for your responsibilities.", "fol": ""}
+{"id": "enwn_validation_370", "nl": "Avoiding your responsibilities requires someone else to account for them.", "fol": ""}
+{"id": "enwn_validation_371", "nl": "Lois did not pick up her dog's poop on the neighbors lawn.", "fol": ""}
+{"id": "enwn_validation_372", "nl": "Dog poop is a mess that needs to be cleaned by someone.", "fol": ""}
+{"id": "enwn_validation_373", "nl": "Lois left a mess that needs to be cleaned by someone.", "fol": ""}
+{"id": "enwn_validation_374", "nl": "Avoiding your responsibilities is inconsiderate.", "fol": ""}
+{"id": "enwn_validation_375", "nl": "You are avoiding your responsibilities when you leave a mess for someone else.", "fol": ""}
+{"id": "enwn_validation_376", "nl": "Leaving a mess for someone else to clean is being inconsiderate.", "fol": ""}
+{"id": "enwn_validation_377", "nl": "Lois is inconsiderate.", "fol": ""}
+{"id": "enwn_validation_378", "nl": "Joshua likes driving an extremely loud car in the middle of the night because it wakes people up.", "fol": ""}
+{"id": "enwn_validation_379", "nl": "Making things unpleasant for someone is rude.", "fol": ""}
+{"id": "enwn_validation_380", "nl": "Waking someone up at night prevents them from getting a full night's rest.", "fol": ""}
+{"id": "enwn_validation_381", "nl": "Not getting a full night's rest is unpleasant.", "fol": ""}
+{"id": "enwn_validation_382", "nl": "If you like to be rude, you're a rude person.", "fol": ""}
+{"id": "enwn_validation_383", "nl": "Waking someone up at night can be unpleasant for that person.", "fol": ""}
+{"id": "enwn_validation_384", "nl": "It is rude to wake people up at night.", "fol": ""}
+{"id": "enwn_validation_385", "nl": "Joshua likes to be rude.", "fol": ""}
+{"id": "enwn_validation_386", "nl": "Joshua is a rude person.", "fol": ""}
+{"id": "enwn_validation_387", "nl": "Katie used her neighbors' internet access without their permission.", "fol": ""}
+{"id": "enwn_validation_388", "nl": "Using someone's internet access doesn't prevent them from using it.", "fol": ""}
+{"id": "enwn_validation_389", "nl": "It's wrong to deprive someone of their property.", "fol": ""}
+{"id": "enwn_validation_390", "nl": "Katie didn't deprive her neighbors of their internet by using it without their permission.", "fol": ""}
+{"id": "enwn_validation_391", "nl": "It was okay for Katie to use her neighbors' internet.", "fol": ""}
+{"id": "enwn_validation_392", "nl": "Pushing people out of your way is an impatient thing to do.", "fol": ""}
+{"id": "enwn_validation_393", "nl": "Patience is a virtue.", "fol": ""}
+{"id": "enwn_validation_394", "nl": "People should be virtuous.", "fol": ""}
+{"id": "enwn_validation_395", "nl": "Letty shoved Cathleen out of the way when walking through a doorway.", "fol": ""}
+{"id": "enwn_validation_396", "nl": "People should be patient.", "fol": ""}
+{"id": "enwn_validation_397", "nl": "You shouldn't push people out of your way.", "fol": ""}
+{"id": "enwn_validation_398", "nl": "Letty should not have shoved Cathleen.", "fol": ""}
+{"id": "enwn_validation_399", "nl": "The professor hugged the student without asking permission.", "fol": ""}
+{"id": "enwn_validation_400", "nl": "It is not respectful to do things to people without their permission.", "fol": ""}
+{"id": "enwn_validation_401", "nl": "You should respect people.", "fol": ""}
+{"id": "enwn_validation_402", "nl": "It was disrespectful of the professor to hug the student.", "fol": ""}
+{"id": "enwn_validation_403", "nl": "The professor should not have hugged the student.", "fol": ""}
+{"id": "enwn_validation_404", "nl": "Knowing the paper's authors does not reflect the paper's merit.", "fol": ""}
+{"id": "enwn_validation_405", "nl": "You should score \npapers based on merit.", "fol": ""}
+{"id": "enwn_validation_406", "nl": "Andy gave a high score to the paper because he knew the authors.", "fol": ""}
+{"id": "enwn_validation_407", "nl": "Giving a high score to a paper because you know the authors is wrong.", "fol": ""}
+{"id": "enwn_validation_408", "nl": "Andy should not have scored the paper based on how well he knew the authors.", "fol": ""}
+{"id": "enwn_validation_409", "nl": "Throwing things out of frustration is an example of having a temper tantrum.", "fol": ""}
+{"id": "enwn_validation_410", "nl": "People should not let their emotions get out of control.", "fol": ""}
+{"id": "enwn_validation_411", "nl": "Having a temper tantrum in public means you are not in control of your emotions.", "fol": ""}
+{"id": "enwn_validation_412", "nl": "Martha threw a chair out of frustration while she was at the DMV.", "fol": ""}
+{"id": "enwn_validation_413", "nl": "The DMV is a public location.", "fol": ""}
+{"id": "enwn_validation_414", "nl": "People should not have temper tantrums in public.", "fol": ""}
+{"id": "enwn_validation_415", "nl": "People shouldn't throw things in public out of frustration.", "fol": ""}
+{"id": "enwn_validation_416", "nl": "Martha thew a chair out of frustration in public.", "fol": ""}
+{"id": "enwn_validation_417", "nl": "Martha should not have thrown the chair.", "fol": ""}
+{"id": "enwn_validation_418", "nl": "Not helping someone in trouble is allowing a bad thing to happen to them.", "fol": ""}
+{"id": "enwn_validation_419", "nl": "Allowing a bad thing to happen to someone is considered harming them.", "fol": ""}
+{"id": "enwn_validation_420", "nl": "You should not do something that harms someone else.", "fol": ""}
+{"id": "enwn_validation_421", "nl": "Joey cried out for help when he was being bullied.", "fol": ""}
+{"id": "enwn_validation_422", "nl": "Jan heard Joey but didn't do anything.", "fol": ""}
+{"id": "enwn_validation_423", "nl": "Not helping someone in trouble is considered harming them.", "fol": ""}
+{"id": "enwn_validation_424", "nl": "You should help people in trouble.", "fol": ""}
+{"id": "enwn_validation_425", "nl": "Jan heard Joey crying for help but didn't do anything.", "fol": ""}
+{"id": "enwn_validation_426", "nl": "Jan should have helped Joey.", "fol": ""}
+{"id": "enwn_validation_427", "nl": "Mark took his kids out of school to help him beg other people for money.", "fol": ""}
+{"id": "enwn_validation_428", "nl": "Asking people for money is a way to make money.", "fol": ""}
+{"id": "enwn_validation_429", "nl": "Removing your kids from school is detrimental to them.", "fol": ""}
+{"id": "enwn_validation_430", "nl": "To exploit someone is the action or fact of treating someone unfairly in order to benefit from their work.", "fol": ""}
+{"id": "enwn_validation_431", "nl": "You should treat people fairly.", "fol": ""}
+{"id": "enwn_validation_432", "nl": "Mark took his kids out of school to help him make money.", "fol": ""}
+{"id": "enwn_validation_433", "nl": "Mark is using his children to get money at their expense.", "fol": ""}
+{"id": "enwn_validation_434", "nl": "Mark is exploiting his children.", "fol": ""}
+{"id": "enwn_validation_435", "nl": "You should not exploit people.", "fol": ""}
+{"id": "enwn_validation_436", "nl": "Mark should not be exploiting his children.", "fol": ""}
+{"id": "enwn_validation_437", "nl": "Deciding not to hire someone on the basis of their traits is one kind of discrimination.", "fol": ""}
+{"id": "enwn_validation_438", "nl": "It is unjust to discriminate on the basis of pregnancy.", "fol": ""}
+{"id": "enwn_validation_439", "nl": "You should treat people justly.\n", "fol": ""}
+{"id": "enwn_validation_440", "nl": "Victor did not hire Maddie because she was going on maternity leave soon.", "fol": ""}
+{"id": "enwn_validation_441", "nl": "If someone is going on maternity leave then they are pregnant.", "fol": ""}
+{"id": "enwn_validation_442", "nl": "You shouldn't discriminate on the basis of pregnancy.", "fol": ""}
+{"id": "enwn_validation_443", "nl": "You shouldn't base hiring decisions off of whether or not someone is pregnant.", "fol": ""}
+{"id": "enwn_validation_444", "nl": "Victor decided not to hire Maddie based on her pregnancy.", "fol": ""}
+{"id": "enwn_validation_445", "nl": "Victor should not have based his decision off of Maddie's pregnancy.", "fol": ""}
+{"id": "enwn_validation_446", "nl": "If you're rude to people who hold a certain view, it means you don't respect that view.", "fol": ""}
+{"id": "enwn_validation_447", "nl": "Religion is a kind of personal preference.", "fol": ""}
+{"id": "enwn_validation_448", "nl": "You should be tolerant.", "fol": ""}
+{"id": "enwn_validation_449", "nl": "Respecting other people's preferences is a form of tolerance.", "fol": ""}
+{"id": "enwn_validation_450", "nl": "Eugene is rude to people who do not share his religion.", "fol": ""}
+{"id": "enwn_validation_451", "nl": "If you're rude to people because of the religion they hold, it means you don't respect their religion.", "fol": ""}
+{"id": "enwn_validation_452", "nl": "You should respect other people's preferences.", "fol": ""}
+{"id": "enwn_validation_453", "nl": "You should respect other people's religious preferences.", "fol": ""}
+{"id": "enwn_validation_454", "nl": "You should not be rude to people because of the religion they hold.", "fol": ""}
+{"id": "enwn_validation_455", "nl": "Eugene should not be rude to people who do not share his religion.", "fol": ""}
+{"id": "enwn_validation_456", "nl": "Intruding on people is disrespecting their privacy.", "fol": ""}
+{"id": "enwn_validation_457", "nl": "You should respect people's privacy.", "fol": ""}
+{"id": "enwn_validation_458", "nl": "Knocking on someone's door when they do not wish to be disturbed is intrusive.", "fol": ""}
+{"id": "enwn_validation_459", "nl": "Sandra constantly ignores \"No Solicitation\" signs and knocks on people's doors.", "fol": ""}
+{"id": "enwn_validation_460", "nl": "You shouldn't intrude on people.", "fol": ""}
+{"id": "enwn_validation_461", "nl": "Sandra intrudes on people.", "fol": ""}
+{"id": "enwn_validation_462", "nl": "Sandra should not intrude on people.", "fol": ""}
+{"id": "enwn_validation_463", "nl": "Martin kicked his dog to make it stop barking.", "fol": ""}
+{"id": "enwn_validation_464", "nl": "Kicking an animal hurts it.", "fol": ""}
+{"id": "enwn_validation_465", "nl": "Hurting people or animals is considered abuse.", "fol": ""}
+{"id": "enwn_validation_466", "nl": "You should not abuse any living thing.", "fol": ""}
+{"id": "enwn_validation_467", "nl": "Martin hurt his dog.", "fol": ""}
+{"id": "enwn_validation_468", "nl": "You should not hurt animals.", "fol": ""}
+{"id": "enwn_validation_469", "nl": "Martin should not have hurt his dog.", "fol": ""}
+{"id": "enwn_validation_470", "nl": "If you think your college didn't prepare you for your job then you lack self-assurance in your abilities.", "fol": ""}
+{"id": "enwn_validation_471", "nl": "Cindy doesn't think her college was good enough for her current job. ", "fol": ""}
+{"id": "enwn_validation_472", "nl": "Confidence is a feeling of self-assurance arising from one's appreciation of one's own abilities or qualities.", "fol": ""}
+{"id": "enwn_validation_473", "nl": "Being confident allows you to feel ready for life's experiences.", "fol": ""}
+{"id": "enwn_validation_474", "nl": "It's important to feel ready for life's experiences.", "fol": ""}
+{"id": "enwn_validation_475", "nl": "Cindy has a lack of self-assurance in her abilities.", "fol": ""}
+{"id": "enwn_validation_476", "nl": "Cindy lacks confidence.", "fol": ""}
+{"id": "enwn_validation_477", "nl": "It's important to be confident.", "fol": ""}
+{"id": "enwn_validation_478", "nl": "Cindy should try to be more confident.", "fol": ""}
+{"id": "enwn_validation_479", "nl": "Personal beliefs aren't a good reason to disobey the law.", "fol": ""}
+{"id": "enwn_validation_480", "nl": "The law stipulates you must report your income.", "fol": ""}
+{"id": "enwn_validation_481", "nl": "John did not report his income because he does not believe taxes are justified.", "fol": ""}
+{"id": "enwn_validation_482", "nl": "Personal beliefs aren't a good reason to avoid reporting your income.", "fol": ""}
+{"id": "enwn_validation_483", "nl": "John should have reported his income.", "fol": ""}
+{"id": "enwn_validation_484", "nl": "Corey went to work while she was sick during a pandemic.", "fol": ""}
+{"id": "enwn_validation_485", "nl": "If you do something while sick you are prioritizing that thing over your health.", "fol": ""}
+{"id": "enwn_validation_486", "nl": "Everyone prioritizing health helps stop disease from spreading.", "fol": ""}
+{"id": "enwn_validation_487", "nl": "It's important to stop the spread of disease, especially when health risk is elevated.", "fol": ""}
+{"id": "enwn_validation_488", "nl": "A pandemic is a disease that is prevalent over a whole country or the world.", "fol": ""}
+{"id": "enwn_validation_489", "nl": "A disease that can effect the whole world escalates health risks for everyone.", "fol": ""}
+{"id": "enwn_validation_490", "nl": "Corey prioritized work over her health during a pandemic.", "fol": ""}
+{"id": "enwn_validation_491", "nl": "Health should be everyone's priority, especially when health risk is elevated.", "fol": ""}
+{"id": "enwn_validation_492", "nl": "A pandemic escalates health risks for everyone.", "fol": ""}
+{"id": "enwn_validation_493", "nl": "During a pandemic, health should be everyone's top priority.", "fol": ""}
+{"id": "enwn_validation_494", "nl": "Corey had the wrong priorities.", "fol": ""}
+{"id": "enwn_validation_495", "nl": "Ryan made fun of Stew's favorite TV show in front of others.", "fol": ""}
+{"id": "enwn_validation_496", "nl": "If you are in front of others then you are in public.", "fol": ""}
+{"id": "enwn_validation_497", "nl": "Making fun of something that someone else likes can make that person feel ashamed and foolish.", "fol": ""}
+{"id": "enwn_validation_498", "nl": "To humiliate someone is to make someone feel ashamed and foolish by injuring their dignity and self-respect, especially publicly.", "fol": ""}
+{"id": "enwn_validation_499", "nl": "Humiliation is a form of harm.", "fol": ""}
+{"id": "enwn_validation_500", "nl": "Ryan made fun of Stew's favorite TV show in public.", "fol": ""}
+{"id": "enwn_validation_501", "nl": "Ryan made Stew feel ashamed and foolish in public.", "fol": ""}
+{"id": "enwn_validation_502", "nl": "Ryan humiliated Stew.", "fol": ""}
+{"id": "enwn_validation_503", "nl": "You should not humiliate someone else.", "fol": ""}
+{"id": "enwn_validation_504", "nl": "Ryan should not have humiliated Stew.", "fol": ""}
+{"id": "enwn_validation_505", "nl": "Henry was dumped by Chloe and thought it was unfair of her so he is planning to deface her Facebook page.", "fol": ""}
+{"id": "enwn_validation_506", "nl": "If someone does something to you that feels unfair then you feel wronged by that person.", "fol": ""}
+{"id": "enwn_validation_507", "nl": "Defacing someone's social media page is a way of harming them.", "fol": ""}
+{"id": "enwn_validation_508", "nl": "Planning to inflict harm on someone for a wrong suffered at their hand is called seeking revenge.", "fol": ""}
+{"id": "enwn_validation_509", "nl": "It is better to heal than to hurt others.", "fol": ""}
+{"id": "enwn_validation_510", "nl": "When you feel wronged by someone, forgiving and forgetting is a way of healing.", "fol": ""}
+{"id": "enwn_validation_511", "nl": "Henry felt wronged by Chloe and was planning to deface her Facebook page.", "fol": ""}
+{"id": "enwn_validation_512", "nl": "Henry felt wronged by Chloe and was planning to inflict harm on her.", "fol": ""}
+{"id": "enwn_validation_513", "nl": "Henry is seeking revenge.", "fol": ""}
+{"id": "enwn_validation_514", "nl": "When you feel wronged, it is better to forgive and forget than to hurt those who wronged you.", "fol": ""}
+{"id": "enwn_validation_515", "nl": "It is better to forgive and forget than to seek revenge.", "fol": ""}
+{"id": "enwn_validation_516", "nl": "Henry should forgive and forget instead of seeking revenge.", "fol": ""}
+{"id": "enwn_validation_517", "nl": "Slandering is damaging to a person's reputation.", "fol": ""}
+{"id": "enwn_validation_518", "nl": "Damaging someone's reputation is harmful to them.", "fol": ""}
+{"id": "enwn_validation_519", "nl": "Paul slandered Jimmy in his magazine to increase sales.", "fol": ""}
+{"id": "enwn_validation_520", "nl": "Slandering someone is harmful to them.", "fol": ""}
+{"id": "enwn_validation_521", "nl": "You should not slander someone.", "fol": ""}
+{"id": "enwn_validation_522", "nl": "Paul should not have slandered Jimmy.", "fol": ""}
+{"id": "enwn_validation_523", "nl": "Mocking someone is intentionally aggravating them.", "fol": ""}
+{"id": "enwn_validation_524", "nl": "Intentionally aggravating someone is not encouraging positive discourse.", "fol": ""}
+{"id": "enwn_validation_525", "nl": "We should encourage positive discourse.", "fol": ""}
+{"id": "enwn_validation_526", "nl": "Walter mocked the rally participants because he disagreed with their political ideology.", "fol": ""}
+{"id": "enwn_validation_527", "nl": "You shouldn't intentionally aggravate people.", "fol": ""}
+{"id": "enwn_validation_528", "nl": "You shouldn't mock people.", "fol": ""}
+{"id": "enwn_validation_529", "nl": "Walter should not have mocked the rally participants.", "fol": ""}
+{"id": "enwn_validation_530", "nl": "You should not harm others.", "fol": ""}
+{"id": "enwn_validation_531", "nl": "Being considerate means you are careful to avoid hurting others.", "fol": ""}
+{"id": "enwn_validation_532", "nl": "If you do something that is inconvenient for others then you are being inconsiderate.", "fol": ""}
+{"id": "enwn_validation_533", "nl": "Justin quit his job after giving notice one day in advance.", "fol": ""}
+{"id": "enwn_validation_534", "nl": "Giving less than two weeks' notice before leaving your job is not enough warning.", "fol": ""}
+{"id": "enwn_validation_535", "nl": "Someone leaving their job without sufficient warning is inconvenient for their coworkers.", "fol": ""}
+{"id": "enwn_validation_536", "nl": "You should be considerate.", "fol": ""}
+{"id": "enwn_validation_537", "nl": "You should not inconvenience others.", "fol": ""}
+{"id": "enwn_validation_538", "nl": "Justin did not give enough warning before quitting.", "fol": ""}
+{"id": "enwn_validation_539", "nl": "Justin quitting was inconvenient for his coworkers.", "fol": ""}
+{"id": "enwn_validation_540", "nl": "Justin should not have inconvenienced his coworkers.", "fol": ""}
+{"id": "enwn_validation_541", "nl": "If you're unreasonably angry at something taking too long, you're impatient.", "fol": ""}
+{"id": "enwn_validation_542", "nl": "Gabriel was angry at the server for taking too long even though the restaurant was understaffed.", "fol": ""}
+{"id": "enwn_validation_543", "nl": "When someone has to do a lot, it's reasonable for it to take a long time.", "fol": ""}
+{"id": "enwn_validation_544", "nl": "When a restaurant is understaffed, the servers have a lot to do.", "fol": ""}
+{"id": "enwn_validation_545", "nl": "When a restaurant is understaffed, it's reasonable for the servers to take a long time.", "fol": ""}
+{"id": "enwn_validation_546", "nl": "Gabriel was unreasonably angry that the server took too long.", "fol": ""}
+{"id": "enwn_validation_547", "nl": "Gabriel was impatient with the server.", "fol": ""}
+{"id": "enwn_validation_548", "nl": "Gabriel should have been patient with the server.", "fol": ""}
+{"id": "enwn_validation_549", "nl": "Luke let his partners handle the group project.", "fol": ""}
+{"id": "enwn_validation_550", "nl": "If you let other people handle something then you are not helping on that thing.", "fol": ""}
+{"id": "enwn_validation_551", "nl": "A group project requires multiple people to do work.", "fol": ""}
+{"id": "enwn_validation_552", "nl": "If multiple people are required to do something then it is expected that all those people should help.", "fol": ""}
+{"id": "enwn_validation_553", "nl": "You should be trustworthy.", "fol": ""}
+{"id": "enwn_validation_554", "nl": "To be trustworthy means you do what is expected of you.", "fol": ""}
+{"id": "enwn_validation_555", "nl": "Luke did not help his partners on the group project.", "fol": ""}
+{"id": "enwn_validation_556", "nl": "It is expected that everyone on a group project will help.", "fol": ""}
+{"id": "enwn_validation_557", "nl": "Luke did not help his partners when it was expected.", "fol": ""}
+{"id": "enwn_validation_558", "nl": "If something is expected of you then you should do that thing.", "fol": ""}
+{"id": "enwn_validation_559", "nl": "Luke should have helped his partners.", "fol": ""}
+{"id": "enwn_validation_560", "nl": "You should only conceive with someone with their consent.", "fol": ""}
+{"id": "enwn_validation_561", "nl": "Someone can't consent to something if they're being lied to about it.", "fol": ""}
+{"id": "enwn_validation_562", "nl": "Abby told Mark that she was on birth control so that she could get pregnant with him.", "fol": ""}
+{"id": "enwn_validation_563", "nl": "Abby was not on birth control.", "fol": ""}
+{"id": "enwn_validation_564", "nl": "You shouldn't lie to someone in order to conceive with them.", "fol": ""}
+{"id": "enwn_validation_565", "nl": "Abby lied to Mark in order to get pregnant with him.", "fol": ""}
+{"id": "enwn_validation_566", "nl": "Abby should not have lied to Mark.", "fol": ""}
+{"id": "enwn_validation_567", "nl": "A boss is an authority figure.", "fol": ""}
+{"id": "enwn_validation_568", "nl": "Tom spat in his boss's coffee in front of everyone.", "fol": ""}
+{"id": "enwn_validation_569", "nl": "Spitting in someone's beverage is rude.", "fol": ""}
+{"id": "enwn_validation_570", "nl": "Being insubordinate means disrespecting authority.", "fol": ""}
+{"id": "enwn_validation_571", "nl": "Tom was rude to his boss.", "fol": ""}
+{"id": "enwn_validation_572", "nl": "Tom was being disrespectful towards an authority figure.", "fol": ""}
+{"id": "enwn_validation_573", "nl": "Tom was being insubordinate.", "fol": ""}
+{"id": "enwn_validation_574", "nl": "Karen stole a customer's social security number for her own gain.", "fol": ""}
+{"id": "enwn_validation_575", "nl": "Stealing a person's social security number is also called stealing their identity.", "fol": ""}
+{"id": "enwn_validation_576", "nl": "You shouldn't cause problems for others.", "fol": ""}
+{"id": "enwn_validation_577", "nl": "Stealing someone's identity allows the thief to take control of the victim's bank account.", "fol": ""}
+{"id": "enwn_validation_578", "nl": "Losing control of your bank account leads to financial problems.", "fol": ""}
+{"id": "enwn_validation_579", "nl": "Karen stole the customer's identity.", "fol": ""}
+{"id": "enwn_validation_580", "nl": "Stealing someone's identity can cause them financial problems.", "fol": ""}
+{"id": "enwn_validation_581", "nl": "You shouldn't steal someone's identity.", "fol": ""}
+{"id": "enwn_validation_582", "nl": "Karen should not have stolen the customer's identity.", "fol": ""}
+{"id": "enwn_validation_583", "nl": "Jenna's friend didn't give her permission to take any of her stuff.", "fol": ""}
+{"id": "enwn_validation_584", "nl": "Jenna took a Clif bar from the pantry.", "fol": ""}
+{"id": "enwn_validation_585", "nl": "Jenna's friend bought the Clif bars in the pantry.", "fol": ""}
+{"id": "enwn_validation_586", "nl": "Once you buy something, it belongs to you.", "fol": ""}
+{"id": "enwn_validation_587", "nl": "You shouldn't take someone else's belongings without their permission.", "fol": ""}
+{"id": "enwn_validation_588", "nl": "The Clif bars in the pantry belonged to Jenna's friend.", "fol": ""}
+{"id": "enwn_validation_589", "nl": "Jenna took one of her friend's Clif bars.", "fol": ""}
+{"id": "enwn_validation_590", "nl": "Jenna took one of her friend's Clif bars without her permission.", "fol": ""}
+{"id": "enwn_validation_591", "nl": "Jenna shouldn't have taken the Clif bar.", "fol": ""}
+{"id": "enwn_validation_592", "nl": "Rich deducted points from two students because they submitted the same project.", "fol": ""}
+{"id": "enwn_validation_593", "nl": "The project worksheet said that everyone was supposed to do the project on their own.", "fol": ""}
+{"id": "enwn_validation_594", "nl": "People working independently on a creative task will produce different results.", "fol": ""}
+{"id": "enwn_validation_595", "nl": "A school project is a creative task.", "fol": ""}
+{"id": "enwn_validation_596", "nl": "Deducting points from a student for violating rules is a valid response.", "fol": ""}
+{"id": "enwn_validation_597", "nl": "People working independently on a school project will produce different results.", "fol": ""}
+{"id": "enwn_validation_598", "nl": "The two students must have worked together if they produced the same project.", "fol": ""}
+{"id": "enwn_validation_599", "nl": "The two students broke the rules by submitting the same project.", "fol": ""}
+{"id": "enwn_validation_600", "nl": "Rich deducted points from the students for breaking the rules.", "fol": ""}
+{"id": "enwn_validation_601", "nl": "Rich was right to deduct points from the students.", "fol": ""}
+{"id": "enwn_validation_602", "nl": "It's okay to sell lost items if you can't find their owner.", "fol": ""}
+{"id": "enwn_validation_603", "nl": "Jamie didn't try to find the camera's owner.", "fol": ""}
+{"id": "enwn_validation_604", "nl": "Jamie sold the camera on Ebay.", "fol": ""}
+{"id": "enwn_validation_605", "nl": "Losing something means leaving it somewhere accidentally.", "fol": ""}
+{"id": "enwn_validation_606", "nl": "People don't leave valuables in public on purpose.", "fol": ""}
+{"id": "enwn_validation_607", "nl": "Jamie found a camera sitting on a park bench.", "fol": ""}
+{"id": "enwn_validation_608", "nl": "Cameras don't put themselves on benches.", "fol": ""}
+{"id": "enwn_validation_609", "nl": "If someone left a valuable item in public, they lost it.", "fol": ""}
+{"id": "enwn_validation_610", "nl": "Someone left the camera on the park bench.", "fol": ""}
+{"id": "enwn_validation_611", "nl": "Someone lost the camera.", "fol": ""}
+{"id": "enwn_validation_612", "nl": "Jamie sold a lost camera.", "fol": ""}
+{"id": "enwn_validation_613", "nl": "Jamie sold a lost camera without trying to find its owner first.", "fol": ""}
+{"id": "enwn_validation_614", "nl": "Jamie should have tried to find the camera's owner before selling it.", "fol": ""}
+{"id": "enwn_validation_615", "nl": "Removing bad players from a competitive sports team because they are unskilled is okay.", "fol": ""}
+{"id": "enwn_validation_616", "nl": "A player performing poorly in a single game is not conclusive evidence that they are unskilled.", "fol": ""}
+{"id": "enwn_validation_617", "nl": "The other players on Cindy's soccer team voted to kick her off the team because she let three goals through in a playoff game.", "fol": ""}
+{"id": "enwn_validation_618", "nl": "A goalie's performance is reflected by the number of goals they let through.", "fol": ""}
+{"id": "enwn_validation_619", "nl": "Cindy is a goalie.", "fol": ""}
+{"id": "enwn_validation_620", "nl": "A player's performance in one game isn't enough of a reason to remove them from a team.", "fol": ""}
+{"id": "enwn_validation_621", "nl": "The number of goals Cindy let through is a reflection of her performance.", "fol": ""}
+{"id": "enwn_validation_622", "nl": "The other players kicked Cindy off of the team based on her performance in a single game.", "fol": ""}
+{"id": "enwn_validation_623", "nl": "The other players shouldn't have kicked Cindy off the team.", "fol": ""}
+{"id": "enwn_validation_624", "nl": "You should not discriminate against people on the basis of sexuality.", "fol": ""}
+{"id": "enwn_validation_625", "nl": "Doing detrimental things to someone because of their identity is discrimination.", "fol": ""}
+{"id": "enwn_validation_626", "nl": "Removing someone from your will is detrimental to them.", "fol": ""}
+{"id": "enwn_validation_627", "nl": "Martin's father removed Martin from his will because Martin came out as gay.", "fol": ""}
+{"id": "enwn_validation_628", "nl": "You should not do something detrimental to someone because of their sexuality.", "fol": ""}
+{"id": "enwn_validation_629", "nl": "You should not remove someone from your will because of their sexuality.", "fol": ""}
+{"id": "enwn_validation_630", "nl": "Martin's father should not have removed Martin from his will.", "fol": ""}
+{"id": "enwn_validation_631", "nl": "Elaine slapped her brother because he ate the last two pudding cups.", "fol": ""}
+{"id": "enwn_validation_632", "nl": "Elaine felt she deserved one of the last two pudding cups.", "fol": ""}
+{"id": "enwn_validation_633", "nl": "It's petty to retaliate when someone wrongs you in a minor way.", "fol": ""}
+{"id": "enwn_validation_634", "nl": "Taking someone's snacks is wrong, but it doesn't harm them significantly.", "fol": ""}
+{"id": "enwn_validation_635", "nl": "You shouldn't hurt people for petty reasons.", "fol": ""}
+{"id": "enwn_validation_636", "nl": "Elaine slapped her brother in retaliation for taking her snacks.", "fol": ""}
+{"id": "enwn_validation_637", "nl": "It's petty to retaliate against someone for taking your snacks.", "fol": ""}
+{"id": "enwn_validation_638", "nl": "Elaine slapped her brother for a petty reason.", "fol": ""}
+{"id": "enwn_validation_639", "nl": "Elaine should not have slapped her brother.", "fol": ""}
+{"id": "enwn_validation_640", "nl": "You shouldn't insult people for no good reason.", "fol": ""}
+{"id": "enwn_validation_641", "nl": "Someone's appearance is not a good reason to insult them.", "fol": ""}
+{"id": "enwn_validation_642", "nl": "Calling something dirty is an insult.", "fol": ""}
+{"id": "enwn_validation_643", "nl": "Dishrags are stereotypically dirty.", "fol": ""}
+{"id": "enwn_validation_644", "nl": "Comparing things implies that they share properties.", "fol": ""}
+{"id": "enwn_validation_645", "nl": "Derek told Cammy that her hair looked like a dishrag.", "fol": ""}
+{"id": "enwn_validation_646", "nl": "Someone's hair is part of their appearance.", "fol": ""}
+{"id": "enwn_validation_647", "nl": "Comparing something to a dishrag implies that it's dirty.", "fol": ""}
+{"id": "enwn_validation_648", "nl": "Derek's comment was implying that Cammy's hair looked dirty.", "fol": ""}
+{"id": "enwn_validation_649", "nl": "Derek's comment was an insult.", "fol": ""}
+{"id": "enwn_validation_650", "nl": "Derek's comment was about Cammy's appearance.", "fol": ""}
+{"id": "enwn_validation_651", "nl": "Derek insulted Cammy's appearance.", "fol": ""}
+{"id": "enwn_validation_652", "nl": "Derek insulted Cammy for no good reason.", "fol": ""}
+{"id": "enwn_validation_653", "nl": "Derek should not have insulted Cammy.", "fol": ""}
+{"id": "enwn_validation_654", "nl": "You should be polite.", "fol": ""}
+{"id": "enwn_validation_655", "nl": "Melanie closed the doors immediately when she saw someone approaching the elevator she was in.", "fol": ""}
+{"id": "enwn_validation_656", "nl": "It's polite to hold the door for people.", "fol": ""}
+{"id": "enwn_validation_657", "nl": "It was impolite for Melanie to close the elevator doors.", "fol": ""}
+{"id": "enwn_validation_658", "nl": "Melanie shouldn't have closed the elevator doors.", "fol": ""}
+{"id": "enwn_validation_659", "nl": "You should avoid doing unethical things.", "fol": ""}
+{"id": "enwn_validation_660", "nl": "Bribing someone to do something wrong is unethical.", "fol": ""}
+{"id": "enwn_validation_661", "nl": "It's wrong to keep quiet about misconduct.", "fol": ""}
+{"id": "enwn_validation_662", "nl": "Offering someone something valuable in exchange for their cooperation is bribery.", "fol": ""}
+{"id": "enwn_validation_663", "nl": "Jarad's project manager Mike offered him tickets to a sold-out concert in exchange for not discussing Mike's behavior in the office during an HR inquiry.", "fol": ""}
+{"id": "enwn_validation_664", "nl": "Bribing someone to keep quiet about misconduct is unethical.", "fol": ""}
+{"id": "enwn_validation_665", "nl": "Mike was attempting to bribe Jarad to keep quiet about his misconduct by offering him the tickets.", "fol": ""}
+{"id": "enwn_validation_666", "nl": "It was unethical for Mike to offer Jarad the tickets.", "fol": ""}
+{"id": "enwn_validation_667", "nl": "Mike should not have offered Jarad the tickets.", "fol": ""}
+{"id": "enwn_validation_668", "nl": "If someone asks you for a small favor, it's polite to accept.", "fol": ""}
+{"id": "enwn_validation_669", "nl": "Letting someone use the shower before you is a small favor.", "fol": ""}
+{"id": "enwn_validation_670", "nl": "Elle's sister asked her if she could use the shower first.", "fol": ""}
+{"id": "enwn_validation_671", "nl": "Elle ignored her sister's request and showered for 30 minutes.", "fol": ""}
+{"id": "enwn_validation_672", "nl": "Elle's sister was requesting a small favor.", "fol": ""}
+{"id": "enwn_validation_673", "nl": "Elle ignored her sister's request for a small favor.", "fol": ""}
+{"id": "enwn_validation_674", "nl": "It was impolite for Elle to ignore her sister's request.", "fol": ""}
+{"id": "enwn_validation_675", "nl": "Elle should not have ignored her sister's request.", "fol": ""}
+{"id": "enwn_validation_676", "nl": "It's okay to do things that are generally frowned upon if they have positive outcomes.", "fol": ""}
+{"id": "enwn_validation_677", "nl": "Lying is generally wrong.", "fol": ""}
+{"id": "enwn_validation_678", "nl": "Xirong lied to his boss to protect his coworker from being fired for organizing a walk-out.", "fol": ""}
+{"id": "enwn_validation_679", "nl": "Firing someone for organizing a walk-out is a form of retaliation.", "fol": ""}
+{"id": "enwn_validation_680", "nl": "Preventing someone from doing something wrong is a good thing.", "fol": ""}
+{"id": "enwn_validation_681", "nl": "Retaliating against worker organization is wrong.", "fol": ""}
+{"id": "enwn_validation_682", "nl": "It's okay to lie if it does more good than harm.", "fol": ""}
+{"id": "enwn_validation_683", "nl": "Xirong lied to his boss to prevent him from retaliating against worker organization.", "fol": ""}
+{"id": "enwn_validation_684", "nl": "Preventing someone from retaliating against worker organization is a good thing.", "fol": ""}
+{"id": "enwn_validation_685", "nl": "The consequence of Xirong's lie was a good thing.", "fol": ""}
+{"id": "enwn_validation_686", "nl": "It was okay for Xirong to lie to his boss.", "fol": ""}
+{"id": "enwn_validation_687", "nl": "Dita cut the brakes on Martin's car after he cheated on her.", "fol": ""}
+{"id": "enwn_validation_688", "nl": "Someone cheating on you is not a good enough reason to put them in mortal danger.", "fol": ""}
+{"id": "enwn_validation_689", "nl": "Cutting the brakes on someone's car puts them in mortal danger.", "fol": ""}
+{"id": "enwn_validation_690", "nl": "Someone cheating on you is not a good enough reason to cut the brakes on their car.", "fol": ""}
+{"id": "enwn_validation_691", "nl": "Dita should not have cut the brakes on Martin's car.", "fol": ""}
+{"id": "enwn_validation_692", "nl": "It's okay to break rules that aren't important.", "fol": ""}
+{"id": "enwn_validation_693", "nl": "Movie theater rules say that no outside food is allowed.", "fol": ""}
+{"id": "enwn_validation_694", "nl": "Rules about not bringing outside food into establishments exist to increase on-site concession sales.", "fol": ""}
+{"id": "enwn_validation_695", "nl": "Increasing on-site concession sales isn't important.", "fol": ""}
+{"id": "enwn_validation_696", "nl": "Sam broke the theater rules by bringing chips into the movie.", "fol": ""}
+{"id": "enwn_validation_697", "nl": "Rules about not bringing food into establishments aren't important.", "fol": ""}
+{"id": "enwn_validation_698", "nl": "The movie theater rule that says no outside food is allowed is not important.", "fol": ""}
+{"id": "enwn_validation_699", "nl": "It's okay to break the movie theater rule that says no outside food is allowed.", "fol": ""}
+{"id": "enwn_validation_700", "nl": "It was okay for Sam to take the chips into the theater.", "fol": ""}
+{"id": "enwn_validation_701", "nl": "A physical response to a remark is escalation.", "fol": ""}
+{"id": "enwn_validation_702", "nl": "Luis dumped his soda on the guy sitting in front of him because the guy made a snide remark about Ravens fans.", "fol": ""}
+{"id": "enwn_validation_703", "nl": "You shouldn't escalate conflicts.", "fol": ""}
+{"id": "enwn_validation_704", "nl": "Luis escalated the situation by dumping his soda on the guy.", "fol": ""}
+{"id": "enwn_validation_705", "nl": "Luis shouldn't have dumped his soda on the guy.", "fol": ""}
+{"id": "enwn_validation_706", "nl": "Esme copied a section of the Wikipedia article on Thomas Jefferson to put in her school report.", "fol": ""}
+{"id": "enwn_validation_707", "nl": "If you copy something without attribution, you're representing it as your own work.", "fol": ""}
+{"id": "enwn_validation_708", "nl": "Esme didn't attribute the copied section.", "fol": ""}
+{"id": "enwn_validation_709", "nl": "Copying someone else's writing and representing it as your own work is plagiarism.", "fol": ""}
+{"id": "enwn_validation_710", "nl": "Plagiarism is wrong.", "fol": ""}
+{"id": "enwn_validation_711", "nl": "Esme represented the copied section as her own work.", "fol": ""}
+{"id": "enwn_validation_712", "nl": "Esme copied someone else's writing from Wikipedia and represented it as her own work.", "fol": ""}
+{"id": "enwn_validation_713", "nl": "Copying someone else's writing and representing it as your own work is wrong.", "fol": ""}
+{"id": "enwn_validation_714", "nl": "Esme shouldn't have copied from Wikipedia without attributing the copied section.", "fol": ""}
+{"id": "enwn_validation_715", "nl": "You shouldn't induce people to help you do bad things.", "fol": ""}
+{"id": "enwn_validation_716", "nl": "Faking drug test results in competitive sports is cheating.", "fol": ""}
+{"id": "enwn_validation_717", "nl": "Giles paid his friend for a urine sample to pass a drug test for a crew competition.", "fol": ""}
+{"id": "enwn_validation_718", "nl": "Using someone else's urine to pass a drug test is faking.", "fol": ""}
+{"id": "enwn_validation_719", "nl": "Faking drug test results in competitive sports is wrong.", "fol": ""}
+{"id": "enwn_validation_720", "nl": "Giles paid his friend for the sample to help him fake a drug test for a crew competition.", "fol": ""}
+{"id": "enwn_validation_721", "nl": "Giles paid his friend for the sample to help him do something wrong.", "fol": ""}
+{"id": "enwn_validation_722", "nl": "Giles shouldn't have paid his friend for the sample.", "fol": ""}
+{"id": "enwn_validation_723", "nl": "A store is a public location.", "fol": ""}
+{"id": "enwn_validation_724", "nl": "It's polite to cover your mouth when coughing in a public location.", "fol": ""}
+{"id": "enwn_validation_725", "nl": "Rajesh coughed without covering his mouth in line at the drugstore.", "fol": ""}
+{"id": "enwn_validation_726", "nl": "It's polite to cover your mouth when coughing in a store.", "fol": ""}
+{"id": "enwn_validation_727", "nl": "Rajesh should have covered his mouth.", "fol": ""}
+{"id": "enwn_validation_728", "nl": "Marina told her parents that she was going to be staying over at a friend's house.", "fol": ""}
+{"id": "enwn_validation_729", "nl": "In reality, she was going to be at an all-night house party.", "fol": ""}
+{"id": "enwn_validation_730", "nl": "You're lying to someone if you tell them you're planning one thing but you're really planning something else.", "fol": ""}
+{"id": "enwn_validation_731", "nl": "Lying to someone that you're not doing something dangerous prevents them from helping you in an emergency.", "fol": ""}
+{"id": "enwn_validation_732", "nl": "Partying is potentially dangerous.", "fol": ""}
+{"id": "enwn_validation_733", "nl": "Preventing someone from helping you in an emergency is potentially very harmful.", "fol": ""}
+{"id": "enwn_validation_734", "nl": "Marina told her parents she wouldn't be at a party, but she was actually going to a house party.", "fol": ""}
+{"id": "enwn_validation_735", "nl": "Marina lied to her parents to give them the impression she wouldn't be going to a house party.", "fol": ""}
+{"id": "enwn_validation_736", "nl": "Lying to someone that you're not partying prevents them from helping you in an emergency.", "fol": ""}
+{"id": "enwn_validation_737", "nl": "Lying to someone that you're not partying does more harm than good.", "fol": ""}
+{"id": "enwn_validation_738", "nl": "Marina's lie to her parents did more harm than good.", "fol": ""}
+{"id": "enwn_validation_739", "nl": "Marina shouldn't have lied to her parents.", "fol": ""}
+{"id": "enwn_validation_740", "nl": "Bugging someone's phone is an invasion of their privacy.", "fol": ""}
+{"id": "enwn_validation_741", "nl": "Invading people's privacy without a good reason is wrong.", "fol": ""}
+{"id": "enwn_validation_742", "nl": "Omar bugged his girlfriend's phone because he thought she was lying.", "fol": ""}
+{"id": "enwn_validation_743", "nl": "Omar suspected his girlfriend was lying because she came home at 3 AM.", "fol": ""}
+{"id": "enwn_validation_744", "nl": "It's normal to be out late when you're drinking with friends.", "fol": ""}
+{"id": "enwn_validation_745", "nl": "Omar's girlfriend told him she was going out drinking with her friends.", "fol": ""}
+{"id": "enwn_validation_746", "nl": "It's irrational to be suspicious of someone who is behaving normally.", "fol": ""}
+{"id": "enwn_validation_747", "nl": "Bugging someone's phone without a good reason is wrong.", "fol": ""}
+{"id": "enwn_validation_748", "nl": "It was normal for Omar's girlfriend to be out late.", "fol": ""}
+{"id": "enwn_validation_749", "nl": "Omar suspected his girlfriend was lying because she did something normal.", "fol": ""}
+{"id": "enwn_validation_750", "nl": "Omar didn't have good reason to suspect his girlfriend was lying.", "fol": ""}
+{"id": "enwn_validation_751", "nl": "Omar bugged his girlfriend's phone without a good reason.", "fol": ""}
+{"id": "enwn_validation_752", "nl": "Omar shouldn't have bugged his girlfriend's phone.", "fol": ""}
+{"id": "enwn_validation_753", "nl": "It's inappropriate for supervisors to behave unprofessionally.", "fol": ""}
+{"id": "enwn_validation_754", "nl": "It's unprofessional to let personal matters interfere with workplace matters.", "fol": ""}
+{"id": "enwn_validation_755", "nl": "An employer's influence over their employees' pay is a workplace matter.", "fol": ""}
+{"id": "enwn_validation_756", "nl": "Alan docked Tim's pay because Tim gave Alan's daughter a low score on a test.", "fol": ""}
+{"id": "enwn_validation_757", "nl": "Doing something because of a familial relationship is doing it for a personal reason.", "fol": ""}
+{"id": "enwn_validation_758", "nl": "It's unprofessional to dock your employee's pay for personal reasons.", "fol": ""}
+{"id": "enwn_validation_759", "nl": "Alan docked Tim's pay for a personal reason.", "fol": ""}
+{"id": "enwn_validation_760", "nl": "It was unprofessional for Alan to dock Tim's pay.", "fol": ""}
+{"id": "enwn_validation_761", "nl": "Alan should not have docked Tim's pay.", "fol": ""}
+{"id": "enwn_validation_762", "nl": "You should not inconvenience people.", "fol": ""}
+{"id": "enwn_validation_763", "nl": "Preetha parked in front of her neighbor's car, blocking them in their shared driveway.", "fol": ""}
+{"id": "enwn_validation_764", "nl": "It's inconvenient to have your car blocked.", "fol": ""}
+{"id": "enwn_validation_765", "nl": "Preetha parking in front of her neighbor's car inconvenienced her neighbor.", "fol": ""}
+{"id": "enwn_validation_766", "nl": "Preetha should not have parked in front of her neighbor's car.", "fol": ""}
+{"id": "enwn_validation_767", "nl": "It's rude to spoil a show.", "fol": ""}
+{"id": "enwn_validation_768", "nl": "You shouldn't be rude.", "fol": ""}
+{"id": "enwn_validation_769", "nl": "Spoiling something means revealing a detail to someone before they get a chance to learn it for themselves.", "fol": ""}
+{"id": "enwn_validation_770", "nl": "Dane told Demarcus how the show ended before Demarcus got a chance to finish watching it.", "fol": ""}
+{"id": "enwn_validation_771", "nl": "You shouldn't spoil shows for people.", "fol": ""}
+{"id": "enwn_validation_772", "nl": "Dane spoiled the show for Demarcus.", "fol": ""}
+{"id": "enwn_validation_773", "nl": "Dane should not have spoiled the show for Demarcus.", "fol": ""}
+{"id": "enwn_validation_774", "nl": "You should only call emergency services in an emergency.", "fol": ""}
+{"id": "enwn_validation_775", "nl": "The police are an emergency service.", "fol": ""}
+{"id": "enwn_validation_776", "nl": "Alina called the police on some teenagers who were sitting across the street from her house because she thought they looked suspicious.", "fol": ""}
+{"id": "enwn_validation_777", "nl": "Seeing someone who you think looks suspicious is not an emergency.", "fol": ""}
+{"id": "enwn_validation_778", "nl": "You should only call the police in an emergency.", "fol": ""}
+{"id": "enwn_validation_779", "nl": "Alina was not in an emergency when she called the police.", "fol": ""}
+{"id": "enwn_validation_780", "nl": "Alina shouldn't have called the police.", "fol": ""}
+{"id": "enwn_validation_781", "nl": "You should generally follow the law.", "fol": ""}
+{"id": "enwn_validation_782", "nl": "Darrel bought a 48-rack of beer for his highschool nephew's friend.", "fol": ""}
+{"id": "enwn_validation_783", "nl": "People in highschool mostly have highschool-aged friends.", "fol": ""}
+{"id": "enwn_validation_784", "nl": "Supplying minors with alcohol is illegal.", "fol": ""}
+{"id": "enwn_validation_785", "nl": "Darrel's nephew's friend was probably a minor.", "fol": ""}
+{"id": "enwn_validation_786", "nl": "Darrel was probably buying the beer for a minor.", "fol": ""}
+{"id": "enwn_validation_787", "nl": "It was probably illegal for Darrel to buy the beer.", "fol": ""}
+{"id": "enwn_validation_788", "nl": "Darrel shouldn't have bought the beer.", "fol": ""}
+{"id": "enwn_validation_789", "nl": "It's rude to interrupt people.", "fol": ""}
+{"id": "enwn_validation_790", "nl": "Miguel interrupted the song that Alice was listening to on the wireless speaker to play his song.", "fol": ""}
+{"id": "enwn_validation_791", "nl": "You shouldn't interrupt people.", "fol": ""}
+{"id": "enwn_validation_792", "nl": "Miguel shouldn't have interrupted Alice's song.", "fol": ""}
+{"id": "enwn_validation_793", "nl": "Foods that contain a lot of sugar are unhealthy.", "fol": ""}
+{"id": "enwn_validation_794", "nl": "Monica refused to get her son Froot Loops because she thought they were too sugary.", "fol": ""}
+{"id": "enwn_validation_795", "nl": "It's okay to refuse to do something if you have a good reason.", "fol": ""}
+{"id": "enwn_validation_796", "nl": "It's a good idea to prevent your children from eating unhealthy food.", "fol": ""}
+{"id": "enwn_validation_797", "nl": "Monica refused to get her son Froot Loops because she thought they were unhealthy.", "fol": ""}
+{"id": "enwn_validation_798", "nl": "It's okay to refuse to give your children unhealthy food.", "fol": ""}
+{"id": "enwn_validation_799", "nl": "It was okay for Monica to refuse to get her son Froot Loops.", "fol": ""}
+{"id": "enwn_validation_800", "nl": "Tax fraud is inadvisable.", "fol": ""}
+{"id": "enwn_validation_801", "nl": "Writing personal purchases off as business expenses is tax fraud.", "fol": ""}
+{"id": "enwn_validation_802", "nl": "Patrice bought himself a jacuzzi and wrote it off as a business expense.", "fol": ""}
+{"id": "enwn_validation_803", "nl": "Writing the jacuzzi off as a business expense was tax fraud.", "fol": ""}
+{"id": "enwn_validation_804", "nl": "Patrice should not have written off the jacuzzi.", "fol": ""}
+{"id": "enwn_validation_805", "nl": "Spiking someone's drink is a very bad thing to do.", "fol": ""}
+{"id": "enwn_validation_806", "nl": "If someone does something bad to you, it makes sense to want to avoid them.", "fol": ""}
+{"id": "enwn_validation_807", "nl": "Elena told her friends to cut ties with Pat after he spiked her drink.", "fol": ""}
+{"id": "enwn_validation_808", "nl": "If you don't want social contact with someone, your friends also need to stop associating with them.", "fol": ""}
+{"id": "enwn_validation_809", "nl": "If someone spikes your drink, it makes sense to want to avoid them.", "fol": ""}
+{"id": "enwn_validation_810", "nl": "Elena was justified in wanting to avoid Pat.", "fol": ""}
+{"id": "enwn_validation_811", "nl": "If Elena didn't want social contact with Pat, her friends would also need to stop associating with him.", "fol": ""}
+{"id": "enwn_validation_812", "nl": "Elena was justified in telling her friends to cut ties with Pat.", "fol": ""}
+{"id": "enwn_validation_813", "nl": "When you hit someone's car, you should leave a note.", "fol": ""}
+{"id": "enwn_validation_814", "nl": "Biff backed into someone in the parking lot, then drove away without stopping.", "fol": ""}
+{"id": "enwn_validation_815", "nl": "If you don't stop your car, you can't get out and leave a note.", "fol": ""}
+{"id": "enwn_validation_816", "nl": "Biff hit someone's car but didn't leave a note.", "fol": ""}
+{"id": "enwn_validation_817", "nl": "Biff should have left a note.", "fol": ""}
+{"id": "enwn_validation_818", "nl": "You should pay attention to people when they're talking to you.", "fol": ""}
+{"id": "enwn_validation_819", "nl": "If you're ignoring someone, you aren't paying attention to them.", "fol": ""}
+{"id": "enwn_validation_820", "nl": "Terry pretended to not be able to hear Michelle because she wouldn't agree with his dinner plan.", "fol": ""}
+{"id": "enwn_validation_821", "nl": "If you're pretending not to hear someone, you're ignoring them.", "fol": ""}
+{"id": "enwn_validation_822", "nl": "You shouldn't ignore people.", "fol": ""}
+{"id": "enwn_validation_823", "nl": "Terry ignored Michelle.", "fol": ""}
+{"id": "enwn_validation_824", "nl": "Terry shouldn't have ignored Michelle.", "fol": ""}

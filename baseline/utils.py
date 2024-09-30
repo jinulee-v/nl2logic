@@ -2,6 +2,9 @@
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
+import nltk
+read_expr = nltk.sem.logic.Expression.fromstring
+nltk.Prover9._binary_location = "../LADR-2009-11A/bin"
 
 def save_model(model, tokenizer, path):
     """
@@ -34,14 +37,23 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(seed)
 
 
-def compute_accuracy(predictions, labels):
+def compute_accuracy(predictions, labels, fasteval=True):
     """Compute simple accuracy based on exact match between prediction and label."""
     correct = 0
     total = len(predictions)
     
     for pred, label in zip(predictions, labels):
-        if pred.strip() == label.strip():
-            correct += 1
+        if fasteval:
+            if pred.strip() == label.strip():
+                correct += 1
+        else:
+            try:
+                pred = read_expr(pred)
+                label = read_expr(label)
+                if pred.equiv(label):
+                    correct += 1
+            except:
+                pass
     
     accuracy = correct / total
     return accuracy
