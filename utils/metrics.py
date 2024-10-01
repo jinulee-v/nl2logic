@@ -112,9 +112,9 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                     p["score"] += 1
 
         predict_label = "neutral" # overall prediction, default to neutral
-        if entailment_cnt > contradiction_cnt and contradiction_cnt > 0:
+        if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
             predict_label = "entailment"
-        elif contradiction_cnt > entailment_cnt and entailment_cnt > 0:
+        elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
             predict_label = "contradiction"
     
         confusion_matrix[gold_label][predict_label] += 1
