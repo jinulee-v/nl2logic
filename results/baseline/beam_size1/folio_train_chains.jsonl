@@ -1,0 +1,997 @@
+{"premises": ["folio_train_0", "folio_train_1", "folio_train_2", "folio_train_3", "folio_train_4"], "conclusion": "folio_train_5", "label": "entailment"}
+{"premises": ["folio_train_0", "folio_train_1", "folio_train_2", "folio_train_3", "folio_train_4"], "conclusion": "folio_train_6", "label": "entailment"}
+{"premises": ["folio_train_0", "folio_train_1", "folio_train_2", "folio_train_3", "folio_train_4"], "conclusion": "folio_train_7", "label": "neutral"}
+{"premises": ["folio_train_0", "folio_train_1", "folio_train_2", "folio_train_3", "folio_train_4"], "conclusion": "folio_train_8", "label": "entailment"}
+{"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_13", "label": "neutral"}
+{"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_14", "label": "entailment"}
+{"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "contradiction"}
+{"premises": ["folio_train_16", "folio_train_17", "folio_train_18", "folio_train_19", "folio_train_20", "folio_train_21"], "conclusion": "folio_train_22", "label": "neutral"}
+{"premises": ["folio_train_16", "folio_train_17", "folio_train_18", "folio_train_19", "folio_train_20", "folio_train_21"], "conclusion": "folio_train_23", "label": "contradiction"}
+{"premises": ["folio_train_16", "folio_train_17", "folio_train_18", "folio_train_19", "folio_train_20", "folio_train_21"], "conclusion": "folio_train_24", "label": "entailment"}
+{"premises": ["folio_train_25", "folio_train_26", "folio_train_27", "folio_train_28", "folio_train_29", "folio_train_30"], "conclusion": "folio_train_31", "label": "entailment"}
+{"premises": ["folio_train_25", "folio_train_26", "folio_train_27", "folio_train_28", "folio_train_29", "folio_train_30"], "conclusion": "folio_train_32", "label": "entailment"}
+{"premises": ["folio_train_25", "folio_train_26", "folio_train_27", "folio_train_28", "folio_train_29", "folio_train_30"], "conclusion": "folio_train_33", "label": "neutral"}
+{"premises": ["folio_train_34", "folio_train_35", "folio_train_36", "folio_train_37", "folio_train_38"], "conclusion": "folio_train_39", "label": "entailment"}
+{"premises": ["folio_train_34", "folio_train_35", "folio_train_36", "folio_train_37", "folio_train_38"], "conclusion": "folio_train_40", "label": "neutral"}
+{"premises": ["folio_train_34", "folio_train_35", "folio_train_36", "folio_train_37", "folio_train_38"], "conclusion": "folio_train_41", "label": "entailment"}
+{"premises": ["folio_train_34", "folio_train_35", "folio_train_36", "folio_train_37", "folio_train_38"], "conclusion": "folio_train_42", "label": "entailment"}
+{"premises": ["folio_train_43", "folio_train_44", "folio_train_45", "folio_train_46"], "conclusion": "folio_train_47", "label": "contradiction"}
+{"premises": ["folio_train_48", "folio_train_49", "folio_train_50", "folio_train_51", "folio_train_52", "folio_train_53"], "conclusion": "folio_train_54", "label": "neutral"}
+{"premises": ["folio_train_48", "folio_train_49", "folio_train_50", "folio_train_51", "folio_train_52", "folio_train_53"], "conclusion": "folio_train_55", "label": "neutral"}
+{"premises": ["folio_train_48", "folio_train_49", "folio_train_50", "folio_train_51", "folio_train_52", "folio_train_53"], "conclusion": "folio_train_56", "label": "entailment"}
+{"premises": ["folio_train_48", "folio_train_49", "folio_train_50", "folio_train_51", "folio_train_52", "folio_train_53"], "conclusion": "folio_train_57", "label": "entailment"}
+{"premises": ["folio_train_48", "folio_train_49", "folio_train_50", "folio_train_51", "folio_train_52", "folio_train_53"], "conclusion": "folio_train_58", "label": "contradiction"}
+{"premises": ["folio_train_59", "folio_train_60", "folio_train_61", "folio_train_62", "folio_train_63", "folio_train_64"], "conclusion": "folio_train_65", "label": "entailment"}
+{"premises": ["folio_train_59", "folio_train_60", "folio_train_61", "folio_train_62", "folio_train_63", "folio_train_64"], "conclusion": "folio_train_66", "label": "contradiction"}
+{"premises": ["folio_train_67", "folio_train_68", "folio_train_69", "folio_train_70"], "conclusion": "folio_train_71", "label": "entailment"}
+{"premises": ["folio_train_67", "folio_train_68", "folio_train_69", "folio_train_70"], "conclusion": "folio_train_72", "label": "contradiction"}
+{"premises": ["folio_train_67", "folio_train_68", "folio_train_69", "folio_train_70"], "conclusion": "folio_train_73", "label": "neutral"}
+{"premises": ["folio_train_67", "folio_train_68", "folio_train_69", "folio_train_70"], "conclusion": "folio_train_74", "label": "neutral"}
+{"premises": ["folio_train_75", "folio_train_76", "folio_train_77"], "conclusion": "folio_train_78", "label": "entailment"}
+{"premises": ["folio_train_75", "folio_train_76", "folio_train_77"], "conclusion": "folio_train_79", "label": "contradiction"}
+{"premises": ["folio_train_75", "folio_train_76", "folio_train_77"], "conclusion": "folio_train_80", "label": "neutral"}
+{"premises": ["folio_train_81", "folio_train_82", "folio_train_83", "folio_train_84", "folio_train_85"], "conclusion": "folio_train_86", "label": "neutral"}
+{"premises": ["folio_train_81", "folio_train_82", "folio_train_83", "folio_train_84", "folio_train_85"], "conclusion": "folio_train_87", "label": "entailment"}
+{"premises": ["folio_train_81", "folio_train_82", "folio_train_83", "folio_train_84", "folio_train_85"], "conclusion": "folio_train_88", "label": "neutral"}
+{"premises": ["folio_train_89", "folio_train_90", "folio_train_91", "folio_train_92", "folio_train_93"], "conclusion": "folio_train_94", "label": "neutral"}
+{"premises": ["folio_train_89", "folio_train_90", "folio_train_91", "folio_train_92", "folio_train_93"], "conclusion": "folio_train_95", "label": "neutral"}
+{"premises": ["folio_train_89", "folio_train_90", "folio_train_91", "folio_train_92", "folio_train_93"], "conclusion": "folio_train_96", "label": "entailment"}
+{"premises": ["folio_train_89", "folio_train_90", "folio_train_91", "folio_train_92", "folio_train_93"], "conclusion": "folio_train_97", "label": "contradiction"}
+{"premises": ["folio_train_89", "folio_train_90", "folio_train_91", "folio_train_92", "folio_train_93"], "conclusion": "folio_train_98", "label": "neutral"}
+{"premises": ["folio_train_99", "folio_train_100", "folio_train_101", "folio_train_102", "folio_train_103", "folio_train_104"], "conclusion": "folio_train_105", "label": "neutral"}
+{"premises": ["folio_train_99", "folio_train_100", "folio_train_101", "folio_train_102", "folio_train_103", "folio_train_104"], "conclusion": "folio_train_106", "label": "entailment"}
+{"premises": ["folio_train_99", "folio_train_100", "folio_train_101", "folio_train_102", "folio_train_103", "folio_train_104"], "conclusion": "folio_train_107", "label": "contradiction"}
+{"premises": ["folio_train_108", "folio_train_109", "folio_train_110", "folio_train_111", "folio_train_112", "folio_train_113"], "conclusion": "folio_train_114", "label": "entailment"}
+{"premises": ["folio_train_108", "folio_train_109", "folio_train_110", "folio_train_111", "folio_train_112", "folio_train_113"], "conclusion": "folio_train_115", "label": "entailment"}
+{"premises": ["folio_train_108", "folio_train_109", "folio_train_110", "folio_train_111", "folio_train_112", "folio_train_113"], "conclusion": "folio_train_116", "label": "neutral"}
+{"premises": ["folio_train_117", "folio_train_118"], "conclusion": "folio_train_119", "label": "neutral"}
+{"premises": ["folio_train_120", "folio_train_121", "folio_train_122", "folio_train_123", "folio_train_124", "folio_train_125", "folio_train_126", "folio_train_127"], "conclusion": "folio_train_128", "label": "entailment"}
+{"premises": ["folio_train_120", "folio_train_121", "folio_train_122", "folio_train_123", "folio_train_124", "folio_train_125", "folio_train_126", "folio_train_127"], "conclusion": "folio_train_129", "label": "entailment"}
+{"premises": ["folio_train_120", "folio_train_121", "folio_train_122", "folio_train_123", "folio_train_124", "folio_train_125", "folio_train_126", "folio_train_127"], "conclusion": "folio_train_130", "label": "contradiction"}
+{"premises": ["folio_train_120", "folio_train_121", "folio_train_122", "folio_train_123", "folio_train_124", "folio_train_125", "folio_train_126", "folio_train_127"], "conclusion": "folio_train_131", "label": "entailment"}
+{"premises": ["folio_train_132", "folio_train_133", "folio_train_134"], "conclusion": "folio_train_135", "label": "contradiction"}
+{"premises": ["folio_train_132", "folio_train_133", "folio_train_134"], "conclusion": "folio_train_136", "label": "entailment"}
+{"premises": ["folio_train_137", "folio_train_138", "folio_train_139", "folio_train_140", "folio_train_141", "folio_train_142", "folio_train_143"], "conclusion": "folio_train_144", "label": "neutral"}
+{"premises": ["folio_train_137", "folio_train_138", "folio_train_139", "folio_train_140", "folio_train_141", "folio_train_142", "folio_train_143"], "conclusion": "folio_train_145", "label": "entailment"}
+{"premises": ["folio_train_137", "folio_train_138", "folio_train_139", "folio_train_140", "folio_train_141", "folio_train_142", "folio_train_143"], "conclusion": "folio_train_146", "label": "contradiction"}
+{"premises": ["folio_train_147", "folio_train_148", "folio_train_149"], "conclusion": "folio_train_150", "label": "neutral"}
+{"premises": ["folio_train_147", "folio_train_148", "folio_train_149"], "conclusion": "folio_train_151", "label": "entailment"}
+{"premises": ["folio_train_152", "folio_train_153", "folio_train_154", "folio_train_155", "folio_train_156", "folio_train_157"], "conclusion": "folio_train_158", "label": "neutral"}
+{"premises": ["folio_train_152", "folio_train_153", "folio_train_154", "folio_train_155", "folio_train_156", "folio_train_157"], "conclusion": "folio_train_159", "label": "entailment"}
+{"premises": ["folio_train_152", "folio_train_153", "folio_train_154", "folio_train_155", "folio_train_156", "folio_train_157"], "conclusion": "folio_train_160", "label": "contradiction"}
+{"premises": ["folio_train_161", "folio_train_162", "folio_train_163", "folio_train_164", "folio_train_165"], "conclusion": "folio_train_166", "label": "neutral"}
+{"premises": ["folio_train_161", "folio_train_162", "folio_train_163", "folio_train_164", "folio_train_165"], "conclusion": "folio_train_167", "label": "entailment"}
+{"premises": ["folio_train_161", "folio_train_162", "folio_train_163", "folio_train_164", "folio_train_165"], "conclusion": "folio_train_168", "label": "entailment"}
+{"premises": ["folio_train_161", "folio_train_162", "folio_train_163", "folio_train_164", "folio_train_165"], "conclusion": "folio_train_169", "label": "contradiction"}
+{"premises": ["folio_train_161", "folio_train_162", "folio_train_163", "folio_train_164", "folio_train_165"], "conclusion": "folio_train_170", "label": "contradiction"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_177", "label": "neutral"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_178", "label": "neutral"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_179", "label": "contradiction"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_180", "label": "entailment"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_181", "label": "entailment"}
+{"premises": ["folio_train_171", "folio_train_172", "folio_train_173", "folio_train_174", "folio_train_175", "folio_train_176"], "conclusion": "folio_train_182", "label": "contradiction"}
+{"premises": ["folio_train_183", "folio_train_184", "folio_train_185", "folio_train_186", "folio_train_187", "folio_train_188"], "conclusion": "folio_train_189", "label": "neutral"}
+{"premises": ["folio_train_183", "folio_train_184", "folio_train_185", "folio_train_186", "folio_train_187", "folio_train_188"], "conclusion": "folio_train_190", "label": "entailment"}
+{"premises": ["folio_train_191", "folio_train_192"], "conclusion": "folio_train_193", "label": "neutral"}
+{"premises": ["folio_train_194", "folio_train_195", "folio_train_196", "folio_train_197", "folio_train_198"], "conclusion": "folio_train_199", "label": "neutral"}
+{"premises": ["folio_train_194", "folio_train_195", "folio_train_196", "folio_train_197", "folio_train_198"], "conclusion": "folio_train_200", "label": "neutral"}
+{"premises": ["folio_train_194", "folio_train_195", "folio_train_196", "folio_train_197", "folio_train_198"], "conclusion": "folio_train_201", "label": "neutral"}
+{"premises": ["folio_train_194", "folio_train_195", "folio_train_196", "folio_train_197", "folio_train_198"], "conclusion": "folio_train_202", "label": "entailment"}
+{"premises": ["folio_train_203", "folio_train_204", "folio_train_205", "folio_train_206", "folio_train_207", "folio_train_208"], "conclusion": "folio_train_209", "label": "entailment"}
+{"premises": ["folio_train_203", "folio_train_204", "folio_train_205", "folio_train_206", "folio_train_207", "folio_train_208"], "conclusion": "folio_train_210", "label": "contradiction"}
+{"premises": ["folio_train_203", "folio_train_204", "folio_train_205", "folio_train_206", "folio_train_207", "folio_train_208"], "conclusion": "folio_train_211", "label": "contradiction"}
+{"premises": ["folio_train_212", "folio_train_213", "folio_train_214", "folio_train_215", "folio_train_216", "folio_train_217", "folio_train_218"], "conclusion": "folio_train_219", "label": "entailment"}
+{"premises": ["folio_train_220", "folio_train_221", "folio_train_222", "folio_train_223", "folio_train_224", "folio_train_225"], "conclusion": "folio_train_226", "label": "contradiction"}
+{"premises": ["folio_train_220", "folio_train_221", "folio_train_222", "folio_train_223", "folio_train_224", "folio_train_225"], "conclusion": "folio_train_227", "label": "neutral"}
+{"premises": ["folio_train_220", "folio_train_221", "folio_train_222", "folio_train_223", "folio_train_224", "folio_train_225"], "conclusion": "folio_train_228", "label": "entailment"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_234", "label": "neutral"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_235", "label": "entailment"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_236", "label": "entailment"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_237", "label": "entailment"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_238", "label": "entailment"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_239", "label": "contradiction"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_240", "label": "contradiction"}
+{"premises": ["folio_train_229", "folio_train_230", "folio_train_231", "folio_train_232", "folio_train_233"], "conclusion": "folio_train_241", "label": "entailment"}
+{"premises": ["folio_train_242", "folio_train_243"], "conclusion": "folio_train_244", "label": "neutral"}
+{"premises": ["folio_train_245", "folio_train_246", "folio_train_247", "folio_train_248", "folio_train_249"], "conclusion": "folio_train_250", "label": "contradiction"}
+{"premises": ["folio_train_245", "folio_train_246", "folio_train_247", "folio_train_248", "folio_train_249"], "conclusion": "folio_train_251", "label": "entailment"}
+{"premises": ["folio_train_245", "folio_train_246", "folio_train_247", "folio_train_248", "folio_train_249"], "conclusion": "folio_train_252", "label": "neutral"}
+{"premises": ["folio_train_253", "folio_train_254", "folio_train_255", "folio_train_256", "folio_train_257", "folio_train_258"], "conclusion": "folio_train_259", "label": "neutral"}
+{"premises": ["folio_train_253", "folio_train_254", "folio_train_255", "folio_train_256", "folio_train_257", "folio_train_258"], "conclusion": "folio_train_260", "label": "neutral"}
+{"premises": ["folio_train_253", "folio_train_254", "folio_train_255", "folio_train_256", "folio_train_257", "folio_train_258"], "conclusion": "folio_train_261", "label": "neutral"}
+{"premises": ["folio_train_262", "folio_train_263", "folio_train_264", "folio_train_265", "folio_train_266", "folio_train_267", "folio_train_268", "folio_train_269"], "conclusion": "folio_train_270", "label": "entailment"}
+{"premises": ["folio_train_262", "folio_train_263", "folio_train_264", "folio_train_265", "folio_train_266", "folio_train_267", "folio_train_268", "folio_train_269"], "conclusion": "folio_train_271", "label": "contradiction"}
+{"premises": ["folio_train_262", "folio_train_263", "folio_train_264", "folio_train_265", "folio_train_266", "folio_train_267", "folio_train_268", "folio_train_269"], "conclusion": "folio_train_272", "label": "neutral"}
+{"premises": ["folio_train_273", "folio_train_274"], "conclusion": "folio_train_275", "label": "entailment"}
+{"premises": ["folio_train_276", "folio_train_277", "folio_train_278", "folio_train_279", "folio_train_280", "folio_train_281"], "conclusion": "folio_train_282", "label": "contradiction"}
+{"premises": ["folio_train_276", "folio_train_277", "folio_train_278", "folio_train_279", "folio_train_280", "folio_train_281"], "conclusion": "folio_train_283", "label": "entailment"}
+{"premises": ["folio_train_276", "folio_train_277", "folio_train_278", "folio_train_279", "folio_train_280", "folio_train_281"], "conclusion": "folio_train_284", "label": "entailment"}
+{"premises": ["folio_train_285", "folio_train_286", "folio_train_287", "folio_train_288", "folio_train_289", "folio_train_290"], "conclusion": "folio_train_291", "label": "neutral"}
+{"premises": ["folio_train_285", "folio_train_286", "folio_train_287", "folio_train_288", "folio_train_289", "folio_train_290"], "conclusion": "folio_train_292", "label": "contradiction"}
+{"premises": ["folio_train_285", "folio_train_286", "folio_train_287", "folio_train_288", "folio_train_289", "folio_train_290"], "conclusion": "folio_train_293", "label": "entailment"}
+{"premises": ["folio_train_294", "folio_train_295", "folio_train_296", "folio_train_297"], "conclusion": "folio_train_298", "label": "neutral"}
+{"premises": ["folio_train_294", "folio_train_295", "folio_train_296", "folio_train_297"], "conclusion": "folio_train_299", "label": "entailment"}
+{"premises": ["folio_train_294", "folio_train_295", "folio_train_296", "folio_train_297"], "conclusion": "folio_train_300", "label": "entailment"}
+{"premises": ["folio_train_301", "folio_train_302", "folio_train_303", "folio_train_304", "folio_train_305"], "conclusion": "folio_train_306", "label": "contradiction"}
+{"premises": ["folio_train_301", "folio_train_302", "folio_train_303", "folio_train_304", "folio_train_305"], "conclusion": "folio_train_307", "label": "neutral"}
+{"premises": ["folio_train_301", "folio_train_302", "folio_train_303", "folio_train_304", "folio_train_305"], "conclusion": "folio_train_308", "label": "entailment"}
+{"premises": ["folio_train_309", "folio_train_310", "folio_train_311", "folio_train_312", "folio_train_313", "folio_train_314", "folio_train_315", "folio_train_316"], "conclusion": "folio_train_317", "label": "neutral"}
+{"premises": ["folio_train_309", "folio_train_310", "folio_train_311", "folio_train_312", "folio_train_313", "folio_train_314", "folio_train_315", "folio_train_316"], "conclusion": "folio_train_318", "label": "entailment"}
+{"premises": ["folio_train_309", "folio_train_310", "folio_train_311", "folio_train_312", "folio_train_313", "folio_train_314", "folio_train_315", "folio_train_316"], "conclusion": "folio_train_319", "label": "contradiction"}
+{"premises": ["folio_train_320", "folio_train_321", "folio_train_322"], "conclusion": "folio_train_323", "label": "neutral"}
+{"premises": ["folio_train_320", "folio_train_321", "folio_train_322"], "conclusion": "folio_train_324", "label": "neutral"}
+{"premises": ["folio_train_320", "folio_train_321", "folio_train_322"], "conclusion": "folio_train_325", "label": "neutral"}
+{"premises": ["folio_train_320", "folio_train_321", "folio_train_322"], "conclusion": "folio_train_326", "label": "entailment"}
+{"premises": ["folio_train_327", "folio_train_328", "folio_train_329", "folio_train_330", "folio_train_331", "folio_train_332"], "conclusion": "folio_train_333", "label": "neutral"}
+{"premises": ["folio_train_327", "folio_train_328", "folio_train_329", "folio_train_330", "folio_train_331", "folio_train_332"], "conclusion": "folio_train_334", "label": "neutral"}
+{"premises": ["folio_train_327", "folio_train_328", "folio_train_329", "folio_train_330", "folio_train_331", "folio_train_332"], "conclusion": "folio_train_335", "label": "contradiction"}
+{"premises": ["folio_train_327", "folio_train_328", "folio_train_329", "folio_train_330", "folio_train_331", "folio_train_332"], "conclusion": "folio_train_336", "label": "entailment"}
+{"premises": ["folio_train_337", "folio_train_338"], "conclusion": "folio_train_339", "label": "contradiction"}
+{"premises": ["folio_train_340", "folio_train_341", "folio_train_342", "folio_train_343", "folio_train_344", "folio_train_345", "folio_train_346"], "conclusion": "folio_train_347", "label": "entailment"}
+{"premises": ["folio_train_340", "folio_train_341", "folio_train_342", "folio_train_343", "folio_train_344", "folio_train_345", "folio_train_346"], "conclusion": "folio_train_348", "label": "contradiction"}
+{"premises": ["folio_train_340", "folio_train_341", "folio_train_342", "folio_train_343", "folio_train_344", "folio_train_345", "folio_train_346"], "conclusion": "folio_train_349", "label": "contradiction"}
+{"premises": ["folio_train_350", "folio_train_351", "folio_train_352", "folio_train_353", "folio_train_354", "folio_train_355"], "conclusion": "folio_train_356", "label": "neutral"}
+{"premises": ["folio_train_350", "folio_train_351", "folio_train_352", "folio_train_353", "folio_train_354", "folio_train_355"], "conclusion": "folio_train_357", "label": "contradiction"}
+{"premises": ["folio_train_350", "folio_train_351", "folio_train_352", "folio_train_353", "folio_train_354", "folio_train_355"], "conclusion": "folio_train_358", "label": "entailment"}
+{"premises": ["folio_train_359", "folio_train_360", "folio_train_361", "folio_train_362"], "conclusion": "folio_train_363", "label": "entailment"}
+{"premises": ["folio_train_359", "folio_train_360", "folio_train_361", "folio_train_362"], "conclusion": "folio_train_364", "label": "contradiction"}
+{"premises": ["folio_train_359", "folio_train_360", "folio_train_361", "folio_train_362"], "conclusion": "folio_train_365", "label": "neutral"}
+{"premises": ["folio_train_359", "folio_train_360", "folio_train_361", "folio_train_362"], "conclusion": "folio_train_366", "label": "entailment"}
+{"premises": ["folio_train_367", "folio_train_368", "folio_train_369", "folio_train_370", "folio_train_371", "folio_train_372", "folio_train_373"], "conclusion": "folio_train_374", "label": "neutral"}
+{"premises": ["folio_train_367", "folio_train_368", "folio_train_369", "folio_train_370", "folio_train_371", "folio_train_372", "folio_train_373"], "conclusion": "folio_train_375", "label": "entailment"}
+{"premises": ["folio_train_367", "folio_train_368", "folio_train_369", "folio_train_370", "folio_train_371", "folio_train_372", "folio_train_373"], "conclusion": "folio_train_376", "label": "contradiction"}
+{"premises": ["folio_train_377", "folio_train_378", "folio_train_379", "folio_train_380"], "conclusion": "folio_train_381", "label": "entailment"}
+{"premises": ["folio_train_377", "folio_train_378", "folio_train_379", "folio_train_380"], "conclusion": "folio_train_382", "label": "neutral"}
+{"premises": ["folio_train_377", "folio_train_378", "folio_train_379", "folio_train_380"], "conclusion": "folio_train_383", "label": "neutral"}
+{"premises": ["folio_train_384", "folio_train_385", "folio_train_386", "folio_train_387", "folio_train_388"], "conclusion": "folio_train_389", "label": "neutral"}
+{"premises": ["folio_train_384", "folio_train_385", "folio_train_386", "folio_train_387", "folio_train_388"], "conclusion": "folio_train_390", "label": "contradiction"}
+{"premises": ["folio_train_384", "folio_train_385", "folio_train_386", "folio_train_387", "folio_train_388"], "conclusion": "folio_train_391", "label": "entailment"}
+{"premises": ["folio_train_392", "folio_train_393", "folio_train_394", "folio_train_395", "folio_train_396", "folio_train_397", "folio_train_398"], "conclusion": "folio_train_399", "label": "contradiction"}
+{"premises": ["folio_train_392", "folio_train_393", "folio_train_394", "folio_train_395", "folio_train_396", "folio_train_397", "folio_train_398"], "conclusion": "folio_train_400", "label": "entailment"}
+{"premises": ["folio_train_392", "folio_train_393", "folio_train_394", "folio_train_395", "folio_train_396", "folio_train_397", "folio_train_398"], "conclusion": "folio_train_401", "label": "entailment"}
+{"premises": ["folio_train_392", "folio_train_393", "folio_train_394", "folio_train_395", "folio_train_396", "folio_train_397", "folio_train_398"], "conclusion": "folio_train_402", "label": "neutral"}
+{"premises": ["folio_train_403", "folio_train_404", "folio_train_405", "folio_train_406", "folio_train_407"], "conclusion": "folio_train_408", "label": "entailment"}
+{"premises": ["folio_train_403", "folio_train_404", "folio_train_405", "folio_train_406", "folio_train_407"], "conclusion": "folio_train_409", "label": "contradiction"}
+{"premises": ["folio_train_403", "folio_train_404", "folio_train_405", "folio_train_406", "folio_train_407"], "conclusion": "folio_train_410", "label": "entailment"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_416", "label": "neutral"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_417", "label": "contradiction"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_418", "label": "entailment"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_419", "label": "entailment"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_420", "label": "contradiction"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_421", "label": "contradiction"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_422", "label": "entailment"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_423", "label": "contradiction"}
+{"premises": ["folio_train_411", "folio_train_412", "folio_train_413", "folio_train_414", "folio_train_415"], "conclusion": "folio_train_424", "label": "contradiction"}
+{"premises": ["folio_train_425", "folio_train_426"], "conclusion": "folio_train_427", "label": "entailment"}
+{"premises": ["folio_train_428", "folio_train_429", "folio_train_430", "folio_train_431", "folio_train_432"], "conclusion": "folio_train_433", "label": "entailment"}
+{"premises": ["folio_train_434", "folio_train_435"], "conclusion": "folio_train_436", "label": "neutral"}
+{"premises": ["folio_train_437", "folio_train_438", "folio_train_439", "folio_train_440"], "conclusion": "folio_train_441", "label": "neutral"}
+{"premises": ["folio_train_437", "folio_train_438", "folio_train_439", "folio_train_440"], "conclusion": "folio_train_442", "label": "neutral"}
+{"premises": ["folio_train_437", "folio_train_438", "folio_train_439", "folio_train_440"], "conclusion": "folio_train_443", "label": "entailment"}
+{"premises": ["folio_train_444", "folio_train_445"], "conclusion": "folio_train_446", "label": "neutral"}
+{"premises": ["folio_train_447", "folio_train_448", "folio_train_449", "folio_train_450", "folio_train_451"], "conclusion": "folio_train_452", "label": "entailment"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_459", "label": "neutral"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_460", "label": "neutral"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_461", "label": "contradiction"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_462", "label": "entailment"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_463", "label": "entailment"}
+{"premises": ["folio_train_453", "folio_train_454", "folio_train_455", "folio_train_456", "folio_train_457", "folio_train_458"], "conclusion": "folio_train_464", "label": "contradiction"}
+{"premises": ["folio_train_465", "folio_train_466", "folio_train_467", "folio_train_468", "folio_train_469", "folio_train_470"], "conclusion": "folio_train_471", "label": "neutral"}
+{"premises": ["folio_train_465", "folio_train_466", "folio_train_467", "folio_train_468", "folio_train_469", "folio_train_470"], "conclusion": "folio_train_472", "label": "entailment"}
+{"premises": ["folio_train_465", "folio_train_466", "folio_train_467", "folio_train_468", "folio_train_469", "folio_train_470"], "conclusion": "folio_train_473", "label": "entailment"}
+{"premises": ["folio_train_474", "folio_train_475", "folio_train_476", "folio_train_477", "folio_train_478"], "conclusion": "folio_train_479", "label": "neutral"}
+{"premises": ["folio_train_474", "folio_train_475", "folio_train_476", "folio_train_477", "folio_train_478"], "conclusion": "folio_train_480", "label": "contradiction"}
+{"premises": ["folio_train_474", "folio_train_475", "folio_train_476", "folio_train_477", "folio_train_478"], "conclusion": "folio_train_481", "label": "entailment"}
+{"premises": ["folio_train_482", "folio_train_483", "folio_train_484"], "conclusion": "folio_train_485", "label": "neutral"}
+{"premises": ["folio_train_482", "folio_train_483", "folio_train_484"], "conclusion": "folio_train_486", "label": "neutral"}
+{"premises": ["folio_train_482", "folio_train_483", "folio_train_484"], "conclusion": "folio_train_487", "label": "entailment"}
+{"premises": ["folio_train_488", "folio_train_489", "folio_train_490", "folio_train_491", "folio_train_492"], "conclusion": "folio_train_493", "label": "entailment"}
+{"premises": ["folio_train_488", "folio_train_489", "folio_train_490", "folio_train_491", "folio_train_492"], "conclusion": "folio_train_494", "label": "contradiction"}
+{"premises": ["folio_train_488", "folio_train_489", "folio_train_490", "folio_train_491", "folio_train_492"], "conclusion": "folio_train_495", "label": "neutral"}
+{"premises": ["folio_train_496", "folio_train_497", "folio_train_498", "folio_train_499"], "conclusion": "folio_train_500", "label": "entailment"}
+{"premises": ["folio_train_496", "folio_train_497", "folio_train_498", "folio_train_499"], "conclusion": "folio_train_501", "label": "neutral"}
+{"premises": ["folio_train_496", "folio_train_497", "folio_train_498", "folio_train_499"], "conclusion": "folio_train_502", "label": "neutral"}
+{"premises": ["folio_train_503", "folio_train_504", "folio_train_505", "folio_train_506"], "conclusion": "folio_train_507", "label": "neutral"}
+{"premises": ["folio_train_503", "folio_train_504", "folio_train_505", "folio_train_506"], "conclusion": "folio_train_508", "label": "entailment"}
+{"premises": ["folio_train_509", "folio_train_510", "folio_train_511", "folio_train_512", "folio_train_513", "folio_train_514", "folio_train_515"], "conclusion": "folio_train_516", "label": "contradiction"}
+{"premises": ["folio_train_509", "folio_train_510", "folio_train_511", "folio_train_512", "folio_train_513", "folio_train_514", "folio_train_515"], "conclusion": "folio_train_517", "label": "neutral"}
+{"premises": ["folio_train_509", "folio_train_510", "folio_train_511", "folio_train_512", "folio_train_513", "folio_train_514", "folio_train_515"], "conclusion": "folio_train_518", "label": "entailment"}
+{"premises": ["folio_train_519", "folio_train_520"], "conclusion": "folio_train_521", "label": "entailment"}
+{"premises": ["folio_train_519", "folio_train_520"], "conclusion": "folio_train_522", "label": "entailment"}
+{"premises": ["folio_train_519", "folio_train_520"], "conclusion": "folio_train_523", "label": "neutral"}
+{"premises": ["folio_train_524", "folio_train_525", "folio_train_526", "folio_train_527", "folio_train_528", "folio_train_529"], "conclusion": "folio_train_530", "label": "neutral"}
+{"premises": ["folio_train_524", "folio_train_525", "folio_train_526", "folio_train_527", "folio_train_528", "folio_train_529"], "conclusion": "folio_train_531", "label": "contradiction"}
+{"premises": ["folio_train_524", "folio_train_525", "folio_train_526", "folio_train_527", "folio_train_528", "folio_train_529"], "conclusion": "folio_train_532", "label": "entailment"}
+{"premises": ["folio_train_533", "folio_train_534", "folio_train_535", "folio_train_536", "folio_train_537"], "conclusion": "folio_train_538", "label": "entailment"}
+{"premises": ["folio_train_533", "folio_train_534", "folio_train_535", "folio_train_536", "folio_train_537"], "conclusion": "folio_train_539", "label": "neutral"}
+{"premises": ["folio_train_533", "folio_train_534", "folio_train_535", "folio_train_536", "folio_train_537"], "conclusion": "folio_train_540", "label": "neutral"}
+{"premises": ["folio_train_541", "folio_train_542", "folio_train_543", "folio_train_544", "folio_train_545"], "conclusion": "folio_train_546", "label": "neutral"}
+{"premises": ["folio_train_541", "folio_train_542", "folio_train_543", "folio_train_544", "folio_train_545"], "conclusion": "folio_train_547", "label": "entailment"}
+{"premises": ["folio_train_541", "folio_train_542", "folio_train_543", "folio_train_544", "folio_train_545"], "conclusion": "folio_train_548", "label": "entailment"}
+{"premises": ["folio_train_549", "folio_train_550", "folio_train_551", "folio_train_552", "folio_train_553", "folio_train_554", "folio_train_555"], "conclusion": "folio_train_556", "label": "neutral"}
+{"premises": ["folio_train_549", "folio_train_550", "folio_train_551", "folio_train_552", "folio_train_553", "folio_train_554", "folio_train_555"], "conclusion": "folio_train_557", "label": "neutral"}
+{"premises": ["folio_train_549", "folio_train_550", "folio_train_551", "folio_train_552", "folio_train_553", "folio_train_554", "folio_train_555"], "conclusion": "folio_train_558", "label": "contradiction"}
+{"premises": ["folio_train_549", "folio_train_550", "folio_train_551", "folio_train_552", "folio_train_553", "folio_train_554", "folio_train_555"], "conclusion": "folio_train_559", "label": "entailment"}
+{"premises": ["folio_train_560", "folio_train_561", "folio_train_562", "folio_train_563", "folio_train_564", "folio_train_565", "folio_train_566", "folio_train_567"], "conclusion": "folio_train_568", "label": "neutral"}
+{"premises": ["folio_train_560", "folio_train_561", "folio_train_562", "folio_train_563", "folio_train_564", "folio_train_565", "folio_train_566", "folio_train_567"], "conclusion": "folio_train_569", "label": "neutral"}
+{"premises": ["folio_train_560", "folio_train_561", "folio_train_562", "folio_train_563", "folio_train_564", "folio_train_565", "folio_train_566", "folio_train_567"], "conclusion": "folio_train_570", "label": "contradiction"}
+{"premises": ["folio_train_560", "folio_train_561", "folio_train_562", "folio_train_563", "folio_train_564", "folio_train_565", "folio_train_566", "folio_train_567"], "conclusion": "folio_train_571", "label": "entailment"}
+{"premises": ["folio_train_560", "folio_train_561", "folio_train_562", "folio_train_563", "folio_train_564", "folio_train_565", "folio_train_566", "folio_train_567"], "conclusion": "folio_train_572", "label": "entailment"}
+{"premises": ["folio_train_573", "folio_train_574", "folio_train_575", "folio_train_576", "folio_train_577", "folio_train_578"], "conclusion": "folio_train_579", "label": "entailment"}
+{"premises": ["folio_train_573", "folio_train_574", "folio_train_575", "folio_train_576", "folio_train_577", "folio_train_578"], "conclusion": "folio_train_580", "label": "neutral"}
+{"premises": ["folio_train_581", "folio_train_582", "folio_train_583", "folio_train_584", "folio_train_585", "folio_train_586"], "conclusion": "folio_train_587", "label": "neutral"}
+{"premises": ["folio_train_581", "folio_train_582", "folio_train_583", "folio_train_584", "folio_train_585", "folio_train_586"], "conclusion": "folio_train_588", "label": "neutral"}
+{"premises": ["folio_train_581", "folio_train_582", "folio_train_583", "folio_train_584", "folio_train_585", "folio_train_586"], "conclusion": "folio_train_589", "label": "neutral"}
+{"premises": ["folio_train_590", "folio_train_591", "folio_train_592", "folio_train_593", "folio_train_594"], "conclusion": "folio_train_595", "label": "neutral"}
+{"premises": ["folio_train_590", "folio_train_591", "folio_train_592", "folio_train_593", "folio_train_594"], "conclusion": "folio_train_596", "label": "contradiction"}
+{"premises": ["folio_train_590", "folio_train_591", "folio_train_592", "folio_train_593", "folio_train_594"], "conclusion": "folio_train_597", "label": "entailment"}
+{"premises": ["folio_train_590", "folio_train_591", "folio_train_592", "folio_train_593", "folio_train_594"], "conclusion": "folio_train_598", "label": "entailment"}
+{"premises": ["folio_train_599", "folio_train_600", "folio_train_601", "folio_train_602", "folio_train_603"], "conclusion": "folio_train_604", "label": "contradiction"}
+{"premises": ["folio_train_605", "folio_train_606", "folio_train_607", "folio_train_608", "folio_train_609", "folio_train_610"], "conclusion": "folio_train_611", "label": "contradiction"}
+{"premises": ["folio_train_612", "folio_train_613", "folio_train_614", "folio_train_615"], "conclusion": "folio_train_616", "label": "neutral"}
+{"premises": ["folio_train_612", "folio_train_613", "folio_train_614", "folio_train_615"], "conclusion": "folio_train_617", "label": "neutral"}
+{"premises": ["folio_train_618", "folio_train_619", "folio_train_620", "folio_train_621", "folio_train_622", "folio_train_623", "folio_train_624"], "conclusion": "folio_train_625", "label": "neutral"}
+{"premises": ["folio_train_618", "folio_train_619", "folio_train_620", "folio_train_621", "folio_train_622", "folio_train_623", "folio_train_624"], "conclusion": "folio_train_626", "label": "neutral"}
+{"premises": ["folio_train_618", "folio_train_619", "folio_train_620", "folio_train_621", "folio_train_622", "folio_train_623", "folio_train_624"], "conclusion": "folio_train_627", "label": "contradiction"}
+{"premises": ["folio_train_618", "folio_train_619", "folio_train_620", "folio_train_621", "folio_train_622", "folio_train_623", "folio_train_624"], "conclusion": "folio_train_628", "label": "entailment"}
+{"premises": ["folio_train_629", "folio_train_630"], "conclusion": "folio_train_631", "label": "contradiction"}
+{"premises": ["folio_train_632", "folio_train_633", "folio_train_634", "folio_train_635", "folio_train_636"], "conclusion": "folio_train_637", "label": "entailment"}
+{"premises": ["folio_train_632", "folio_train_633", "folio_train_634", "folio_train_635", "folio_train_636"], "conclusion": "folio_train_638", "label": "entailment"}
+{"premises": ["folio_train_632", "folio_train_633", "folio_train_634", "folio_train_635", "folio_train_636"], "conclusion": "folio_train_639", "label": "neutral"}
+{"premises": ["folio_train_640", "folio_train_641", "folio_train_642", "folio_train_643", "folio_train_644"], "conclusion": "folio_train_645", "label": "entailment"}
+{"premises": ["folio_train_640", "folio_train_641", "folio_train_642", "folio_train_643", "folio_train_644"], "conclusion": "folio_train_646", "label": "contradiction"}
+{"premises": ["folio_train_640", "folio_train_641", "folio_train_642", "folio_train_643", "folio_train_644"], "conclusion": "folio_train_647", "label": "neutral"}
+{"premises": ["folio_train_648", "folio_train_649", "folio_train_650", "folio_train_651"], "conclusion": "folio_train_652", "label": "neutral"}
+{"premises": ["folio_train_648", "folio_train_649", "folio_train_650", "folio_train_651"], "conclusion": "folio_train_653", "label": "contradiction"}
+{"premises": ["folio_train_648", "folio_train_649", "folio_train_650", "folio_train_651"], "conclusion": "folio_train_654", "label": "neutral"}
+{"premises": ["folio_train_655", "folio_train_656", "folio_train_657", "folio_train_658", "folio_train_659", "folio_train_660", "folio_train_661", "folio_train_662", "folio_train_663"], "conclusion": "folio_train_664", "label": "entailment"}
+{"premises": ["folio_train_655", "folio_train_656", "folio_train_657", "folio_train_658", "folio_train_659", "folio_train_660", "folio_train_661", "folio_train_662", "folio_train_663"], "conclusion": "folio_train_665", "label": "entailment"}
+{"premises": ["folio_train_655", "folio_train_656", "folio_train_657", "folio_train_658", "folio_train_659", "folio_train_660", "folio_train_661", "folio_train_662", "folio_train_663"], "conclusion": "folio_train_666", "label": "neutral"}
+{"premises": ["folio_train_667", "folio_train_668", "folio_train_669", "folio_train_670", "folio_train_671", "folio_train_672"], "conclusion": "folio_train_673", "label": "entailment"}
+{"premises": ["folio_train_667", "folio_train_668", "folio_train_669", "folio_train_670", "folio_train_671", "folio_train_672"], "conclusion": "folio_train_674", "label": "neutral"}
+{"premises": ["folio_train_667", "folio_train_668", "folio_train_669", "folio_train_670", "folio_train_671", "folio_train_672"], "conclusion": "folio_train_675", "label": "neutral"}
+{"premises": ["folio_train_676", "folio_train_677"], "conclusion": "folio_train_678", "label": "neutral"}
+{"premises": ["folio_train_679", "folio_train_680", "folio_train_681", "folio_train_682", "folio_train_683"], "conclusion": "folio_train_684", "label": "entailment"}
+{"premises": ["folio_train_679", "folio_train_680", "folio_train_681", "folio_train_682", "folio_train_683"], "conclusion": "folio_train_685", "label": "contradiction"}
+{"premises": ["folio_train_679", "folio_train_680", "folio_train_681", "folio_train_682", "folio_train_683"], "conclusion": "folio_train_686", "label": "neutral"}
+{"premises": ["folio_train_687", "folio_train_688", "folio_train_689", "folio_train_690"], "conclusion": "folio_train_691", "label": "entailment"}
+{"premises": ["folio_train_687", "folio_train_688", "folio_train_689", "folio_train_690"], "conclusion": "folio_train_692", "label": "contradiction"}
+{"premises": ["folio_train_693", "folio_train_694", "folio_train_695", "folio_train_696"], "conclusion": "folio_train_697", "label": "contradiction"}
+{"premises": ["folio_train_693", "folio_train_694", "folio_train_695", "folio_train_696"], "conclusion": "folio_train_698", "label": "entailment"}
+{"premises": ["folio_train_693", "folio_train_694", "folio_train_695", "folio_train_696"], "conclusion": "folio_train_699", "label": "neutral"}
+{"premises": ["folio_train_700", "folio_train_701", "folio_train_702", "folio_train_703", "folio_train_704", "folio_train_705"], "conclusion": "folio_train_706", "label": "entailment"}
+{"premises": ["folio_train_700", "folio_train_701", "folio_train_702", "folio_train_703", "folio_train_704", "folio_train_705"], "conclusion": "folio_train_707", "label": "contradiction"}
+{"premises": ["folio_train_708", "folio_train_709", "folio_train_710", "folio_train_711", "folio_train_712", "folio_train_713"], "conclusion": "folio_train_714", "label": "contradiction"}
+{"premises": ["folio_train_708", "folio_train_709", "folio_train_710", "folio_train_711", "folio_train_712", "folio_train_713"], "conclusion": "folio_train_715", "label": "entailment"}
+{"premises": ["folio_train_708", "folio_train_709", "folio_train_710", "folio_train_711", "folio_train_712", "folio_train_713"], "conclusion": "folio_train_716", "label": "entailment"}
+{"premises": ["folio_train_717", "folio_train_718", "folio_train_719", "folio_train_720"], "conclusion": "folio_train_721", "label": "entailment"}
+{"premises": ["folio_train_717", "folio_train_718", "folio_train_719", "folio_train_720"], "conclusion": "folio_train_722", "label": "contradiction"}
+{"premises": ["folio_train_717", "folio_train_718", "folio_train_719", "folio_train_720"], "conclusion": "folio_train_723", "label": "neutral"}
+{"premises": ["folio_train_724", "folio_train_725", "folio_train_726", "folio_train_727", "folio_train_728"], "conclusion": "folio_train_729", "label": "contradiction"}
+{"premises": ["folio_train_724", "folio_train_725", "folio_train_726", "folio_train_727", "folio_train_728"], "conclusion": "folio_train_730", "label": "entailment"}
+{"premises": ["folio_train_724", "folio_train_725", "folio_train_726", "folio_train_727", "folio_train_728"], "conclusion": "folio_train_731", "label": "neutral"}
+{"premises": ["folio_train_732", "folio_train_733", "folio_train_734", "folio_train_735", "folio_train_736"], "conclusion": "folio_train_737", "label": "entailment"}
+{"premises": ["folio_train_732", "folio_train_733", "folio_train_734", "folio_train_735", "folio_train_736"], "conclusion": "folio_train_738", "label": "neutral"}
+{"premises": ["folio_train_732", "folio_train_733", "folio_train_734", "folio_train_735", "folio_train_736"], "conclusion": "folio_train_739", "label": "contradiction"}
+{"premises": ["folio_train_740", "folio_train_741", "folio_train_742", "folio_train_743", "folio_train_744", "folio_train_745", "folio_train_746", "folio_train_747"], "conclusion": "folio_train_748", "label": "neutral"}
+{"premises": ["folio_train_740", "folio_train_741", "folio_train_742", "folio_train_743", "folio_train_744", "folio_train_745", "folio_train_746", "folio_train_747"], "conclusion": "folio_train_749", "label": "neutral"}
+{"premises": ["folio_train_740", "folio_train_741", "folio_train_742", "folio_train_743", "folio_train_744", "folio_train_745", "folio_train_746", "folio_train_747"], "conclusion": "folio_train_750", "label": "contradiction"}
+{"premises": ["folio_train_740", "folio_train_741", "folio_train_742", "folio_train_743", "folio_train_744", "folio_train_745", "folio_train_746", "folio_train_747"], "conclusion": "folio_train_751", "label": "neutral"}
+{"premises": ["folio_train_752", "folio_train_753", "folio_train_754", "folio_train_755"], "conclusion": "folio_train_756", "label": "entailment"}
+{"premises": ["folio_train_752", "folio_train_753", "folio_train_754", "folio_train_755"], "conclusion": "folio_train_757", "label": "neutral"}
+{"premises": ["folio_train_752", "folio_train_753", "folio_train_754", "folio_train_755"], "conclusion": "folio_train_758", "label": "neutral"}
+{"premises": ["folio_train_759", "folio_train_760"], "conclusion": "folio_train_761", "label": "neutral"}
+{"premises": ["folio_train_762", "folio_train_763", "folio_train_764", "folio_train_765", "folio_train_766", "folio_train_767", "folio_train_768"], "conclusion": "folio_train_769", "label": "entailment"}
+{"premises": ["folio_train_762", "folio_train_763", "folio_train_764", "folio_train_765", "folio_train_766", "folio_train_767", "folio_train_768"], "conclusion": "folio_train_770", "label": "neutral"}
+{"premises": ["folio_train_762", "folio_train_763", "folio_train_764", "folio_train_765", "folio_train_766", "folio_train_767", "folio_train_768"], "conclusion": "folio_train_771", "label": "neutral"}
+{"premises": ["folio_train_772", "folio_train_773", "folio_train_774", "folio_train_775", "folio_train_776"], "conclusion": "folio_train_777", "label": "neutral"}
+{"premises": ["folio_train_772", "folio_train_773", "folio_train_774", "folio_train_775", "folio_train_776"], "conclusion": "folio_train_778", "label": "entailment"}
+{"premises": ["folio_train_772", "folio_train_773", "folio_train_774", "folio_train_775", "folio_train_776"], "conclusion": "folio_train_779", "label": "neutral"}
+{"premises": ["folio_train_780", "folio_train_781", "folio_train_782"], "conclusion": "folio_train_783", "label": "entailment"}
+{"premises": ["folio_train_780", "folio_train_781", "folio_train_782"], "conclusion": "folio_train_784", "label": "neutral"}
+{"premises": ["folio_train_780", "folio_train_781", "folio_train_782"], "conclusion": "folio_train_785", "label": "neutral"}
+{"premises": ["folio_train_780", "folio_train_781", "folio_train_782"], "conclusion": "folio_train_786", "label": "contradiction"}
+{"premises": ["folio_train_787", "folio_train_788", "folio_train_789"], "conclusion": "folio_train_790", "label": "neutral"}
+{"premises": ["folio_train_787", "folio_train_788", "folio_train_789"], "conclusion": "folio_train_791", "label": "contradiction"}
+{"premises": ["folio_train_787", "folio_train_788", "folio_train_789"], "conclusion": "folio_train_792", "label": "entailment"}
+{"premises": ["folio_train_793", "folio_train_794", "folio_train_795", "folio_train_796", "folio_train_797", "folio_train_798"], "conclusion": "folio_train_799", "label": "neutral"}
+{"premises": ["folio_train_793", "folio_train_794", "folio_train_795", "folio_train_796", "folio_train_797", "folio_train_798"], "conclusion": "folio_train_800", "label": "entailment"}
+{"premises": ["folio_train_793", "folio_train_794", "folio_train_795", "folio_train_796", "folio_train_797", "folio_train_798"], "conclusion": "folio_train_801", "label": "contradiction"}
+{"premises": ["folio_train_802", "folio_train_803", "folio_train_804", "folio_train_805", "folio_train_806", "folio_train_807", "folio_train_808"], "conclusion": "folio_train_809", "label": "entailment"}
+{"premises": ["folio_train_802", "folio_train_803", "folio_train_804", "folio_train_805", "folio_train_806", "folio_train_807", "folio_train_808"], "conclusion": "folio_train_810", "label": "contradiction"}
+{"premises": ["folio_train_811", "folio_train_812", "folio_train_813", "folio_train_814", "folio_train_815", "folio_train_816", "folio_train_817"], "conclusion": "folio_train_818", "label": "neutral"}
+{"premises": ["folio_train_811", "folio_train_812", "folio_train_813", "folio_train_814", "folio_train_815", "folio_train_816", "folio_train_817"], "conclusion": "folio_train_819", "label": "entailment"}
+{"premises": ["folio_train_820", "folio_train_821", "folio_train_822", "folio_train_823", "folio_train_824"], "conclusion": "folio_train_825", "label": "contradiction"}
+{"premises": ["folio_train_820", "folio_train_821", "folio_train_822", "folio_train_823", "folio_train_824"], "conclusion": "folio_train_826", "label": "neutral"}
+{"premises": ["folio_train_820", "folio_train_821", "folio_train_822", "folio_train_823", "folio_train_824"], "conclusion": "folio_train_827", "label": "neutral"}
+{"premises": ["folio_train_828", "folio_train_829", "folio_train_830", "folio_train_831", "folio_train_832"], "conclusion": "folio_train_833", "label": "neutral"}
+{"premises": ["folio_train_828", "folio_train_829", "folio_train_830", "folio_train_831", "folio_train_832"], "conclusion": "folio_train_834", "label": "entailment"}
+{"premises": ["folio_train_828", "folio_train_829", "folio_train_830", "folio_train_831", "folio_train_832"], "conclusion": "folio_train_835", "label": "contradiction"}
+{"premises": ["folio_train_828", "folio_train_829", "folio_train_830", "folio_train_831", "folio_train_832"], "conclusion": "folio_train_836", "label": "entailment"}
+{"premises": ["folio_train_828", "folio_train_829", "folio_train_830", "folio_train_831", "folio_train_832"], "conclusion": "folio_train_837", "label": "entailment"}
+{"premises": ["folio_train_838", "folio_train_839", "folio_train_840", "folio_train_841", "folio_train_842"], "conclusion": "folio_train_843", "label": "neutral"}
+{"premises": ["folio_train_838", "folio_train_839", "folio_train_840", "folio_train_841", "folio_train_842"], "conclusion": "folio_train_844", "label": "neutral"}
+{"premises": ["folio_train_838", "folio_train_839", "folio_train_840", "folio_train_841", "folio_train_842"], "conclusion": "folio_train_845", "label": "contradiction"}
+{"premises": ["folio_train_846", "folio_train_847", "folio_train_848", "folio_train_849", "folio_train_850", "folio_train_851"], "conclusion": "folio_train_852", "label": "neutral"}
+{"premises": ["folio_train_846", "folio_train_847", "folio_train_848", "folio_train_849", "folio_train_850", "folio_train_851"], "conclusion": "folio_train_853", "label": "contradiction"}
+{"premises": ["folio_train_846", "folio_train_847", "folio_train_848", "folio_train_849", "folio_train_850", "folio_train_851"], "conclusion": "folio_train_854", "label": "neutral"}
+{"premises": ["folio_train_855", "folio_train_856", "folio_train_857", "folio_train_858", "folio_train_859", "folio_train_860", "folio_train_861", "folio_train_862", "folio_train_863"], "conclusion": "folio_train_864", "label": "entailment"}
+{"premises": ["folio_train_855", "folio_train_856", "folio_train_857", "folio_train_858", "folio_train_859", "folio_train_860", "folio_train_861", "folio_train_862", "folio_train_863"], "conclusion": "folio_train_865", "label": "entailment"}
+{"premises": ["folio_train_855", "folio_train_856", "folio_train_857", "folio_train_858", "folio_train_859", "folio_train_860", "folio_train_861", "folio_train_862", "folio_train_863"], "conclusion": "folio_train_866", "label": "contradiction"}
+{"premises": ["folio_train_867", "folio_train_868"], "conclusion": "folio_train_869", "label": "entailment"}
+{"premises": ["folio_train_870", "folio_train_871", "folio_train_872", "folio_train_873", "folio_train_874", "folio_train_875", "folio_train_876"], "conclusion": "folio_train_877", "label": "neutral"}
+{"premises": ["folio_train_870", "folio_train_871", "folio_train_872", "folio_train_873", "folio_train_874", "folio_train_875", "folio_train_876"], "conclusion": "folio_train_878", "label": "neutral"}
+{"premises": ["folio_train_870", "folio_train_871", "folio_train_872", "folio_train_873", "folio_train_874", "folio_train_875", "folio_train_876"], "conclusion": "folio_train_879", "label": "entailment"}
+{"premises": ["folio_train_880", "folio_train_881"], "conclusion": "folio_train_882", "label": "neutral"}
+{"premises": ["folio_train_883", "folio_train_884", "folio_train_885", "folio_train_886"], "conclusion": "folio_train_887", "label": "entailment"}
+{"premises": ["folio_train_883", "folio_train_884", "folio_train_885", "folio_train_886"], "conclusion": "folio_train_888", "label": "contradiction"}
+{"premises": ["folio_train_883", "folio_train_884", "folio_train_885", "folio_train_886"], "conclusion": "folio_train_889", "label": "neutral"}
+{"premises": ["folio_train_890", "folio_train_891", "folio_train_892", "folio_train_893"], "conclusion": "folio_train_894", "label": "entailment"}
+{"premises": ["folio_train_890", "folio_train_891", "folio_train_892", "folio_train_893"], "conclusion": "folio_train_895", "label": "neutral"}
+{"premises": ["folio_train_890", "folio_train_891", "folio_train_892", "folio_train_893"], "conclusion": "folio_train_896", "label": "neutral"}
+{"premises": ["folio_train_890", "folio_train_891", "folio_train_892", "folio_train_893"], "conclusion": "folio_train_897", "label": "entailment"}
+{"premises": ["folio_train_898", "folio_train_899", "folio_train_900", "folio_train_901", "folio_train_902", "folio_train_903"], "conclusion": "folio_train_904", "label": "entailment"}
+{"premises": ["folio_train_898", "folio_train_899", "folio_train_900", "folio_train_901", "folio_train_902", "folio_train_903"], "conclusion": "folio_train_905", "label": "entailment"}
+{"premises": ["folio_train_898", "folio_train_899", "folio_train_900", "folio_train_901", "folio_train_902", "folio_train_903"], "conclusion": "folio_train_906", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_912", "label": "neutral"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_913", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_914", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_915", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_916", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_917", "label": "contradiction"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_918", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_919", "label": "contradiction"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_920", "label": "entailment"}
+{"premises": ["folio_train_907", "folio_train_908", "folio_train_909", "folio_train_910", "folio_train_911"], "conclusion": "folio_train_921", "label": "entailment"}
+{"premises": ["folio_train_922", "folio_train_923", "folio_train_924", "folio_train_925", "folio_train_926", "folio_train_927"], "conclusion": "folio_train_928", "label": "contradiction"}
+{"premises": ["folio_train_922", "folio_train_923", "folio_train_924", "folio_train_925", "folio_train_926", "folio_train_927"], "conclusion": "folio_train_929", "label": "entailment"}
+{"premises": ["folio_train_922", "folio_train_923", "folio_train_924", "folio_train_925", "folio_train_926", "folio_train_927"], "conclusion": "folio_train_930", "label": "neutral"}
+{"premises": ["folio_train_931", "folio_train_932", "folio_train_933", "folio_train_934", "folio_train_935"], "conclusion": "folio_train_936", "label": "entailment"}
+{"premises": ["folio_train_931", "folio_train_932", "folio_train_933", "folio_train_934", "folio_train_935"], "conclusion": "folio_train_937", "label": "contradiction"}
+{"premises": ["folio_train_931", "folio_train_932", "folio_train_933", "folio_train_934", "folio_train_935"], "conclusion": "folio_train_938", "label": "neutral"}
+{"premises": ["folio_train_939", "folio_train_940", "folio_train_941"], "conclusion": "folio_train_942", "label": "neutral"}
+{"premises": ["folio_train_943", "folio_train_944", "folio_train_945", "folio_train_946", "folio_train_947", "folio_train_948"], "conclusion": "folio_train_949", "label": "neutral"}
+{"premises": ["folio_train_943", "folio_train_944", "folio_train_945", "folio_train_946", "folio_train_947", "folio_train_948"], "conclusion": "folio_train_950", "label": "neutral"}
+{"premises": ["folio_train_943", "folio_train_944", "folio_train_945", "folio_train_946", "folio_train_947", "folio_train_948"], "conclusion": "folio_train_951", "label": "neutral"}
+{"premises": ["folio_train_952", "folio_train_953", "folio_train_954", "folio_train_955", "folio_train_956", "folio_train_957"], "conclusion": "folio_train_958", "label": "neutral"}
+{"premises": ["folio_train_952", "folio_train_953", "folio_train_954", "folio_train_955", "folio_train_956", "folio_train_957"], "conclusion": "folio_train_959", "label": "entailment"}
+{"premises": ["folio_train_952", "folio_train_953", "folio_train_954", "folio_train_955", "folio_train_956", "folio_train_957"], "conclusion": "folio_train_960", "label": "neutral"}
+{"premises": ["folio_train_961", "folio_train_962", "folio_train_963", "folio_train_964", "folio_train_965"], "conclusion": "folio_train_966", "label": "contradiction"}
+{"premises": ["folio_train_961", "folio_train_962", "folio_train_963", "folio_train_964", "folio_train_965"], "conclusion": "folio_train_967", "label": "entailment"}
+{"premises": ["folio_train_961", "folio_train_962", "folio_train_963", "folio_train_964", "folio_train_965"], "conclusion": "folio_train_968", "label": "neutral"}
+{"premises": ["folio_train_961", "folio_train_962", "folio_train_963", "folio_train_964", "folio_train_965"], "conclusion": "folio_train_969", "label": "contradiction"}
+{"premises": ["folio_train_970", "folio_train_971", "folio_train_972", "folio_train_973", "folio_train_974"], "conclusion": "folio_train_975", "label": "contradiction"}
+{"premises": ["folio_train_970", "folio_train_971", "folio_train_972", "folio_train_973", "folio_train_974"], "conclusion": "folio_train_976", "label": "entailment"}
+{"premises": ["folio_train_970", "folio_train_971", "folio_train_972", "folio_train_973", "folio_train_974"], "conclusion": "folio_train_977", "label": "neutral"}
+{"premises": ["folio_train_978", "folio_train_979", "folio_train_980", "folio_train_981", "folio_train_982"], "conclusion": "folio_train_983", "label": "entailment"}
+{"premises": ["folio_train_978", "folio_train_979", "folio_train_980", "folio_train_981", "folio_train_982"], "conclusion": "folio_train_984", "label": "neutral"}
+{"premises": ["folio_train_985", "folio_train_986", "folio_train_987", "folio_train_988"], "conclusion": "folio_train_989", "label": "entailment"}
+{"premises": ["folio_train_985", "folio_train_986", "folio_train_987", "folio_train_988"], "conclusion": "folio_train_990", "label": "contradiction"}
+{"premises": ["folio_train_985", "folio_train_986", "folio_train_987", "folio_train_988"], "conclusion": "folio_train_991", "label": "contradiction"}
+{"premises": ["folio_train_985", "folio_train_986", "folio_train_987", "folio_train_988"], "conclusion": "folio_train_992", "label": "contradiction"}
+{"premises": ["folio_train_985", "folio_train_986", "folio_train_987", "folio_train_988"], "conclusion": "folio_train_993", "label": "neutral"}
+{"premises": ["folio_train_994", "folio_train_995"], "conclusion": "folio_train_996", "label": "neutral"}
+{"premises": ["folio_train_997", "folio_train_998"], "conclusion": "folio_train_999", "label": "entailment"}
+{"premises": ["folio_train_1000", "folio_train_1001", "folio_train_1002", "folio_train_1003", "folio_train_1004", "folio_train_1005"], "conclusion": "folio_train_1006", "label": "neutral"}
+{"premises": ["folio_train_1000", "folio_train_1001", "folio_train_1002", "folio_train_1003", "folio_train_1004", "folio_train_1005"], "conclusion": "folio_train_1007", "label": "contradiction"}
+{"premises": ["folio_train_1000", "folio_train_1001", "folio_train_1002", "folio_train_1003", "folio_train_1004", "folio_train_1005"], "conclusion": "folio_train_1008", "label": "entailment"}
+{"premises": ["folio_train_1009", "folio_train_1010", "folio_train_1011", "folio_train_1012", "folio_train_1013"], "conclusion": "folio_train_1014", "label": "entailment"}
+{"premises": ["folio_train_1009", "folio_train_1010", "folio_train_1011", "folio_train_1012", "folio_train_1013"], "conclusion": "folio_train_1015", "label": "entailment"}
+{"premises": ["folio_train_1009", "folio_train_1010", "folio_train_1011", "folio_train_1012", "folio_train_1013"], "conclusion": "folio_train_1016", "label": "neutral"}
+{"premises": ["folio_train_1009", "folio_train_1010", "folio_train_1011", "folio_train_1012", "folio_train_1013"], "conclusion": "folio_train_1017", "label": "neutral"}
+{"premises": ["folio_train_1018", "folio_train_1019"], "conclusion": "folio_train_1020", "label": "neutral"}
+{"premises": ["folio_train_1021", "folio_train_1022", "folio_train_1023", "folio_train_1024", "folio_train_1025", "folio_train_1026"], "conclusion": "folio_train_1027", "label": "entailment"}
+{"premises": ["folio_train_1021", "folio_train_1022", "folio_train_1023", "folio_train_1024", "folio_train_1025", "folio_train_1026"], "conclusion": "folio_train_1028", "label": "neutral"}
+{"premises": ["folio_train_1021", "folio_train_1022", "folio_train_1023", "folio_train_1024", "folio_train_1025", "folio_train_1026"], "conclusion": "folio_train_1029", "label": "neutral"}
+{"premises": ["folio_train_1030", "folio_train_1031", "folio_train_1032", "folio_train_1033", "folio_train_1034", "folio_train_1035"], "conclusion": "folio_train_1036", "label": "neutral"}
+{"premises": ["folio_train_1030", "folio_train_1031", "folio_train_1032", "folio_train_1033", "folio_train_1034", "folio_train_1035"], "conclusion": "folio_train_1037", "label": "entailment"}
+{"premises": ["folio_train_1030", "folio_train_1031", "folio_train_1032", "folio_train_1033", "folio_train_1034", "folio_train_1035"], "conclusion": "folio_train_1038", "label": "entailment"}
+{"premises": ["folio_train_1039", "folio_train_1040", "folio_train_1041", "folio_train_1042"], "conclusion": "folio_train_1043", "label": "neutral"}
+{"premises": ["folio_train_1039", "folio_train_1040", "folio_train_1041", "folio_train_1042"], "conclusion": "folio_train_1044", "label": "entailment"}
+{"premises": ["folio_train_1045", "folio_train_1046", "folio_train_1047", "folio_train_1048", "folio_train_1049", "folio_train_1050", "folio_train_1051"], "conclusion": "folio_train_1052", "label": "neutral"}
+{"premises": ["folio_train_1045", "folio_train_1046", "folio_train_1047", "folio_train_1048", "folio_train_1049", "folio_train_1050", "folio_train_1051"], "conclusion": "folio_train_1053", "label": "neutral"}
+{"premises": ["folio_train_1045", "folio_train_1046", "folio_train_1047", "folio_train_1048", "folio_train_1049", "folio_train_1050", "folio_train_1051"], "conclusion": "folio_train_1054", "label": "contradiction"}
+{"premises": ["folio_train_1045", "folio_train_1046", "folio_train_1047", "folio_train_1048", "folio_train_1049", "folio_train_1050", "folio_train_1051"], "conclusion": "folio_train_1055", "label": "entailment"}
+{"premises": ["folio_train_1056", "folio_train_1057", "folio_train_1058", "folio_train_1059", "folio_train_1060"], "conclusion": "folio_train_1061", "label": "neutral"}
+{"premises": ["folio_train_1056", "folio_train_1057", "folio_train_1058", "folio_train_1059", "folio_train_1060"], "conclusion": "folio_train_1062", "label": "contradiction"}
+{"premises": ["folio_train_1056", "folio_train_1057", "folio_train_1058", "folio_train_1059", "folio_train_1060"], "conclusion": "folio_train_1063", "label": "entailment"}
+{"premises": ["folio_train_1064", "folio_train_1065", "folio_train_1066", "folio_train_1067", "folio_train_1068"], "conclusion": "folio_train_1069", "label": "neutral"}
+{"premises": ["folio_train_1064", "folio_train_1065", "folio_train_1066", "folio_train_1067", "folio_train_1068"], "conclusion": "folio_train_1070", "label": "neutral"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1079", "label": "neutral"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1080", "label": "neutral"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1081", "label": "entailment"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1082", "label": "entailment"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1083", "label": "contradiction"}
+{"premises": ["folio_train_1071", "folio_train_1072", "folio_train_1073", "folio_train_1074", "folio_train_1075", "folio_train_1076", "folio_train_1077", "folio_train_1078"], "conclusion": "folio_train_1084", "label": "entailment"}
+{"premises": ["folio_train_1085", "folio_train_1086", "folio_train_1087", "folio_train_1088"], "conclusion": "folio_train_1089", "label": "entailment"}
+{"premises": ["folio_train_1085", "folio_train_1086", "folio_train_1087", "folio_train_1088"], "conclusion": "folio_train_1090", "label": "entailment"}
+{"premises": ["folio_train_1091", "folio_train_1092", "folio_train_1093", "folio_train_1094", "folio_train_1095", "folio_train_1096"], "conclusion": "folio_train_1097", "label": "neutral"}
+{"premises": ["folio_train_1091", "folio_train_1092", "folio_train_1093", "folio_train_1094", "folio_train_1095", "folio_train_1096"], "conclusion": "folio_train_1098", "label": "entailment"}
+{"premises": ["folio_train_1091", "folio_train_1092", "folio_train_1093", "folio_train_1094", "folio_train_1095", "folio_train_1096"], "conclusion": "folio_train_1099", "label": "contradiction"}
+{"premises": ["folio_train_1100", "folio_train_386", "folio_train_384", "folio_train_385", "folio_train_389"], "conclusion": "folio_train_1101", "label": "neutral"}
+{"premises": ["folio_train_1100", "folio_train_386", "folio_train_384", "folio_train_385", "folio_train_389"], "conclusion": "folio_train_1102", "label": "entailment"}
+{"premises": ["folio_train_1100", "folio_train_386", "folio_train_384", "folio_train_385", "folio_train_389"], "conclusion": "folio_train_1103", "label": "contradiction"}
+{"premises": ["folio_train_1104", "folio_train_1105", "folio_train_1106", "folio_train_1107", "folio_train_1108"], "conclusion": "folio_train_1109", "label": "neutral"}
+{"premises": ["folio_train_1104", "folio_train_1105", "folio_train_1106", "folio_train_1107", "folio_train_1108"], "conclusion": "folio_train_1110", "label": "entailment"}
+{"premises": ["folio_train_1111", "folio_train_1112"], "conclusion": "folio_train_1113", "label": "contradiction"}
+{"premises": ["folio_train_1114", "folio_train_1115"], "conclusion": "folio_train_1116", "label": "entailment"}
+{"premises": ["folio_train_1117", "folio_train_1118", "folio_train_1119", "folio_train_1120", "folio_train_1121", "folio_train_1122"], "conclusion": "folio_train_1123", "label": "neutral"}
+{"premises": ["folio_train_1117", "folio_train_1118", "folio_train_1119", "folio_train_1120", "folio_train_1121", "folio_train_1122"], "conclusion": "folio_train_1124", "label": "contradiction"}
+{"premises": ["folio_train_1117", "folio_train_1118", "folio_train_1119", "folio_train_1120", "folio_train_1121", "folio_train_1122"], "conclusion": "folio_train_1125", "label": "entailment"}
+{"premises": ["folio_train_1126", "folio_train_385", "folio_train_386", "folio_train_1127", "folio_train_1128"], "conclusion": "folio_train_1129", "label": "contradiction"}
+{"premises": ["folio_train_1126", "folio_train_385", "folio_train_386", "folio_train_1127", "folio_train_1128"], "conclusion": "folio_train_1130", "label": "entailment"}
+{"premises": ["folio_train_1126", "folio_train_385", "folio_train_386", "folio_train_1127", "folio_train_1128"], "conclusion": "folio_train_1131", "label": "neutral"}
+{"premises": ["folio_train_1132", "folio_train_1133", "folio_train_1134", "folio_train_1135", "folio_train_1136"], "conclusion": "folio_train_1137", "label": "neutral"}
+{"premises": ["folio_train_1132", "folio_train_1133", "folio_train_1134", "folio_train_1135", "folio_train_1136"], "conclusion": "folio_train_1138", "label": "contradiction"}
+{"premises": ["folio_train_1132", "folio_train_1133", "folio_train_1134", "folio_train_1135", "folio_train_1136"], "conclusion": "folio_train_1139", "label": "contradiction"}
+{"premises": ["folio_train_1140", "folio_train_1141"], "conclusion": "folio_train_1142", "label": "neutral"}
+{"premises": ["folio_train_1143", "folio_train_1144", "folio_train_1145", "folio_train_1146"], "conclusion": "folio_train_1147", "label": "neutral"}
+{"premises": ["folio_train_1143", "folio_train_1144", "folio_train_1145", "folio_train_1146"], "conclusion": "folio_train_1148", "label": "entailment"}
+{"premises": ["folio_train_1143", "folio_train_1144", "folio_train_1145", "folio_train_1146"], "conclusion": "folio_train_1149", "label": "neutral"}
+{"premises": ["folio_train_1150", "folio_train_1151", "folio_train_1152", "folio_train_1153", "folio_train_1154", "folio_train_1155"], "conclusion": "folio_train_1156", "label": "neutral"}
+{"premises": ["folio_train_1150", "folio_train_1151", "folio_train_1152", "folio_train_1153", "folio_train_1154", "folio_train_1155"], "conclusion": "folio_train_1157", "label": "contradiction"}
+{"premises": ["folio_train_1158", "folio_train_1159", "folio_train_1160", "folio_train_1161", "folio_train_1162", "folio_train_1163", "folio_train_1164"], "conclusion": "folio_train_1165", "label": "neutral"}
+{"premises": ["folio_train_1158", "folio_train_1159", "folio_train_1160", "folio_train_1161", "folio_train_1162", "folio_train_1163", "folio_train_1164"], "conclusion": "folio_train_1166", "label": "entailment"}
+{"premises": ["folio_train_1158", "folio_train_1159", "folio_train_1160", "folio_train_1161", "folio_train_1162", "folio_train_1163", "folio_train_1164"], "conclusion": "folio_train_1167", "label": "contradiction"}
+{"premises": ["folio_train_1168", "folio_train_1169", "folio_train_1170", "folio_train_1171", "folio_train_1172", "folio_train_1173"], "conclusion": "folio_train_1174", "label": "contradiction"}
+{"premises": ["folio_train_1175", "folio_train_1176", "folio_train_1177", "folio_train_1178", "folio_train_1179"], "conclusion": "folio_train_1180", "label": "neutral"}
+{"premises": ["folio_train_1175", "folio_train_1176", "folio_train_1177", "folio_train_1178", "folio_train_1179"], "conclusion": "folio_train_1181", "label": "neutral"}
+{"premises": ["folio_train_1175", "folio_train_1176", "folio_train_1177", "folio_train_1178", "folio_train_1179"], "conclusion": "folio_train_1182", "label": "contradiction"}
+{"premises": ["folio_train_1183", "folio_train_1184", "folio_train_1185"], "conclusion": "folio_train_1186", "label": "entailment"}
+{"premises": ["folio_train_1183", "folio_train_1184", "folio_train_1185"], "conclusion": "folio_train_1187", "label": "contradiction"}
+{"premises": ["folio_train_1183", "folio_train_1184", "folio_train_1185"], "conclusion": "folio_train_1188", "label": "neutral"}
+{"premises": ["folio_train_1189", "folio_train_1190", "folio_train_1191", "folio_train_1192", "folio_train_1193", "folio_train_1194"], "conclusion": "folio_train_1195", "label": "neutral"}
+{"premises": ["folio_train_1189", "folio_train_1190", "folio_train_1191", "folio_train_1192", "folio_train_1193", "folio_train_1194"], "conclusion": "folio_train_1196", "label": "contradiction"}
+{"premises": ["folio_train_1189", "folio_train_1190", "folio_train_1191", "folio_train_1192", "folio_train_1193", "folio_train_1194"], "conclusion": "folio_train_1197", "label": "entailment"}
+{"premises": ["folio_train_1198", "folio_train_1199"], "conclusion": "folio_train_1200", "label": "entailment"}
+{"premises": ["folio_train_1201", "folio_train_1202", "folio_train_1203", "folio_train_1204", "folio_train_1205"], "conclusion": "folio_train_1206", "label": "contradiction"}
+{"premises": ["folio_train_1201", "folio_train_1202", "folio_train_1203", "folio_train_1204", "folio_train_1205"], "conclusion": "folio_train_1207", "label": "contradiction"}
+{"premises": ["folio_train_1201", "folio_train_1202", "folio_train_1203", "folio_train_1204", "folio_train_1205"], "conclusion": "folio_train_1208", "label": "entailment"}
+{"premises": ["folio_train_1209", "folio_train_1210"], "conclusion": "folio_train_1211", "label": "entailment"}
+{"premises": ["folio_train_1212", "folio_train_1213", "folio_train_1214", "folio_train_1215", "folio_train_1216", "folio_train_1217"], "conclusion": "folio_train_1218", "label": "entailment"}
+{"premises": ["folio_train_1212", "folio_train_1213", "folio_train_1214", "folio_train_1215", "folio_train_1216", "folio_train_1217"], "conclusion": "folio_train_1219", "label": "neutral"}
+{"premises": ["folio_train_1212", "folio_train_1213", "folio_train_1214", "folio_train_1215", "folio_train_1216", "folio_train_1217"], "conclusion": "folio_train_1220", "label": "entailment"}
+{"premises": ["folio_train_1221", "folio_train_1222", "folio_train_1223", "folio_train_1224", "folio_train_1225", "folio_train_1226", "folio_train_1227"], "conclusion": "folio_train_1228", "label": "entailment"}
+{"premises": ["folio_train_1229", "folio_train_1230", "folio_train_1231", "folio_train_1232"], "conclusion": "folio_train_1233", "label": "entailment"}
+{"premises": ["folio_train_1229", "folio_train_1230", "folio_train_1231", "folio_train_1232"], "conclusion": "folio_train_1234", "label": "contradiction"}
+{"premises": ["folio_train_1235", "folio_train_1236", "folio_train_1237", "folio_train_1238", "folio_train_1239", "folio_train_1240"], "conclusion": "folio_train_1241", "label": "contradiction"}
+{"premises": ["folio_train_1235", "folio_train_1236", "folio_train_1237", "folio_train_1238", "folio_train_1239", "folio_train_1240"], "conclusion": "folio_train_1242", "label": "entailment"}
+{"premises": ["folio_train_1235", "folio_train_1236", "folio_train_1237", "folio_train_1238", "folio_train_1239", "folio_train_1240"], "conclusion": "folio_train_1243", "label": "contradiction"}
+{"premises": ["folio_train_1244", "folio_train_1245", "folio_train_1246", "folio_train_1247", "folio_train_1248"], "conclusion": "folio_train_1249", "label": "entailment"}
+{"premises": ["folio_train_1244", "folio_train_1245", "folio_train_1246", "folio_train_1247", "folio_train_1248"], "conclusion": "folio_train_1250", "label": "entailment"}
+{"premises": ["folio_train_1251", "folio_train_1252", "folio_train_1253", "folio_train_1254"], "conclusion": "folio_train_1255", "label": "neutral"}
+{"premises": ["folio_train_1251", "folio_train_1252", "folio_train_1253", "folio_train_1254"], "conclusion": "folio_train_1256", "label": "contradiction"}
+{"premises": ["folio_train_1257", "folio_train_1258", "folio_train_1259", "folio_train_1260"], "conclusion": "folio_train_1261", "label": "entailment"}
+{"premises": ["folio_train_1257", "folio_train_1258", "folio_train_1259", "folio_train_1260"], "conclusion": "folio_train_1262", "label": "neutral"}
+{"premises": ["folio_train_1257", "folio_train_1258", "folio_train_1259", "folio_train_1260"], "conclusion": "folio_train_1263", "label": "entailment"}
+{"premises": ["folio_train_1264", "folio_train_1265", "folio_train_1266"], "conclusion": "folio_train_1267", "label": "entailment"}
+{"premises": ["folio_train_1264", "folio_train_1265", "folio_train_1266"], "conclusion": "folio_train_1268", "label": "neutral"}
+{"premises": ["folio_train_1269", "folio_train_1270", "folio_train_1271", "folio_train_1272"], "conclusion": "folio_train_1273", "label": "entailment"}
+{"premises": ["folio_train_1269", "folio_train_1270", "folio_train_1271", "folio_train_1272"], "conclusion": "folio_train_1274", "label": "entailment"}
+{"premises": ["folio_train_1269", "folio_train_1270", "folio_train_1271", "folio_train_1272"], "conclusion": "folio_train_1275", "label": "contradiction"}
+{"premises": ["folio_train_1276", "folio_train_1277", "folio_train_1278", "folio_train_1279", "folio_train_1280"], "conclusion": "folio_train_1281", "label": "contradiction"}
+{"premises": ["folio_train_1276", "folio_train_1277", "folio_train_1278", "folio_train_1279", "folio_train_1280"], "conclusion": "folio_train_1282", "label": "neutral"}
+{"premises": ["folio_train_1276", "folio_train_1277", "folio_train_1278", "folio_train_1279", "folio_train_1280"], "conclusion": "folio_train_1283", "label": "contradiction"}
+{"premises": ["folio_train_1276", "folio_train_1277", "folio_train_1278", "folio_train_1279", "folio_train_1280"], "conclusion": "folio_train_1284", "label": "contradiction"}
+{"premises": ["folio_train_1276", "folio_train_1277", "folio_train_1278", "folio_train_1279", "folio_train_1280"], "conclusion": "folio_train_1285", "label": "entailment"}
+{"premises": ["folio_train_1286", "folio_train_1287", "folio_train_1288", "folio_train_1289", "folio_train_1290", "folio_train_1291"], "conclusion": "folio_train_1292", "label": "entailment"}
+{"premises": ["folio_train_1286", "folio_train_1287", "folio_train_1288", "folio_train_1289", "folio_train_1290", "folio_train_1291"], "conclusion": "folio_train_1293", "label": "entailment"}
+{"premises": ["folio_train_1286", "folio_train_1287", "folio_train_1288", "folio_train_1289", "folio_train_1290", "folio_train_1291"], "conclusion": "folio_train_1294", "label": "neutral"}
+{"premises": ["folio_train_1286", "folio_train_1287", "folio_train_1288", "folio_train_1289", "folio_train_1290", "folio_train_1291"], "conclusion": "folio_train_1295", "label": "neutral"}
+{"premises": ["folio_train_1296", "folio_train_1297", "folio_train_1298", "folio_train_1299", "folio_train_1300", "folio_train_1301"], "conclusion": "folio_train_1302", "label": "contradiction"}
+{"premises": ["folio_train_1296", "folio_train_1297", "folio_train_1298", "folio_train_1299", "folio_train_1300", "folio_train_1301"], "conclusion": "folio_train_1303", "label": "entailment"}
+{"premises": ["folio_train_1296", "folio_train_1297", "folio_train_1298", "folio_train_1299", "folio_train_1300", "folio_train_1301"], "conclusion": "folio_train_1304", "label": "contradiction"}
+{"premises": ["folio_train_1305", "folio_train_1306", "folio_train_1307", "folio_train_1308", "folio_train_1309"], "conclusion": "folio_train_1310", "label": "contradiction"}
+{"premises": ["folio_train_1305", "folio_train_1306", "folio_train_1307", "folio_train_1308", "folio_train_1309"], "conclusion": "folio_train_1311", "label": "entailment"}
+{"premises": ["folio_train_1305", "folio_train_1306", "folio_train_1307", "folio_train_1308", "folio_train_1309"], "conclusion": "folio_train_1312", "label": "neutral"}
+{"premises": ["folio_train_1305", "folio_train_1306", "folio_train_1307", "folio_train_1308", "folio_train_1309"], "conclusion": "folio_train_1313", "label": "entailment"}
+{"premises": ["folio_train_1314", "folio_train_1315", "folio_train_1316", "folio_train_1317", "folio_train_1318", "folio_train_1319", "folio_train_1320", "folio_train_1321", "folio_train_1322", "folio_train_1323"], "conclusion": "folio_train_1324", "label": "entailment"}
+{"premises": ["folio_train_1314", "folio_train_1315", "folio_train_1316", "folio_train_1317", "folio_train_1318", "folio_train_1319", "folio_train_1320", "folio_train_1321", "folio_train_1322", "folio_train_1323"], "conclusion": "folio_train_1325", "label": "contradiction"}
+{"premises": ["folio_train_1314", "folio_train_1315", "folio_train_1316", "folio_train_1317", "folio_train_1318", "folio_train_1319", "folio_train_1320", "folio_train_1321", "folio_train_1322", "folio_train_1323"], "conclusion": "folio_train_1326", "label": "neutral"}
+{"premises": ["folio_train_1327", "folio_train_1328", "folio_train_1329", "folio_train_1330", "folio_train_1331"], "conclusion": "folio_train_1332", "label": "entailment"}
+{"premises": ["folio_train_1327", "folio_train_1328", "folio_train_1329", "folio_train_1330", "folio_train_1331"], "conclusion": "folio_train_1333", "label": "contradiction"}
+{"premises": ["folio_train_1334", "folio_train_1335", "folio_train_1336", "folio_train_1337", "folio_train_1338", "folio_train_1339"], "conclusion": "folio_train_1340", "label": "neutral"}
+{"premises": ["folio_train_1334", "folio_train_1335", "folio_train_1336", "folio_train_1337", "folio_train_1338", "folio_train_1339"], "conclusion": "folio_train_1341", "label": "entailment"}
+{"premises": ["folio_train_1334", "folio_train_1335", "folio_train_1336", "folio_train_1337", "folio_train_1338", "folio_train_1339"], "conclusion": "folio_train_1342", "label": "contradiction"}
+{"premises": ["folio_train_1343", "folio_train_1344", "folio_train_1345", "folio_train_1346", "folio_train_1347"], "conclusion": "folio_train_1348", "label": "neutral"}
+{"premises": ["folio_train_1343", "folio_train_1344", "folio_train_1345", "folio_train_1346", "folio_train_1347"], "conclusion": "folio_train_1349", "label": "entailment"}
+{"premises": ["folio_train_1343", "folio_train_1344", "folio_train_1345", "folio_train_1346", "folio_train_1347"], "conclusion": "folio_train_1350", "label": "contradiction"}
+{"premises": ["folio_train_1351", "folio_train_1352", "folio_train_1353", "folio_train_1354", "folio_train_1355"], "conclusion": "folio_train_1356", "label": "neutral"}
+{"premises": ["folio_train_1351", "folio_train_1352", "folio_train_1353", "folio_train_1354", "folio_train_1355"], "conclusion": "folio_train_1357", "label": "entailment"}
+{"premises": ["folio_train_1351", "folio_train_1352", "folio_train_1353", "folio_train_1354", "folio_train_1355"], "conclusion": "folio_train_1358", "label": "neutral"}
+{"premises": ["folio_train_1351", "folio_train_1352", "folio_train_1353", "folio_train_1354", "folio_train_1355"], "conclusion": "folio_train_1359", "label": "entailment"}
+{"premises": ["folio_train_1360", "folio_train_1361", "folio_train_1362", "folio_train_1363", "folio_train_1364"], "conclusion": "folio_train_1365", "label": "neutral"}
+{"premises": ["folio_train_1360", "folio_train_1361", "folio_train_1362", "folio_train_1363", "folio_train_1364"], "conclusion": "folio_train_1366", "label": "contradiction"}
+{"premises": ["folio_train_1360", "folio_train_1361", "folio_train_1362", "folio_train_1363", "folio_train_1364"], "conclusion": "folio_train_1367", "label": "entailment"}
+{"premises": ["folio_train_1368", "folio_train_1369"], "conclusion": "folio_train_1370", "label": "entailment"}
+{"premises": ["folio_train_1371", "folio_train_1372", "folio_train_1373"], "conclusion": "folio_train_1374", "label": "entailment"}
+{"premises": ["folio_train_1371", "folio_train_1372", "folio_train_1373"], "conclusion": "folio_train_1375", "label": "contradiction"}
+{"premises": ["folio_train_1376", "folio_train_1377", "folio_train_1378", "folio_train_1379", "folio_train_1380"], "conclusion": "folio_train_1381", "label": "entailment"}
+{"premises": ["folio_train_1376", "folio_train_1377", "folio_train_1378", "folio_train_1379", "folio_train_1380"], "conclusion": "folio_train_1382", "label": "entailment"}
+{"premises": ["folio_train_1376", "folio_train_1377", "folio_train_1378", "folio_train_1379", "folio_train_1380"], "conclusion": "folio_train_1383", "label": "neutral"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1389", "label": "neutral"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1390", "label": "contradiction"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1391", "label": "entailment"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1392", "label": "entailment"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1393", "label": "entailment"}
+{"premises": ["folio_train_1384", "folio_train_1385", "folio_train_1386", "folio_train_1387", "folio_train_1388"], "conclusion": "folio_train_1394", "label": "contradiction"}
+{"premises": ["folio_train_1395", "folio_train_1396", "folio_train_1397", "folio_train_1398"], "conclusion": "folio_train_1399", "label": "contradiction"}
+{"premises": ["folio_train_1395", "folio_train_1396", "folio_train_1397", "folio_train_1398"], "conclusion": "folio_train_1400", "label": "contradiction"}
+{"premises": ["folio_train_1401", "folio_train_1402", "folio_train_1403", "folio_train_1404"], "conclusion": "folio_train_1405", "label": "neutral"}
+{"premises": ["folio_train_1406", "folio_train_1407", "folio_train_1408", "folio_train_1409", "folio_train_1410"], "conclusion": "folio_train_1411", "label": "neutral"}
+{"premises": ["folio_train_1406", "folio_train_1407", "folio_train_1408", "folio_train_1409", "folio_train_1410"], "conclusion": "folio_train_1412", "label": "contradiction"}
+{"premises": ["folio_train_1406", "folio_train_1407", "folio_train_1408", "folio_train_1409", "folio_train_1410"], "conclusion": "folio_train_1413", "label": "entailment"}
+{"premises": ["folio_train_1414", "folio_train_1415", "folio_train_1416", "folio_train_1417"], "conclusion": "folio_train_1418", "label": "entailment"}
+{"premises": ["folio_train_1414", "folio_train_1415", "folio_train_1416", "folio_train_1417"], "conclusion": "folio_train_1419", "label": "neutral"}
+{"premises": ["folio_train_1414", "folio_train_1415", "folio_train_1416", "folio_train_1417"], "conclusion": "folio_train_1420", "label": "neutral"}
+{"premises": ["folio_train_1421", "folio_train_1422"], "conclusion": "folio_train_1423", "label": "neutral"}
+{"premises": ["folio_train_1424", "folio_train_1425"], "conclusion": "folio_train_1426", "label": "entailment"}
+{"premises": ["folio_train_1424", "folio_train_1425"], "conclusion": "folio_train_1427", "label": "entailment"}
+{"premises": ["folio_train_1424", "folio_train_1425"], "conclusion": "folio_train_1428", "label": "neutral"}
+{"premises": ["folio_train_1429", "folio_train_1430", "folio_train_1431"], "conclusion": "folio_train_1432", "label": "entailment"}
+{"premises": ["folio_train_1429", "folio_train_1430", "folio_train_1431"], "conclusion": "folio_train_1433", "label": "contradiction"}
+{"premises": ["folio_train_1434", "folio_train_1435", "folio_train_1436", "folio_train_1437", "folio_train_1438", "folio_train_1439"], "conclusion": "folio_train_1440", "label": "neutral"}
+{"premises": ["folio_train_1434", "folio_train_1435", "folio_train_1436", "folio_train_1437", "folio_train_1438", "folio_train_1439"], "conclusion": "folio_train_1441", "label": "neutral"}
+{"premises": ["folio_train_1434", "folio_train_1435", "folio_train_1436", "folio_train_1437", "folio_train_1438", "folio_train_1439"], "conclusion": "folio_train_1442", "label": "entailment"}
+{"premises": ["folio_train_1434", "folio_train_1435", "folio_train_1436", "folio_train_1437", "folio_train_1438", "folio_train_1439"], "conclusion": "folio_train_1443", "label": "entailment"}
+{"premises": ["folio_train_1434", "folio_train_1435", "folio_train_1436", "folio_train_1437", "folio_train_1438", "folio_train_1439"], "conclusion": "folio_train_1444", "label": "neutral"}
+{"premises": ["folio_train_1445", "folio_train_1446", "folio_train_1447", "folio_train_1448", "folio_train_1449"], "conclusion": "folio_train_1450", "label": "neutral"}
+{"premises": ["folio_train_1445", "folio_train_1446", "folio_train_1447", "folio_train_1448", "folio_train_1449"], "conclusion": "folio_train_1451", "label": "neutral"}
+{"premises": ["folio_train_1452", "folio_train_1453", "folio_train_1454"], "conclusion": "folio_train_1455", "label": "neutral"}
+{"premises": ["folio_train_1452", "folio_train_1453", "folio_train_1454"], "conclusion": "folio_train_1456", "label": "neutral"}
+{"premises": ["folio_train_1452", "folio_train_1453", "folio_train_1454"], "conclusion": "folio_train_1457", "label": "entailment"}
+{"premises": ["folio_train_1458", "folio_train_1459", "folio_train_1460", "folio_train_1461", "folio_train_1462"], "conclusion": "folio_train_1463", "label": "neutral"}
+{"premises": ["folio_train_1458", "folio_train_1459", "folio_train_1460", "folio_train_1461", "folio_train_1462"], "conclusion": "folio_train_1464", "label": "neutral"}
+{"premises": ["folio_train_1458", "folio_train_1459", "folio_train_1460", "folio_train_1461", "folio_train_1462"], "conclusion": "folio_train_1465", "label": "neutral"}
+{"premises": ["folio_train_1458", "folio_train_1459", "folio_train_1460", "folio_train_1461", "folio_train_1462"], "conclusion": "folio_train_1466", "label": "contradiction"}
+{"premises": ["folio_train_1467", "folio_train_1468", "folio_train_1469", "folio_train_1470", "folio_train_1471"], "conclusion": "folio_train_1472", "label": "neutral"}
+{"premises": ["folio_train_1467", "folio_train_1468", "folio_train_1469", "folio_train_1470", "folio_train_1471"], "conclusion": "folio_train_1473", "label": "contradiction"}
+{"premises": ["folio_train_1467", "folio_train_1468", "folio_train_1469", "folio_train_1470", "folio_train_1471"], "conclusion": "folio_train_1474", "label": "entailment"}
+{"premises": ["folio_train_1475", "folio_train_1476", "folio_train_1477"], "conclusion": "folio_train_1478", "label": "neutral"}
+{"premises": ["folio_train_1475", "folio_train_1476", "folio_train_1477"], "conclusion": "folio_train_1479", "label": "entailment"}
+{"premises": ["folio_train_1475", "folio_train_1476", "folio_train_1477"], "conclusion": "folio_train_1480", "label": "entailment"}
+{"premises": ["folio_train_1475", "folio_train_1476", "folio_train_1477"], "conclusion": "folio_train_1481", "label": "contradiction"}
+{"premises": ["folio_train_1482", "folio_train_1483", "folio_train_1484", "folio_train_1485", "folio_train_1486"], "conclusion": "folio_train_1487", "label": "neutral"}
+{"premises": ["folio_train_1482", "folio_train_1483", "folio_train_1484", "folio_train_1485", "folio_train_1486"], "conclusion": "folio_train_1488", "label": "contradiction"}
+{"premises": ["folio_train_1482", "folio_train_1483", "folio_train_1484", "folio_train_1485", "folio_train_1486"], "conclusion": "folio_train_1489", "label": "entailment"}
+{"premises": ["folio_train_1490", "folio_train_1491", "folio_train_1492", "folio_train_1493", "folio_train_1494"], "conclusion": "folio_train_1495", "label": "neutral"}
+{"premises": ["folio_train_1490", "folio_train_1491", "folio_train_1492", "folio_train_1493", "folio_train_1494"], "conclusion": "folio_train_1496", "label": "entailment"}
+{"premises": ["folio_train_1490", "folio_train_1491", "folio_train_1492", "folio_train_1493", "folio_train_1494"], "conclusion": "folio_train_1497", "label": "entailment"}
+{"premises": ["folio_train_1498", "folio_train_1499", "folio_train_1500", "folio_train_1501", "folio_train_1502", "folio_train_1503", "folio_train_1504"], "conclusion": "folio_train_1505", "label": "neutral"}
+{"premises": ["folio_train_1498", "folio_train_1499", "folio_train_1500", "folio_train_1501", "folio_train_1502", "folio_train_1503", "folio_train_1504"], "conclusion": "folio_train_1506", "label": "neutral"}
+{"premises": ["folio_train_1498", "folio_train_1499", "folio_train_1500", "folio_train_1501", "folio_train_1502", "folio_train_1503", "folio_train_1504"], "conclusion": "folio_train_1507", "label": "contradiction"}
+{"premises": ["folio_train_1498", "folio_train_1499", "folio_train_1500", "folio_train_1501", "folio_train_1502", "folio_train_1503", "folio_train_1504"], "conclusion": "folio_train_1508", "label": "neutral"}
+{"premises": ["folio_train_1509", "folio_train_1510", "folio_train_1511", "folio_train_1512", "folio_train_1513", "folio_train_1514"], "conclusion": "folio_train_1515", "label": "neutral"}
+{"premises": ["folio_train_1509", "folio_train_1510", "folio_train_1511", "folio_train_1512", "folio_train_1513", "folio_train_1514"], "conclusion": "folio_train_1516", "label": "entailment"}
+{"premises": ["folio_train_1509", "folio_train_1510", "folio_train_1511", "folio_train_1512", "folio_train_1513", "folio_train_1514"], "conclusion": "folio_train_1517", "label": "entailment"}
+{"premises": ["folio_train_1518", "folio_train_1519", "folio_train_1520", "folio_train_1521", "folio_train_1522"], "conclusion": "folio_train_1523", "label": "neutral"}
+{"premises": ["folio_train_1518", "folio_train_1519", "folio_train_1520", "folio_train_1521", "folio_train_1522"], "conclusion": "folio_train_1524", "label": "neutral"}
+{"premises": ["folio_train_1525", "folio_train_1526", "folio_train_1527", "folio_train_1528", "folio_train_1529"], "conclusion": "folio_train_1530", "label": "neutral"}
+{"premises": ["folio_train_1525", "folio_train_1526", "folio_train_1527", "folio_train_1528", "folio_train_1529"], "conclusion": "folio_train_1531", "label": "contradiction"}
+{"premises": ["folio_train_1525", "folio_train_1526", "folio_train_1527", "folio_train_1528", "folio_train_1529"], "conclusion": "folio_train_1532", "label": "entailment"}
+{"premises": ["folio_train_1533", "folio_train_1534", "folio_train_1535", "folio_train_1536", "folio_train_1537", "folio_train_1538", "folio_train_1539"], "conclusion": "folio_train_1540", "label": "neutral"}
+{"premises": ["folio_train_1533", "folio_train_1534", "folio_train_1535", "folio_train_1536", "folio_train_1537", "folio_train_1538", "folio_train_1539"], "conclusion": "folio_train_1541", "label": "neutral"}
+{"premises": ["folio_train_1533", "folio_train_1534", "folio_train_1535", "folio_train_1536", "folio_train_1537", "folio_train_1538", "folio_train_1539"], "conclusion": "folio_train_1542", "label": "contradiction"}
+{"premises": ["folio_train_1533", "folio_train_1534", "folio_train_1535", "folio_train_1536", "folio_train_1537", "folio_train_1538", "folio_train_1539"], "conclusion": "folio_train_1543", "label": "entailment"}
+{"premises": ["folio_train_1544", "folio_train_1545", "folio_train_1546", "folio_train_1547", "folio_train_1548", "folio_train_1549"], "conclusion": "folio_train_1550", "label": "neutral"}
+{"premises": ["folio_train_1544", "folio_train_1545", "folio_train_1546", "folio_train_1547", "folio_train_1548", "folio_train_1549"], "conclusion": "folio_train_1551", "label": "entailment"}
+{"premises": ["folio_train_1544", "folio_train_1545", "folio_train_1546", "folio_train_1547", "folio_train_1548", "folio_train_1549"], "conclusion": "folio_train_1552", "label": "entailment"}
+{"premises": ["folio_train_1553", "folio_train_1554", "folio_train_1555"], "conclusion": "folio_train_1556", "label": "entailment"}
+{"premises": ["folio_train_533", "folio_train_1557", "folio_train_1558", "folio_train_1559", "folio_train_1560", "folio_train_536", "folio_train_1561", "folio_train_1562"], "conclusion": "folio_train_1563", "label": "entailment"}
+{"premises": ["folio_train_533", "folio_train_1557", "folio_train_1558", "folio_train_1559", "folio_train_1560", "folio_train_536", "folio_train_1561", "folio_train_1562"], "conclusion": "folio_train_1564", "label": "entailment"}
+{"premises": ["folio_train_533", "folio_train_1557", "folio_train_1558", "folio_train_1559", "folio_train_1560", "folio_train_536", "folio_train_1561", "folio_train_1562"], "conclusion": "folio_train_1565", "label": "contradiction"}
+{"premises": ["folio_train_533", "folio_train_1557", "folio_train_1558", "folio_train_1559", "folio_train_1560", "folio_train_536", "folio_train_1561", "folio_train_1562"], "conclusion": "folio_train_1566", "label": "entailment"}
+{"premises": ["folio_train_1567", "folio_train_1568"], "conclusion": "folio_train_1569", "label": "contradiction"}
+{"premises": ["folio_train_1570", "folio_train_1571", "folio_train_1572", "folio_train_1573", "folio_train_1574", "folio_train_1575"], "conclusion": "folio_train_1576", "label": "contradiction"}
+{"premises": ["folio_train_1570", "folio_train_1571", "folio_train_1572", "folio_train_1573", "folio_train_1574", "folio_train_1575"], "conclusion": "folio_train_1577", "label": "entailment"}
+{"premises": ["folio_train_1570", "folio_train_1571", "folio_train_1572", "folio_train_1573", "folio_train_1574", "folio_train_1575"], "conclusion": "folio_train_1578", "label": "neutral"}
+{"premises": ["folio_train_1570", "folio_train_1571", "folio_train_1572", "folio_train_1573", "folio_train_1574", "folio_train_1575"], "conclusion": "folio_train_1579", "label": "entailment"}
+{"premises": ["folio_train_1570", "folio_train_1571", "folio_train_1572", "folio_train_1573", "folio_train_1574", "folio_train_1575"], "conclusion": "folio_train_1580", "label": "entailment"}
+{"premises": ["folio_train_1581", "folio_train_1582", "folio_train_1583", "folio_train_1584", "folio_train_1585"], "conclusion": "folio_train_1586", "label": "neutral"}
+{"premises": ["folio_train_1581", "folio_train_1582", "folio_train_1583", "folio_train_1584", "folio_train_1585"], "conclusion": "folio_train_1587", "label": "contradiction"}
+{"premises": ["folio_train_1581", "folio_train_1582", "folio_train_1583", "folio_train_1584", "folio_train_1585"], "conclusion": "folio_train_1588", "label": "entailment"}
+{"premises": ["folio_train_1589", "folio_train_1590", "folio_train_1591", "folio_train_1592", "folio_train_1593", "folio_train_1594"], "conclusion": "folio_train_1595", "label": "entailment"}
+{"premises": ["folio_train_1589", "folio_train_1590", "folio_train_1591", "folio_train_1592", "folio_train_1593", "folio_train_1594"], "conclusion": "folio_train_1596", "label": "neutral"}
+{"premises": ["folio_train_1589", "folio_train_1590", "folio_train_1591", "folio_train_1592", "folio_train_1593", "folio_train_1594"], "conclusion": "folio_train_1597", "label": "contradiction"}
+{"premises": ["folio_train_1598", "folio_train_1599", "folio_train_1600", "folio_train_1601"], "conclusion": "folio_train_1602", "label": "entailment"}
+{"premises": ["folio_train_1598", "folio_train_1599", "folio_train_1600", "folio_train_1601"], "conclusion": "folio_train_1603", "label": "contradiction"}
+{"premises": ["folio_train_1598", "folio_train_1599", "folio_train_1600", "folio_train_1601"], "conclusion": "folio_train_1604", "label": "neutral"}
+{"premises": ["folio_train_1605", "folio_train_1606", "folio_train_1607", "folio_train_1608", "folio_train_1609"], "conclusion": "folio_train_1610", "label": "neutral"}
+{"premises": ["folio_train_1605", "folio_train_1606", "folio_train_1607", "folio_train_1608", "folio_train_1609"], "conclusion": "folio_train_1611", "label": "contradiction"}
+{"premises": ["folio_train_1605", "folio_train_1606", "folio_train_1607", "folio_train_1608", "folio_train_1609"], "conclusion": "folio_train_1612", "label": "entailment"}
+{"premises": ["folio_train_1613", "folio_train_1614", "folio_train_1615", "folio_train_1616"], "conclusion": "folio_train_1617", "label": "entailment"}
+{"premises": ["folio_train_1613", "folio_train_1614", "folio_train_1615", "folio_train_1616"], "conclusion": "folio_train_1618", "label": "contradiction"}
+{"premises": ["folio_train_1619", "folio_train_1620", "folio_train_1621", "folio_train_1622", "folio_train_1623", "folio_train_1624"], "conclusion": "folio_train_1625", "label": "entailment"}
+{"premises": ["folio_train_1619", "folio_train_1620", "folio_train_1621", "folio_train_1622", "folio_train_1623", "folio_train_1624"], "conclusion": "folio_train_1626", "label": "neutral"}
+{"premises": ["folio_train_1619", "folio_train_1620", "folio_train_1621", "folio_train_1622", "folio_train_1623", "folio_train_1624"], "conclusion": "folio_train_1627", "label": "contradiction"}
+{"premises": ["folio_train_1628", "folio_train_1629", "folio_train_1630"], "conclusion": "folio_train_1631", "label": "entailment"}
+{"premises": ["folio_train_1628", "folio_train_1629", "folio_train_1630"], "conclusion": "folio_train_1632", "label": "contradiction"}
+{"premises": ["folio_train_1633", "folio_train_1634", "folio_train_1635", "folio_train_1636", "folio_train_1637", "folio_train_1638"], "conclusion": "folio_train_1639", "label": "neutral"}
+{"premises": ["folio_train_1633", "folio_train_1634", "folio_train_1635", "folio_train_1636", "folio_train_1637", "folio_train_1638"], "conclusion": "folio_train_1640", "label": "neutral"}
+{"premises": ["folio_train_1633", "folio_train_1634", "folio_train_1635", "folio_train_1636", "folio_train_1637", "folio_train_1638"], "conclusion": "folio_train_1641", "label": "neutral"}
+{"premises": ["folio_train_1642", "folio_train_1643", "folio_train_1644", "folio_train_1645", "folio_train_1646", "folio_train_1647"], "conclusion": "folio_train_1648", "label": "neutral"}
+{"premises": ["folio_train_1642", "folio_train_1643", "folio_train_1644", "folio_train_1645", "folio_train_1646", "folio_train_1647"], "conclusion": "folio_train_1649", "label": "entailment"}
+{"premises": ["folio_train_1642", "folio_train_1643", "folio_train_1644", "folio_train_1645", "folio_train_1646", "folio_train_1647"], "conclusion": "folio_train_1650", "label": "contradiction"}
+{"premises": ["folio_train_1651", "folio_train_1652", "folio_train_1653", "folio_train_1654", "folio_train_1655"], "conclusion": "folio_train_1656", "label": "entailment"}
+{"premises": ["folio_train_1651", "folio_train_1652", "folio_train_1653", "folio_train_1654", "folio_train_1655"], "conclusion": "folio_train_1657", "label": "neutral"}
+{"premises": ["folio_train_1658", "folio_train_1659", "folio_train_1660", "folio_train_1661", "folio_train_1662", "folio_train_1663", "folio_train_1664", "folio_train_1665", "folio_train_1666", "folio_train_1667"], "conclusion": "folio_train_1668", "label": "entailment"}
+{"premises": ["folio_train_1658", "folio_train_1659", "folio_train_1660", "folio_train_1661", "folio_train_1662", "folio_train_1663", "folio_train_1664", "folio_train_1665", "folio_train_1666", "folio_train_1667"], "conclusion": "folio_train_1669", "label": "entailment"}
+{"premises": ["folio_train_1658", "folio_train_1659", "folio_train_1660", "folio_train_1661", "folio_train_1662", "folio_train_1663", "folio_train_1664", "folio_train_1665", "folio_train_1666", "folio_train_1667"], "conclusion": "folio_train_1670", "label": "neutral"}
+{"premises": ["folio_train_1671", "folio_train_1672", "folio_train_1673", "folio_train_1674"], "conclusion": "folio_train_1675", "label": "entailment"}
+{"premises": ["folio_train_1671", "folio_train_1672", "folio_train_1673", "folio_train_1674"], "conclusion": "folio_train_1676", "label": "neutral"}
+{"premises": ["folio_train_1671", "folio_train_1672", "folio_train_1673", "folio_train_1674"], "conclusion": "folio_train_1677", "label": "neutral"}
+{"premises": ["folio_train_1678", "folio_train_1679", "folio_train_1680", "folio_train_1681", "folio_train_1682"], "conclusion": "folio_train_1683", "label": "neutral"}
+{"premises": ["folio_train_1678", "folio_train_1679", "folio_train_1680", "folio_train_1681", "folio_train_1682"], "conclusion": "folio_train_1684", "label": "entailment"}
+{"premises": ["folio_train_1678", "folio_train_1679", "folio_train_1680", "folio_train_1681", "folio_train_1682"], "conclusion": "folio_train_1685", "label": "entailment"}
+{"premises": ["folio_train_1686", "folio_train_1687", "folio_train_1688", "folio_train_1689", "folio_train_1690", "folio_train_1691"], "conclusion": "folio_train_1692", "label": "contradiction"}
+{"premises": ["folio_train_1686", "folio_train_1687", "folio_train_1688", "folio_train_1689", "folio_train_1690", "folio_train_1691"], "conclusion": "folio_train_1693", "label": "neutral"}
+{"premises": ["folio_train_1686", "folio_train_1687", "folio_train_1688", "folio_train_1689", "folio_train_1690", "folio_train_1691"], "conclusion": "folio_train_1694", "label": "entailment"}
+{"premises": ["folio_train_1695", "folio_train_1696", "folio_train_1697", "folio_train_1698", "folio_train_1699", "folio_train_1700"], "conclusion": "folio_train_1701", "label": "entailment"}
+{"premises": ["folio_train_1695", "folio_train_1696", "folio_train_1697", "folio_train_1698", "folio_train_1699", "folio_train_1700"], "conclusion": "folio_train_1702", "label": "entailment"}
+{"premises": ["folio_train_1695", "folio_train_1696", "folio_train_1697", "folio_train_1698", "folio_train_1699", "folio_train_1700"], "conclusion": "folio_train_1703", "label": "entailment"}
+{"premises": ["folio_train_1704", "folio_train_1705", "folio_train_1706", "folio_train_1707", "folio_train_1708"], "conclusion": "folio_train_1709", "label": "contradiction"}
+{"premises": ["folio_train_1704", "folio_train_1705", "folio_train_1706", "folio_train_1707", "folio_train_1708"], "conclusion": "folio_train_1710", "label": "entailment"}
+{"premises": ["folio_train_1704", "folio_train_1705", "folio_train_1706", "folio_train_1707", "folio_train_1708"], "conclusion": "folio_train_1711", "label": "neutral"}
+{"premises": ["folio_train_1704", "folio_train_1705", "folio_train_1706", "folio_train_1707", "folio_train_1708"], "conclusion": "folio_train_1712", "label": "entailment"}
+{"premises": ["folio_train_1704", "folio_train_1705", "folio_train_1706", "folio_train_1707", "folio_train_1708"], "conclusion": "folio_train_1713", "label": "contradiction"}
+{"premises": ["folio_train_1714", "folio_train_1715"], "conclusion": "folio_train_1716", "label": "entailment"}
+{"premises": ["folio_train_1717", "folio_train_1718", "folio_train_1719", "folio_train_1720", "folio_train_1721", "folio_train_1722"], "conclusion": "folio_train_1723", "label": "contradiction"}
+{"premises": ["folio_train_1717", "folio_train_1718", "folio_train_1719", "folio_train_1720", "folio_train_1721", "folio_train_1722"], "conclusion": "folio_train_1724", "label": "neutral"}
+{"premises": ["folio_train_1717", "folio_train_1718", "folio_train_1719", "folio_train_1720", "folio_train_1721", "folio_train_1722"], "conclusion": "folio_train_1725", "label": "entailment"}
+{"premises": ["folio_train_1726", "folio_train_1727", "folio_train_1728", "folio_train_1729", "folio_train_1730"], "conclusion": "folio_train_1731", "label": "entailment"}
+{"premises": ["folio_train_1726", "folio_train_1727", "folio_train_1728", "folio_train_1729", "folio_train_1730"], "conclusion": "folio_train_1732", "label": "neutral"}
+{"premises": ["folio_train_1726", "folio_train_1727", "folio_train_1728", "folio_train_1729", "folio_train_1730"], "conclusion": "folio_train_1733", "label": "contradiction"}
+{"premises": ["folio_train_1734", "folio_train_1735", "folio_train_1736", "folio_train_1737", "folio_train_1738"], "conclusion": "folio_train_1739", "label": "neutral"}
+{"premises": ["folio_train_1734", "folio_train_1735", "folio_train_1736", "folio_train_1737", "folio_train_1738"], "conclusion": "folio_train_1740", "label": "contradiction"}
+{"premises": ["folio_train_1734", "folio_train_1735", "folio_train_1736", "folio_train_1737", "folio_train_1738"], "conclusion": "folio_train_1741", "label": "neutral"}
+{"premises": ["folio_train_1742", "folio_train_1743", "folio_train_1744", "folio_train_1745", "folio_train_1746", "folio_train_1747"], "conclusion": "folio_train_1748", "label": "neutral"}
+{"premises": ["folio_train_1742", "folio_train_1743", "folio_train_1744", "folio_train_1745", "folio_train_1746", "folio_train_1747"], "conclusion": "folio_train_1749", "label": "entailment"}
+{"premises": ["folio_train_1742", "folio_train_1743", "folio_train_1744", "folio_train_1745", "folio_train_1746", "folio_train_1747"], "conclusion": "folio_train_1750", "label": "contradiction"}
+{"premises": ["folio_train_1751", "folio_train_1752", "folio_train_1753", "folio_train_1754"], "conclusion": "folio_train_1755", "label": "neutral"}
+{"premises": ["folio_train_1751", "folio_train_1752", "folio_train_1753", "folio_train_1754"], "conclusion": "folio_train_1756", "label": "neutral"}
+{"premises": ["folio_train_1751", "folio_train_1752", "folio_train_1753", "folio_train_1754"], "conclusion": "folio_train_1757", "label": "entailment"}
+{"premises": ["folio_train_1758", "folio_train_1759", "folio_train_1760", "folio_train_1761"], "conclusion": "folio_train_1762", "label": "entailment"}
+{"premises": ["folio_train_1758", "folio_train_1759", "folio_train_1760", "folio_train_1761"], "conclusion": "folio_train_1763", "label": "neutral"}
+{"premises": ["folio_train_1758", "folio_train_1759", "folio_train_1760", "folio_train_1761"], "conclusion": "folio_train_1764", "label": "contradiction"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1770", "label": "contradiction"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1771", "label": "entailment"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1772", "label": "neutral"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1773", "label": "entailment"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1774", "label": "entailment"}
+{"premises": ["folio_train_1765", "folio_train_1766", "folio_train_1767", "folio_train_1768", "folio_train_1769"], "conclusion": "folio_train_1775", "label": "contradiction"}
+{"premises": ["folio_train_1776", "folio_train_1777", "folio_train_1778", "folio_train_1779"], "conclusion": "folio_train_1780", "label": "entailment"}
+{"premises": ["folio_train_1776", "folio_train_1777", "folio_train_1778", "folio_train_1779"], "conclusion": "folio_train_1781", "label": "contradiction"}
+{"premises": ["folio_train_1776", "folio_train_1777", "folio_train_1778", "folio_train_1779"], "conclusion": "folio_train_1782", "label": "entailment"}
+{"premises": ["folio_train_1783", "folio_train_1784"], "conclusion": "folio_train_1785", "label": "neutral"}
+{"premises": ["folio_train_1786", "folio_train_1787", "folio_train_1788", "folio_train_1789"], "conclusion": "folio_train_1790", "label": "neutral"}
+{"premises": ["folio_train_1786", "folio_train_1787", "folio_train_1788", "folio_train_1789"], "conclusion": "folio_train_1791", "label": "neutral"}
+{"premises": ["folio_train_1786", "folio_train_1787", "folio_train_1788", "folio_train_1789"], "conclusion": "folio_train_1792", "label": "contradiction"}
+{"premises": ["folio_train_1793", "folio_train_1794", "folio_train_1795", "folio_train_1796"], "conclusion": "folio_train_1797", "label": "entailment"}
+{"premises": ["folio_train_1793", "folio_train_1794", "folio_train_1795", "folio_train_1796"], "conclusion": "folio_train_1798", "label": "neutral"}
+{"premises": ["folio_train_1793", "folio_train_1794", "folio_train_1795", "folio_train_1796"], "conclusion": "folio_train_1799", "label": "neutral"}
+{"premises": ["folio_train_1800", "folio_train_1801", "folio_train_1802", "folio_train_1803", "folio_train_1804"], "conclusion": "folio_train_1805", "label": "contradiction"}
+{"premises": ["folio_train_1800", "folio_train_1801", "folio_train_1802", "folio_train_1803", "folio_train_1804"], "conclusion": "folio_train_1806", "label": "entailment"}
+{"premises": ["folio_train_1800", "folio_train_1801", "folio_train_1802", "folio_train_1803", "folio_train_1804"], "conclusion": "folio_train_1807", "label": "neutral"}
+{"premises": ["folio_train_1808", "folio_train_1809"], "conclusion": "folio_train_1810", "label": "entailment"}
+{"premises": ["folio_train_1811", "folio_train_1812", "folio_train_1813", "folio_train_1814", "folio_train_1815"], "conclusion": "folio_train_1816", "label": "neutral"}
+{"premises": ["folio_train_1811", "folio_train_1812", "folio_train_1813", "folio_train_1814", "folio_train_1815"], "conclusion": "folio_train_1817", "label": "contradiction"}
+{"premises": ["folio_train_1811", "folio_train_1812", "folio_train_1813", "folio_train_1814", "folio_train_1815"], "conclusion": "folio_train_1818", "label": "entailment"}
+{"premises": ["folio_train_1819", "folio_train_1820", "folio_train_1821", "folio_train_1822", "folio_train_1823"], "conclusion": "folio_train_1824", "label": "contradiction"}
+{"premises": ["folio_train_1819", "folio_train_1820", "folio_train_1821", "folio_train_1822", "folio_train_1823"], "conclusion": "folio_train_1825", "label": "contradiction"}
+{"premises": ["folio_train_1819", "folio_train_1820", "folio_train_1821", "folio_train_1822", "folio_train_1823"], "conclusion": "folio_train_1826", "label": "neutral"}
+{"premises": ["folio_train_1827", "folio_train_1828", "folio_train_1829", "folio_train_1830", "folio_train_1831", "folio_train_1832"], "conclusion": "folio_train_1833", "label": "contradiction"}
+{"premises": ["folio_train_1827", "folio_train_1828", "folio_train_1829", "folio_train_1830", "folio_train_1831", "folio_train_1832"], "conclusion": "folio_train_1834", "label": "entailment"}
+{"premises": ["folio_train_1827", "folio_train_1828", "folio_train_1829", "folio_train_1830", "folio_train_1831", "folio_train_1832"], "conclusion": "folio_train_1835", "label": "neutral"}
+{"premises": ["folio_train_1836", "folio_train_1837", "folio_train_1838", "folio_train_1839", "folio_train_1840"], "conclusion": "folio_train_1841", "label": "contradiction"}
+{"premises": ["folio_train_1836", "folio_train_1837", "folio_train_1838", "folio_train_1839", "folio_train_1840"], "conclusion": "folio_train_1842", "label": "neutral"}
+{"premises": ["folio_train_1843", "folio_train_1844", "folio_train_1845", "folio_train_1846", "folio_train_1847"], "conclusion": "folio_train_1848", "label": "entailment"}
+{"premises": ["folio_train_1843", "folio_train_1844", "folio_train_1845", "folio_train_1846", "folio_train_1847"], "conclusion": "folio_train_1849", "label": "entailment"}
+{"premises": ["folio_train_1843", "folio_train_1844", "folio_train_1845", "folio_train_1846", "folio_train_1847"], "conclusion": "folio_train_1850", "label": "entailment"}
+{"premises": ["folio_train_1851", "folio_train_1852", "folio_train_1853", "folio_train_1854"], "conclusion": "folio_train_1855", "label": "neutral"}
+{"premises": ["folio_train_1851", "folio_train_1852", "folio_train_1853", "folio_train_1854"], "conclusion": "folio_train_1856", "label": "contradiction"}
+{"premises": ["folio_train_1851", "folio_train_1852", "folio_train_1853", "folio_train_1854"], "conclusion": "folio_train_1857", "label": "entailment"}
+{"premises": ["folio_train_1858", "folio_train_1859", "folio_train_1860", "folio_train_1861", "folio_train_1862"], "conclusion": "folio_train_1863", "label": "neutral"}
+{"premises": ["folio_train_1858", "folio_train_1859", "folio_train_1860", "folio_train_1861", "folio_train_1862"], "conclusion": "folio_train_1864", "label": "contradiction"}
+{"premises": ["folio_train_1858", "folio_train_1859", "folio_train_1860", "folio_train_1861", "folio_train_1862"], "conclusion": "folio_train_1865", "label": "entailment"}
+{"premises": ["folio_train_1866", "folio_train_1867", "folio_train_1868", "folio_train_1869", "folio_train_1870"], "conclusion": "folio_train_1871", "label": "neutral"}
+{"premises": ["folio_train_1866", "folio_train_1867", "folio_train_1868", "folio_train_1869", "folio_train_1870"], "conclusion": "folio_train_1872", "label": "entailment"}
+{"premises": ["folio_train_1866", "folio_train_1867", "folio_train_1868", "folio_train_1869", "folio_train_1870"], "conclusion": "folio_train_1873", "label": "entailment"}
+{"premises": ["folio_train_1866", "folio_train_1867", "folio_train_1868", "folio_train_1869", "folio_train_1870"], "conclusion": "folio_train_1874", "label": "contradiction"}
+{"premises": ["folio_train_1875", "folio_train_1876"], "conclusion": "folio_train_1877", "label": "neutral"}
+{"premises": ["folio_train_1878", "folio_train_1879", "folio_train_1880", "folio_train_1881", "folio_train_1882", "folio_train_1883"], "conclusion": "folio_train_1884", "label": "neutral"}
+{"premises": ["folio_train_1878", "folio_train_1879", "folio_train_1880", "folio_train_1881", "folio_train_1882", "folio_train_1883"], "conclusion": "folio_train_1885", "label": "entailment"}
+{"premises": ["folio_train_1878", "folio_train_1879", "folio_train_1880", "folio_train_1881", "folio_train_1882", "folio_train_1883"], "conclusion": "folio_train_1886", "label": "contradiction"}
+{"premises": ["folio_train_1887", "folio_train_1888", "folio_train_1889", "folio_train_1890", "folio_train_1891"], "conclusion": "folio_train_1892", "label": "neutral"}
+{"premises": ["folio_train_1887", "folio_train_1888", "folio_train_1889", "folio_train_1890", "folio_train_1891"], "conclusion": "folio_train_1893", "label": "contradiction"}
+{"premises": ["folio_train_1887", "folio_train_1888", "folio_train_1889", "folio_train_1890", "folio_train_1891"], "conclusion": "folio_train_1894", "label": "entailment"}
+{"premises": ["folio_train_1895", "folio_train_1896", "folio_train_1897", "folio_train_1898", "folio_train_1899", "folio_train_1900"], "conclusion": "folio_train_1901", "label": "entailment"}
+{"premises": ["folio_train_1902", "folio_train_1903", "folio_train_1904", "folio_train_1905", "folio_train_1906", "folio_train_1907", "folio_train_1908"], "conclusion": "folio_train_1909", "label": "entailment"}
+{"premises": ["folio_train_1902", "folio_train_1903", "folio_train_1904", "folio_train_1905", "folio_train_1906", "folio_train_1907", "folio_train_1908"], "conclusion": "folio_train_1910", "label": "contradiction"}
+{"premises": ["folio_train_1902", "folio_train_1903", "folio_train_1904", "folio_train_1905", "folio_train_1906", "folio_train_1907", "folio_train_1908"], "conclusion": "folio_train_1911", "label": "neutral"}
+{"premises": ["folio_train_1912", "folio_train_1298", "folio_train_1296", "folio_train_1913", "folio_train_1914", "folio_train_1915"], "conclusion": "folio_train_1916", "label": "contradiction"}
+{"premises": ["folio_train_1912", "folio_train_1298", "folio_train_1296", "folio_train_1913", "folio_train_1914", "folio_train_1915"], "conclusion": "folio_train_1917", "label": "entailment"}
+{"premises": ["folio_train_1912", "folio_train_1298", "folio_train_1296", "folio_train_1913", "folio_train_1914", "folio_train_1915"], "conclusion": "folio_train_1918", "label": "entailment"}
+{"premises": ["folio_train_1919", "folio_train_1920", "folio_train_1921"], "conclusion": "folio_train_1922", "label": "neutral"}
+{"premises": ["folio_train_1919", "folio_train_1920", "folio_train_1921"], "conclusion": "folio_train_1923", "label": "entailment"}
+{"premises": ["folio_train_1919", "folio_train_1920", "folio_train_1921"], "conclusion": "folio_train_1924", "label": "contradiction"}
+{"premises": ["folio_train_1925", "folio_train_1926", "folio_train_1927", "folio_train_1928", "folio_train_1929", "folio_train_1930"], "conclusion": "folio_train_1931", "label": "entailment"}
+{"premises": ["folio_train_1925", "folio_train_1926", "folio_train_1927", "folio_train_1928", "folio_train_1929", "folio_train_1930"], "conclusion": "folio_train_1932", "label": "neutral"}
+{"premises": ["folio_train_1925", "folio_train_1926", "folio_train_1927", "folio_train_1928", "folio_train_1929", "folio_train_1930"], "conclusion": "folio_train_1933", "label": "neutral"}
+{"premises": ["folio_train_1925", "folio_train_1926", "folio_train_1927", "folio_train_1928", "folio_train_1929", "folio_train_1930"], "conclusion": "folio_train_1934", "label": "contradiction"}
+{"premises": ["folio_train_1925", "folio_train_1926", "folio_train_1927", "folio_train_1928", "folio_train_1929", "folio_train_1930"], "conclusion": "folio_train_1935", "label": "entailment"}
+{"premises": ["folio_train_1936", "folio_train_1937", "folio_train_1938", "folio_train_1939", "folio_train_1940"], "conclusion": "folio_train_1941", "label": "neutral"}
+{"premises": ["folio_train_1936", "folio_train_1937", "folio_train_1938", "folio_train_1939", "folio_train_1940"], "conclusion": "folio_train_1942", "label": "contradiction"}
+{"premises": ["folio_train_1936", "folio_train_1937", "folio_train_1938", "folio_train_1939", "folio_train_1940"], "conclusion": "folio_train_1943", "label": "entailment"}
+{"premises": ["folio_train_1944", "folio_train_1945", "folio_train_1946", "folio_train_1947", "folio_train_1948"], "conclusion": "folio_train_1949", "label": "entailment"}
+{"premises": ["folio_train_1944", "folio_train_1945", "folio_train_1946", "folio_train_1947", "folio_train_1948"], "conclusion": "folio_train_1950", "label": "contradiction"}
+{"premises": ["folio_train_1944", "folio_train_1945", "folio_train_1946", "folio_train_1947", "folio_train_1948"], "conclusion": "folio_train_1951", "label": "entailment"}
+{"premises": ["folio_train_1944", "folio_train_1945", "folio_train_1946", "folio_train_1947", "folio_train_1948"], "conclusion": "folio_train_1952", "label": "neutral"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1958", "label": "neutral"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1959", "label": "entailment"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1960", "label": "entailment"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1961", "label": "contradiction"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1962", "label": "contradiction"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1963", "label": "contradiction"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1964", "label": "contradiction"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1965", "label": "entailment"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1966", "label": "entailment"}
+{"premises": ["folio_train_1953", "folio_train_1954", "folio_train_1955", "folio_train_1956", "folio_train_1957"], "conclusion": "folio_train_1967", "label": "contradiction"}
+{"premises": ["folio_train_1968", "folio_train_1969", "folio_train_1970", "folio_train_1971", "folio_train_1972", "folio_train_1973", "folio_train_1974"], "conclusion": "folio_train_1975", "label": "entailment"}
+{"premises": ["folio_train_1968", "folio_train_1969", "folio_train_1970", "folio_train_1971", "folio_train_1972", "folio_train_1973", "folio_train_1974"], "conclusion": "folio_train_1976", "label": "contradiction"}
+{"premises": ["folio_train_1977", "folio_train_1978", "folio_train_1979", "folio_train_1980", "folio_train_1981"], "conclusion": "folio_train_1982", "label": "entailment"}
+{"premises": ["folio_train_1977", "folio_train_1978", "folio_train_1979", "folio_train_1980", "folio_train_1981"], "conclusion": "folio_train_1983", "label": "neutral"}
+{"premises": ["folio_train_1977", "folio_train_1978", "folio_train_1979", "folio_train_1980", "folio_train_1981"], "conclusion": "folio_train_1984", "label": "neutral"}
+{"premises": ["folio_train_1985", "folio_train_1986", "folio_train_1987", "folio_train_1988", "folio_train_1989"], "conclusion": "folio_train_1990", "label": "entailment"}
+{"premises": ["folio_train_1985", "folio_train_1986", "folio_train_1987", "folio_train_1988", "folio_train_1989"], "conclusion": "folio_train_1991", "label": "entailment"}
+{"premises": ["folio_train_1992", "folio_train_1993", "folio_train_1994", "folio_train_1995", "folio_train_1996", "folio_train_1997", "folio_train_1998", "folio_train_1999"], "conclusion": "folio_train_2000", "label": "neutral"}
+{"premises": ["folio_train_1992", "folio_train_1993", "folio_train_1994", "folio_train_1995", "folio_train_1996", "folio_train_1997", "folio_train_1998", "folio_train_1999"], "conclusion": "folio_train_2001", "label": "neutral"}
+{"premises": ["folio_train_1992", "folio_train_1993", "folio_train_1994", "folio_train_1995", "folio_train_1996", "folio_train_1997", "folio_train_1998", "folio_train_1999"], "conclusion": "folio_train_2002", "label": "entailment"}
+{"premises": ["folio_train_1992", "folio_train_1993", "folio_train_1994", "folio_train_1995", "folio_train_1996", "folio_train_1997", "folio_train_1998", "folio_train_1999"], "conclusion": "folio_train_2003", "label": "contradiction"}
+{"premises": ["folio_train_2004", "folio_train_2005", "folio_train_2006", "folio_train_2007", "folio_train_2008"], "conclusion": "folio_train_2009", "label": "entailment"}
+{"premises": ["folio_train_2004", "folio_train_2005", "folio_train_2006", "folio_train_2007", "folio_train_2008"], "conclusion": "folio_train_2010", "label": "contradiction"}
+{"premises": ["folio_train_2004", "folio_train_2005", "folio_train_2006", "folio_train_2007", "folio_train_2008"], "conclusion": "folio_train_2011", "label": "entailment"}
+{"premises": ["folio_train_2012", "folio_train_2013", "folio_train_2014", "folio_train_2015"], "conclusion": "folio_train_2016", "label": "entailment"}
+{"premises": ["folio_train_2012", "folio_train_2013", "folio_train_2014", "folio_train_2015"], "conclusion": "folio_train_2017", "label": "entailment"}
+{"premises": ["folio_train_2012", "folio_train_2013", "folio_train_2014", "folio_train_2015"], "conclusion": "folio_train_2018", "label": "neutral"}
+{"premises": ["folio_train_2019", "folio_train_2020", "folio_train_2021", "folio_train_2022", "folio_train_2023", "folio_train_2024"], "conclusion": "folio_train_2025", "label": "neutral"}
+{"premises": ["folio_train_2019", "folio_train_2020", "folio_train_2021", "folio_train_2022", "folio_train_2023", "folio_train_2024"], "conclusion": "folio_train_2026", "label": "contradiction"}
+{"premises": ["folio_train_2019", "folio_train_2020", "folio_train_2021", "folio_train_2022", "folio_train_2023", "folio_train_2024"], "conclusion": "folio_train_2027", "label": "entailment"}
+{"premises": ["folio_train_2028", "folio_train_2029", "folio_train_2030", "folio_train_2031", "folio_train_2032", "folio_train_2033", "folio_train_2034"], "conclusion": "folio_train_2035", "label": "entailment"}
+{"premises": ["folio_train_2028", "folio_train_2029", "folio_train_2030", "folio_train_2031", "folio_train_2032", "folio_train_2033", "folio_train_2034"], "conclusion": "folio_train_2036", "label": "neutral"}
+{"premises": ["folio_train_2028", "folio_train_2029", "folio_train_2030", "folio_train_2031", "folio_train_2032", "folio_train_2033", "folio_train_2034"], "conclusion": "folio_train_2037", "label": "contradiction"}
+{"premises": ["folio_train_2028", "folio_train_2029", "folio_train_2030", "folio_train_2031", "folio_train_2032", "folio_train_2033", "folio_train_2034"], "conclusion": "folio_train_2038", "label": "contradiction"}
+{"premises": ["folio_train_2039", "folio_train_2040", "folio_train_2041", "folio_train_2042", "folio_train_2043"], "conclusion": "folio_train_2044", "label": "entailment"}
+{"premises": ["folio_train_2039", "folio_train_2040", "folio_train_2041", "folio_train_2042", "folio_train_2043"], "conclusion": "folio_train_2045", "label": "contradiction"}
+{"premises": ["folio_train_2046", "folio_train_2047", "folio_train_2048", "folio_train_2049", "folio_train_2050"], "conclusion": "folio_train_2051", "label": "neutral"}
+{"premises": ["folio_train_2046", "folio_train_2047", "folio_train_2048", "folio_train_2049", "folio_train_2050"], "conclusion": "folio_train_2052", "label": "contradiction"}
+{"premises": ["folio_train_2046", "folio_train_2047", "folio_train_2048", "folio_train_2049", "folio_train_2050"], "conclusion": "folio_train_2053", "label": "entailment"}
+{"premises": ["folio_train_2054", "folio_train_2055", "folio_train_2056", "folio_train_2057", "folio_train_2058", "folio_train_2059"], "conclusion": "folio_train_2060", "label": "neutral"}
+{"premises": ["folio_train_2054", "folio_train_2055", "folio_train_2056", "folio_train_2057", "folio_train_2058", "folio_train_2059"], "conclusion": "folio_train_2061", "label": "neutral"}
+{"premises": ["folio_train_2054", "folio_train_2055", "folio_train_2056", "folio_train_2057", "folio_train_2058", "folio_train_2059"], "conclusion": "folio_train_2062", "label": "contradiction"}
+{"premises": ["folio_train_2063", "folio_train_2064", "folio_train_2065", "folio_train_2066", "folio_train_2067"], "conclusion": "folio_train_2068", "label": "contradiction"}
+{"premises": ["folio_train_2063", "folio_train_2064", "folio_train_2065", "folio_train_2066", "folio_train_2067"], "conclusion": "folio_train_2069", "label": "entailment"}
+{"premises": ["folio_train_2063", "folio_train_2064", "folio_train_2065", "folio_train_2066", "folio_train_2067"], "conclusion": "folio_train_2070", "label": "entailment"}
+{"premises": ["folio_train_2071", "folio_train_2072", "folio_train_2073", "folio_train_2074", "folio_train_2075"], "conclusion": "folio_train_2076", "label": "entailment"}
+{"premises": ["folio_train_2071", "folio_train_2072", "folio_train_2073", "folio_train_2074", "folio_train_2075"], "conclusion": "folio_train_2077", "label": "neutral"}
+{"premises": ["folio_train_2071", "folio_train_2072", "folio_train_2073", "folio_train_2074", "folio_train_2075"], "conclusion": "folio_train_2078", "label": "neutral"}
+{"premises": ["folio_train_2079", "folio_train_2080", "folio_train_2081"], "conclusion": "folio_train_2082", "label": "entailment"}
+{"premises": ["folio_train_2083", "folio_train_2084", "folio_train_2085", "folio_train_2086", "folio_train_2087"], "conclusion": "folio_train_2088", "label": "contradiction"}
+{"premises": ["folio_train_2083", "folio_train_2084", "folio_train_2085", "folio_train_2086", "folio_train_2087"], "conclusion": "folio_train_2089", "label": "entailment"}
+{"premises": ["folio_train_2083", "folio_train_2084", "folio_train_2085", "folio_train_2086", "folio_train_2087"], "conclusion": "folio_train_2090", "label": "neutral"}
+{"premises": ["folio_train_2091", "folio_train_2092", "folio_train_2093", "folio_train_2094"], "conclusion": "folio_train_2095", "label": "entailment"}
+{"premises": ["folio_train_2091", "folio_train_2092", "folio_train_2093", "folio_train_2094"], "conclusion": "folio_train_2096", "label": "entailment"}
+{"premises": ["folio_train_2091", "folio_train_2092", "folio_train_2093", "folio_train_2094"], "conclusion": "folio_train_2097", "label": "contradiction"}
+{"premises": ["folio_train_2098", "folio_train_2099", "folio_train_2100", "folio_train_2101", "folio_train_2102"], "conclusion": "folio_train_2103", "label": "entailment"}
+{"premises": ["folio_train_2098", "folio_train_2099", "folio_train_2100", "folio_train_2101", "folio_train_2102"], "conclusion": "folio_train_2104", "label": "entailment"}
+{"premises": ["folio_train_2098", "folio_train_2099", "folio_train_2100", "folio_train_2101", "folio_train_2102"], "conclusion": "folio_train_2105", "label": "neutral"}
+{"premises": ["folio_train_2098", "folio_train_2099", "folio_train_2100", "folio_train_2101", "folio_train_2102"], "conclusion": "folio_train_2106", "label": "neutral"}
+{"premises": ["folio_train_2107", "folio_train_2108", "folio_train_2109", "folio_train_2110", "folio_train_2111"], "conclusion": "folio_train_2112", "label": "contradiction"}
+{"premises": ["folio_train_2107", "folio_train_2108", "folio_train_2109", "folio_train_2110", "folio_train_2111"], "conclusion": "folio_train_2113", "label": "entailment"}
+{"premises": ["folio_train_2107", "folio_train_2108", "folio_train_2109", "folio_train_2110", "folio_train_2111"], "conclusion": "folio_train_2114", "label": "neutral"}
+{"premises": ["folio_train_2115", "folio_train_2116"], "conclusion": "folio_train_2117", "label": "neutral"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2123", "label": "neutral"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2124", "label": "contradiction"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2125", "label": "entailment"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2126", "label": "contradiction"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2127", "label": "entailment"}
+{"premises": ["folio_train_2118", "folio_train_2119", "folio_train_2120", "folio_train_2121", "folio_train_2122"], "conclusion": "folio_train_2128", "label": "entailment"}
+{"premises": ["folio_train_2129", "folio_train_2130", "folio_train_2131", "folio_train_2132", "folio_train_2133", "folio_train_2134"], "conclusion": "folio_train_2135", "label": "entailment"}
+{"premises": ["folio_train_2129", "folio_train_2130", "folio_train_2131", "folio_train_2132", "folio_train_2133", "folio_train_2134"], "conclusion": "folio_train_2136", "label": "neutral"}
+{"premises": ["folio_train_2129", "folio_train_2130", "folio_train_2131", "folio_train_2132", "folio_train_2133", "folio_train_2134"], "conclusion": "folio_train_2137", "label": "contradiction"}
+{"premises": ["folio_train_2138", "folio_train_2139", "folio_train_2140", "folio_train_2141", "folio_train_2142"], "conclusion": "folio_train_2143", "label": "neutral"}
+{"premises": ["folio_train_2138", "folio_train_2139", "folio_train_2140", "folio_train_2141", "folio_train_2142"], "conclusion": "folio_train_2144", "label": "contradiction"}
+{"premises": ["folio_train_2138", "folio_train_2139", "folio_train_2140", "folio_train_2141", "folio_train_2142"], "conclusion": "folio_train_2145", "label": "entailment"}
+{"premises": ["folio_train_2146", "folio_train_2147"], "conclusion": "folio_train_2148", "label": "neutral"}
+{"premises": ["folio_train_2149", "folio_train_2150", "folio_train_2151", "folio_train_2152", "folio_train_2153", "folio_train_2154", "folio_train_2155", "folio_train_2156"], "conclusion": "folio_train_2157", "label": "entailment"}
+{"premises": ["folio_train_2149", "folio_train_2150", "folio_train_2151", "folio_train_2152", "folio_train_2153", "folio_train_2154", "folio_train_2155", "folio_train_2156"], "conclusion": "folio_train_2158", "label": "contradiction"}
+{"premises": ["folio_train_386", "folio_train_384", "folio_train_1127", "folio_train_385", "folio_train_2159"], "conclusion": "folio_train_2160", "label": "neutral"}
+{"premises": ["folio_train_386", "folio_train_384", "folio_train_1127", "folio_train_385", "folio_train_2159"], "conclusion": "folio_train_1101", "label": "contradiction"}
+{"premises": ["folio_train_386", "folio_train_384", "folio_train_1127", "folio_train_385", "folio_train_2159"], "conclusion": "folio_train_2161", "label": "entailment"}
+{"premises": ["folio_train_2162", "folio_train_2163", "folio_train_2164"], "conclusion": "folio_train_2165", "label": "neutral"}
+{"premises": ["folio_train_2162", "folio_train_2163", "folio_train_2164"], "conclusion": "folio_train_2166", "label": "entailment"}
+{"premises": ["folio_train_2162", "folio_train_2163", "folio_train_2164"], "conclusion": "folio_train_2167", "label": "neutral"}
+{"premises": ["folio_train_2168", "folio_train_2169", "folio_train_2170", "folio_train_2171", "folio_train_2172"], "conclusion": "folio_train_2173", "label": "contradiction"}
+{"premises": ["folio_train_2174", "folio_train_2175", "folio_train_2176", "folio_train_2177", "folio_train_2178", "folio_train_2179", "folio_train_2180"], "conclusion": "folio_train_2181", "label": "neutral"}
+{"premises": ["folio_train_2174", "folio_train_2175", "folio_train_2176", "folio_train_2177", "folio_train_2178", "folio_train_2179", "folio_train_2180"], "conclusion": "folio_train_2182", "label": "neutral"}
+{"premises": ["folio_train_2174", "folio_train_2175", "folio_train_2176", "folio_train_2177", "folio_train_2178", "folio_train_2179", "folio_train_2180"], "conclusion": "folio_train_2183", "label": "contradiction"}
+{"premises": ["folio_train_2174", "folio_train_2175", "folio_train_2176", "folio_train_2177", "folio_train_2178", "folio_train_2179", "folio_train_2180"], "conclusion": "folio_train_2184", "label": "entailment"}
+{"premises": ["folio_train_2185", "folio_train_2186", "folio_train_2187", "folio_train_2188", "folio_train_2189"], "conclusion": "folio_train_2190", "label": "contradiction"}
+{"premises": ["folio_train_2185", "folio_train_2186", "folio_train_2187", "folio_train_2188", "folio_train_2189"], "conclusion": "folio_train_2191", "label": "entailment"}
+{"premises": ["folio_train_2185", "folio_train_2186", "folio_train_2187", "folio_train_2188", "folio_train_2189"], "conclusion": "folio_train_2192", "label": "neutral"}
+{"premises": ["folio_train_2193", "folio_train_2194"], "conclusion": "folio_train_2195", "label": "entailment"}
+{"premises": ["folio_train_2196", "folio_train_2197"], "conclusion": "folio_train_2198", "label": "entailment"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2204", "label": "neutral"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2205", "label": "contradiction"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2206", "label": "contradiction"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2207", "label": "contradiction"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2208", "label": "contradiction"}
+{"premises": ["folio_train_2199", "folio_train_2200", "folio_train_2201", "folio_train_2202", "folio_train_2203"], "conclusion": "folio_train_2209", "label": "entailment"}
+{"premises": ["folio_train_2210", "folio_train_2211", "folio_train_2212", "folio_train_2213", "folio_train_2214", "folio_train_2215"], "conclusion": "folio_train_2216", "label": "entailment"}
+{"premises": ["folio_train_2210", "folio_train_2211", "folio_train_2212", "folio_train_2213", "folio_train_2214", "folio_train_2215"], "conclusion": "folio_train_2217", "label": "contradiction"}
+{"premises": ["folio_train_2210", "folio_train_2211", "folio_train_2212", "folio_train_2213", "folio_train_2214", "folio_train_2215"], "conclusion": "folio_train_2218", "label": "neutral"}
+{"premises": ["folio_train_2219", "folio_train_2220", "folio_train_2221", "folio_train_2222", "folio_train_2223", "folio_train_2224", "folio_train_2225"], "conclusion": "folio_train_2226", "label": "entailment"}
+{"premises": ["folio_train_2219", "folio_train_2220", "folio_train_2221", "folio_train_2222", "folio_train_2223", "folio_train_2224", "folio_train_2225"], "conclusion": "folio_train_2227", "label": "contradiction"}
+{"premises": ["folio_train_2219", "folio_train_2220", "folio_train_2221", "folio_train_2222", "folio_train_2223", "folio_train_2224", "folio_train_2225"], "conclusion": "folio_train_2228", "label": "neutral"}
+{"premises": ["folio_train_2229", "folio_train_2230", "folio_train_2231", "folio_train_2232", "folio_train_2233"], "conclusion": "folio_train_2234", "label": "neutral"}
+{"premises": ["folio_train_2229", "folio_train_2230", "folio_train_2231", "folio_train_2232", "folio_train_2233"], "conclusion": "folio_train_2235", "label": "contradiction"}
+{"premises": ["folio_train_2229", "folio_train_2230", "folio_train_2231", "folio_train_2232", "folio_train_2233"], "conclusion": "folio_train_2236", "label": "entailment"}
+{"premises": ["folio_train_2237", "folio_train_2238", "folio_train_2239", "folio_train_2240", "folio_train_2241", "folio_train_2242"], "conclusion": "folio_train_2243", "label": "neutral"}
+{"premises": ["folio_train_2237", "folio_train_2238", "folio_train_2239", "folio_train_2240", "folio_train_2241", "folio_train_2242"], "conclusion": "folio_train_2244", "label": "entailment"}
+{"premises": ["folio_train_2237", "folio_train_2238", "folio_train_2239", "folio_train_2240", "folio_train_2241", "folio_train_2242"], "conclusion": "folio_train_2245", "label": "entailment"}
+{"premises": ["folio_train_2246", "folio_train_2247", "folio_train_2248", "folio_train_2249", "folio_train_2250"], "conclusion": "folio_train_2251", "label": "neutral"}
+{"premises": ["folio_train_2246", "folio_train_2247", "folio_train_2248", "folio_train_2249", "folio_train_2250"], "conclusion": "folio_train_2252", "label": "contradiction"}
+{"premises": ["folio_train_2246", "folio_train_2247", "folio_train_2248", "folio_train_2249", "folio_train_2250"], "conclusion": "folio_train_2253", "label": "entailment"}
+{"premises": ["folio_train_2254", "folio_train_2255", "folio_train_2256", "folio_train_2257", "folio_train_2258", "folio_train_2259"], "conclusion": "folio_train_2260", "label": "entailment"}
+{"premises": ["folio_train_2254", "folio_train_2255", "folio_train_2256", "folio_train_2257", "folio_train_2258", "folio_train_2259"], "conclusion": "folio_train_2261", "label": "contradiction"}
+{"premises": ["folio_train_2254", "folio_train_2255", "folio_train_2256", "folio_train_2257", "folio_train_2258", "folio_train_2259"], "conclusion": "folio_train_2262", "label": "contradiction"}
+{"premises": ["folio_train_2263", "folio_train_2264"], "conclusion": "folio_train_2265", "label": "neutral"}
+{"premises": ["folio_train_2266", "folio_train_2267", "folio_train_2268", "folio_train_2269", "folio_train_2270"], "conclusion": "folio_train_2271", "label": "neutral"}
+{"premises": ["folio_train_2266", "folio_train_2267", "folio_train_2268", "folio_train_2269", "folio_train_2270"], "conclusion": "folio_train_2272", "label": "entailment"}
+{"premises": ["folio_train_2266", "folio_train_2267", "folio_train_2268", "folio_train_2269", "folio_train_2270"], "conclusion": "folio_train_2273", "label": "neutral"}
+{"premises": ["folio_train_2274", "folio_train_2275", "folio_train_2276", "folio_train_2277", "folio_train_2278"], "conclusion": "folio_train_2279", "label": "neutral"}
+{"premises": ["folio_train_2274", "folio_train_2275", "folio_train_2276", "folio_train_2277", "folio_train_2278"], "conclusion": "folio_train_2280", "label": "contradiction"}
+{"premises": ["folio_train_2274", "folio_train_2275", "folio_train_2276", "folio_train_2277", "folio_train_2278"], "conclusion": "folio_train_2281", "label": "entailment"}
+{"premises": ["folio_train_2282", "folio_train_2283"], "conclusion": "folio_train_2284", "label": "neutral"}
+{"premises": ["folio_train_2285", "folio_train_2286", "folio_train_2287", "folio_train_2288"], "conclusion": "folio_train_2289", "label": "entailment"}
+{"premises": ["folio_train_2285", "folio_train_2286", "folio_train_2287", "folio_train_2288"], "conclusion": "folio_train_2290", "label": "contradiction"}
+{"premises": ["folio_train_2285", "folio_train_2286", "folio_train_2287", "folio_train_2288"], "conclusion": "folio_train_2291", "label": "neutral"}
+{"premises": ["folio_train_2292", "folio_train_2293", "folio_train_2294", "folio_train_2295", "folio_train_2296", "folio_train_2297"], "conclusion": "folio_train_2298", "label": "neutral"}
+{"premises": ["folio_train_2292", "folio_train_2293", "folio_train_2294", "folio_train_2295", "folio_train_2296", "folio_train_2297"], "conclusion": "folio_train_2299", "label": "neutral"}
+{"premises": ["folio_train_2292", "folio_train_2293", "folio_train_2294", "folio_train_2295", "folio_train_2296", "folio_train_2297"], "conclusion": "folio_train_2300", "label": "contradiction"}
+{"premises": ["folio_train_2292", "folio_train_2293", "folio_train_2294", "folio_train_2295", "folio_train_2296", "folio_train_2297"], "conclusion": "folio_train_2301", "label": "entailment"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2307", "label": "contradiction"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2308", "label": "entailment"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2309", "label": "neutral"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2310", "label": "entailment"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2311", "label": "contradiction"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2312", "label": "entailment"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2313", "label": "contradiction"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2314", "label": "contradiction"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2315", "label": "contradiction"}
+{"premises": ["folio_train_2302", "folio_train_2303", "folio_train_2304", "folio_train_2305", "folio_train_2306"], "conclusion": "folio_train_2316", "label": "contradiction"}
+{"premises": ["folio_train_2317", "folio_train_2318", "folio_train_2319", "folio_train_2320", "folio_train_2321"], "conclusion": "folio_train_2322", "label": "entailment"}
+{"premises": ["folio_train_2317", "folio_train_2318", "folio_train_2319", "folio_train_2320", "folio_train_2321"], "conclusion": "folio_train_2323", "label": "neutral"}
+{"premises": ["folio_train_2317", "folio_train_2318", "folio_train_2319", "folio_train_2320", "folio_train_2321"], "conclusion": "folio_train_2324", "label": "entailment"}
+{"premises": ["folio_train_2325", "folio_train_2326", "folio_train_2327", "folio_train_2328", "folio_train_2329", "folio_train_2330"], "conclusion": "folio_train_2331", "label": "contradiction"}
+{"premises": ["folio_train_2325", "folio_train_2326", "folio_train_2327", "folio_train_2328", "folio_train_2329", "folio_train_2330"], "conclusion": "folio_train_2332", "label": "entailment"}
+{"premises": ["folio_train_2333", "folio_train_2334", "folio_train_2335", "folio_train_2336"], "conclusion": "folio_train_2337", "label": "entailment"}
+{"premises": ["folio_train_2333", "folio_train_2334", "folio_train_2335", "folio_train_2336"], "conclusion": "folio_train_2338", "label": "contradiction"}
+{"premises": ["folio_train_2339", "folio_train_2340"], "conclusion": "folio_train_2341", "label": "entailment"}
+{"premises": ["folio_train_2342", "folio_train_2343", "folio_train_2344", "folio_train_2345"], "conclusion": "folio_train_2346", "label": "entailment"}
+{"premises": ["folio_train_2342", "folio_train_2343", "folio_train_2344", "folio_train_2345"], "conclusion": "folio_train_2347", "label": "entailment"}
+{"premises": ["folio_train_2342", "folio_train_2343", "folio_train_2344", "folio_train_2345"], "conclusion": "folio_train_2348", "label": "neutral"}
+{"premises": ["folio_train_2349", "folio_train_2350"], "conclusion": "folio_train_2351", "label": "entailment"}
+{"premises": ["folio_train_2352", "folio_train_2353", "folio_train_2354", "folio_train_2355", "folio_train_2356"], "conclusion": "folio_train_2357", "label": "entailment"}
+{"premises": ["folio_train_2358", "folio_train_2359", "folio_train_2360", "folio_train_2361", "folio_train_2362", "folio_train_2363"], "conclusion": "folio_train_2364", "label": "entailment"}
+{"premises": ["folio_train_2358", "folio_train_2359", "folio_train_2360", "folio_train_2361", "folio_train_2362", "folio_train_2363"], "conclusion": "folio_train_2365", "label": "contradiction"}
+{"premises": ["folio_train_2358", "folio_train_2359", "folio_train_2360", "folio_train_2361", "folio_train_2362", "folio_train_2363"], "conclusion": "folio_train_2366", "label": "neutral"}
+{"premises": ["folio_train_2367", "folio_train_2368", "folio_train_2369", "folio_train_2370", "folio_train_2371", "folio_train_2372", "folio_train_2373"], "conclusion": "folio_train_2374", "label": "entailment"}
+{"premises": ["folio_train_2367", "folio_train_2368", "folio_train_2369", "folio_train_2370", "folio_train_2371", "folio_train_2372", "folio_train_2373"], "conclusion": "folio_train_2375", "label": "contradiction"}
+{"premises": ["folio_train_2367", "folio_train_2368", "folio_train_2369", "folio_train_2370", "folio_train_2371", "folio_train_2372", "folio_train_2373"], "conclusion": "folio_train_2376", "label": "entailment"}
+{"premises": ["folio_train_2367", "folio_train_2368", "folio_train_2369", "folio_train_2370", "folio_train_2371", "folio_train_2372", "folio_train_2373"], "conclusion": "folio_train_2377", "label": "contradiction"}
+{"premises": ["folio_train_2378", "folio_train_2379", "folio_train_2380", "folio_train_2381"], "conclusion": "folio_train_2382", "label": "entailment"}
+{"premises": ["folio_train_2378", "folio_train_2379", "folio_train_2380", "folio_train_2381"], "conclusion": "folio_train_2383", "label": "contradiction"}
+{"premises": ["folio_train_2378", "folio_train_2379", "folio_train_2380", "folio_train_2381"], "conclusion": "folio_train_2384", "label": "neutral"}
+{"premises": ["folio_train_2385", "folio_train_2386", "folio_train_2387", "folio_train_2388"], "conclusion": "folio_train_2389", "label": "contradiction"}
+{"premises": ["folio_train_2385", "folio_train_2386", "folio_train_2387", "folio_train_2388"], "conclusion": "folio_train_2390", "label": "entailment"}
+{"premises": ["folio_train_2385", "folio_train_2386", "folio_train_2387", "folio_train_2388"], "conclusion": "folio_train_2391", "label": "neutral"}
+{"premises": ["folio_train_2392", "folio_train_2393"], "conclusion": "folio_train_2394", "label": "neutral"}
+{"premises": ["folio_train_2395", "folio_train_2396", "folio_train_2397", "folio_train_971", "folio_train_2398"], "conclusion": "folio_train_2399", "label": "contradiction"}
+{"premises": ["folio_train_2395", "folio_train_2396", "folio_train_2397", "folio_train_971", "folio_train_2398"], "conclusion": "folio_train_2400", "label": "entailment"}
+{"premises": ["folio_train_2395", "folio_train_2396", "folio_train_2397", "folio_train_971", "folio_train_2398"], "conclusion": "folio_train_2401", "label": "neutral"}
+{"premises": ["folio_train_2395", "folio_train_2396", "folio_train_2397", "folio_train_971", "folio_train_2398"], "conclusion": "folio_train_2402", "label": "entailment"}
+{"premises": ["folio_train_2403", "folio_train_2404", "folio_train_2405", "folio_train_2406", "folio_train_2407", "folio_train_2408"], "conclusion": "folio_train_2409", "label": "neutral"}
+{"premises": ["folio_train_2403", "folio_train_2404", "folio_train_2405", "folio_train_2406", "folio_train_2407", "folio_train_2408"], "conclusion": "folio_train_2410", "label": "contradiction"}
+{"premises": ["folio_train_2403", "folio_train_2404", "folio_train_2405", "folio_train_2406", "folio_train_2407", "folio_train_2408"], "conclusion": "folio_train_2411", "label": "entailment"}
+{"premises": ["folio_train_2412", "folio_train_2413", "folio_train_2414", "folio_train_2415", "folio_train_2416"], "conclusion": "folio_train_2417", "label": "entailment"}
+{"premises": ["folio_train_2412", "folio_train_2413", "folio_train_2414", "folio_train_2415", "folio_train_2416"], "conclusion": "folio_train_2418", "label": "contradiction"}
+{"premises": ["folio_train_2412", "folio_train_2413", "folio_train_2414", "folio_train_2415", "folio_train_2416"], "conclusion": "folio_train_2419", "label": "neutral"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2425", "label": "contradiction"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2426", "label": "entailment"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2427", "label": "neutral"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2428", "label": "entailment"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2429", "label": "contradiction"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2429", "label": "contradiction"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2430", "label": "entailment"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2431", "label": "entailment"}
+{"premises": ["folio_train_2420", "folio_train_2421", "folio_train_2422", "folio_train_2423", "folio_train_2424"], "conclusion": "folio_train_2432", "label": "entailment"}
+{"premises": ["folio_train_2433", "folio_train_2434", "folio_train_2435", "folio_train_2436", "folio_train_2437", "folio_train_2438", "folio_train_2439", "folio_train_2440", "folio_train_2441"], "conclusion": "folio_train_2442", "label": "entailment"}
+{"premises": ["folio_train_2433", "folio_train_2434", "folio_train_2435", "folio_train_2436", "folio_train_2437", "folio_train_2438", "folio_train_2439", "folio_train_2440", "folio_train_2441"], "conclusion": "folio_train_2443", "label": "contradiction"}
+{"premises": ["folio_train_2433", "folio_train_2434", "folio_train_2435", "folio_train_2436", "folio_train_2437", "folio_train_2438", "folio_train_2439", "folio_train_2440", "folio_train_2441"], "conclusion": "folio_train_2444", "label": "entailment"}
+{"premises": ["folio_train_2445", "folio_train_2446", "folio_train_2447", "folio_train_2448", "folio_train_2449", "folio_train_2450"], "conclusion": "folio_train_2451", "label": "entailment"}
+{"premises": ["folio_train_2445", "folio_train_2446", "folio_train_2447", "folio_train_2448", "folio_train_2449", "folio_train_2450"], "conclusion": "folio_train_2452", "label": "neutral"}
+{"premises": ["folio_train_2445", "folio_train_2446", "folio_train_2447", "folio_train_2448", "folio_train_2449", "folio_train_2450"], "conclusion": "folio_train_2453", "label": "neutral"}
+{"premises": ["folio_train_2454", "folio_train_2455", "folio_train_2456", "folio_train_2457", "folio_train_2458", "folio_train_2459", "folio_train_2460", "folio_train_2461", "folio_train_2462"], "conclusion": "folio_train_2463", "label": "contradiction"}
+{"premises": ["folio_train_2454", "folio_train_2455", "folio_train_2456", "folio_train_2457", "folio_train_2458", "folio_train_2459", "folio_train_2460", "folio_train_2461", "folio_train_2462"], "conclusion": "folio_train_2464", "label": "neutral"}
+{"premises": ["folio_train_2465", "folio_train_2466", "folio_train_2467", "folio_train_2468", "folio_train_2469"], "conclusion": "folio_train_2470", "label": "neutral"}
+{"premises": ["folio_train_2465", "folio_train_2466", "folio_train_2467", "folio_train_2468", "folio_train_2469"], "conclusion": "folio_train_2471", "label": "contradiction"}
+{"premises": ["folio_train_2465", "folio_train_2466", "folio_train_2467", "folio_train_2468", "folio_train_2469"], "conclusion": "folio_train_2472", "label": "contradiction"}
+{"premises": ["folio_train_2465", "folio_train_2466", "folio_train_2467", "folio_train_2468", "folio_train_2469"], "conclusion": "folio_train_2473", "label": "contradiction"}
+{"premises": ["folio_train_2474", "folio_train_2475", "folio_train_2476"], "conclusion": "folio_train_2477", "label": "neutral"}
+{"premises": ["folio_train_2474", "folio_train_2475", "folio_train_2476"], "conclusion": "folio_train_2478", "label": "neutral"}
+{"premises": ["folio_train_2474", "folio_train_2475", "folio_train_2476"], "conclusion": "folio_train_2479", "label": "neutral"}
+{"premises": ["folio_train_2480", "folio_train_2481", "folio_train_2482", "folio_train_2483", "folio_train_2484", "folio_train_2485"], "conclusion": "folio_train_2486", "label": "neutral"}
+{"premises": ["folio_train_2480", "folio_train_2481", "folio_train_2482", "folio_train_2483", "folio_train_2484", "folio_train_2485"], "conclusion": "folio_train_2487", "label": "entailment"}
+{"premises": ["folio_train_2480", "folio_train_2481", "folio_train_2482", "folio_train_2483", "folio_train_2484", "folio_train_2485"], "conclusion": "folio_train_2488", "label": "neutral"}
+{"premises": ["folio_train_2480", "folio_train_2481", "folio_train_2482", "folio_train_2483", "folio_train_2484", "folio_train_2485"], "conclusion": "folio_train_2489", "label": "neutral"}
+{"premises": ["folio_train_2490", "folio_train_2491", "folio_train_2492", "folio_train_2493", "folio_train_2494", "folio_train_2495", "folio_train_2496"], "conclusion": "folio_train_2497", "label": "neutral"}
+{"premises": ["folio_train_2490", "folio_train_2491", "folio_train_2492", "folio_train_2493", "folio_train_2494", "folio_train_2495", "folio_train_2496"], "conclusion": "folio_train_2498", "label": "entailment"}
+{"premises": ["folio_train_2490", "folio_train_2491", "folio_train_2492", "folio_train_2493", "folio_train_2494", "folio_train_2495", "folio_train_2496"], "conclusion": "folio_train_2499", "label": "contradiction"}
+{"premises": ["folio_train_2500", "folio_train_2501", "folio_train_2502", "folio_train_2503", "folio_train_2504"], "conclusion": "folio_train_2505", "label": "neutral"}
+{"premises": ["folio_train_2500", "folio_train_2501", "folio_train_2502", "folio_train_2503", "folio_train_2504"], "conclusion": "folio_train_2506", "label": "entailment"}
+{"premises": ["folio_train_2507", "folio_train_2508", "folio_train_2509", "folio_train_2510", "folio_train_2511", "folio_train_2512"], "conclusion": "folio_train_2513", "label": "neutral"}
+{"premises": ["folio_train_2507", "folio_train_2508", "folio_train_2509", "folio_train_2510", "folio_train_2511", "folio_train_2512"], "conclusion": "folio_train_2514", "label": "entailment"}
+{"premises": ["folio_train_2507", "folio_train_2508", "folio_train_2509", "folio_train_2510", "folio_train_2511", "folio_train_2512"], "conclusion": "folio_train_2515", "label": "contradiction"}
+{"premises": ["folio_train_2516", "folio_train_2517", "folio_train_2518", "folio_train_53", "folio_train_2519", "folio_train_2520"], "conclusion": "folio_train_2521", "label": "contradiction"}
+{"premises": ["folio_train_2516", "folio_train_2517", "folio_train_2518", "folio_train_53", "folio_train_2519", "folio_train_2520"], "conclusion": "folio_train_54", "label": "neutral"}
+{"premises": ["folio_train_2516", "folio_train_2517", "folio_train_2518", "folio_train_53", "folio_train_2519", "folio_train_2520"], "conclusion": "folio_train_2522", "label": "entailment"}
+{"premises": ["folio_train_2523", "folio_train_2524"], "conclusion": "folio_train_2525", "label": "contradiction"}
+{"premises": ["folio_train_2526", "folio_train_2527", "folio_train_2528", "folio_train_2529", "folio_train_2530", "folio_train_2531", "folio_train_2532"], "conclusion": "folio_train_2533", "label": "entailment"}
+{"premises": ["folio_train_2526", "folio_train_2527", "folio_train_2528", "folio_train_2529", "folio_train_2530", "folio_train_2531", "folio_train_2532"], "conclusion": "folio_train_2534", "label": "entailment"}
+{"premises": ["folio_train_2526", "folio_train_2527", "folio_train_2528", "folio_train_2529", "folio_train_2530", "folio_train_2531", "folio_train_2532"], "conclusion": "folio_train_2535", "label": "neutral"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2541", "label": "neutral"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2542", "label": "contradiction"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2543", "label": "entailment"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2544", "label": "contradiction"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2545", "label": "contradiction"}
+{"premises": ["folio_train_2536", "folio_train_2537", "folio_train_2538", "folio_train_2539", "folio_train_2540"], "conclusion": "folio_train_2546", "label": "contradiction"}
+{"premises": ["folio_train_2547", "folio_train_2548"], "conclusion": "folio_train_2549", "label": "entailment"}
+{"premises": ["folio_train_2550", "folio_train_2551", "folio_train_2552", "folio_train_2553", "folio_train_2554", "folio_train_2555"], "conclusion": "folio_train_2556", "label": "entailment"}
+{"premises": ["folio_train_2550", "folio_train_2551", "folio_train_2552", "folio_train_2553", "folio_train_2554", "folio_train_2555"], "conclusion": "folio_train_2557", "label": "contradiction"}
+{"premises": ["folio_train_2550", "folio_train_2551", "folio_train_2552", "folio_train_2553", "folio_train_2554", "folio_train_2555"], "conclusion": "folio_train_2558", "label": "neutral"}
+{"premises": ["folio_train_2559", "folio_train_2560", "folio_train_2561", "folio_train_2562"], "conclusion": "folio_train_2563", "label": "entailment"}
+{"premises": ["folio_train_2559", "folio_train_2560", "folio_train_2561", "folio_train_2562"], "conclusion": "folio_train_2564", "label": "neutral"}
+{"premises": ["folio_train_2559", "folio_train_2560", "folio_train_2561", "folio_train_2562"], "conclusion": "folio_train_2565", "label": "neutral"}
+{"premises": ["folio_train_2559", "folio_train_2560", "folio_train_2561", "folio_train_2562"], "conclusion": "folio_train_2566", "label": "neutral"}
+{"premises": ["folio_train_2567", "folio_train_2568", "folio_train_2569", "folio_train_2570", "folio_train_2571"], "conclusion": "folio_train_2572", "label": "neutral"}
+{"premises": ["folio_train_2567", "folio_train_2568", "folio_train_2569", "folio_train_2570", "folio_train_2571"], "conclusion": "folio_train_2573", "label": "entailment"}
+{"premises": ["folio_train_2567", "folio_train_2568", "folio_train_2569", "folio_train_2570", "folio_train_2571"], "conclusion": "folio_train_2574", "label": "entailment"}
+{"premises": ["folio_train_2567", "folio_train_2568", "folio_train_2569", "folio_train_2570", "folio_train_2571"], "conclusion": "folio_train_2575", "label": "entailment"}
+{"premises": ["folio_train_2576", "folio_train_2577", "folio_train_2578", "folio_train_2579", "folio_train_2580", "folio_train_2581", "folio_train_2582", "folio_train_2583"], "conclusion": "folio_train_2584", "label": "contradiction"}
+{"premises": ["folio_train_2576", "folio_train_2577", "folio_train_2578", "folio_train_2579", "folio_train_2580", "folio_train_2581", "folio_train_2582", "folio_train_2583"], "conclusion": "folio_train_2585", "label": "entailment"}
+{"premises": ["folio_train_2576", "folio_train_2577", "folio_train_2578", "folio_train_2579", "folio_train_2580", "folio_train_2581", "folio_train_2582", "folio_train_2583"], "conclusion": "folio_train_2586", "label": "entailment"}
+{"premises": ["folio_train_2576", "folio_train_2577", "folio_train_2578", "folio_train_2579", "folio_train_2580", "folio_train_2581", "folio_train_2582", "folio_train_2583"], "conclusion": "folio_train_2587", "label": "entailment"}
+{"premises": ["folio_train_2576", "folio_train_2577", "folio_train_2578", "folio_train_2579", "folio_train_2580", "folio_train_2581", "folio_train_2582", "folio_train_2583"], "conclusion": "folio_train_2588", "label": "entailment"}
+{"premises": ["folio_train_2589", "folio_train_2590", "folio_train_2591", "folio_train_2592", "folio_train_2593"], "conclusion": "folio_train_2594", "label": "entailment"}
+{"premises": ["folio_train_2589", "folio_train_2590", "folio_train_2591", "folio_train_2592", "folio_train_2593"], "conclusion": "folio_train_2595", "label": "entailment"}
+{"premises": ["folio_train_2589", "folio_train_2590", "folio_train_2591", "folio_train_2592", "folio_train_2593"], "conclusion": "folio_train_2596", "label": "contradiction"}
+{"premises": ["folio_train_2597", "folio_train_2598", "folio_train_2599", "folio_train_2600", "folio_train_2601"], "conclusion": "folio_train_2602", "label": "entailment"}
+{"premises": ["folio_train_2597", "folio_train_2598", "folio_train_2599", "folio_train_2600", "folio_train_2603"], "conclusion": "folio_train_2604", "label": "entailment"}
+{"premises": ["folio_train_2597", "folio_train_2598", "folio_train_2599", "folio_train_2600", "folio_train_2601"], "conclusion": "folio_train_2605", "label": "contradiction"}
+{"premises": ["folio_train_2606", "folio_train_2607", "folio_train_2608", "folio_train_2609", "folio_train_2610", "folio_train_2611"], "conclusion": "folio_train_2612", "label": "entailment"}
+{"premises": ["folio_train_2606", "folio_train_2607", "folio_train_2608", "folio_train_2609", "folio_train_2610", "folio_train_2611"], "conclusion": "folio_train_2613", "label": "contradiction"}
+{"premises": ["folio_train_2606", "folio_train_2607", "folio_train_2608", "folio_train_2609", "folio_train_2610", "folio_train_2611"], "conclusion": "folio_train_2614", "label": "entailment"}
+{"premises": ["folio_train_2615", "folio_train_2616", "folio_train_2617", "folio_train_2618"], "conclusion": "folio_train_2619", "label": "entailment"}
+{"premises": ["folio_train_2615", "folio_train_2616", "folio_train_2617", "folio_train_2618"], "conclusion": "folio_train_2620", "label": "contradiction"}
+{"premises": ["folio_train_2615", "folio_train_2616", "folio_train_2617", "folio_train_2618"], "conclusion": "folio_train_2621", "label": "neutral"}
+{"premises": ["folio_train_2622", "folio_train_2623", "folio_train_2624", "folio_train_2625"], "conclusion": "folio_train_2626", "label": "entailment"}
+{"premises": ["folio_train_2622", "folio_train_2623", "folio_train_2624", "folio_train_2625"], "conclusion": "folio_train_2627", "label": "contradiction"}
+{"premises": ["folio_train_2622", "folio_train_2623", "folio_train_2624", "folio_train_2625"], "conclusion": "folio_train_2628", "label": "neutral"}
+{"premises": ["folio_train_2629", "folio_train_2630", "folio_train_2631", "folio_train_2632", "folio_train_2633"], "conclusion": "folio_train_2634", "label": "neutral"}
+{"premises": ["folio_train_2629", "folio_train_2630", "folio_train_2631", "folio_train_2632", "folio_train_2633"], "conclusion": "folio_train_2635", "label": "contradiction"}
+{"premises": ["folio_train_2629", "folio_train_2630", "folio_train_2631", "folio_train_2632", "folio_train_2633"], "conclusion": "folio_train_2636", "label": "neutral"}
+{"premises": ["folio_train_2637", "folio_train_2638", "folio_train_2639", "folio_train_2640", "folio_train_2641", "folio_train_2642"], "conclusion": "folio_train_2643", "label": "neutral"}
+{"premises": ["folio_train_2637", "folio_train_2638", "folio_train_2639", "folio_train_2640", "folio_train_2641", "folio_train_2642"], "conclusion": "folio_train_2644", "label": "contradiction"}
+{"premises": ["folio_train_2637", "folio_train_2638", "folio_train_2639", "folio_train_2640", "folio_train_2641", "folio_train_2642"], "conclusion": "folio_train_2645", "label": "entailment"}
+{"premises": ["folio_train_2646", "folio_train_2647", "folio_train_2648", "folio_train_2649", "folio_train_2650"], "conclusion": "folio_train_2651", "label": "contradiction"}
+{"premises": ["folio_train_2646", "folio_train_2647", "folio_train_2648", "folio_train_2649", "folio_train_2650"], "conclusion": "folio_train_2652", "label": "contradiction"}
