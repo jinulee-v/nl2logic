@@ -14,7 +14,7 @@ nltk.Prover9._binary_location = "LADR-2009-11A/bin"
 logic._counter._value = 0
 read_expr = Expression.fromstring
 
-def prove(premises, conclusion) -> Literal["entailment", "contradict", "neutral"]:
+def prove(premises, conclusion, return_proof=False) -> Literal["entailment", "contradict", "neutral"]:
     """Run Prover9 to prove the conclusion (or its hard negation) given the premises.
 
     :return: _description_
@@ -30,7 +30,7 @@ def prove(premises, conclusion) -> Literal["entailment", "contradict", "neutral"
     c = read_expr(conclusion)
     if len(set(c.predicates()).difference(symbols)) != 0:
         # If conclusion symbols are not completely included in the premises, then it is neutral
-        return "neutral"
+        return "neutral", None
 
     with timeout(10):
         command = nltk.Prover9Command(c, p_list)
@@ -38,6 +38,8 @@ def prove(premises, conclusion) -> Literal["entailment", "contradict", "neutral"
         # print(command._prover.prover9_input(c, p_list))
     if truth_value:
         logging.info(command.proof())
+        if return_proof:
+            return "entailment", command.proof()
         return "entailment"
     else:
         neg_c = read_expr("-(" + conclusion + ")")
@@ -46,8 +48,12 @@ def prove(premises, conclusion) -> Literal["entailment", "contradict", "neutral"
             negation_true = command.prove()
         if negation_true:
             logging.info(command.proof())
+            if return_proof:
+                return "contradiction", command.proof()
             return "contradiction"
         else:
+            if return_proof:
+                return "neutral", None
             return "neutral"
 
 

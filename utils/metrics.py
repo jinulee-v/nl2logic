@@ -5,18 +5,16 @@ from .prover import prove, read_expr, LogicalExpressionException, Prover9FatalEx
 from .prover._rename import rename_predicates
 
 from tqdm import tqdm as _tqdm
+import re
 
 import unicodedata
-
-def single_step_accuracy_problem(premises_fol: List[str], conclusion_fol: str, label: Literal["entailment", "contradiction", "neutral"]) -> float:
-    return 1 if (prove(premises_fol, conclusion_fol) == label) else 0
 
 def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]:
     # Deduplicate predictions, but preserve order
     dedup = set()
     predictions = [p for p in predictions if not (p in dedup or dedup.add(p))]
 
-    new_predictions = []
+    normalized_predictions = []
     score = []
     for fol in predictions:
         # Remove accents from the FOL
@@ -27,7 +25,7 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]
             fol_expr = read_expr(fol) # Syntax check
         except LogicalExpressionException as e:
             # Syntax error
-            new_predictions.append(fol)
+            normalized_predictions.append(fol)
             score.append(-1) # invalid
             continue
             
@@ -35,10 +33,10 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]
         # e.g. P(x) -> P_1(x), Q(x,y) -> Q_2(x,y)
         fol_expr = rename_predicates(fol_expr)
 
-        new_predictions.append(str(fol_expr))
+        normalized_predictions.append(str(fol_expr))
         score.append(0) # valid
-    assert len(new_predictions) == len(score)
-    return new_predictions, score # Leave only the valid FOLs
+    assert len(normalized_predictions) == len(score)
+    return predictions, normalized_predictions, score # Leave only the valid FOLs
 
 def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False):
     """_summary_
@@ -55,14 +53,15 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
     for s in sentences:
         sentences_dict[s["id"]] = s
         # Deduplicate and leave only the syntactically valid FOLs.
-        predictions, predictions_score = normalize_predictions(s["prediction"])
+        predictions, normalized_predictions, predictions_score = normalize_predictions(s["prediction"])
         # add prediction/score dict
         predictions_dict[s["id"]] = [
             {
                 "id": s["id"],
                 "prediction": p,
+                "normalized_prediction": np,
                 "score": sc
-            } for p, sc in zip(predictions, predictions_score)
+            } for p, np, sc in zip(predictions, normalized_predictions, predictions_score)
         ]
     
     # evaluate per example -> accuracy and confusion matrix
@@ -73,43 +72,62 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
         } for gold in labels
     }
 
-    for c in _tqdm(chains) if tqdm else chains: # wrap tqdm if instructed
-        gold_label = c["label"] # gold label from the dataset
+    for chain in _tqdm(chains) if tqdm else chains: # wrap tqdm if instructed
+        gold_label = chain["label"] # gold label from the dataset
+        if gold_label == "neutral":
+            continue
+
         premises = []
-        for prem_id in c["premises"]:
+        proof_line_no = [None]
+        for prem_id in chain["premises"]:
             # Ignore invalid premises
-            premises.append([p for p in predictions_dict[prem_id] if p["score"] >= 0])
+            valid_ps = [p for p in predictions_dict[prem_id] if p["score"] >= 0]
+            premises.extend(valid_ps)
+            proof_line_no.extend([(p["id"], i) for i, p in enumerate(valid_ps)])
+        premises_fol = [p["normalized_prediction"] for p in premises]
 
-        prem_conc_pairs = product(*premises, predictions_dict[c["conclusion"]])
-
+        # Run prover
         entailment_cnt = 0
         contradiction_cnt = 0
-
-        for pair in prem_conc_pairs:
-            # Ignore invalid conclusions
-            if pair[-1]["score"] < 0:
+        for conclusion in predictions_dict[chain["conclusion"]]:
+            if conclusion["score"] < 0:
                 continue
-
-            # Run prover
-            premises_fol, conclusion_fol = [p["prediction"] for p in pair[:-1]], pair[-1]["prediction"]
+            conclusion_fol = conclusion["normalized_prediction"]
 
             try:
-                label = prove(premises_fol, conclusion_fol)
+                label, proof = prove(premises_fol, conclusion_fol, return_proof=True)
             except Prover9FatalException as e:
                 continue
             except TimeoutError:
                 continue
-
-            # Sum up for voting
-            if label == "entailment":
-                entailment_cnt += 1
-            elif label == "contradiction":
-                contradiction_cnt += 1
-            
+        
             # Update the score of the prediction if the pair gets correct answer
             if label == gold_label:
-                for p in pair:
-                    p["score"] += 1
+                # A proof looks like this:
+                    # 1 (all x all y (NuclearFusion_1(x) & Star_1(y) -> HappensInCore_2(x,y))).  [assumption]. // premise 1
+                    # 2 (all x (Sun_1(x) -> Star_1(x))).  [assumption]. // premise 2
+                    # 3 (all x all y (NuclearFusion_1(x) & Sun_1(y) -> HappensInCore_2(x,y))).  [goal]. // conclusion
+
+                # If a proof is correct, we should see at least one of the FOL for each premises and conclusion
+                # In this sense, we have to find all lines with regex r"[0-9]+.* \[assumption\]\.",
+                # and determine if each assumption is from different premise.
+                premises_in_proof = []
+                for line in proof.split("\n"):
+                    pattern_match = re.match(r"([0-9]+) .* \[assumption\]\.", line)
+                    if pattern_match is not None:
+                        index = int(pattern_match.group(1))
+                        premises_in_proof.append(proof_line_no[index])
+
+                # If all premises appear in the proof,
+                if set([x[0] for x in premises_in_proof]) == set(chain["premises"]):
+                    # Finally we can say that pair is correct
+                    for pid, i in premises_in_proof:
+                        predictions_dict[pid][i]["score"] += 1
+                    # Sum up for voting
+                    if label == "entailment":
+                        entailment_cnt += 1
+                    elif label == "contradiction":
+                        contradiction_cnt += 1
 
         predict_label = "neutral" # overall prediction, default to neutral
         if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
