@@ -37,6 +37,7 @@ def generate_model(model, dataloader, tokenizer, device, args):
                 attention_mask=attention_mask,
                 num_beams=args.beam_size, # Beam Search
                 num_beam_groups=args.beam_size if args.dbs else 1, # Diverse Beam Search
+                diversity_penalty=0.5 if args.dbs else 0,
                 do_sample=args.sample, # Sampling
                 temperature=args.temperature, # Temperature for sampling
                 num_return_sequences=num_return_sequences, # Return >1 sequence for beam search and sampling
