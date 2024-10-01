@@ -4,7 +4,7 @@ import logging
 import nltk
 from nltk.sem import logic
 from nltk.sem import Expression, LogicalExpressionException
-from nltk.inference.prover9 import Prover9FatalException
+from nltk.inference.prover9 import Prover9FatalException, convert_to_prover9
 from timeoutcontext import timeout
 
 import subprocess

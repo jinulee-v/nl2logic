@@ -12,7 +12,7 @@ def main(args):
         for line in f:
             sentences.append(json.loads(line))
             # DEBUG
-            sentences[-1]["prediction"] = sentences[-1]["prediction"][:8]
+            sentences[-1]["prediction"] = sentences[-1]["prediction"]
     with open(args.chain_data, "r") as f:
         for line in f:
             chains.append(json.loads(line))

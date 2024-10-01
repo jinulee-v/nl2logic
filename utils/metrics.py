@@ -3,7 +3,7 @@ from typing import *
 from itertools import product
 from .prover import prove, read_expr, LogicalExpressionException, Prover9FatalException
 from .prover._rename import rename_predicates
-
+from .prover._prover import convert_to_prover9
 from tqdm import tqdm as _tqdm
 import re
 
@@ -78,12 +78,10 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
             continue
 
         premises = []
-        proof_line_no = [None]
         for prem_id in chain["premises"]:
             # Ignore invalid premises
             valid_ps = [p for p in predictions_dict[prem_id] if p["score"] >= 0]
             premises.extend(valid_ps)
-            proof_line_no.extend([(p["id"], i) for i, p in enumerate(valid_ps)])
         premises_fol = [p["normalized_prediction"] for p in premises]
 
         # Run prover
@@ -108,21 +106,29 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                     # 2 (all x (Sun_1(x) -> Star_1(x))).  [assumption]. // premise 2
                     # 3 (all x all y (NuclearFusion_1(x) & Sun_1(y) -> HappensInCore_2(x,y))).  [goal]. // conclusion
 
-                # If a proof is correct, we should see at least one of the FOL for each premises and conclusion
-                # In this sense, we have to find all lines with regex r"[0-9]+.* \[assumption\]\.",
-                # and determine if each assumption is from different premise.
-                premises_in_proof = []
+                premises_in_proof = [] # List that only contains premises appearing in the proof
                 for line in proof.split("\n"):
-                    pattern_match = re.match(r"([0-9]+) .* \[assumption\]\.", line)
+                    # Find all lines with regex r"[0-9]+.* \[assumption\]\."
+                    pattern_match = re.match(r"([0-9]+) (.*?)\. +\[assumption\]\.", line)
                     if pattern_match is not None:
-                        index = int(pattern_match.group(1))
-                        premises_in_proof.append(proof_line_no[index])
+                        pid = int(pattern_match.group(1))
+                        try:
+                            premises_in_proof.append(premises[pid-1])
+                        except IndexError:
+                            pass # FIXME: What happened?
 
-                # If all premises appear in the proof,
-                if set([x[0] for x in premises_in_proof]) == set(chain["premises"]):
+                # If all chain's premises appear in the proof,
+                if set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
+                    # DEBUG
+                    # print("============")
+                    # for prem in premises_in_proof:
+                    #     print(prem["id"], prem["normalized_prediction"])
+                    # print(conclusion_fol)
+                    # print("============\n")
+
                     # Finally we can say that pair is correct
-                    for pid, i in premises_in_proof:
-                        predictions_dict[pid][i]["score"] += 1
+                    for prem in premises_in_proof:
+                        prem["score"] += 1
                     # Sum up for voting
                     if label == "entailment":
                         entailment_cnt += 1
