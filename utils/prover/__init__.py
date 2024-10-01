@@ -1,1 +1,1 @@
-from ._prover import prove, convert_nltk_format
+from ._prover import prove, convert_nltk_format, read_expr, LogicalExpressionException, Prover9FatalException

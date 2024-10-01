@@ -3,7 +3,8 @@ import logging
 
 import nltk
 from nltk.sem import logic
-from nltk.sem import Expression
+from nltk.sem import Expression, LogicalExpressionException
+from nltk.inference.prover9 import Prover9FatalException
 from timeoutcontext import timeout
 
 import subprocess
@@ -21,9 +22,15 @@ def prove(premises, conclusion) -> Literal["entailment", "contradict", "neutral"
     """
     # Convert premises, conclusion to symbols
     p_list = []
+    symbols = set()
     for p in premises:
-        p_list.append(read_expr(p))
+        p = read_expr(p)
+        p_list.append(p)
+        symbols.update(p.predicates())
     c = read_expr(conclusion)
+    if len(set(c.predicates()).difference(symbols)) != 0:
+        # If conclusion symbols are not completely included in the premises, then it is neutral
+        return "neutral"
 
     with timeout(10):
         command = nltk.Prover9Command(c, p_list)
