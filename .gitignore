@@ -168,6 +168,8 @@ data/raw_data_json/*
 baseline/model/*
 !baseline/model/.gitkeep
 
+pyvenv.cfg
+
 share
 pyvenv.cfg
 *.out
