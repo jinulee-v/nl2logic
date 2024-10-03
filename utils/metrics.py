@@ -88,7 +88,7 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                             pass # FIXME: What happened?
 
                 # If all chain's premises appear in the proof,
-                if set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
+                # if weak_success_condition or set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
                     # DEBUG
                     # print("============")
                     # for prem in premises_in_proof:
@@ -96,14 +96,15 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                     # print(conclusion_fol)
                     # print("============\n")
 
-                    # Finally we can say that pair is correct
-                    for prem in premises_in_proof:
-                        prem["score"] += 1
-                    # Sum up for voting
-                    if label == "entailment":
-                        entailment_cnt += 1
-                    elif label == "contradiction":
-                        contradiction_cnt += 1
+                # Finally we can say that pair is correct
+                for prem in premises_in_proof:
+                    prem["score"] += 1
+                conclusion["score"] += 1
+                # Sum up for voting
+                if label == "entailment":
+                    entailment_cnt += 1
+                elif label == "contradiction":
+                    contradiction_cnt += 1
 
         predict_label = "neutral" # overall prediction, default to neutral
         if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
@@ -124,7 +125,7 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                 wrong += confusion_matrix[gold][predict]
     
     predictions_scored = list(predictions_dict.values())
-    predictions_scored.sort(key=lambda x: x[0]["id"])
+    # predictions_scored.sort(key=lambda x: x[0]["id"])
     return correct / (correct + wrong), confusion_matrix, predictions_scored
 
 
