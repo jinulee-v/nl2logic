@@ -1,0 +1,25 @@
+{
+    "f1": 0.12,
+    "confusion_matrix": {
+        "entailment": {
+            "entailment": 96,
+            "contradiction": 0,
+            "neutral": 704
+        },
+        "contradiction": {
+            "entailment": 0,
+            "contradiction": 0,
+            "neutral": 0
+        },
+        "neutral": {
+            "entailment": 0,
+            "contradiction": 0,
+            "neutral": 0
+        }
+    },
+    "connectivity": {
+        "total": 1792,
+        "connected": 244,
+        "ratio": 0.13616071428571427
+    }
+}
