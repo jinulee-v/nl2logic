@@ -9,7 +9,7 @@ import re
 import unicodedata
 
 
-def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False):
+def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False):
     """_summary_
 
     :param sentences: [{"id": "___", "fol": "___"}]
@@ -153,4 +153,4 @@ if __name__ == "__main__":
         {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "entailment"} # wrong
     ]
 
-    print(single_step_accuracy_corpus(sentences, chains)[0]) # 0.75
+    print(entailment_preserving_rate_corpus(sentences, chains)[0]) # 0.75

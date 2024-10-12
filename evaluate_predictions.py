@@ -2,7 +2,7 @@ import argparse
 import json
 
 import sys; sys.path.append('.')
-from utils.metrics import single_step_accuracy_corpus
+from utils.metrics import entailment_preserving_rate_corpus
 from utils.prover import read_expr
 
 def main(args):
@@ -17,7 +17,7 @@ def main(args):
         for line in f:
             chains.append(json.loads(line))
 
-    f1, confusion_matrix, predictions = single_step_accuracy_corpus(sentences, chains, tqdm=True)
+    f1, confusion_matrix, predictions = entailment_preserving_rate_corpus(sentences, chains, tqdm=True)
     print(f"F1 score: {f1}")
     print(f"Confusion matrix: {confusion_matrix}")
     cnt = 0; tot = 0
@@ -37,12 +37,12 @@ def main(args):
     print("Connected prediction ratio:", cnt / tot)
 
     # Store the results
-    with open(args.data_prefix + "_singlestepaccuracy_eval.jsonl", "w") as f:
+    with open(args.data_prefix + "_entailment_preserving_rate_eval.jsonl", "w") as f:
         for p in predictions:
             for q in p:
                 del q["normalized_prediction"]
                 f.write(json.dumps(q, ensure_ascii=False) + "\n")
-    with open(args.data_prefix + "_singlestepaccuracy_eval_meta.json", "w") as f:
+    with open(args.data_prefix + "_entailment_preserving_rate_eval_meta.json", "w") as f:
         json.dump({
             "f1": f1,
             "confusion_matrix": confusion_matrix,
