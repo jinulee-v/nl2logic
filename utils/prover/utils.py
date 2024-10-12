@@ -2,9 +2,41 @@ from typing import *
 import unicodedata
 
 from nltk.sem.logic import Expression, LogicalExpressionException
+from nltk.inference.prover9 import Prover9, Prover9FatalException
 read_expr = Expression.fromstring
 
 from ._rename import rename_predicates
+
+prove = Prover9().prove
+
+from nltk.sem.logic import *
+
+def predicates(expression) -> Set[str]:
+    # print(expression, type(expression))
+    if isinstance(expression, ApplicationExpression):
+        # ApplicationExpression is curried form; (f(x))(y)
+        # We assume that functions are not nested, i.e. f(g(y)) is not allowed
+        e = expression
+        arity = 0
+        while hasattr(e, 'function') and e.function:
+            # find innermost function
+            arity += 1
+            e = e.function
+        return set(e.variable.name)
+    elif isinstance(expression, BinaryExpression):
+        return predicates(expression.first).union(predicates(expression.second))
+    elif isinstance(expression, list):
+        # Recursively apply to list elements (like in conjunctions, etc.)
+        result = set()
+        for subexp in expression:
+            result = result.union(predicates(subexp))
+        return result
+    else:
+        # For non-variable expressions (Quantifiers, etc.), recurse down
+        if hasattr(expression, 'term'):
+            return predicates(expression.term)
+        else:
+            raise ValueError(f"Invalid expression type: {type(expression)}")
 
 def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]:
     # Deduplicate predictions, but preserve order
@@ -19,7 +51,7 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]
 
         # Syntax check
         try:
-            fol_expr = read_expr(fol) # Syntax check
+            fol_expr = read_expr(fol) # Syntax check in NLTK side
         except LogicalExpressionException as e:
             # Syntax error
             normalized_predictions.append(fol)

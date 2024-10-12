@@ -2,7 +2,7 @@ from typing import *
 
 from itertools import product
 from .prover import prove, read_expr, LogicalExpressionException, Prover9FatalException
-from .prover.utils import normalize_predictions
+from .prover.utils import normalize_predictions, predicates
 from tqdm import tqdm as _tqdm
 import re
 
@@ -21,7 +21,7 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
     # create sentence dict
     sentences_dict = {}
     predictions_dict = {}
-    for s in sentences:
+    for s in _tqdm(sentences):
         sentences_dict[s["id"]] = s
         # Deduplicate and leave only the syntactically valid FOLs.
         predictions, normalized_predictions, predictions_score = normalize_predictions(s["prediction"])
@@ -42,7 +42,8 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
         } for gold in labels
     }
 
-    for chain in _tqdm(chains) if tqdm else chains: # wrap tqdm if instructed
+    for chain in _tqdm(chains[:3]) if tqdm else chains: # wrap tqdm if instructed
+        print(chain)
         gold_label = chain["label"] # gold label from the dataset
         if gold_label == "neutral":
             continue
@@ -51,19 +52,21 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
         for prem_id in chain["premises"]:
             # Ignore invalid premises
             valid_ps = [p for p in predictions_dict[prem_id] if p["score"] >= 0]
-            premises.extend(valid_ps)
-        premises_fol = [p["normalized_prediction"] for p in premises]
+            premises.append(valid_ps)
+        conclusion = [c for c in predictions_dict[chain["conclusion"]] if c["score"] >= 0]
 
         # Run prover
         entailment_cnt = 0
         contradiction_cnt = 0
-        for conclusion in predictions_dict[chain["conclusion"]]:
-            if conclusion["score"] < 0:
-                continue
-            conclusion_fol = conclusion["normalized_prediction"]
+        successful_pairs = [] # stores deep reference to each prem/conc dicts, so that it only updates at the end
+        for prem_conc in product(*premises, conclusion):
+            prems = prem_conc[:-1]
+            prems_fol = [s["normalized_prediction"] for s in prems]
+            conc = prem_conc[-1]
+            conc_fol = conc["normalized_prediction"]
 
             try:
-                label, proof = prove(premises_fol, conclusion_fol, return_proof=True)
+                label, proof = prove(prems_fol, conc_fol, return_proof=True)
             except Prover9FatalException as e:
                 continue
             except TimeoutError:
@@ -71,24 +74,9 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
         
             # Update the score of the prediction if the pair gets correct answer
             if label == gold_label:
-                # A proof looks like this:
-                    # 1 (all x all y (NuclearFusion_1(x) & Star_1(y) -> HappensInCore_2(x,y))).  [assumption]. // premise 1
-                    # 2 (all x (Sun_1(x) -> Star_1(x))).  [assumption]. // premise 2
-                    # 3 (all x all y (NuclearFusion_1(x) & Sun_1(y) -> HappensInCore_2(x,y))).  [goal]. // conclusion
-
-                premises_in_proof = [] # List that only contains premises appearing in the proof
-                for line in proof.split("\n"):
-                    # Find all lines with regex r"[0-9]+.* \[assumption\]\."
-                    pattern_match = re.match(r"([0-9]+) (.*?)\. +\[assumption\]\.", line)
-                    if pattern_match is not None:
-                        pid = int(pattern_match.group(1))
-                        try:
-                            premises_in_proof.append(premises[pid-1])
-                        except IndexError:
-                            pass # FIXME: What happened?
-
-                # If all chain's premises appear in the proof,
-                # if weak_success_condition or set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
+                # Check for sprious patterns:
+                # 1. If all chain's premises appear in the proof,
+                # if set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
                     # DEBUG
                     # print("============")
                     # for prem in premises_in_proof:
@@ -96,17 +84,36 @@ def single_step_accuracy_corpus(sentences: List[Dict[str, str]], chains: List[Di
                     # print(conclusion_fol)
                     # print("============\n")
 
-                # Finally we can say that pair is correct
-                for prem in premises_in_proof:
-                    prem["score"] += 1
-                conclusion["score"] += 1
-                # Sum up for voting
+                # 2. If the conc includes a predicate that does not appear in the prem,
+                #    We discard the whole (prems, conc) tuple
+                conc_predicates = predicates(read_expr(conc_fol))
+                for p in prems_fol:
+                    conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
+                if len(conc_predicates) > 0:
+                    successful_pairs = []
+                    break
+
+                # If passed validity check, store the pair so we can update it at the end
+                successful_pairs.append((prems, conc))
                 if label == "entailment":
                     entailment_cnt += 1
                 elif label == "contradiction":
                     contradiction_cnt += 1
 
+        # Update scores
+        for prems, conc in successful_pairs:
+            # Finally we can say that pair is correct
+            for prem in prems:
+                prem["score"] += 1
+            conc["score"] += 1
+            # Sum up for voting
+            if label == "entailment":
+                entailment_cnt += 1
+            elif label == "contradiction":
+                contradiction_cnt += 1
+
         predict_label = "neutral" # overall prediction, default to neutral
+        print(entailment_cnt, contradiction_cnt)
         if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
             predict_label = "entailment"
         elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
