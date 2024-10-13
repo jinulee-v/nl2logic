@@ -42,8 +42,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
         } for gold in labels
     }
 
-    for chain in _tqdm(chains[:3]) if tqdm else chains: # wrap tqdm if instructed
-        print(chain)
+    for chain in _tqdm(chains) if tqdm else chains: # wrap tqdm if instructed
         gold_label = chain["label"] # gold label from the dataset
         if gold_label == "neutral":
             continue
@@ -76,13 +75,14 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
             if label == gold_label:
                 # Check for sprious patterns:
                 # 1. If all chain's premises appear in the proof,
-                # if set([p["id"] for p in premises_in_proof]) == set(chain["premises"]):
+                if proof.count("assumption") != len(chain["premises"]):
                     # DEBUG
                     # print("============")
                     # for prem in premises_in_proof:
                     #     print(prem["id"], prem["normalized_prediction"])
                     # print(conclusion_fol)
                     # print("============\n")
+                    continue
 
                 # 2. If the conc includes a predicate that does not appear in the prem,
                 #    We discard the whole (prems, conc) tuple
@@ -90,8 +90,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
                 for p in prems_fol:
                     conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
                 if len(conc_predicates) > 0:
-                    successful_pairs = []
-                    break
+                    continue
 
                 # If passed validity check, store the pair so we can update it at the end
                 successful_pairs.append((prems, conc))
@@ -113,7 +112,6 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
                 contradiction_cnt += 1
 
         predict_label = "neutral" # overall prediction, default to neutral
-        print(entailment_cnt, contradiction_cnt)
         if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
             predict_label = "entailment"
         elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
