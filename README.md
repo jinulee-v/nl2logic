@@ -4,7 +4,7 @@ Learning generative semantic parsing from entailment labels
 
 ## Installation
 
-Runs on Linux, MacOS, and WSL.
+Runs on Linux, MacOS, and WSL. (Note: due to Vampire, only x86 arch is supported)
 
 ```bash
 pip install -r requirements.txt
