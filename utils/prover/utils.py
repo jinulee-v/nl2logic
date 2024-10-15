@@ -2,12 +2,9 @@ from typing import *
 import unicodedata
 
 from nltk.sem.logic import Expression, LogicalExpressionException
-from nltk.inference.prover9 import Prover9, Prover9FatalException
 read_expr = Expression.fromstring
 
 from ._rename import rename_predicates
-
-prove = Prover9().prove
 
 from nltk.sem.logic import *
 

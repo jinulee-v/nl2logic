@@ -1,7 +1,7 @@
 from typing import *
 
 from itertools import product
-from .prover import prove, read_expr, LogicalExpressionException, Prover9FatalException
+from .prover import prove, read_expr, LogicalExpressionException, VampireFatalException
 from .prover.utils import normalize_predictions, predicates
 from tqdm import tqdm as _tqdm
 import re
@@ -66,7 +66,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
 
             try:
                 label, proof = prove(prems_fol, conc_fol, return_proof=True)
-            except Prover9FatalException as e:
+            except VampireFatalException as e:
                 continue
             except TimeoutError:
                 continue

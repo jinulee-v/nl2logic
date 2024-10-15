@@ -1,1 +1,2 @@
-from ._prover import prove, convert_nltk_format, read_expr, LogicalExpressionException, Prover9FatalException
+from .vampire import VampireFatalException
+from ._prover import prove, equiv, read_expr, LogicalExpressionException

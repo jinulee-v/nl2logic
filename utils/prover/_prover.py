@@ -4,18 +4,15 @@ import logging
 import nltk
 from nltk.sem import logic
 from nltk.sem import Expression, LogicalExpressionException
-from nltk.inference.prover9 import Prover9FatalException, convert_to_prover9
 from timeoutcontext import timeout
 
-import subprocess
-
-nltk.Prover9._binary_location = "LADR-2009-11A/bin"
+from .vampire import run_vampire
 
 logic._counter._value = 0
 read_expr = Expression.fromstring
 
 def prove(premises, conclusion, return_proof=False) -> Literal["entailment", "contradict", "neutral"]:
-    """Run Prover9 to prove the conclusion (or its hard negation) given the premises.
+    """Run Vampire to prove the conclusion (or its hard negation) given the premises.
 
     :return: _description_
     :rtype: _type_
@@ -33,39 +30,29 @@ def prove(premises, conclusion, return_proof=False) -> Literal["entailment", "co
         return "neutral", None
 
     with timeout(10):
-        command = nltk.Prover9Command(c, p_list)
-        truth_value = command.prove()
-        # print(command._prover.prover9_input(c, p_list))
+        truth_value, proof = run_vampire(p_list, c)
     if truth_value:
-        logging.info(command.proof())
+        logging.debug(proof)
         if return_proof:
-            return "entailment", command.proof()
+            return "entailment", proof
         return "entailment"
     else:
         neg_c = read_expr("-(" + conclusion + ")")
         with timeout(10):
-            command = nltk.Prover9Command(neg_c, p_list)
-            negation_true = command.prove()
+            negation_true, proof = run_vampire(p_list, neg_c)
         if negation_true:
-            logging.info(command.proof())
+            logging.debug(proof)
             if return_proof:
-                return "contradiction", command.proof()
+                return "contradiction", proof
             return "contradiction"
         else:
             if return_proof:
                 return "neutral", None
             return "neutral"
 
-
-def convert_nltk_format(premises, conclusion) -> Tuple[List[str], str]:
-    """
-    """
-    # Check syntax and parse
-    parser = logic.LogicParser()
-    p_list = []
-    for p in premises:
-        p_list.append(str(parser.parse(p)))
-    c = str(parser.parse(conclusion))
-
-    return p_list, c
+def equiv(s1: str, s2: str):
+    new_expr = read_expr(f"({s1}) <-> ({s2})")
     
+    truth_value, _ = run_vampire([], new_expr)
+
+    return truth_value
