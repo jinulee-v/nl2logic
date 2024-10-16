@@ -41,3 +41,10 @@ if __name__ == "__main__":
         [],
         read_expr("(F(c) & G(c)) <-> (G(c) & F(c))")
     )[0])
+    print(run_vampire(
+        [
+            read_expr("all x.(Leo(x) -> Constellation(x))"),
+            read_expr("all x.(Constellation(x) -> ContainsStars(x))"),
+        ],
+        read_expr("all x.(Leo(x) -> (Constellation(x) & ContainsStars(x)))")
+    )[0])

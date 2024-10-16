@@ -16,6 +16,7 @@ def evaluate_single_pair(prem_conc, chain):
 
     try:
         label, proof = prove(prems_fol, conc_fol, return_proof=True)
+        print(proof)
     except VampireFatalException as e:
         print("ERROR", e)
         return None, 0, 0
@@ -26,7 +27,7 @@ def evaluate_single_pair(prem_conc, chain):
     if label == chain["label"]:
         # Check for sprious patterns:
         # 1. If all chain's premises appear in the proof,
-        if proof.count("[input]") != len(chain["premises"]):
+        if proof.count("[input]") != len(chain["premises"]) + 1:
             # DEBUG
             # print("============")
             # for prem in premises_in_proof:
@@ -145,19 +146,15 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
 
 if __name__ == "__main__":
     sentences = [
-        {"id": "folio_train_9", "nl": "Miroslav Venhoda was a Czech choral conductor who specialized in the performance of Renaissance and Baroque music.", "prediction": ["(IsCzech(Miroslav) & IsChoralConductor(Miroslav) & SpecializesIn(Miroslav,Renaissance) & SpecializesIn(Miroslav,Baroque))"]},
-        {"id": "folio_train_10", "nl": "Any choral conductor is a musician.", "prediction": ["all x.(IsChoralConductor(x) -> IsMusician(x))"]},
-        {"id": "folio_train_11", "nl": "Some musicians love music.", "prediction": ["exists x.(IsMusician(x) -> Loves(x,Music))"]},
-        {"id": "folio_train_12", "nl": "Miroslav Venhoda published a book in 1946 called Method of Studying Gregorian Chant.", "prediction": ["(IsBook(MethodOfStudyingGregorianChant) & IsAuthorOf(Miroslav,MethodOfStudyingGregorianChant) & PublishedInYear(MethodOfStudyingGregorianChant,Year1946))"]},
-        {"id": "folio_train_13", "nl": "Miroslav Venhoda loved music.", "prediction": ["Loves(Miroslav,Music)"]},
-        {"id": "folio_train_14", "nl": "A Czech person wrote a book in 1946.", "prediction": ["exists x.(IsCzech(x) & exists y.(IsBook(y) & IsAuthorOf(x,y) & PublishedInYear(y,Year1946)))"]},
-        {"id": "folio_train_15", "nl": "No choral conductor specialized in the performance of Renaissance.", "prediction": ["-exists x.(IsChoralConductor(x) & SpecializesIn(x,Renaissance))"]}
+        {"id": "entailmentbank_train_0", "nl": "", "prediction": ["all x.(Leo(x) -> Constellation(x))"]},
+        {"id": "entailmentbank_train_1", "nl": "", "prediction": ["all x.(Constellation(x) -> ContainsStars(x))"]},
+        {"id": "entailmentbank_train_2", "nl": "", "prediction": ["all x.(Leo(x) -> (Constellation(x) & ContainsStars(x)))"]},
+        {"id": "entailmentbank_train_3", "nl": "", "prediction": ["all x.(Leo(x) -> ConstellationWithStars(x))"]},
     ]
     chains = [
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_13", "label": "neutral"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_14", "label": "entailment"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "contradiction"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "entailment"} # wrong
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_1", "label": "entailment"}, # only need one premise
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_2", "label": "entailment"}, # correct
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_3", "label": "entailment"}, # cannot entail
     ]
 
-    print(entailment_preserving_rate_corpus(sentences, chains)[0]) # 0.75
+    print(entailment_preserving_rate_corpus(sentences, chains)[0]) # 0.33
