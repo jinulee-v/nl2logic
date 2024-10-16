@@ -31,7 +31,14 @@ trainer = PPOv2Trainer(
     tokenizer = model.get_tokenizer()
     ref_policy = PPOModel.from_pretrained("t5-based")
     reward_model = RewardModel()
-    train_dataset = 
+    train_dataset = [
+    {
+        "prompt": "a star is a kind of celestial object / celestial body.",
+        "chosen": ["all x.(Star(x) -> (CelestialObject(x) & CelestialBody(x)))", "all x.(Star(x) -> CelestialObject(x) & CelestialBody(x))"]
+        "reject": ["all x.(Star(x) -> (CelestialObject(x) | CelestialBody(x)))", "all x y.((Star(x) & CelestialObject(y)) -> CelestialBody(x))", "all x y.((Star(x) & CelestialObject(y)) -> CelestialBody(x,y))", "all x.(Star(x) -> CelestialObject(x))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x,y) & CelestialBody(x,z)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(y) & CelestialBody(z)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x) & CelestialBody(x)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x,y) | CelestialBody(x,z)))",
+        "all x y.((Star(x) & CelestialObject(y) & CelestialBody(x)) -> CelestialObject(x,y))", "all x y.((Star(x) & CelestialObject(y) & CelestialBody(x)) -> (CelestialObject(x) & CelestialBody(y)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x) | CelestialBody(x)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> CelestialObject(x,y,z))"]
+    }]
+
 )
 
 
