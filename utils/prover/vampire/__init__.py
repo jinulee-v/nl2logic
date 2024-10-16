@@ -1,0 +1,1 @@
+from .run_vampire import run_vampire, VampireFatalException

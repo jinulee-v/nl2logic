@@ -1,0 +1,9 @@
+% 前提部分
+fof(premise1, axiom, (![X] : (regularlydrinkcoffee(X) => dependentoncaffeine(X)))).
+fof(premise2, axiom, (![X] : ((regularlydrinkcoffee(X) & ~(jokesaboutaddiction(X))) | (~(regularlydrinkcoffee(X)) & jokesaboutaddiction(X))))).
+fof(premise3, axiom, (![X] : (jokesaboutaddiction(X) => ~(unawareofcaffeinedrug(X))))).
+fof(premise4, axiom, ((((isstudent(rina) & unawareofcaffeinedrug(rina)) & (isstudent(rina) | unawareofcaffeinedrug(rina))) | (~((isstudent(rina) & unawareofcaffeinedrug(rina))) & ~((isstudent(rina) | unawareofcaffeinedrug(rina))))))).
+fof(premise5, axiom, ((((~((dependentoncaffeine(rina) & isstudent(rina))) => (dependentoncaffeine(rina) & isstudent(rina))) & (dependentoncaffeine(rina) | isstudent(rina))) | (~((~((dependentoncaffeine(rina) & isstudent(rina))) => (dependentoncaffeine(rina) & isstudent(rina)))) & ~((dependentoncaffeine(rina) | isstudent(rina))))))).
+
+% 结论部分
+fof(conjecture, conjecture, (jokesaboutaddiction(rina) | unawareofcaffeinedrug(rina))).
