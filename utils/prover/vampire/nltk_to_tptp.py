@@ -71,12 +71,15 @@ def _convert_to_tptp(expression):
         )
     elif isinstance(expression, ApplicationExpression):
         # 处理谓词应用表达式：只将谓词名的第一个字母转换为小写，参数转换为大写
-        predicate = str(expression.function)
+        e = expression
+        while hasattr(e, "function") and e.function:
+            e = e.function
+        predicate = str(e)
         predicate = predicate[0].lower() + predicate[1:]  # 只将第一个字母小写
         terms = ', '.join(_convert_to_tptp(term) for term in expression.args)  # 参数转换
         return f"{predicate}({terms})"
 
-    elif isinstance(expression, Variable):
+    elif isinstance(expression, AbstractVariableExpression):
         # 如果变量是小写的 x 等，则转换为大写
         return str(expression).upper()
     else:

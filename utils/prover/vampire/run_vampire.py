@@ -24,6 +24,7 @@ def run_vampire(premises: List[Expression], conclusion: Expression):
     proof, _ = process.communicate(input_str) # ignore stdout
 
     if "Error on line" in proof:
+        print(input_str)
         raise VampireFatalException("\n" + proof)
     return "Termination reason: Refutation" in proof, proof
 
