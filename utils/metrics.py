@@ -5,8 +5,10 @@ from .prover import prove, read_expr, LogicalExpressionException, VampireFatalEx
 from .prover.utils import normalize_predictions, predicates
 from tqdm import tqdm as _tqdm
 
-from concurrent.futures import ProcessPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
+import os
+EPR_EVAL_N_WORKERS = os.environ.get("EPR_EVAL_N_WORKERS", "1")
 
 def evaluate_single_pair(prem_conc, chain):
     prems = prem_conc[:-1]
@@ -16,7 +18,6 @@ def evaluate_single_pair(prem_conc, chain):
 
     try:
         label, proof = prove(prems_fol, conc_fol, return_proof=True)
-        print(proof)
     except VampireFatalException as e:
         print("ERROR", e)
         return None, 0, 0
@@ -38,9 +39,11 @@ def evaluate_single_pair(prem_conc, chain):
 
         # 2. If the conc includes a predicate that does not appear in the prem,
         #    We discard the whole (prems, conc) tuple
-        conc_predicates = predicates(read_expr(conc_fol))
+        # conc_predicates = predicates(read_expr(conc_fol))
+        conc_predicates = predicates(conc_fol)
         for p in prems_fol:
-            conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
+            # conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
+            conc_predicates = conc_predicates.difference(predicates(p))
         if len(conc_predicates) > 0:
             return None, 0, 0
 
@@ -98,15 +101,17 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
 
         # Run prover
         execution_results = []
-        # for prem_conc in product(*premises, conclusion):
-        #     execution_results.append(evaluate_single_pair(prem_conc, chain))
-        with ProcessPoolExecutor(max_workers=4) as executor:
-            futures = [
-                executor.submit(evaluate_single_pair, prem_conc, chain)
-                for prem_conc in product(*premises, conclusion)
-            ]
-            for future in as_completed(futures):
-                execution_results.append(future.result())
+        if EPR_EVAL_N_WORKERS != "1":
+            with ThreadPoolExecutor(max_workers=EPR_EVAL_N_WORKERS) as executor:
+                futures = [
+                    executor.submit(evaluate_single_pair, prem_conc, chain)
+                    for prem_conc in product(*premises, conclusion)
+                ]
+                for future in as_completed(futures):
+                    execution_results.append(future.result())
+        else:
+            for prem_conc in product(*premises, conclusion):
+                execution_results.append(evaluate_single_pair(prem_conc, chain))
 
         # Update scores
         entailment_cnt = 0

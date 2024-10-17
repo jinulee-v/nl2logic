@@ -35,7 +35,7 @@ def predicates(expression) -> Set[str]:
         else:
             raise ValueError(f"Invalid expression type: {type(expression)}")
 
-def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]:
+def normalize_predictions(predictions: List[str]) -> Tuple[List[Expression], List[int]]:
     # Deduplicate predictions, but preserve order
     dedup = set()
     predictions = [p for p in predictions if not (p in dedup or dedup.add(p))]
@@ -51,7 +51,7 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]
             fol_expr = read_expr(fol) # Syntax check in NLTK side
         except LogicalExpressionException as e:
             # Syntax error
-            normalized_predictions.append(fol)
+            normalized_predictions.append(None)
             score.append(-1) # invalid
             continue
             
@@ -59,7 +59,7 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[str], List[int]]
         # e.g. P(x) -> P_1(x), Q(x,y) -> Q_2(x,y)
         fol_expr = rename_predicates(fol_expr)
 
-        normalized_predictions.append(str(fol_expr))
+        normalized_predictions.append(fol_expr)
         score.append(0) # valid
     assert len(normalized_predictions) == len(score)
     return predictions, normalized_predictions, score # Leave only the valid FOLs
