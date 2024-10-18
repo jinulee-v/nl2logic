@@ -1,0 +1,565 @@
+{"id": "prontoqa_validation_0", "prediction": "all x.(Wumpus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_1", "prediction": "(all x.(Polly(x) -> Jompus(x)) & (Polly(x) -> -Sterpus(x)) & (Polly(x) -> Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_2", "prediction": "(-Wumpus(Polly))", "score": 0}
+{"id": "prontoqa_validation_3", "prediction": "all x.(Rompus(x) -> Lempuse(x))", "score": 0}
+{"id": "prontoqa_validation_4", "prediction": "(all x.(Rex(x) -> Lorpus(x)) & (Rex(x) -> -Lempus(x)) & (Rex(x) -> Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_5", "prediction": "Rex is not a Rompus.", "score": -1}
+{"id": "prontoqa_validation_6", "prediction": "all x.(Numpus(x) -> Issue(x))", "score": 0}
+{"id": "prontoqa_validation_7", "prediction": "(all x.(Wren(x) -> -Impossible(x)) & all y.(Wren(y) -> Tumpus(y))) & all z.(Wren(z) -> Wumpus(z)))", "score": -1}
+{"id": "prontoqa_validation_8", "prediction": "all x.(Wren(x) -> -Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_9", "prediction": "all x.(Tumpus(x) -> Humpus(x))", "score": 0}
+{"id": "prontoqa_validation_10", "prediction": "(all x.(Max(x) -> -Shumpus(x)) & (Max(x) -> Zumpus(x)) & (Max(x) -> Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_11", "prediction": "(-Tumpus(Max))", "score": 0}
+{"id": "prontoqa_validation_12", "prediction": "all x.(Tumpus(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_13", "prediction": "(all x.(Max(x) -> Lorpus(x)) & (Max(x) -> Imperator(x)) & (Max(x) -> -Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_14", "prediction": "all x.(Zumpus(x) -> Vampuse(x))", "score": 0}
+{"id": "prontoqa_validation_15", "prediction": "(all x.(Polly(x) -> Lorpus(x)) & all y.(Polly(y) -> Lempus(y)) & all z.(Polly(z) -> -Vumpus(z))))", "score": -1}
+{"id": "prontoqa_validation_16", "prediction": "(-Zumpus(Polly))", "score": 0}
+{"id": "prontoqa_validation_17", "prediction": "all x.(Brimpus(x) -> Grimpuse(x))", "score": 0}
+{"id": "prontoqa_validation_18", "prediction": "(all x.(Max(x) -> Numpus(x)) & (Max(x) -> Zumpus(x)) & (Max(x) -> -Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_19", "prediction": "-Brimpus(Max)", "score": 0}
+{"id": "prontoqa_validation_20", "prediction": "all x.(Sterpus(x) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_21", "prediction": "(all x.(Rex(x) -> Zumpus(x)) & all y.(Rex(y) -> Issue(y))) & all z.(Rex(z) -> -Vumpus(z))))", "score": -1}
+{"id": "prontoqa_validation_22", "prediction": "Rex is not sterpus.", "score": -1}
+{"id": "prontoqa_validation_23", "prediction": "all x.(Jompus(x) -> Dumpus(x))", "score": 1}
+{"id": "prontoqa_validation_24", "prediction": "(all x.(Polly(x) -> Lempus(x)) & (Polly(x) -> -Dumpus(x)) & (Polly(x) -> Wumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_25", "prediction": "all x.(Polly(x) -> -Jompus(x))", "score": 1}
+{"id": "prontoqa_validation_26", "prediction": "all x.(Impossible(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_27", "prediction": "(all x.(Lorpus(x) -> Polly)) & (Nompus(x) -> Polly)) & (Yumpus(x) -> Polly)))", "score": -1}
+{"id": "prontoqa_validation_28", "prediction": "(-Impossible(Polly))", "score": 0}
+{"id": "prontoqa_validation_29", "prediction": "all x y z.((Alex(x) & Lempus(x) & Gorpus(y) & Imperator(z)) -> (Lempus(x) & Gorpus(y) & -Impossible(z)))", "score": 0}
+{"id": "prontoqa_validation_30", "prediction": "Alex is not a Numpus.", "score": -1}
+{"id": "prontoqa_validation_31", "prediction": "all x.(Brumpus(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_32", "prediction": "(all x.(Sam(x) -> -Yumpus(x)) & (Sam(x) -> Humpus(x)) & (Sam(x) -> Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_33", "prediction": "all x.(Sam(x) -> -Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_34", "prediction": "all x.(Shumpus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_35", "prediction": "(all x.(Polly(x) -> Dumpus(x)) & (Polly(x) -> Vumpus(x)) & -Sterpus(x)))", "score": -1}
+{"id": "prontoqa_validation_36", "prediction": "all x.(Polly(x) -> -Shumpus(x))", "score": 1}
+{"id": "prontoqa_validation_37", "prediction": "all x.(Grimpus(x) -> Vampuse(x))", "score": 0}
+{"id": "prontoqa_validation_38", "prediction": "(all x.(Wren(x) -> -Vumpus(x)) & all y.(Wren(y) -> Jompus(y)) & all z.(Wren(z) -> Lorpus(z))))", "score": -1}
+{"id": "prontoqa_validation_39", "prediction": "all x.(Wren(x) -> -Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_40", "prediction": "all x.(Grimpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_41", "prediction": "(all x.(Stella(x) -> -Tumpus(x)) & (Stella(x) -> Dumpus(x)) & (Stella(x) -> Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_42", "prediction": "Stella is not a Grimpus.", "score": -1}
+{"id": "prontoqa_validation_43", "prediction": "all x.(Lempuse(x) -> Numpuse(x))", "score": 0}
+{"id": "prontoqa_validation_44", "prediction": "(all x.(Rex(x) -> Humpus(x)) & (Rex(x) -> -Numpus(x)) & (Rex(x) -> Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_45", "prediction": "Rex is not a Lempus.", "score": -1}
+{"id": "prontoqa_validation_46", "prediction": "all x.(Brimpus(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_47", "prediction": "(all x.(Max(x) -> Jompus(x)) & (Max(x) -> Lempus(x)) & (Max(x) -> -Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_48", "prediction": "all x.(Tumpus(x) -> Gorpus(x))", "score": 1}
+{"id": "prontoqa_validation_49", "prediction": "(all x.(Sam(x) -> Zumpus(x)) & (Sam(x) -> -Gorpus(x)) & (Sam(x) -> Wumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_50", "prediction": "all x.(Sam(x) -> -Tumpus(x))", "score": 2}
+{"id": "prontoqa_validation_51", "prediction": "all x.(Vumpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_52", "prediction": "(all x.(Rex(x) -> Wumpus(x)) & (Yumpus(x) -> Yumpus(x)) & (Rex(x) -> -Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_53", "prediction": "Rex is not a Vumpus.", "score": -1}
+{"id": "prontoqa_validation_54", "prediction": "all x.(Gorpus(x) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_55", "prediction": "(all x.(Wren(x) -> -Rompus(x)) & all y.(Wren(y) -> Dumpus(y)) & all z.(Wren(z) -> Grimpus(z))))", "score": -1}
+{"id": "prontoqa_validation_56", "prediction": "all x.(Wren(x) -> -Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_57", "prediction": "all x.(Jompuse(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_58", "prediction": "(all x.(Fae(x) -> Zumpus(x)) & (Fae(x) -> -Wumpus(x)) & (Fae(x) -> Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_59", "prediction": "-Jompus(Fae)", "score": 0}
+{"id": "prontoqa_validation_60", "prediction": "all x.(Grimpus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_61", "prediction": "(all x.(Sally(x) -> Rompus(x)) & (Sally(x) -> -Sterpus(x)) & (Sally(x) -> Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_62", "prediction": "Sally is not a Grimpus.", "score": -1}
+{"id": "prontoqa_validation_63", "prediction": "all x.(Vumpus(x) -> Tumpus(x))", "score": 1}
+{"id": "prontoqa_validation_64", "prediction": "(all x.(Sam(x) -> -Tumpus(x)) & (Sam(x) -> Jompus(x)) & (Sam(x) -> Zumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_65", "prediction": "all x.(Sam(x) -> -Vumpus(x))", "score": 1}
+{"id": "prontoqa_validation_66", "prediction": "all x.(Grimpus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_67", "prediction": "(all x.(Polly(x) -> Yampus(x)) & (Polly(x) -> -Zumpus(x)) & (Polly(x) -> Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_68", "prediction": "Polly is notGrimpus(Polly)", "score": -1}
+{"id": "prontoqa_validation_69", "prediction": "all x.(Shumpus(x) -> Grimpus(x))", "score": 1}
+{"id": "prontoqa_validation_70", "prediction": "(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)))", "score": 1}
+{"id": "prontoqa_validation_71", "prediction": "all x.(Issue(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_72", "prediction": "(all x.(Rex(x) -> Numpus(x)) & (-Tumpus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_73", "prediction": "-Impossible(Rex)", "score": 0}
+{"id": "prontoqa_validation_74", "prediction": "all x.(Lorpus(x) -> Zumpus(x))", "score": 1}
+{"id": "prontoqa_validation_75", "prediction": "(all x.(Sam(x) -> Lempus(x)) & (Sam(x) -> -Zumpus(x)) & (Sam(x) -> Yumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_76", "prediction": "all x.(Sam(x) -> -Lorpus(x))", "score": 1}
+{"id": "prontoqa_validation_77", "prediction": "all x.(Issue(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_78", "prediction": "(all x.(Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)) & (Polly(x) -> Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_79", "prediction": "all x.(Vumpus(x) -> Dumpus(x))", "score": 0}
+{"id": "prontoqa_validation_80", "prediction": "(all x.(Polly(x) -> Rompus(x)) & (Polly(x) -> Brimpus(x)) & (Polly(x) -> -Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_81", "prediction": "(-Vumpus(Polly))", "score": 0}
+{"id": "prontoqa_validation_82", "prediction": "all x.(Rompus(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_83", "prediction": "(all x.(Stella(x) -> -Yumpus(x)) & (Stella(x) -> Humpus(x)) & (Stella(x) -> Vumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_84", "prediction": "Stella is not a rompus.", "score": -1}
+{"id": "prontoqa_validation_85", "prediction": "all x.(Wumpus(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_86", "prediction": "(all x.(Max(x) -> Yumpus(x)) & (Max(x) -> -Brimpus(x)) & (Max(x) -> Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_87", "prediction": "(-Wumpus(Max))", "score": 0}
+{"id": "prontoqa_validation_88", "prediction": "all x.(Zumpus(x) -> Issue(x))", "score": 0}
+{"id": "prontoqa_validation_89", "prediction": "(all x.(Alex(x) -> Tumpus(x)) & (Alex(x) -> -Impossible(x))) & (Alex(x) -> Rompus(x)))", "score": -1}
+{"id": "prontoqa_validation_90", "prediction": "Alex is not a zumpus.", "score": -1}
+{"id": "prontoqa_validation_91", "prediction": "all x.(Tumpus(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_92", "prediction": "(all x.(Rex(x) -> Zumpus(x)) & (Rex(x) -> Gorpus(x)) & (Rex(x) -> -Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_93", "prediction": "Rex is notTumpus(x)", "score": -1}
+{"id": "prontoqa_validation_94", "prediction": "all x.(Tumulus(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_95", "prediction": "(all x.(Sam(x) -> -Lorpus(x)) & (Sam(x) -> Issue(x)) & (Sam(x) -> Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_96", "prediction": "all x.(Vumpus(x) -> Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_97", "prediction": "(all x.(Fae(x) -> Brimpus(x)) & (Fae(x) -> Numpus(x)) & (Fae(x) -> -Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_98", "prediction": "-Vumpus(Fae)", "score": 0}
+{"id": "prontoqa_validation_99", "prediction": "all x.(Lempuse(x) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_100", "prediction": "(all x.(Sally(x) -> Is(x)) & (Sally(x) -> Tumpus(x)) & (Sally(x) -> -Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_101", "prediction": "Sally is not a lempus.", "score": -1}
+{"id": "prontoqa_validation_102", "prediction": "all x.(Wumpus(x) -> Grimpuse(x))", "score": 0}
+{"id": "prontoqa_validation_103", "prediction": "(all x.(Rex(x) -> Jompus(x)) & (Rex(x) -> Vumpus(x)) & (Rex(x) -> -Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_104", "prediction": "Rex is not a wumpus.", "score": -1}
+{"id": "prontoqa_validation_105", "prediction": "all x.(Vumpus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_106", "prediction": "(all x.(Fae(x) -> Lempus(x)) & (Fae(x) -> -Zumpus(x)) & (Fae(x) -> Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_107", "prediction": "all x.(Grimpus(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_108", "prediction": "(all x.(Stella(x) -> -Impossible(x)) & (Stella(x) -> Zumpus(x)) & (Stella(x) -> Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_109", "prediction": "all x.(Grimpus(x) -> Issue(x))", "score": 0}
+{"id": "prontoqa_validation_110", "prediction": "(all x.(Polly(x) -> -Impossible(x)) & (Polly(x) -> Brimpus(x)) & (Polly(x) -> Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_111", "prediction": "all x.(Jompus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_112", "prediction": "(all x.(Fae(x) -> -Zumpus(x)) & (Fae(x) -> Shumpus(x)) & (Fae(x) -> Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_113", "prediction": "all x.(Brimpus(x) -> Lempuse(x))", "score": 0}
+{"id": "prontoqa_validation_114", "prediction": "(all x.(Wren(x) -> Yumpus(x)) & (Wren(x) -> Humpus(x)) & (Wren(x) -> -Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_115", "prediction": "all x.(Wren(x) -> -Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_116", "prediction": "all x.(Shumpus(x) -> Sterpuse(x))", "score": 0}
+{"id": "prontoqa_validation_117", "prediction": "(all x.(Wren(x) -> -Sterpus(x)) & all y.(Wren(y) -> Yumpus(y)) & all z.(Wren(z) -> Numpus(z))))", "score": -1}
+{"id": "prontoqa_validation_118", "prediction": "all x.(Wren(x) -> -Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_119", "prediction": "all x.(Gorpus(x) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_120", "prediction": "(all x.(Shumpus(x) -> Sam(x)) & (Numpus(x) -> Sam(x)) & -Rompus(x)))", "score": -1}
+{"id": "prontoqa_validation_121", "prediction": "all x.(Sam(x) -> -Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_122", "prediction": "all x.(Vumpus(x) -> Sterpuse(x))", "score": 0}
+{"id": "prontoqa_validation_123", "prediction": "(all x.(Sally(x) -> -Sterpus(x)) & (Lorpus(x) & Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_124", "prediction": "Sally is not a vumpus.", "score": -1}
+{"id": "prontoqa_validation_125", "prediction": "all x.(Wumpus(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_126", "prediction": "(all x.(Rex(x) -> -Brimpus(x)) & (Rex(x) -> Numpus(x)) & (Rex(x) -> Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_127", "prediction": "all x.(Numpus(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_128", "prediction": "(all x.(Fae(x) -> -Yumpus(x)) & (Fae(x) -> Issue(x)) & (Fae(x) -> Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_129", "prediction": "(-numpus(Fae))", "score": 0}
+{"id": "prontoqa_validation_130", "prediction": "all x.(Sterpus(x) -> Wumpus(x))", "score": 1}
+{"id": "prontoqa_validation_131", "prediction": "(all x.(Sam(x) -> Vumpus(x)) & (Sam(x) -> -Wumpus(x)) & (Sam(x) -> Lorpus(x)))", "score": 1}
+{"id": "prontoqa_validation_132", "prediction": "all x.(Sam(x) -> -Sterpus(x))", "score": 2}
+{"id": "prontoqa_validation_133", "prediction": "all x.(Tumpus(x) -> Zumpus(x))", "score": 1}
+{"id": "prontoqa_validation_134", "prediction": "(all x.(Sam(x) -> Rompus(x)) & (Sam(x) -> -Zumpus(x)) & (Sam(x) -> Dumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_135", "prediction": "all x.(Tumpuse(x) -> Jompuse(x))", "score": 0}
+{"id": "prontoqa_validation_136", "prediction": "(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> -Jompus(x)) & (Polly(x) -> Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_137", "prediction": "all x.(Polly(x) -> -Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_138", "prediction": "all x.(Vumpus(x) -> Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_139", "prediction": "(all x.(Alex(x) -> Jompus(x)) & all y.(Alex(y) -> Sterpus(y)) & -Rompus(y)))", "score": -1}
+{"id": "prontoqa_validation_140", "prediction": "all x.(Alex(x) -> -Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_141", "prediction": "all x.(Dumpus(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_142", "prediction": "(all x.(Alex(x) -> -Wumpus(x)) & all y.(Alex(y) -> Yumpus(y))) & all z.(Alex(z) -> Zumpus(z)))", "score": -1}
+{"id": "prontoqa_validation_143", "prediction": "Alex is not a Dumpus.", "score": -1}
+{"id": "prontoqa_validation_144", "prediction": "all x.(Lempus(x) -> Jompus(x))", "score": 1}
+{"id": "prontoqa_validation_145", "prediction": "(all x.(Max(x) -> Sterpus(x)) & (-Jompus(x) & -Yumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_146", "prediction": "-Lempus(Max)", "score": 1}
+{"id": "prontoqa_validation_147", "prediction": "all x.(Yumpus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_148", "prediction": "(all x.(Rex(x) -> Rompus(x)) & (Rex(x) -> Dumpus(x)) & (Rex(x) -> -Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_149", "prediction": "Rex is notYumpus(x)", "score": -1}
+{"id": "prontoqa_validation_150", "prediction": "all x.(Tumulus(x) -> Issue(x))", "score": 0}
+{"id": "prontoqa_validation_151", "prediction": "(all x.(Sally(x) -> Jompus(x)) & (Sally(x) -> Dumpus(x)) & (Sally(x) -> -Impossible(x))))", "score": -1}
+{"id": "prontoqa_validation_152", "prediction": "Sally is not a Tumpus.", "score": -1}
+{"id": "prontoqa_validation_153", "prediction": "all x.(Tompus(x) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_154", "prediction": "(all x.(Sally(x) -> -Vumpus(x)) & all y.(Sally(y) -> Yumpus(y))) & all z.(Sally(z) -> Dumpus(z)))", "score": -1}
+{"id": "prontoqa_validation_155", "prediction": "Sally is not a zumpus.", "score": -1}
+{"id": "prontoqa_validation_156", "prediction": "all x.(Jompus(x) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_157", "prediction": "all x y z.((Alex(x) & Rompus(y) & Zumpus(z)) -> (-Rompus(x) & Zumpus(y) & Humpus(z)))", "score": 0}
+{"id": "prontoqa_validation_158", "prediction": "all x.(Alex(x) -> -Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_159", "prediction": "all x y z.((Alex(x) & Lorpus(y) & Grimpus(z)) -> (Lorpus(x) & Grimpus(z) & -Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_160", "prediction": "Alex is not impus.", "score": -1}
+{"id": "prontoqa_validation_161", "prediction": "all x.(Yumpus(x) -> Brimpuse(x))", "score": 0}
+{"id": "prontoqa_validation_162", "prediction": "(all x.(Wren(x) -> -Brimpus(x)) & (Wren(x) -> Zumpus(x)) & (Wren(x) -> Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_163", "prediction": "all x.(Wren(x) -> -Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_164", "prediction": "all x.(Numpuse(x) -> Dumpuse(x))", "score": 0}
+{"id": "prontoqa_validation_165", "prediction": "(all x.(Wren(x) -> -Dumpus(x)) & ((Wren(x) -> Sterpus(x))) & ((Wren(x) -> Lorpus(x))))", "score": 0}
+{"id": "prontoqa_validation_166", "prediction": "all x.(Brimpus(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_167", "prediction": "(all x.(Max(x) -> Sterpus(x)) & (Max(x) -> -Impossible(x)) & (Max(x) -> Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_168", "prediction": "all x.(Shampus(x) -> Grimpuse(x))", "score": 0}
+{"id": "prontoqa_validation_169", "prediction": "(all x.(Max(x) -> -Grimpus(x)) & all y.(Max(y) -> Lempus(y)) & all z.(Max(z) -> Gorpus(z))))", "score": -1}
+{"id": "prontoqa_validation_170", "prediction": "(-Shumpus(Max))", "score": 0}
+{"id": "prontoqa_validation_171", "prediction": "all x.(Zumpus(x) -> Jompuse(x))", "score": 0}
+{"id": "prontoqa_validation_172", "prediction": "(all x.(Wren(x) -> Grimpus(x)) & (-Jompus(x) & -Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_173", "prediction": "all x.(Wren(x) -> -Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_174", "prediction": "all x.(Jompus(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_175", "prediction": "all x y z.((Alex(x) & Wumpus(y) & Lempus(z)) -> (-Wumpus(x) & Lempus(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_176", "prediction": "all x.(Zumpus(x) -> Brimpuse(x))", "score": 0}
+{"id": "prontoqa_validation_177", "prediction": "(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> Numpus(x)) & (Fae(x) -> -Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_178", "prediction": "(-Zumpus(Fae))", "score": 0}
+{"id": "prontoqa_validation_179", "prediction": "all x.(Impuse(x) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_180", "prediction": "(all x.(Max(x) -> -Rompus(x)) & (Max(x) -> Dumpus(x)) & (Max(x) -> Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_181", "prediction": "-Impossible(Max)", "score": 0}
+{"id": "prontoqa_validation_182", "prediction": "all x.(Nompus(x) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_183", "prediction": "all x y z.((Alex(x) & Sterpus(x) & Lorpus(y) & -Vumpus(z)) -> (Stereo(x) & Lorpus(y) & -Vumpus(z)))", "score": 0}
+{"id": "prontoqa_validation_184", "prediction": "all x.(Yumpus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_185", "prediction": "(all x.(Rex(x) -> Jompus(x)) & (-Sterepus(x) & -Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_186", "prediction": "all x.(Numpus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_187", "prediction": "(all x.(Stella(x) -> Rompus(x)) & (Stella(x) -> -Zumpus(x)) & (Stella(x) -> Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_188", "prediction": "Stella is not a Numpus(Stella)", "score": -1}
+{"id": "prontoqa_validation_189", "prediction": "all x.(Vumpus(x) -> Issue(x))", "score": 0}
+{"id": "prontoqa_validation_190", "prediction": "(all x.(Rex(x) -> Dumpus(x)) & all y.(Rompus(y) -> -Impossible(y)))", "score": 0}
+{"id": "prontoqa_validation_191", "prediction": "all x.(Numpus(x) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_192", "prediction": "(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> Jompus(x)) & -Fae(x)))", "score": -1}
+{"id": "prontoqa_validation_193", "prediction": "all x.(Shumpus(x) -> Tumpus(x))", "score": 1}
+{"id": "prontoqa_validation_194", "prediction": "(all x.(Sam(x) -> Wumpus(x)) & (Sam(x) -> Dumpus(x)) & (Sam(x) -> -Tumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_195", "prediction": "all x.(Sam(x) -> -Shumpus(x))", "score": 1}
+{"id": "prontoqa_validation_196", "prediction": "all x.(Vumpus(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_197", "prediction": "(all x.(Lorpus(x) -> Polly)) & (-Numpus(x) -> Polly)) & (Tumpus(x) -> Polly)))", "score": -1}
+{"id": "prontoqa_validation_198", "prediction": "(all x.(Wren(x) -> Tumpus(x)) & (Wren(x) -> Rompus(x)) & (Wren(x) -> -Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_199", "prediction": "all x.(Wren(x) -> -Vumpus(x))", "score": 1}
+{"id": "prontoqa_validation_200", "prediction": "(all x.(Wren(x) -> Sterpus(x)) & (Wren(x) -> Jompus(x)) & (Wren(x) -> -Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_201", "prediction": "all x.(Wren(x) -> -Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_202", "prediction": "all x.(Rompus(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_203", "prediction": "(all x.(Polly(x) -> Wumpus(x)) & (Polly(x) -> Gorpus(x)) & (Polly(x) -> -Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_204", "prediction": "(-Rompus(Polly))", "score": 0}
+{"id": "prontoqa_validation_205", "prediction": "all x.(Gorpus(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_206", "prediction": "(all x.(Sally(x) -> Brimpus(x)) & (Sally(x) -> -Lorpus(x)) & (Sally(x) -> Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_207", "prediction": "Sally is not a Gorpus.", "score": -1}
+{"id": "prontoqa_validation_208", "prediction": "all x.(Dumpus(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_209", "prediction": "all x y z.((Alex(x) & Wumpus(y) & Lempus(z)) -> (-Wumpus(x) & Lempus(x) & Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_210", "prediction": "all x.(Lempus(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_211", "prediction": "(all x.(Max(x) -> Brimpus(x)) & (Max(x) -> -Grimpus(x)) & (Max(x) -> Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_212", "prediction": "all x.(Sterpus(x) -> Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_213", "prediction": "(all x.(Brimpus(x) -> Polly)) & (-Shumpus(x) -> Polly)) & (Yumpus(x) -> Polly)))", "score": -1}
+{"id": "prontoqa_validation_214", "prediction": "all x.(Polly(x) -> -Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_215", "prediction": "all x.(Dumpus(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_216", "prediction": "(all x.(Rex(x) -> Gorpus(x)) & (-Brimpus(x) & -Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_217", "prediction": "Rex is not a Dumpus.", "score": -1}
+{"id": "prontoqa_validation_218", "prediction": "all x.(Tumpus(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_219", "prediction": "(all x.(Stella(x) -> -Lorpus(x)) & (Stella(x) -> Yumpus(x)) & (Stella(x) -> Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_220", "prediction": "Stella is not a Tumpus.", "score": -1}
+{"id": "prontoqa_validation_221", "prediction": "all x.(Brimpus(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_222", "prediction": "(all x.(Stella(x) -> Lempus(x)) & (Stella(x) -> -Numpus(x)) & (Stella(x) -> Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_223", "prediction": "Stella is not a Brimpus.", "score": -1}
+{"id": "prontoqa_validation_224", "prediction": "(all x.(Max(x) -> Yumpus(x)) & (Max(x) -> Humpus(x)) & (Max(x) -> -Impossible(x))))", "score": -1}
+{"id": "prontoqa_validation_225", "prediction": "(-numpus(Max))", "score": 0}
+{"id": "prontoqa_validation_226", "prediction": "all x.(Vumpus(x) -> Brimpus(x))", "score": 1}
+{"id": "prontoqa_validation_227", "prediction": "(all x.(Wren(x) -> Jompus(x)) & (Wren(x) -> Tumpus(x)) & (Wren(x) -> -Brimpus(x)))", "score": 1}
+{"id": "prontoqa_validation_228", "prediction": "all x.(Sterpus(x) -> Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_229", "prediction": "(all x.(Polly(x) -> -Jompus(x)) & all y.(Polly(y) -> Lempus(y)) & all z.(Polly(z) -> Rompus(z))))", "score": -1}
+{"id": "prontoqa_validation_230", "prediction": "all x.(Vumpus(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_231", "prediction": "(all x.(Stella(x) -> -Numpus(x)) & (Shumpus(x) | Sterpus(x))))", "score": -1}
+{"id": "prontoqa_validation_232", "prediction": "Stella is not a Vumpus.", "score": -1}
+{"id": "prontoqa_validation_233", "prediction": "all x.(Wumpus(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_234", "prediction": "(all x.(Polly(x) -> Lorpus(x)) & (Polly(x) -> Numpus(x)) & (Polly(x) -> -Grimpus(x))))", "score": -1}
+{"id": "prontoqa_validation_235", "prediction": "(all x.(Rex(x) -> -Grimpus(x)) & (Rompus(x) & Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_236", "prediction": "all x.(Vumpus(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_237", "prediction": "(all x.(Polly(x) -> -Lorpus(x)) & (Polly(x) -> Wumpus(x)) & (Polly(x) -> Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_238", "prediction": "(all x.(Sally(x) -> Tumpus(x)) & (Sally(x) -> -Rompus(x)) & (Sally(x) -> Imperator(x)))", "score": 0}
+{"id": "prontoqa_validation_239", "prediction": "all x.(Yumpus(x) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_240", "prediction": "(all x.(Stella(x) -> -Vumpus(x)) & (Stella(x) -> Sterpus(x)) & (Stella(x) -> Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_241", "prediction": "Stella is not yumpus.", "score": -1}
+{"id": "prontoqa_validation_242", "prediction": "all x.(Lempuse(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_243", "prediction": "all x y z.((Alex(x) & Lorpus(x) & Tumpus(y) & Imperator(z)) -> (Lorpus(x) & -Tumpus(y) & Imperator(z)))", "score": 0}
+{"id": "prontoqa_validation_244", "prediction": "all x.(Alex(x) -> -Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_245", "prediction": "all x.(Jompus(x) -> Grimpus(x))", "score": 1}
+{"id": "prontoqa_validation_246", "prediction": "(all x.(Wren(x) -> Vumpus(x)) & (-Grimpus(x) & (Yumpus(x) | -Vumpus(x))))", "score": 1}
+{"id": "prontoqa_validation_247", "prediction": "all x.(Wren(x) -> -Jompus(x))", "score": 1}
+{"id": "prontoqa_validation_248", "prediction": "all x.(Yumpus(x) -> Dumpuse(x))", "score": 0}
+{"id": "prontoqa_validation_249", "prediction": "(all x.(Sam(x) -> -Dumpus(x)) & (Sam(x) -> Rompus(x)) & (Sam(x) -> Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_250", "prediction": "all x.(Sam(x) -> -Yumpus(x))", "score": 1}
+{"id": "prontoqa_validation_251", "prediction": "all x.(Grimpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_252", "prediction": "(all x.(Max(x) -> -Tumpus(x)) & (Max(x) -> Brimpus(x)) & (Max(x) -> Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_253", "prediction": "-Grimpus(Max)", "score": 0}
+{"id": "prontoqa_validation_254", "prediction": "(all x.(Fae(x) -> Grimpus(x)) & (Fae(x) -> -Rompus(x)) & (Fae(x) -> Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_255", "prediction": "(-Gorpus(Fae))", "score": 0}
+{"id": "prontoqa_validation_256", "prediction": "all x.(Gorpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_257", "prediction": "(all x.(Fae(x) -> Vumpus(x)) & (Fae(x) -> -Tumpus(x)) & (Fae(x) -> Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_258", "prediction": "all x.(Yumpus(x) -> Humpus(x))", "score": 0}
+{"id": "prontoqa_validation_259", "prediction": "(all x.(Wren(x) -> -Shumpus(x)) & all y.(Wren(y) -> Lorpus(y)) & all z.(Wren(z) -> Grimpus(z))))", "score": -1}
+{"id": "prontoqa_validation_260", "prediction": "all x.(Dumpus(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_261", "prediction": "(all x.(Rex(x) -> -Impossible(x)) & ((Rex(x) & Sterpus(x)) -> Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_262", "prediction": "all x.((Impos(x) | Vumpus(x) | Rompus(x)) -> (Wumpus(x) | Lorpus(x) | Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_263", "prediction": "all x.(Rompus(x) -> Polly(x))", "score": 0}
+{"id": "prontoqa_validation_264", "prediction": "all x.(Lorpus(x) -> Polly(x))", "score": 0}
+{"id": "prontoqa_validation_265", "prediction": "all x.((Jompus(x) | Gorpus(x) | Yumpus(x)) -> (Grimpus(x) & Dumpus(x) & Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_266", "prediction": "all x.(Polly(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_267", "prediction": "all x.((Lorpus(x) | Numpus(x) | Wumpus(x)) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_268", "prediction": "(Lorpus(Sally) & Dumpus(Sally) & Rompus(Sally))", "score": 0}
+{"id": "prontoqa_validation_269", "prediction": "Sally is Gorpus.", "score": -1}
+{"id": "prontoqa_validation_270", "prediction": "all x.(Brimpus(x) -> (Lempuse(x) | Zumpuse(x) | Grimpuse(x)))", "score": 0}
+{"id": "prontoqa_validation_271", "prediction": "all x.(Wren(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_272", "prediction": "all x.(Wren(x) -> (Dumpus(x) | Vumpus(x) | Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_273", "prediction": "all x.(Impossible(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_274", "prediction": "(all x.(Sally(x) -> Dumpus(x)) & (Sally(x) -> -Yumpus(x)) & (Sally(x) -> Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_275", "prediction": "(all x.(Sally(x) -> Yumpus(x)) | (-Impossible(x) | Impossible(x))))", "score": -1}
+{"id": "prontoqa_validation_276", "prediction": "all x.((Smopus(x) | Brimpus(x) | Jompus(x)) -> (Lempus(x) & Dumpus(x) & Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_277", "prediction": "Sally is a Brimpus.", "score": -1}
+{"id": "prontoqa_validation_278", "prediction": "Sally is a dumpus.", "score": -1}
+{"id": "prontoqa_validation_279", "prediction": "all x.(Dumpus(x) -> (Grimpus(x) | Sterpus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_280", "prediction": "all x.(Wren(x) -> Dumpus(x))", "score": 0}
+{"id": "prontoqa_validation_281", "prediction": "all x.(Wren(x) -> (Shumpus(x) | Sterpus(x) | Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_282", "prediction": "all x.(Brimpus(x) -> Jompuse(x))", "score": 0}
+{"id": "prontoqa_validation_283", "prediction": "all x.(Rex(x) -> (Rompus(x) & Yumpus(x) & Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_284", "prediction": "all x.(Rex(x) -> (Brimpus(x) | Jompus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_285", "prediction": "all x.((Dumpus(x) & Sterpus(x) & Brimpus(x)) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_286", "prediction": "Alex is a Dumpus.", "score": -1}
+{"id": "prontoqa_validation_287", "prediction": "all x.(Alex(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_288", "prediction": "all x.(Alex(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_289", "prediction": "all x.(Alex(x) -> (Tompus(x) | Wumpus(x) | Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_290", "prediction": "all x.((Nompus(x) | Jompus(x) | Vumpus(x)) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_291", "prediction": "all x.(Wren(x) -> (Yumpus(x) | Vumpus(x) | Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_292", "prediction": "all x.(Wren(x) -> Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_293", "prediction": "all x.(Numpus(x) -> -Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_294", "prediction": "all x.((Lempus(x) | Yumpus(x) | Brimpus(x)) -> Humpus(x))", "score": 0}
+{"id": "prontoqa_validation_295", "prediction": "all x.(Rex(x) -> (Numpus(x) & Gorpus(x) & Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_296", "prediction": "all x.((Wumpus(x) | Jompus(x) | Tumpus(x)) -> (Tompus(x) & Sterpus(x) & Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_297", "prediction": "(Wumpus(Max) & -Wumpus(Max))", "score": 0}
+{"id": "prontoqa_validation_298", "prediction": "all x.(Max(x) -> Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_299", "prediction": "all x.(Max(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_300", "prediction": "all x.(Max(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_301", "prediction": "all x.(Shumpus(x) -> (Tumpus(x) | Yumpus(x) | Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_302", "prediction": "all x.(Alex(x) -> Humpus(x))", "score": 0}
+{"id": "prontoqa_validation_303", "prediction": "all x.(Alex(x) -> (Tumpus(x) | Dumpus(x) | Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_304", "prediction": "all x.(Sterpus(x) -> -Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_305", "prediction": "all x.(Lorpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_306", "prediction": "all x.(Wren(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_307", "prediction": "all x.((Wren(x) & (Grimpus(x) | -Lorpus(x) | Lempus(x))) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_308", "prediction": "all x.(Gorpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_309", "prediction": "(all x.(Sally(x) -> -Tumpus(x)) & all y.(Sally(y) -> Lempus(y)) & all z.(Sally(z) -> Vumpus(z))))", "score": -1}
+{"id": "prontoqa_validation_310", "prediction": "all x.(Sally(x) -> (Tumpus(x) | Lorpus(x) | -Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_311", "prediction": "all x.(Numpuse(x) -> (Yumpus(x) | Vampuse(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_312", "prediction": "(all x.(Rex(x) -> Grimpus(x)) & (Rex(x) -> -Gorpus(x)) & (Rex(x) -> Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_313", "prediction": "Rex is not Numpus(x)", "score": -1}
+{"id": "prontoqa_validation_314", "prediction": "all x.(Yumpus(x) -> -Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_315", "prediction": "all x.(Fae(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_316", "prediction": "(all x.(Fae(x) -> Vumpus(x)) | (Fae(x) -> Wumpus(x)) | (Fae(x) -> -Tumpus(x))))", "score": -1}
+{"id": "prontoqa_validation_317", "prediction": "all x.((Tompus(x) | Brimpus(x) | Numpus(x)) -> (Rompus(x) | Lorpus(x) | Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_318", "prediction": "all x.(Sam(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_319", "prediction": "all x.(Sam(x) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_320", "prediction": "all x.((Wumpus(x) | Zumpus(x) | Grimpus(x)) -> (Jompus(x) & Gorpus(x) & Lempus(x)))", "score": 1}
+{"id": "prontoqa_validation_321", "prediction": "all x.(Alex(x) -> Grimpus(x))", "score": 1}
+{"id": "prontoqa_validation_322", "prediction": "all x.(Alex(x) -> Gorpus(x))", "score": 2}
+{"id": "prontoqa_validation_323", "prediction": "all x.(Yumpus(x) -> (Sterpus(x) & Jompus(x) & Imperator(x)))", "score": 0}
+{"id": "prontoqa_validation_324", "prediction": "all x.(Lempuse(x) -> -Jompuse(x))", "score": 0}
+{"id": "prontoqa_validation_325", "prediction": "all x.(Polly(x) -> (Grimpus(x) | Impossible(x) | Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_326", "prediction": "all x.(Polly(x) -> -Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_327", "prediction": "all x.((Smopus(x) | Rompus(x) | Gorpus(x)) -> Numpus(x))", "score": 1}
+{"id": "prontoqa_validation_328", "prediction": "(all x.(Alex(x) -> Shumpus(x)) & (Alex(x) -> -Numpus(x)) & (Alex(x) -> Sterpus(x)))", "score": 1}
+{"id": "prontoqa_validation_329", "prediction": "all x.(Alex(x) -> -Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_330", "prediction": "all x.(Wumpus(x) -> (Lorpus(x) | Sterpus(x) | Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_331", "prediction": "Stella is a wumpus.", "score": -1}
+{"id": "prontoqa_validation_332", "prediction": "all x.(Stella(x) -> (Jompus(x) | Lorpus(x) | Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_333", "prediction": "all x.(Sterpus(x) -> (Numpus(x) & Yumpus(x) & Zumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_334", "prediction": "(all x.(Sam(x) -> -Numpus(x)) & (Sam(x) -> Jompus(x)) & (Sam(x) -> Yumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_335", "prediction": "all x.((Lempus(x) | Lorpus(x) | Zumpus(x)) -> (Wumpus(x) & Imperempt(x) & Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_336", "prediction": "all x.(Wren(x) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_337", "prediction": "all x.(Wren(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_338", "prediction": "all x.((Rompus(x) | Vumpus(x) | Zumpus(x)) -> (Lorpus(x) & Brimpus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_339", "prediction": "all x.(Rompus(x) -> Sam(x))", "score": 0}
+{"id": "prontoqa_validation_340", "prediction": "all x.(Sam(x) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_341", "prediction": "all x.((Lorpus(x) | Sterpus(x) | Grimpus(x)) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_342", "prediction": "(all x.(Fae(x) -> -Tumpus(x)) & (Fae(x) -> Dumpus(x)) & (Fae(x) -> Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_343", "prediction": "all x.(Fae(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_344", "prediction": "all x.(Fae(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_345", "prediction": "-Grimpus(Fae)", "score": 0}
+{"id": "prontoqa_validation_346", "prediction": "all x.(Lempuse(x) -> (Dumpsuse(x) & Sterpuse(x) & Wumpuse(x)))", "score": 0}
+{"id": "prontoqa_validation_347", "prediction": "all x.(Sam(x) -> (Yumpus(x) | Zumpus(x) | Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_348", "prediction": "all x.(Tumpus(x) -> (Rompus(x) & Zumpus(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_349", "prediction": "Rex is a tumpus.", "score": -1}
+{"id": "prontoqa_validation_350", "prediction": "all x.(Rex(x) -> (Lempus(x) | Jompus(x) | Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_351", "prediction": "all x.((Wumpus(x) & Numpus(x) & Brimpus(x)) -> (Lorpus(x) & Jompus(x) & Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_352", "prediction": "Stella is Numpus(Stella)", "score": -1}
+{"id": "prontoqa_validation_353", "prediction": "Stella is a Brimpus.", "score": -1}
+{"id": "prontoqa_validation_354", "prediction": "Stella is a Jompus.", "score": -1}
+{"id": "prontoqa_validation_355", "prediction": "all x.(Shumpus(x) -> (Sterpus(x) & Vumpus(x) & Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_356", "prediction": "(all x.(Stella(x) -> Yumpus(x)) & (Stella(x) -> -Jompus(x)) & (Stella(x) -> Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_357", "prediction": "Stella is not a shumpus.", "score": -1}
+{"id": "prontoqa_validation_358", "prediction": "all x.(Dumpuse(x) -> Lempuse(x))", "score": 0}
+{"id": "prontoqa_validation_359", "prediction": "(all x.(Stella(x) -> -Lempus(x)) & (Stella(x) -> Tumpus(x)) & (Stella(x) -> Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_360", "prediction": "(all x.(Stella(x) -> Lorpus(x)) | (Stella(x) -> Humpus(x))) | (Stella(x) -> -Dumpus(x))))", "score": -1}
+{"id": "prontoqa_validation_361", "prediction": "all x.(Lorpus(x) -> (Numpus(x) | Vumpus(x) | Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_362", "prediction": "all x.((Yumpus(x) | Grimpus(x) | Brimpus(x)) -> -Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_363", "prediction": "(Yumpus(Max) & HasYump(Max))", "score": 0}
+{"id": "prontoqa_validation_364", "prediction": "all x.(Max(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_365", "prediction": "all x.(Max(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_366", "prediction": "(-Lorpus(Max))", "score": 0}
+{"id": "prontoqa_validation_367", "prediction": "all x.((Lorpus(x) & Numpus(x) & Brimpus(x)) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_368", "prediction": "all x.(Shupuse(x) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_369", "prediction": "all x.(Gorpus(x) -> -Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_370", "prediction": "all x.(Sam(x) -> Humpus(x))", "score": 0}
+{"id": "prontoqa_validation_371", "prediction": "all x.(Sam(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_372", "prediction": "all x.((Rompus(x) & Yumpus(x) & Lempus(x)) -> (Gorpus(x) & Sterpus(x) & Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_373", "prediction": "(Rompus(Max) & -Rompus(Max))", "score": 0}
+{"id": "prontoqa_validation_374", "prediction": "all x.(Max(x) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_375", "prediction": "all x.((Sterpus(x) | Imperempt(x) | Vumpus(x)) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_376", "prediction": "all x.(Rex(x) -> (Brimpus(x) & Tumpus(x) & Imperator(x)))", "score": 0}
+{"id": "prontoqa_validation_377", "prediction": "Rex is a lempus.", "score": -1}
+{"id": "prontoqa_validation_378", "prediction": "all x.(Tumpus(x) -> (Tompus(x) | Issue(x) | Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_379", "prediction": "all x.(Alex(x) -> Tumpus(x))", "score": 1}
+{"id": "prontoqa_validation_380", "prediction": "all x.(Alex(x) -> (Impossible(x) | Wumpus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_381", "prediction": "all x.(Jompuse(x) -> (Sterpuse(x) | Dumpuse(x) | Lempuse(x)))", "score": 0}
+{"id": "prontoqa_validation_382", "prediction": "all x y z.((Alex(x) & Lempus(y) & Numpus(z)) -> (-Lempus(x) & Numpus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_383", "prediction": "all x.(Tumpus(x) -> -Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_384", "prediction": "all x.(Numpus(x) -> Jompuse(x))", "score": 0}
+{"id": "prontoqa_validation_385", "prediction": "all x.(Fae(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_386", "prediction": "(all x.(Fae(x) -> Lorpus(x)) | (Fae(x) -> Issue(x)) | (Fae(x) -> -Numpus(x))))", "score": -1}
+{"id": "prontoqa_validation_387", "prediction": "all x.(Sterpus(x) -> -Dumpuse(x))", "score": 0}
+{"id": "prontoqa_validation_388", "prediction": "all x.((Vumpus(x) | Grimpus(x) | Yumpus(x)) -> Dumpus(x))", "score": 0}
+{"id": "prontoqa_validation_389", "prediction": "all x.(Stella(x) -> (Tumpus(x) & Gorpus(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_390", "prediction": "all x.(Brimpus(x) -> (Tumpus(x) | Zumpus(x) | Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_391", "prediction": "(all x.(Stella(x) -> Lempus(x)) & (Stella(x) -> Dumpus(x)) & (Stella(x) -> -Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_392", "prediction": "all x.((Tumpus(x) | Impossible(x) | Lempus(x)) -> (Brimpus(x) & Rompus(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_393", "prediction": "Stella is a lempus.", "score": -1}
+{"id": "prontoqa_validation_394", "prediction": "Stella is a rompus.", "score": -1}
+{"id": "prontoqa_validation_395", "prediction": "all x.(Tumpuse(x) -> (Lempuse(x) | Dumpuse(x) | Numpuse(x)))", "score": 0}
+{"id": "prontoqa_validation_396", "prediction": "all x.(Wren(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_397", "prediction": "all x.(Wren(x) -> (Yumpus(x) | Lorpus(x) | Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_398", "prediction": "all x.((Wumpus(x) | Lorpus(x) | Imperator(x)) -> Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_399", "prediction": "all x.(Wren(x) -> (Lorpus(x) & Vumpus(x) & Jompus(x)))", "score": 1}
+{"id": "prontoqa_validation_400", "prediction": "all x.((Tompus(x) | Humpus(x) | Vumpus(x)) -> Sterpus(x))", "score": 1}
+{"id": "prontoqa_validation_401", "prediction": "(all x.(Max(x) -> Sterpus(x)) & all y.(Vumpus(y) & -Jompus(y)))", "score": 1}
+{"id": "prontoqa_validation_402", "prediction": "all x.(Max(x) -> Sterpus(x))", "score": 1}
+{"id": "prontoqa_validation_403", "prediction": "all x.((Lorpus(x) | Brimpus(x) | Grimpus(x)) -> -Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_404", "prediction": "all x.(Rompus(x) -> (Shumpus(x) & Lempus(x) & Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_405", "prediction": "all x.(Fae(x) -> Brimpus(x))", "score": 2}
+{"id": "prontoqa_validation_406", "prediction": "(-Rompus(Fae))", "score": 0}
+{"id": "prontoqa_validation_407", "prediction": "all x.((Lorpus(x) | Humpus(x) | Vumpus(x)) -> (Grimpus(x) & Lempus(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_408", "prediction": "all x.(Fae(x) -> Humpus(x))", "score": 1}
+{"id": "prontoqa_validation_409", "prediction": "all x.(Fae(x) -> Vumpus(x))", "score": 2}
+{"id": "prontoqa_validation_410", "prediction": "all x.(Fae(x) -> Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_411", "prediction": "all x.(Zumpus(x) -> (Lempus(x) | Tumpus(x) | Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_412", "prediction": "Stella is a zumpus.", "score": -1}
+{"id": "prontoqa_validation_413", "prediction": "all x.(Stella(x) -> (Wumpus(x) | Numpus(x) | Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_414", "prediction": "all x.(Lempus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_415", "prediction": "all x.(Alex(x) -> (Gorpus(x) | Lempus(x) | Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_416", "prediction": "all x.(Alex(x) -> (Lorpus(x) | Sterpus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_417", "prediction": "all x.((Impose(x) | Rompus(x) | Yumpus(x)) -> (Gorpus(x) & Grimpus(x) & Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_418", "prediction": "all x.(Fae(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_419", "prediction": "all x.(Fae(x) -> Rompus(x))", "score": 0}
+{"id": "prontoqa_validation_420", "prediction": "all x.(Fae(x) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_421", "prediction": "all x.(Lempus(x) -> (Grimpus(x) & Humpus(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_422", "prediction": "all x.(Lorpus(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_423", "prediction": "all x.(Yumpus(x) -> -Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_424", "prediction": "all x.(Alex(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_425", "prediction": "all x.(Numpus(x) -> (Lorpus(x) | Humpus(x) | Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_426", "prediction": "Max is Numpus(Max)", "score": -1}
+{"id": "prontoqa_validation_427", "prediction": "all x.(Max(x) -> (Shumpus(x) | Lorpus(x) | Imperator(x)))", "score": 0}
+{"id": "prontoqa_validation_428", "prediction": "all x.(Jompuse(x) -> Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_429", "prediction": "all x.(Polly(x) -> (Sterpus(x) & Wumpus(x) & Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_430", "prediction": "all x.(Polly(x) -> (Tumpus(x) | Lempus(x) | Humpus(x)))", "score": 0}
+{"id": "prontoqa_validation_431", "prediction": "all x.(Tompus(x) -> (Rompus(x) & Humpus(x) & Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_432", "prediction": "Rex is a zumpus.", "score": -1}
+{"id": "prontoqa_validation_433", "prediction": "all x.(Rex(x) -> (Rompus(x) | Lempus(x) | Grimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_434", "prediction": "all x.((Shumpus(x) & Lempus(x) & Yumpus(x)) -> (Tumpus(x) & Brimpus(x) & Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_435", "prediction": "Rex is a shumpus.", "score": -1}
+{"id": "prontoqa_validation_436", "prediction": "Rex is yumpus.", "score": -1}
+{"id": "prontoqa_validation_437", "prediction": "Rex is a Brimpus.", "score": -1}
+{"id": "prontoqa_validation_438", "prediction": "all x.((Impossible(x) & Wumpus(x) & Yumpus(x)) -> (Tompus(x) | Numpus(x) | Tumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_439", "prediction": "all x.(Sam(x) -> Is(x,y))", "score": 0}
+{"id": "prontoqa_validation_440", "prediction": "all x.(Wumpus(x) -> Sam(x))", "score": 0}
+{"id": "prontoqa_validation_441", "prediction": "all x.(Yumpus(x) -> Sam(x))", "score": 0}
+{"id": "prontoqa_validation_442", "prediction": "all x.(Sam(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_443", "prediction": "all x.((Shumpus(x) & Yumpus(x) & Tumpus(x)) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_444", "prediction": "all x.(Wumpus(x) -> -Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_445", "prediction": "all x.(Sally(x) -> (Dumpus(x) & Numpus(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_446", "prediction": "Sally is yumpus.", "score": -1}
+{"id": "prontoqa_validation_447", "prediction": "Sally is a tumpus.", "score": -1}
+{"id": "prontoqa_validation_448", "prediction": "Sally is not a shumpus.", "score": -1}
+{"id": "prontoqa_validation_449", "prediction": "all x.((Vumpus(x) | Tumpus(x) | Dumpus(x)) -> (Yumpus(x) & Zumpus(x) & Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_450", "prediction": "all x.(Sam(x) -> Vumpus(x))", "score": 0}
+{"id": "prontoqa_validation_451", "prediction": "all x.((Lorpus(x) & Brimpus(x) & Imperator(x)) -> -Jompus(x))", "score": 0}
+{"id": "prontoqa_validation_452", "prediction": "all x.(Grimpus(x) -> (Jompuse(x) | Lempuse(x) | Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_453", "prediction": "all x.(Wren(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_454", "prediction": "all x.(Rompus(x) -> (Gorpus(x) & Dumpus(x) & Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_455", "prediction": "(all x.(Fae(x) -> Lempus(x)) & (Fae(x) -> Yumpus(x)) & (Fae(x) -> -Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_456", "prediction": "all x.((Wumpus(x) | Brimpus(x) | Tumpus(x)) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_457", "prediction": "(all x.(Rex(x) -> Issue(x)) & (Rex(x) -> Lempus(x)) & (Rex(x) -> -Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_458", "prediction": "all x.(Jompuse(x) -> Dumpuse(x))", "score": 0}
+{"id": "prontoqa_validation_459", "prediction": "(all x.(Wren(x) -> Brimpus(x)) & (-Dumpus(x) & Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_460", "prediction": "all x y.((Wren(x) & Lorpus(x)) | (-Jompus(y) | Brimpus(y))))", "score": -1}
+{"id": "prontoqa_validation_461", "prediction": "all x.((Impossible(x) & Dumpus(x) & Lorpus(x)) -> (Rompus(x) & Numpus(x) & Jompus(x)))", "score": 0}
+{"id": "prontoqa_validation_462", "prediction": "all x.(Rex(x) -> IsImpossible(x))", "score": 0}
+{"id": "prontoqa_validation_463", "prediction": "Rex is a Dumpus.", "score": -1}
+{"id": "prontoqa_validation_464", "prediction": "Rex is a lorpus.", "score": -1}
+{"id": "prontoqa_validation_465", "prediction": "all x.(Rex(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_466", "prediction": "all x.((Tompus(x) | Dumpus(x) | Tumpus(x)) -> (Jompus(x) & Yumpus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_467", "prediction": "all x.(Wren(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_468", "prediction": "all x.(Wren(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_469", "prediction": "all x.((Jompus(x) & Tumpus(x) & Dumpus(x)) -> (Lempus(x) & Imperempt(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_470", "prediction": "all x.(Alex(x) -> Jompus(x))", "score": 1}
+{"id": "prontoqa_validation_471", "prediction": "all x.(Alex(x) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_472", "prediction": "all x.((Brimpus(x) | Tumpus(x) | Imperator(x)) -> (Vumpus(x) & Yumpus(x) & Dumpus(x)))", "score": 1}
+{"id": "prontoqa_validation_473", "prediction": "all x.(Dumpuse(x) -> Numpuse(x))", "score": 0}
+{"id": "prontoqa_validation_474", "prediction": "(all x.(Polly(x) -> Issue(x)) & (Polly(x) -> -Numpus(x)) & (Polly(x) -> Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_475", "prediction": "all x.((Polly(x) & (Jompus(x) | Rompus(x) | -Dumpus(x))) -> Polly(x))", "score": 0}
+{"id": "prontoqa_validation_476", "prediction": "(all x.(Sam(x) -> -Impossible(x)) & (Brimpus(x) | Humpus(x))))", "score": -1}
+{"id": "prontoqa_validation_477", "prediction": "all x.((Sam(x) & -Tumpus(x)) | (Wumpus(x) | Grimpus(x))))", "score": -1}
+{"id": "prontoqa_validation_478", "prediction": "all x.((Lorpus(x) | Jompus(x) | Yumpus(x)) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_479", "prediction": "(Dumpus(Sally) & Yumpus(Sally) & Grimpus(Sally))", "score": 0}
+{"id": "prontoqa_validation_480", "prediction": "Sally is zumpus.", "score": -1}
+{"id": "prontoqa_validation_481", "prediction": "all x.(Yumpus(x) -> Numpus(x))", "score": 0}
+{"id": "prontoqa_validation_482", "prediction": "all x.(Alex(x) -> (Lempus(x) & Yumpus(x) & Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_483", "prediction": "all x.(Alex(x) -> (Yumpus(x) | Numpus(x) | Imperator(x)))", "score": 0}
+{"id": "prontoqa_validation_484", "prediction": "all x.((Lorpus(x) | Grimpus(x) | Yumpus(x)) -> (Lempus(x) & Rompus(x) & Wumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_485", "prediction": "Polly is a Grimpus.", "score": -1}
+{"id": "prontoqa_validation_486", "prediction": "all x.(Dumpuse(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_487", "prediction": "(all x.(Rex(x) -> Humpus(x)) & (Vumpus(x) & Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_488", "prediction": "all x.(Rex(x) -> (Yumpus(x) | Tumpus(x) | Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_489", "prediction": "all x.((Wumpus(x) | Grimpus(x) | Brimpus(x)) -> (Vumpus(x) & Impossible(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_490", "prediction": "Rex is a wumpus.", "score": -1}
+{"id": "prontoqa_validation_491", "prediction": "Rex is a Vumpus.", "score": -1}
+{"id": "prontoqa_validation_492", "prediction": "all x.(Grimpus(x) -> (Yumpus(x) | Rompus(x) | Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_493", "prediction": "all x.(Numpus(x) -> -Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_494", "prediction": "all x.(Alex(x) -> (Numpus(x) & Rompus(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_495", "prediction": "all x.(Alex(x) -> -Grimpus(x))", "score": 0}
+{"id": "prontoqa_validation_496", "prediction": "all x.((Dumpus(x) | Wumpus(x) | Numpus(x)) -> (Jompus(x) & Tumpus(x) & Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_497", "prediction": "all x.(Alex(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_498", "prediction": "all x.((Smokey(x) | Zumpus(x) | Numpus(x)) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_499", "prediction": "Stella is a Grimpus.", "score": -1}
+{"id": "prontoqa_validation_500", "prediction": "all x.(Stella(x) -> (Wumpus(x) | Jompus(x) | Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_501", "prediction": "all x.((Brimpus(x) & Lempus(x) & Humpus(x)) -> (Wumpus(x) & Vumpus(x) & Grimpus(x)))", "score": 1}
+{"id": "prontoqa_validation_502", "prediction": "all x.(Fae(x) -> Lempus(x))", "score": 1}
+{"id": "prontoqa_validation_503", "prediction": "all x.(Gorpus(x) -> -Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_504", "prediction": "all x.(Yumpus(x) -> Vumpus(x))", "score": 1}
+{"id": "prontoqa_validation_505", "prediction": "all x.(Sam(x) -> (Gorpus(x) & Wumpus(x) & Brimpus(x)))", "score": 1}
+{"id": "prontoqa_validation_506", "prediction": "all x.((Rompus(x) | Grimpus(x) | Lorpus(x)) -> (Impossible(x) & Sterpus(x) & Dumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_507", "prediction": "all x.(Polly(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_508", "prediction": "all x.(Grimpus(x) -> Shumpus(x))", "score": 0}
+{"id": "prontoqa_validation_509", "prediction": "all x.(Impuse(x) -> (Sterpuse(x) | Yumpe(x) | Lorpuse(x)))", "score": 0}
+{"id": "prontoqa_validation_510", "prediction": "all x.(Shumpus(x) -> -Sterpuse(x))", "score": 0}
+{"id": "prontoqa_validation_511", "prediction": "all x.(Wumpus(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_512", "prediction": "all x.(Tumpus(x) -> Wumpus(x))", "score": 0}
+{"id": "prontoqa_validation_513", "prediction": "(all x.(Shumpus(x) -> Sam(x)) & (-Sterpus(x) -> Sam(x)) & (Impossible(x) -> Sam(x)))", "score": 0}
+{"id": "prontoqa_validation_514", "prediction": "all x.(Zumpus(x) -> (Gorpus(x) | Yumpus(x) | Brimpuse(x)))", "score": 0}
+{"id": "prontoqa_validation_515", "prediction": "all x.(Wren(x) -> (Yumpus(x) | Imperative(x) | Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_516", "prediction": "all x.(Impossible(x) -> (Lempus(x) & Rompus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_517", "prediction": "(all x.(Sally(x) -> Yumpus(x)) & (Sally(x) -> Sterpus(x)) & (Sally(x) -> -Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_518", "prediction": "Sally -Impossible(Sally)", "score": -1}
+{"id": "prontoqa_validation_519", "prediction": "all x.(Sterpus(x) -> (Dumps(x) & Tumpus(x) & Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_520", "prediction": "Sally is a Sterpus.", "score": -1}
+{"id": "prontoqa_validation_521", "prediction": "all x.(Sally(x) -> (Impossible(x) | Dumpus(x) | Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_522", "prediction": "all x.((Dumpus(x) | Sterpus(x) | Brimpus(x)) -> Lempus(x))", "score": 0}
+{"id": "prontoqa_validation_523", "prediction": "all x.(Sam(x) -> (Lempus(x) | Wumpus(x) | Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_524", "prediction": "all x.((Tompus(x) | Vumpus(x) | Lorpus(x)) -> (Numpus(x) & Grimpus(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_525", "prediction": "Stella is a Vumpus.", "score": -1}
+{"id": "prontoqa_validation_526", "prediction": "Stella is a lorpus.", "score": -1}
+{"id": "prontoqa_validation_527", "prediction": "all x.((Tompus(x) & Humpus(x) & Sterpus(x)) -> (Jompus(x) & Gorpus(x) & Lorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_528", "prediction": "all x.(Sam(x) -> Sterpus(x))", "score": 0}
+{"id": "prontoqa_validation_529", "prediction": "all x.(Jompus(x) -> Sam(x))", "score": 0}
+{"id": "prontoqa_validation_530", "prediction": "all x.((Tompus(x) | Yumpus(x) | Jompus(x)) -> (Impos(x) & -Lorpus(x) & -Numpus(x)))", "score": 0}
+{"id": "prontoqa_validation_531", "prediction": "all x.(Max(x) -> Lorpus(x))", "score": 0}
+{"id": "prontoqa_validation_532", "prediction": "all x.(Brimpus(x) -> (Tumpus(x) & Issue(x) & Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_533", "prediction": "all x.(Wren(x) -> (Lorpus(x) | Imperator(x) | Yumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_534", "prediction": "all x.(Numpuse(x) -> (Sterpuse(x) | Gorpuse(x) | Vampuse(x)))", "score": 0}
+{"id": "prontoqa_validation_535", "prediction": "(all x.(Sally(x) -> Is(x)) & (Jompus(x) & -Vumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_536", "prediction": "Sally is not a Numpus.", "score": -1}
+{"id": "prontoqa_validation_537", "prediction": "all x.((Vumpus(x) | Rompus(x) | Yumpus(x)) -> (Lempus(x) | Zumpus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_538", "prediction": "Sally is a lempus.", "score": -1}
+{"id": "prontoqa_validation_539", "prediction": "all x.((Smopus(x) | Jompus(x) | Lempus(x)) -> (Tumpus(x) & Imperator(x) & Rompus(x)))", "score": 0}
+{"id": "prontoqa_validation_540", "prediction": "all x.(Dumpus(x) -> Tumpus(x))", "score": 0}
+{"id": "prontoqa_validation_541", "prediction": "(all x.(Wumpus(x) -> Stella(x)) & (-Tumpus(x) -> Stella(x)) & (Rompus(x) -> Stella(x)))", "score": 0}
+{"id": "prontoqa_validation_542", "prediction": "(all x.(Stella(x) -> Yumpus(x)) | (-Stella(x) & Dumpus(x))) | (-Stella(x) & Brimpus(x))))", "score": -1}
+{"id": "prontoqa_validation_543", "prediction": "all x.(Shumpus(x) -> Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_544", "prediction": "all x.(Sterpus(x) -> Vampuse(x))", "score": 0}
+{"id": "prontoqa_validation_545", "prediction": "all x.(Lorpus(x) -> Brimpus(x))", "score": 0}
+{"id": "prontoqa_validation_546", "prediction": "all x.(Grimpus(x) -> -Zumpus(x))", "score": 0}
+{"id": "prontoqa_validation_547", "prediction": "(all x.(Polly(x) -> Gorpus(x)) & (Polly(x) -> Jompus(x)) & (Polly(x) -> -Brimpus(x)))", "score": 0}
+{"id": "prontoqa_validation_548", "prediction": "all x.(Polly(x) -> (Rompus(x) & Wumpus(x) & Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_549", "prediction": "(all x.(Polly(x) -> -Shumpus(x)) & (Polly(x) -> -Lorpus(x)) & (Polly(x) -> Vumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_550", "prediction": "all x.(Jompus(x) -> Yumpus(x))", "score": 0}
+{"id": "prontoqa_validation_551", "prediction": "(all x.(Polly(x) -> -Yumpus(x)) & (Polly(x) -> Lempus(x)) & (Polly(x) -> Zumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_552", "prediction": "all x.((Polly(x) & (Dumpus(x) | Lorpus(x) | -Jompus(x))) -> Polly(x))", "score": 0}
+{"id": "prontoqa_validation_553", "prediction": "all x.((Shumpus(x) & Yumpus(x) & Numpus(x)) -> Dumpus(x))", "score": 0}
+{"id": "prontoqa_validation_554", "prediction": "Stella is a shumpus.", "score": -1}
+{"id": "prontoqa_validation_555", "prediction": "Stella is yumpus.", "score": -1}
+{"id": "prontoqa_validation_556", "prediction": "all x.(Stella(x) -> (Grimpus(x) | Dumpus(x) | Gorpus(x)))", "score": 0}
+{"id": "prontoqa_validation_557", "prediction": "all x.((Yumpus(x) | Lempus(x) | Sterpus(x)) -> Gorpus(x))", "score": 0}
+{"id": "prontoqa_validation_558", "prediction": "(all x.(Max(x) -> Humpus(x)) & (-Max(x) -> Gorpus(x)) & (Max(x) -> Vumpus(x)))", "score": 0}
+{"id": "prontoqa_validation_559", "prediction": "all x.(Wumpus(x) -> (Grimpus(x) | Gorpus(x) | Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_560", "prediction": "all x.(Max(x) -> (Lempus(x) | Impossible(x) | Sterpus(x)))", "score": 0}
+{"id": "prontoqa_validation_561", "prediction": "all x.((Tumpus(x) | Gorpus(x) | Lorpus(x)) -> (Rompus(x) & Zumpus(x) & Lempus(x)))", "score": 0}
+{"id": "prontoqa_validation_562", "prediction": "all x.((Jompus(x) & Rompus(x) & Tumpus(x)) -> (Brimpus(x) & Gorpus(x) & Imperator(x)))", "score": 1}
+{"id": "prontoqa_validation_563", "prediction": "all x.(Alex(x) -> Rompus(x))", "score": 1}
+{"id": "prontoqa_validation_564", "prediction": "all x.((Tompus(x) & Tumpus(x) & Wumpus(x)) -> (Shumpus(x) & Rompus(x) & Dumpus(x)))", "score": 0}
