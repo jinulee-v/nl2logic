@@ -2,13 +2,11 @@ from typing import *
 import logging
 
 import nltk
-from nltk.sem import logic
-from nltk.sem import Expression, LogicalExpressionException
+from nltk.sem.logic import Expression, NegatedExpression, LogicalExpressionException
 from timeoutcontext import timeout
 
 from .vampire import run_vampire
 
-logic._counter._value = 0
 read_expr = Expression.fromstring
 
 def prove(premises, conclusion, return_proof=False) -> Literal["entailment", "contradict", "neutral"]:
@@ -21,25 +19,25 @@ def prove(premises, conclusion, return_proof=False) -> Literal["entailment", "co
     p_list = []
     symbols = set()
     for p in premises:
-        p = read_expr(p)
+        # p = read_expr(p)
         p_list.append(p)
         symbols.update(p.predicates())
-    c = read_expr(conclusion)
+    # c = read_expr(conclusion)
+    c = conclusion
     if len(set(c.predicates()).difference(symbols)) != 0:
         # If conclusion symbols are not completely included in the premises, then it is neutral
         return "neutral", None
 
-    with timeout(10):
-        truth_value, proof = run_vampire(p_list, c)
+    truth_value, proof = run_vampire(p_list, c)
     if truth_value:
         logging.debug(proof)
         if return_proof:
             return "entailment", proof
         return "entailment"
     else:
-        neg_c = read_expr("-(" + conclusion + ")")
-        with timeout(10):
-            negation_true, proof = run_vampire(p_list, neg_c)
+        # neg_c = read_expr("-(" + conclusion + ")")
+        neg_c = NegatedExpression(c)
+        negation_true, proof = run_vampire(p_list, neg_c)
         if negation_true:
             logging.debug(proof)
             if return_proof:

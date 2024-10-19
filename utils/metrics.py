@@ -4,10 +4,55 @@ from itertools import product
 from .prover import prove, read_expr, LogicalExpressionException, VampireFatalException
 from .prover.utils import normalize_predictions, predicates
 from tqdm import tqdm as _tqdm
-import re
 
-import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
+import os
+EPR_EVAL_N_WORKERS = os.environ.get("EPR_EVAL_N_WORKERS", "1")
+
+def evaluate_single_pair(prem_conc, chain):
+    prems = prem_conc[:-1]
+    prems_fol = [s["normalized_prediction"] for s in prems]
+    conc = prem_conc[-1]
+    conc_fol = conc["normalized_prediction"]
+
+    try:
+        label, proof = prove(prems_fol, conc_fol, return_proof=True)
+    except VampireFatalException as e:
+        print("ERROR", e)
+        return None, 0, 0
+    except TimeoutError:
+        return None, 0, 0
+
+    # Update the score of the prediction if the pair gets correct answer
+    if label == chain["label"]:
+        # Check for sprious patterns:
+        # 1. If all chain's premises appear in the proof,
+        if proof.count("[input]") != len(chain["premises"]) + 1:
+            # DEBUG
+            # print("============")
+            # for prem in premises_in_proof:
+            #     print(prem["id"], prem["normalized_prediction"])
+            # print(conclusion_fol)
+            # print("============\n")
+            return None, 0, 0
+
+        # 2. If the conc includes a predicate that does not appear in the prem,
+        #    We discard the whole (prems, conc) tuple
+        # conc_predicates = predicates(read_expr(conc_fol))
+        conc_predicates = predicates(conc_fol)
+        for p in prems_fol:
+            # conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
+            conc_predicates = conc_predicates.difference(predicates(p))
+        if len(conc_predicates) > 0:
+            return None, 0, 0
+
+        # If passed validity check, store the pair so we can update it at the end
+        if label == "entailment":
+            return (prems, conc), 1, 0
+        elif label == "contradiction":
+            return (prems, conc), 0, 1
+    return None, 0, 0
 
 def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False):
     """_summary_
@@ -55,68 +100,38 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
         conclusion = [c for c in predictions_dict[chain["conclusion"]] if c["score"] >= 0]
 
         # Run prover
-        entailment_cnt = 0
-        contradiction_cnt = 0
-        successful_pairs = [] # stores deep reference to each prem/conc dicts, so that it only updates at the end
-        for prem_conc in product(*premises, conclusion):
-            prems = prem_conc[:-1]
-            prems_fol = [s["normalized_prediction"] for s in prems]
-            conc = prem_conc[-1]
-            conc_fol = conc["normalized_prediction"]
-
-            try:
-                label, proof = prove(prems_fol, conc_fol, return_proof=True)
-            except VampireFatalException as e:
-                continue
-            except TimeoutError:
-                continue
-        
-            # Update the score of the prediction if the pair gets correct answer
-            if label == gold_label:
-                # Check for sprious patterns:
-                # 1. If all chain's premises appear in the proof,
-                if proof.count("assumption") != len(chain["premises"]):
-                    # DEBUG
-                    # print("============")
-                    # for prem in premises_in_proof:
-                    #     print(prem["id"], prem["normalized_prediction"])
-                    # print(conclusion_fol)
-                    # print("============\n")
-                    continue
-
-                # 2. If the conc includes a predicate that does not appear in the prem,
-                #    We discard the whole (prems, conc) tuple
-                conc_predicates = predicates(read_expr(conc_fol))
-                for p in prems_fol:
-                    conc_predicates = conc_predicates.difference(predicates(read_expr(p)))
-                if len(conc_predicates) > 0:
-                    continue
-
-                # If passed validity check, store the pair so we can update it at the end
-                successful_pairs.append((prems, conc))
-                if label == "entailment":
-                    entailment_cnt += 1
-                elif label == "contradiction":
-                    contradiction_cnt += 1
+        execution_results = []
+        if EPR_EVAL_N_WORKERS != "1":
+            with ThreadPoolExecutor(max_workers=EPR_EVAL_N_WORKERS) as executor:
+                futures = [
+                    executor.submit(evaluate_single_pair, prem_conc, chain)
+                    for prem_conc in product(*premises, conclusion)
+                ]
+                for future in as_completed(futures):
+                    execution_results.append(future.result())
+        else:
+            for prem_conc in product(*premises, conclusion):
+                execution_results.append(evaluate_single_pair(prem_conc, chain))
 
         # Update scores
-        for prems, conc in successful_pairs:
-            # Finally we can say that pair is correct
-            for prem in prems:
-                prem["score"] += 1
-            conc["score"] += 1
+        entailment_cnt = 0
+        contradiction_cnt = 0
+        for prem_conc, ent, cont in execution_results:
+            if prem_conc is not None:
+                # Finally we can say that pair is correct
+                prems, conc = prem_conc
+                for prem in prems:
+                    prem["score"] += 1
+                conc["score"] += 1
             # Sum up for voting
-            if label == "entailment":
-                entailment_cnt += 1
-            elif label == "contradiction":
-                contradiction_cnt += 1
+            entailment_cnt += ent
+            contradiction_cnt += cont
 
         predict_label = "neutral" # overall prediction, default to neutral
         if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
             predict_label = "entailment"
         elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
             predict_label = "contradiction"
-    
         confusion_matrix[gold_label][predict_label] += 1
     
     # Calculate (micro) F1 score
@@ -136,19 +151,15 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
 
 if __name__ == "__main__":
     sentences = [
-        {"id": "folio_train_9", "nl": "Miroslav Venhoda was a Czech choral conductor who specialized in the performance of Renaissance and Baroque music.", "prediction": ["(IsCzech(Miroslav) & IsChoralConductor(Miroslav) & SpecializesIn(Miroslav,Renaissance) & SpecializesIn(Miroslav,Baroque))"]},
-        {"id": "folio_train_10", "nl": "Any choral conductor is a musician.", "prediction": ["all x.(IsChoralConductor(x) -> IsMusician(x))"]},
-        {"id": "folio_train_11", "nl": "Some musicians love music.", "prediction": ["exists x.(IsMusician(x) -> Loves(x,Music))"]},
-        {"id": "folio_train_12", "nl": "Miroslav Venhoda published a book in 1946 called Method of Studying Gregorian Chant.", "prediction": ["(IsBook(MethodOfStudyingGregorianChant) & IsAuthorOf(Miroslav,MethodOfStudyingGregorianChant) & PublishedInYear(MethodOfStudyingGregorianChant,Year1946))"]},
-        {"id": "folio_train_13", "nl": "Miroslav Venhoda loved music.", "prediction": ["Loves(Miroslav,Music)"]},
-        {"id": "folio_train_14", "nl": "A Czech person wrote a book in 1946.", "prediction": ["exists x.(IsCzech(x) & exists y.(IsBook(y) & IsAuthorOf(x,y) & PublishedInYear(y,Year1946)))"]},
-        {"id": "folio_train_15", "nl": "No choral conductor specialized in the performance of Renaissance.", "prediction": ["-exists x.(IsChoralConductor(x) & SpecializesIn(x,Renaissance))"]}
+        {"id": "entailmentbank_train_0", "nl": "", "prediction": ["all x.(Leo(x) -> Constellation(x))"]},
+        {"id": "entailmentbank_train_1", "nl": "", "prediction": ["all x.(Constellation(x) -> ContainsStars(x))"]},
+        {"id": "entailmentbank_train_2", "nl": "", "prediction": ["all x.(Leo(x) -> (Constellation(x) & ContainsStars(x)))"]},
+        {"id": "entailmentbank_train_3", "nl": "", "prediction": ["all x.(Leo(x) -> ConstellationWithStars(x))"]},
     ]
     chains = [
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_13", "label": "neutral"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_14", "label": "entailment"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "contradiction"},
-        {"premises": ["folio_train_9", "folio_train_10", "folio_train_11", "folio_train_12"], "conclusion": "folio_train_15", "label": "entailment"} # wrong
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_1", "label": "entailment"}, # only need one premise
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_2", "label": "entailment"}, # correct
+        {"premises": ["entailmentbank_train_0", "entailmentbank_train_1"], "conclusion": "entailmentbank_train_3", "label": "entailment"}, # cannot entail
     ]
 
-    print(entailment_preserving_rate_corpus(sentences, chains)[0]) # 0.75
+    print(entailment_preserving_rate_corpus(sentences, chains)[0]) # 0.33
