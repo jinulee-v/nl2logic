@@ -1,26 +1,44 @@
 from transformers import AutoModelForCausalLM
-from transformers import PPOModel
-from transformers import RewardModel
 from trl import PPOv2Trainer
 from trl import PPOv2Config
 from trl import DPOTrainer
 from trl import DPOConfig
-
-
+from transformers import T5ForConditionalGeneration, T5Config, T5Tokenizer
 from datasets import load_dataset
 from baseline.model import T5Model
 import sentencepiece
 import gym
+from datasets import Dataset
+
 
 env = gym.make('CartPole-v1')
 
 # Load a pre-trained transformer model
-model = T5Model()
+config = T5Config.from_pretrained("t5-base")
 
-training_args = DPOConfig(output_dir="Qwen2-0.5B-DPO", logging_steps=10)
+model = T5ForConditionalGeneration(config = config)
 
-trainer = DPOTrainer(model=model, ref_model=None, args=training_args, processing_class=model.get_tokenizer(), train_dataset = [
-    {
+training_args = DPOConfig(output_dir="./Qwen2-0.5B-DPO", logging_steps=10)
+
+train_dataset = {
+    "prompt": ["a star is a kind of celestial object / celestial body."],
+    "chosen": [
+        "all x.(Star(x) -> (CelestialObject(x) & CelestialBody(x)))"],
+    "rejected": [
+        "all x.(Star(x) -> (CelestialObject(x) | CelestialBody(x)))"
+    ]
+}
+
+train_data = Dataset.from_dict(train_dataset)
+
+trainer = DPOTrainer(model=model, ref_model=None, args = training_args, tokenizer=T5Tokenizer.from_pretrained('t5-base'), train_dataset = train_data)
+
+trainer.train()
+
+'''
+
+
+{
         "prompt": "a star is a kind of celestial object / celestial body.",
         "chosen": ["all x.(Star(x) -> (CelestialObject(x) & CelestialBody(x)))", "all x.(Star(x) -> CelestialObject(x) & CelestialBody(x))"],
         "reject": ["all x.(Star(x) -> (CelestialObject(x) | CelestialBody(x)))", "all x y.((Star(x) & CelestialObject(y)) -> CelestialBody(x))", "all x y.((Star(x) & CelestialObject(y)) -> CelestialBody(x,y))", "all x.(Star(x) -> CelestialObject(x))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x,y) & CelestialBody(x,z)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(y) & CelestialBody(z)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x) & CelestialBody(x)))", "all x y z.((Star(x) & CelestialObject(y) & CelestialBody(z)) -> (CelestialObject(x,y) | CelestialBody(x,z)))",
@@ -59,12 +77,8 @@ trainer = DPOTrainer(model=model, ref_model=None, args=training_args, processing
                    "all x y.((AppealingMagnitude(x) & Star(y) & ObservedOnEarth(y)) -> MeasuresBrightness(x,y))",
                    "all x y z.((ApparentMagnitude(x) & Star(y) & Earth(z)) -> MeasuresBrightnessAsObserved(x,y,z))"]
     }
-    ])
+    }
 
-trainer.train()
-
-
-'''
 config = PPOv2Config(
     batch_size=32,            # Number of experiences in each mini-batch
     learning_rate=5e-5,       # Initial learning rate
