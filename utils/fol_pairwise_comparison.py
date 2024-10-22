@@ -58,6 +58,6 @@ def get_pairwise_comps(path, bank):
 
 #print(get_prompt_from_bank("../results/baseline_malls/sample_size16_temp1.0/enwn_validation_sentences.jsonl",2))
 
-dir = "../results/baseline_malls/sample_size16_temp1.0/"
+#dir = "../results/baseline_malls/sample_size16_temp1.0/"
 
-val = get_pairwise_comps(dir + "enwn_validation_entailment_preserving_rate_eval.jsonl", dir + "enwn_validation_sentences.jsonl")
+#val = get_pairwise_comps(dir + "enwn_validation_entailment_preserving_rate_eval.jsonl", dir + "enwn_validation_sentences.jsonl")
