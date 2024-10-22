@@ -1,6 +1,8 @@
 import json
 import re
 
+# give a string that ends with a hyphen and a number, return that number
+# used by get_pairwise_comps to extract the line number from the ids of each NL word
 def extract_number(s):
     match = re.search(r'_(\d+)$', s)
     if match:
@@ -8,6 +10,7 @@ def extract_number(s):
     return None  # Return None if no number is found
 
 
+# returns the NL strong from the bank of NL strings, as specified by which prompt it is
 def get_prompt_from_bank(bank, prompt_number):
     file = open(bank, "r")
     
@@ -20,6 +23,7 @@ def get_prompt_from_bank(bank, prompt_number):
         
         counter += 1
 
+# given the path to the NL bank and FOL bank, return the prompts, chosen FOL's, and rejected FOL's 
 def get_pairwise_comps(path, bank):
         
     file = open(path, "r")
@@ -54,10 +58,3 @@ def get_pairwise_comps(path, bank):
         rejected.append(pair[1]['prediction'])
         
     return prompts, chosen, rejected
-
-
-#print(get_prompt_from_bank("../results/baseline_malls/sample_size16_temp1.0/enwn_validation_sentences.jsonl",2))
-
-#dir = "../results/baseline_malls/sample_size16_temp1.0/"
-
-#val = get_pairwise_comps(dir + "enwn_validation_entailment_preserving_rate_eval.jsonl", dir + "enwn_validation_sentences.jsonl")

@@ -24,6 +24,7 @@ training_args = DPOConfig(output_dir="./Qwen2-0.5B-DPO", logging_steps=10)
 path_to_FOL_sentence_bank = "../results/baseline_malls/sample_size16_temp1.0/enwn_validation_entailment_preserving_rate_eval.jsonl"
 path_to_NL_sentences = "../results/baseline_malls/sample_size16_temp1.0/enwn_validation_sentences.jsonl"
 
+# uses the get_pairwise_comps() function from fol_pairwise_comparison to generate the prompts, chosen, and rejected for the train_dataset
 prompts, chosen, rejected = fol_pairwise_comparison.get_pairwise_comps(path_to_FOL_sentence_bank, path_to_NL_sentences)
 
 train_dataset = {
