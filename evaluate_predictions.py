@@ -17,7 +17,11 @@ def main(args):
         for line in f:
             chains.append(json.loads(line))
 
-    f1, confusion_matrix, predictions = entailment_preserving_rate_corpus(sentences, chains, tqdm=True)
+    if args.output_graph:
+        graph_filename = args.sentence_data.replace("_sentences.jsonl", "_entailment_graph.png")
+    else:
+        graph_filename = None
+    f1, confusion_matrix, predictions = entailment_preserving_rate_corpus(sentences, chains, tqdm=True, graph_filename=graph_filename)
     print(f"F1 score: {f1}")
     print(f"Confusion matrix: {confusion_matrix}")
     cnt = 0; tot = 0
@@ -59,12 +63,14 @@ if __name__ == "__main__":
     parser.add_argument("--data_prefix", type=str, help="Prefix of the run files. If provided, sentence_data and chain_data are ignored.")
     parser.add_argument("--sentence_data", type=str, default=None, help="Path to the run sentences file.")
     parser.add_argument("--chain_data", type=str, default=None, help="Path to the run chains file.")
+    parser.add_argument("--output_graph", action="store_true", help="If true, output graph file.")
 
     args = parser.parse_args()
 
     if args.data_prefix is None:
         assert args.sentence_data is not None
         assert args.chain_data is not None
+        args.data_prefix = args.sentence_data.replace("_sentences.jsonl", "")
     else:
         args.sentence_data = f"{args.data_prefix}_sentences.jsonl"
         args.chain_data = f"{args.data_prefix}_chains.jsonl"
