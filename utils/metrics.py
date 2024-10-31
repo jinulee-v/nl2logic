@@ -3,6 +3,7 @@ from typing import *
 from itertools import product
 from .prover import prove, read_expr, LogicalExpressionException, VampireFatalException
 from .prover.utils import normalize_predictions, predicates
+from .graph import entailment_graph
 from tqdm import tqdm as _tqdm
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -54,7 +55,7 @@ def evaluate_single_pair(prem_conc, chain):
             return (prems, conc), 0, 1
     return None, 0, 0
 
-def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False):
+def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: List[Dict[str, Union[str, List[str]]]], tqdm: bool = False, graph_filename: str = None) -> Tuple[float, Dict[str, Dict[str, int]], List[Dict[str, str]]]:
     """_summary_
 
     :param sentences: [{"id": "___", "fol": "___"}]
@@ -133,6 +134,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
         elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
             predict_label = "contradiction"
         confusion_matrix[gold_label][predict_label] += 1
+        chain["correct"] = int(gold_label == predict_label)
     
     # Calculate (micro) F1 score
     correct = 0
@@ -146,6 +148,11 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
     
     predictions_scored = list(predictions_dict.values())
     # predictions_scored.sort(key=lambda x: x[0]["id"])
+
+    # Generate entailment graph
+    if graph_filename is not None:
+        entailment_graph(chains, output_file=graph_filename)
+
     return correct / (correct + wrong), confusion_matrix, predictions_scored
 
 
