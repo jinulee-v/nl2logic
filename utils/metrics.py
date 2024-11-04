@@ -66,7 +66,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
     # create sentence dict
     sentences_dict = {}
     predictions_dict = {}
-    for s in _tqdm(sentences):
+    for s in _tqdm(sentences) if tqdm else sentences:
         sentences_dict[s["id"]] = s
         # Deduplicate and leave only the syntactically valid FOLs.
         predictions, normalized_predictions, predictions_score = normalize_predictions(s["prediction"])
@@ -88,51 +88,54 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
     }
 
     for chain in _tqdm(chains) if tqdm else chains: # wrap tqdm if instructed
-        gold_label = chain["label"] # gold label from the dataset
-        if gold_label == "neutral":
-            continue
+        try:
+            gold_label = chain["label"] # gold label from the dataset
+            if gold_label == "neutral":
+                continue
 
-        premises = []
-        for prem_id in chain["premises"]:
-            # Ignore invalid premises
-            valid_ps = [p for p in predictions_dict[prem_id] if p["score"] >= 0]
-            premises.append(valid_ps)
-        conclusion = [c for c in predictions_dict[chain["conclusion"]] if c["score"] >= 0]
+            premises = []
+            for prem_id in chain["premises"]:
+                # Ignore invalid premises
+                valid_ps = [p for p in predictions_dict[prem_id] if p["score"] >= 0]
+                premises.append(valid_ps)
+            conclusion = [c for c in predictions_dict[chain["conclusion"]] if c["score"] >= 0]
 
-        # Run prover
-        execution_results = []
-        if EPR_EVAL_N_WORKERS != "1":
-            with ThreadPoolExecutor(max_workers=EPR_EVAL_N_WORKERS) as executor:
-                futures = [
-                    executor.submit(evaluate_single_pair, prem_conc, chain)
-                    for prem_conc in product(*premises, conclusion)
-                ]
-                for future in as_completed(futures):
-                    execution_results.append(future.result())
-        else:
-            for prem_conc in product(*premises, conclusion):
-                execution_results.append(evaluate_single_pair(prem_conc, chain))
+            # Run prover
+            execution_results = []
+            if EPR_EVAL_N_WORKERS != "1":
+                with ThreadPoolExecutor(max_workers=EPR_EVAL_N_WORKERS) as executor:
+                    futures = [
+                        executor.submit(evaluate_single_pair, prem_conc, chain)
+                        for prem_conc in product(*premises, conclusion)
+                    ]
+                    for future in as_completed(futures):
+                        execution_results.append(future.result())
+            else:
+                for prem_conc in product(*premises, conclusion):
+                    execution_results.append(evaluate_single_pair(prem_conc, chain))
 
-        # Update scores
-        entailment_cnt = 0
-        contradiction_cnt = 0
-        for prem_conc, ent, cont in execution_results:
-            if prem_conc is not None:
-                # Finally we can say that pair is correct
-                prems, conc = prem_conc
-                for prem in prems:
-                    prem["score"] += 1
-                conc["score"] += 1
-            # Sum up for voting
-            entailment_cnt += ent
-            contradiction_cnt += cont
+            # Update scores
+            entailment_cnt = 0
+            contradiction_cnt = 0
+            for prem_conc, ent, cont in execution_results:
+                if prem_conc is not None:
+                    # Finally we can say that pair is correct
+                    prems, conc = prem_conc
+                    for prem in prems:
+                        prem["score"] += 1
+                    conc["score"] += 1
+                # Sum up for voting
+                entailment_cnt += ent
+                contradiction_cnt += cont
 
-        predict_label = "neutral" # overall prediction, default to neutral
-        if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
-            predict_label = "entailment"
-        elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
-            predict_label = "contradiction"
-        confusion_matrix[gold_label][predict_label] += 1
+            predict_label = "neutral" # overall prediction, default to neutral
+            if entailment_cnt > contradiction_cnt and contradiction_cnt >= 0:
+                predict_label = "entailment"
+            elif contradiction_cnt > entailment_cnt and entailment_cnt >= 0:
+                predict_label = "contradiction"
+            confusion_matrix[gold_label][predict_label] += 1
+        except Exception as e:
+            print(e)
     
     # Calculate (micro) F1 score
     correct = 0

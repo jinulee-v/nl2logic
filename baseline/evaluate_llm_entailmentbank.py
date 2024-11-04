@@ -2,7 +2,7 @@ import json
 from utils.metrics import entailment_preserving_rate_corpus
 
 # Load sentences with FOL
-with open('baseline/entailmentbank_validation_sentences_with_fol_batch.jsonl', 'r') as f:
+with open('data/entailmentbank_validation_sentences_with_1_predictions.jsonl', 'r') as f:
     sentences = []
     for line in f:
         sentence_data = json.loads(line)
@@ -15,7 +15,7 @@ with open('baseline/entailmentbank_validation_sentences_with_fol_batch.jsonl', '
         })
 
 # Load entailment chains
-with open('baseline/entailmentbank_validation_chains.jsonl', 'r') as f:
+with open('data/entailmentbank_validation_chains.jsonl', 'r') as f:
     chains = []
     for line in f:
         chain_data = json.loads(line)
@@ -26,5 +26,5 @@ with open('baseline/entailmentbank_validation_chains.jsonl', 'r') as f:
         })
 
 # Calculate entailment preserving rate
-entailment_rate = entailment_preserving_rate_corpus(sentences, chains)[0]
+entailment_rate = entailment_preserving_rate_corpus(sentences, chains, tqdm=True)[0]
 print("Entailment Preserving Rate:", entailment_rate)

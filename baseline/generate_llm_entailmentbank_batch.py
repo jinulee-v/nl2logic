@@ -160,10 +160,8 @@ def process_entailment_chain(premises, conclusion, sentences_data, entailment):
     if conclusion_sentence:
         conclusion_sentence['prediction'] = [fol_lines[len(premises)] if len(fol_lines) > len(premises) else '']  # Assign last FOL line to conclusion
         sentences.append(conclusion_sentence)
-
-    #print(sentences)
-    #print(entailment)
-    score = entailment_preserving_rate_corpus(sentences, [entailment])
+    
+    score = entailment_preserving_rate_corpus(sentences, [entailment], tqdm=False)
     return score
 
 
