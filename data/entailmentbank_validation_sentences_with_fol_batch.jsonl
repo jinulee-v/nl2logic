@@ -1,0 +1,987 @@
+{"id": "entailmentbank_validation_0", "nl": "the sun rising / setting occurs once per day.", "fol": "", "prediction": ["all x. (SunRisingSetting(x) -> OccursOncePerDay(x))"]}
+{"id": "entailmentbank_validation_1", "nl": "the sun rising is a kind of event.", "fol": "", "prediction": ["SunRising(sun) & SunSetting(sun) -> Event(sun)"]}
+{"id": "entailmentbank_validation_2", "nl": "the sun setting is a kind of event.", "fol": "", "prediction": ["Event(sun)"]}
+{"id": "entailmentbank_validation_3", "nl": "the sun rising and setting is the event that occurs once per day.", "fol": "", "prediction": ["OccursOncePerDay(sun)"]}
+{"id": "entailmentbank_validation_4", "nl": "a star produces light and heat.", "fol": "", "prediction": ["Produces(star, light) & Produces(star, heat)"]}
+{"id": "entailmentbank_validation_5", "nl": "a source of something emits / produces / generates / provides that something.", "fol": "", "prediction": ["all x. all y. (Produces(x, y) -> SourceOf(x, y))"]}
+{"id": "entailmentbank_validation_6", "nl": "a star is a source of light.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_7", "nl": "as the source of light becomes closer, that source of light will appear brighter.", "fol": "", "prediction": ["all y. ((SpaceProperty(y) & OrderedValues(y)) -> Distance(y))"]}
+{"id": "entailmentbank_validation_8", "nl": "distance is a property of space and includes ordered values of close / far.", "fol": "", "prediction": ["LightSource(star)"]}
+{"id": "entailmentbank_validation_9", "nl": "as the distance of the star to earth decreases, the star will appear brighter.", "fol": "", "prediction": ["DecreaseDistance(star, earth) -> Brighter(star)"]}
+{"id": "entailmentbank_validation_10", "nl": "a star is a kind of celestial object / celestial body.", "fol": "", "prediction": ["all y. (CelestialObject(y) -> MeasureOfBrightness(y))"]}
+{"id": "entailmentbank_validation_11", "nl": "apparent magnitude is a measure of the brightness of a celestial object / celestial body as observed on earth.", "fol": "", "prediction": ["Star(z)"]}
+{"id": "entailmentbank_validation_12", "nl": "apparent magnitude is a measure of the brightness of a star as observed on earth.", "fol": "", "prediction": ["MeasureOfBrightness(z)"]}
+{"id": "entailmentbank_validation_13", "nl": "united states is located in the northern hemisphere.", "fol": "", "prediction": ["LocatedIn(us, northern_hemisphere)"]}
+{"id": "entailmentbank_validation_14", "nl": "new york / new york state is a state located in the united states of america.", "fol": "", "prediction": ["LocatedIn(nys, us)"]}
+{"id": "entailmentbank_validation_15", "nl": "new york state is located in the northern hemisphere.", "fol": "", "prediction": ["LocatedIn(nys, northern_hemisphere)"]}
+{"id": "entailmentbank_validation_16", "nl": "december is during the winter in the northern hemisphere.", "fol": "", "prediction": ["WinterInDecember(northern_hemisphere)"]}
+{"id": "entailmentbank_validation_17", "nl": "december is during the winter for new york state.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_18", "nl": "winter has the least sunlight.", "fol": "", "prediction": ["During(december, winter) & Location(december, new_york_state)"]}
+{"id": "entailmentbank_validation_19", "nl": "new york state has the least sunlight during december.", "fol": "", "prediction": ["LeastSunlight(december) & Location(december, new_york_state)"]}
+{"id": "entailmentbank_validation_20", "nl": "earth is a kind of planet.", "fol": "", "prediction": ["Planet(earth)"]}
+{"id": "entailmentbank_validation_21", "nl": "the earth rotates on its tilted axis.", "fol": "", "prediction": ["RotatesOnTiltedAxis(earth)"]}
+{"id": "entailmentbank_validation_22", "nl": "earth is a planet that rotates on its tilted axis.", "fol": "", "prediction": ["Planet(earth) & RotatesOnTiltedAxis(earth)"]}
+{"id": "entailmentbank_validation_23", "nl": "rotation is the circular movement of an object around a center / axis.", "fol": "", "prediction": ["Rotation(x) <-> CircularMovement(x, center)"]}
+{"id": "entailmentbank_validation_24", "nl": "a planet rotating causes cycles of day and night on that planet.", "fol": "", "prediction": ["all x. ((Planet(x) & Rotates(x)) -> CausesDayNightCycles(x))"]}
+{"id": "entailmentbank_validation_25", "nl": "earth rotating on its axis causes the cycle of day and night on earth.", "fol": "", "prediction": ["Causes(earth, DayNightCycle(earth))"]}
+{"id": "entailmentbank_validation_26", "nl": "gradens contain plants.", "fol": "", "prediction": ["all x. (Garden(x) -> ContainsPlants(x))"]}
+{"id": "entailmentbank_validation_27", "nl": "gardens are located outside.", "fol": "", "prediction": ["all y. (Garden(y) -> LocatedOutside(y))"]}
+{"id": "entailmentbank_validation_28", "nl": "the plants in the gardens are located outside.", "fol": "", "prediction": ["all x. (PlantInGarden(x) -> LocatedOutside(x))  "]}
+{"id": "entailmentbank_validation_29", "nl": "if something is outside during the day then that something will receive sunlight.", "fol": "", "prediction": ["all y. (LocatedOutside(y) -> ReceivesSunlight(y))  "]}
+{"id": "entailmentbank_validation_30", "nl": "the plants in the gardens will receive sunlight during the day.", "fol": "", "prediction": ["all x. (PlantInGarden(x) -> ReceivesSunlightDuringDay(x))"]}
+{"id": "entailmentbank_validation_31", "nl": "a plant requires sunlight to grow.", "fol": "", "prediction": ["all y. (Plant(y) & RequiresSunlight(y) -> Grows(y))"]}
+{"id": "entailmentbank_validation_32", "nl": "the plants in the gardens will receive sunlight to grow during the day.", "fol": "", "prediction": ["all x. ((Plant(x) & InGardens(x) & DuringDay(x)) -> ReceivesSunlightToGrow(x))"]}
+{"id": "entailmentbank_validation_33", "nl": "summer has the most sunlight.", "fol": "", "prediction": ["MostSunlight(summer)"]}
+{"id": "entailmentbank_validation_34", "nl": "the plants in the gardens will receive the most sunlight in summer to grow during the day.", "fol": "", "prediction": ["all y. ((Plant(y) & InGardens(y) & DuringDay(y)) -> ReceivesMostSunlightToGrowInSummer(y))"]}
+{"id": "entailmentbank_validation_35", "nl": "andy lives in southern hemisphere.", "fol": "", "prediction": ["LivesInSouthernHemisphere(andy)"]}
+{"id": "entailmentbank_validation_36", "nl": "it is august.", "fol": "", "prediction": ["August()"]}
+{"id": "entailmentbank_validation_37", "nl": "august is during the winter in the southern hemisphere.", "fol": "", "prediction": ["WinterInSouthernHemisphere(august)"]}
+{"id": "entailmentbank_validation_38", "nl": "andy will experience winter in southern hemisphere in august.", "fol": "", "prediction": ["ExperiencesWinterInAugust(andy)"]}
+{"id": "entailmentbank_validation_39", "nl": "the sun is a kind of star.", "fol": "", "prediction": ["KindOf(sun, star)"]}
+{"id": "entailmentbank_validation_40", "nl": "the earth revolves around the sun.", "fol": "", "prediction": ["RevolvesAround(earth, sun)"]}
+{"id": "entailmentbank_validation_41", "nl": "earth revolving the sun is an example of a planet revolving around its star.", "fol": "", "prediction": ["PlanetRevolvesAroundStar(earth)"]}
+{"id": "entailmentbank_validation_42", "nl": "a complete revolution / orbit of a planet around its star takes 1 / one planetary year.", "fol": "", "prediction": ["all x. ((Planet(x) & OrbitsStar(x)) -> PlanetaryYear(x))"]}
+{"id": "entailmentbank_validation_43", "nl": "a complete revolution of earth around the sun takes an earth year.", "fol": "", "prediction": ["TakesOneYear(earth)"]}
+{"id": "entailmentbank_validation_44", "nl": "earth rotating on its tilted axis occurs once per day.", "fol": "", "prediction": ["RotatesOnTiltedAxisOncePerDay(earth)"]}
+{"id": "entailmentbank_validation_45", "nl": "the earth is a planet that rotates on its tilted axis once per day.", "fol": "", "prediction": ["Planet(earth) & RotatesTiltedAxis(earth)"]}
+{"id": "entailmentbank_validation_46", "nl": "the earth rotating on its tilted axis causes the cycles of day and night on earth.", "fol": "", "prediction": ["CausesDayNightCycles(earth)"]}
+{"id": "entailmentbank_validation_47", "nl": "mercury is located in the solar system.", "fol": "", "prediction": ["LocatedIn(mercury, solar_system)"]}
+{"id": "entailmentbank_validation_48", "nl": "mercury is a kind of planet.", "fol": "", "prediction": ["KindOf(mercury, planet)"]}
+{"id": "entailmentbank_validation_49", "nl": "mercury is a planet in the solar system.", "fol": "", "prediction": ["PlanetInSolarSystem(mercury)  "]}
+{"id": "entailmentbank_validation_50", "nl": "planets in the solar system orbit the sun.", "fol": "", "prediction": ["all x. (PlanetInSolarSystem(x) -> Orbits(x, sun))  "]}
+{"id": "entailmentbank_validation_51", "nl": "mercury is a planet orbits the sun in the solar system.", "fol": "", "prediction": ["Planet(mercury) & OrbitsStar(mercury, sun)"]}
+{"id": "entailmentbank_validation_52", "nl": "a complete orbit of mercury around the sun takes one mercury year.", "fol": "", "prediction": ["all x. (CompleteOrbit(x, sun) -> Takes(x, OneMercuryYear))"]}
+{"id": "entailmentbank_validation_53", "nl": "one mercury year is about 88 earth days.", "fol": "", "prediction": ["Takes(OneMercuryYear, About88EarthDays)"]}
+{"id": "entailmentbank_validation_54", "nl": "a complete orbit of mercury around the sun takes around 88 earth days.", "fol": "", "prediction": ["Takes(CompleteOrbit(mercury, sun), About88EarthDays)"]}
+{"id": "entailmentbank_validation_55", "nl": "the new moon is when the dark half of the moon faces the earth.", "fol": "", "prediction": ["all x. (NewMoon(x) -> DarkHalfFacesEarth(x))"]}
+{"id": "entailmentbank_validation_56", "nl": "the new moon is when the moon is in between the sun and the earth.", "fol": "", "prediction": ["all x. (NewMoon(x) -> BetweenSunAndEarth(x))"]}
+{"id": "entailmentbank_validation_57", "nl": "the new moon is when the moon could block the earth from the sun.", "fol": "", "prediction": ["all y. (NewMoon(y) -> CouldBlockMoonEarthSun(y))"]}
+{"id": "entailmentbank_validation_58", "nl": "a solar eclipse is when the moon blocks the earth from the sun.", "fol": "", "prediction": ["all x. (SolarEclipse(x) -> BlocksMoonEarthSun(x))"]}
+{"id": "entailmentbank_validation_59", "nl": "a solar eclipse could only happen during the new moon.", "fol": "", "prediction": ["all z. (SolarEclipse(z) -> NewMoon(z))"]}
+{"id": "entailmentbank_validation_60", "nl": "objects generally are made of ice in the kuiper belt.", "fol": "", "prediction": ["all x. (InKuiperBelt(x) -> MadeOfIce(x))"]}
+{"id": "entailmentbank_validation_61", "nl": "icy can be used to describe objects that are made of ice.", "fol": "", "prediction": ["all y. (MadeOfIce(y) -> Icy(y))"]}
+{"id": "entailmentbank_validation_62", "nl": "objects in kuiper belt are icy.", "fol": "", "prediction": ["InKuiperBelt(z) -> Icy(z)"]}
+{"id": "entailmentbank_validation_63", "nl": "a comet orbit occurs usually once per 1000 years.", "fol": "", "prediction": ["all x. (Comet(x) -> OrbitsOncePer1000Years(x))  "]}
+{"id": "entailmentbank_validation_64", "nl": "a comet is a kind of celestial object.", "fol": "", "prediction": ["all y. (Comet(y) -> CelestialObject(y))  "]}
+{"id": "entailmentbank_validation_65", "nl": "comet orbits are elliptical.", "fol": "", "prediction": ["all z. (CometOrbit(z) -> Elliptical(z))  "]}
+{"id": "entailmentbank_validation_66", "nl": "comets are the kind of celestial object that has a highly elliptical orbit and has a period of over 1000 years.", "fol": "", "prediction": ["all w. (Comet(w) -> (CelestialObject(w) & HighlyEllipticalOrbit(w) & PeriodOver1000Years(w)))"]}
+{"id": "entailmentbank_validation_67", "nl": "the milky way galaxy appears as a glowing band across the night sky.", "fol": "", "prediction": ["all x. (MilkyWayGalaxy(x) -> GlowingBand(x))"]}
+{"id": "entailmentbank_validation_68", "nl": "a student observes a glowing band across the night sky.", "fol": "", "prediction": ["exists y. (Student(y) & Observes(y, GlowingBand)) "]}
+{"id": "entailmentbank_validation_69", "nl": "the student observes the milky way galaxy at night.", "fol": "", "prediction": ["Observes(student, MilkyWayGalaxy)"]}
+{"id": "entailmentbank_validation_70", "nl": "looking at bright objects has a negative impact on the eyes.", "fol": "", "prediction": ["all x. (Bright(x) -> NegativeImpactOnEyes(x))"]}
+{"id": "entailmentbank_validation_71", "nl": "the moon is less bright than the sun.", "fol": "", "prediction": ["LessBright(moon, sun)"]}
+{"id": "entailmentbank_validation_72", "nl": "looking at the moon has less of a negative impact on the eyes.", "fol": "", "prediction": ["-LessNegativeImpactOnEyes(moon)"]}
+{"id": "entailmentbank_validation_73", "nl": "the surface of the earth contains mountains.", "fol": "", "prediction": ["Contains(surface_earth, mountains)  "]}
+{"id": "entailmentbank_validation_74", "nl": "the surface of the moon contains mountains.", "fol": "", "prediction": ["Contains(surface_moon, mountains)  "]}
+{"id": "entailmentbank_validation_75", "nl": "both the surface of the moon and the surface of the earth contain mountains.", "fol": "", "prediction": ["Contains(surface_moon, mountains) & Contains(surface_earth, mountains)"]}
+{"id": "entailmentbank_validation_76", "nl": "the asteroid belt is located between mars and jupiter.", "fol": "", "prediction": ["LocatedBetween(asteroid_belt, mars, jupiter)"]}
+{"id": "entailmentbank_validation_77", "nl": "the asteroid belt contains the largest concentration of asteroids in the solar system.", "fol": "", "prediction": ["ContainsMostAsteroids(asteroid_belt, solar_system)"]}
+{"id": "entailmentbank_validation_78", "nl": "the asteroid belt that contains the most asteroids is located between mars and jupiter.", "fol": "", "prediction": ["LocatedBetween(asteroid_belt, mars, jupiter) & ContainsMostAsteroids(asteroid_belt, solar_system)"]}
+{"id": "entailmentbank_validation_79", "nl": "the sun is average in temperature for a star in our galaxy.", "fol": "", "prediction": ["AverageTemperature(sun)  "]}
+{"id": "entailmentbank_validation_80", "nl": "the sun is average in size for a star in our galaxy.", "fol": "", "prediction": ["AverageSize(sun)  "]}
+{"id": "entailmentbank_validation_81", "nl": "the sun is average in siza and average in temperature in our galaxy.", "fol": "", "prediction": ["AverageTemperature(sun) & AverageSize(sun)  "]}
+{"id": "entailmentbank_validation_82", "nl": "as the mass of a celestial object decreases, the surface gravity of that celestial object weakens.", "fol": "", "prediction": ["all x. (DecreaseMass(x) -> WeakenSurfaceGravity(x))"]}
+{"id": "entailmentbank_validation_83", "nl": "as the force of gravity decreases, the weight of the object will decrease.", "fol": "", "prediction": ["all y. (DecreaseGravity(y) -> DecreaseWeight(y))"]}
+{"id": "entailmentbank_validation_84", "nl": "as the mass of a celestial object decreases, the weight of an object on that celestial object will decrease.", "fol": "", "prediction": ["all x y. (MoreMass(x, y) -> all z. (Decreases(y) -> WeighsMore(z, x, y)))"]}
+{"id": "entailmentbank_validation_85", "nl": "the earth has more mass than the moon.", "fol": "", "prediction": ["MoreMass(earth, moon)"]}
+{"id": "entailmentbank_validation_86", "nl": "an object weighs more on earth than on the moon because earth has more mass than the moon.", "fol": "", "prediction": ["WeighsMoreOn(x, earth, moon) -> HasMoreMass(earth, moon)"]}
+{"id": "entailmentbank_validation_87", "nl": "less is the opposite of more.", "fol": "", "prediction": ["Opposite(less, more)"]}
+{"id": "entailmentbank_validation_88", "nl": "an object will weigh less on the moon than on the earth because the moon has less mass than the earth.", "fol": "", "prediction": ["all y. (Object(y) -> (LessMass(moon, earth) -> WeighLessOnMoonThanOnEarth(y)))"]}
+{"id": "entailmentbank_validation_89", "nl": "an astronaut is a kind of object.", "fol": "", "prediction": ["all x. (Astronaut(x) -> Object(x))"]}
+{"id": "entailmentbank_validation_90", "nl": "an astronaut will weigh less on the moon than on earth because the moon has less mass than the earth.", "fol": "", "prediction": ["Astronaut(z) -> (LessMass(moon, earth) -> WeighLessOnMoonThanOnEarth(z))"]}
+{"id": "entailmentbank_validation_91", "nl": "using a telescope to photograph solar events requires a light filter.", "fol": "", "prediction": ["all x. (PhotographWithTelescope(x) & SolarEvent(x) -> RequiresLightFilter(x))"]}
+{"id": "entailmentbank_validation_92", "nl": "a solar flare is a kind of solar event.", "fol": "", "prediction": ["SolarEvent(solar_flare)"]}
+{"id": "entailmentbank_validation_93", "nl": "a solar prominence is a kind of solar event.", "fol": "", "prediction": ["SolarEvent(solar_prominence)"]}
+{"id": "entailmentbank_validation_94", "nl": "using a telescope to photograph a solar prominence and a solar flare requires a light filter.", "fol": "", "prediction": ["PhotographWithTelescope(solar_flare) & PhotographWithTelescope(solar_prominence) -> RequiresLightFilter(solar_flare) & RequiresLightFilter(solar_prominence)"]}
+{"id": "entailmentbank_validation_95", "nl": "if something is required for something else then that something allows that something else.", "fol": "", "prediction": ["all x y. (RequiredFor(x, y) -> Allows(x, y))"]}
+{"id": "entailmentbank_validation_96", "nl": "detailed observation of celestial objects requires a telescope.", "fol": "", "prediction": ["RequiredFor(telescope, detailedObservationOfCelestialObjects)"]}
+{"id": "entailmentbank_validation_97", "nl": "telescopes allow the detailed observation of celestial objects.", "fol": "", "prediction": ["all y. (Planet(y) -> CelestialObject(y))  "]}
+{"id": "entailmentbank_validation_98", "nl": "a planet is a kind of celestial object / celestial body.", "fol": "", "prediction": ["Telescope(z)  "]}
+{"id": "entailmentbank_validation_99", "nl": "telescopes allow the detailed observation of planets.", "fol": "", "prediction": ["AllowsDetailedObservationOf(z, Planet)"]}
+{"id": "entailmentbank_validation_100", "nl": "gravity causes orbits.", "fol": "", "prediction": ["Causes(gravity, orbit)"]}
+{"id": "entailmentbank_validation_101", "nl": "gravity causes the earth to revolve around the sun.", "fol": "", "prediction": ["Causes(gravity, Revolve(earth, sun))"]}
+{"id": "entailmentbank_validation_102", "nl": "the moon orbits the earth.", "fol": "", "prediction": ["Orbits(moon, earth)"]}
+{"id": "entailmentbank_validation_103", "nl": "gravity causes the moon to orbit the earth.", "fol": "", "prediction": ["Causes(gravity, Orbit(moon, earth))"]}
+{"id": "entailmentbank_validation_104", "nl": "gravity causes both the orbit of the earth around the sun and the orbit of the moon around the earth.", "fol": "", "prediction": ["Causes(gravity, Orbit(moon, earth) & Revolve(earth, sun))"]}
+{"id": "entailmentbank_validation_105", "nl": "spring tide is when the distance between high tide and low tide is the greatest.", "fol": "", "prediction": ["all x. (SpringTide(x) -> GreatestTideDistance(x))"]}
+{"id": "entailmentbank_validation_106", "nl": "spring tides occur during a full moon.", "fol": "", "prediction": ["all y. (SpringTide(y) -> OccursDuringFullMoon(y))"]}
+{"id": "entailmentbank_validation_107", "nl": "the highest tides occur during a full moon.", "fol": "", "prediction": ["GreatestTideDistance(z) & OccursDuringFullMoon(z)"]}
+{"id": "entailmentbank_validation_108", "nl": "marine fossils means fossils of marine animals.", "fol": "", "prediction": ["all x. (MarineFossil(x) -> FossilOfMarineAnimal(x))"]}
+{"id": "entailmentbank_validation_109", "nl": "marine animals are water animals.", "fol": "", "prediction": ["all y. (MarineAnimal(y) -> WaterAnimal(y))"]}
+{"id": "entailmentbank_validation_110", "nl": "marine fossils are fossils of water animals.", "fol": "", "prediction": ["MarineFossil(x) -> FossilOfWaterAnimal(x)"]}
+{"id": "entailmentbank_validation_111", "nl": "marine fossils are found in mountains.", "fol": "", "prediction": ["MarineFossil(y) -> FoundInMountains(y)"]}
+{"id": "entailmentbank_validation_112", "nl": "fossils of water animals are found in mountains.", "fol": "", "prediction": ["exists x. (Fossil(x) & WaterAnimal(x) & FoundIn(x, mountains))"]}
+{"id": "entailmentbank_validation_113", "nl": "if fossils of a water animal or plant are found in a place then that place used to be covered by water in the past.", "fol": "", "prediction": ["all y. ((Fossil(y) & (WaterAnimal(y) | WaterPlant(y)) & FoundIn(y, z)) -> UsedToBeCoveredByWater(z))"]}
+{"id": "entailmentbank_validation_114", "nl": "the mountains used to be covered by water in the past.", "fol": "", "prediction": ["CoverByWaterInPast(mountains)"]}
+{"id": "entailmentbank_validation_115", "nl": "a mountain is a kind of environment.", "fol": "", "prediction": ["all x. (Mountain(x) -> Environment(x))"]}
+{"id": "entailmentbank_validation_116", "nl": "if something used to be in the past then that something has changed.", "fol": "", "prediction": ["all y. (UsedInPast(y) -> Changed(y))"]}
+{"id": "entailmentbank_validation_117", "nl": "a body of water is a kind of environment.", "fol": "", "prediction": ["all z. (BodyOfWater(z) -> Environment(z))"]}
+{"id": "entailmentbank_validation_118", "nl": "the environment has changed from a body of water to mountains.", "fol": "", "prediction": ["ChangedFromTo(environment, water, mountains)"]}
+{"id": "entailmentbank_validation_119", "nl": "environments are found on the crustal surface of earth.", "fol": "", "prediction": ["all x. (Environment(x) -> FoundOnCrustalSurface(x))"]}
+{"id": "entailmentbank_validation_120", "nl": "the environments on the crustal surface of earth have changed from a body of water to mountains.", "fol": "", "prediction": ["ChangedFromTo(x, water, mountains) & FoundOnCrustalSurface(x)"]}
+{"id": "entailmentbank_validation_121", "nl": "organisms remains can be preserved in sedimentary rock.", "fol": "", "prediction": ["exists x. (OrganismRemains(x) & PreservedInSedimentaryRock(x))"]}
+{"id": "entailmentbank_validation_122", "nl": "fossils are the remains of organisms or part of organisms.", "fol": "", "prediction": ["all y. ((Fossil(y) -> OrganismRemains(y)) | PartOfOrganism(y))"]}
+{"id": "entailmentbank_validation_123", "nl": "fossils are mostly found in sedimentary rock.", "fol": "", "prediction": ["exists z. (Fossil(z) & PreservedInSedimentaryRock(z))"]}
+{"id": "entailmentbank_validation_124", "nl": "a mineral usually has a crystal structure.", "fol": "", "prediction": ["all x. (Mineral(x) -> UsuallyHasCrystalStructure(x))"]}
+{"id": "entailmentbank_validation_125", "nl": "a quartz is made of six-sided transparent crystals.", "fol": "", "prediction": ["Quartz(quartz) & MadeOfSixSidedTransparentCrystals(quartz)"]}
+{"id": "entailmentbank_validation_126", "nl": "quartz is a kind of mineral.", "fol": "", "prediction": ["Mineral(quartz)"]}
+{"id": "entailmentbank_validation_127", "nl": "different classes of rocks are formed by different methods.", "fol": "", "prediction": ["all x. (DifferentClass(x) -> FormedByDifferentMethod(x))"]}
+{"id": "entailmentbank_validation_128", "nl": "class is a measure of how a rock is formed.", "fol": "", "prediction": ["all y. (Class(y) -> MeasureOfFormation(y))"]}
+{"id": "entailmentbank_validation_129", "nl": "the method by which a rock is formed can be used to classify rocks.", "fol": "", "prediction": ["OriginOf(rocks, rock)"]}
+{"id": "entailmentbank_validation_130", "nl": "the origin of a rock means the method by which a rock is formed.", "fol": "", "prediction": ["all y. (MethodFormed(y, rock) -> CanClassify(y, rock))"]}
+{"id": "entailmentbank_validation_131", "nl": "the origin of rocks can be used to classify rocks.", "fol": "", "prediction": ["CanClassify(rocks, rock)"]}
+{"id": "entailmentbank_validation_132", "nl": "rock formation can be used to study the history of rocks on earth.", "fol": "", "prediction": ["all x. (RockFormation(x) -> CanBeUsedToStudyHistoryOfRocksOnEarth(x))"]}
+{"id": "entailmentbank_validation_133", "nl": "the formation of something is a kind of process.", "fol": "", "prediction": ["all y. (FormationOf(y) -> Process(y))"]}
+{"id": "entailmentbank_validation_134", "nl": "studying rock formations can mean studying the history and processes of earth.", "fol": "", "prediction": ["StructuralGeologist(x)"]}
+{"id": "entailmentbank_validation_135", "nl": "structural geologists study rock formations.", "fol": "", "prediction": ["all y. (StudiesRockFormations(y) -> StudiesHistoryProcessesEarth(y))"]}
+{"id": "entailmentbank_validation_136", "nl": "structural geologists study the history and processes of earth.", "fol": "", "prediction": ["all x. (StructuralGeologist(x) -> StudiesEarthHistoryAndProcesses(x))"]}
+{"id": "entailmentbank_validation_137", "nl": "how earth's environment changed is a part of the history of earth's environment.", "fol": "", "prediction": ["all x. (ChangedEnvironment(x) -> PartOfHistory(x))"]}
+{"id": "entailmentbank_validation_138", "nl": "fossils can be used to study the history of organisms and environments on earth.", "fol": "", "prediction": ["all y. (Fossil(y) -> StudyHistory(y))"]}
+{"id": "entailmentbank_validation_139", "nl": "studying fossils in rock formations can mean studying the history and processes of earth.", "fol": "", "prediction": ["all x. (StudiesFossilsInRockFormations(x) -> StudiesHistoryAndProcessesOfEarth(x))"]}
+{"id": "entailmentbank_validation_140", "nl": "paleontologists study fossils in rock formations.", "fol": "", "prediction": ["StudiesFossilsInRockFormations(paleontologists)"]}
+{"id": "entailmentbank_validation_141", "nl": "paleontologists study the history and processes of earth.", "fol": "", "prediction": ["all y. (Paleontologist(y) -> StudiesEarthHistoryAndProcesses(y))"]}
+{"id": "entailmentbank_validation_142", "nl": "structural geologists and paleontologists both study the history and processes of earth.", "fol": "", "prediction": ["all z. ((StructuralGeologist(z) | Paleontologist(z)) -> StudiesEarthHistoryAndProcesses(z))"]}
+{"id": "entailmentbank_validation_143", "nl": "metamorphic rocks do not contain fossils.", "fol": "", "prediction": ["-RockContainsFossils(x) -> MetamorphicRock(x)"]}
+{"id": "entailmentbank_validation_144", "nl": "nearly all fossils are found in sedimentary rock.", "fol": "", "prediction": ["all y. (Fossil(y) -> FoundInSedimentaryRock(y))"]}
+{"id": "entailmentbank_validation_145", "nl": "fossils are lost / destroyed when sedimentary rock changes to metamorphic rock.", "fol": "", "prediction": ["all y. (ChangesToMetamorphic(y) -> DestroyedInTransition(y))"]}
+{"id": "entailmentbank_validation_146", "nl": "if fossils are destroyed in rock transition, then there will be gaps in the fossil record.", "fol": "", "prediction": ["all x. (DestroyedInTransition(x) -> GapsInRecord(x))"]}
+{"id": "entailmentbank_validation_147", "nl": "sedimentary rock changing to metamorphic rock causes gaps in the fossil record.", "fol": "", "prediction": ["ChangesToMetamorphic(z) -> GapsInRecord(z)"]}
+{"id": "entailmentbank_validation_148", "nl": "heat is a kind of energy.", "fol": "", "prediction": ["all x. (MetamorphicRock(x) -> (Rock(x) & ExposedToHeatPressure(x)))"]}
+{"id": "entailmentbank_validation_149", "nl": "metamorphic rocks are formed by rocks being exposed to extreme heat and pressure.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_150", "nl": "heat energy can change igneous rock into metamorphic rock.", "fol": "", "prediction": ["all y. (IgneousRock(y) -> MetamorphicRock(y))"]}
+{"id": "entailmentbank_validation_151", "nl": "a tree is a kind of habitat.", "fol": "", "prediction": ["Tree(x) -> Habitat(x)"]}
+{"id": "entailmentbank_validation_152", "nl": "cutting down trees in a forest causes the number of trees to decrease in that forest.", "fol": "", "prediction": ["all x. (CuttingDownTreesInForest(x) -> DecreasesNumberOfTreesInForest(x))"]}
+{"id": "entailmentbank_validation_153", "nl": "cutting down trees in a forest causes the number of habitat to decrease.", "fol": "", "prediction": ["CuttingDownTrees() -> DecreaseInHabitats()"]}
+{"id": "entailmentbank_validation_154", "nl": "an animal requires a habitat for survival.", "fol": "", "prediction": ["all x. (Animal(x) -> RequiresHabitatForSurvival(x))"]}
+{"id": "entailmentbank_validation_155", "nl": "cutting down trees in a forest causes the number of habitat required by animals for survival to decrease.", "fol": "", "prediction": ["CuttingDownTrees() -> DecreaseInHabitats()"]}
+{"id": "entailmentbank_validation_156", "nl": "humans changing ecosystems usually has a negative impact on an ecosystem / organisms living in an ecosystem.", "fol": "", "prediction": ["all y. (HumansBuildingHomes(y) -> HumansChangingEcosystem(y))"]}
+{"id": "entailmentbank_validation_157", "nl": "humans building homes in an ecosystem causes that ecosystem to change.", "fol": "", "prediction": ["HumansBuildingHomes(z)"]}
+{"id": "entailmentbank_validation_158", "nl": "humans building homes in an ecosystem has a negative impact on an ecosystem and organisms living in the ecosystem.", "fol": "", "prediction": ["BuildsHomesInEcosystem(humans)"]}
+{"id": "entailmentbank_validation_159", "nl": "a wetland is a kind of ecosystem.", "fol": "", "prediction": ["all y. (BuildsHomesInEcosystem(y) -> NegativeImpact(y))"]}
+{"id": "entailmentbank_validation_160", "nl": "humans building homes in a wetland has a negative impact on a wetland and organisms living in the wetland.", "fol": "", "prediction": ["NegativeImpact(humans)"]}
+{"id": "entailmentbank_validation_161", "nl": "if an animal eats other animals for food, then the animal will be the predator.", "fol": "", "prediction": ["all x. (EatsAnimalsForFood(x) -> Predator(x))  "]}
+{"id": "entailmentbank_validation_162", "nl": "tuna eat fish.", "fol": "", "prediction": ["EatsAnimalsForFood(tuna)  "]}
+{"id": "entailmentbank_validation_163", "nl": "tuna is a kind of predator.", "fol": "", "prediction": ["Predator(tuna)  "]}
+{"id": "entailmentbank_validation_164", "nl": "tuna is a kind of fish.", "fol": "", "prediction": ["Fish(tuna)  "]}
+{"id": "entailmentbank_validation_165", "nl": "tuna is a kind of predatory fish.", "fol": "", "prediction": ["PredatoryFish(tuna)"]}
+{"id": "entailmentbank_validation_166", "nl": "commercial harvesting from the ocean has caused populations of large predatory fish to decrease.", "fol": "", "prediction": ["all x. (CommercialHarvestingFromOcean(x) -> PopulationDecrease(LargePredatoryFish(x)))"]}
+{"id": "entailmentbank_validation_167", "nl": "commercial harvesting from the ocean has caused the populations of tuna to decrease.", "fol": "", "prediction": ["CommercialHarvestingFromOcean(tuna) -> PopulationDecrease(tuna)"]}
+{"id": "entailmentbank_validation_168", "nl": "an organism becoming extinct causes a change in the organism's food web.", "fol": "", "prediction": ["all x. (BecomingExtinct(x) -> ChangeInFoodWeb(x))"]}
+{"id": "entailmentbank_validation_169", "nl": "a change in a food web can cause damage to an ecosystem.", "fol": "", "prediction": ["all y. (ChangeInFoodWeb(y) -> DamageToEcosystem(y))"]}
+{"id": "entailmentbank_validation_170", "nl": "extinctions of organisms can cause damage to an ecosystem by changing the food web.", "fol": "", "prediction": ["exists z. (BecomingExtinct(z) -> DamageToEcosystem(z))"]}
+{"id": "entailmentbank_validation_171", "nl": "california is located on the boundary of two tectonic plates.", "fol": "", "prediction": ["LocatedOnBoundary(california)"]}
+{"id": "entailmentbank_validation_172", "nl": "earthquakes are most common along tectonic plate boundaries.", "fol": "", "prediction": ["all x. (LocatedOnBoundary(x) -> CommonEarthquakes(x))"]}
+{"id": "entailmentbank_validation_173", "nl": "massachusetts is not located on the boundary of two tectonic plates.", "fol": "", "prediction": ["-LocatedOnBoundary(massachusetts)"]}
+{"id": "entailmentbank_validation_174", "nl": "earthquakes are more likely to occur in california than in massachusetts.", "fol": "", "prediction": ["MoreLikelyEarthquakes(california, massachusetts)"]}
+{"id": "entailmentbank_validation_175", "nl": "the oceanic plate is a kind of tectonic plate.", "fol": "", "prediction": ["all y. (Subduction(y) & TectonicPlate(y) -> MayCauseMagma(y))  "]}
+{"id": "entailmentbank_validation_176", "nl": "the subduction of tectonic plates may cause magma to surface from underneath.", "fol": "", "prediction": ["Subduction(z) & OceanicPlate(z)  "]}
+{"id": "entailmentbank_validation_177", "nl": "the subduction of an oceanic plate may cause magma to surface from underneath.", "fol": "", "prediction": ["all x. (Subduction(x) -> MayCauseSurfaceMagma(x))"]}
+{"id": "entailmentbank_validation_178", "nl": "magma cools down when it comes to the surface from underneath.", "fol": "", "prediction": ["all y. (SurfaceMagma(y) -> CoolsDown(y))"]}
+{"id": "entailmentbank_validation_179", "nl": "the subduction of an oceanic plate will cause magma to surface and cool down.", "fol": "", "prediction": ["Subduction(oceanic_plate) -> (MagmaSurfacing(oceanic_plate) & Cooling(oceanic_plate))"]}
+{"id": "entailmentbank_validation_180", "nl": "magma cooling can form volcanic mountains.", "fol": "", "prediction": ["all x. (MagmaCooling(x) -> FormVolcanicMountains(x))"]}
+{"id": "entailmentbank_validation_181", "nl": "the subduction of an oceanic plate can form volcanic mountians.", "fol": "", "prediction": ["FormVolcanicMountains(oceanic_plate)"]}
+{"id": "entailmentbank_validation_182", "nl": "emitting sulfur dioxide causes acid rain.", "fol": "", "prediction": ["Causes(EmittingSulfurDioxide, AcidRain)"]}
+{"id": "entailmentbank_validation_183", "nl": "volcanic ash in the atmosphere decreases the temperature by blocking the sun.", "fol": "", "prediction": ["Causes(VolcanicAshInAtmosphere, DecreaseTemperature)"]}
+{"id": "entailmentbank_validation_184", "nl": "an erupting volcano releases sulfur gas and ash into the atmosphere.", "fol": "", "prediction": ["Releases(EruptingVolcano, SulfurGasAndAsh)"]}
+{"id": "entailmentbank_validation_185", "nl": "a volcanic eruption can cause acid rain and decrease the temperature.", "fol": "", "prediction": ["all x. (VolcanicEruption(x) -> (Causes(AcidRain(x)) & DecreasesTemperature(x)))  "]}
+{"id": "entailmentbank_validation_186", "nl": "europe was unusally cold and had acid rain in 1783.", "fol": "", "prediction": ["Cold(europe, 1783) & AcidRain(europe, 1783)  "]}
+{"id": "entailmentbank_validation_187", "nl": "a volcanic eruption may have happened to cause the cold weather and acid rain.", "fol": "", "prediction": ["exists y. (VolcanicEruption(y) & Causes(AcidRain(y)) & DecreasesTemperature(y))  "]}
+{"id": "entailmentbank_validation_188", "nl": "the earth's atmosphere is made of 78 percent nitrogen by mass.", "fol": "", "prediction": ["MadeOf(earths_atmosphere, nitrogen, 78)"]}
+{"id": "entailmentbank_validation_189", "nl": "most means over 50% of something.", "fol": "", "prediction": ["all x. (OverFiftyPercent(x) -> Most(x))"]}
+{"id": "entailmentbank_validation_190", "nl": "the earth's atmosphere is made of mostly nitrogen.", "fol": "", "prediction": ["MadeOfMostly(earths_atmosphere, nitrogen)"]}
+{"id": "entailmentbank_validation_191", "nl": "oceans cover 70% of the surface of the earth.", "fol": "", "prediction": ["Covers(oceans, SeventyPercentOfSurface)"]}
+{"id": "entailmentbank_validation_192", "nl": "oceans cover most of earth's surface.", "fol": "", "prediction": ["all y. (Ocean(y) -> CoversMostOfEarth(y))"]}
+{"id": "entailmentbank_validation_193", "nl": "an ocean is a kind of body of water.", "fol": "", "prediction": ["all x. (Ocean(x) -> BodyOfWater(x))"]}
+{"id": "entailmentbank_validation_194", "nl": "water covers most of earth's surface.", "fol": "", "prediction": ["exists z. (BodyOfWater(z) & CoversMostOfEarth(z))"]}
+{"id": "entailmentbank_validation_195", "nl": "oceans contain most of earth's water.", "fol": "", "prediction": ["all y. (Water(y) -> MadeOf(y, Hydrogen) & MadeOf(y, Oxygen))"]}
+{"id": "entailmentbank_validation_196", "nl": "water is made of hydrogen and oxygen.", "fol": "", "prediction": ["MadeOf(water, hydrogen, oxygen)"]}
+{"id": "entailmentbank_validation_197", "nl": "ocean water is made of hydrogen and oxygen.", "fol": "", "prediction": ["MadeOf(ocean_water, hydrogen) & MadeOf(ocean_water, oxygen)"]}
+{"id": "entailmentbank_validation_198", "nl": "oxygen is more common than hydrogen on earth.", "fol": "", "prediction": ["Common(oxygen, earth) & MoreCommon(oxygen, hydrogen, earth)"]}
+{"id": "entailmentbank_validation_199", "nl": "oxygen is the most common element found in the compounds that make up ocean water.", "fol": "", "prediction": ["MostCommon(oxygen, ocean_water)"]}
+{"id": "entailmentbank_validation_200", "nl": "if something is permeable, then the water will flow through something easily.", "fol": "", "prediction": ["all x. (Permeable(x) -> WaterFlowsThroughEasily(water, x))"]}
+{"id": "entailmentbank_validation_201", "nl": "soil is permeable.", "fol": "", "prediction": ["Permeable(soil)"]}
+{"id": "entailmentbank_validation_202", "nl": "water will flow through soil easily.", "fol": "", "prediction": ["WaterFlowsThroughEasily(water, soil)"]}
+{"id": "entailmentbank_validation_203", "nl": "color of the soil can be used to indicate the soil component.", "fol": "", "prediction": ["all x. (Color(x) -> IndicatesSoilComponent(x))"]}
+{"id": "entailmentbank_validation_204", "nl": "high humus content causes the soil to be brown.", "fol": "", "prediction": ["all y. (HighHumusContent(y) -> Brown(y))"]}
+{"id": "entailmentbank_validation_205", "nl": "brown is a kind of color.", "fol": "", "prediction": ["Brown = Color"]}
+{"id": "entailmentbank_validation_206", "nl": "if the soil has high humus content, then the soil will be brown in color.", "fol": "", "prediction": ["all z. (HighHumusContent(z) -> Color(z))"]}
+{"id": "entailmentbank_validation_207", "nl": "mountains can cause the water in the air mass to condense.", "fol": "", "prediction": ["all y. (Mountain(y) -> GeographicObstacle(y))"]}
+{"id": "entailmentbank_validation_208", "nl": "mountain is a kind of geographic obstacles.", "fol": "", "prediction": ["Mountain(z)"]}
+{"id": "entailmentbank_validation_209", "nl": "mountain is the geographic obstacle that can cause the water in the air mass to condense.", "fol": "", "prediction": ["GeographicObstacle(z) & CauseCondense(z, WaterInAirMass)"]}
+{"id": "entailmentbank_validation_210", "nl": "if something causes a process then that something is required for that process.", "fol": "", "prediction": ["all x y. (Causes(x, y) -> RequiredFor(x, y))"]}
+{"id": "entailmentbank_validation_211", "nl": "condensation causes clouds to form.", "fol": "", "prediction": ["Causes(condensation, cloudsForm)"]}
+{"id": "entailmentbank_validation_212", "nl": "condensation is required for clouds to form.", "fol": "", "prediction": ["RequiredFor(condensation, cloudsForm)"]}
+{"id": "entailmentbank_validation_213", "nl": "erosion is when wind transports sediments from one place to another place for a long distance.", "fol": "", "prediction": ["all x. (ErosionOf(x, y, z) -> WindTransports(x, y, z))"]}
+{"id": "entailmentbank_validation_214", "nl": "sand dunes / arches are formed by the wind transporting and depositing sand.", "fol": "", "prediction": ["all a. (SandDune(a) | Arch(a) -> FormedBy(a, WindTransport))"]}
+{"id": "entailmentbank_validation_215", "nl": "wind erosion can form sand dunes and arches.", "fol": "", "prediction": ["FormedBy(SandDune(x), WindErosion) & FormedBy(Arch(y), WindErosion)"]}
+{"id": "entailmentbank_validation_216", "nl": "rain causes erosion.", "fol": "", "prediction": ["all x. (Rain(x) -> CausesErosion(x))"]}
+{"id": "entailmentbank_validation_217", "nl": "erosion sometimes decreases the amount of nutrients in soil.", "fol": "", "prediction": ["exists y. (Erosion(y) & DecreasesNutrients(y))"]}
+{"id": "entailmentbank_validation_218", "nl": "rain can decrease the amount of nutrients in soil.", "fol": "", "prediction": ["exists z. (Rain(z) -> DecreasesNutrients(z))"]}
+{"id": "entailmentbank_validation_219", "nl": "as the availability of water decreases, the environment will become more dry.", "fol": "", "prediction": ["all x. (DecreasesWater(x) -> BecomesDry(x))"]}
+{"id": "entailmentbank_validation_220", "nl": "drought is when available water decreases in an environment.", "fol": "", "prediction": ["all y. (Drought(y) -> WaterDecreasesInEnvironment(y))"]}
+{"id": "entailmentbank_validation_221", "nl": "drought causes the environment to be dry.", "fol": "", "prediction": ["Causes(drought, DryEnvironment)"]}
+{"id": "entailmentbank_validation_222", "nl": "dry conditions can cause fire.", "fol": "", "prediction": ["Causes(DryEnvironment, Fire)"]}
+{"id": "entailmentbank_validation_223", "nl": "drought may cause wildfires.", "fol": "", "prediction": ["Drought(x) -> MayCauseWildfires(x)"]}
+{"id": "entailmentbank_validation_224", "nl": "a prairie is a kind of ecosystem.", "fol": "", "prediction": ["Prairie(y) -> Ecosystem(y)"]}
+{"id": "entailmentbank_validation_225", "nl": "drought may cause wildfires to a prairie.", "fol": "", "prediction": ["Drought(prairie) -> MayCauseWildfires(prairie)"]}
+{"id": "entailmentbank_validation_226", "nl": "a barometer is a kind of instrument.", "fol": "", "prediction": ["all x. (Barometer(x) -> Instrument(x))"]}
+{"id": "entailmentbank_validation_227", "nl": "a barometer is used to measure air pressure.", "fol": "", "prediction": ["all y. (Barometer(y) -> MeasuresAirPressure(y))"]}
+{"id": "entailmentbank_validation_228", "nl": "a barometer is an instrument used to measure air pressure.", "fol": "", "prediction": ["Instrument(barometer) & MeasuresAirPressure(barometer)"]}
+{"id": "entailmentbank_validation_229", "nl": "a property is a kind of information.", "fol": "", "prediction": ["all x. (Property(x) -> Information(x))"]}
+{"id": "entailmentbank_validation_230", "nl": "temperature is a property of weather.", "fol": "", "prediction": ["Property(temperature) & Weather(weather)"]}
+{"id": "entailmentbank_validation_231", "nl": "temperature is a kindof information about weather.", "fol": "", "prediction": ["KindOf(temperature, informationAboutWeather)"]}
+{"id": "entailmentbank_validation_232", "nl": "a thermometer is used to measure temperature.", "fol": "", "prediction": ["Measures(thermometer, temperature)"]}
+{"id": "entailmentbank_validation_233", "nl": "a thermometer is used to measure the information about weather on temperature.", "fol": "", "prediction": ["Measures(thermometer, informationAboutWeather)"]}
+{"id": "entailmentbank_validation_234", "nl": "wind direction is a property of weather.", "fol": "", "prediction": ["Property(wind_direction) & Weather(weather)"]}
+{"id": "entailmentbank_validation_235", "nl": "wind direction is a kind of information about weather.", "fol": "", "prediction": ["all y. ((StationModel(y) & ParticularPoint(y) & ParticularTime(y)) -> DisplaysWeatherInfo(y))"]}
+{"id": "entailmentbank_validation_236", "nl": "a station model is used for displaying information about weather in a particular point and time.", "fol": "", "prediction": ["WindDirection(wind) & ParticularPoint(point) & ParticularTime(time)"]}
+{"id": "entailmentbank_validation_237", "nl": "wind direction in a particular point and time is displayed in a station model.", "fol": "", "prediction": ["DisplaysStationModel(wind, point, time)"]}
+{"id": "entailmentbank_validation_238", "nl": "sleet is a kind of precipitation.", "fol": "", "prediction": ["Kind(sleet, precipitation)  "]}
+{"id": "entailmentbank_validation_239", "nl": "hail is a kind of precipitation.", "fol": "", "prediction": ["Kind(hail, precipitation)  "]}
+{"id": "entailmentbank_validation_240", "nl": "hail and sleet are different kinds of precipitation.", "fol": "", "prediction": ["DifferentKind(hail, sleet)"]}
+{"id": "entailmentbank_validation_241", "nl": "when one kind of energy changes into another kind of energy, the total amount of energy is constant.", "fol": "", "prediction": ["all x. (ChangesIntoAnother(x) -> TotalEnergyConstant)"]}
+{"id": "entailmentbank_validation_242", "nl": "energy transformation means one kind of energy changes into another kind of energy.", "fol": "", "prediction": ["all y. (EnergyTransformation(y) -> ChangesIntoAnother(y))"]}
+{"id": "entailmentbank_validation_243", "nl": "when energy transformation happens, the total amount of energy is constant.", "fol": "", "prediction": ["all x. (EnergyTransformation(x) -> ConstantEnergy(x))  "]}
+{"id": "entailmentbank_validation_244", "nl": "energy transformation means energy conversion.", "fol": "", "prediction": ["all y. (EnergyTransformation(y) <-> EnergyConversion(y))  "]}
+{"id": "entailmentbank_validation_245", "nl": "when energy conversion happens, the total amount of energy is constant.", "fol": "", "prediction": ["all z. (EnergyConversion(z) -> ConstantEnergy(z))  "]}
+{"id": "entailmentbank_validation_246", "nl": "solid is a kind of state of matter.", "fol": "", "prediction": ["all x. (Solid(x) -> StateOfMatter(x))"]}
+{"id": "entailmentbank_validation_247", "nl": "heat energy can change the state of matter.", "fol": "", "prediction": ["all y. (HeatEnergy(y) -> CanChangeStateOfMatter(y))"]}
+{"id": "entailmentbank_validation_248", "nl": "liquid is a kind of state of matter.", "fol": "", "prediction": ["all z. (Liquid(z) -> StateOfMatter(z))"]}
+{"id": "entailmentbank_validation_249", "nl": "heat can change a substance from a solid to liquid.", "fol": "", "prediction": ["all y. (Heat(y) -> ChangesSolidToLiquid(y))"]}
+{"id": "entailmentbank_validation_250", "nl": "melting means a substance changes from a solid into a liquid by increasing heat energy.", "fol": "", "prediction": ["all x. (Melting(x) -> ChangesSolidToLiquid(x))"]}
+{"id": "entailmentbank_validation_251", "nl": "heat can cause a solid substance to melt.", "fol": "", "prediction": ["all x. (Solid(x) -> CanMeltWithHeat(x))"]}
+{"id": "entailmentbank_validation_252", "nl": "ice is a kind of solid.", "fol": "", "prediction": ["Solid(ice)"]}
+{"id": "entailmentbank_validation_253", "nl": "heat can cause ice to melt.", "fol": "", "prediction": ["all x. (Heat(x) -> CausesToMeltIce(x))"]}
+{"id": "entailmentbank_validation_254", "nl": "the sun is a source of radiation / heat called sunlight.", "fol": "", "prediction": ["RadiationFrom(sun, sunlight) & Heat(sunlight)"]}
+{"id": "entailmentbank_validation_255", "nl": "the heat energy from the sunlight cause ice to melt.", "fol": "", "prediction": ["CausesToMeltIce(sunlight)"]}
+{"id": "entailmentbank_validation_256", "nl": "a wagon is a kind of vehicle.", "fol": "", "prediction": ["all y. (Vehicle(y) -> Object(y))"]}
+{"id": "entailmentbank_validation_257", "nl": "a vehicle is a kind of object.", "fol": "", "prediction": ["Wagon(w)"]}
+{"id": "entailmentbank_validation_258", "nl": "a wagon is a kind of object.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_259", "nl": "rolling is a kind of motion.", "fol": "", "prediction": ["Object(wagon)"]}
+{"id": "entailmentbank_validation_260", "nl": "a wagon rolling is an example of an object in motion.", "fol": "", "prediction": ["WagonRolling(w)"]}
+{"id": "entailmentbank_validation_261", "nl": "an example of mechanical energy is an object in motion.", "fol": "", "prediction": ["WagonRolling(w) -> ObjectInMotion(w)"]}
+{"id": "entailmentbank_validation_262", "nl": "a wagon rolling is an example of mechanical energy.", "fol": "", "prediction": ["ExampleOfMechanicalEnergy(w)"]}
+{"id": "entailmentbank_validation_263", "nl": "loud means high in sound energy / sound intensity.", "fol": "", "prediction": ["Loud(x) -> HighSoundEnergy(x)"]}
+{"id": "entailmentbank_validation_264", "nl": "sound is a kind of energy.", "fol": "", "prediction": ["Sound(y) -> Energy(y)"]}
+{"id": "entailmentbank_validation_265", "nl": "a classroom is a kind of area.", "fol": "", "prediction": ["Classroom(z) -> Area(z)"]}
+{"id": "entailmentbank_validation_266", "nl": "the sound in a loud class room is an example of high sound energy.", "fol": "", "prediction": ["exists w. (Sound(w) & Loud(w) & HighSoundEnergy(w))"]}
+{"id": "entailmentbank_validation_267", "nl": "if an object / something is in the sunlight then that object / that something will absorb solar energy.", "fol": "", "prediction": ["all x. (InSunlight(x) -> AbsorbsSolarEnergy(x))"]}
+{"id": "entailmentbank_validation_268", "nl": "a sidewalk is located outside.", "fol": "", "prediction": ["InSunlight(sidewalk)"]}
+{"id": "entailmentbank_validation_269", "nl": "a sidewalk located outside will absorb solar energy.", "fol": "", "prediction": ["AbsorbsSunlight(sidewalk)"]}
+{"id": "entailmentbank_validation_270", "nl": "absorbing sunlight causes objects to heat.", "fol": "", "prediction": ["all x. (AbsorbsSunlight(x) -> Heats(x))"]}
+{"id": "entailmentbank_validation_271", "nl": "the sidewalk located outsie will heat.", "fol": "", "prediction": ["Heats(sidewalk)"]}
+{"id": "entailmentbank_validation_272", "nl": "if something heat, it will feel hot.", "fol": "", "prediction": ["all x. (Heats(x) -> FeelsHot(x))"]}
+{"id": "entailmentbank_validation_273", "nl": "the sidewalk located outside will feel hot.", "fol": "", "prediction": ["FeelsHot(sidewalk)"]}
+{"id": "entailmentbank_validation_274", "nl": "there is a person in a dark room looking out a window in the day.", "fol": "", "prediction": ["exists x. (Person(x) & InDarkRoom(x) & LooksOutWindow(x) & InDay(x))"]}
+{"id": "entailmentbank_validation_275", "nl": "if something is in a dark place, then that something will not reflect enough light to be seen.", "fol": "", "prediction": ["all y. (InDarkPlace(y) -> -ReflectsEnoughLightToBeSeen(y))"]}
+{"id": "entailmentbank_validation_276", "nl": "the person in the dark room will not reflect enough light to be seen.", "fol": "", "prediction": ["all x. (InDarkRoom(x) -> -ReflectsEnoughLight(x))"]}
+{"id": "entailmentbank_validation_277", "nl": "there is a person outside in the day looking into the dark room.", "fol": "", "prediction": ["exists y. (OutsideInDay(y) & LooksIntoDarkRoom(y))"]}
+{"id": "entailmentbank_validation_278", "nl": "the person outside cannot see the person in the dark room.", "fol": "", "prediction": ["OutsideInDay(y) -> -CanSeePerson(y, x)"]}
+{"id": "entailmentbank_validation_279", "nl": "a prism refracts light.", "fol": "", "prediction": ["Refracts(prism, light)"]}
+{"id": "entailmentbank_validation_280", "nl": "refracting sunlight / light causes sunlight / light to split into different colors.", "fol": "", "prediction": ["RefractionCausesSplit(light)"]}
+{"id": "entailmentbank_validation_281", "nl": "a prism can refract light and split the light into different colors.", "fol": "", "prediction": ["exists x. (Prism(x) & RefractsLight(x) & SplitsLightIntoColors(x))"]}
+{"id": "entailmentbank_validation_282", "nl": "white light is made of all colors of visible light combined.", "fol": "", "prediction": ["WhiteLight(light) & MadeOfAllColors(light)"]}
+{"id": "entailmentbank_validation_283", "nl": "a prism can refract white light and split the light into all colors of visible light.", "fol": "", "prediction": ["exists y. (Prism(y) & RefractsLight(y) & SplitsLightIntoColors(y) & WhiteLight(y))"]}
+{"id": "entailmentbank_validation_284", "nl": "a vacuum has no matter in it.", "fol": "", "prediction": ["-Vacuum(x) -> NoMatter(x)"]}
+{"id": "entailmentbank_validation_285", "nl": "sound requires matter to travel.", "fol": "", "prediction": ["all y. (Sound(y) -> RequiresMatter(y))"]}
+{"id": "entailmentbank_validation_286", "nl": "sound cannot travel through a vacuum.", "fol": "", "prediction": ["all x. (Vacuum(x) -> -exists y. (Sound(y) & TravelsThrough(y, x)))"]}
+{"id": "entailmentbank_validation_287", "nl": "metal is a thermal / thermal energy conductor.", "fol": "", "prediction": ["ThermalConductor(metal)"]}
+{"id": "entailmentbank_validation_288", "nl": "a spoon sometimes is made of metal.", "fol": "", "prediction": ["exists x. (Spoon(x) & MadeOf(x, metal))"]}
+{"id": "entailmentbank_validation_289", "nl": "a metal spoon is a thermal conductor.", "fol": "", "prediction": ["ThermalConductor(metal_spoon)"]}
+{"id": "entailmentbank_validation_290", "nl": "a hot substance is a source of heat.", "fol": "", "prediction": ["all x. (HotSubstance(x) -> SourceOfHeat(x))"]}
+{"id": "entailmentbank_validation_291", "nl": "a metal spoon is placed in a pot of hot soup.", "fol": "", "prediction": ["PlacedIn(metal_spoon, hot_soup)"]}
+{"id": "entailmentbank_validation_292", "nl": "the hot soup will be a source of heat for the metal spoon.", "fol": "", "prediction": ["HeatSource(hot_soup) & ExposedToHeatSource(metal_spoon)"]}
+{"id": "entailmentbank_validation_293", "nl": "if a thermal conductor is exposed to a source of heat, then thermal conduction will make the thermal conductor become hot.", "fol": "", "prediction": ["all x. ((ThermalConductor(x) & ExposedToHeatSource(x)) -> HeatedByConduction(x))"]}
+{"id": "entailmentbank_validation_294", "nl": "the metal spoon will be heated up by thermal conduction.", "fol": "", "prediction": ["HeatedByConduction(metal_spoon)"]}
+{"id": "entailmentbank_validation_295", "nl": "thermal conduction is when heat flows from warmer object to cooler object.", "fol": "", "prediction": ["all x. (ThermalConduction(x) -> (HeatFlowsFromWarmerToCooler(x)))"]}
+{"id": "entailmentbank_validation_296", "nl": "thermal conduction is when materials conduct heat through those materials through collision of particles.", "fol": "", "prediction": ["all y. (ThermalConduction(y) -> ConductsHeatThroughCollision(y))"]}
+{"id": "entailmentbank_validation_297", "nl": "thermal conduction is a heat exchange process involving the collision of particles.", "fol": "", "prediction": ["ThermalConduction(z) -> HeatExchangeCollision(z)"]}
+{"id": "entailmentbank_validation_298", "nl": "longitudinal waves travel through pattern of compressions and rarefactions.", "fol": "", "prediction": ["all x. (LongitudinalWave(x) -> TravelsThrough(x, CompressionsAndRarefactions))"]}
+{"id": "entailmentbank_validation_299", "nl": "compression waves produces compressions and rarefactions.", "fol": "", "prediction": ["all y. (CompressionWave(y) -> Produces(y, CompressionsAndRarefactions))"]}
+{"id": "entailmentbank_validation_300", "nl": "longitudinal waves are also called compression waves.", "fol": "", "prediction": ["all y. (LongitudinalWave(y) -> CompressionWave(y))"]}
+{"id": "entailmentbank_validation_301", "nl": "longitudinal waves cause object to move in the same direction of the wave.", "fol": "", "prediction": ["all x. (LongitudinalWave(x) -> CausesSameDirectionMovement(x))"]}
+{"id": "entailmentbank_validation_302", "nl": "compression waves cause object to move in the same direction of the wave.", "fol": "", "prediction": ["CausesSameDirectionMovement(z) <- CompressionWave(z)"]}
+{"id": "entailmentbank_validation_303", "nl": "a surface is a part of an object.", "fol": "", "prediction": ["Skidding(tire, road)"]}
+{"id": "entailmentbank_validation_304", "nl": "friction occurs when two object's surfaces move against each other.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_305", "nl": "skidding is when the tire of a vehicle slides on the road without rotating.", "fol": "", "prediction": ["KindOf(tire, object)"]}
+{"id": "entailmentbank_validation_306", "nl": "a tire is a kind of object.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_307", "nl": "skidding causes friction between the tire and the road.", "fol": "", "prediction": ["Causes(skidding, FrictionBetween(tire, road))"]}
+{"id": "entailmentbank_validation_308", "nl": "friction causes the temperature of an object to increase.", "fol": "", "prediction": ["all x. (Friction(x) -> Causes(TemperatureIncrease(object), x))"]}
+{"id": "entailmentbank_validation_309", "nl": "friction causes the temperature of the tire to increase.", "fol": "", "prediction": ["Causes(friction, TemperatureIncrease(tire))"]}
+{"id": "entailmentbank_validation_310", "nl": "if the tire overheats, some chemical in the tire will vaporized.", "fol": "", "prediction": ["all x. (Overheats(x) -> exists y. (ChemicalIn(y, x) & Vaporized(y)))"]}
+{"id": "entailmentbank_validation_311", "nl": "if the temperature of the tire keeps increasing, the tire will overheat.", "fol": "", "prediction": ["all z. (TempIncreases(z) -> Overheats(z))"]}
+{"id": "entailmentbank_validation_312", "nl": "if the temperature of the tire keeps increasing, some chemical in the tire will be vaporized.", "fol": "", "prediction": ["all x. (TemperatureIncrease(x) -> exists y. Vaporized(y, x))"]}
+{"id": "entailmentbank_validation_313", "nl": "friction causes some chemicals in the tire to vaporize.", "fol": "", "prediction": ["exists x. (ChemicalInTire(x) & Causes(friction, Vaporize(x)))"]}
+{"id": "entailmentbank_validation_314", "nl": "vaporizing a substance causes smoke.", "fol": "", "prediction": ["all y. (Vaporize(y) -> Causes(Friction, Smoke))"]}
+{"id": "entailmentbank_validation_315", "nl": "friction causes the tire to produce smoke.", "fol": "", "prediction": ["Causes(friction, Smoke)"]}
+{"id": "entailmentbank_validation_316", "nl": "as the friction increases, the resistance on the object to move will increase.", "fol": "", "prediction": ["all x. (FrictionIncreases(x) -> ResistanceIncreases(x))"]}
+{"id": "entailmentbank_validation_317", "nl": "as roughness of a surface increases, friction will increase.", "fol": "", "prediction": ["all y. (RoughnessIncreases(y) -> FrictionIncreases(y))"]}
+{"id": "entailmentbank_validation_318", "nl": "as the roughness of a surface increases, the resistance on the object to move will increase.", "fol": "", "prediction": ["all x y. ((SurfaceType(x, rough) & SurfaceType(y, smooth)) -> Resistance(x) > Resistance(y))"]}
+{"id": "entailmentbank_validation_319", "nl": "carpet has a rough surface.", "fol": "", "prediction": ["RoughSurface(carpet)"]}
+{"id": "entailmentbank_validation_320", "nl": "wood has a smooth surface.", "fol": "", "prediction": ["SurfaceType(wood, smooth)"]}
+{"id": "entailmentbank_validation_321", "nl": "the resistance on the object to move on the carpet will be larger than on the wood.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_322", "nl": "a toy car is a kind of object.", "fol": "", "prediction": ["all x. (Object(x) -> LargerResistanceOnCarpet(x, wood))"]}
+{"id": "entailmentbank_validation_323", "nl": "the resistance on the toy car to move on the carpet is larger than on the wood.", "fol": "", "prediction": ["LargerResistance(carpet, wood, toyCar)"]}
+{"id": "entailmentbank_validation_324", "nl": "as the resistance on the object to move increase, the object will move slower.", "fol": "", "prediction": ["all x y z. (LargerResistance(x, y, z) -> MovesSlower(x, y, z))"]}
+{"id": "entailmentbank_validation_325", "nl": "the toy car will move slower on the carpet than on the wood.", "fol": "", "prediction": ["MovesSlower(carpet, wood, toyCar)"]}
+{"id": "entailmentbank_validation_326", "nl": "a glider is a kind of object.", "fol": "", "prediction": ["all y. (Flying(y) -> RequiresLift(y))"]}
+{"id": "entailmentbank_validation_327", "nl": "flying an object requires lift to oppose the object's weight.", "fol": "", "prediction": ["Flying(glider)"]}
+{"id": "entailmentbank_validation_328", "nl": "flying a glider requires lift to oppose the weight of the glider.", "fol": "", "prediction": ["RequiresLift(glider)"]}
+{"id": "entailmentbank_validation_329", "nl": "pedals are part of a bicycle for pedalling.", "fol": "", "prediction": ["all x. (PartOf(x, bicycle) & ForPedalling(x) -> Pedals(x))"]}
+{"id": "entailmentbank_validation_330", "nl": "pedalling a bicycle requires moving the pedals in a circular motion.", "fol": "", "prediction": ["all y. (Pedalling(y) & Bicycle(y) -> RequiresCircularMotion(y, Pedals(y)))"]}
+{"id": "entailmentbank_validation_331", "nl": "the pedals are the part of a bicycle that moves in circular motion.", "fol": "", "prediction": ["PartOf(pedals, bicycle) & MovesInCircularMotion(pedals, bicycle)"]}
+{"id": "entailmentbank_validation_332", "nl": "north / northward is a kind of direction.", "fol": "", "prediction": ["all x. (North(x) -> Direction(x))"]}
+{"id": "entailmentbank_validation_333", "nl": "velocity is a measure of a speed in a direction.", "fol": "", "prediction": ["all y. (Velocity(y) -> (SpeedIn(y, z) & Direction(z)))"]}
+{"id": "entailmentbank_validation_334", "nl": "40 m/s describes the speed of an object.", "fol": "", "prediction": ["SpeedAt(object, 40)"]}
+{"id": "entailmentbank_validation_335", "nl": "40 m/s north describes the velocity of an object.", "fol": "", "prediction": ["Velocity(object) & Direction(north) & SpeedAt(object, 40)"]}
+{"id": "entailmentbank_validation_336", "nl": "inherited characteristics can deterimne the structure of an organism's anatomy.", "fol": "", "prediction": ["all x. (InheritedCharacteristics(x) -> DetermineStructure(x))"]}
+{"id": "entailmentbank_validation_337", "nl": "the structure of an organism's anatomy is used to classify the organism into the appropriate taxonomic rank.", "fol": "", "prediction": ["all y. (DetermineStructure(y) -> Classify(y))"]}
+{"id": "entailmentbank_validation_338", "nl": "inherited characteristics can be used to classify an oganism into the apropriate taxonomic rank.", "fol": "", "prediction": ["Gene(z)"]}
+{"id": "entailmentbank_validation_339", "nl": "genes are able to determine the inherited characteristics of a living thing.", "fol": "", "prediction": ["all y. (InheritedCharacteristic(y) -> UsedForClassification(y))"]}
+{"id": "entailmentbank_validation_340", "nl": "genes can be used for classifying organisms.", "fol": "", "prediction": ["CanBeUsedForClassifying(genes)"]}
+{"id": "entailmentbank_validation_341", "nl": "genes are made of dna.", "fol": "", "prediction": ["MadeOf(genes, dna)"]}
+{"id": "entailmentbank_validation_342", "nl": "dna can be used for classifying organisms.", "fol": "", "prediction": ["exists x. (DNA(x) & UsedForClassifyingOrganisms(x))"]}
+{"id": "entailmentbank_validation_343", "nl": "dna is a kind of molecule.", "fol": "", "prediction": ["all y. (DNA(y) -> Molecule(y))"]}
+{"id": "entailmentbank_validation_344", "nl": "molecules are used for classifying organisms.", "fol": "", "prediction": ["exists z. (Molecule(z) & UsedForClassifyingOrganisms(z))"]}
+{"id": "entailmentbank_validation_345", "nl": "a frog is a kind of amphibian.", "fol": "", "prediction": ["Frog(x) -> Amphibian(x)"]}
+{"id": "entailmentbank_validation_346", "nl": "a tadpole is a kind of young / baby frog.", "fol": "", "prediction": ["Tadpole(y) -> YoungFrog(y)"]}
+{"id": "entailmentbank_validation_347", "nl": "a tadpole is a kind of young amphibian.", "fol": "", "prediction": ["YoungAmphibian(tadpole)"]}
+{"id": "entailmentbank_validation_348", "nl": "metamorphosis is when an amphibian changes from an immature form to an adult form.", "fol": "", "prediction": ["all x. (ChangesFromImmatureToAdult(amphibian) -> Metamorphosis(amphibian))"]}
+{"id": "entailmentbank_validation_349", "nl": "an example of metamorphosis is when a tadpole changes from a an immature form to and adult form.", "fol": "", "prediction": ["Metamorphosis(tadpole, adult)"]}
+{"id": "entailmentbank_validation_350", "nl": "the immature form of a frog is called a tadpole.", "fol": "", "prediction": ["all y. (AdultFormOfTadpole(y) -> Frog(y))"]}
+{"id": "entailmentbank_validation_351", "nl": "the adult form of a tadpole is called a frog.", "fol": "", "prediction": ["ImmatureFormOfFrog(z) -> Tadpole(z)"]}
+{"id": "entailmentbank_validation_352", "nl": "the imature form of a frog is called a tadpole and the adult form of a tadpole is called a frog.", "fol": "", "prediction": ["all y. (AdultForm(y, tadpole) -> Frog(y))"]}
+{"id": "entailmentbank_validation_353", "nl": "an example of metamorphosis is when a tadpole changes from a tadpole into a frog.", "fol": "", "prediction": ["Metamorphosis(tadpole, frog)"]}
+{"id": "entailmentbank_validation_354", "nl": "reproduction occurs during adulthood.", "fol": "", "prediction": ["all x. (Reproduction(x) -> OccursDuringAdulthood(x))"]}
+{"id": "entailmentbank_validation_355", "nl": "an example of reproduction is laying eggs.", "fol": "", "prediction": ["ExampleOfReproduction(laying_eggs)"]}
+{"id": "entailmentbank_validation_356", "nl": "laying eggs occurs during adulthood.", "fol": "", "prediction": ["OccursDuring(laying_eggs, adulthood)"]}
+{"id": "entailmentbank_validation_357", "nl": "adulthood is a stage in the life cycle process.", "fol": "", "prediction": ["Stage(adulthood) & LifeCycleProcess(adulthood)"]}
+{"id": "entailmentbank_validation_358", "nl": "laying eggs occurs during the adult stage in the life cycle.", "fol": "", "prediction": ["all x. (AdultStage(x) -> LaysEggs(x))"]}
+{"id": "entailmentbank_validation_359", "nl": "a female insect lays eggs.", "fol": "", "prediction": ["exists y. (FemaleInsect(y) & LaysEggs(y))"]}
+{"id": "entailmentbank_validation_360", "nl": "a female insect lays eggs during the adult stage of an insect's life cycle.", "fol": "", "prediction": ["exists z. (FemaleInsect(z) & LaysEggs(z) & AdultStage(z))"]}
+{"id": "entailmentbank_validation_361", "nl": "a cat is a kind of mammal.", "fol": "", "prediction": ["all y. (Mammal(y) -> GivesBirthToLiveYoung(y))"]}
+{"id": "entailmentbank_validation_362", "nl": "mammals give birth to live young.", "fol": "", "prediction": ["Cat(cat)"]}
+{"id": "entailmentbank_validation_363", "nl": "a cat gives birth to live young.", "fol": "", "prediction": ["all x. (GivesBirthToLiveYoung(x) -> UndergoesLiveBirth(x))"]}
+{"id": "entailmentbank_validation_364", "nl": "to give birth to live young means to undergo live birth.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_365", "nl": "a cat undergoes live birth.", "fol": "", "prediction": ["LiveBirth(cat)"]}
+{"id": "entailmentbank_validation_366", "nl": "live birth means developing inside the mother instead of an egg.", "fol": "", "prediction": ["all x. (LiveBirth(x) -> DevelopsInsideMother(x))"]}
+{"id": "entailmentbank_validation_367", "nl": "a cat develops inside its mother.", "fol": "", "prediction": ["DevelopsInsideMother(cat)"]}
+{"id": "entailmentbank_validation_368", "nl": "the opposite of the same is different.", "fol": "", "prediction": ["all x. (Opposite(Same(x)) -> Different(x))"]}
+{"id": "entailmentbank_validation_369", "nl": "two birds are not in the same taxonomic family.", "fol": "", "prediction": ["-Bird(one) = Bird(two)"]}
+{"id": "entailmentbank_validation_370", "nl": "two birds are in different taxonomic families.", "fol": "", "prediction": ["Bird(x) & Bird(y) & DifferentTaxonomicFamilies(x, y)"]}
+{"id": "entailmentbank_validation_371", "nl": "environments with similar characteristics place similar environmental pressures on the organisms in them.", "fol": "", "prediction": ["all x y. ((SimilarCharacteristics(x, y)) -> SimilarPressure(x, y))"]}
+{"id": "entailmentbank_validation_372", "nl": "two birds live in environments with similar characteristics.", "fol": "", "prediction": ["exists x y. (Bird(x) & Bird(y) & SimilarCharacteristics(Environment(x), Environment(y)))"]}
+{"id": "entailmentbank_validation_373", "nl": "two birds developed under similar environmental pressures.", "fol": "", "prediction": ["DevelopedUnderSimilarPressures(bird2)"]}
+{"id": "entailmentbank_validation_374", "nl": "two birds developed thousands of miles apart.", "fol": "", "prediction": ["Developed(bird1) & Developed(bird2) & ThousandsMilesApart(bird1, bird2)"]}
+{"id": "entailmentbank_validation_375", "nl": "if two things are thousands of miles apart then those two things are separate from each other.", "fol": "", "prediction": ["all x y. (ThousandsMilesApart(x, y) -> Separate(x, y))"]}
+{"id": "entailmentbank_validation_376", "nl": "two birds developed separate from each other.", "fol": "", "prediction": ["DevelopedSeparately(bird1, bird2)"]}
+{"id": "entailmentbank_validation_377", "nl": "two birds developed in separate environments under similar environmental pressures.", "fol": "", "prediction": ["SeparateEnvironments(x, y) & SimilarEnvironmentalPressures(x, y)"]}
+{"id": "entailmentbank_validation_378", "nl": "two birds from different taxonomic families developed in separate environments under similar environmental pressures.", "fol": "", "prediction": ["all x y. ((Bird(x) & Bird(y) & DifferentTaxonomicFamily(x, y) & SeparateEnvironments(x, y) & SimilarEnvironmentalPressures(x, y)) -> DevelopedUnderSimilarPressures(x, y))"]}
+{"id": "entailmentbank_validation_379", "nl": "convergent evolution is when two species in different taxonomic families develop in different places under similar environmental pressures.", "fol": "", "prediction": ["all a b. ((Species(a) & Species(b) & DifferentTaxonomicFamily(a, b) & SeparateEnvironments(a, b) & SimilarEnvironmentalPressures(a, b)) -> ConvergentEvolution(a, b))"]}
+{"id": "entailmentbank_validation_380", "nl": "an example of convergent evolution is two birds from different taxonomic families developing in separate environments under similar environmental pressures.", "fol": "", "prediction": ["ConvergentEvolution(x, y)"]}
+{"id": "entailmentbank_validation_381", "nl": "winter is a kind of season.", "fol": "", "prediction": ["KindOf(winter, season)"]}
+{"id": "entailmentbank_validation_382", "nl": "seasons cause change to the environment.", "fol": "", "prediction": ["all x. (Season(x) -> CausesChangeToEnvironment(x))"]}
+{"id": "entailmentbank_validation_383", "nl": "the winter season can cause change to the environment.", "fol": "", "prediction": ["all x. (WinterSeason(x) -> CausesChange(environment))"]}
+{"id": "entailmentbank_validation_384", "nl": "usually plants die or become dormant during the winter.", "fol": "", "prediction": ["all y. (Winter(y) -> (PlantsDie(y) | PlantsDormant(y)))"]}
+{"id": "entailmentbank_validation_385", "nl": "an example of a seasonal change is plants dying or becoming dormant in the winter.", "fol": "", "prediction": ["SeasonalChange(y) <-> (PlantsDie(y) | DormantInWinter(y))"]}
+{"id": "entailmentbank_validation_386", "nl": "an animal requires enough nutrients to survive.", "fol": "", "prediction": ["all x. (Animal(x) -> RequiresNutrients(x))"]}
+{"id": "entailmentbank_validation_387", "nl": "eating food is used to get nutrients by animals.", "fol": "", "prediction": ["all y. (Animal(y) -> EatingForNutrients(y))"]}
+{"id": "entailmentbank_validation_388", "nl": "an animal needs to eat food for nutrients.", "fol": "", "prediction": ["all y. (Animal(y) -> NeedsFoodForNutrients(y))"]}
+{"id": "entailmentbank_validation_389", "nl": "plants are a source of food for animals.", "fol": "", "prediction": ["all x. (Plant(x) -> SourceOfFoodForAnimals(x))"]}
+{"id": "entailmentbank_validation_390", "nl": "an animal can eat plants for nutrients.", "fol": "", "prediction": ["all x. (Animal(x) -> EatsPlantsForNutrients(x))"]}
+{"id": "entailmentbank_validation_391", "nl": "an example of seasonal change is some animals' food dying in the winter.", "fol": "", "prediction": ["SeasonalChange(z) <-> (Animal(z) & FoodDiesInWinter(z))"]}
+{"id": "entailmentbank_validation_392", "nl": "an example of preparing is storing something for use later.", "fol": "", "prediction": ["all x. (PreparingExample(x) -> StoringForLater(x))"]}
+{"id": "entailmentbank_validation_393", "nl": "if an animal relies on plants for food then that animal must store enough food to last through the winter.", "fol": "", "prediction": ["all y. (ReliesOnPlants(y) -> MustStoreThroughWinter(y))"]}
+{"id": "entailmentbank_validation_394", "nl": "an example of preparing is an animal storing food to last through the winter.", "fol": "", "prediction": ["Preparing(x, y) <-> (Animal(x) & StoresFoodForWinter(x))"]}
+{"id": "entailmentbank_validation_395", "nl": "an example of preparing for seasonal change is an animal storing food for the winter.", "fol": "", "prediction": ["ExamplePreparingForSeasonalChange(x) <- StoringFoodForWinter(x, animal)  "]}
+{"id": "entailmentbank_validation_396", "nl": "a squirrel is a kind of animal.", "fol": "", "prediction": ["Animal(squirrel)  "]}
+{"id": "entailmentbank_validation_397", "nl": "an example of preparing for seasonal change is a squirrel storing food for the winter.", "fol": "", "prediction": ["ExamplePreparingForSeasonalChange(SquirrelStoringFoodForWinter)"]}
+{"id": "entailmentbank_validation_398", "nl": "nut is a kind of food.", "fol": "", "prediction": ["Food(nut)"]}
+{"id": "entailmentbank_validation_399", "nl": "an example of preparing for seasonal change is an squirrel storing nuts for the winter.", "fol": "", "prediction": ["ExamplePreparingForSeasonalChange(SquirrelStoringNutsForWinter)"]}
+{"id": "entailmentbank_validation_400", "nl": "an animal requires warmth for survival.", "fol": "", "prediction": ["all x. (Animal(x) -> RequiresWarmth(x))"]}
+{"id": "entailmentbank_validation_401", "nl": "winter has cold temperatures / weather.", "fol": "", "prediction": ["ColdTemperatures(winter)"]}
+{"id": "entailmentbank_validation_402", "nl": "some animals must move to warmer climates in the winter.", "fol": "", "prediction": ["all y. ((Animal(y) & MovesToWarmerClimateForWinter(y)) -> Migration(y))"]}
+{"id": "entailmentbank_validation_403", "nl": "migration is when animals move themselves from a cooler climate to a warmer climate for the winter.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_404", "nl": "an example of migration is moving to a warmer climate in the winter.", "fol": "", "prediction": ["all x. (MigrationExample(x) <-> MovesToWarmerClimateInWinter(x))"]}
+{"id": "entailmentbank_validation_405", "nl": "some birds fly south for the winter.", "fol": "", "prediction": ["exists y. (Bird(y) & FliesSouthForWinter(y))"]}
+{"id": "entailmentbank_validation_406", "nl": "an example of migration is birds flying south in the winter.", "fol": "", "prediction": ["Migration(birds_flying_south_in_winter)"]}
+{"id": "entailmentbank_validation_407", "nl": "migration is a kind of adaptation.", "fol": "", "prediction": ["Migration(x) -> Adaptation(x)"]}
+{"id": "entailmentbank_validation_408", "nl": "an example of an adaptation is birds migrating south in the winter.", "fol": "", "prediction": ["Adaptation(birds_flying_south_in_winter)"]}
+{"id": "entailmentbank_validation_409", "nl": "wasp's stinger contains poison.", "fol": ""}
+{"id": "entailmentbank_validation_410", "nl": "poison causes harm to living things.", "fol": ""}
+{"id": "entailmentbank_validation_411", "nl": "a wasp's stinger can be used to cause harm to living things.", "fol": "", "prediction": ["CanCauseHarm(WaspsStinger, LivingThings)"]}
+{"id": "entailmentbank_validation_412", "nl": "harming is a kind of defense.", "fol": "", "prediction": ["HarmingIsDefense"]}
+{"id": "entailmentbank_validation_413", "nl": "a stinger is used for defense by a wasp.", "fol": "", "prediction": ["UsedForDefenseBy(WaspsStinger)"]}
+{"id": "entailmentbank_validation_414", "nl": "color is a property of an organism that describes what it looks like.", "fol": "", "prediction": ["all x. (Organism(x) -> Property(x, Color))"]}
+{"id": "entailmentbank_validation_415", "nl": "an example of camouflage is an organism looking like its environment.", "fol": "", "prediction": ["all y. (CamouflageExample(y) -> LooksLikeEnvironment(y))"]}
+{"id": "entailmentbank_validation_416", "nl": "an example of camouflage is organism having the same color as its environment.", "fol": "", "prediction": ["all x. (CamouflageExample(x) -> SameColorAsEnvironment(x))"]}
+{"id": "entailmentbank_validation_417", "nl": "if an animal's skin is a certain color then that animal is that color.", "fol": "", "prediction": ["all y. (AnimalSkinColor(y) -> AnimalColor(y))"]}
+{"id": "entailmentbank_validation_418", "nl": "an example of camouflage is an animal's skin having the same color as its environment.", "fol": "", "prediction": ["exists y. (ExampleOfCamouflage(y) & SkinColorSameAsEnvironment(y))"]}
+{"id": "entailmentbank_validation_419", "nl": "camouflage is a kind of adaptation for hiding in an environment.", "fol": "", "prediction": ["all x. (Camouflage(x) -> AdaptationForHiding(x))"]}
+{"id": "entailmentbank_validation_420", "nl": "an animal having the same skin color as its environment is an adaptation for hiding in an environment.", "fol": "", "prediction": ["all x. (SameSkinColorAsEnvironment(x) -> AdaptationForHiding(x))"]}
+{"id": "entailmentbank_validation_421", "nl": "predators usually must see their prey in order to catch them.", "fol": "", "prediction": ["all x. (Predator(x) -> MustSeePrey(x))"]}
+{"id": "entailmentbank_validation_422", "nl": "hiding means visibility / ability to be seen decreases for camouflage.", "fol": "", "prediction": ["all y. (Hiding(y) -> -Visible(y))"]}
+{"id": "entailmentbank_validation_423", "nl": "hiding can be used to avoid being seen by predators.", "fol": "", "prediction": ["Hiding(x) -> NotSeenByPredators(x)"]}
+{"id": "entailmentbank_validation_424", "nl": "not being seen by predators is a kind of protection against predators.", "fol": "", "prediction": ["ProtectionFromPredators(x) -> NotSeenByPredators(x)"]}
+{"id": "entailmentbank_validation_425", "nl": "hiding is a kind of protection against predators.", "fol": "", "prediction": ["all y. (Hiding(y) -> ProtectionAgainstPredators(y))"]}
+{"id": "entailmentbank_validation_426", "nl": "an animal having the same skin color as its environment is a kind of protection against predators.", "fol": "", "prediction": ["all z. (SameSkinColorAsEnvironment(z) -> ProtectionAgainstPredators(z))"]}
+{"id": "entailmentbank_validation_427", "nl": "hiding means ability to be seen decreases for camouflage.", "fol": "", "prediction": ["all x. (Hiding(x) -> DecreasesVisibility(x))"]}
+{"id": "entailmentbank_validation_428", "nl": "to blend into something means ability to be seen decreases when around that something.", "fol": "", "prediction": ["all y. (BlendsInto(y) -> AbilityToBeSeenDecreases(y))"]}
+{"id": "entailmentbank_validation_429", "nl": "to blend into something means to hide in something.", "fol": "", "prediction": ["all x. (BlendsInto(x, y) -> HidesIn(x, y))"]}
+{"id": "entailmentbank_validation_430", "nl": "white fur blends into snow.", "fol": "", "prediction": ["BlendsInto(white_fur, snow)"]}
+{"id": "entailmentbank_validation_431", "nl": "an example of hiding is white fur blending in with snow.", "fol": "", "prediction": ["Hiding(white_fur_blending_with_snow)"]}
+{"id": "entailmentbank_validation_432", "nl": "an example of camouflage is white fur blending in with snow.", "fol": "", "prediction": ["Camouflage(white_fur_blending_with_snow)"]}
+{"id": "entailmentbank_validation_433", "nl": "some leaves have a speckled brown color.", "fol": "", "prediction": ["exists x. (Leaf(x) & SpeckledBrownColor(x))"]}
+{"id": "entailmentbank_validation_434", "nl": "some birds have a speckled brown color.", "fol": "", "prediction": ["exists y. (Bird(y) & SpeckledBrownColor(y))"]}
+{"id": "entailmentbank_validation_435", "nl": "some birds look like leaves.", "fol": "", "prediction": ["exists z. (Bird(z) & forall w. LooksLike(z, w) & Leaf(w))"]}
+{"id": "entailmentbank_validation_436", "nl": "something that looks like another thing is difficult to distinguish from that thing.", "fol": "", "prediction": ["all x y. (LooksLike(x, y) -> DifficultToDistinguish(x, y))"]}
+{"id": "entailmentbank_validation_437", "nl": "some birds are difficult to distinguish from leaves.", "fol": "", "prediction": ["exists y. (Bird(y) & DifficultToDistinguishFromLeaves(y))"]}
+{"id": "entailmentbank_validation_438", "nl": "difficult to distinguish can mean difficult to see in something else.", "fol": "", "prediction": ["all x. (DifficultToDistinguish(x) -> DifficultToSeeIn(x))"]}
+{"id": "entailmentbank_validation_439", "nl": "some birds are difficult to see in leaves.", "fol": "", "prediction": ["exists y. (Bird(y) & DifficultToSeeInLeaves(y))"]}
+{"id": "entailmentbank_validation_440", "nl": "an example of camouflage is a bird looking like leaves.", "fol": "", "prediction": ["ExampleOf(camouflage, LooksLikeLeaves(bird))"]}
+{"id": "entailmentbank_validation_441", "nl": "camouflage is used for hiding by animals from predators.", "fol": "", "prediction": ["UsedForHidingFromPredatorsBy(camouflage, animals)"]}
+{"id": "entailmentbank_validation_442", "nl": "looking like leaves can be used by birds for hiding from predators.", "fol": "", "prediction": ["LooksLikeLeaves(x) & HidesFromPredators(x, y) -> Hiding(x, y)"]}
+{"id": "entailmentbank_validation_443", "nl": "hiding can be used to avoid something.", "fol": "", "prediction": ["UsesForAvoiding(x, y) -> Hiding(x, y)"]}
+{"id": "entailmentbank_validation_444", "nl": "looking like leaves can be used by birds for avoiding predators.", "fol": "", "prediction": ["LooksLikeLeaves(x) & UsesForAvoiding(x, y)"]}
+{"id": "entailmentbank_validation_445", "nl": "keeping warm is the opposite of becoming cold.", "fol": "", "prediction": ["KeepingWarm(x) <-> -BecomingCold(x)"]}
+{"id": "entailmentbank_validation_446", "nl": "if a living thing becomes too cold then that living thing will die.", "fol": "", "prediction": ["all x. (BecomingTooCold(x) -> Die(x))"]}
+{"id": "entailmentbank_validation_447", "nl": "an animal usually requires warmth for survival.", "fol": "", "prediction": ["all y. (Animal(y) -> RequiresWarmth(y))"]}
+{"id": "entailmentbank_validation_448", "nl": "if the environmental temperature is too cold then an animal in that environment may become cold.", "fol": "", "prediction": ["all x. ((EnvironmentalTemperature(x, cold) -> MayBecomeCold(x)))"]}
+{"id": "entailmentbank_validation_449", "nl": "an animal requires warmth in cold temperatures.", "fol": "", "prediction": ["all x. (Animal(x) -> RequiresWarmth(x, ColdTemperature))"]}
+{"id": "entailmentbank_validation_450", "nl": "thick fur can be used for keeping warm.", "fol": "", "prediction": ["all y. (ThickFur(y) -> UsedForKeepingWarm(y))"]}
+{"id": "entailmentbank_validation_451", "nl": "thick fur can be used by animals for survival in cold temperatures.", "fol": "", "prediction": ["all x. (ThickFur(x) & ColdTemperatures(y) -> Survival(x, y))"]}
+{"id": "entailmentbank_validation_452", "nl": "winter has cold temperatures.", "fol": "", "prediction": ["ColdTemperatures(winter)"]}
+{"id": "entailmentbank_validation_453", "nl": "thick fur can be used by animals for survival survival during winter.", "fol": "", "prediction": ["all x. (Animal(x) -> UsesThickFurForSurvival(x))"]}
+{"id": "entailmentbank_validation_454", "nl": "a bear is a kind of animal.", "fol": "", "prediction": ["Animal(bear)"]}
+{"id": "entailmentbank_validation_455", "nl": "thick fur can be used by bears for survival during winter.", "fol": "", "prediction": ["UsesThickFurForSurvival(bear)"]}
+{"id": "entailmentbank_validation_456", "nl": "hunting is a kind of method for obtaining food.", "fol": "", "prediction": ["MethodForObtainingFood(hunting)"]}
+{"id": "entailmentbank_validation_457", "nl": "animals require food for survival.", "fol": "", "prediction": ["all x. (Animal(x) -> RequiresFoodForSurvival(x))"]}
+{"id": "entailmentbank_validation_458", "nl": "some animals must hunt to survive.", "fol": "", "prediction": ["exists y. (Animal(y) & MustHuntToSurvive(y))"]}
+{"id": "entailmentbank_validation_459", "nl": "hunting requires sensing prey.", "fol": "", "prediction": ["all x. (Hunting(x) -> SensingPrey(x))"]}
+{"id": "entailmentbank_validation_460", "nl": "better senses have a positive impact on an animal's survival.", "fol": "", "prediction": ["all y. (BetterSenses(y) -> PositiveImpactOnSurvival(y))"]}
+{"id": "entailmentbank_validation_461", "nl": "hearing is used for sensing sound by animals.", "fol": "", "prediction": ["all x. (UsedForSensingSound(x) -> Senses(x))"]}
+{"id": "entailmentbank_validation_462", "nl": "better hearing has a positive impact on an animal's survival.", "fol": "", "prediction": ["all x. (BetterHearing(x) -> PositiveImpactOnSurvival(x))"]}
+{"id": "entailmentbank_validation_463", "nl": "senses are passed down from parent to offspring.", "fol": "", "prediction": ["all y. (Inherit(y) -> PassedDown(y, parent, offspring))"]}
+{"id": "entailmentbank_validation_464", "nl": "inheriting is when an inherited characteristic is passed from parent to offspring by genetics / dna.", "fol": "", "prediction": ["all y. (Inherited(y) -> InheritedCharacteristic(y))"]}
+{"id": "entailmentbank_validation_465", "nl": "senses are an inherited characteristic.", "fol": "", "prediction": ["all y. (Senses(y) -> InheritedCharacteristic(y))"]}
+{"id": "entailmentbank_validation_466", "nl": "hearing is an inherited characteristic.", "fol": "", "prediction": ["all y. (Hearing(y) -> InheritedCharacteristic(y))"]}
+{"id": "entailmentbank_validation_467", "nl": "better hearing is an inherited characteristic that has a positive impact on an animal's survival.", "fol": "", "prediction": ["all x. (BetterHearing(x) -> PositiveImpact(x))"]}
+{"id": "entailmentbank_validation_468", "nl": "as the ability of a living thing to survive / to reproduce increases, the likelihood of passing on its traits to its decendents will increase.", "fol": "", "prediction": ["all x y. ((AbilityToSurvive(x) < AbilityToSurvive(y)) -> (LikelihoodToPassTraits(x) < LikelihoodToPassTraits(y)))"]}
+{"id": "entailmentbank_validation_469", "nl": "animals with traits that positively impact their survival have a greater ability to survive / reproduce.", "fol": "", "prediction": ["all z. ((HasTraitImpactingSurvival(z) -> (AbilityToSurvive(z) > 0)))"]}
+{"id": "entailmentbank_validation_470", "nl": "the decendants of an animal with traits that positively impacted their survival will also have traits that positivley impact their survival.", "fol": "", "prediction": ["all y. (PositiveImpact(y) -> PositiveImpactDescendants(y))"]}
+{"id": "entailmentbank_validation_471", "nl": "the decendants of an animal with better hearing will also have better hearing.", "fol": "", "prediction": ["BetterHearingDescendants(z)"]}
+{"id": "entailmentbank_validation_472", "nl": "mosquitos can sense carbon dioxide in the air.", "fol": "", "prediction": ["CanSenseCarbonDioxide(mosquito)  "]}
+{"id": "entailmentbank_validation_473", "nl": "animals are a source of carbon dioxide by exhaling.", "fol": "", "prediction": ["all x. (Animal(x) -> SourceOfCO2ByExhaling(x))"]}
+{"id": "entailmentbank_validation_474", "nl": "mosquitos sense animals by sensing their carbon dioxide emissions.", "fol": "", "prediction": ["SensesAnimalsByCO2(mosquito)"]}
+{"id": "entailmentbank_validation_475", "nl": "living things eat their food source.", "fol": "", "prediction": ["all x. (LivingThing(x) -> Eats(x, Source(x)))"]}
+{"id": "entailmentbank_validation_476", "nl": "mosquitos eat blood of animals.", "fol": "", "prediction": ["Eats(mosquito, Blood(animals))"]}
+{"id": "entailmentbank_validation_477", "nl": "animals are a source of food for mosquitos.", "fol": "", "prediction": ["all y. (SensingFood(y) -> PositiveImpactOnFindingFood(y))"]}
+{"id": "entailmentbank_validation_478", "nl": "sensing food has a positive impact on finding food.", "fol": "", "prediction": ["SensingAnimals(mosquito)"]}
+{"id": "entailmentbank_validation_479", "nl": "sensing animals has a positive impact on a mosquito's ability to find food.", "fol": "", "prediction": ["all y. (SensesAnimalsByCO2(y) -> SensingAnimals(y))"]}
+{"id": "entailmentbank_validation_480", "nl": "sensing carbon dioxide has a positive impact on a mosquito's ability to find food.", "fol": "", "prediction": ["PositiveImpact(mosquito)"]}
+{"id": "entailmentbank_validation_481", "nl": "if a living thing requires something then that something has a positive impact on that living thing.", "fol": "", "prediction": ["all x y. (Requires(x, y) -> PositiveImpact(y, x))"]}
+{"id": "entailmentbank_validation_482", "nl": "a living things require water for survival.", "fol": "", "prediction": ["all z. (LivingThing(z) -> Requires(z, water))"]}
+{"id": "entailmentbank_validation_483", "nl": "water has a positive impact on a living thing's survival.", "fol": "", "prediction": ["all x. (Water(x) -> PositiveImpactOnSurvival(x))"]}
+{"id": "entailmentbank_validation_484", "nl": "increasing the availability of something that has a positive impact on a living thing's survivial can have a positive impact on that living thing's survival.", "fol": "", "prediction": ["all y. (PositiveImpactOnSurvival(y) -> IncreasesAvailability(y))"]}
+{"id": "entailmentbank_validation_485", "nl": "increasing the availability of water for a living thing has a positive impact on that living thing's survival.", "fol": "", "prediction": ["all x. (all w. (IncreasesAvailability(w, x) -> PositiveImpactOnSurvival(x, w)))"]}
+{"id": "entailmentbank_validation_486", "nl": "storing something is a kind of method for increasing the availability of something.", "fol": "", "prediction": ["all y. (all z. (Stores(y, z) -> IncreasesAvailability(z, y)))"]}
+{"id": "entailmentbank_validation_487", "nl": "storing water has a positive impact on a living thing's survival by increasing the availability of water.", "fol": "", "prediction": ["all x. (StoresWater(x) -> PositiveImpactOnSurvival(x) & IncreasesWaterAvailability(x))"]}
+{"id": "entailmentbank_validation_488", "nl": "dry means low in amount of water.", "fol": "", "prediction": ["all x. (Dry(x) -> LowInWaterAmount(x))"]}
+{"id": "entailmentbank_validation_489", "nl": "as dryness increases in an environment, the available water in that environment will decrease.", "fol": "", "prediction": ["all y. (IncreasesInDryness(y) -> DecreasesInAvailableWater(y))"]}
+{"id": "entailmentbank_validation_490", "nl": "a dry environment is low in availability of water.", "fol": "", "prediction": ["LowWaterAvailability(dry_environment)"]}
+{"id": "entailmentbank_validation_491", "nl": "storing water increases the water available to organisms in a dry environment.", "fol": "", "prediction": ["IncreasesWaterAvailable(storingWater, dryEnvironment)"]}
+{"id": "entailmentbank_validation_492", "nl": "adapting is when a living thing responds to a change in an environment.", "fol": "", "prediction": ["all y. (Adapting(y) <-> RespondsToChange(y, Environment))"]}
+{"id": "entailmentbank_validation_493", "nl": "storing water is an adaptation to a dry environment.", "fol": "", "prediction": ["Adapting(storingWater)"]}
+{"id": "entailmentbank_validation_494", "nl": "as the available water in an environment increases, the populations of organisms in that environment will increase.", "fol": "", "prediction": ["all x. (Increases(AvailableWater(x)) -> Increases(Populations(x)))"]}
+{"id": "entailmentbank_validation_495", "nl": "an aquatic animal requires great amounts of water to thrive.", "fol": "", "prediction": ["all y. (AquaticAnimal(y) -> RequiresGreatAmountsOfWater(y))"]}
+{"id": "entailmentbank_validation_496", "nl": "as water increases in an environment, the population of aquatic animals will increase.", "fol": "", "prediction": ["all x. (WaterIncreases(x) -> PopulationIncreases(AquaticAnimal, x))"]}
+{"id": "entailmentbank_validation_497", "nl": "a salamander is a kind of aquatic animal.", "fol": "", "prediction": ["AquaticAnimal(salamander)"]}
+{"id": "entailmentbank_validation_498", "nl": "as water increases in an environment, the population of salamanders may increase.", "fol": "", "prediction": ["all y. (Flood(y) -> LargeIncreaseWater(y))"]}
+{"id": "entailmentbank_validation_499", "nl": "when a body of water receives more water than it can hold, a flood occurs.", "fol": "", "prediction": ["all x. ((BodyOfWater(x) & ReceivesMoreWaterThanCanHold(x)) -> FloodOccurs(x))"]}
+{"id": "entailmentbank_validation_500", "nl": "as the amount of water in a body of water increases, the water levels will increase especially at the edge of that body of water.", "fol": "", "prediction": ["all y. ((IncreasesAmountOfWater(y) & BodyOfWater(y)) -> IncreasesWaterLevelAtEdge(y))"]}
+{"id": "entailmentbank_validation_501", "nl": "a flood is a result of a large increase of water in a body of water.", "fol": "", "prediction": ["all x. (Flood(x) -> LargeIncreaseOfWaterInBodyOfWater(x))"]}
+{"id": "entailmentbank_validation_502", "nl": "a body of water is a part of some environments.", "fol": "", "prediction": ["all y. (BodyOfWater(y) -> PartOfEnvironment(y))"]}
+{"id": "entailmentbank_validation_503", "nl": "a flood is a result of a large increase of water in an environment.", "fol": "", "prediction": ["Flood(flood_event)"]}
+{"id": "entailmentbank_validation_504", "nl": "a flood may cause the population of salamander to increase in an environment.", "fol": "", "prediction": ["MayIncreaseSalamanders(flood_event)"]}
+{"id": "entailmentbank_validation_505", "nl": "frogs / turtles / fish / mice / birds are kinds of animals.", "fol": "", "prediction": ["Animal(frog) & Animal(turtle) & Animal(fish) & Animal(mouse) & Animal(bird)"]}
+{"id": "entailmentbank_validation_506", "nl": "alligators eat frogs / turtles / fish / mice / birds.", "fol": "", "prediction": ["Eats(alligator, frog) & Eats(alligator, turtle) & Eats(alligator, fish) & Eats(alligator, mouse) & Eats(alligator, bird)"]}
+{"id": "entailmentbank_validation_507", "nl": "alligators eat animals.", "fol": "", "prediction": ["EatsAnimals(alligator)"]}
+{"id": "entailmentbank_validation_508", "nl": "a predator eats other animals for food.", "fol": "", "prediction": ["all x. (Predator(x) -> EatsAnimalsForFood(x))"]}
+{"id": "entailmentbank_validation_509", "nl": "alligators are a kind of predator.", "fol": "", "prediction": ["all x. (Alligator(x) -> Predator(x))"]}
+{"id": "entailmentbank_validation_510", "nl": "as the population of prey decreases, competition between predators will increase.", "fol": "", "prediction": ["all y. (Decreases(PopulationOfPrey) -> Increases(CompetitionBetween(Predator(y))))"]}
+{"id": "entailmentbank_validation_511", "nl": "as the population of prey decreases, competition between alligators will increase.", "fol": "", "prediction": ["PopulationDecreases(prey) -> CompetitionIncreases(alligator)"]}
+{"id": "entailmentbank_validation_512", "nl": "competition may cause animals to act aggressively towards members of their own species.", "fol": "", "prediction": ["exists x. (Competition(x) -> ActsAggressively(x, OwnSpecies(x)))"]}
+{"id": "entailmentbank_validation_513", "nl": "as the population of prey decreases, agression between alligators will increase.", "fol": "", "prediction": ["PopulationDecreases(prey) -> AggressionIncreases(alligator)"]}
+{"id": "entailmentbank_validation_514", "nl": "a drought occurs over a period of months / years.", "fol": "", "prediction": ["all x. (Drought(x) -> OccursOverMonthsOrYears(x))"]}
+{"id": "entailmentbank_validation_515", "nl": "drought is when available water decreases in an environment over a period of months / years.", "fol": "", "prediction": ["Decreases(AvailableWater(x), Environment(x), MonthsOrYears(x))"]}
+{"id": "entailmentbank_validation_516", "nl": "as available water decreases, the population of plants will decrease.", "fol": "", "prediction": ["Decreases(AvailableWater(x)) -> Decreases(PopulationOfPlants(x))"]}
+{"id": "entailmentbank_validation_517", "nl": "a drought that occurs over a period of months / years may cause the population of plants in an environment to decrease.", "fol": "", "prediction": ["all y. (Drought(y) -> DecreasesPlantPopulation(y))"]}
+{"id": "entailmentbank_validation_518", "nl": "a marsh willow herb is a kind of plant.", "fol": "", "prediction": ["all x. (MarshWillowHerb(x) -> Plant(x))"]}
+{"id": "entailmentbank_validation_519", "nl": "a drought that occurs over a period of months / years may cause the population of marsh willow herb in an environment to decrease.", "fol": "", "prediction": ["DecreasesMarshWillowPopulation(drought)"]}
+{"id": "entailmentbank_validation_520", "nl": "sweat is used for adjusting to hot temperatures by some animals.", "fol": "", "prediction": ["exists x. (Animal(x) & UsesSweatForHotTemperatures(x))"]}
+{"id": "entailmentbank_validation_521", "nl": "sweat cools a body.", "fol": "", "prediction": ["all y. (Sweat(y) -> CoolsBody(y))"]}
+{"id": "entailmentbank_validation_522", "nl": "when the body is hot, sweat is used to cool the body.", "fol": "", "prediction": ["all z. (HotBody(z) -> UsesSweatForCooling(z))"]}
+{"id": "entailmentbank_validation_523", "nl": "panting is when an animal's body is cooled by hanging out their tongue.", "fol": ""}
+{"id": "entailmentbank_validation_524", "nl": "panting and sweating are used to cool the body.", "fol": "", "prediction": ["all y. (Panting(y) | Sweating(y) -> CoolingItself(y))"]}
+{"id": "entailmentbank_validation_525", "nl": "cooling means decreasing heat / temperature.", "fol": "", "prediction": ["all x. (Cooling(x) -> DecreasesHeat(x))"]}
+{"id": "entailmentbank_validation_526", "nl": "if an animal becomes too hot then that animal may die.", "fol": "", "prediction": ["all y. ((Animal(y) & BecomesTooHot(y)) -> MayDie(y))"]}
+{"id": "entailmentbank_validation_527", "nl": "cooling can be used by an animal for survival.", "fol": "", "prediction": ["all x. (CanUseCoolingForSurvival(x))"]}
+{"id": "entailmentbank_validation_528", "nl": "if the environmental temperature is too hot then an animal in that environment may become hot.", "fol": "", "prediction": ["all y. ((TooHotEnvironment(y) -> MayBecomeHot(y)) -> Animal(y))"]}
+{"id": "entailmentbank_validation_529", "nl": "if the temperature of an animal's environment becomes too hot then that animal must cool itself.", "fol": "", "prediction": ["all x. (BecomesTooHot(EnvironmentTemperature(x)) -> MustCool(Itself(x)))"]}
+{"id": "entailmentbank_validation_530", "nl": "an animal cooling itself is an adaptation to hot temperatures.", "fol": "", "prediction": ["all x. (CoolingItself(x) -> AdaptationToHotTemp(x))"]}
+{"id": "entailmentbank_validation_531", "nl": "an example of adaptations to hot temperatures are panting and sweating.", "fol": "", "prediction": ["AdaptationToHotTemp(panting) & AdaptationToHotTemp(sweating)"]}
+{"id": "entailmentbank_validation_532", "nl": "cellular respiration is when a cell converts from oxygen and carbohydrates into carbon dioxide, water, and energy.", "fol": "", "prediction": ["all y. (LivingThing(y) -> RequiresRespiration(y))"]}
+{"id": "entailmentbank_validation_533", "nl": "living things require respiration to use energy.", "fol": "", "prediction": ["all z. (LivingThing(z) -> RequiredToUse(respiration, energy))"]}
+{"id": "entailmentbank_validation_534", "nl": "living things must convert oxygen into carbon dioxide to use energy.", "fol": "", "prediction": ["all x. (LivingThing(x) -> ConvertsOxygenToCO2(x))"]}
+{"id": "entailmentbank_validation_535", "nl": "breathing is when animals convert oxygen into carbon dioxide.", "fol": "", "prediction": ["all y. (Breathing(y) <-> ConvertsOxygenToCO2(y))"]}
+{"id": "entailmentbank_validation_536", "nl": "living things must breathe to use energy.", "fol": "", "prediction": ["all y. (LivingThing(y) -> Breathes(y, UsingEnergy))"]}
+{"id": "entailmentbank_validation_537", "nl": "breathing out is when animals exhale carbon dioxide from their lungs into the air.", "fol": "", "prediction": ["all y. (ExhaleCO2(y) -> BreathesOut(y))"]}
+{"id": "entailmentbank_validation_538", "nl": "animals are a source of carbon dioxide by breathing.", "fol": "", "prediction": ["all x. (Animal(x) -> SourceOfCO2(x))"]}
+{"id": "entailmentbank_validation_539", "nl": "a source of something produces that something.", "fol": "", "prediction": ["all y. (SourceOf(y, z) -> Produces(y, z))"]}
+{"id": "entailmentbank_validation_540", "nl": "animals produce carbon dioxide by breathing.", "fol": "", "prediction": ["all x. (Animal(x) -> ProducesCO2(x, Breathing))"]}
+{"id": "entailmentbank_validation_541", "nl": "animals produce carbon dioxide by using energy.", "fol": "", "prediction": ["all z. (Animal(z) -> ProducesCO2(z, UsingEnergy))"]}
+{"id": "entailmentbank_validation_542", "nl": "carbohydrates are used for storing energy.", "fol": "", "prediction": ["UsesForStoringEnergy(carbohydrates)"]}
+{"id": "entailmentbank_validation_543", "nl": "photosynthesis makes energy for the plant by converting carbon dioxide, water, and sunlight into carbohydrates.", "fol": "", "prediction": ["PhotosynthesisMakesEnergyByConverting(carbohydrates)"]}
+{"id": "entailmentbank_validation_544", "nl": "photosynthesis stores energy.", "fol": "", "prediction": ["StoresEnergy(photosynthesis)"]}
+{"id": "entailmentbank_validation_545", "nl": "if something is required to use something else then that something is a source of that something else.", "fol": "", "prediction": ["all x y. (RequiredToUse(x, y) -> SourceOf(x, y))"]}
+{"id": "entailmentbank_validation_546", "nl": "respiration is a source of energy for living things.", "fol": "", "prediction": ["Source(respiration, energy)"]}
+{"id": "entailmentbank_validation_547", "nl": "if something releases something else then that something is the source of that something else.", "fol": "", "prediction": ["all x y. (Releases(x, y) -> Source(x, y))"]}
+{"id": "entailmentbank_validation_548", "nl": "respiration releases energy.", "fol": "", "prediction": ["ReleasesEnergy(respiration)"]}
+{"id": "entailmentbank_validation_549", "nl": "photosynthesis stores energy and respiration releases energy.", "fol": "", "prediction": ["StoresEnergy(photosynthesis) & ReleasesEnergy(respiration)"]}
+{"id": "entailmentbank_validation_550", "nl": "digestion is when stomach acid breaks down food.", "fol": "", "prediction": ["all x. (Digestion(x) <-> BreaksDown(stomach_acid, food))"]}
+{"id": "entailmentbank_validation_551", "nl": "the digestive system digests food for the body.", "fol": "", "prediction": ["all y. (DigestiveSystem(y) -> Digests(y, food))"]}
+{"id": "entailmentbank_validation_552", "nl": "the digestive system breaks down food.", "fol": "", "prediction": ["BreaksDown(digestive_system, food)"]}
+{"id": "entailmentbank_validation_553", "nl": "if something is made of something else then that something can be broken down into that something else.", "fol": "", "prediction": ["all x y. (MadeOf(x, y) -> CanBeBrokenDownInto(x, y))"]}
+{"id": "entailmentbank_validation_554", "nl": "if something is made of something else then that something contains that something else.", "fol": "", "prediction": ["all x y. (MadeOf(x, y) -> Contains(x, y))"]}
+{"id": "entailmentbank_validation_555", "nl": "if something contains something else then that something can be broken down into that something else.", "fol": "", "prediction": ["all x y. (Contains(x, y) -> CanBeBrokenDownInto(x, y))"]}
+{"id": "entailmentbank_validation_556", "nl": "the digestive system breaks down food into the substances it contains.", "fol": "", "prediction": ["all y. (DigestiveSystem(y) -> BreaksDown(y, Food, SubstancesContained(y)))"]}
+{"id": "entailmentbank_validation_557", "nl": "food contains nutrients for living things.", "fol": "", "prediction": ["all x. (Food(x) -> ContainsNutrients(x, livingThings))"]}
+{"id": "entailmentbank_validation_558", "nl": "the digestive system breaks down food into nutrients for the body.", "fol": "", "prediction": ["BreaksDown(digestiveSystem, Food, NutrientsForBody)"]}
+{"id": "entailmentbank_validation_559", "nl": "scales are a covering around the body of a scaled animal.", "fol": "", "prediction": ["all x. (ScaledAnimal(x) -> Covering(x, Scales))"]}
+{"id": "entailmentbank_validation_560", "nl": "a fish is a kind of scaled animal.", "fol": "", "prediction": ["Fish(fish) -> ScaledAnimal(fish)"]}
+{"id": "entailmentbank_validation_561", "nl": "fish is a kind of scaled animal with scales covering around the body.", "fol": "", "prediction": ["ScaledAnimal(fish)  "]}
+{"id": "entailmentbank_validation_562", "nl": "scales are used for protection by scaled animals.", "fol": "", "prediction": ["all x. (ScaledAnimal(x) -> UsedForProtection(scales, x))  "]}
+{"id": "entailmentbank_validation_563", "nl": "scales are used for protection by fish.", "fol": "", "prediction": ["UsedForProtection(scales, fish)"]}
+{"id": "entailmentbank_validation_564", "nl": "a human is a kind of animal.", "fol": "", "prediction": ["all x. (Human(x) -> Animal(x))"]}
+{"id": "entailmentbank_validation_565", "nl": "an animal is a kind of living thing.", "fol": "", "prediction": ["all y. (Animal(y) -> LivingThing(y))"]}
+{"id": "entailmentbank_validation_566", "nl": "a human is a kind of living thing.", "fol": "", "prediction": ["Human(h) -> LivingThing(h)"]}
+{"id": "entailmentbank_validation_567", "nl": "a plant is a kind of living thing.", "fol": "", "prediction": ["all x. (Plant(x) -> LivingThing(x))"]}
+{"id": "entailmentbank_validation_568", "nl": "an apple tree is a kind of plant.", "fol": "", "prediction": ["Plant(apple_tree)"]}
+{"id": "entailmentbank_validation_569", "nl": "an apple tree is a kind of living thing.", "fol": "", "prediction": ["AppleTree(a) -> LivingThing(a)"]}
+{"id": "entailmentbank_validation_570", "nl": "all living things are made of cells according to the cell theory.", "fol": "", "prediction": ["all x. (LivingThing(x) -> MadeOfCells(x))"]}
+{"id": "entailmentbank_validation_571", "nl": "both the human and the apple tree are made of cells.", "fol": "", "prediction": ["MadeOfCells(h) & MadeOfCells(a)"]}
+{"id": "entailmentbank_validation_572", "nl": "a plant cell is a kind of cell.", "fol": "", "prediction": ["Cell(plant_cell)"]}
+{"id": "entailmentbank_validation_573", "nl": "a cell nucleus is a part of a cell.", "fol": "", "prediction": ["PartOf(cell_nucleus, cell) "]}
+{"id": "entailmentbank_validation_574", "nl": "a cell nucleus is a part of a plant cell.", "fol": "", "prediction": ["PartOf(cell_nucleus, plant_cell)"]}
+{"id": "entailmentbank_validation_575", "nl": "a cell wall is a part of a plant cell for supporting and protecting the cell membrane.", "fol": "", "prediction": ["PartOf(cell_wall, plant_cell) & Supports(cell_wall, cell_membrane) & Protects(cell_wall, cell_membrane)"]}
+{"id": "entailmentbank_validation_576", "nl": "chloroplast is a part of a plant cell.", "fol": "", "prediction": ["PartOf(chloroplast, plant_cell)"]}
+{"id": "entailmentbank_validation_577", "nl": "a cell nucleus, chloroplast and a cell wall are part of a plant cell.", "fol": "", "prediction": ["PartOf(cell_nucleus, plant_cell) & PartOf(chloroplast, plant_cell) & PartOf(cell_wall, plant_cell)"]}
+{"id": "entailmentbank_validation_578", "nl": "a computer room is used to control the assembly process in a factory.", "fol": "", "prediction": ["UsedToControl(computer_room, assembly_process)"]}
+{"id": "entailmentbank_validation_579", "nl": "the cell nucleus controls many of the functions of the cell.", "fol": "", "prediction": ["Controls(cell_nucleus, cell_functions)"]}
+{"id": "entailmentbank_validation_580", "nl": "controlling is a kind of function.", "fol": "", "prediction": ["ControllingIsFunction(controlling)"]}
+{"id": "entailmentbank_validation_581", "nl": "a computer room in a factory has a similar function to the cell nucleus in controlling the functions.", "fol": "", "prediction": ["HasSimilarFunction(computer_room, cell_nucleus)"]}
+{"id": "entailmentbank_validation_582", "nl": "if something does not contain something else, then that something else cannot be found in that something.", "fol": "", "prediction": ["all x y. (-Contains(x, y) -> -FoundIn(y, x))"]}
+{"id": "entailmentbank_validation_583", "nl": "a prokaryotic cell does not contain a nucleus.", "fol": "", "prediction": ["-ProkaryoticCellContains(prokaryotic_cell, nucleus)"]}
+{"id": "entailmentbank_validation_584", "nl": "a nucleus cannot be found in prokaryotic cells.", "fol": "", "prediction": ["-FoundIn(nucleus, prokaryotic_cell)"]}
+{"id": "entailmentbank_validation_585", "nl": "photosynthesis makes food for the plant.", "fol": "", "prediction": ["Performs(z, photosynthesis) -> MakesFoodForPlantBy(leaf, photosynthesis)"]}
+{"id": "entailmentbank_validation_586", "nl": "a leaf performs photosynthesis / gas exchange.", "fol": "", "prediction": ["Performs(leaf, photosynthesis)"]}
+{"id": "entailmentbank_validation_587", "nl": "a leaf makes food for the plant by performing photosynthesis.", "fol": "", "prediction": ["MakesFood(x, y) -> SpecificLifeProcess(x)"]}
+{"id": "entailmentbank_validation_588", "nl": "providing food is a kind of specific life process.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_589", "nl": "a leaf performs a specific life process of making food for the plants.", "fol": "", "prediction": ["PerformsLifeProcess(leaf, MakeFood)"]}
+{"id": "entailmentbank_validation_590", "nl": "organs perform specific life process in organisms.", "fol": "", "prediction": ["all x. (Organ(x) -> PerformsLifeProcess(x))"]}
+{"id": "entailmentbank_validation_591", "nl": "a leaf in a plant is performing like an organ in organisms.", "fol": "", "prediction": ["PerformsLifeProcess(leaf)"]}
+{"id": "entailmentbank_validation_592", "nl": "taking in carbon dioxide is a stage in the photosynthesis process.", "fol": "", "prediction": ["all x. (TakingIn(x, carbon_dioxide) -> StageInPhotosynthesis(x))"]}
+{"id": "entailmentbank_validation_593", "nl": "absorbing something is a kind of method for taking something in.", "fol": "", "prediction": ["all y. (Absorbing(y, z) -> TakingIn(y, z))"]}
+{"id": "entailmentbank_validation_594", "nl": "absorbing carbon dioxide is a stage in the photosynthesis process.", "fol": "", "prediction": ["StageInPhotosynthesis(absorbing_carbon_dioxide)"]}
+{"id": "entailmentbank_validation_595", "nl": "carbon dioxide can be found in the air.", "fol": "", "prediction": ["FoundInAir(carbon_dioxide)"]}
+{"id": "entailmentbank_validation_596", "nl": "absorbing carbon dioxide from the air is a stage in the photosynthesis process.", "fol": "", "prediction": ["all x. (AbsorbsCO2(x) -> Photosynthesis(x))"]}
+{"id": "entailmentbank_validation_597", "nl": "plants perform photosynthesis.", "fol": "", "prediction": ["all y. (Plant(y) -> PerformsPhotosynthesis(y))"]}
+{"id": "entailmentbank_validation_598", "nl": "a plant absorbs carbon dioxide from the air to perform photosynthesis.", "fol": "", "prediction": ["all x. (Plant(x) -> AbsorbsCO2(x))"]}
+{"id": "entailmentbank_validation_599", "nl": "when carbon dioxide in the atmosphere is absorbed by plants, the amount of carbon dioxide in the atmosphere is reduced in the atmosphere.", "fol": "", "prediction": ["all y. (AbsorbsCO2(y) -> ReducesCO2(y))"]}
+{"id": "entailmentbank_validation_600", "nl": "plant photosynthesis reduces the amount of carbon dioxide in the air.", "fol": "", "prediction": ["ReducesCO2(photosynthesis)"]}
+{"id": "entailmentbank_validation_601", "nl": "sunlight is a kind of solar energy.", "fol": "", "prediction": ["Kind(sunlight, solar_energy)  "]}
+{"id": "entailmentbank_validation_602", "nl": "photosynthesis means green plants convert from carbon dioxide and water and solar energy into carbohydrates and food and oxygen for themselves.", "fol": "", "prediction": ["PhotosynthesisMeansConvert(plants, carbon_dioxide, water, solar_energy, carbohydrates, food, oxygen)  "]}
+{"id": "entailmentbank_validation_603", "nl": "photosynthesis means plants convert carbon dioxide and water and sunlight into carbohydrates and food and oxygen.", "fol": "", "prediction": ["PhotosynthesisMeans(plants, carbon_dioxide, water, sunlight, carbohydrates, food, oxygen)  "]}
+{"id": "entailmentbank_validation_604", "nl": "if an orgnism uses a process to convert something into something else, then that something is used for that process.", "fol": "", "prediction": ["all x. (UsesProcess(x, p) -> UsedForProcess(x, p))  "]}
+{"id": "entailmentbank_validation_605", "nl": "a plant uses sunlight for photosynthesis.", "fol": "", "prediction": ["UsesForPhotosynthesis(plant, sunlight)"]}
+{"id": "entailmentbank_validation_606", "nl": "in the photosynthesis process sunlight has the role of raw material.", "fol": "", "prediction": ["InPhotosynthesis(sunlight, RawMaterial)"]}
+{"id": "entailmentbank_validation_607", "nl": "a plant uses the raw material sunlight for photosynthesis.", "fol": "", "prediction": ["UsesRawMaterialFor(plant, sunlight, photosynthesis)"]}
+{"id": "entailmentbank_validation_608", "nl": "using a raw material sometimes requires absorbing that raw material.", "fol": "", "prediction": ["all x. (UsesRawMaterial(x) -> AbsorbsRawMaterial(x))"]}
+{"id": "entailmentbank_validation_609", "nl": "a plant absorbs sunlight to perform photosynthesis.", "fol": "", "prediction": ["all y. (Plant(y) -> AbsorbsSunlight(y) & PerformsPhotosynthesis(y))"]}
+{"id": "entailmentbank_validation_610", "nl": "a leaf absorbs sunlight to perform photosynthesis.", "fol": "", "prediction": ["all y. (ChlorophyllFoundInCellsOf(y) -> Leaf(y))"]}
+{"id": "entailmentbank_validation_611", "nl": "chlorophyll is found in the cells of leaves.", "fol": "", "prediction": ["AbsorbsSunlight(z)"]}
+{"id": "entailmentbank_validation_612", "nl": "chlorophyll is found in the cells of parts of plants that absorb sunlight to perform photosynthesis.", "fol": "", "prediction": ["exists x. (ChlorophyllInCells(x) & PartOfPlant(x) & AbsorbsSunlight(x) & PerformsPhotosynthesis(x))"]}
+{"id": "entailmentbank_validation_613", "nl": "chlorophyll is used for absorbing sunlight by plants.", "fol": "", "prediction": ["  "]}
+{"id": "entailmentbank_validation_614", "nl": "sunlight is a kind of light.", "fol": "", "prediction": ["KindOf(sunlight, light)"]}
+{"id": "entailmentbank_validation_615", "nl": "light is a kind of energy.", "fol": "", "prediction": ["KindOf(light, energy)"]}
+{"id": "entailmentbank_validation_616", "nl": "sunlight is a kind of light energy.", "fol": "", "prediction": ["AbsorbingSunlightBy(chlorophyll, plants)  "]}
+{"id": "entailmentbank_validation_617", "nl": "chlorophyll is used for absorbing light energy by plants.", "fol": "", "prediction": ["UsedFor(chlorophyll, absorbingLightEnergy)"]}
+{"id": "entailmentbank_validation_618", "nl": "some microorganisms have a positive impact on human body.", "fol": "", "prediction": ["exists x. (Microorganism(x) & PositiveImpact(x, human_body))"]}
+{"id": "entailmentbank_validation_619", "nl": "if something has a positive impact on another thing, then the relationship is benificial.", "fol": "", "prediction": ["all x. (all y. (PositiveImpact(x, y) -> Beneficial(x, y)))"]}
+{"id": "entailmentbank_validation_620", "nl": "some microorganisms are benificial to human body.", "fol": "", "prediction": ["exists y. (Microorganism(y) & BeneficialToHuman(y))"]}
+{"id": "entailmentbank_validation_621", "nl": "disease-causing microbes have a negative impact on the body.", "fol": "", "prediction": ["all x. (DiseaseCausingMicrobe(x) -> NegativeImpactOnBody(x))"]}
+{"id": "entailmentbank_validation_622", "nl": "if something has a negative impact on another thing, then the relationship is harmful.", "fol": "", "prediction": ["all y. (NegativeImpact(y, z) -> Harmful(y, z))"]}
+{"id": "entailmentbank_validation_623", "nl": "some disease-causing microbes are harmful to human body.", "fol": "", "prediction": ["exists x. (DiseaseCausingMicrobe(x) & HarmfulToHuman(x))"]}
+{"id": "entailmentbank_validation_624", "nl": "the relationship between human and microorganisms is sometimes beneficial and sometimes harmful.", "fol": "", "prediction": ["exists z. ((Microorganism(z) & HarmfulToHuman(z)) & exists w. (Microorganism(w) & BeneficialToHuman(w)))"]}
+{"id": "entailmentbank_validation_625", "nl": "water is a kind of nonliving thing.", "fol": "", "prediction": ["Nonliving(water)"]}
+{"id": "entailmentbank_validation_626", "nl": "a river is a kind of body of water.", "fol": "", "prediction": ["BodyOfWater(river) -> Water(river)"]}
+{"id": "entailmentbank_validation_627", "nl": "a river is a nonliving thing.", "fol": "", "prediction": ["Nonliving(river)"]}
+{"id": "entailmentbank_validation_628", "nl": "preferences are generally learned characteristics.", "fol": "", "prediction": ["all y. (FoodPreference(y) -> Preference(y))"]}
+{"id": "entailmentbank_validation_629", "nl": "a food preference is a kind of preference.", "fol": "", "prediction": ["FoodPreference(z)"]}
+{"id": "entailmentbank_validation_630", "nl": "food preference is a kind of learned characteristics.", "fol": "", "prediction": ["all y. (FoodPreference(y) -> LearnedCharacteristic(y))"]}
+{"id": "entailmentbank_validation_631", "nl": "learned characteristics are similar to acquired characteristics.", "fol": "", "prediction": ["all y. (LearnedCharacteristic(y) -> AcquiredCharacteristic(y))"]}
+{"id": "entailmentbank_validation_632", "nl": "food preference is a kind of acquired characteristics.", "fol": "", "prediction": ["all y. (Organism(y) -> (EnvironmentAffects(y, AcquiredCharacteristic(y))))  "]}
+{"id": "entailmentbank_validation_633", "nl": "an animal is a kind of organism.", "fol": "", "prediction": ["all x. (Animal(x) -> Organism(x))"]}
+{"id": "entailmentbank_validation_634", "nl": "a dog is a kind of animal.", "fol": "", "prediction": ["Dog(y) -> Animal(y)"]}
+{"id": "entailmentbank_validation_635", "nl": "a dog is a kind of organism.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_636", "nl": "an organism's environment affects that organism's acquired characteristics.", "fol": "", "prediction": ["Organism(dog)"]}
+{"id": "entailmentbank_validation_637", "nl": "the food preference of a dog is affected by its environment.", "fol": "", "prediction": ["EnvironmentAffects(dog, FoodPreference(dog))"]}
+{"id": "entailmentbank_validation_638", "nl": "following orders is a learned characteristic.", "fol": "", "prediction": ["all x. (FollowingOrders(x) -> LearnedCharacteristic(x))"]}
+{"id": "entailmentbank_validation_639", "nl": "an example of following orders is coming when called.", "fol": "", "prediction": ["FollowingOrders(comingWhenCalled)"]}
+{"id": "entailmentbank_validation_640", "nl": "a dog coming when called is a kind of learned characteristic.", "fol": "", "prediction": ["LearnedCharacteristic(comingWhenCalled)"]}
+{"id": "entailmentbank_validation_641", "nl": "hunting is a kind of skill.", "fol": "", "prediction": ["Skill(hunting)  "]}
+{"id": "entailmentbank_validation_642", "nl": "skills are learned characteristics / behaviors.", "fol": "", "prediction": ["all x. (Skill(x) -> LearnedBehavior(x))  "]}
+{"id": "entailmentbank_validation_643", "nl": "hunting is a kind of learned behaviors.", "fol": "", "prediction": ["LearnedBehavior(hunting)"]}
+{"id": "entailmentbank_validation_644", "nl": "inherited characteristics are the opposite of learned characteristics.", "fol": "", "prediction": ["all x. (InheritedCharacteristic(x) <-> -LearnedCharacteristic(x))"]}
+{"id": "entailmentbank_validation_645", "nl": "learned characteristics are not inherited from parents.", "fol": "", "prediction": ["all x. (LearnedCharacteristic(x) -> -InheritedFromParents(x))"]}
+{"id": "entailmentbank_validation_646", "nl": "food preference is not inherited from parents.", "fol": "", "prediction": ["-FoodPreference(z) -> InheritedFromParents(z)"]}
+{"id": "entailmentbank_validation_647", "nl": "the intelligence of animals is an acquired characteristic.", "fol": "", "prediction": ["all y. (Animal(y) -> AcquiredCharacteristic(Intelligence(y)))"]}
+{"id": "entailmentbank_validation_648", "nl": "the intelligence of a human is an acquired characteristic.", "fol": "", "prediction": ["AcquiredCharacteristic(IntelligenceOf(human))"]}
+{"id": "entailmentbank_validation_649", "nl": "inherited characteristics are the opposite of acquired characteristics.", "fol": "", "prediction": ["all x. (-AcquiredCharacteristic(x) <-> InheritedCharacteristic(x))"]}
+{"id": "entailmentbank_validation_650", "nl": "the intelligence of a human is not an inherited characteristic.", "fol": "", "prediction": ["-InheritedCharacteristic(IntelligenceOf(human))"]}
+{"id": "entailmentbank_validation_651", "nl": "genes is a vehicle for passing inherited characteristics from parent to offspring.", "fol": "", "prediction": ["all x. (Gene(x) -> VehicleForInheritance(x, Parent, Offspring))"]}
+{"id": "entailmentbank_validation_652", "nl": "a father is a kind of male parent.", "fol": "", "prediction": ["all y. (Father(y) -> Parent(y))"]}
+{"id": "entailmentbank_validation_653", "nl": "a mother is a kind of female parent.", "fol": "", "prediction": ["all z. (Mother(z) -> Parent(z))"]}
+{"id": "entailmentbank_validation_654", "nl": "genes are a vehicle for passing inherited characteristics from a mother and a father to offspring.", "fol": "", "prediction": ["all x. ((Gene(x) & Inherited(x)) -> VehicleFor(x, mother, offspring) & VehicleFor(x, father, offspring))"]}
+{"id": "entailmentbank_validation_655", "nl": "in sexual reproduction sperm is a vehicle for the genes from the father to the offspring.", "fol": "", "prediction": ["all y. ((SexualReproduction(y) & Sperm(y)) -> VehicleForGenes(y, father, offspring))"]}
+{"id": "entailmentbank_validation_656", "nl": "in sexual reproduction the egg is a vehicle for the genes from the mother to the offspring.", "fol": "", "prediction": ["all z. ((SexualReproduction(z) & Egg(z)) -> VehicleForGenes(z, mother, offspring))"]}
+{"id": "entailmentbank_validation_657", "nl": "genes are passed from a mother and a father to offspring through the egg and sperm.", "fol": "", "prediction": ["all x. ((PassedFrom(mother, x, egg) & PassedFrom(father, x, sperm)) -> Gene(x))"]}
+{"id": "entailmentbank_validation_658", "nl": "genes determine the traits for the living things.", "fol": "", "prediction": ["all y. (Gene(y) -> DeterminesTraits(y))"]}
+{"id": "entailmentbank_validation_659", "nl": "traits are passed from a mother and a father to offspring through the egg and sperm.", "fol": "", "prediction": ["all z. (PassedFrom(mother, z, egg) & PassedFrom(father, z, sperm) -> Trait(z))"]}
+{"id": "entailmentbank_validation_660", "nl": "dna is a kind of nucleic acid.", "fol": "", "prediction": ["all x. (KindOf(x, nucleic_acid) <-> Dna(x))"]}
+{"id": "entailmentbank_validation_661", "nl": "thymine is found in dna.", "fol": "", "prediction": ["FoundIn(thymine, dna)"]}
+{"id": "entailmentbank_validation_662", "nl": "thymine cannot be found in rna.", "fol": "", "prediction": ["-FoundIn(thymine, rna)"]}
+{"id": "entailmentbank_validation_663", "nl": "if thymine is found in a strand of nucleic acid, then the nucleic acid is dna.", "fol": "", "prediction": ["all x. (ThymineFound(x) -> DNA(x))"]}
+{"id": "entailmentbank_validation_664", "nl": "a researcher found thymine in a strand of nucleic acid.", "fol": "", "prediction": ["exists y. (ThymineFound(y) & FoundBy(researcher, y))"]}
+{"id": "entailmentbank_validation_665", "nl": "the researcher found a strand of dna.", "fol": "", "prediction": ["exists z. (DNA(z) & FoundBy(researcher, z))"]}
+{"id": "entailmentbank_validation_666", "nl": "if a pure dominant organism is crossed a recessive organism, then the offspring will have a 100% probability of being heterozygous dominant.", "fol": "", "prediction": ["all x. ((PureDominant(x) & CrossedWithRecessive(x)) -> OffspringHeterozygousDominant(x))"]}
+{"id": "entailmentbank_validation_667", "nl": "a scientist crosses a red-flowered plant with a white-flowered plant, and all offspring have red flowers.", "fol": "", "prediction": ["Crossed(scientist, redFloweredPlant, whiteFloweredPlant) & all y. (Offspring(y) -> HasRedFlowers(y))"]}
+{"id": "entailmentbank_validation_668", "nl": "all the offspring with red flowers are heterozygous dominant.", "fol": "", "prediction": ["all y. (Offspring(y) & RedFlowers(y) -> HeterozygousDominant(y))"]}
+{"id": "entailmentbank_validation_669", "nl": "the offspring with red flowers are crossed with pure recessive white flowered plants.", "fol": "", "prediction": ["all x. (Offspring(x) & RedFlowers(x) -> Crossed(x, WhitePlants))"]}
+{"id": "entailmentbank_validation_670", "nl": "heterozygous dominant red flowered plants are crossed with pure recessive white flowered plants.", "fol": "", "prediction": ["CrossedWith(HeterozygousDominantRedFloweredPlants, PureRecessiveWhiteFloweredPlants)"]}
+{"id": "entailmentbank_validation_671", "nl": "crossing a heterozygous dominant organism with a homozygous recessive organism causes their offspring to be dominant or recessive with either of 50% probability.", "fol": "", "prediction": ["all x y. ((HeterozygousDominant(x) & HomozygousRecessive(y)) -> OffspringDominantOrRecessiveWith50Probability(x, y))"]}
+{"id": "entailmentbank_validation_672", "nl": "the offspring will have either dominant red flowers or recessive white flowers with either of 50% probability.", "fol": "", "prediction": ["OffspringDominantRedOrRecessiveWhiteWith50Probability(HeterozygousDominantRedFloweredPlants, PureRecessiveWhiteFloweredPlants)"]}
+{"id": "entailmentbank_validation_673", "nl": "each parent carries one sickle cell allele.", "fol": "", "prediction": ["all x. (Parent(x) -> CarriesSickleCellAllele(x))"]}
+{"id": "entailmentbank_validation_674", "nl": "sickle cell anemia is a recessive trait in human.", "fol": "", "prediction": ["RecessiveTrait(sickle_cell_anemia, human)"]}
+{"id": "entailmentbank_validation_675", "nl": "each parent has one dominant gene and a recessive gene for sickle cell anemia.", "fol": "", "prediction": ["DominantGene(parent1) & RecessiveGene(parent1) & DominantGene(parent2) & RecessiveGene(parent2)"]}
+{"id": "entailmentbank_validation_676", "nl": "heterozygous dominant organisms have one dominant gene and one recessive gene.", "fol": "", "prediction": ["all x. (HeterozygousDominant(x) -> (DominantGene(x) & RecessiveGene(x)))"]}
+{"id": "entailmentbank_validation_677", "nl": "both parents are heterozygous dominant for sickle cell anemia.", "fol": "", "prediction": ["HeterozygousDominant(parent1) & HeterozygousDominant(parent2)"]}
+{"id": "entailmentbank_validation_678", "nl": "if a heterozygous dominant organism is crossed with a heterozygous dominant organism, then the offspring will have a 25% probability of being homozygous recessive.", "fol": "", "prediction": ["all x. (HeterozygousDominant(x) & CrossedWith(x, heterozygousDominant) -> OffspringHasProbability(x, 0.25, HomozygousRecessive))"]}
+{"id": "entailmentbank_validation_679", "nl": "the offspring of heterozygous dominant parents will have 25% probability of being homozygous recessive for sickle cell anemia.", "fol": "", "prediction": ["all y. (OffspringOfHeterozygousDominant(y) -> Probability25HomozygousRecessiveSickleCell(y))"]}
+{"id": "entailmentbank_validation_680", "nl": "homozygous recessive organisms will show the recessive trait.", "fol": "", "prediction": ["all x. (HomozygousRecessive(x) -> RecessiveTrait(x))"]}
+{"id": "entailmentbank_validation_681", "nl": "the offspring of heterozygous dominant parents will have 25% probability of having sickle cell anemia.", "fol": "", "prediction": ["all x. (Offspring(x) & HeterozygousDominantParents(x) -> ProbabilitySickleCell(x, 0.25))"]}
+{"id": "entailmentbank_validation_682", "nl": "one in four is the same as 25%.", "fol": "", "prediction": ["OneInFour = 0.25"]}
+{"id": "entailmentbank_validation_683", "nl": "one in four of the offspring of heterozygous dominant parents will have sickle cell anemia.", "fol": "", "prediction": ["all y. (Offspring(y) & HeterozygousDominantParents(y) -> ProbabilitySickleCell(y, OneInFour))"]}
+{"id": "entailmentbank_validation_684", "nl": "a plant is a kind of organism.", "fol": "", "prediction": ["all x. (Plant(x) -> Organism(x))"]}
+{"id": "entailmentbank_validation_685", "nl": "flower is a part of a plant.", "fol": "", "prediction": ["all y. (Flower(y) -> PartOf(y, Plant(x)))"]}
+{"id": "entailmentbank_validation_686", "nl": "the colors of parts of an organism are inherited characteristics.", "fol": "", "prediction": ["all z. ((PartOf(z, Organism(x))) -> InheritedCharacteristic(Color(z)))"]}
+{"id": "entailmentbank_validation_687", "nl": "the color of plants' flowers is a kind of inherited characteristic.", "fol": "", "prediction": ["all x. (FlowersColor(x) -> InheritedCharacteristic(x))"]}
+{"id": "entailmentbank_validation_688", "nl": "inheriting is when an inherited characteristic is passed down from parent to offspring by genetics / dna.", "fol": "", "prediction": ["all y. (InheritedCharacteristic(y) -> PassedByGenetics(y))"]}
+{"id": "entailmentbank_validation_689", "nl": "plants offspring can inherit the flower color from their parents.", "fol": "", "prediction": ["InheritFlowerColor(offspring)"]}
+{"id": "entailmentbank_validation_690", "nl": "yellow is a kind of color.", "fol": "", "prediction": ["Color(yellow)"]}
+{"id": "entailmentbank_validation_691", "nl": "the plant offspring has yellow flowers.", "fol": "", "prediction": ["YellowFlowers(offspring)"]}
+{"id": "entailmentbank_validation_692", "nl": "the parents of the plant are likely to have yellow flowers.", "fol": "", "prediction": ["YellowFlowers(parents)"]}
+{"id": "entailmentbank_validation_693", "nl": "a newly hatched sea turtle walks toward the ocean.", "fol": "", "prediction": ["WalksTowardOcean(newlyHatchedSeaTurtle)"]}
+{"id": "entailmentbank_validation_694", "nl": "if an animal hatches from an egg then that animal is born.", "fol": "", "prediction": ["all x. (HatchesFromEgg(x) -> Born(x))"]}
+{"id": "entailmentbank_validation_695", "nl": "a sea turtle that is just born walks toward the ocean.", "fol": "", "prediction": ["SeaTurtle(just_born) & WalksToOcean(just_born)"]}
+{"id": "entailmentbank_validation_696", "nl": "an animal knows how to do instinctive behaviors when it is born.", "fol": "", "prediction": ["all x. (BornAnimal(x) -> KnowsInstinctiveBehavior(x))"]}
+{"id": "entailmentbank_validation_697", "nl": "walking toward the ocean is sea turtles' instinct behavior.", "fol": "", "prediction": ["InstinctiveBehavior(just_born, WalksToOcean)"]}
+{"id": "entailmentbank_validation_698", "nl": "a chicken is a kind of bird.", "fol": "", "prediction": ["YoungChicken(chick)"]}
+{"id": "entailmentbank_validation_699", "nl": "a chick is a kind of young / baby chicken.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_700", "nl": "a chick is a kind of baby bird.", "fol": "", "prediction": ["KindOf(chick, baby_bird)"]}
+{"id": "entailmentbank_validation_701", "nl": "an example of an instinctive behavior is a baby bird pecking at its shell to hatch.", "fol": "", "prediction": ["exists x. (InstinctiveBehavior(x) & PeckingAtShellToHatch(baby_bird, x))"]}
+{"id": "entailmentbank_validation_702", "nl": "a chick pecking at its shell to hatch is an example of an instictive behavior.", "fol": "", "prediction": ["exists y. (InstinctiveBehavior(y) & PeckingAtShellToHatch(chick, y))"]}
+{"id": "entailmentbank_validation_703", "nl": "receiving the recessive gene for a trait from each parent causes the offspring to have that recessive trait.", "fol": "", "prediction": ["all x. ((RecessiveGene(x, Trait) & RecessiveGene(y, Trait)) -> RecessiveTraitOffspring(x, y, Trait))"]}
+{"id": "entailmentbank_validation_704", "nl": "blue eye is a recessive trait in human.", "fol": "", "prediction": ["RecessiveTrait(blue_eye, human)"]}
+{"id": "entailmentbank_validation_705", "nl": "to have blue eyes requires receiving the recessive gene from each parent.", "fol": "", "prediction": ["all z. (RecessiveTrait(blue_eye, z) -> (RecessiveGene(a, blue_eye) & RecessiveGene(b, blue_eye)))"]}
+{"id": "entailmentbank_validation_706", "nl": "an egg cell is a kind of sex cell.", "fol": "", "prediction": ["Kind(egg_cell, sex_cell)  "]}
+{"id": "entailmentbank_validation_707", "nl": "a sperm cell is a kind of sex cell.", "fol": "", "prediction": ["Kind(sperm_cell, sex_cell)  "]}
+{"id": "entailmentbank_validation_708", "nl": "a mutation in the sex cells of a parent can cause a new trait to appear in the parent's offspring.", "fol": "", "prediction": ["all x. (MutationInSexCellOfParent(x) -> CausesNewTraitInOffspring(x))  "]}
+{"id": "entailmentbank_validation_709", "nl": "a mutation in sperm or egg of a parent can cause a new trait to appear in the parent's offspring.", "fol": "", "prediction": ["MutationInSexCellOfParent(sperm) | MutationInSexCellOfParent(egg) -> CausesNewTraitInOffspring(parent)"]}
+{"id": "entailmentbank_validation_710", "nl": "smaller dogs have genetic trait of smaller size.", "fol": "", "prediction": ["all x. (SmallerDog(x) -> GeneticTraitSmallerSize(x))"]}
+{"id": "entailmentbank_validation_711", "nl": "human are breeding german shepherd dogs to other smaller dogs.", "fol": "", "prediction": ["exists y. (HumanBreeding(germanShepherd, y) & SmallerDog(y))"]}
+{"id": "entailmentbank_validation_712", "nl": "human are breeding german shepherd dogs with dogs with genetic trait of smaller size.", "fol": "", "prediction": ["BreedsWith(german_shepherd, small_size_trait_dog)"]}
+{"id": "entailmentbank_validation_713", "nl": "selective breeding is when an organism receives selective genetic traits from its parents by human design.", "fol": "", "prediction": ["all x. (ReceivesSelectiveGeneticTraits(x) -> SelectiveBreeding(x))"]}
+{"id": "entailmentbank_validation_714", "nl": "human breeding german shepherd dogs with dogs with genetic trait of smaller size is an example of selective breeding.", "fol": "", "prediction": ["SelectiveBreeding(german_shepherd)"]}
+{"id": "entailmentbank_validation_715", "nl": "sexual reproduction requires both sperm and egg.", "fol": "", "prediction": ["all x. ((SpermRequired(x) & EggRequired(x)) -> SexualReproduction(x))"]}
+{"id": "entailmentbank_validation_716", "nl": "the sperm production is prevented in male insects.", "fol": "", "prediction": ["all y. (MaleInsect(y) -> -ProducesSperm(y))"]}
+{"id": "entailmentbank_validation_717", "nl": "if something required for a process is not produced then that process is prevented from occurring.", "fol": "", "prediction": ["all z. ((RequiredForProcess(z) & -Produced(z)) -> Prevented(z))"]}
+{"id": "entailmentbank_validation_718", "nl": "the sexual reproduction process is prevented in the insects.", "fol": "", "prediction": ["Prevented(sexualReproduction, insects)"]}
+{"id": "entailmentbank_validation_719", "nl": "preventing reproduction decreases the rate of reproduction.", "fol": "", "prediction": ["PreventsReproduction(x) -> DecreasesReproductionRate(x)"]}
+{"id": "entailmentbank_validation_720", "nl": "sexual reproduction is a kind of reproduction.", "fol": "", "prediction": ["KindOf(sexualReproduction, reproduction)"]}
+{"id": "entailmentbank_validation_721", "nl": "the reproduction rate in the insects will decrease.", "fol": "", "prediction": ["-DecreaseReproductionRate(insects)"]}
+{"id": "entailmentbank_validation_722", "nl": "as the rate of reproduction decreases, the population will decrease.", "fol": "", "prediction": ["DecreaseReproductionRate(insects) -> DecreasePopulation(insects)"]}
+{"id": "entailmentbank_validation_723", "nl": "the population of the insects will decrease.", "fol": "", "prediction": ["DecreasePopulation(insects)"]}
+{"id": "entailmentbank_validation_724", "nl": "a hammer often is made of metal.", "fol": "", "prediction": ["all x. (Hammer(x) -> MadeOfMetal(x))"]}
+{"id": "entailmentbank_validation_725", "nl": "when a metal rusts, that metal becomes flaky on the surface.", "fol": "", "prediction": ["all y. (Rusts(y) -> BecomesFlakyOnSurface(y))"]}
+{"id": "entailmentbank_validation_726", "nl": "when a hammer rusts, the hammer will becom flaky on the surface.", "fol": "", "prediction": ["Rusts(hammer_kim) -> FlakyOnSurface(hammer_kim)"]}
+{"id": "entailmentbank_validation_727", "nl": "kim's hammer is flaky on the surface.", "fol": "", "prediction": ["FlakyOnSurface(hammer_kim)"]}
+{"id": "entailmentbank_validation_728", "nl": "the hammer has rusted.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_729", "nl": "rust forming is a kind of chemical change.", "fol": "", "prediction": ["Kind(rust, ChemicalChange)"]}
+{"id": "entailmentbank_validation_730", "nl": "the hammer has undergone a chemical change.", "fol": "", "prediction": ["UndergoChange(hammer, chemical_change)"]}
+{"id": "entailmentbank_validation_731", "nl": "element 3 turns to a greenish color.", "fol": "", "prediction": ["TurnsGreenish(element3)  "]}
+{"id": "entailmentbank_validation_732", "nl": "an element is a kind of substance.", "fol": "", "prediction": ["all x. (Element(x) -> Substance(x))  "]}
+{"id": "entailmentbank_validation_733", "nl": "element 3 turning green is an example of a substance turning green.", "fol": "", "prediction": ["SubstanceTurnsGreen(element3)"]}
+{"id": "entailmentbank_validation_734", "nl": "if the color of a substance changes then a chemical change may have occurred.", "fol": "", "prediction": ["all x. (ColorChanges(x) -> ChemicalChangeMayOccur(x))"]}
+{"id": "entailmentbank_validation_735", "nl": "a chemical change may occur to element 3.", "fol": "", "prediction": ["ChemicalChangeMayOccur(element3)"]}
+{"id": "entailmentbank_validation_736", "nl": "fire is a kind of chemical reaction.", "fol": "", "prediction": ["KindOf(fire, chemicalReaction)"]}
+{"id": "entailmentbank_validation_737", "nl": "fire causes burning.", "fol": "", "prediction": ["Causes(fire, burning)"]}
+{"id": "entailmentbank_validation_738", "nl": "burning something with fire is a kind of chemical reaction.", "fol": "", "prediction": ["all x. (BurnWithFire(x) -> ChemicalReaction(x))  "]}
+{"id": "entailmentbank_validation_739", "nl": "a lit candle is a source of fire.", "fol": "", "prediction": ["SourceOfFire(lit_candle)  "]}
+{"id": "entailmentbank_validation_740", "nl": "burning something with a lit candle is a kind of chemical reaction.", "fol": "", "prediction": ["all x. (BurnWithLitCandle(x) -> ChemicalReaction(x))"]}
+{"id": "entailmentbank_validation_741", "nl": "magnesium is a kind of substance.", "fol": "", "prediction": ["Substance(magnesium)"]}
+{"id": "entailmentbank_validation_742", "nl": "burning magnesium with a lit candle is a kind of chemical reaction.", "fol": "", "prediction": ["KindOf(burning_magnesium_candle, ChemicalReaction)"]}
+{"id": "entailmentbank_validation_743", "nl": "chemical reactions cause chemical change.", "fol": "", "prediction": ["all x. (ChemicalReaction(x) -> ChemicalChange(x))"]}
+{"id": "entailmentbank_validation_744", "nl": "burning magnesium with fire will lead to a chemical change.", "fol": "", "prediction": ["CausesChemicalChange(burning_magnesium_fire)"]}
+{"id": "entailmentbank_validation_745", "nl": "chemical reactions cause new materials to form.", "fol": "", "prediction": ["all x. (ChemicalReaction(x) -> CausesNewMaterials(x))"]}
+{"id": "entailmentbank_validation_746", "nl": "chemical change is a kind of chemical reaction.", "fol": "", "prediction": ["all y. (ChemicalChange(y) -> ChemicalReaction(y))"]}
+{"id": "entailmentbank_validation_747", "nl": "chemical changes cause new materials to form.", "fol": "", "prediction": ["ChemicalChange(z) -> CausesNewMaterials(z)"]}
+{"id": "entailmentbank_validation_748", "nl": "an example of a chemical property is the elements making up a compound.", "fol": "", "prediction": ["all x. (ChemicalPropertyExample(x) -> ElementsMakeUpCompound(x))"]}
+{"id": "entailmentbank_validation_749", "nl": "water is a kind of compound.", "fol": "", "prediction": ["Compound(water)"]}
+{"id": "entailmentbank_validation_750", "nl": "an example of chemical property is the elements making up water.", "fol": "", "prediction": ["ChemicalProperty(elementsWater)"]}
+{"id": "entailmentbank_validation_751", "nl": "a chemical property of water is that it is made of hydrogen and oxygen.", "fol": "", "prediction": ["ChemicalProperty(water, MadeOf(hydrogen, oxygen))"]}
+{"id": "entailmentbank_validation_752", "nl": "a compound can be chemically separated into the elements that it is made of.", "fol": "", "prediction": ["all x. (Compound(x) -> CanBeSeparatedIntoElements(x))"]}
+{"id": "entailmentbank_validation_753", "nl": "water can be separated into hydrogen and oxygen.", "fol": "", "prediction": ["CanBeSeparatedInto(water, hydrogen, oxygen)"]}
+{"id": "entailmentbank_validation_754", "nl": "carbon dioxide is a new substance produced by sodium bicarbonate.", "fol": "", "prediction": ["NewSubstance(carbon_dioxide, sodium_bicarbonate)"]}
+{"id": "entailmentbank_validation_755", "nl": "chemical reactions cause new substances to form.", "fol": "", "prediction": ["all x. (ChemicalReaction(x) -> NewSubstancesForm(x))"]}
+{"id": "entailmentbank_validation_756", "nl": "sodium bicarbonate releasing carbon dioxide is a chemical reaction.", "fol": "", "prediction": ["ChemicalReaction(ReleasesCarbonDioxide(sodium_bicarbonate))"]}
+{"id": "entailmentbank_validation_757", "nl": "an example of a chemical property is how a material reacts chemically.", "fol": "", "prediction": ["ChemicalProperty(ReactsChemically(material))"]}
+{"id": "entailmentbank_validation_758", "nl": "releasing carbon dioxide is a kind of chemical property of sodium bicarbonate.", "fol": "", "prediction": ["ChemicalProperty(ReleasesCarbonDioxide(sodium_bicarbonate))"]}
+{"id": "entailmentbank_validation_759", "nl": "a pencil is a kind of object.", "fol": "", "prediction": ["Sharpens(pencil) -> ChangesShape(pencil)"]}
+{"id": "entailmentbank_validation_760", "nl": "sharpening a pencil changes the shape of the pencil.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_761", "nl": "sharpening a pencil changes the shape of an object.", "fol": "", "prediction": ["all y. (SharpensPencil(y) -> ChangesShape(y))"]}
+{"id": "entailmentbank_validation_762", "nl": "tearing paper changes the shape of the paper.", "fol": "", "prediction": ["all x. (Tearing(x, paper) -> ChangesShape(x, paper))"]}
+{"id": "entailmentbank_validation_763", "nl": "paper is a kind of object.", "fol": "", "prediction": ["all y. (Paper(y) -> Object(y))"]}
+{"id": "entailmentbank_validation_764", "nl": "tearing paper changes the shape of an object.", "fol": "", "prediction": ["all x. (TearsPaper(x) -> ChangesShape(x))"]}
+{"id": "entailmentbank_validation_765", "nl": "sharpening a pencil and tearing paper both change the shape of the object.", "fol": "", "prediction": ["all x. ((SharpensPencil(x) & ChangesShape(x)) & (TearsPaper(x) & ChangesShape(x)))"]}
+{"id": "entailmentbank_validation_766", "nl": "shape is a property of the appearance of an object.", "fol": "", "prediction": ["all y. (ChangesShape(y) & PropertyOfAppearance(y))"]}
+{"id": "entailmentbank_validation_767", "nl": "sharpening a pencil and tearing paper both change the appearance of the object.", "fol": "", "prediction": ["all z. (ChangeAppearance(z) -> ChangePhysicalProperty(z))"]}
+{"id": "entailmentbank_validation_768", "nl": "appearance is a kind of physical property.", "fol": "", "prediction": ["SharpenPencil(a) & TearPaper(b)"]}
+{"id": "entailmentbank_validation_769", "nl": "sharpending a pencil and tearing paper both change the physical property of the object.", "fol": "", "prediction": ["ChangePhysicalProperty(TearPaper)"]}
+{"id": "entailmentbank_validation_770", "nl": "if something undergoes a physical change then the physical properties of that something will change.", "fol": "", "prediction": ["all x. (UndergoesPhysicalChange(x) -> ChangePhysicalProperty(x))"]}
+{"id": "entailmentbank_validation_771", "nl": "pencil and paper underwent a physical change.", "fol": "", "prediction": ["UndergoesPhysicalChange(pencil) & UndergoesPhysicalChange(paper)"]}
+{"id": "entailmentbank_validation_772", "nl": "heat means temperature increases.", "fol": "", "prediction": ["Heat(x) -> TemperatureIncreases(x)"]}
+{"id": "entailmentbank_validation_773", "nl": "a solid is heated.", "fol": "", "prediction": ["Heated(solid)"]}
+{"id": "entailmentbank_validation_774", "nl": "the temperature of the solid increases.", "fol": "", "prediction": ["TemperatureIncreases(solid)"]}
+{"id": "entailmentbank_validation_775", "nl": "a solid is a kind of substance.", "fol": "", "prediction": ["all x. (Solid(x) -> Substance(x))"]}
+{"id": "entailmentbank_validation_776", "nl": "the temperature of the solid substance increases.", "fol": "", "prediction": ["IncreasesTemperature(solidsubstance)"]}
+{"id": "entailmentbank_validation_777", "nl": "as the temperature of a substance increases, the molecules in that substance will move faster.", "fol": "", "prediction": ["all x. ((IncreasesTemperature(x)) -> MoleculesMoveFaster(x))"]}
+{"id": "entailmentbank_validation_778", "nl": "the molecules in the solid substance moves faster.", "fol": "", "prediction": ["MovesFaster(molecules, solid_substance)"]}
+{"id": "entailmentbank_validation_779", "nl": "faster means an increase / higher in speed.", "fol": "", "prediction": ["all x y. (MovesFaster(x, y) -> IncreasesInSpeed(x, y))"]}
+{"id": "entailmentbank_validation_780", "nl": "the molecules in the solid substance increases in speed.", "fol": "", "prediction": ["IncreasesInSpeed(molecules, solid_substance)"]}
+{"id": "entailmentbank_validation_781", "nl": "proton is a kind of subatomic particles.", "fol": "", "prediction": ["SubatomicParticle(neutron)"]}
+{"id": "entailmentbank_validation_782", "nl": "neutrons are a kind of subatomic particle.", "fol": "", "prediction": ["DeterminesAtomicMass(Sum(ProtonsNumber, NeutronsNumber))"]}
+{"id": "entailmentbank_validation_783", "nl": "atomic mass is determined by the sum of protons and neutrons numbers in an atom.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_784", "nl": "atomic mass is determined by the sum of protons and neutrons particle numbers.", "fol": "", "prediction": ["DeterminesAtomicMass(Sum(ProtonsNumber, NeutronsNumber))"]}
+{"id": "entailmentbank_validation_785", "nl": "a proton has a positive 1 electric charge.", "fol": "", "prediction": ["PositiveCharge(proton, 1)"]}
+{"id": "entailmentbank_validation_786", "nl": "a electron has a negative -1 electric charge.", "fol": "", "prediction": ["NegativeCharge(electron, -1)"]}
+{"id": "entailmentbank_validation_787", "nl": "equal numbers of protons and electrons result in a neutral 0 electric charge.", "fol": "", "prediction": ["all x. (EqualNumbersProtonsElectrons(x) -> NeutralCharge(x))"]}
+{"id": "entailmentbank_validation_788", "nl": "a neutron has a neutral electric charge.", "fol": "", "prediction": ["NeutralCharge(neutron)"]}
+{"id": "entailmentbank_validation_789", "nl": "equal numbers of protons and electrons and any number of neutrons result in a neutral 0 electric charge.", "fol": "", "prediction": ["all x. ((EqualProtonsElectrons(x) & AnyNeutrons(x)) -> NeutralCharge(x))"]}
+{"id": "entailmentbank_validation_790", "nl": "an atom is made of protons / neutrons / electrons.", "fol": "", "prediction": ["all y. (Atom(y) -> (MadeOfProtons(y) & MadeOfNeutrons(y) & MadeOfElectrons(y)))"]}
+{"id": "entailmentbank_validation_791", "nl": "if an atom has an equal number of protons and electrons, then the atom will have a neutral charge.", "fol": "", "prediction": ["NeutralCharge(that_atom)"]}
+{"id": "entailmentbank_validation_792", "nl": "an normal atom has a neutral electric charge.", "fol": "", "prediction": ["all y. ((EqualProtonsAndElectrons(y)) -> NeutralCharge(y))"]}
+{"id": "entailmentbank_validation_793", "nl": "that atom has an equal number of protons and electrons.", "fol": "", "prediction": ["EqualProtonsAndElectrons(that_atom)"]}
+{"id": "entailmentbank_validation_794", "nl": "iron in contact with water and oxygen will rust.", "fol": "", "prediction": ["all x. ((Iron(x) & InContactWith(x, water) & InContactWith(x, oxygen)) -> Rust(x))"]}
+{"id": "entailmentbank_validation_795", "nl": "iron in contact with water and oxygen causes a chemical change.", "fol": "", "prediction": ["IronContactWithWaterAndOxygen(y) -> ChemicalChange(y)"]}
+{"id": "entailmentbank_validation_796", "nl": "iron in contact with water and oxygen is an example of chemical reactions.", "fol": "", "prediction": ["ChemicalReaction(iron_contact_with_water_and_oxygen)"]}
+{"id": "entailmentbank_validation_797", "nl": "alkaline earth metals are highly chemically reactive.", "fol": "", "prediction": ["AlkalineEarthMetal(x) -> HighlyReactive(x)"]}
+{"id": "entailmentbank_validation_798", "nl": "elements from the same group in the periodic table are chemically reactive in a similar way.", "fol": "", "prediction": ["SameGroup(x, alkalineEarthMetals) -> ReactsSimilarly(x, alkalineEarthMetals)"]}
+{"id": "entailmentbank_validation_799", "nl": "elements that belong to alkaline earth metals are highly chemically reactive.", "fol": "", "prediction": ["all x. (AlkalineEarthMetal(x) -> HighlyReactive(x))"]}
+{"id": "entailmentbank_validation_800", "nl": "magnesium belongs to alkaline earth metal family, group 2 on the periodic table.", "fol": "", "prediction": ["AlkalineEarthMetal(magnesium)"]}
+{"id": "entailmentbank_validation_801", "nl": "magnesium is highly chemically reactive.", "fol": "", "prediction": ["HighlyReactive(magnesium)"]}
+{"id": "entailmentbank_validation_802", "nl": "an element cannot be decomposed into two or more different substances by simple chemical methods.", "fol": "", "prediction": ["all x. (-CanBeDecomposed(x) -> Element(x))"]}
+{"id": "entailmentbank_validation_803", "nl": "sulfur cannot be decomposed into different substances by simple chemical methods.", "fol": "", "prediction": ["-CanBeDecomposed(sulfur)"]}
+{"id": "entailmentbank_validation_804", "nl": "sulfur is a kind of element.", "fol": "", "prediction": ["Element(sulfur)"]}
+{"id": "entailmentbank_validation_805", "nl": "iron is a kind of element.", "fol": "", "prediction": ["Element(iron)  "]}
+{"id": "entailmentbank_validation_806", "nl": "the chemical symbol for iron is fe.", "fol": "", "prediction": ["ChemicalSymbolFor(fe, iron)  "]}
+{"id": "entailmentbank_validation_807", "nl": "fe is the chemical symbol for iron element.", "fol": "", "prediction": ["ChemicalSymbolFor(fe, iron) & Element(iron)"]}
+{"id": "entailmentbank_validation_808", "nl": "if a substance is made of one element, then the substance is called an element.", "fol": "", "prediction": ["all x. (MadeOfOneElement(x) -> Element(x))"]}
+{"id": "entailmentbank_validation_809", "nl": "oxygen gas is made of only oxygen element.", "fol": "", "prediction": ["MadeOfOnlyOxygenElement(oxygen_gas)"]}
+{"id": "entailmentbank_validation_810", "nl": "oxygen gas is an element.", "fol": "", "prediction": ["Element(oxygen_gas)  "]}
+{"id": "entailmentbank_validation_811", "nl": "o2 is a chemical formula for oxygen gas.", "fol": "", "prediction": ["ChemicalFormulaFor(o2, oxygen_gas)  "]}
+{"id": "entailmentbank_validation_812", "nl": "o2 is an element.", "fol": "", "prediction": ["Element(o2)  "]}
+{"id": "entailmentbank_validation_813", "nl": "the chemical symbol for tellurium is te.", "fol": "", "prediction": ["ChemicalSymbol(tellurium, te)"]}
+{"id": "entailmentbank_validation_814", "nl": "tellurium is a kind of metalloid.", "fol": "", "prediction": ["KindOfMetalloid(tellurium)"]}
+{"id": "entailmentbank_validation_815", "nl": "te is a kind of metalloid.", "fol": "", "prediction": ["KindOf(te, metalloid)  "]}
+{"id": "entailmentbank_validation_816", "nl": "antimony is a kind of metalloid.", "fol": "", "prediction": ["KindOfMetalloid(antimony)"]}
+{"id": "entailmentbank_validation_817", "nl": "the chemical symbol for antimony is sb.", "fol": "", "prediction": ["ChemicalSymbol(antimony, sb)"]}
+{"id": "entailmentbank_validation_818", "nl": "sb is a kind of metalloid.", "fol": "", "prediction": ["KindOf(sb, metalloid)  "]}
+{"id": "entailmentbank_validation_819", "nl": "sb and te are both metalloids.", "fol": "", "prediction": ["Metalloid(sb) & Metalloid(te)"]}
+{"id": "entailmentbank_validation_820", "nl": "helium / neon / argon / krypton / xenon / radon belongs to noble gases family, group 18 on the periodic table.", "fol": "", "prediction": ["all x. (BelongsTo(x, group_18) -> CompleteOuterShell(x))"]}
+{"id": "entailmentbank_validation_821", "nl": "elements in group 18 have complete outer electron shells on the periodic table of elements.", "fol": "", "prediction": ["BelongsTo(h, group_18) & BelongsTo(n, group_18) & BelongsTo(a, group_18) & BelongsTo(k, group_18) & BelongsTo(x, group_18) & BelongsTo(r, group_18)"]}
+{"id": "entailmentbank_validation_822", "nl": "helium, neon, argon, krypton, xenon, and radon have complete outer electron shells.", "fol": "", "prediction": ["CompleteOuterShell(helium) & CompleteOuterShell(neon) & CompleteOuterShell(argon) & CompleteOuterShell(krypton) & CompleteOuterShell(xenon) & CompleteOuterShell(radon)"]}
+{"id": "entailmentbank_validation_823", "nl": "if the outermost electron shell of an atom is complete, then the element of those atoms will not react with other elements easily.", "fol": "", "prediction": ["all x. (CompleteOuterShell(x) -> NotReactEasily(x))"]}
+{"id": "entailmentbank_validation_824", "nl": "helium, neon, argon, krypton, xenon, and radon will not react with other elements easily.", "fol": "", "prediction": ["NotReactEasily(helium) & NotReactEasily(neon) & NotReactEasily(argon) & NotReactEasily(krypton) & NotReactEasily(xenon) & NotReactEasily(radon)"]}
+{"id": "entailmentbank_validation_825", "nl": "water is a kind of substance.", "fol": "", "prediction": ["Boiling(x) -> ChangesFromLiquidToGas(x) & IncreasesHeatEnergy(x)  "]}
+{"id": "entailmentbank_validation_826", "nl": "boiling means matter / a substance changes from a liquid into a gas by increasing heat energy.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_827", "nl": "water boiling is when water changes from a liquid into a gas.", "fol": "", "prediction": ["all x. (Boiling(x) <-> Change(x, Liquid, Gas))"]}
+{"id": "entailmentbank_validation_828", "nl": "water is in the gas state, called water vapor / steam, for temperatures above 100 c.", "fol": "", "prediction": ["all y. ((GasState(y) & Above100C(y)) <-> Vapor(y))"]}
+{"id": "entailmentbank_validation_829", "nl": "water is in the liquid state, called liquid water, for temperatures between 0 c and 100 c.", "fol": "", "prediction": ["all z. ((LiquidState(z) & Between0and100C(z)) <-> Liquid(z))"]}
+{"id": "entailmentbank_validation_830", "nl": "water boiling is when water changes from liquid water to water vapor.", "fol": "", "prediction": ["Boiling(x) <-> Change(x, Liquid, Vapor)"]}
+{"id": "entailmentbank_validation_831", "nl": "water boiling is when water changes from a liquid into a gas by increasing heat energy.", "fol": "", "prediction": ["Boiling(water) -> ChangesFromLiquidToGas(water) & IncreasesHeatEnergy(water)"]}
+{"id": "entailmentbank_validation_832", "nl": "a puddle is a kind of body of water.", "fol": "", "prediction": ["BodyOfWater(puddle)"]}
+{"id": "entailmentbank_validation_833", "nl": "being in the sun will cause the puddle to absorb heat energy.", "fol": "", "prediction": ["InSun(puddle) -> AbsorbHeatEnergy(puddle)"]}
+{"id": "entailmentbank_validation_834", "nl": "the puddle will evaporate.", "fol": "", "prediction": ["ExampleOfEvaporation(x) <-> (BodyOfWater(x) & DriesUp(x) & AbsorbsHeatEnergy(x))  "]}
+{"id": "entailmentbank_validation_835", "nl": "an example of evaporation is a body of water drying up by absorbing heat energy.", "fol": "", "prediction": ["BodyOfWater(puddle) & DriesUp(puddle) & SunProvides(HeatEnergy, puddle)  "]}
+{"id": "entailmentbank_validation_836", "nl": "a puddle drying in the sun is an example of evaporation.", "fol": "", "prediction": ["ExampleOfEvaporation(puddle)"]}
+{"id": "entailmentbank_validation_837", "nl": "if something is in the sunlight then that something will absorb solar energy.", "fol": "", "prediction": ["all x. (InSunlight(x) -> AbsorbsSolarEnergy(x))"]}
+{"id": "entailmentbank_validation_838", "nl": "a bucket of water in in the sunlight.", "fol": "", "prediction": ["InSunlight(bucket)"]}
+{"id": "entailmentbank_validation_839", "nl": "the water in the bucket will absorb solar energy.", "fol": "", "prediction": ["AbsorbsSolarEnergy(waterInBucket)"]}
+{"id": "entailmentbank_validation_840", "nl": "if a substance absorbs solar energy then that substance will increase in temperature.", "fol": "", "prediction": ["all x. (AbsorbsSolarEnergy(x) -> IncreasesTemperature(x))"]}
+{"id": "entailmentbank_validation_841", "nl": "the water in the bucket will increase in temperature.", "fol": "", "prediction": ["IncreaseTemperature(water_in_bucket)  "]}
+{"id": "entailmentbank_validation_842", "nl": "evaporation means a substance changes from a liquid into a gas by increasing heat energy.", "fol": "", "prediction": ["Evaporation(increases_heat_energy)  "]}
+{"id": "entailmentbank_validation_843", "nl": "the water in the bucket will evaporate.", "fol": "", "prediction": ["Evaporation(water_in_bucket)  "]}
+{"id": "entailmentbank_validation_844", "nl": "gas is a kind of substance.", "fol": "", "prediction": ["Substance(gas)"]}
+{"id": "entailmentbank_validation_845", "nl": "substances are made of molecules.", "fol": "", "prediction": ["all x. (Substance(x) -> MadeOfMolecules(x))"]}
+{"id": "entailmentbank_validation_846", "nl": "a gas is made of its molecules.", "fol": "", "prediction": ["all x. (TemperatureIncreases(x) -> MoleculesMoveFaster(x))"]}
+{"id": "entailmentbank_validation_847", "nl": "a gas is heated and its temperature increases.", "fol": "", "prediction": ["MadeOf(gas, molecules)"]}
+{"id": "entailmentbank_validation_848", "nl": "as the temperature of a substance increases, the molecules in that substance will move faster / farther apart.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_849", "nl": "the molecules in the gas will move faster.", "fol": "", "prediction": ["MoleculesMoveFaster(molecules)"]}
+{"id": "entailmentbank_validation_850", "nl": "comparing a property of two objects requires knowing the property of each object.", "fol": "", "prediction": ["all x y p. ((Object(x) & Object(y) & Property(x, p) & Property(y, p)) -> ComparePropertyRequiresKnowledge(p, x, y))"]}
+{"id": "entailmentbank_validation_851", "nl": "a rock is a kind of object.", "fol": "", "prediction": ["Object(rock)"]}
+{"id": "entailmentbank_validation_852", "nl": "mass is a property of objects / matter.", "fol": "", "prediction": ["Property(rock, mass)"]}
+{"id": "entailmentbank_validation_853", "nl": "comparing the mass of two rocks requires knowing the mass of each rock.", "fol": "", "prediction": ["all x y. (CompareMass(x, y) -> (KnowMass(x) & KnowMass(y)))"]}
+{"id": "entailmentbank_validation_854", "nl": "student is trying to compare the mass of two small rocks.", "fol": "", "prediction": ["CompareMass(rock1, rock2) & StudentTries(student, rock1, rock2)"]}
+{"id": "entailmentbank_validation_855", "nl": "the student has to know the mass of each rock to compare them.", "fol": "", "prediction": ["all x. ((Student(x) & Rock(y)) -> NeedsToKnowMass(x, y))"]}
+{"id": "entailmentbank_validation_856", "nl": "a balance is used for measuring mass / weight of an object / of a substance.", "fol": "", "prediction": ["all z. (Balance(z) -> UsedForMeasuringMass(z))"]}
+{"id": "entailmentbank_validation_857", "nl": "a balance is a kind of instrument.", "fol": "", "prediction": ["all w. (Balance(w) -> Instrument(w))"]}
+{"id": "entailmentbank_validation_858", "nl": "the student can use balance to know the mass of each rock to compare them.", "fol": "", "prediction": ["Student(student) & Rock(rock) -> CanUseBalance(student, rock)"]}
+{"id": "entailmentbank_validation_859", "nl": "a balance is used for measuring mass of a substance.", "fol": "", "prediction": ["all x. (Balance(x) -> UsedForMeasuringMassOfSubstance(x))"]}
+{"id": "entailmentbank_validation_860", "nl": "sand is a kind of substance.", "fol": "", "prediction": ["Substance(sand)"]}
+{"id": "entailmentbank_validation_861", "nl": "a balance can be used for measure the mass of sand.", "fol": "", "prediction": ["CanUseFor(y, Measure(z), Balance(y, Mass(z)))"]}
+{"id": "entailmentbank_validation_862", "nl": "determining something often requires measuring that something.", "fol": "", "prediction": ["all x. (Determining(x) -> Measuring(x))"]}
+{"id": "entailmentbank_validation_863", "nl": "determining the mass of the sand requires using a balance to measure the mass of the sand.", "fol": "", "prediction": ["Determining(Mass(sand)) -> Measuring(Mass(sand), Balance(sand))"]}
+{"id": "entailmentbank_validation_864", "nl": "a balance is used for measuring the mass of an object.", "fol": "", "prediction": ["all x. (Balance(x) -> UsedFor(MeasuringMass(x)))"]}
+{"id": "entailmentbank_validation_865", "nl": "density can be calculated by measuring the mass of an object divided by the volume of that object.", "fol": "", "prediction": ["all y. (Density(y) -> (MeasuredBy(Mass(y)) & DividedBy(Volume(y))))"]}
+{"id": "entailmentbank_validation_866", "nl": "a graduated cylinder is used to measure volume of an object.", "fol": "", "prediction": ["all x. (GraduatedCylinder(x) -> UsedToMeasureVolume(x))"]}
+{"id": "entailmentbank_validation_867", "nl": "the density of an object can be measured using a graduated cylinder and a balance.", "fol": "", "prediction": ["all x. (Object(x) -> CanMeasureDensityWithCylinderAndBalance(x))"]}
+{"id": "entailmentbank_validation_868", "nl": "a marble is a kind of object.", "fol": "", "prediction": ["Object(marble)"]}
+{"id": "entailmentbank_validation_869", "nl": "the density of a marble can be measured using a graduated cylinder and a balance.", "fol": "", "prediction": ["CanMeasureDensityWithCylinderAndBalance(marble)"]}
+{"id": "entailmentbank_validation_870", "nl": "if a unit of for something is being measured, then it requires a measurement tool for measuring that something.", "fol": "", "prediction": ["all x. ((UnitOf(x) & BeingMeasured(x)) -> RequiresTool(x))"]}
+{"id": "entailmentbank_validation_871", "nl": "milliliters ml are a metric unit used for measuring volume.", "fol": "", "prediction": ["UnitOf(milliliters) & Measures(milliliters, volume)"]}
+{"id": "entailmentbank_validation_872", "nl": "measuring milliliters requires a tool for measuring volume.", "fol": "", "prediction": ["all y. (MeasuringMilliliters(y) -> ToolForMeasuringVolume(y))"]}
+{"id": "entailmentbank_validation_873", "nl": "measuring milliliters requires a graduated cylinder.", "fol": "", "prediction": ["MeasuringMilliliters(measuring_milliliters) -> GraduatedCylinder(graduated_cylinder)"]}
+{"id": "entailmentbank_validation_874", "nl": "a sample in a cylindrical container has a cylindrical shape and a fixed volume.", "fol": "", "prediction": ["all y. (Sample(y) -> KindOfMatter(y))"]}
+{"id": "entailmentbank_validation_875", "nl": "a sample is a kind of matter.", "fol": "", "prediction": ["KindOfMatter(z)"]}
+{"id": "entailmentbank_validation_876", "nl": "the matter has the same shape as the container and fixed volume.", "fol": "", "prediction": ["all x. ((SameShapeAsContainer(x) & FixedVolume(x)) -> Matter(x))"]}
+{"id": "entailmentbank_validation_877", "nl": "matter with variable shape changes shape in different container.", "fol": "", "prediction": ["all x. (Matter(x) & VariableShape(x) -> ChangesShape(x))"]}
+{"id": "entailmentbank_validation_878", "nl": "the matter may have a variable shape and a fixed volume.", "fol": "", "prediction": ["ShapeVariable(matter) & VolumeFixed(matter)  "]}
+{"id": "entailmentbank_validation_879", "nl": "the matter may have a fixed shape and a fixed volume.", "fol": "", "prediction": ["ShapeFixed(matter) & VolumeFixed(matter)  "]}
+{"id": "entailmentbank_validation_880", "nl": "the matter may have a fixed or variable shape and fixed volume.", "fol": "", "prediction": ["all x. ((FixedShape(x) | VariableShape(x)) & FixedVolume(x))"]}
+{"id": "entailmentbank_validation_881", "nl": "matter in the solid phase has definite shape.", "fol": "", "prediction": ["all x. (SolidPhase(x) -> DefiniteShape(x))"]}
+{"id": "entailmentbank_validation_882", "nl": "matter in the solid phase has definite volume.", "fol": "", "prediction": ["all x. (SolidPhase(x) -> DefiniteVolume(x))"]}
+{"id": "entailmentbank_validation_883", "nl": "matter in solid phase has definite volume and definite shape.", "fol": "", "prediction": ["all x. (SolidPhase(x) -> (DefiniteVolume(x) & DefiniteShape(x)))"]}
+{"id": "entailmentbank_validation_884", "nl": "matter in the liquid phase has variable shape.", "fol": "", "prediction": ["all x. (MatterInLiquidPhase(x) -> VariableShape(x))"]}
+{"id": "entailmentbank_validation_885", "nl": "matter in the liquid phase has definite volume.", "fol": "", "prediction": ["all y. (MatterInLiquidPhase(y) -> DefiniteVolume(y))"]}
+{"id": "entailmentbank_validation_886", "nl": "matter in the liquid phase has a variable shape and definite volume.", "fol": "", "prediction": ["all x. (LiquidPhase(x) -> (VariableShape(x) & DefiniteVolume(x)))"]}
+{"id": "entailmentbank_validation_887", "nl": "the matter may be in solid phase or in liquid phase.", "fol": "", "prediction": ["all x. ((SolidPhase(x) | LiquidPhase(x)))"]}
+{"id": "entailmentbank_validation_888", "nl": "seeing small things with bare eyes is difficult.", "fol": "", "prediction": ["all x. (Small(x) -> DifficultToSeeWithBareEyes(x))"]}
+{"id": "entailmentbank_validation_889", "nl": "an insect usually has a small size.", "fol": "", "prediction": ["all y. (Insect(y) -> Small(y))"]}
+{"id": "entailmentbank_validation_890", "nl": "seeing an insect with bare eyes is difficult.", "fol": "", "prediction": ["DifficultToSeeWithBareEyes(insect)"]}
+{"id": "entailmentbank_validation_891", "nl": "magnifying glass is used to see small things by making objects appear bigger.", "fol": "", "prediction": ["all x. (UsesMagnifyingGlass(x) -> SeeSmallThings(x) & MakesObjectsAppearBigger(x))"]}
+{"id": "entailmentbank_validation_892", "nl": "magnifying glass can be used to see an insect by making it appear bigger.", "fol": "", "prediction": ["HandLens(hand_lens)"]}
+{"id": "entailmentbank_validation_893", "nl": "a hand lens is a kind of magnifying glass.", "fol": "", "prediction": ["all y. (MagnifyingGlass(y) -> CanBeUsedToSeeInsect(y))"]}
+{"id": "entailmentbank_validation_894", "nl": "a hand lens can help seeing the insect by magnifying the insect.", "fol": "", "prediction": ["CanBeUsedToSeeInsect(hand_lens)"]}
+{"id": "entailmentbank_validation_895", "nl": "building a doghouse requires cutting materials into a fixed size.", "fol": "", "prediction": ["all y. (CuttingMaterial(y) -> UsuallyRequires(y, MeasuringLength))"]}
+{"id": "entailmentbank_validation_896", "nl": "cutting a material usually requires measuring length.", "fol": "", "prediction": ["BuildingDoghouse(cutting_material)"]}
+{"id": "entailmentbank_validation_897", "nl": "cutting a material when building a doghouse  requires measuring length.", "fol": "", "prediction": ["all x. (Cutting(x) & BuildingDoghouse(x) -> MeasuringLength(x))"]}
+{"id": "entailmentbank_validation_898", "nl": "a tape can be used to measure length.", "fol": "", "prediction": ["all y. (Tape(y) -> MeasureLength(y))"]}
+{"id": "entailmentbank_validation_899", "nl": "cutting wood when building a doghouse requires using a tape.", "fol": "", "prediction": ["Cutting(wood) & BuildingDoghouse(wood) -> UsingTape(wood)"]}
+{"id": "entailmentbank_validation_900", "nl": "food is a kind of substance.", "fol": "", "prediction": ["all x. (Food(x) -> Substance(x))"]}
+{"id": "entailmentbank_validation_901", "nl": "candy is a kind of food.", "fol": "", "prediction": ["all y. (Candy(y) -> Food(y))"]}
+{"id": "entailmentbank_validation_902", "nl": "candy is a kind of substance.", "fol": "", "prediction": ["Substance(candy)"]}
+{"id": "entailmentbank_validation_903", "nl": "a thermometer is used to measure temperature of substance.", "fol": "", "prediction": ["all x. (Thermometer(x) -> UsedToMeasureTemperatureOfSubstance(x))"]}
+{"id": "entailmentbank_validation_904", "nl": "a thermometer is used to measure the temperautre of the candy.", "fol": "", "prediction": ["UsedToMeasureTemperatureOfSubstance(candy)"]}
+{"id": "entailmentbank_validation_905", "nl": "a string is short in length.", "fol": "", "prediction": ["ShortLength(string)"]}
+{"id": "entailmentbank_validation_906", "nl": "centimeter is usually used to measure short length.", "fol": "", "prediction": ["UsedToMeasure(shortlength, centimeter)"]}
+{"id": "entailmentbank_validation_907", "nl": "centimeter is a better unit to measure the length of the string.", "fol": "", "prediction": ["BetterUnit(string, centimeter)"]}
+{"id": "entailmentbank_validation_908", "nl": "meters m are a metric / si unit used for measuring length.", "fol": "", "prediction": ["all x. (Meter(x) -> UnitForLength(x))"]}
+{"id": "entailmentbank_validation_909", "nl": "yard is an imperial unit used for measuring length.", "fol": "", "prediction": ["ImperialUnit(yard) & UnitForLength(yard)"]}
+{"id": "entailmentbank_validation_910", "nl": "yard and meter are both unit used for measuring length.", "fol": "", "prediction": ["Unit(yard) & Unit(meter) & ForMeasuringLength(yard) & ForMeasuringLength(meter)  "]}
+{"id": "entailmentbank_validation_911", "nl": "1 yard equals to 09 meter.", "fol": "", "prediction": ["Yard(yard) & Meter(meter) & Equal(yard, meter)  "]}
+{"id": "entailmentbank_validation_912", "nl": "meter is the metric unit that is the most similar to yard.", "fol": "", "prediction": ["SimilarTo(yard, meter)"]}
+{"id": "entailmentbank_validation_913", "nl": "zinc is a kind of metal.", "fol": "", "prediction": ["KindOfMetal(zinc)  "]}
+{"id": "entailmentbank_validation_914", "nl": "copper is a kind of metal.", "fol": "", "prediction": ["KindOfMetal(copper)  "]}
+{"id": "entailmentbank_validation_915", "nl": "copper and zinc are two metals.", "fol": "", "prediction": ["Metal(copper) & Metal(zinc)"]}
+{"id": "entailmentbank_validation_916", "nl": "brass is made of copper and zinc.", "fol": "", "prediction": ["MadeOf(brass, copper) & MadeOf(brass, zinc)"]}
+{"id": "entailmentbank_validation_917", "nl": "brass is made of two metals.", "fol": "", "prediction": ["MadeOfTwoMetals(brass)"]}
+{"id": "entailmentbank_validation_918", "nl": "an alloy is made of two or more metals.", "fol": "", "prediction": ["all x. ((MadeOfTwoMetals(x) | MoreThanTwoMetals(x)) -> Alloy(x))"]}
+{"id": "entailmentbank_validation_919", "nl": "brass is a kind of alloy.", "fol": "", "prediction": ["Alloy(brass)"]}
+{"id": "entailmentbank_validation_920", "nl": "a rough surface can absorb sound.", "fol": "", "prediction": ["all x. (RoughSurface(x) -> CanAbsorbSound(x))"]}
+{"id": "entailmentbank_validation_921", "nl": "a carpet can absorb sound.", "fol": "", "prediction": ["AbsorbsSound(carpet)"]}
+{"id": "entailmentbank_validation_922", "nl": "if sound is absorbed, then sound can not reflect off the surface.", "fol": "", "prediction": ["all x. (AbsorbsSound(x) -> -ReflectsSound(x))"]}
+{"id": "entailmentbank_validation_923", "nl": "sound cannot reflect off the surface of a carpet.", "fol": "", "prediction": ["-all x. (CarpetSurface(x) -> ReflectsSound(x))"]}
+{"id": "entailmentbank_validation_924", "nl": "echo is when sound reflects off a smooth surface.", "fol": "", "prediction": ["all y. (Echo(y) <-> ReflectsSound(y) & SmoothSurface(y))"]}
+{"id": "entailmentbank_validation_925", "nl": "echo will not be produced.", "fol": "", "prediction": ["-all z. (Echo(z))"]}
+{"id": "entailmentbank_validation_926", "nl": "helium is less in density than air.", "fol": "", "prediction": ["LessDensity(helium, air)"]}
+{"id": "entailmentbank_validation_927", "nl": "a balloon is a kind of container.", "fol": "", "prediction": ["KindOf(balloon, container)"]}
+{"id": "entailmentbank_validation_928", "nl": "a balloon filled with helium is an example of a container contains a substance with less density than air.", "fol": "", "prediction": ["all y. (ContainerWithLessDensitySubstance(y) -> MayMoveUpward(y))"]}
+{"id": "entailmentbank_validation_929", "nl": "if a container contains a substance with less density than air then that container may move upward.", "fol": "", "prediction": ["BalloonFilledWithHelium(balloon)"]}
+{"id": "entailmentbank_validation_930", "nl": "the balloon filled with helium may move upward if released.", "fol": "", "prediction": ["MayMoveUpward(balloon)"]}
+{"id": "entailmentbank_validation_931", "nl": "a white object reflects all visible light.", "fol": "", "prediction": ["all y. (Object(y) -> KindOfObject(y))"]}
+{"id": "entailmentbank_validation_932", "nl": "the floor is a kind of object.", "fol": "", "prediction": ["WhiteObject(door) "]}
+{"id": "entailmentbank_validation_933", "nl": "a white door will reflect all visible light.", "fol": "", "prediction": ["ReflectsAllVisibleLight(door)"]}
+{"id": "entailmentbank_validation_934", "nl": "the ice melts.", "fol": "", "prediction": ["Melts(ice)"]}
+{"id": "entailmentbank_validation_935", "nl": "melting is a kind of phase change.", "fol": "", "prediction": ["Melts(x) -> PhaseChange(x)"]}
+{"id": "entailmentbank_validation_936", "nl": "the ice undergoes a phase change.", "fol": "", "prediction": ["PhaseChange(ice)"]}
+{"id": "entailmentbank_validation_937", "nl": "phase changes do not change mass.", "fol": "", "prediction": ["all x. (PhaseChange(x) -> -MassChange(x))"]}
+{"id": "entailmentbank_validation_938", "nl": "the mass of the ice will not change.", "fol": "", "prediction": ["-MassChange(ice)"]}
+{"id": "entailmentbank_validation_939", "nl": "a bubble is made of pockets of gas trapped inside a liquid or solid.", "fol": "", "prediction": ["all x. (Bubble(x) -> (PocketsOfGas(x) & (TrappedInLiquid(x) | TrappedInSolid(x))))"]}
+{"id": "entailmentbank_validation_940", "nl": "soap bubbles are made of air trapped inside soap liquid.", "fol": "", "prediction": ["all y. (SoapBubble(y) -> (Air(y) & TrappedInLiquid(y)))"]}
+{"id": "entailmentbank_validation_941", "nl": "air is inside the soap bubbles.", "fol": "", "prediction": ["Inside(air, soap_bubble)"]}
+{"id": "entailmentbank_validation_942", "nl": "matter in the liquid phase has definite volume and variable shape.", "fol": "", "prediction": ["all y. ((Matter(y) & LiquidPhase(y)) -> (DefiniteVolume(y) & VariableShape(y)))"]}
+{"id": "entailmentbank_validation_943", "nl": "indefinite means variable.", "fol": "", "prediction": ["all x. (Indefinite(x) -> Variable(x))"]}
+{"id": "entailmentbank_validation_944", "nl": "matter in the liquid phase has definite volume and indefinite shape.", "fol": "", "prediction": ["Compound(z) & LiquidPhase(z)"]}
+{"id": "entailmentbank_validation_945", "nl": "substances are made of matter.", "fol": "", "prediction": ["all x. (Substance(x) -> MadeOfMatter(x))"]}
+{"id": "entailmentbank_validation_946", "nl": "a compound is a kind of substance.", "fol": "", "prediction": ["all y. (Compound(y) -> Substance(y))"]}
+{"id": "entailmentbank_validation_947", "nl": "a compound is made of matter.", "fol": "", "prediction": ["all y. ((Matter(y) & LiquidPhase(y)) -> (DefiniteVolume(y) & IndefiniteShape(y)))"]}
+{"id": "entailmentbank_validation_948", "nl": "a compound in the liquid phase has definite volume and indefinite shape.", "fol": "", "prediction": ["DefiniteVolume(z) & IndefiniteShape(z)"]}
+{"id": "entailmentbank_validation_949", "nl": "water is in the solid state, called ice.", "fol": "", "prediction": ["SolidIce(water, ice)"]}
+{"id": "entailmentbank_validation_950", "nl": "hail is a kind of ice.", "fol": "", "prediction": ["KindOf(hail, ice)"]}
+{"id": "entailmentbank_validation_951", "nl": "hail is water in solid ice.", "fol": "", "prediction": ["SolidIce(hail, ice)"]}
+{"id": "entailmentbank_validation_952", "nl": "an airplane is used for moving people to far away places.", "fol": "", "prediction": ["UsedForMovingPeople(airplane) & MovesFar(airplane)"]}
+{"id": "entailmentbank_validation_953", "nl": "an airplane is fast in speed.", "fol": "", "prediction": ["Fast(airplane)"]}
+{"id": "entailmentbank_validation_954", "nl": "an airplane can move people to far away places quickly.", "fol": "", "prediction": ["MovesFarQuickly(airplane)"]}
+{"id": "entailmentbank_validation_955", "nl": "a cake is a kind of baked product.", "fol": "", "prediction": ["BakedProduct(cake)"]}
+{"id": "entailmentbank_validation_956", "nl": "baking is when a human makes food by adding heat.", "fol": "", "prediction": ["all x. (Baking(x) -> (HumanMakesFood(x) & AddsHeat(x)))"]}
+{"id": "entailmentbank_validation_957", "nl": "a cake is a product made by human adding heat to it.", "fol": "", "prediction": ["HumanMakesFood(cake) & AddsHeat(cake)"]}
+{"id": "entailmentbank_validation_958", "nl": "transportation technology is a kind of system for moving people and products.", "fol": "", "prediction": ["SystemForMoving(transportationTechnology)"]}
+{"id": "entailmentbank_validation_959", "nl": "transportation technology is used for moving people / products.", "fol": "", "prediction": ["UsedForMoving(transportationTechnology)"]}
+{"id": "entailmentbank_validation_960", "nl": "transportation technology is a system that moves people and products.", "fol": "", "prediction": ["SystemThatMoves(transportationTechnology)"]}
+{"id": "entailmentbank_validation_961", "nl": "a refrigerator is used for keeping food fresh for a long period of time.", "fol": "", "prediction": ["UseForKeepingFoodFresh(refrigerator)"]}
+{"id": "entailmentbank_validation_962", "nl": "the invention of the refrigerator with self-contained unit occurred in 1923.", "fol": "", "prediction": ["InventionWithSelfContainedUnit(refrigerator)"]}
+{"id": "entailmentbank_validation_963", "nl": "refrigerator is the invention that can keep food fresh for a long period of time.", "fol": "", "prediction": ["InventionThatCanKeepFoodFresh(refrigerator)"]}
+{"id": "entailmentbank_validation_964", "nl": "radio station broadcasting is a source of radio waves.", "fol": "", "prediction": ["Source(radio_station_broadcasting, radio_waves)"]}
+{"id": "entailmentbank_validation_965", "nl": "a source of something emits that something.", "fol": "", "prediction": ["all x. all y. (Source(x, y) -> Emits(x, y))"]}
+{"id": "entailmentbank_validation_966", "nl": "radio station broadcasting emits radio waves.", "fol": "", "prediction": ["Broadcasts(radio_station) -> EmitsRadioWaves(radio_station)"]}
+{"id": "entailmentbank_validation_967", "nl": "radio transmitter emits radio waves.", "fol": "", "prediction": ["EmitsRadioWaves(radio_transmitter)"]}
+{"id": "entailmentbank_validation_968", "nl": "radio station is a radio transmitter.", "fol": "", "prediction": ["EmitsRadioWaves(radio_station) -> RadioTransmitter(radio_station)"]}
+{"id": "entailmentbank_validation_969", "nl": "pliers are a kind of hand tool.", "fol": "", "prediction": ["all y. (Pliers(y) -> MadeOfTwoLeversForGripping(y))  "]}
+{"id": "entailmentbank_validation_970", "nl": "pliers are made of two levers for gripping.", "fol": "", "prediction": ["Pliers(pliers)  "]}
+{"id": "entailmentbank_validation_971", "nl": "pliers are a tool made of two levers for gripping.", "fol": "", "prediction": ["Tool(pliers) & MadeOfTwoLevers(pliers) & Gripping(pliers)"]}
+{"id": "entailmentbank_validation_972", "nl": "gripping produces gripping force.", "fol": "", "prediction": ["all x. (Gripping(x) -> ProducesGrippingForce(x))"]}
+{"id": "entailmentbank_validation_973", "nl": "pliers are a tool that can produce gripping force.", "fol": "", "prediction": ["Tool(pliers) & ProducesGrippingForce(pliers)"]}
+{"id": "entailmentbank_validation_974", "nl": "a gripping force can be used to tighten a mechanical fastener.", "fol": "", "prediction": ["all x. (GrippingForce(x) -> CanBeUsedToTightenFastener(x))"]}
+{"id": "entailmentbank_validation_975", "nl": "pliers can be used to tighten a mechanical fastener.", "fol": "", "prediction": ["CanBeUsedToTightenFastener(pliers)"]}
+{"id": "entailmentbank_validation_976", "nl": "advances in technology sometimes cause human jobs to be replaced by more efficient machines.", "fol": "", "prediction": ["all y. (Replaces(y) -> Decreases(y))"]}
+{"id": "entailmentbank_validation_977", "nl": "replacing something decreases that something.", "fol": "", "prediction": [""]}
+{"id": "entailmentbank_validation_978", "nl": "advances in technology decrease human jobs by replacing them with efficient machines.", "fol": "", "prediction": ["all a. (AdvancesInTechnology(a) -> Decreases(a, HumanJobs) & Replaces(a, EfficientMachines))"]}
+{"id": "entailmentbank_validation_979", "nl": "having a job has a positive impact on a human.", "fol": "", "prediction": ["all x. (Job(x) & Human(x) -> PositiveImpact(x))"]}
+{"id": "entailmentbank_validation_980", "nl": "decreasing something positive has a negative impact on a thing.", "fol": "", "prediction": ["all y z. (Decreases(y, z) & PositiveImpact(z) -> NegativeImpact(y))"]}
+{"id": "entailmentbank_validation_981", "nl": "advances in technology decreasing human jobs by more efficient machines has a negative impact on human.", "fol": "", "prediction": ["NegativeImpact(AdvancesInTechnology)"]}
+{"id": "entailmentbank_validation_982", "nl": "days are a kind of unit for measuring time.", "fol": "", "prediction": ["all x. (Day(x) -> UnitForTime(x))"]}
+{"id": "entailmentbank_validation_983", "nl": "a student wants to record the data of the growth of a vine over a period of a day.", "fol": "", "prediction": ["exists y. (Student(y) & WantsRecordGrowth(y, vine, day))"]}
+{"id": "entailmentbank_validation_984", "nl": "the student wants to record the data of the growth of a vine over a period of time.", "fol": "", "prediction": ["WantsToRecordData(student, growthOfVineOverTime)"]}
+{"id": "entailmentbank_validation_985", "nl": "a line graph is used for showing change / data over time.", "fol": "", "prediction": ["all x. (UsedForShowingChangeOverTime(x) -> LineGraph(x))"]}
+{"id": "entailmentbank_validation_986", "nl": "a line graph an be used to show the data of the growth of the vine over a period of time.", "fol": "", "prediction": ["LineGraph(growthOfVineOverTime)"]}

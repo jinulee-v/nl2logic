@@ -70,7 +70,7 @@ def entailment_preserving_rate_corpus(sentences: List[Dict[str, str]], chains: L
     # create sentence dict
     sentences_dict = {}
     predictions_dict = {}
-    for s in _tqdm(sentences):
+    for s in _tqdm(sentences) if tqdm else sentences:
         sentences_dict[s["id"]] = s
         # Deduplicate and leave only the syntactically valid FOLs.
         predictions, normalized_predictions, predictions_score = normalize_predictions(s["prediction"])
