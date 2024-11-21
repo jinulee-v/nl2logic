@@ -2,13 +2,24 @@ import torch
 import os
 import random
 from torch.utils.data import DataLoader
-from dataset import MallsDataset
 from tqdm import tqdm
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 from datasets import load_dataset
-from utils import load_model_and_tokenizer, compute_accuracy
 import argparse
 import json
 
+def load_model_and_tokenizer(model_name, model_dir=None):
+    """Load the fine-tuned model and tokenizer."""
+    if model_dir:
+        # Load fine-tuned model and tokenizer from the specified directory
+        model = T5ForConditionalGeneration.from_pretrained(model_dir)
+        tokenizer = T5Tokenizer.from_pretrained(model_dir)
+    else:
+        # Load the base pre-trained model and tokenizer
+        model = T5ForConditionalGeneration.from_pretrained(model_name)
+        tokenizer = T5Tokenizer.from_pretrained(model_name)
+
+    return model, tokenizer
 
 def generate_model(model, dataloader, tokenizer, device, args):
     model.eval()
@@ -41,7 +52,7 @@ def generate_model(model, dataloader, tokenizer, device, args):
                 do_sample=args.sample, # Sampling
                 temperature=args.temperature, # Temperature for sampling
                 num_return_sequences=num_return_sequences, # Return >1 sequence for beam search and sampling
-                max_length=128 # Maximum length of the generated sequence
+                max_length=512 # Maximum length of the generated sequence
             )
 
             # Decode the predictions and labels
@@ -61,17 +72,17 @@ def generate_model(model, dataloader, tokenizer, device, args):
 
 def main():
     parser = argparse.ArgumentParser(description='Run T5 inference on a dataset.')
-    parser.add_argument('--model_dir', type=str, default='model', help='Directory where the fine-tuned model is saved.')
+    parser.add_argument('--model_dir', type=str, default='checkpoints/brio/entailmentbank/brio_model_epoch16_step404', help='Directory where the fine-tuned model is saved.')
     parser.add_argument('--dataset', type=str, choices=['entailmentbank', 'enwn', 'eqasc', 'folio', 'prontoqa', 'esnli'], help='Dataset name to evaluate on.')
-    parser.add_argument('--data_dir', type=str, default='../data', help='Directory to save outputs.')
-    parser.add_argument('--output_dir', type=str, default='../results/baseline_malls', help='Directory to save outputs.')
-    parser.add_argument('--experiment_name', type=str, default=None, help='Directory to save outputs.')
+    parser.add_argument('--data_dir', type=str, default='data', help='Directory for inputs.')
+    parser.add_argument('--output_dir', type=str, default='results/', help='Directory to save outputs.')
+    parser.add_argument('--experiment_name', type=str, default="brio_entailmentbank_round1", help='Directory to save outputs.')
 
     parser.add_argument('--split', type=str, choices=['train', 'validation', 'test'], help='Split to evaluate on.')
     parser.add_argument('--batch_size', type=int, default=16, help='Batch size for inference.')
 
     # Decoding settings: defaults to greedy decoding
-    parser.add_argument('--beam_size', type=int, default=1, help='Beam size for inference.')
+    parser.add_argument('--beam_size', type=int, default=16, help='Beam size for inference.')
     parser.add_argument('--dbs', action='store_true', help='Use Diverse Beam Search.')
     parser.add_argument('--sample', action="store_true", help='If set, use sampling instead of beam search.')
     parser.add_argument('--sample_size', type=int, default=1, help='Number of samples to return for sampling.')
@@ -100,17 +111,13 @@ def main():
     # Load the dataset to generate from: {dataset}_{split}_sentences.jsonl
     print("Loading dataset...")
     data_dir = f'{args.data_dir}/{args.dataset}_{args.split}_sentences.jsonl'
-    # eval_dataset = load_dataset('json', data_files=data_dir)["train"] # It is always train split, dunno why
-    eval_dataset = []
-    with open(data_dir, 'r') as f:
-        for line in f:
-            eval_dataset.append(json.loads(line))
+    eval_dataset = load_dataset('json', data_files=data_dir)["train"] # It is always train split, dunno why
     eval_dataloader = DataLoader(eval_dataset, batch_size=args.batch_size, shuffle=False)
 
     # Evaluate the model
     print("Starting generation...")
     predictions = generate_model(model, eval_dataloader, tokenizer, device, args)
-    print(predictions)
+    # print(predictions)
 
     with open(f'{args.output_dir}/{args.experiment_name}/{args.dataset}_{args.split}_sentences.jsonl', 'w') as f:
         for eval_datum, prediction in zip(eval_dataset, predictions):
