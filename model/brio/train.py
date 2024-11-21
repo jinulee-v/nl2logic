@@ -1,6 +1,7 @@
 import argparse
 import json
 from tqdm import tqdm
+import shutil
 
 import torch
 from torch.nn.utils.rnn import pad_sequence
@@ -119,6 +120,8 @@ def main(args):
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epoch)
 
     # Train loop
+    best_checkpoint_dir = None
+    best_checkpoint_loss = float("inf")
     for epoch in range(args.epoch):
         print(f"Epoch {epoch + 1}/{args.epoch}")
         epoch_len = min(len(ce_dataloader), len(l2r_dataloader))
@@ -159,11 +162,16 @@ def main(args):
                         valid_ce_loss += brio_model.ce_loss(text, gold)
                         text, candidates, scores = l2r
                         text, candidates, scores = text.to(device), candidates.to(device), scores.to(device)
-                        valid_l2r_loss += brio_model.l2r_loss(text, candidates, scores) * args.l2r_scale
+                        valid_l2r_loss += brio_model.l2r_loss(text, candidates, scores, margin=args.margin) * args.l2r_scale
                         valid_cnt += len(text)
                     print(f"Validation loss: {(valid_ce_loss + valid_l2r_loss) / valid_cnt}")
-                    brio_model.model.save_pretrained(f"{args.checkpoint_dir}/brio_model_epoch{epoch}_step{i}")
-                    brio_model.tokenizer.save_pretrained(f"{args.checkpoint_dir}/brio_model_epoch{epoch}_step{i}")
+                    if (best_checkpoint_dir is None) or (valid_ce_loss + valid_l2r_loss) / valid_cnt < best_checkpoint_loss:
+                        best_checkpoint_loss = (valid_ce_loss + valid_l2r_loss) / valid_cnt
+                        if best_checkpoint_dir is not None:
+                            shutil.rmtree(best_checkpoint_dir)
+                        best_checkpoint_dir = f"{args.checkpoint_dir}/brio_model_epoch{epoch}_step{i}"
+                        brio_model.model.save_pretrained(f"{args.checkpoint_dir}/brio_model_epoch{epoch}_step{i}")
+                        brio_model.tokenizer.save_pretrained(f"{args.checkpoint_dir}/brio_model_epoch{epoch}_step{i}")
                     
                     # clear cache
                     torch.cuda.empty_cache()
@@ -179,6 +187,7 @@ if __name__ == "__main__":
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints/brio")
     
     parser.add_argument("--l2r_scale", type=float, default=10.0)
+    parser.add_argument("--margin", type=float, default=0.01)
     
     parser.add_argument("--grad_clip", type=float, default=5.0)
     parser.add_argument("--batch_size_per_device", type=float, default=4)
