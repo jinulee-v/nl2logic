@@ -41,7 +41,7 @@ def generate_model(model, dataloader, tokenizer, device, args):
                 do_sample=args.sample, # Sampling
                 temperature=args.temperature, # Temperature for sampling
                 num_return_sequences=num_return_sequences, # Return >1 sequence for beam search and sampling
-                max_length=512 # Maximum length of the generated sequence
+                max_length=128 # Maximum length of the generated sequence
             )
 
             # Decode the predictions and labels
@@ -62,9 +62,9 @@ def generate_model(model, dataloader, tokenizer, device, args):
 def main():
     parser = argparse.ArgumentParser(description='Run T5 inference on a dataset.')
     parser.add_argument('--model_dir', type=str, default='model', help='Directory where the fine-tuned model is saved.')
-    parser.add_argument('--dataset', type=str, choices=['entailmentbank', 'enwn', 'eqasc', 'folio', 'prontoqa'], help='Dataset name to evaluate on.')
+    parser.add_argument('--dataset', type=str, choices=['entailmentbank', 'enwn', 'eqasc', 'folio', 'prontoqa', 'esnli'], help='Dataset name to evaluate on.')
     parser.add_argument('--data_dir', type=str, default='../data', help='Directory to save outputs.')
-    parser.add_argument('--output_dir', type=str, default='../results/baseline', help='Directory to save outputs.')
+    parser.add_argument('--output_dir', type=str, default='../results/baseline_malls', help='Directory to save outputs.')
     parser.add_argument('--experiment_name', type=str, default=None, help='Directory to save outputs.')
 
     parser.add_argument('--split', type=str, choices=['train', 'validation', 'test'], help='Split to evaluate on.')
@@ -100,7 +100,11 @@ def main():
     # Load the dataset to generate from: {dataset}_{split}_sentences.jsonl
     print("Loading dataset...")
     data_dir = f'{args.data_dir}/{args.dataset}_{args.split}_sentences.jsonl'
-    eval_dataset = load_dataset('json', data_files=data_dir)["train"] # It is always train split, dunno why
+    # eval_dataset = load_dataset('json', data_files=data_dir)["train"] # It is always train split, dunno why
+    eval_dataset = []
+    with open(data_dir, 'r') as f:
+        for line in f:
+            eval_dataset.append(json.loads(line))
     eval_dataloader = DataLoader(eval_dataset, batch_size=args.batch_size, shuffle=False)
 
     # Evaluate the model

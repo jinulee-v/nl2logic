@@ -130,7 +130,8 @@ def main():
         epochs=args.epochs,
         batch_size=args.batch_size,
         lr=args.lr,
-        max_length=args.max_length
+        max_length=args.max_length,
+        save_dir=args.save_dir
     )
 
 
