@@ -33,6 +33,7 @@ def predicates(expression) -> Set[str]:
         if hasattr(expression, 'term'):
             return predicates(expression.term)
         else:
+            return set()
             raise ValueError(f"Invalid expression type: {type(expression)}")
 
 def normalize_predictions(predictions: List[str]) -> Tuple[List[Expression], List[int]]:
@@ -43,13 +44,12 @@ def normalize_predictions(predictions: List[str]) -> Tuple[List[Expression], Lis
     normalized_predictions = []
     score = []
     for fol in predictions:
-        # Remove accents from the FOL
-        fol = unicodedata.normalize('NFKD', fol).encode('ascii', 'ignore').decode('ascii')
-
         # Syntax check
         try:
+            # Remove accents from the FOL
+            fol = unicodedata.normalize('NFKD', fol).encode('ascii', 'ignore').decode('ascii')
             fol_expr = read_expr(fol) # Syntax check in NLTK side
-        except LogicalExpressionException as e:
+        except (LogicalExpressionException, TypeError):
             # Syntax error
             normalized_predictions.append(None)
             score.append(-1) # invalid
