@@ -12,7 +12,7 @@ def main(args):
         for line in f:
             sentences.append(json.loads(line))
             # DEBUG
-            sentences[-1]["prediction"] = sentences[-1]["prediction"]
+            sentences[-1]["prediction"] = [sentences[-1]["prediction"][0]]
     with open(args.chain_data, "r") as f:
         for line in f:
             chains.append(json.loads(line))
@@ -41,12 +41,7 @@ def main(args):
     print("Connected prediction ratio:", cnt / tot)
 
     # Store the results
-    with open(args.data_prefix + "_entailment_preserving_rate_eval.jsonl", "w") as f:
-        for p in predictions:
-            for q in p:
-                del q["normalized_prediction"]
-                f.write(json.dumps(q, ensure_ascii=False) + "\n")
-    with open(args.data_prefix + "_entailment_preserving_rate_eval_meta.json", "w") as f:
+    with open(args.data_prefix + "_entailment_preserving_rate_eval_top1.json", "w") as f:
         json.dump({
             "f1": f1,
             "confusion_matrix": confusion_matrix,
