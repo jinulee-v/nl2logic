@@ -41,12 +41,12 @@ def main(args):
     print("Connected prediction ratio:", cnt / tot)
 
     # Store the results
-    with open(args.data_prefix + "_entailment_preserving_rate_eval.jsonl", "w") as f:
+    with open(args.output_prefix + "_entailment_preserving_rate_eval.jsonl", "w") as f:
         for p in predictions:
             for q in p:
                 del q["normalized_prediction"]
                 f.write(json.dumps(q, ensure_ascii=False) + "\n")
-    with open(args.data_prefix + "_entailment_preserving_rate_eval_meta.json", "w") as f:
+    with open(args.output_prefix + "_entailment_preserving_rate_eval_meta.json", "w") as f:
         json.dump({
             "f1": f1,
             "confusion_matrix": confusion_matrix,
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument("--data_prefix", type=str, help="Prefix of the run files. If provided, sentence_data and chain_data are ignored.")
     parser.add_argument("--sentence_data", type=str, default=None, help="Path to the run sentences file.")
     parser.add_argument("--chain_data", type=str, default=None, help="Path to the run chains file.")
-    parser.add_argument("--output_file", type=str, default=None, help="Path to the output file. Defaults to sentence_data, but suffix `_sentence` changed to `_entailment_preserving_rate_eval`")
+    parser.add_argument("--output_prefix", type=str, default=None, help="Path to the output file. Defaults to sentence_data with suffix `_sentences.jsonl` removed")
     parser.add_argument("--output_graph", action="store_true", help="If true, output graph file.")
 
     args = parser.parse_args()
@@ -75,8 +75,8 @@ if __name__ == "__main__":
     else:
         args.sentence_data = f"{args.data_prefix}_sentences.jsonl"
         args.chain_data = f"{args.data_prefix}_chains.jsonl"
-    if args.output_file is None:
-        args.output_file = args.sentence_data.replace("_sentences.jsonl", "_entailment_preserving_rate_eval.jsonl")
+    if args.output_prefix is None:
+        args.output_prefix = args.sentence_data.replace("_sentences.jsonl", "")
 
     main(args)
         
